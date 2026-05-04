@@ -2,6 +2,7 @@
 /System Volume Information/
 *.log
 *.tmp
+*.jsonl
 
 roms/*/*
 roms/*/*.*
