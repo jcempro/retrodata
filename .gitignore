@@ -7,6 +7,7 @@
 roms/*/*
 roms/*/*.*
 !roms/*/gamelist.xml
+!roms/**/gamelist.xml
 !roms/*/.gitkeep
 
 # === Cache e Compilados ===__pycache__
