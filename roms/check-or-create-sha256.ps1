@@ -8,6 +8,7 @@ COMPATIBILIDADE: PowerShell 5.1 | 7.4+
 RESUMO EXECUTIVO:
 Este documento especifica o comportamento do sistema de gerenciamento
 de arquivos de integridade (.sha256) para ROMs, garantindo:
+- Nome do .sha256 deve ser sensitive casase ao arquivo original (com extensão .sha256)
 - Verificação e regeneração de hashes SHA256
 - Limpeza de arquivos .sha256 órfãos ou inválidos
 - Validação estrutural de diretórios via JSON tree
@@ -97,6 +98,7 @@ DIRETRIZES OBRIGATÓRIAS:
 
    Formato esperado (ASCII) (exceto para JSON tree, que guarda apenas o hash puro ASCII):
    "HASH64  filename.ext"
+   * filename.ext é o nome do arquivo original, sem caminho, e deve ser case-sensitive
 
    Regras de validação:
    - Primeira linha define o formato

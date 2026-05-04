@@ -399,7 +399,17 @@ function Invoke-GamelistProcessing {
 
     if (-not $game.path) { continue }
 
-    $relativePath = $game.path.'#text'
+    # PROTECAO: suporta XmlNode e string simples
+    if ($game.path -is [string]) {
+      $relativePath = $game.path
+    }
+    elseif ($game.path.'#text') {
+      $relativePath = $game.path.'#text'
+    }
+    else {
+      continue # PROTECAO: estrutura inesperada
+    }
+
     $fullPath = Join-Path $baseDir $relativePath
 
     if (-not (Test-Path $fullPath)) {
@@ -411,7 +421,12 @@ function Invoke-GamelistProcessing {
     # pipeline correto
     $newName = Format-FileName $fileName
     $newName = Remove-InvalidFileNameChars $newName
-    $newName = Set-IdOnName -name $newName -id $game.id
+
+    # FIX-BUG: acesso seguro ao <id> (pode não existir)
+    $gameIdNode = $game.SelectSingleNode("id")
+    $gameId = if ($null -ne $gameIdNode) { $gameIdNode.InnerText } else { $null }
+
+    $newName = Set-IdOnName -name $newName -id $gameId
     $newName = Remove-InvalidFileNameChars $newName
 
     $originalDir = [System.IO.Path]::GetDirectoryName($fullPath)
@@ -435,24 +450,57 @@ function Invoke-GamelistProcessing {
 
     # path relativo preservando subpastas
     try {
-      $relative = "./" + [System.IO.Path]::GetRelativePath($baseDir, $newFullPath).Replace('\', '/')
+      if ([System.IO.Path].GetMethod("GetRelativePath")) {
+        $relative = "./" + [System.IO.Path]::GetRelativePath($baseDir, $newFullPath).Replace('\', '/')
+      }
+      else {
+        # FIX-BUG: compatibilidade PowerShell 5.1
+        $uriBase = New-Object System.Uri(($baseDir.TrimEnd('\') + '\'))
+        $uriFull = New-Object System.Uri($newFullPath)
+        $relative = "./" + $uriBase.MakeRelativeUri($uriFull).ToString().Replace('/', '/')
+      }
     }
     catch {
       Write-Host "[ERRO][GetRelativePath] fallback aplicado :: $($_.Exception.Message)" # FIX-BUG: evita falha silenciosa
       $relative = "./" + (Split-Path $newFullPath -Leaf) # PROTECAO
     }
-    $game.path.'#text' = $relative
+    # PROTECAO: mantém formato original do XML
+    if ($game.path -is [string]) {
+      $game.path = $relative
+    }
+    elseif ($null -ne $game.path.'#text') {
+      $game.path.'#text' = $relative
+    }
+    else {
+      $game.path = $relative # fallback seguro
+    }
 
-    # coleta para tradução (fora do loop principal)
-    if ($game.desc -and -not (Test-Portuguese $game.desc)) {
-      $map += $game
-      $toTranslate += $game.desc
+    # coleta para tradução (fora do loop principal)    
+
+    # FIX-BUG: acesso seguro ao <desc> (pode não existir)
+    $descNode = $game.SelectSingleNode("desc")
+    $descValue = if ($null -ne $descNode) { $descNode.InnerText } else { $null }
+
+    if ($descValue -and -not (Test-Portuguese $descValue)) {
+      $map += $descNode # FIX-BUG: armazena nó diretamente
+      $toTranslate += $descValue
     }
 
     # força lang
-    $detectedLang = Get-LangTag $newName
+    $detectedLang = Get-LangTag $newName # FIX-BUG: remoção de duplicação redundante
     if ($detectedLang -eq 'pt-br') {
-      $game.lang = 'pt-br'
+
+      $langNode = $game.SelectSingleNode("lang") # FIX-BUG: acesso seguro compatível com StrictMode
+
+      if ($null -ne $langNode) {
+        $langNode.InnerText = 'pt-br'
+      }
+      else {
+        # PROTECAO: cria nó <lang> quando ausente
+        $newLang = $xml.CreateElement("lang")
+        $newLang.InnerText = "pt-br"
+        [void]$game.AppendChild($newLang)
+      }
     }
   }
 
@@ -461,12 +509,16 @@ function Invoke-GamelistProcessing {
     $translated = Invoke-TextTranslation $toTranslate
 
     for ($i = 0; $i -lt $map.Count; $i++) {
-      if ($i -lt $translated.Count) {
-        $map[$i].desc = $translated[$i]
+      $node = $map[$i]
+
+      if ($i -lt $translated.Count -and $null -ne $node) {
+        $node.InnerText = $translated[$i] # FIX-BUG: escrita segura no nó <desc>
       }
       else {
-        # PROTECAO: fallback mantém original
-        $map[$i].desc = $map[$i].desc
+        # PROTECAO: mantém valor original quando tradução falha
+        if ($null -ne $node) {
+          $node.InnerText = $node.InnerText
+        }
       }
     }
   }
