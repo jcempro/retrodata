@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gameList>
+  <provider>
+    <system>atari2600</system>
+    <software>ARRM</software>
+    <web>http://jujuvincebros.fr/wiki/arrm/doku.php</web>
+  </provider>
+  <game id="13992">
+    <path>./Adventure (USA).zip</path>
+    <name>Adventure</name>
+    <desc>A graphical adventure where you use your joystick to wander around, collecting keys to explore castles, mazes and everything else, while killing anything that moves (i.e. dragons and such) to get treasure.
+The game has 3 difficulty settings:
+1. Level 1 (easiest)
+2. Level 2: The kingdom is larger than level 1, containing secret rooms and hidden items to add difficulty.
+3. Level 3 (hardest): Similar to level 2, but all objects/items are placed randomly throughout the kingdom.
+Gameplay revolves around picking up (and dropping) items, hacking your way through, finding keys to open the castle gates, and using magic (i.e. rebirth) in case you are swallowed.</desc>
+    <rating>0.60</rating>
+    <releasedate>19780101T000000</releasedate>
+    <developer>Atari</developer>
+    <publisher>Atari</publisher>
+    <genre>Aventura</genre>
+    <genreid>512</genreid>
+    <players>1</players>
+    <region>us</region>
+    <image>./media/image/Adventure (USA)-image.png</image>
+    <video>./media/videos/Adventure (USA)-video.mp4</video>
+    <boxart>./media/image/Adventure (USA)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Adventure (USA)-screenshot.png</screenshot>
+    <cartridge>./media/image/Adventure (USA)-cartridge.png</cartridge>
+    <fanart>./media/fanart/Adventure (USA)-fanart.jpg</fanart>
+    <titleshot>./media/image/Adventure (USA)-titleshot.png</titleshot>
+    <manual>./media/manuals/Adventure (USA)_(eu).pdf</manual>
+    <boxback>./media/image/Adventure (USA)-boxback.png</boxback>
+    <extra1>./media/extras/Adventure (USA)-extra1.png</extra1>
+    <bezel>./media/bezels/Adventure (USA)-bezel.png</bezel>
+  </game>
+  <game id="37728">
+    <path>./Enduro (USA).zip</path>
+    <name>Enduro</name>
+    <desc>Official event: The National Enduro.
+Race start: At sunrise.
+Race Description: An incredibly difficult endurance circuit. From dawn to night, from the scorching sands of the Baja Desert to the ice-covered plains of Montana, the hairpin bends of Tennessee, to the zero-fog visibility of New England. And turn around. There is no finish line.
+Driver profile: You ignore fear, never sleep. Your only goal in life is to beat your latest record, gain that extra engine speed, go further. Use expressways as much as possible. Leave your competition in your rearview mirror. You are your own idol.
+Car requirements: Tough as a tank, fast as a jet. So sensitive that she knows where to go before you even decide. Perfection of the injection circuit at low or high speed.
+The race is ready. And are you?</desc>
+    <rating>0.60</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Activision</developer>
+    <publisher>Activision</publisher>
+    <genre>Corrida, Pilotagem</genre>
+    <genreid>1537</genreid>
+    <players>1</players>
+    <region>us</region>
+    <image>./media/image/Enduro (USA)-image.png</image>
+    <video>./media/videos/Enduro (USA)-video.mp4</video>
+    <boxart>./media/image/Enduro (USA)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Enduro (USA)-screenshot.png</screenshot>
+    <cartridge>./media/image/Enduro (USA)-cartridge.png</cartridge>
+    <fanart>./media/fanart/Enduro (USA)-fanart.jpg</fanart>
+    <titleshot>./media/image/Enduro (USA)-titleshot.png</titleshot>
+    <manual>./media/manuals/Enduro (USA)_(eu).pdf</manual>
+    <boxback>./media/image/Enduro (USA)-boxback.png</boxback>
+    <extra1>./media/extras/Enduro (USA)-extra1.png</extra1>
+    <bezel>./media/bezels/Enduro (USA)-bezel.png</bezel>
+  </game>
+  <game id="14047">
+    <path>./Frostbite (USA).zip</path>
+    <name>Frostbite</name>
+    <desc>You are an Eskimo who wants to build an igloo to live in during the cold season. To do this, you must jump from ice block to ice block, avoiding wild animals such as birds and crabs. Coming into contact with any of them will cause them to push you off the block and into the deadly water. After building your igloo, you must enter it to proceed to the next level. Remember, you must build it before the temperature drops to 0°. You have four lives.</desc>
+    <rating>0.60</rating>
+    <releasedate>19830814T000000</releasedate>
+    <developer>Activision</developer>
+    <publisher>Activision</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <region>us</region>
+    <image>./media/image/Frostbite (USA)-image.png</image>
+    <video>./media/videos/Frostbite (USA)-video.mp4</video>
+    <boxart>./media/image/Frostbite (USA)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Frostbite (USA)-screenshot.png</screenshot>
+    <cartridge>./media/image/Frostbite (USA)-cartridge.png</cartridge>
+    <fanart>./media/fanart/Frostbite (USA)-fanart.jpg</fanart>
+    <titleshot>./media/image/Frostbite (USA)-titleshot.png</titleshot>
+    <manual>./media/manuals/Frostbite (USA)_(eu).pdf</manual>
+    <boxback>./media/image/Frostbite (USA)-boxback.png</boxback>
+    <extra1>./media/extras/Frostbite (USA)-extra1.png</extra1>
+    <bezel>./media/bezels/Frostbite (USA)-bezel.png</bezel>
+  </game>
+  <game id="37772">
+    <path>./Keystone Kapers (USA).zip</path>
+    <name>Keystone Kapers</name>
+    <desc>"FLASH SPECIAL! Harry Hooligan, a notorious conman, thief and not-so-nice person, has escaped! He was spotted near the Southwick Emporium. Right now, Hooligan is thwarting all attempts. To put an end to his actions."nn“At the scene is Keystone Kelly, the pride of our Police.
+Officer Kelly, what's the situation? "nn"Oh, it's a shame! Incredible feats! Vile and unspeakable acts! This bandit has everything at his fingertips! Grocery carts, miniature biplanes, beach balls – even old radios. Central. We'll take care of that thick brute! "nn"Will this bad guy in the two-tone outfit continue to be a real problem for Keystone, or will YOU help the Greatest Detective catch that scoundrel?nnGrab your bats and joysticks! Recess is almost over, Hooligan! "</desc>
+    <rating>0.80</rating>
+    <releasedate>19830401T000000</releasedate>
+    <developer>Activision</developer>
+    <publisher>Activision</publisher>
+    <genreid>0</genreid>
+    <players>1</players>
+    <region>us</region>
+    <image>./media/image/Keystone Kapers (USA)-image.png</image>
+    <video>./media/videos/Keystone Kapers (USA)-video.mp4</video>
+    <boxart>./media/image/Keystone Kapers (USA)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Keystone Kapers (USA)-screenshot.png</screenshot>
+    <titleshot>./media/image/Keystone Kapers (USA)-titleshot.png</titleshot>
+    <manual>./media/manuals/Keystone Kapers (USA)_(eu).pdf</manual>
+    <boxback>./media/image/Keystone Kapers (USA)-boxback.png</boxback>
+    <extra1>./media/extras/Keystone Kapers (USA)-extra1.png</extra1>
+    <bezel>./media/bezels/Keystone Kapers (USA)-bezel.png</bezel>
+  </game>
+  <game id="14025">
+    <path>./Montezumas Revenge - Featuring Panama Joe (USA).zip</path>
+    <name>Montezuma's Revenge</name>
+    <mode>Jogador individual</mode>
+    <desc>You play as a treasure hunter named Panama Joe, whose goal is to find an ancient treasure hidden by the Aztec warrior deep in the catacombs. But be careful, the catacombs are a large labyrinth inhabited by monsters. Jumping and rolling skulls, dancing spiders, disappearing and reappearing chains, and tons of fire await you. You will have to find many keys and unlock doors to reach your goal. Panama Joe can jump and climb stairs, but doesn't have much to offer in terms of combat. This is why monsters in the game must be avoided: a collision with an enemy leads to premature death.</desc>
+    <rating>0.80</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>James Wickstead Design Associates</developer>
+    <publisher>Parker Brothers</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <image>./media/image/Montezumas Revenge - Featuring Panama Joe (USA)-image.png</image>
+    <video>./media/videos/Montezumas Revenge - Featuring Panama Joe (USA)-video.mp4</video>
+    <marquee>./media/image/Montezumas Revenge - Featuring Panama Joe (USA)-marquee.png</marquee>
+    <wheel>./media/wheel/Montezumas Revenge - Featuring Panama Joe (USA)-wheel.png</wheel>
+    <boxart>./media/image/Montezumas Revenge - Featuring Panama Joe (USA)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Montezumas Revenge - Featuring Panama Joe (USA)-screenshot.png</screenshot>
+    <cartridge>./media/image/Montezumas Revenge - Featuring Panama Joe (USA)-cartridge.png</cartridge>
+    <fanart>./media/fanart/Montezumas Revenge - Featuring Panama Joe (USA)-fanart.jpg</fanart>
+    <titleshot>./media/image/Montezumas Revenge - Featuring Panama Joe (USA)-titleshot.png</titleshot>
+    <manual>./media/manuals/Montezumas Revenge - Featuring Panama Joe (USA)_(us).pdf</manual>
+    <boxback>./media/image/Montezumas Revenge - Featuring Panama Joe (USA)-boxback.png</boxback>
+    <extra1>./media/extras/Montezumas Revenge - Featuring Panama Joe (USA)-extra1.png</extra1>
+    <bezel>./media/bezels/Montezumas Revenge - Featuring Panama Joe (USA)-bezel.png</bezel>
+  </game>
+  <game id="14005">
+    <path>./Pitfall II - Lost Caverns (USA).zip</path>
+    <name>Pitfall II : Lost Caverns</name>
+    <desc>"Hello! Here I am again, Pitfall Harry, in search of fabulous treasures. Hold your breath, many dangers await us in the last caves of Machu Picchu."
+The player takes on the role of Harry Pitfall, an explorer searching for treasure in the Andes who must avoid snakes, poisonous frogs and all sorts of other enemies.</desc>
+    <rating>0.80</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>Activision</developer>
+    <publisher>Activision</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <region>us</region>
+    <image>./media/image/Pitfall II - Lost Caverns (USA)-image.png</image>
+    <video>./media/videos/Pitfall II - Lost Caverns (USA)-video.mp4</video>
+    <boxart>./media/image/Pitfall II - Lost Caverns (USA)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Pitfall II - Lost Caverns (USA)-screenshot.png</screenshot>
+    <cartridge>./media/image/Pitfall II - Lost Caverns (USA)-cartridge.png</cartridge>
+    <fanart>./media/fanart/Pitfall II - Lost Caverns (USA)-fanart.jpg</fanart>
+    <titleshot>./media/image/Pitfall II - Lost Caverns (USA)-titleshot.png</titleshot>
+    <manual>./media/manuals/Pitfall II - Lost Caverns (USA)_(us).pdf</manual>
+    <boxback>./media/image/Pitfall II - Lost Caverns (USA)-boxback.png</boxback>
+    <extra1>./media/extras/Pitfall II - Lost Caverns (USA)-extra1.png</extra1>
+    <bezel>./media/bezels/Pitfall II - Lost Caverns (USA)-bezel.png</bezel>
+  </game>
+  <game id="87848">
+    <path>./River Raid (USA).zip</path>
+    <name>River Raid</name>
+    <desc>River Raid is a vertical scrolling action game. You fly a jet plane over a river in an attempt to destroy bridges that are vital to the enemy. The river is heavily protected, however, with hot air balloons, ships, helicopters, and enemy planes trying to stop it. Along the way, you will have to fly over gas stations to refuel your plane and continue flying.The plane is armed with a cannon with unlimited ammunition. It can be used to destroy bridges and enemy vehicles, but a reckless player may accidentally destroy a gas station. A collision with the river banks or the enemy plane destroys your plane and causes you to lose a life.</desc>
+    <rating>0.80</rating>
+    <releasedate>19820101T000000</releasedate>
+    <developer>Activision</developer>
+    <publisher>Activision</publisher>
+    <genre>Shoot'em Up / Vertical, Shoot'em Up</genre>
+    <genreid>260</genreid>
+    <players>1-2</players>
+    <region>us</region>
+    <image>./media/image/River Raid (USA)-image.png</image>
+    <video>./media/videos/River Raid (USA)-video.mp4</video>
+    <boxart>./media/image/River Raid (USA)-boxart.png</boxart>
+    <screenshot>./media/screenshots/River Raid (USA)-screenshot.png</screenshot>
+    <cartridge>./media/image/River Raid (USA)-cartridge.png</cartridge>
+    <fanart>./media/fanart/River Raid (USA)-fanart.jpg</fanart>
+    <titleshot>./media/image/River Raid (USA)-titleshot.png</titleshot>
+    <manual>./media/manuals/River Raid (USA)_(us).pdf</manual>
+    <boxback>./media/image/River Raid (USA)-boxback.png</boxback>
+    <extra1>./media/extras/River Raid (USA)-extra1.png</extra1>
+    <bezel>./media/bezels/River Raid (USA)-bezel.png</bezel>
+  </game>
+  <game id="37835">
+    <path>./Seaquest (USA).zip</path>
+    <name>Seaquest</name>
+    <desc>Your divers are in the ocean collecting treasures. Now that they've found what they're looking for, you must pilot a submarine and bring them back to the surface safely!</desc>
+    <rating>0.80</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Activision</developer>
+    <publisher>Activision</publisher>
+    <genre>Shoot'em Up</genre>
+    <genreid>260</genreid>
+    <players>1-2</players>
+    <region>us</region>
+    <image>./media/image/Seaquest (USA)-image.png</image>
+    <video>./media/videos/Seaquest (USA)-video.mp4</video>
+    <boxart>./media/image/Seaquest (USA)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Seaquest (USA)-screenshot.png</screenshot>
+    <cartridge>./media/image/Seaquest (USA)-cartridge.png</cartridge>
+    <fanart>./media/fanart/Seaquest (USA)-fanart.jpg</fanart>
+    <titleshot>./media/image/Seaquest (USA)-titleshot.png</titleshot>
+    <manual>./media/manuals/Seaquest (USA)_(eu).pdf</manual>
+    <boxback>./media/image/Seaquest (USA)-boxback.png</boxback>
+    <extra1>./media/extras/Seaquest (USA)-extra1.png</extra1>
+    <bezel>./media/bezels/Seaquest (USA)-bezel.png</bezel>
+  </game>
+  <game id="14008">
+    <path>./Activision Decathlon The (USA).zip</path>
+    <name>The Activision Decathlon</name>
+    <mode>Jogador individual</mode>
+    <desc>Activision Decathlon is a series of Olympic games similar to the Epyx series of games. Up to four players can compete in the ten different events of a real-life decathlon, either in a row or individually. These include the 100-meter dash, long jump, shot put, high jump, 400-meter run, 110-meter hurdles, discus throw, pole vault, javelin throw and 1500-meter run.</desc>
+    <rating>0.80</rating>
+    <releasedate>19830101T000000</releasedate>
+    <developer>Activision</developer>
+    <publisher>Activision</publisher>
+    <genre>Esporte / Poliesportivo, Esporte</genre>
+    <genreid>1536</genreid>
+    <players>1-4</players>
+    <region>us</region>
+    <image>./media/image/Activision Decathlon The (USA)-image.png</image>
+    <video>./media/videos/Activision Decathlon The (USA)-video.mp4</video>
+    <marquee>./media/image/Activision Decathlon The (USA)-marquee.png</marquee>
+    <wheel>./media/wheel/Activision Decathlon The (USA)-wheel.png</wheel>
+    <boxart>./media/image/Activision Decathlon The (USA)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Activision Decathlon The (USA)-screenshot.png</screenshot>
+    <cartridge>./media/image/Activision Decathlon The (USA)-cartridge.png</cartridge>
+    <fanart>./media/fanart/Activision Decathlon The (USA)-fanart.jpg</fanart>
+    <titleshot>./media/image/Activision Decathlon The (USA)-titleshot.png</titleshot>
+    <manual>./media/manuals/Activision Decathlon The (USA)_(us).pdf</manual>
+    <boxback>./media/image/Activision Decathlon The (USA)-boxback.png</boxback>
+    <extra1>./media/extras/Activision Decathlon The (USA)-extra1.png</extra1>
+    <bezel>./media/bezels/Activision Decathlon The (USA)-bezel.png</bezel>
+  </game>
+</gameList>

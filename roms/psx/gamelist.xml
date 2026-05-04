@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gameList>
+  <provider>
+    <system>psx</system>
+    <software>ARRM</software>
+    <web>http://jujuvincebros.fr/wiki/arrm/doku.php</web>
+    <scraped_by>your_name</scraped_by>
+    <information>This pack was done by your_name - Enjoy it</information>
+    <version>Updated on 05-03-2026  23:32</version>
+  </provider>
+  <game id="19329">
+    <path>./Alone in the Dark - The New Nightmare (BR).PBP</path>
+    <name>Alone in the Dark : The New Nightmare (BR)</name>
+    <desc>O novo pesadelo no Playstation é a quarta edição da série Alone In The Dark. Você interpreta Edward Carnby, mestre do estudo paranormal, investigando a misteriosa morte de seu melhor amigo. Você está conduzindo sua investigação na Ilha das Sombras, uma ilha que não é famosa por sua atmosfera encantadora. Também é possível experimentar a aventura através dos olhos da personagem feminina principal.</desc>
+    <rating>0.85</rating>
+    <releasedate>20010618T000000</releasedate>
+    <developer>Darkworks</developer>
+    <publisher>Infogrames</publisher>
+    <genre>Aventura / Survival Horror-Aventura</genre>
+    <genreid>518</genreid>
+    <players>1</players>
+    <hash>EB9348E4</hash>
+    <image>./media/images/Alone in the Dark - The New Nightmare (BR).png</image>
+    <video>./media/videos/Alone in the Dark - The New Nightmare (BR).mp4</video>
+    <mix>./media/images/Alone in the Dark - The New Nightmare (BR).png</mix>
+  </game>
+  <game id="19269">
+    <path>./Castlevania - Symphony of the Night (BR).chd</path>
+    <name>Castlevania : Symphony of the Night (BR)</name>
+    <desc>Quatro anos após a batalha entre Richter Belmont e Dracula, a escuridão reaparece. O fantasma do sacerdote das trevas Shaft, morto por Richter uma vez, ressurge com um novo plano de ressuscitar seu mestre. Ele lança um feitiço em Richter, fazendo-o ficar sob seu domínio. Todos estes fatos fazem com que Alucard acorde de seu sono ? o mesmo Alucard que se uniu a Trevor Belmont 300 anos antes em Dracula's Curse. Agora Shaft deve ser impedido por Alucard para que a humanidade seja salva. Durante a jornada de Alucard no castelo, ele encontra Maria, uma grande amiga de Richter, várias vezes. Eles se ajudam e descobrem a origem do mal de Richter.</desc>
+    <rating>0.95</rating>
+    <releasedate>19971101T000000</releasedate>
+    <developer>KCET</developer>
+    <publisher>Konami</publisher>
+    <genre>Jogos De Rpg-Rpg De Ação</genre>
+    <genreid>768</genreid>
+    <players>1</players>
+    <hash>AC3CF78B</hash>
+    <image>./media/images/Castlevania - Symphony of the Night (BR).png</image>
+    <video>./media/videos/Castlevania - Symphony of the Night (BR).mp4</video>
+    <mix>./media/images/Castlevania - Symphony of the Night (BR).png</mix>
+  </game>
+  <game id="19993">
+    <path>./Contra - Legacy of War (BR).chd</path>
+    <name>Contra : Legacy of War (BR)</name>
+    <desc>Aliens have infested Earth once again, and all is lost unless you join the fray and take action against these otherworldly inhabitants. Contra: Legacy of War is a continuation of the long saga that began on the Nintendo Entertainment System, where a lone soldier, with the option of a partner (two-player mode), faces the imminent threat of total world domination by galactic creatures. You must fight level after hellish level to reach the final confrontation with the ultimate entity. You won't be unprepared, however. There are countless weapons and power-ups at your disposal, so choose wisely soldier, the world is counting on you.
+Blast through six levels of run, jump and shoot action. Along the way, use classic CONTRA weapons, like the spread gun, and some new ones, like the powerful flamethrower and homing shots.
+CONTRA gets a new look with 3D environments and character models. To make the action pop off the screen, put on the special glasses included in the package and play in 3D mode.</desc>
+    <rating>0.65</rating>
+    <releasedate>19961129T000000</releasedate>
+    <developer>Appaloosa Interactive</developer>
+    <publisher>Konami</publisher>
+    <genre>Tiro / Run And Gun-Tiro</genre>
+    <genreid>256</genreid>
+    <players>1-2</players>
+    <hash>6E048640</hash>
+    <image>./media/images/Contra - Legacy of War (BR).png</image>
+    <video>./media/videos/Contra - Legacy of War (BR).mp4</video>
+    <mix>./media/images/Contra - Legacy of War (BR).png</mix>
+  </game>
+  <game id="102981">
+    <path>./Covert Ops - Nuclear Dawn (USA).PBP</path>
+    <name>Covert Ops : Nuclear Dawn (USA)</name>
+    <desc>French Ambassador Pierre Simon and his family are traveling from Saint Petersburg to Paris aboard the Blue Harvest, a military train developed by NATO, when he is hijacked by terrorists known as the Horsemen of the Apocalypse. Negotiations result in nothing and the only hope is Lieutenant Jack Morton, part of the original escort, who manages to stealthily return to the train. Your job is to regain control of the armored train, prevent the terrorists from using a nuclear weapon and rescue the hostages.</desc>
+    <rating>0.80</rating>
+    <releasedate>20000531T000000</releasedate>
+    <developer>Sugar &amp; Rockets</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Ação / Aventura-Ação</genre>
+    <genreid>256</genreid>
+    <players>1</players>
+    <hash>9E592E97</hash>
+    <image>./media/images/Covert Ops - Nuclear Dawn (USA).png</image>
+    <video>./media/videos/Covert Ops - Nuclear Dawn (USA).mp4</video>
+    <mix>./media/images/Covert Ops - Nuclear Dawn (USA).png</mix>
+  </game>
+  <game id="19282">
+    <path>./Crash Bandicoot (BR).chd</path>
+    <name>Crash Bandicoot (BR)</name>
+    <desc>Crash Bandicoot o marsupial heroico, ágil e com mutações genéticas precisa salvar sua namorada Tawna. O Antagonista principal é o Doutor Neo Cortex, um cientista maluco que foi ridicularizado pela comunidade científica por suas teorias estranhas(porém quase funcionais) e agora motivado em provar seus contraditores que eles estão errados, busca criar um exército de bestas modificadas geneticamente para conquistar o mundo. O capanga de Cortex, Doutor Nitrus Brio, é o criador do inseguro Evolvo-Ray. O amor de Crash recai sobre Tawna, uma bandicoot refém dos experimentos destes Doutores. Ajude Crash em sua jornada em parceria com o bruxo(shamã) Aku Aku a garimpar máscaras pelas ilhas que garantirão poderes especiais a Crash. Os chefões do jogo incluem Papu Papu, o obeso esquentadinho e chefe da tribo nativa, Ripper Roo, um canguru com demência e unhas dos pés afiadas feito navalhas; Koala Kong, um coala musculoso e burrão; e Pinstripe Potoroo, o guarda-costas armado do Doutor Cortex.</desc>
+    <rating>0.80</rating>
+    <releasedate>19960831T000000</releasedate>
+    <developer>Naughty Dog</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <hash>BDF643E5</hash>
+    <image>./media/images/Crash Bandicoot (BR).png</image>
+    <video>./media/videos/Crash Bandicoot (BR).mp4</video>
+    <mix>./media/images/Crash Bandicoot (BR).png</mix>
+  </game>
+  <game id="19270">
+    <path>./Crash Bandicoot 2 (BR).chd</path>
+    <name>Crash Bandicoot 2 : Cortex Strikes Back (BR)</name>
+    <desc>Após sua derrota, Dr. Neo Cortex descobre os cristais que mandem o equilíbrio do mundo. Porém, algo está errado: Alguns dos cristais estão faltando. Quando os planetas se alinharem, o fluxo caótico criado pelo evento irá destruir o mundo. Cortex concebe um plano para salvar o mundo, criando o Cortex Vortex. 
+Para ajudá-lo a salvar o mundo ele recruta seu nêmesis, Crash Bandicoot, com o intuito de auxiliá-lo a encontrar os cristais. Controle Crash em viagens a lugares exóticos como uma estação espacial, uma cachoeira, a Antárctica em 34 níveis de corrida, saltos e ação giratória. 
+Avance através de níveis em qualquer ordem que desejar graças ao sistema "hub". Crash encontrará os cristais? Podemos confiar em Dr. Cortex e seu plano elaborado? Jogue CRASH BANDICOOT 2: Cortex Strikes Back e descubra. 
+Recursos: 
+* 34 níveis com áreas secretas e níveis bônus. 
+* Novos movimentos e combos de ataque 
+* Novos personagens interativos e adversários 
+* Uma variedade de desafios, quebra-cabeças e mini-jogos</desc>
+    <rating>0.90</rating>
+    <releasedate>19971206T000000</releasedate>
+    <developer>Naughty Dog</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <hash>5E790961</hash>
+    <image>./media/images/Crash Bandicoot 2 (BR).png</image>
+    <video>./media/videos/Crash Bandicoot 2 (BR).mp4</video>
+    <mix>./media/images/Crash Bandicoot 2 (BR).png</mix>
+  </game>
+  <game id="19262">
+    <path>./Crash Bandicoot 3 - Warped (BR).chd</path>
+    <name>Crash Bandicoot 3 : Warped (BR)</name>
+    <desc>Após o Dr Nitrus Brio e Crash Bandicoot terem destruído a estação de Cortex, um dos pedaços foi parar na Terra. Ele cai em um monumento antigo, libertando uma entidade do mal, uma máscara chamada Uka-Uka (irmão de Aku-Aku) que possui poderes sobrenaturais. Na ilha N. Sanity, os Bandicoots estão cuidando de seus afazeres, mas escutam uma risada maligna. A máscara Aku-Aku se surpreende e chama os Bandicoots para dentro da toca onde moram. 
+ 
+Em uma superfície futurística, Uka-Uka, que é a tal máscara maligna, briga com Cortex, que pela causa de sua incompetência, todos os cristais e diamantes se perderam no contínuo espaço-tempo. Mas, há um novo aliado que ajudará Cortex a dominar o mundo, o Dr. N. Tropy. Ele é o criador da superfície cujo nome é Tornado Temporal e mestre do tempo. Em N. Sanity, Aku-Aku diz para nossos heróis que a tal risada era de seu irmão do mal, Uka-Uka. Ele e Cortex querem dominar o mundo usando sua genialidade e maldade juntos. Crash deverá achar os 25 cristais no Tornado Temporal para deter Cortex e Uka-Uka, antes que seja tarde!</desc>
+    <rating>0.90</rating>
+    <releasedate>19981211T000000</releasedate>
+    <developer>Naughty Dog</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <hash>BF92B134</hash>
+    <image>./media/images/Crash Bandicoot 3 - Warped (BR).png</image>
+    <video>./media/videos/Crash Bandicoot 3 - Warped (BR).mp4</video>
+    <mix>./media/images/Crash Bandicoot 3 - Warped (BR).png</mix>
+  </game>
+  <game id="19266">
+    <path>./Crash Team Racing (BR).chd</path>
+    <name>Crash Team Racing (BR)</name>
+    <desc>O famoso marsupial laranja retorna para o quarto e final jogo no PlayStation, desta vez entre rodas de kart. Crash se junta a sua amada Coco, o malvado Cortex e uma combinação de amigos animais e chefões malvados de jogos anteriores, cada um com seus atributos de velocidade, aceleração e manobrabilidade. Os Cinco modos de jogo incluem Aventura, Time Trial e Batalha. 
+O modo Aventura(principal do jogo) envolve a tentativa de derrotar o alienígena chamado Nitrous Oxide em um torneio com 16 corridas. Os jogadores começam a aventura tropical escolhendo entre um dos oito personagens: Crash Bandicoot, Dr. Neo Cortex, Coco Bandicoot, Dr. N. Gin, Pura, Polar e Dingodile. 
+Adicionalmente a aceleração e frenagem, os karts podem executar uma gama de técnicas para fazer a corrida mais competitiva para jogadores habilidosos. Power-sildes podem ser utilizados para curvas forçadas, e os jogadores podem maximizar a velocidade de seus veículos ao passar por cima de dez peças de frutas. As pistas também possuem diversas rampas para propelir os karts pelos ares e os jogadores tem a possibilidade de passar sobre itens que estão no chão. 
+O "Hang Time Meter" ajuda os jogadores a mensurar quanto tempo um veículo permanece no ar; Quanto mais tempo estiver, maior é o bônus de turbo ao aterrizar. Um jogo de kart não seria completo sem power-ups, e o CTR possui 11 itens diferentes para serem utilizados durante o jogo, incluindo mísseis teleguiados, caixas explosivas, bombas bola de boliche e medidas defensivas como máscaras Aku Aku. Cada power-up pode ser incrementado coletando frutas. 
+O Objetivo do modo Aventura é derrotar todos os oponentes através da sequência de corridas. Ao fazer isto, os jogadores adquirem troféus, que os auxiliam a acessar novas pistas. Jogadores também são livres para repetir corridas para novos prêmios que incluem Relíquias, CTR Tokens e Gemas. Relíquias são ganhas ao atingir certos tempos de voltas, três tokens CTR estão escondidos em cada pista e Gemas especiais são ganhas ao vencedor de cada um dos cinco torneios "Gem Cup".</desc>
+    <rating>0.85</rating>
+    <releasedate>19990930T000000</releasedate>
+    <developer>Naughty Dog</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Corrida, Pilotagem</genre>
+    <genreid>1537</genreid>
+    <players>1-4</players>
+    <hash>074D64EF</hash>
+    <image>./media/images/Crash Team Racing (BR).png</image>
+    <video>./media/videos/Crash Team Racing (BR).mp4</video>
+    <mix>./media/images/Crash Team Racing (BR).png</mix>
+  </game>
+  <game id="19252">
+    <path>./Dino Crisis (BR).chd</path>
+    <name>Dino Crisis (BR)</name>
+    <desc>Dino Crisis coloca você no lugar de um membro de uma força especial encarregada de se infiltrar e investigar um grupo de cientistas tentando recriar dinossauros. Você perceberá rapidamente que eles estão longe de ter dominado sua criação e que sua investigação se transformará rapidamente na missão de sobrevivência.</desc>
+    <rating>0.85</rating>
+    <releasedate>19991001T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>Virgin Interactive</publisher>
+    <genre>Aventura / Survival Horror-Aventura</genre>
+    <genreid>518</genreid>
+    <players>1</players>
+    <hash>154CAB04</hash>
+    <image>./media/images/Dino Crisis (BR).png</image>
+    <video>./media/videos/Dino Crisis (BR).mp4</video>
+    <mix>./media/images/Dino Crisis (BR).png</mix>
+  </game>
+  <game id="19364">
+    <path>./Duke Nukem - Time to Kill (BR).chd</path>
+    <name>Duke Nukem : Time to Kill (BR)</name>
+    <desc>O jogo começa não muito tempo depois de Duke Nukem 3D. Duke está relaxando no Bootylicious com algumas cervejas e algumas garotas, quando de repente, os Pig Cops começam a destruir o lugar e transformam sua Harley personalizada de 1968 em uma moto chopper. Duke derrota todos os Pig Cops e então descobre que os alienígenas estão tentando voltar ao passado para dominar o mundo antes que Duke estivesse lá para impedi-los. 
+O jogo possui um total de 28 níveis, que variam de Los Angeles na época presente ao Velho Oeste e ao Coliseu. O jogo possui um modo para dois jogadores, permitindo que duas pessoas possam se desafiem em uma partida mata-mata. O jogo apresenta diversos tipos de inimigos, como Pig Cops, Lagartos, Octabrains, etc.</desc>
+    <rating>0.85</rating>
+    <releasedate>19980930T000000</releasedate>
+    <developer>N-Space</developer>
+    <publisher>GT Interactive Software</publisher>
+    <genre>Tiro / Tiro Em 1ª Pessoa-Tiro</genre>
+    <genreid>259</genreid>
+    <players>1-2</players>
+    <hash>DE77FD59</hash>
+    <image>./media/images/Duke Nukem - Time to Kill (BR).png</image>
+    <video>./media/videos/Duke Nukem - Time to Kill (BR).mp4</video>
+    <mix>./media/images/Duke Nukem - Time to Kill (BR).png</mix>
+  </game>
+  <game id="20005">
+    <path>./Fantastic Four (USA).chd</path>
+    <name>Fantastic Four (USA)</name>
+    <desc>At the beginning of FANTASTIC FOUR, Subterraneans and creatures from Monster Island have take over the city. Now, it is up to the Fantastic Four to drive the bad guys away and save the city. Choose to play as Mr. Fantastic, Invisible Woman, Thing, Human Torch, or She Hulk. Then punch and kick your way through various levels of enemies. 
+ Thankfully, every character has special moves that utilize their unique powers. However, to unleash the most powerful attacks, the characters must use a limited supply of force energy. If you have friends who want to play, get four people playing at the same time. Should you have no friends, computer-controlled drones can fill in and help you out. Take control of the FANTASTIC FOUR as they beat up the bad guys and save the city. 
+ Features: 
+ * Battle the evil Dr. Doom 
+ * Includes interactive backgrounds, so the action never stops! 
+ * Play with up to four players! 
+ * Authentic Fantastic Four moves in 3D rendered environments!</desc>
+    <rating>0.50</rating>
+    <releasedate>19970830T000000</releasedate>
+    <developer>Probe Entertainment</developer>
+    <publisher>Acclaim Entertainment</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1-4</players>
+    <hash>65C3D69C</hash>
+    <image>./media/images/Fantastic Four (USA).png</image>
+    <video>./media/videos/Fantastic Four (USA).mp4</video>
+    <mix>./media/images/Fantastic Four (USA).png</mix>
+  </game>
+  <game id="19482">
+    <path>./Future Cop - L.A.P.D. (USA).chd</path>
+    <name>Future Cop : L.A.P.D. (USA)</name>
+    <desc>The city of Los Angeles has a little more trouble than usual in the year 2100 A.D. You see, the future hasn't exactly been kind to urban life and now gangs have taken over the already shady neighborhoods. Is there any hope? There is, as long as you impose the law!
+Command a powerful Tactical Assault &amp; Combat X-1 mech walker (which can also transform into a sleek hovercraft) and battle through 12 levels, each culminating in a showdown with a major boss. Luckily for you, fourteen different weapons are available to help teach you that "crime doesn't pay." Feeling a little alone? If so, a friend can join the action in cooperative play!</desc>
+    <rating>0.75</rating>
+    <releasedate>19980901T000000</releasedate>
+    <developer>EA Redwood Shores</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Tiro</genre>
+    <genreid>256</genreid>
+    <players>1-2</players>
+    <hash>4B80AA21</hash>
+  </game>
+  <game id="19585">
+    <path>./Gekido - Urban Fighters (BR).chd</path>
+    <name>Gekido : Urban Fighters (BR)</name>
+    <desc>In the time of New Tokyo, a time in which corruption and criminal behavior is at an all time high, a girl named Angela has been kidnapped. Her parents have hired a detective named Travis to investigate a gang run by the notorious crime boss Kintaro; some say the gang is involved with the darker side of life, namely Hell. Knowing how difficult the mission is, the detective will need all the assistance he can get. 
+ Joining Travis on his brutal and bloody quest is an old friend named Michelle, a martial arts mentor known as Ushi and his student, Tetsuo. You and up to three friends will control these characters (simultaneously) through Gekido: Urban Fighters -- a side scrolling 3D beat 'em up in the vein of Final Fight and Streets of Rage. Like the aforementioned games, each fighter handles differently; whereas Travis is the well-balanced brawler, Michelle excels in speed but lacks in power. In addition to the four selectable characters, there are two hidden fighters to unlock with extended gameplay.</desc>
+    <rating>0.85</rating>
+    <releasedate>20010223T000000</releasedate>
+    <developer>NAPS Team</developer>
+    <publisher>Infogrames</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1-4</players>
+    <hash>AF0B8DA4</hash>
+    <image>./media/images/Gekido - Urban Fighters (BR).png</image>
+    <video>./media/videos/Gekido - Urban Fighters (BR).mp4</video>
+    <mix>./media/images/Gekido - Urban Fighters (BR).png</mix>
+  </game>
+  <game id="19312">
+    <path>./Heart of Darkness (USA).PBP</path>
+    <name>Heart of Darkness (USA)</name>
+    <desc>O eternamente adiado Heart of Darkness finalmente chegou ao console de jogos PlayStation! Um dia, enquanto Andy estava no parque com seu cachorro Whisky, coisas estranhas começaram a acontecer. Quase instantaneamente, um vórtice para algum reino desconhecido se abriu e sugou o pobre cachorrinho. Determinado a recuperar seu cãozinho, Andy pulou em uma engenhoca voadora caseira e partiu em uma jornada; para onde ele estava indo, ele não sabia. Em seu caminho para este mundo desconhecido, Andy encontrou alguma resistência e caiu em uma parede de granito puro. Ao encontrar um monstro assustador, foi fácil ver que as coisas não eram kosher; esta Terra das Trevas foi invadida por horríveis monstros das sombras que trabalham a serviço do Mestre das Trevas. O objetivo do jogador é destruir esse inimigo maligno, salvar Whiskey e voltar para casa com as duas vidas intactas.</desc>
+    <rating>0.75</rating>
+    <releasedate>19980731T000000</releasedate>
+    <developer>Amazing Studio</developer>
+    <publisher>Infogrames</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <hash>15E6DF6A</hash>
+    <image>./media/images/Heart of Darkness (USA).png</image>
+    <video>./media/videos/Heart of Darkness (USA).mp4</video>
+    <mix>./media/images/Heart of Darkness (USA).png</mix>
+  </game>
+  <game id="19491">
+    <path>./Jackie Chan Stuntmaster (BR).chd</path>
+    <name>Jackie Chan Stuntmaster (BR)</name>
+    <desc>O jogo conta a história de um jovem entregador (Jackie Chan) que teve a missão de entregar um pacote em um templo de artes marciais chamado Temple of the Shaolin (Templo Shaolin). Neste mesmo dia, enquanto jantava em um restaurante, percebeu que seu avô estava sendo interrogado discretamente por cinco pessoas. Quando os cinco homens percebem que Jackie havia os descorbeto, partem em fuga para não levantarem suspeita, mas Jackie continua seguindo-os. 
+ 
+Porém, seguindo na busca de seu avô, ele acaba num beco sem saída, de onde ele irá começar suas aventuras para salvar seu avô e reaver o pacote.</desc>
+    <rating>0.65</rating>
+    <releasedate>20000131T000000</releasedate>
+    <developer>Radical Entertainment</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1</players>
+    <hash>5A4CEBF7</hash>
+    <image>./media/images/Jackie Chan Stuntmaster (BR).png</image>
+    <video>./media/videos/Jackie Chan Stuntmaster (BR).mp4</video>
+    <mix>./media/images/Jackie Chan Stuntmaster (BR).png</mix>
+  </game>
+  <game id="19468">
+    <path>./Klonoa - Door to Phantomile (USA).chd</path>
+    <name>Klonoa : Door to Phantomile (USA)</name>
+    <desc>Klonoa: Door to Phantomile is a side-scrolling platform game viewed from a "2.5D" perspective. The player moves the protagonist, Klonoa, along a path in a two-dimensional fashion, but the game is rendered in three dimensions. This allows the path followed to curve and for the player to interact with objects outside of the path. The game is divided into levels called "Visions", where the player progresses by following a path with defeatable computer-controlled enemies and puzzles that must be solved. At the end of some levels, the player must defeat a boss - a powerful enemy. </desc>
+    <rating>0.90</rating>
+    <releasedate>19980601T000000</releasedate>
+    <developer>Namco</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <hash>529A7636</hash>
+    <image>./media/images/Klonoa - Door to Phantomile (USA).png</image>
+    <video>./media/videos/Klonoa - Door to Phantomile (USA).mp4</video>
+    <mix>./media/images/Klonoa - Door to Phantomile (USA).png</mix>
+  </game>
+  <game id="19940">
+    <path>./Mega Man X4 (BR).chd</path>
+    <name>Mega Man X4 (BR)</name>
+    <desc>It is the year 21XX, following years after the Doppler rebellion and the revelation of the Maverick Virus, a new global Reploid military force, apty-named Repliforce, was founded to combat the ongoing Maverick attacks and uprisings. However, humans quickly began to fear and distrust Repliforce's military power and their methods of fighting Mavericks proved to be very destructive with little disregard for human life. One day, the floating city Sky Lagoon was under attack by Mavericks and Repliforce arrived on the scene after the city has crash landed on the ground, where one of their leaders, Colonel, was being ordered by the Maverick Hunters X and Zero to lower his weapons for questioning as suspects for the incident. Out of pride and contempt towards human government, Colonel refused to comply, and following the accusations behind the Sky Lagoon incident, the Repliforce General decided stage a coup d'état, seeking to create a new utopia just for Reploids. Repliforce were then labeled as Mavericks by the government, thus the Maverick Hunters must fight against their former allies and stop their coup.</desc>
+    <rating>0.80</rating>
+    <releasedate>19970715T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Plataforma / Tiro Com Rolagem-Plataforma</genre>
+    <genreid>258</genreid>
+    <players>1</players>
+    <hash>3E782A81</hash>
+    <image>./media/images/Mega Man X4 (BR).png</image>
+    <video>./media/videos/Mega Man X4 (BR).mp4</video>
+    <mix>./media/images/Mega Man X4 (BR).png</mix>
+  </game>
+  <game id="19476">
+    <path>./Metal Slug X (USA).chd</path>
+    <name>Metal Slug X (USA)</name>
+    <desc>Em Metal Slug X, você irá escolher entre quatro soldados durões prontos para missões que só os melhores poderiam sobreviver. Resgate reféns enquanto envia os terroristas de volta à era das cavernas usando seu armamento personalizado e seus próprios veículos!
+Mais armas: arme-se com o tanque Metal Slug, o Slugnoid, o Flying Slug e o Camel Slug!
+Mais inimigos: monte um time com um amigo e enfrente missões que apenas os mais fortes sobrevivem!
+Mais ação arcade: este jogo é um dos melhores ports de arcade já feito - leve toda a experiência do arcade para casa!
+Mais conteúdo: Special Combat School e Gallery Section irão preencher as lacunas na saga Metal Slug!</desc>
+    <rating>0.75</rating>
+    <releasedate>20010414T000000</releasedate>
+    <developer>SNK</developer>
+    <publisher>Agetec</publisher>
+    <genre>Tiro / Run And Gun-Tiro</genre>
+    <genreid>256</genreid>
+    <players>1-2</players>
+    <hash>0316A4D7</hash>
+    <image>./media/images/Metal Slug X (USA).png</image>
+    <video>./media/videos/Metal Slug X (USA).mp4</video>
+    <mix>./media/images/Metal Slug X (USA).png</mix>
+  </game>
+  <game id="19487">
+    <path>./Mortal Kombat 4 (BR).chd</path>
+    <name>Mortal Kombat 4 (BR)</name>
+    <desc>Mortal Kombat 4 é um jogo de luta para Playstation. Combos, fatalities e outros golpes especiais, são os ingredientes que sustentam o sucesso de um jogo conhecido pela violência dos seus confrontos. O jogador interpreta um dos diferentes personagens e deve derrotar todos os seus competidores diretos, um por um, para vencer o torneio.</desc>
+    <rating>0.60</rating>
+    <releasedate>19980624T000000</releasedate>
+    <developer>Eurocom</developer>
+    <publisher>Midway</publisher>
+    <genre>Luta</genre>
+    <genreid>262</genreid>
+    <players>1-2</players>
+    <hash>AB7332DD</hash>
+    <image>./media/images/Mortal Kombat 4 (BR).png</image>
+    <video>./media/videos/Mortal Kombat 4 (BR).mp4</video>
+    <mix>./media/images/Mortal Kombat 4 (BR).png</mix>
+  </game>
+  <game id="19980">
+    <path>./N2O - Nitrous Oxide (USA).chd</path>
+    <name>N2O : Nitrous Oxide (USA)</name>
+    <desc>Somewhere deep in the future our Galaxy is at war. On the nearby planet of Neptune, forces of evil have initiated their new plans to invade the Earth. By accelerating sub-atomic particles around a tubular shaped circuit known as The Torus, they are developing a race of Super Warriors. Together with advanced genetic engineering, this central birthing canal is capable of producing an army of lethal genetically mutated insects. 
+Nitrous Oxide, a pollutant by-product emitted inside The Torus, provides a high octane fuel for your Tunnel Runner, but unfortunately it also provides the perfect breeding environment for the secretly incubating species.</desc>
+    <rating>0.65</rating>
+    <releasedate>19980630T000000</releasedate>
+    <developer>Gremlin Interactive</developer>
+    <publisher>Gremlin Interactive</publisher>
+    <genreid>0</genreid>
+    <players>1-2</players>
+    <hash>2DF5AEC8</hash>
+    <image>./media/images/N2O - Nitrous Oxide (USA).png</image>
+    <video>./media/videos/N2O - Nitrous Oxide (USA).mp4</video>
+    <mix>./media/images/N2O - Nitrous Oxide (USA).png</mix>
+  </game>
+  <game id="19313">
+    <path>./Oddworld - Abe's Exoddus (USA).PBP</path>
+    <name>Oddworld : Abe's Exoddus (USA)</name>
+    <desc>Aqueles desagradáveis ​​Glukons estão de volta, com a intenção de oprimir os adoráveis ​​Mudokons de todas as maneiras que puderem.  Da última vez, os malvados estavam fabricando carne seca de Mudokon.  Agora, eles oficialmente levaram o genocídio longe demais, forçando Mudokons cegos ao trabalho escravo para desenterrar os ossos de seus companheiros falecidos.  A propósito, acontece que os ossos de Mudokon acrescentam o toque certo a uma receita favorita de Glukon, Soulstorm Brew.  Quem vai salvar o dia?  Nosso improvável herói Abe, é claro.  Você se lembra de Abe: aquele Fraggle azul-esverdeado, de tanga, com quase dois metros de altura e problemas digestivos crônicos?  Sim, ele teria se contentado em descansar sobre os louros depois de resgatar noventa e nove de seus amigos Mudokon do extermínio em Oddworld: Oddysee de Abe, mas um grupo de fantasmas descontentes elegeu o bom e velho Abe para vingar suas mortes.</desc>
+    <rating>0.80</rating>
+    <releasedate>19991115T000000</releasedate>
+    <developer>Oddworld Inhabitants</developer>
+    <publisher>GT Interactive Software</publisher>
+    <genre>Aventura-Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <hash>3A7B95F9</hash>
+    <image>./media/images/Oddworld - Abe's Exoddus (USA).png</image>
+    <video>./media/videos/Oddworld - Abe's Exoddus (USA).mp4</video>
+    <mix>./media/images/Oddworld - Abe's Exoddus (USA).png</mix>
+  </game>
+  <game id="19264">
+    <path>./Oddworld - Abes Oddysee (USA) (Rev 2).chd</path>
+    <name>Oddworld : Abe's Oddysee (USA) (Rev 2)</name>
+    <desc>Oddworld - Abe's Oddysee é um jogo de ação / aventura no Playstation. Você joga como Abe e você tem que salvar sua pele em um universo cheio de perigos do mal, onde todo mundo tenta te devorar vivo. Nesta fuga sem fim, o uso de poderes é bem-vindo para salvar sua raça.</desc>
+    <rating>0.80</rating>
+    <releasedate>19970919T000000</releasedate>
+    <developer>Oddworld Inhabitants</developer>
+    <publisher>GT Interactive Software</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <hash>B74FE987</hash>
+    <image>./media/images/Oddworld - Abes Oddysee (USA) (Rev 2).png</image>
+    <video>./media/videos/Oddworld - Abes Oddysee (USA) (Rev 2).mp4</video>
+    <mix>./media/images/Oddworld - Abes Oddysee (USA) (Rev 2).png</mix>
+  </game>
+  <game id="20329">
+    <path>./Panzer Bandit (BR).chd</path>
+    <name>Panzer Bandit (BR)</name>
+    <desc>Panzer Bandits é um jogo de luta de visão lateral no Playstation. No controle de um dos três heróis presentes, e em um mundo parecido com um mangá, você terá que atacar um exército de robôs malvados que estão tentando conquistar o mundo.</desc>
+    <rating>0.80</rating>
+    <releasedate>19970807T000000</releasedate>
+    <developer>Fill In Café</developer>
+    <publisher>Banpresto</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1-4</players>
+    <hash>4F47522C</hash>
+    <image>./media/images/Panzer Bandit (BR).png</image>
+    <video>./media/videos/Panzer Bandit (BR).mp4</video>
+    <mix>./media/images/Panzer Bandit (BR).png</mix>
+  </game>
+  <game id="20243">
+    <path>./Rampage - World Tour (USA).chd</path>
+    <name>Rampage : World Tour (USA)</name>
+    <desc>Rampage World Tour is a updated version of the classic Rampage. Rampage World Tour starts off at Scumlabs International where three lab technicians, George, Lizzy, and Ralph have mutated in an accident involving toxic waste. George has turned into a gigantic ape, Lizzy a gigantic lizard or dinosaur, and Ralph some sort of gigantic wolf. The three destroy the lab they previously worked at and then embark on a path of destruction encompassing the entire globe.</desc>
+    <rating>0.60</rating>
+    <releasedate>19971001T000000</releasedate>
+    <developer>Game Refuge</developer>
+    <publisher>Midway</publisher>
+    <genreid>0</genreid>
+    <players>1-2</players>
+    <hash>53B13802</hash>
+    <image>./media/images/Rampage - World Tour (USA).png</image>
+    <video>./media/videos/Rampage - World Tour (USA).mp4</video>
+    <mix>./media/images/Rampage - World Tour (USA).png</mix>
+  </game>
+  <game id="19275">
+    <path>./Rayman (BR).chd</path>
+    <name>Rayman (BR)</name>
+    <desc>No mundo de Rayman, a natureza e as pessoas vivem em paz e El Gran Protón (the Great Protoon ) mantém o equilíbrio e a harmonia deste universo. Até o dia em que o horrível Mister Dark o rouba, mergulhando o mundo no caos e na escuridão. Rayman terá que encontrar e entregar todos os toons e aniquilar o Mister Dark para entregar o Great Protoon.</desc>
+    <rating>0.90</rating>
+    <releasedate>19950909T000000</releasedate>
+    <developer>Ubisoft</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <hash>7743ED1C</hash>
+    <image>./media/images/Rayman (BR).png</image>
+    <video>./media/videos/Rayman (BR).mp4</video>
+    <mix>./media/images/Rayman (BR).png</mix>
+  </game>
+  <game id="19259">
+    <path>./Resident Evil 2 Dual Shock - Leon e Clairer (BR).PBP</path>
+    <name>Resident Evil 2</name>
+    <mode>Jogador individual</mode>
+    <desc>The game takes place two months after the events of Resident Evil, in the city of Raccoon City, located in the Midwest region of the United States. Almost all of its citizens have been turned into zombies by an outbreak of the T-virus, a new type of secret biological weapon developed by the pharmaceutical company Umbrella Corporation. The protagonists are Leon S. Kennedy, a rookie police officer on his first day on the local force, and Claire Redfield, a college student looking for her brother, Chris. Having just arrived in the city, the two head to the Raccoon Police Department to seek protection from the mutant population. However, after a runaway truck hits their car, they are forced to separate (you can choose to play as Leon or Claire).</desc>
+    <rating>0.80</rating>
+    <releasedate>19980508T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Aventura, Aventura / Survival Horror</genre>
+    <genreid>518</genreid>
+    <players>1</players>
+    <region>us</region>
+    <lang>en</lang>
+    <image>./downloaded_images/Resident Evil 2 Dual Shock - Leon e Clairer (BR)-image.png</image>
+    <video>./downloaded_images/Resident Evil 2 Dual Shock - Leon e Clairer (BR)-video.mp4</video>
+    <marquee>./downloaded_images/Resident Evil 2 Dual Shock - Leon e Clairer (BR)-marquee.png</marquee>
+    <boxart>./downloaded_images/Resident Evil 2 Dual Shock - Leon e Clairer (BR)-boxart.png</boxart>
+    <screenshot>./downloaded_images/Resident Evil 2 Dual Shock - Leon e Clairer (BR)-screenshot.png</screenshot>
+    <fanart>./downloaded_images/Resident Evil 2 Dual Shock - Leon e Clairer (BR)-fanart.jpg</fanart>
+    <titleshot>./downloaded_images/Resident Evil 2 Dual Shock - Leon e Clairer (BR)-titleshot.png</titleshot>
+    <manual>./manuals/Resident Evil 2 Dual Shock - Leon e Clairer (BR)_(eu).pdf</manual>
+    <boxback>./downloaded_images/Resident Evil 2 Dual Shock - Leon e Clairer (BR)-boxback.png</boxback>
+    <bezel>./downloaded_images/Resident Evil 2 Dual Shock - Leon e Clairer (BR)-bezel.png</bezel>
+  </game>
+  <game id="19258">
+    <path>./Resident Evil 3 (BR).chd</path>
+    <name>Resident Evil 3 : Nemesis (BR)</name>
+    <desc>Resident Evil 3: Nemesis acontece durante os eventos de Resident Evil 2. Você joga desta vez, Jill Valentine, e tem que escapar vivo de Raccoon City, devastado por zumbis. Nêmesis, o monstro exterminador dos últimos sobreviventes está em seus calcanhares.</desc>
+    <rating>0.85</rating>
+    <releasedate>19991110T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Aventura / Survival Horror-Aventura</genre>
+    <genreid>518</genreid>
+    <players>1</players>
+    <hash>A71B68FA</hash>
+    <image>./media/images/Resident Evil 3 (BR).png</image>
+    <video>./media/videos/Resident Evil 3 (BR).mp4</video>
+    <mix>./media/images/Resident Evil 3 (BR).png</mix>
+  </game>
+  <game id="19265">
+    <path>./Silent Hill (BR).chd</path>
+    <name>Silent Hill (BR)</name>
+    <desc>Silent Hill é um horror de sobrevivência para Playstation. Você joga com Harry Mason e acaba de chegar na pequena cidade de Silent Hill a bordo do seu 4x4 e da sua filha Cheryl. No meio da noite, um acidente interrompe a viagem da família. Você acorda em seu carro, Cheryl some e um estranho cenário de neblina cobre a vila. Uma vila completamente infestada de criaturas magras e faminta por carne fresca.</desc>
+    <rating>0.80</rating>
+    <releasedate>19990131T000000</releasedate>
+    <developer>Team Silent</developer>
+    <publisher>Konami</publisher>
+    <genre>Aventura / Survival Horror-Aventura</genre>
+    <genreid>518</genreid>
+    <players>1</players>
+    <hash>932F1B36</hash>
+    <image>./media/images/Silent Hill (BR).png</image>
+    <video>./media/videos/Silent Hill (BR).mp4</video>
+    <mix>./media/images/Silent Hill (BR).png</mix>
+  </game>
+  <game id="1323703">
+    <path>./Soul Reaver (BR).7z</path>
+    <name>Legacy Of Kain - Soul Reaver (BR)</name>
+    <genreid>0</genreid>
+    <hidden>true</hidden>
+  </game>
+  <game id="19358">
+    <path>./Spider-Man (BR).chd</path>
+    <name>Spider-Man (BR)</name>
+    <desc>Spider-Man é um jogo de ação e plataforma no Playstation. Você é o homem aranha e é acusado de roubar a descoberta de Octavius, também conhecido como Dr. Octopus. Rapidamente, você se encontra no meio de uma trama organizada pelo cientista que você deve impedir ao fugir da polícia, mas também todos os outros vilões que são seus inimigos.</desc>
+    <rating>0.80</rating>
+    <releasedate>20000830T000000</releasedate>
+    <developer>Activision</developer>
+    <publisher>Neversoft</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <hash>870FCE64</hash>
+    <image>./media/images/Spider-Man (BR).png</image>
+    <video>./media/videos/Spider-Man (BR).mp4</video>
+    <mix>./media/images/Spider-Man (BR).png</mix>
+  </game>
+  <game id="19280">
+    <path>./Tekken 3 (BR).chd</path>
+    <name>Tekken 3 (BR)</name>
+    <desc>Lute por Sua Vida! 
+ 
+A força ancestral do mal acordou, atacando em segredo e se alimentando das almas de bravos heróis. Para ser libertada, participará do maior torneio de luta que o mundo já viu... Tekken 3. Alguns lutam por vingança, outros por honra. De uma forma ou de outra, todos estão lutando por suas vidas e pelo destino da humanidade. 
+* Recursos Secretos: Personagens secretos, modos de jogo secretos, e sequência de cinemáticas para cada personagem. 
+* Novos Estilos de Luta: Inclui a Capoeira, luta Brasileira e dois novos estilos do Kung Fu. 
+* Novos Personagens. Inclui os personagens favoritos do Arcade: Eddy, Jin Xiaoyu, Julia, Law, Mokujin, Bryan, Ogre e alguns novos criados especialmente para a versão do PlayStation. 
+* Jogo mais rápido: Levante rapidamente de quedas, mais escapes de agarrões e atordoamentos, e arremessos renovados para um estilo de jogo mais rápido do que nunca.</desc>
+    <rating>0.90</rating>
+    <releasedate>19980429T000000</releasedate>
+    <developer>Namco</developer>
+    <publisher>Namco</publisher>
+    <genre>Luta / 2.5D-Luta / Versus-Luta</genre>
+    <genreid>262</genreid>
+    <players>1-2</players>
+    <hash>61A3B6B8</hash>
+    <image>./media/images/Tekken 3 (BR).png</image>
+    <video>./media/videos/Tekken 3 (BR).mp4</video>
+    <mix>./media/images/Tekken 3 (BR).png</mix>
+  </game>
+  <game id="19376">
+    <path>./Tenchu - Stealth Assassins (BR).chd</path>
+    <name>Tenchu : Stealth Assassins (BR)</name>
+    <desc>Tenchu: Stealth Assassins é um jogo furtivo para Playstation. Você joga com um Ninja de sua escolha entre Rikimaru e Ayame. O jogo é dividido em 10 etapas onde você deve realizar as tarefas que estão presentes. Além disso, esteja ciente de que todos os níveis acontecem durante a noite.</desc>
+    <rating>0.90</rating>
+    <releasedate>19981030T000000</releasedate>
+    <developer>Acquire</developer>
+    <publisher>Activision</publisher>
+    <genre>Aventura</genre>
+    <genreid>512</genreid>
+    <players>1</players>
+    <hash>874B3313</hash>
+    <image>./media/images/Tenchu - Stealth Assassins (BR).png</image>
+    <video>./media/videos/Tenchu - Stealth Assassins (BR).mp4</video>
+    <mix>./media/images/Tenchu - Stealth Assassins (BR).png</mix>
+  </game>
+  <game id="105228">
+    <path>./The Adventure of Little Ralph (Japan).chd</path>
+    <name>Chippoke Ralph No Daibouken : The Adventure Of Little Ralph (Japan)</name>
+    <desc>Chippoke Ralph no Daibouken é um jogo de ação 2D plataforma, produzido pela New Corporation para o Playstation. 
+A história começa quando uma cidade é atacada por demônios. Ao tentar detê-los, o jovem Ralph é transformado em uma criança. Salvo por uma jovem, ele então inicia sua jornada para derrotar os diferentes demônios que infestam a terra. 
+O jogador controla Ralph usando as setas do direcional e o botão de pulo, manobrando-o em meio a armadilhas traiçoeiras e plataformas instáveis. Ralph também pode usar sua espada para derrotar inimigos. O personagem não possui pontos de vida: ele tem um escudo que o protege apenas uma vez, sendo atingido novamente, sofrerá dano fatal.</desc>
+    <rating>0.80</rating>
+    <releasedate>19990603T000000</releasedate>
+    <developer>NEW</developer>
+    <publisher>NEW</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <hash>D352AFDF</hash>
+    <image>./media/images/The Adventure of Little Ralph (Japan).png</image>
+    <video>./media/videos/The Adventure of Little Ralph (Japan).mp4</video>
+    <mix>./media/images/The Adventure of Little Ralph (Japan).png</mix>
+  </game>
+  <game id="19318">
+    <path>./Tomba! (USA).chd</path>
+    <name>Tomba! (USA)</name>
+    <desc>Aside from sporting a wacky pink hairdo, Tomba! offers a long and brain twisting experience that mixes the traditional 2D side scrolling action/platformer with the elements of a role-playing game. The game starts out simple enough with the evil Koma Pigs stealing Tomba's bracelet, which was given to him by his grandfather. You assume the role of Tomba and begin your adventure. Little do you know that the quest for your bracelet will turn into so much more. 
+ 
+Because of its role-playing elements, in Tomba!, your character will gain experience points, develop new skills and learn new things. He has seven abilities that can be learned throughout the duration of the game. Once all three experience meters reach level ten (in order to do this, Tomba must do certain things), he will unlock and learn an ability.</desc>
+    <rating>0.80</rating>
+    <releasedate>19980630T000000</releasedate>
+    <developer>Whoopee Camp</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Aventura-Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <hash>E91BA39C</hash>
+    <image>./media/images/Tomba! (USA).png</image>
+    <video>./media/videos/Tomba! (USA).mp4</video>
+    <mix>./media/images/Tomba! (USA).png</mix>
+  </game>
+  <game id="19494">
+    <path>./Twisted Metal 2 (BR).chd</path>
+    <name>Twisted Metal 2 (BR)</name>
+    <desc>Twisted Metal 2 apresenta um combate de carros destrutivo, jogável tanto como um torneio completo quanto como uma única partida. A ação ocorre em 8 locais diferentes ao redor do mundo, em superfícies diversas, muitas delas com prédios e pontos de referência destrutíveis. 
+ 
+O combate acontece entre uma ampla variedade de veículos, desde um homem amarrado entre duas rodas até um caminhão de sorvete. Eles têm suas próprias forças e fraquezas, usando uma disposição eclética de armas, incluindo bombas e mísseis, resultando em sua própria sequência final, completa com uma linha irônica de humor.</desc>
+    <rating>0.80</rating>
+    <releasedate>19961031T000000</releasedate>
+    <developer>Singletrac</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Tiro / Carro 3ª Pessoa-Tiro-Corrida, Pilotagem</genre>
+    <genreid>1028</genreid>
+    <players>1-2</players>
+    <hash>310220D7</hash>
+    <image>./media/images/Twisted Metal 2 (BR).png</image>
+    <video>./media/videos/Twisted Metal 2 (BR).mp4</video>
+    <mix>./media/images/Twisted Metal 2 (BR).png</mix>
+  </game>
+  <game id="19888">
+    <path>./Twisted Metal 4 (USA) (Rev 1).chd</path>
+    <name>Twisted Metal 4 (USA) (Rev 1)</name>
+    <desc>O quarto jogo da série Twisted Metal! O chefe do torneio Twisted Metal desde o início, Calypso, foi deposto pelo palhaço maníaco Sweet Tooth e seus amigos circenses, com o seu desejo de vencer o torneio. Agora, Sweet Tooth tem a chance de realizar seu próprio torneio, com veículos mais poderosos, inúmeros campos de batalha e uma seleção totalmente nova de pilotos e lendas antigas como Thumper, Axel, Auger e até mesmo Minion, e muito mais. O prêmio é o mesmo - Sweet Tooth concederá qualquer desejo ao vencedor! Mas desta vez, Calypso está participando do torneio...</desc>
+    <rating>0.70</rating>
+    <releasedate>19991116T000000</releasedate>
+    <developer>989</developer>
+    <publisher>989</publisher>
+    <genre>Tiro / Carro 3ª Pessoa-Corrida, Pilotagem-Tiro</genre>
+    <genreid>1028</genreid>
+    <players>1-4</players>
+    <hash>E5364946</hash>
+    <image>./media/images/Twisted Metal 4 (USA) (Rev 1).png</image>
+    <video>./media/videos/Twisted Metal 4 (USA) (Rev 1).mp4</video>
+    <mix>./media/images/Twisted Metal 4 (USA) (Rev 1).png</mix>
+  </game>
+  <game id="19574">
+    <path>./Vigilante 8 - 2nd Offensive (BR).chd</path>
+    <name>Vigilante 8 : 2nd Offense (BR)</name>
+    <desc>It is time once again for another randy bout of vehicular homicide through the most literal interpretation of the phrase possible! You'll travel across the US through a series of levels meting out destruction, and what's more, you'll gain upgrades to you car as you total your opposition. One player mode will offer you the option of the Quest Mode, where you travel the land trying to meet your given mission objectives as your character's storyline unfolds, or you can simply dive straight into the action by choosing Arcade or Survival Mode. 
+ Want to bring a friend along for the ride? You're in luck, Vigilante 8: Second Offense offers up a two player split screen cooperative mode in addition to the traditional VS mode. Cooperative action is split off into two separate options in of itself. You and a buddy can blast away cars in until one of you dies, or there are no others left, you you can take them along on a tour of the US in a two player version of the one player Quest mode. Two players at once will still be able to save or load their customized cars and weapons/improvements and scores with separate memory cards so you an get into some high powered blasting action that way. 
+ Your car is customizable and will develop over the course of a game. As you destroy enemy cars, you'll gain upgrade points that'll make your car go faster, take more hits, and the usual assortment of things a car under combat conditions will need. If you max out a stat, you'll get a better part. If you max all the categories out, you'll get a new chassis for your car. During the course of a level you'll be able to pick up special propulsion mechanisms in addition to the usual shield and weapon power ups. You'll be able to nab Hoverpods for all terrain action, Hydrofloaters for those times when you need your car to not sink in water, and skis N' treads for those stubborn icy levels. 
+ Now get in there 'pard, and get ready to shoot first and ask questions later. 
+ Features: 
+ Choose from 18 modern and '70s era vehicles 
+ Customize vehicles with points earned from competition 
+ Discover hidden power-ups while racing across eight new destructible arenas</desc>
+    <rating>0.80</rating>
+    <releasedate>19991116T000000</releasedate>
+    <developer>Luxoflux</developer>
+    <publisher>Activision</publisher>
+    <genre>Corrida, Pilotagem</genre>
+    <genreid>1537</genreid>
+    <players>2</players>
+    <hash>520C777E</hash>
+    <image>./media/images/Vigilante 8 - 2nd Offensive (BR).png</image>
+    <video>./media/videos/Vigilante 8 - 2nd Offensive (BR).mp4</video>
+    <mix>./media/images/Vigilante 8 - 2nd Offensive (BR).png</mix>
+  </game>
+</gameList>

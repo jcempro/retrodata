@@ -1,0 +1,1340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gameList>
+  <provider>
+    <system>snes</system>
+    <software>ARRM</software>
+    <web>http://jujuvincebros.fr/wiki/arrm/doku.php</web>
+  </provider>
+  <game id="19248">
+    <path>./Zombies Ate My Neighbors (USA).sfc.7z</path>
+    <name>Zombies</name>
+    <mode>Multijogador competitivo</mode>
+    <desc>In the game you choose Zeke or Julia, fighting against vampires, mummies, zombies, etc. in over 50 levels (not including secrets) and saving everyone you meet. There are a set number of neighbors that you save in every level. When they are free then the "Exit" door opens and you jump into the next level.The levels differ from a shopping mall, a grocery store, beaches and football fields. Using different weapons like bazooka or water gun you have to kill the bosses like huge babies, dragons or ants at the end of the levels. You can play the game with two players cooperatively.</desc>
+    <rating>0.60</rating>
+    <releasedate>19940127T000000</releasedate>
+    <developer>Lucasarts</developer>
+    <publisher>Konami</publisher>
+    <genre>Tiro</genre>
+    <genreid>256</genreid>
+    <players>1-2</players>
+    <region>us</region>
+    <image>./media/image/Zombies Ate My Neighbors (USA).sfc-image.png</image>
+    <video>./media/videos/Zombies Ate My Neighbors (USA).sfc-video.mp4</video>
+    <marquee>./media/image/Zombies Ate My Neighbors (USA).sfc-marquee.png</marquee>
+    <wheel>./media/wheel/Zombies Ate My Neighbors (USA).sfc-wheel.png</wheel>
+    <boxart>./media/image/Zombies Ate My Neighbors (USA).sfc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Zombies Ate My Neighbors (USA).sfc-screenshot.png</screenshot>
+    <cartridge>./media/image/Zombies Ate My Neighbors (USA).sfc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Zombies Ate My Neighbors (USA).sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/Zombies Ate My Neighbors (USA).sfc-titleshot.png</titleshot>
+    <manual>./media/manuals/Zombies Ate My Neighbors (USA).sfc_(eu).pdf</manual>
+    <boxback>./media/image/Zombies Ate My Neighbors (USA).sfc-boxback.png</boxback>
+    <extra1>./media/extras/Zombies Ate My Neighbors (USA).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/Zombies Ate My Neighbors (USA).sfc-bezel.png</bezel>
+  </game>
+  <game id="2318">
+    <path>./Worms (BR).smc.7z</path>
+    <name>Worms</name>
+    <desc>Worms is a turn-based strategy game. It features up to 4 teams of 4 worms, with the aim of destroying others on a generated terrain. Each worm has 100 hit points and dies when its hit points drop to 0. Upon death, a worm explodes, causing damage to everyone around it.
+Gameplay is turn-based. Each time, the player can control a specific worm on their team. The worm can crawl left and right or jump. However, there is a time limit to make a move; also, if the worm falls from a great height, it loses health and the turn ends immediately; and if a worm falls into the water or off the screen, it dies. With each turn, a worm can also make a single attack: the player can aim up and down, choose a weapon and shoot. After attacking, the turn ends.</desc>
+    <rating>0.60</rating>
+    <releasedate>19960929T000000</releasedate>
+    <developer>East Point Software</developer>
+    <publisher>Ocean</publisher>
+    <genre>Estratégia</genre>
+    <genreid>1280</genreid>
+    <players>1-8</players>
+    <region>eu</region>
+    <image>./media/image/Worms (BR).smc-image.png</image>
+    <video>./media/videos/Worms (BR).smc-video.mp4</video>
+    <marquee>./media/image/Worms (BR).smc-marquee.png</marquee>
+    <wheel>./media/wheel/Worms (BR).smc-wheel.png</wheel>
+    <boxart>./media/image/Worms (BR).smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Worms (BR).smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Worms (BR).smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Worms (BR).smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Worms (BR).smc-titleshot.png</titleshot>
+    <manual>./media/manuals/Worms (BR).smc_(eu).pdf</manual>
+    <boxback>./media/image/Worms (BR).smc-boxback.png</boxback>
+    <extra1>./media/extras/Worms (BR).smc-extra1.png</extra1>
+    <bezel>./media/bezels/Worms (BR).smc-bezel.png</bezel>
+  </game>
+  <game id="2252">
+    <path>./Wild Guns (USA).sfc.7z</path>
+    <name>Wild Guns</name>
+    <desc>KABOOM!
+Annie &amp; Clint, two hitmen, arrive in Carson City and are caught in a shootout. It's raining bullets and there are explosions everywhere. After an intense battle, they enter the saloon, where they dispose of every cowboy in sight while redecorating the interior. Our heroes flee the scene by climbing onto the roof, but what is that sound? ...it's a HUGE robot!
+Wild Guns is a Western and Sci Fi themed shooter. The gameplay is somewhat similar to the Time Crisis and House of the Dead games, with the exception that the game is not played from the first-person perspective, but from the third-person perspective. You control your on-screen character as well as aim (at the same time). Select Clint (yes, inspired by Eastwood) or Annie, and shoot various enemies while dodging bullets and jumping on incoming rockets.</desc>
+    <rating>0.80</rating>
+    <releasedate>19961031T000000</releasedate>
+    <developer>Natsume</developer>
+    <publisher>Titus</publisher>
+    <genre>Tiro / Tiro Em 3ª Pessoa, Tiro</genre>
+    <genreid>256</genreid>
+    <players>1-2</players>
+    <region>eu</region>
+    <image>./media/image/Wild Guns (USA).sfc-image.png</image>
+    <video>./media/videos/Wild Guns (USA).sfc-video.mp4</video>
+    <boxart>./media/image/Wild Guns (USA).sfc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Wild Guns (USA).sfc-screenshot.png</screenshot>
+    <cartridge>./media/image/Wild Guns (USA).sfc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Wild Guns (USA).sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/Wild Guns (USA).sfc-titleshot.png</titleshot>
+    <manual>./media/manuals/Wild Guns (USA).sfc_(eu).pdf</manual>
+    <boxback>./media/image/Wild Guns (USA).sfc-boxback.png</boxback>
+    <extra1>./media/extras/Wild Guns (USA).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/Wild Guns (USA).sfc-bezel.png</bezel>
+  </game>
+  <game id="2196">
+    <path>./Ultimate Mortal Kombat 3 (USA).sfc.7z</path>
+    <name>Ultimate Mortal Kombat 3</name>
+    <desc>Ultimate Mortal Kombat 3 combines the best of all Mortal Kombats into a single cartridge. 23 playable characters are immediately available, such as Reptile, Cyrax, Scorpion, Sub-Zero, Jax, Kitana, Sonya and more. There are two bosses that are unlockable, as well as additional characters.
+There are a variety of new levels, some of which are interactive. Characters can uppercut someone, causing them to hit the solid ceiling and crash into the floor below, or they can knock someone off a bridge, landing in a pit of spikes.
+Players can go head-to-head against the computer, two-on-two or participate in an 8-man tournament.</desc>
+    <rating>0.60</rating>
+    <releasedate>19961128T000000</releasedate>
+    <developer>Midway</developer>
+    <publisher>Midway</publisher>
+    <genre>Luta / Versus, Luta</genre>
+    <genreid>262</genreid>
+    <players>1-2</players>
+    <region>eu</region>
+    <adult>true</adult>
+    <image>./media/image/Ultimate Mortal Kombat 3 (USA).sfc-image.png</image>
+    <video>./media/videos/Ultimate Mortal Kombat 3 (USA).sfc-video.mp4</video>
+    <boxart>./media/image/Ultimate Mortal Kombat 3 (USA).sfc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Ultimate Mortal Kombat 3 (USA).sfc-screenshot.png</screenshot>
+    <cartridge>./media/image/Ultimate Mortal Kombat 3 (USA).sfc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Ultimate Mortal Kombat 3 (USA).sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/Ultimate Mortal Kombat 3 (USA).sfc-titleshot.png</titleshot>
+    <manual>./media/manuals/Ultimate Mortal Kombat 3 (USA).sfc_(us).pdf</manual>
+    <boxback>./media/image/Ultimate Mortal Kombat 3 (USA).sfc-boxback.png</boxback>
+    <extra1>./media/extras/Ultimate Mortal Kombat 3 (USA).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/Ultimate Mortal Kombat 3 (USA).sfc-bezel.png</bezel>
+  </game>
+  <game id="2237">
+    <path>./Magical Quest Starring Mickey Mouse, The (BR).smc.7z</path>
+    <name>The Magical Quest Starring Mickey Mouse</name>
+    <desc>The game's story begins with Mickey and his friends Donald, Goofy and Pluto playing. Goofy throws the ball for the mouse to catch, but it hits Mickey's head and goes away. Pluto takes charge of looking for her, but he doesn't return. Goofy is surprised and goes to check what happened to the dog. Mickey is worried because neither of them are coming back and goes looking for them. It was during this quest that he ended up falling down a cliff, starting the game's adventure.</desc>
+    <rating>0.80</rating>
+    <releasedate>19930318T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <region>eu,us</region>
+    <image>./media/image/Magical Quest Starring Mickey Mouse, The (BR).smc-image.png</image>
+    <video>./media/videos/Magical Quest Starring Mickey Mouse, The (BR).smc-video.mp4</video>
+    <boxart>./media/image/Magical Quest Starring Mickey Mouse, The (BR).smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Magical Quest Starring Mickey Mouse, The (BR).smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Magical Quest Starring Mickey Mouse, The (BR).smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Magical Quest Starring Mickey Mouse, The (BR).smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Magical Quest Starring Mickey Mouse, The (BR).smc-titleshot.png</titleshot>
+    <manual>./media/manuals/Magical Quest Starring Mickey Mouse, The (BR).smc_(eu).pdf</manual>
+    <boxback>./media/image/Magical Quest Starring Mickey Mouse, The (BR).smc-boxback.png</boxback>
+    <extra1>./media/extras/Magical Quest Starring Mickey Mouse, The (BR).smc-extra1.png</extra1>
+    <bezel>./media/bezels/Magical Quest Starring Mickey Mouse, The (BR).smc-bezel.png</bezel>
+  </game>
+  <game id="2189">
+    <path>./The Lion King (BR).smc.7z</path>
+    <name>The Lion King</name>
+    <mode>Jogador individual</mode>
+    <desc>It's a platform game from the 90s, it doesn't exactly try to tell a story, but anyone who has watched the Disney classic that gives the game its name may be impressed by how this game managed to be faithful to the film, something that more recent games are unable to do. The stages themselves remind us of the film in many moments.</desc>
+    <rating>0.60</rating>
+    <releasedate>19941208T000000</releasedate>
+    <developer>Westwood  Studios</developer>
+    <publisher>Virgin</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <video>./media/videos/The Lion King (BR).smc-video.mp4</video>
+    <screenshot>./media/screenshots/The Lion King (BR).smc-screenshot.png</screenshot>
+    <fanart>./media/fanart/The Lion King (BR).smc-fanart.jpg</fanart>
+    <titleshot>./media/image/The Lion King (BR).smc-titleshot.png</titleshot>
+    <manual>./media/manuals/The Lion King (BR).smc_(us).pdf</manual>
+    <extra1>./media/extras/The Lion King (BR).smc-extra1.png</extra1>
+    <bezel>./media/bezels/The Lion King (BR).smc-bezel.png</bezel>
+  </game>
+  <game id="2409">
+    <path>./Death and Return of Superman, The (BR).sfc.7z</path>
+    <name>The Death and Return of Superman</name>
+    <desc>The Death and Return of Superman was one of Blizzard Entertainment's first games in its rise in the gaming world. This game was released for the Super Nintendo console, known as Super NES, and for the Mega Drive, containing 16-bit graphics technology.</desc>
+    <rating>0.60</rating>
+    <releasedate>19941101T000000</releasedate>
+    <developer>Blizzard Entertainment</developer>
+    <publisher>Sunsoft</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1</players>
+    <region>eu</region>
+    <image>./media/image/Death and Return of Superman, The (BR).sfc-image.png</image>
+    <video>./media/videos/Death and Return of Superman, The (BR).sfc-video.mp4</video>
+    <boxart>./media/image/Death and Return of Superman, The (BR).sfc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Death and Return of Superman, The (BR).sfc-screenshot.png</screenshot>
+    <cartridge>./media/image/Death and Return of Superman, The (BR).sfc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Death and Return of Superman, The (BR).sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/Death and Return of Superman, The (BR).sfc-titleshot.png</titleshot>
+    <manual>./media/manuals/Death and Return of Superman, The (BR).sfc_(eu).pdf</manual>
+    <boxback>./media/image/Death and Return of Superman, The (BR).sfc-boxback.png</boxback>
+    <extra1>./media/extras/Death and Return of Superman, The (BR).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/Death and Return of Superman, The (BR).sfc-bezel.png</bezel>
+  </game>
+  <game id="2876">
+    <path>./Combatribes, The (BR).sfc.7z</path>
+    <name>The Combatribes</name>
+    <desc>The game revolves around three vigilantes who must fight various street gangs in the futuristic New York City.
+The Super NES version of The Combatribes makes some changes to the game. The game now features story sequences before and after boss battles, as well as an introduction explaining the plot and a different ending.</desc>
+    <rating>0.60</rating>
+    <releasedate>19930301T000000</releasedate>
+    <developer>Technos Japan</developer>
+    <publisher>Technos Japan</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <region>jp,us</region>
+    <video>./media/videos/Combatribes, The (BR).sfc-video.mp4</video>
+    <screenshot>./media/screenshots/Combatribes, The (BR).sfc-screenshot.png</screenshot>
+    <fanart>./media/fanart/Combatribes, The (BR).sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/Combatribes, The (BR).sfc-titleshot.png</titleshot>
+    <manual>./media/manuals/Combatribes, The (BR).sfc_(us).pdf</manual>
+    <extra1>./media/extras/Combatribes, The (BR).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/Combatribes, The (BR).sfc-bezel.png</bezel>
+  </game>
+  <game id="2157">
+    <path>./Super R-Type (BR).smc.7z</path>
+    <name>Super R-Type</name>
+    <desc>A galactic battle begins! The BYDO Empire of mutant aliens is back with evil intentions and incredible power. You'll feel the heat of the attack like never before with the extremely powerful graphics and unbelievable realism of the Super NES. Now, the evil Empire is about to launch a new attack on Earth. Only the revolutionary R-9 stands between these monsters and doom. Are they invincible? You'll need lightning reflexes, intuitive movements and a large dose of cosmic luck to control yourself! "R" are you ready? The "R" mutants ready for you!</desc>
+    <rating>0.60</rating>
+    <releasedate>19920604T000000</releasedate>
+    <developer>Irem</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Shoot'em Up / Horizontal, Shoot'em Up</genre>
+    <genreid>260</genreid>
+    <players>1</players>
+    <region>eu</region>
+    <image>./media/image/Super R-Type (BR).smc-image.png</image>
+    <video>./media/videos/Super R-Type (BR).smc-video.mp4</video>
+    <boxart>./media/image/Super R-Type (BR).smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Super R-Type (BR).smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Super R-Type (BR).smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Super R-Type (BR).smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Super R-Type (BR).smc-titleshot.png</titleshot>
+    <manual>./media/manuals/Super R-Type (BR).smc_(us).pdf</manual>
+    <boxback>./media/image/Super R-Type (BR).smc-boxback.png</boxback>
+    <extra1>./media/extras/Super R-Type (BR).smc-extra1.png</extra1>
+    <bezel>./media/bezels/Super R-Type (BR).smc-bezel.png</bezel>
+  </game>
+  <game id="65133">
+    <path>./Super Ninja-kun.7z</path>
+    <name>Super Ninja-kun</name>
+    <desc>Super Ninja Kun is an action/platform game that can be played by 2 players simultaneously. It is in fact a remake of the 1984 arcade game Ninja Kun, but with a direction worthy of the 16-bit Nintendo. You control one (or two) little ninja on the side who must reach the end of each level and fight a boss. His progression is hampered by numerous enemies attacking from all sides, but he can defend himself by throwing shuriken and jumping on enemies to stun them. You can also run by pressing twice quickly in one direction. Each enemy eliminated causes a soul to appear. Collecting them fills a special gauge that allows you to summon a power when it is full. After each level, you get a new weapon that can be replaced with shuriken at any time.</desc>
+    <rating>0.60</rating>
+    <developer>Jaleco</developer>
+    <publisher>Jaleco</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <region>jp</region>
+    <image>./media/image/Super Ninja-kun-image.png</image>
+    <video>./media/videos/Super Ninja-kun-video.mp4</video>
+    <marquee>./media/image/Super Ninja-kun-marquee.png</marquee>
+    <wheel>./media/wheel/Super Ninja-kun-wheel.png</wheel>
+    <boxart>./media/image/Super Ninja-kun-boxart.png</boxart>
+    <screenshot>./media/screenshots/Super Ninja-kun-screenshot.png</screenshot>
+    <cartridge>./media/image/Super Ninja-kun-cartridge.png</cartridge>
+    <fanart>./media/fanart/Super Ninja-kun-fanart.jpg</fanart>
+    <titleshot>./media/image/Super Ninja-kun-titleshot.png</titleshot>
+    <boxback>./media/image/Super Ninja-kun-boxback.png</boxback>
+    <extra1>./media/extras/Super Ninja-kun-extra1.png</extra1>
+  </game>
+  <game id="2163">
+    <path>./Super Mario World 2 - Yoshi's Island (BR).sfc.7z</path>
+    <name>Super Mario World 2 : Yoshi's Island</name>
+    <desc>The events of Yoshi's Island take place in the past. Mario was one of two twin brothers that the evil Magikoopa Kamek tried to kidnap. Kamek kidnapped one of the brothers, but the second, Mario, crash landed on Yoshi's Island, where Yoshis live. The Yoshis decided to take baby Mario and return him to his parents. But Kamek sent troops and hordes of monsters to stop the Yoshis and kidnap Mario.
+In the game, players control Yoshis of different colors most of the time. Mario is a defenseless baby unless a star that makes him invincible is collected. As a Yoshi, players can swallow enemies to make eggs; These eggs are used to attack other enemies and activate switches. Yoshi can do a jump to clear large gaps that a normal jump cannot. Players can also tap the ground for attacks and also toggle certain switches. Additionally, Yoshis can transform into vehicles, such as a helicopter, a submarine or a train.</desc>
+    <rating>0.80</rating>
+    <releasedate>19951006T000000</releasedate>
+    <developer>Nintendo</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <region>eu</region>
+    <image>./media/image/Super Mario World 2 - Yoshi's Island (BR).sfc-image.png</image>
+    <video>./media/videos/Super Mario World 2 - Yoshi's Island (BR).sfc-video.mp4</video>
+    <boxart>./media/image/Super Mario World 2 - Yoshi's Island (BR).sfc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Super Mario World 2 - Yoshi's Island (BR).sfc-screenshot.png</screenshot>
+    <cartridge>./media/image/Super Mario World 2 - Yoshi's Island (BR).sfc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Super Mario World 2 - Yoshi's Island (BR).sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/Super Mario World 2 - Yoshi's Island (BR).sfc-titleshot.png</titleshot>
+    <manual>./media/manuals/Super Mario World 2 - Yoshi's Island (BR).sfc_(us).pdf</manual>
+    <boxback>./media/image/Super Mario World 2 - Yoshi's Island (BR).sfc-boxback.png</boxback>
+    <extra1>./media/extras/Super Mario World 2 - Yoshi's Island (BR).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/Super Mario World 2 - Yoshi's Island (BR).sfc-bezel.png</bezel>
+  </game>
+  <game id="2144">
+    <path>./Super Mario World (BR).7z</path>
+    <name>Super Mario World</name>
+    <desc>After saving the Mushroom Kingdom in Super Mario Bros 3, Mario and Luigi once again embark on an adventure to save Princess Peach, who was captured by Bowser while on vacation in Dinosaur Land. On their rescue mission, Mario and Luigi encounter Yoshi, a dinosaur whose friends were kidnapped by Bowser and his henchmen. Together, Mario, Luigi and Yoshi must explore Dinosaur Land - now infested and dominated by Bowser's minions - with the hopes of rescuing Peach and Yoshi's friends.
+Super Mario World, also known as Super Mario Bros 4, has more than ninety stages spread across eight regions. Each region has a unique theme with different items, secrets, castles and enemies. Embark with Mário, Luigi and Yoshi on another journey full of adventures and dangers, save the inhabitants of Dinosaur Land and rescue the Princess once again.</desc>
+    <rating>0.80</rating>
+    <releasedate>19920411T000000</releasedate>
+    <developer>Nintendo</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Plataforma / Corre E Pula, Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <region>eu,us</region>
+    <image>./media/image/Super Mario World (BR)-image.png</image>
+    <video>./media/videos/Super Mario World (BR)-video.mp4</video>
+    <marquee>./media/image/Super Mario World (BR)-marquee.png</marquee>
+    <wheel>./media/wheel/Super Mario World (BR)-wheel.png</wheel>
+    <boxart>./media/image/Super Mario World (BR)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Super Mario World (BR)-screenshot.png</screenshot>
+    <cartridge>./media/image/Super Mario World (BR)-cartridge.png</cartridge>
+    <fanart>./media/fanart/Super Mario World (BR)-fanart.jpg</fanart>
+    <titleshot>./media/image/Super Mario World (BR)-titleshot.png</titleshot>
+    <manual>./media/manuals/Super Mario World (BR)_(br).pdf</manual>
+    <boxback>./media/image/Super Mario World (BR)-boxback.png</boxback>
+    <extra1>./media/extras/Super Mario World (BR)-extra1.png</extra1>
+    <bezel>./media/bezels/Super Mario World (BR)-bezel.png</bezel>
+  </game>
+  <game id="65556">
+    <path>./Super Mario All-Stars + Super Mario World (BR).7z</path>
+    <name>Super Mario All-Stars and Super Mario World</name>
+    <desc>Super Mario All Stars + World brings a collection of Super Mario games released for the Nintendo Entertainment System (NES) and an improved version of Super Mario World. All games had graphics redone in relation to the NES version, Super Mario World brought few changes but the most noticeable is the addition of sprites for Luigi, which in the original was just an alternative color palette.</desc>
+    <rating>0.80</rating>
+    <releasedate>19941201T000000</releasedate>
+    <developer>Nintendo</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Compilação, Plataforma, Plataforma / Corre E Pula Com Rolagem</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <region>us</region>
+    <image>./media/image/Super Mario All-Stars + Super Mario World (BR)-image.png</image>
+    <video>./media/videos/Super Mario All-Stars + Super Mario World (BR)-video.mp4</video>
+    <boxart>./media/image/Super Mario All-Stars + Super Mario World (BR)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Super Mario All-Stars + Super Mario World (BR)-screenshot.png</screenshot>
+    <cartridge>./media/image/Super Mario All-Stars + Super Mario World (BR)-cartridge.png</cartridge>
+    <fanart>./media/fanart/Super Mario All-Stars + Super Mario World (BR)-fanart.jpg</fanart>
+    <titleshot>./media/image/Super Mario All-Stars + Super Mario World (BR)-titleshot.png</titleshot>
+    <manual>./media/manuals/Super Mario All-Stars + Super Mario World (BR)_(eu).pdf</manual>
+    <extra1>./media/extras/Super Mario All-Stars + Super Mario World (BR)-extra1.png</extra1>
+    <bezel>./media/bezels/Super Mario All-Stars + Super Mario World (BR)-bezel.png</bezel>
+  </game>
+  <game id="2173">
+    <path>./Super Castlevania IV (BR).smc.7z</path>
+    <name>Super Castlevania IV</name>
+    <mode>Jogador individual</mode>
+    <desc>Every 100 years, the forces of good mysteriously weaken. During this period, Dracula's power begins to resurface, becoming stronger and stronger. Dracula has revived many times; However, his sinister actions were constantly stopped by the Belmont family.
+It has been 100 years since the last confrontation, and now, the tranquility of Transylvania is once again threatened by dark forces.
+It is the year 1691. On a dark night, Dracula has risen from the dead, plunging the land of Europe into a state of total darkness. The Count's legions grew like a plague, infesting the Earth like a disease wherever they went. Simon Belmont, the great-grandson of Christopher Belmont, was the one who heard the people's screams. Armed with the legendary Vampire Killer whip, he will begin a journey to Castlevania, the ancestral home of the Prince of Darkness. Your mission is very clear. Send the Count back to his dark grave, to save the world from his eternal torment.</desc>
+    <rating>0.80</rating>
+    <releasedate>19921123T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Konami</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <region>eu</region>
+    <image>./media/image/Super Castlevania IV (BR).smc-image.png</image>
+    <video>./media/videos/Super Castlevania IV (BR).smc-video.mp4</video>
+    <marquee>./media/image/Super Castlevania IV (BR).smc-marquee.png</marquee>
+    <wheel>./media/wheel/Super Castlevania IV (BR).smc-wheel.png</wheel>
+    <boxart>./media/image/Super Castlevania IV (BR).smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Super Castlevania IV (BR).smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Super Castlevania IV (BR).smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Super Castlevania IV (BR).smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Super Castlevania IV (BR).smc-titleshot.png</titleshot>
+    <manual>./media/manuals/Super Castlevania IV (BR).smc_(us).pdf</manual>
+    <boxback>./media/image/Super Castlevania IV (BR).smc-boxback.png</boxback>
+    <extra1>./media/extras/Super Castlevania IV (BR).smc-extra1.png</extra1>
+    <bezel>./media/bezels/Super Castlevania IV (BR).smc-bezel.png</bezel>
+  </game>
+  <game id="2322">
+    <path>./Super Bomberman 2 (BR).smc.7z</path>
+    <name>Super Bomberman 2</name>
+    <desc>The story of Super Bomberman 2 takes place after Super Bomberman, when the Dastardly Bombers decide to attack the planet Bomber, including the City of Peace, the city where the protagonists White Bomberman and Black Bomberman live. To accomplish this feat, they capture White Bomberman and imprison him in a dungeon on Magnet Bomber's ship and White Bomber does not have his friend to help him. However, White Bomberman escapes the dungeon and now, on Magnet Bomber's ship, he must pass through a fleet of enemies to defeat Magnet Bomber and the other Dastardly Bombers.</desc>
+    <rating>0.80</rating>
+    <releasedate>19950223T000000</releasedate>
+    <developer>Hudson Soft</developer>
+    <publisher>Hudson Soft</publisher>
+    <genre>Ação / Labirinto, Ação</genre>
+    <genreid>258</genreid>
+    <players>1-4</players>
+    <region>jp,us</region>
+    <image>./media/image/Super Bomberman 2 (BR).smc-image.png</image>
+    <video>./media/videos/Super Bomberman 2 (BR).smc-video.mp4</video>
+    <marquee>./media/image/Super Bomberman 2 (BR).smc-marquee.png</marquee>
+    <wheel>./media/wheel/Super Bomberman 2 (BR).smc-wheel.png</wheel>
+    <boxart>./media/image/Super Bomberman 2 (BR).smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Super Bomberman 2 (BR).smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Super Bomberman 2 (BR).smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Super Bomberman 2 (BR).smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Super Bomberman 2 (BR).smc-titleshot.png</titleshot>
+    <manual>./media/manuals/Super Bomberman 2 (BR).smc_(us).pdf</manual>
+    <boxback>./media/image/Super Bomberman 2 (BR).smc-boxback.png</boxback>
+    <extra1>./media/extras/Super Bomberman 2 (BR).smc-extra1.png</extra1>
+    <bezel>./media/bezels/Super Bomberman 2 (BR).smc-bezel.png</bezel>
+  </game>
+  <game id="2241">
+    <path>./Space Megaforce (USA).sfc.7z</path>
+    <name>Super Aleste</name>
+    <mode>Jogador individual</mode>
+    <desc>Compile's Aleste series comes to the SNES with the aptly named Super Aleste. Taking on the role of a lone starfighter pilot, you are tasked with destroying an evil alien armada in standard 2D shooter style. And while you may be alone, you certainly won't be short on power, with eight different weapon types, each with six power-up levels for a total of 48 firing modes (not counting bomb power-ups). Super Aleste has one of the largest arsenals in the history of the 2D shooter.</desc>
+    <rating>0.80</rating>
+    <releasedate>19921030T000000</releasedate>
+    <developer>Compile</developer>
+    <publisher>Toho</publisher>
+    <genre>Shoot'em Up / Vertical, Shoot'em Up</genre>
+    <genreid>260</genreid>
+    <players>1</players>
+    <region>us</region>
+    <image>./media/image/Space Megaforce (USA).sfc-image.png</image>
+    <video>./media/videos/Space Megaforce (USA).sfc-video.mp4</video>
+    <marquee>./media/image/Space Megaforce (USA).sfc-marquee.png</marquee>
+    <wheel>./media/wheel/Space Megaforce (USA).sfc-wheel.png</wheel>
+    <boxart>./media/image/Space Megaforce (USA).sfc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Space Megaforce (USA).sfc-screenshot.png</screenshot>
+    <cartridge>./media/image/Space Megaforce (USA).sfc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Space Megaforce (USA).sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/Space Megaforce (USA).sfc-titleshot.png</titleshot>
+    <manual>./media/manuals/Space Megaforce (USA).sfc_(eu).pdf</manual>
+    <boxback>./media/image/Space Megaforce (USA).sfc-boxback.png</boxback>
+    <extra1>./media/extras/Space Megaforce (USA).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/Space Megaforce (USA).sfc-bezel.png</bezel>
+  </game>
+  <game id="2528">
+    <path>./Super Adventure Island II (BR) (T1.01).sfc.7z</path>
+    <name>Super Adventure Island II</name>
+    <desc>Master Higgins finally marries his lovely girlfriend Tina. But out of nowhere, a powerful tropical cyclone destroyed the idyllic atmosphere of their honeymoon. And not only that: it separated the ardent lovers again. After the winds stopped blowing, Tina found herself somewhere on a tropical coast. As for Master Higgins, he went to the king of Waku-Waku and, along with his main mission to save his new wife, he was given the mission to also save a princess, whom the king was about to marry. Is there a connection between these two events? ..</desc>
+    <rating>0.60</rating>
+    <releasedate>19950101T000000</releasedate>
+    <developer>Hudson Soft</developer>
+    <publisher>Hudson Soft</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <region>eu</region>
+    <image>./media/image/Super Adventure Island II (BR) (T1.01).sfc-image.png</image>
+    <video>./media/videos/Super Adventure Island II (BR) (T1.01).sfc-video.mp4</video>
+    <boxart>./media/image/Super Adventure Island II (BR) (T1.01).sfc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Super Adventure Island II (BR) (T1.01).sfc-screenshot.png</screenshot>
+    <cartridge>./media/image/Super Adventure Island II (BR) (T1.01).sfc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Super Adventure Island II (BR) (T1.01).sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/Super Adventure Island II (BR) (T1.01).sfc-titleshot.png</titleshot>
+    <manual>./media/manuals/Super Adventure Island II (BR) (T1.01).sfc_(eu).pdf</manual>
+    <boxback>./media/image/Super Adventure Island II (BR) (T1.01).sfc-boxback.png</boxback>
+    <extra1>./media/extras/Super Adventure Island II (BR) (T1.01).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/Super Adventure Island II (BR) (T1.01).sfc-bezel.png</bezel>
+  </game>
+  <game id="2336">
+    <path>./Super Adventure Island (BR-USA) (T3.0).sfc.7z</path>
+    <name>Super Adventure Island</name>
+    <mode>Jogador individual</mode>
+    <desc>Master Higgins is back in his biggest, wildest adventure yet! His girlfriend, Jeannie Jungle, was turned to stone by the evil Dark Cloak. Now he must take action to defeat the dozens of guardian animals and monsters that protect the wicked sorcerer.
+Join Master Higgins as he reaches new heights of adventure on his flying skateboard. Speed ​​through underground caves on a crazy car ride! Go from tropical shores to the belly of a whale - all in search of your final battle with the mad magician, Dark Cloak!</desc>
+    <rating>0.60</rating>
+    <releasedate>19921119T000000</releasedate>
+    <developer>Hudson Soft</developer>
+    <publisher>Hudson Soft</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <region>eu</region>
+    <image>./media/image/Super Adventure Island (BR-USA) (T3.0).sfc-image.png</image>
+    <video>./media/videos/Super Adventure Island (BR-USA) (T3.0).sfc-video.mp4</video>
+    <marquee>./media/image/Super Adventure Island (BR-USA) (T3.0).sfc-marquee.png</marquee>
+    <wheel>./media/wheel/Super Adventure Island (BR-USA) (T3.0).sfc-wheel.png</wheel>
+    <boxart>./media/image/Super Adventure Island (BR-USA) (T3.0).sfc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Super Adventure Island (BR-USA) (T3.0).sfc-screenshot.png</screenshot>
+    <cartridge>./media/image/Super Adventure Island (BR-USA) (T3.0).sfc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Super Adventure Island (BR-USA) (T3.0).sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/Super Adventure Island (BR-USA) (T3.0).sfc-titleshot.png</titleshot>
+    <manual>./media/manuals/Super Adventure Island (BR-USA) (T3.0).sfc_(us).pdf</manual>
+    <boxback>./media/image/Super Adventure Island (BR-USA) (T3.0).sfc-boxback.png</boxback>
+    <extra1>./media/extras/Super Adventure Island (BR-USA) (T3.0).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/Super Adventure Island (BR-USA) (T3.0).sfc-bezel.png</bezel>
+  </game>
+  <game id="2292">
+    <path>./Sunset Riders (BR).sfc.7z</path>
+    <name>Sunset Riders</name>
+    <desc>The Wild West... full of criminal elements. Sir Richard Rose, the most despicable face on the crime lot, has enough power to control mining facilities, cattle farms and commercial communities and turn everything to his advantage. With so much power, he could literally buy the Wild West and control everything!
+The people desperately need help. And when things were looking dire, who should ride into town but 4 men who made a pact: to overthrow Sir Richard Rose and make the Wild West a free and peaceful place to live.</desc>
+    <rating>0.60</rating>
+    <releasedate>19931001T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Konami</publisher>
+    <genre>Tiro / Run And Gun, Tiro</genre>
+    <genreid>256</genreid>
+    <players>1-2</players>
+    <region>eu</region>
+    <image>./media/image/Sunset Riders (BR).sfc-image.png</image>
+    <video>./media/videos/Sunset Riders (BR).sfc-video.mp4</video>
+    <boxart>./media/image/Sunset Riders (BR).sfc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Sunset Riders (BR).sfc-screenshot.png</screenshot>
+    <cartridge>./media/image/Sunset Riders (BR).sfc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Sunset Riders (BR).sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/Sunset Riders (BR).sfc-titleshot.png</titleshot>
+    <manual>./media/manuals/Sunset Riders (BR).sfc_(eu).pdf</manual>
+    <boxback>./media/image/Sunset Riders (BR).sfc-boxback.png</boxback>
+    <extra1>./media/extras/Sunset Riders (BR).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/Sunset Riders (BR).sfc-bezel.png</bezel>
+  </game>
+  <game id="2176">
+    <path>./Street Fighter II Turbo (USA) (Rev 1).sfc.7z</path>
+    <name>Street Fighter II Turbo</name>
+    <desc>Choose from twelve street fighters from around the world, skilled in a variety of martial arts - for example, a character named E.Honda is a sumo wrestler from Japan, while Ken is a Tae Kwon Do master from the United States. Travel to different countries to defeat other fighters, eventually leading to a battle with the villain M.Bison. In addition to standard punches and kicks, each character can also perform special moves, such as energy projectiles or quick kicks, for more damage or to create successful combos.
+This home version is a re-release of the original Street Fighter 2 game with several major improvements: the 'boss' characters (Vega, Balrog, Sagat and M. Bison) are automatically unlocked for you to play, each character gets some new or upgraded moves and different colored robes, and you can select a Turbo speed level that allows you to play at a faster speed. It is based on the arcade re-release of the same name which also contained the subtitle "Hyper Fighting".</desc>
+    <rating>0.80</rating>
+    <releasedate>19930801T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Luta</genre>
+    <genreid>262</genreid>
+    <players>1-2</players>
+    <region>eu</region>
+    <image>./media/image/Street Fighter II Turbo (USA) (Rev 1).sfc-image.png</image>
+    <video>./media/videos/Street Fighter II Turbo (USA) (Rev 1).sfc-video.mp4</video>
+    <marquee>./media/image/Street Fighter II Turbo (USA) (Rev 1).sfc-marquee.png</marquee>
+    <wheel>./media/wheel/Street Fighter II Turbo (USA) (Rev 1).sfc-wheel.png</wheel>
+    <boxart>./media/image/Street Fighter II Turbo (USA) (Rev 1).sfc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Street Fighter II Turbo (USA) (Rev 1).sfc-screenshot.png</screenshot>
+    <cartridge>./media/image/Street Fighter II Turbo (USA) (Rev 1).sfc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Street Fighter II Turbo (USA) (Rev 1).sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/Street Fighter II Turbo (USA) (Rev 1).sfc-titleshot.png</titleshot>
+    <manual>./media/manuals/Street Fighter II Turbo (USA) (Rev 1).sfc_(eu).pdf</manual>
+    <boxback>./media/image/Street Fighter II Turbo (USA) (Rev 1).sfc-boxback.png</boxback>
+    <extra1>./media/extras/Street Fighter II Turbo (USA) (Rev 1).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/Street Fighter II Turbo (USA) (Rev 1).sfc-bezel.png</bezel>
+  </game>
+  <game id="2215">
+    <path>./Street Fighter Alpha 2 (USA).sfc.7z</path>
+    <name>Street Fighter Alpha 2</name>
+    <desc>Another Street Fighter sequel (this time to Street Fighter Alpha) adds even more to the classic fighting series.
+New characters in this version include Gen (a wise kung-fu master), Rolento (who you may remember from another Capcom classic, Final Fight) and Sakura, a young schoolgirl who follows her hero Ryu closely, she has the same type of moves. Dhalsim and Zangief also return to the fight with some new features.
+The other big difference is the loss of combos and the gain of a custom combo system. Once you reach the required level (which is 1 minimum) you can perform a custom combo by combining any of the buttons (which are 6 in total) or any of the special attacks (fireballs, etc.)</desc>
+    <rating>0.80</rating>
+    <releasedate>19961219T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Luta</genre>
+    <genreid>262</genreid>
+    <players>1-2</players>
+    <region>eu</region>
+    <image>./media/image/Street Fighter Alpha 2 (USA).sfc-image.png</image>
+    <video>./media/videos/Street Fighter Alpha 2 (USA).sfc-video.mp4</video>
+    <boxart>./media/image/Street Fighter Alpha 2 (USA).sfc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Street Fighter Alpha 2 (USA).sfc-screenshot.png</screenshot>
+    <cartridge>./media/image/Street Fighter Alpha 2 (USA).sfc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Street Fighter Alpha 2 (USA).sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/Street Fighter Alpha 2 (USA).sfc-titleshot.png</titleshot>
+    <manual>./media/manuals/Street Fighter Alpha 2 (USA).sfc_(us).pdf</manual>
+    <boxback>./media/image/Street Fighter Alpha 2 (USA).sfc-boxback.png</boxback>
+    <extra1>./media/extras/Street Fighter Alpha 2 (USA).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/Street Fighter Alpha 2 (USA).sfc-bezel.png</bezel>
+  </game>
+  <game id="19196">
+    <path>./Star Fox (BR).smc.7z</path>
+    <name>Starwing</name>
+    <mode>Jogador individual</mode>
+    <desc>This is the first SNES title using the Super FX chip; You are flying ace Fox McCloud, who with his trusted wingmen and his powerful Arwing starfighter, must rid the Lylat System of the evil that surrounds it. Wave after wave of enemies will fly towards you, and with the advice of your wingmen, you must guide your way through each level and take down as many as you can.</desc>
+    <rating>0.80</rating>
+    <releasedate>19930603T000000</releasedate>
+    <developer>Nintendo</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Shoot'em Up</genre>
+    <genreid>260</genreid>
+    <players>1</players>
+    <region>jp,us</region>
+    <image>./media/image/Star Fox (BR).smc-image.png</image>
+    <video>./media/videos/Star Fox (BR).smc-video.mp4</video>
+    <marquee>./media/image/Star Fox (BR).smc-marquee.png</marquee>
+    <wheel>./media/wheel/Star Fox (BR).smc-wheel.png</wheel>
+    <boxart>./media/image/Star Fox (BR).smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Star Fox (BR).smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Star Fox (BR).smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Star Fox (BR).smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Star Fox (BR).smc-titleshot.png</titleshot>
+    <manual>./media/manuals/Star Fox (BR).smc_(us).pdf</manual>
+    <boxback>./media/image/Star Fox (BR).smc-boxback.png</boxback>
+    <extra1>./media/extras/Star Fox (BR).smc-extra1.png</extra1>
+    <bezel>./media/bezels/Star Fox (BR).smc-bezel.png</bezel>
+  </game>
+  <game id="2418">
+    <path>./Sparkster (BR).sfc.7z</path>
+    <name>Sparkster</name>
+    <desc>HE'S AN OPUMPED-UP OPOSSUM!
+SPARKSTER is springing into action as the toughest Rocket Knight to ever wield a sword. Grab the controls and blast through nine wild levels on your quest to rid the world of the nasty Colonel Wolfheim and his allies - a pack of wolves who aren't here to dance!
+Oh yes, and before you get too comfortable - Axel Gear is here. This Rocket Knight who is in trouble has a score to settle with Sparkster. Our hero will need his new REWED-UP rocket and powerful new attack moves to kick Axel's ass back to the dark side of the planet.</desc>
+    <rating>0.80</rating>
+    <releasedate>19941002T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Konami</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <region>eu</region>
+    <image>./media/image/Sparkster (BR).sfc-image.png</image>
+    <video>./media/videos/Sparkster (BR).sfc-video.mp4</video>
+    <marquee>./media/image/Sparkster (BR).sfc-marquee.png</marquee>
+    <wheel>./media/wheel/Sparkster (BR).sfc-wheel.png</wheel>
+    <boxart>./media/image/Sparkster (BR).sfc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Sparkster (BR).sfc-screenshot.png</screenshot>
+    <cartridge>./media/image/Sparkster (BR).sfc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Sparkster (BR).sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/Sparkster (BR).sfc-titleshot.png</titleshot>
+    <manual>./media/manuals/Sparkster (BR).sfc_(eu).pdf</manual>
+    <boxback>./media/image/Sparkster (BR).sfc-boxback.png</boxback>
+    <extra1>./media/extras/Sparkster (BR).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/Sparkster (BR).sfc-bezel.png</bezel>
+  </game>
+  <game id="2504">
+    <path>./Sonic Blast Man II.smc.7z</path>
+    <name>Sonic Blast Man II</name>
+    <desc>Heavy Blast Man is once again trying to take over Earth. People are being turned into horrible monsters and being made to serve him. Sonic Blast Man returns with some new friends, Sonia and Captain Choyear. Together, they fight Heavy Blast Man and his minions to save Earth from destruction.
+You control one of three characters in this side controller as you fight your way through various levels filled with enemies and bosses. Beat them with basic punches and kicks or use your super moves to get out of sticky situations.</desc>
+    <rating>0.80</rating>
+    <releasedate>19940426T000000</releasedate>
+    <developer>ITL</developer>
+    <publisher>Taito</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <region>us</region>
+    <image>./media/image/Sonic Blast Man II.smc-image.png</image>
+    <video>./media/videos/Sonic Blast Man II.smc-video.mp4</video>
+    <boxart>./media/image/Sonic Blast Man II.smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Sonic Blast Man II.smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Sonic Blast Man II.smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Sonic Blast Man II.smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Sonic Blast Man II.smc-titleshot.png</titleshot>
+    <manual>./media/manuals/Sonic Blast Man II.smc_(us).pdf</manual>
+    <boxback>./media/image/Sonic Blast Man II.smc-boxback.png</boxback>
+    <extra1>./media/extras/Sonic Blast Man II.smc-extra1.png</extra1>
+    <bezel>./media/bezels/Sonic Blast Man II.smc-bezel.png</bezel>
+  </game>
+  <game id="88761">
+    <path>./Sonic Blast Man.smc.7z</path>
+    <name>Sonic Blast Man</name>
+    <desc>Sonic Blast Man is highly trained in any form of hand-to-hand combat.  With his explosive punches, kicks, judo strikes and other fighting techniques, he uses his body to sweep enemies off the screen.  As you travel across Earth to the space station, you will be attacked by hundreds of human, robot and alien enemies.  Blast Man faces adventures that will take him to the limits of his possibilities... And beyond!</desc>
+    <rating>0.60</rating>
+    <releasedate>19930101T000000</releasedate>
+    <developer>Disco</developer>
+    <publisher>Taito</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1</players>
+    <region>us</region>
+    <image>./media/image/Sonic Blast Man.smc-image.png</image>
+    <video>./media/videos/Sonic Blast Man.smc-video.mp4</video>
+    <boxart>./media/image/Sonic Blast Man.smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Sonic Blast Man.smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Sonic Blast Man.smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Sonic Blast Man.smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Sonic Blast Man.smc-titleshot.png</titleshot>
+    <manual>./media/manuals/Sonic Blast Man.smc_(us).pdf</manual>
+    <boxback>./media/image/Sonic Blast Man.smc-boxback.png</boxback>
+    <extra1>./media/extras/Sonic Blast Man.smc-extra1.png</extra1>
+    <bezel>./media/bezels/Sonic Blast Man.smc-bezel.png</bezel>
+  </game>
+  <game id="2242">
+    <path>./Skyblazer (BR-USA) (T1.2).sfc.7z</path>
+    <name>Skyblazer</name>
+    <mode>Jogador individual</mode>
+    <desc>Arianna, a young sorceress, was kidnapped by Ashura. Sky promised his life to rescue her. Sky must adventure through various colorful stages and beautiful background effects.
+Skyblazer is a mix of side-scrolling fighting and magical abilities. Finding potions to recover energy and gain magic points to defeat enemies becomes an important part of the game. The sky can also stick to and climb walls vertically.</desc>
+    <rating>0.60</rating>
+    <releasedate>19940325T000000</releasedate>
+    <developer>Ukiyotei</developer>
+    <publisher>Sony Imagesoft</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <region>eu</region>
+    <image>./media/image/Skyblazer (BR-USA) (T1.2).sfc-image.png</image>
+    <video>./media/videos/Skyblazer (BR-USA) (T1.2).sfc-video.mp4</video>
+    <boxart>./media/image/Skyblazer (BR-USA) (T1.2).sfc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Skyblazer (BR-USA) (T1.2).sfc-screenshot.png</screenshot>
+    <cartridge>./media/image/Skyblazer (BR-USA) (T1.2).sfc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Skyblazer (BR-USA) (T1.2).sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/Skyblazer (BR-USA) (T1.2).sfc-titleshot.png</titleshot>
+    <manual>./media/manuals/Skyblazer (BR-USA) (T1.2).sfc_(eu).pdf</manual>
+    <boxback>./media/image/Skyblazer (BR-USA) (T1.2).sfc-boxback.png</boxback>
+    <extra1>./media/extras/Skyblazer (BR-USA) (T1.2).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/Skyblazer (BR-USA) (T1.2).sfc-bezel.png</bezel>
+  </game>
+  <game id="64980">
+    <path>./Gundam Wing - Endless Duel (BR).smc.7z</path>
+    <name>Shin Kidou Senki Gundam W - Endless Duel</name>
+    <mode>Multijogador competitivo</mode>
+    <desc>The year is 195 After Colonization, the war between the Space Colonies and Earth began. To give the colonists an advantage, they send 5 young soldiers, trained to perfection, into the land in the most powerful Gundams. With their arrival, the tide of war turns as they battle the forces of Earth.</desc>
+    <rating>0.80</rating>
+    <developer>Natsume</developer>
+    <publisher>Bandai</publisher>
+    <genre>Luta / 2D, Luta</genre>
+    <genreid>262</genreid>
+    <players>1-2</players>
+    <region>jp</region>
+    <image>./media/image/Gundam Wing - Endless Duel (BR).smc-image.png</image>
+    <video>./media/videos/Gundam Wing - Endless Duel (BR).smc-video.mp4</video>
+    <marquee>./media/image/Gundam Wing - Endless Duel (BR).smc-marquee.png</marquee>
+    <wheel>./media/wheel/Gundam Wing - Endless Duel (BR).smc-wheel.png</wheel>
+    <boxart>./media/image/Gundam Wing - Endless Duel (BR).smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Gundam Wing - Endless Duel (BR).smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Gundam Wing - Endless Duel (BR).smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Gundam Wing - Endless Duel (BR).smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Gundam Wing - Endless Duel (BR).smc-titleshot.png</titleshot>
+    <boxback>./media/image/Gundam Wing - Endless Duel (BR).smc-boxback.png</boxback>
+    <extra1>./media/extras/Gundam Wing - Endless Duel (BR).smc-extra1.png</extra1>
+    <bezel>./media/bezels/Gundam Wing - Endless Duel (BR).smc-bezel.png</bezel>
+  </game>
+  <game id="2231">
+    <path>./Prince of Persia (BR).smc.7z</path>
+    <name>Prince of Persia</name>
+    <desc>Grand Vizier Jaffar has thrown you into a dark dungeon and plans to marry the girl of your dreams within the hour. You're not going to let that happen, are you? Try to escape the dungeon, defeat Jaffar's guards, find your way through the Sultan's palace and defeat Jaffar himself. Now go, you have 60 minutes!
+Prince of Persia is a 2D platformer with run and jump gameplay. Your hero must avoid deadly traps, solve some simple puzzles and engage in sword fights with guards. The player has an infinite amount of lives, but must restart at the beginning of a level each time they die, and must complete the game in one hour. An especially notable aspect of the game is the very fluent animation of your character.
+The Game Boy Color and SNES versions of the game feature additional levels and new enemies. The Genesis version has a new introduction and an altered set of graphics, but the level layout remains nearly identical to the original.</desc>
+    <rating>0.60</rating>
+    <releasedate>19930422T000000</releasedate>
+    <developer>Arsys Software</developer>
+    <publisher>Konami</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <region>eu</region>
+    <image>./media/image/Prince of Persia (BR).smc-image.png</image>
+    <video>./media/videos/Prince of Persia (BR).smc-video.mp4</video>
+    <marquee>./media/image/Prince of Persia (BR).smc-marquee.png</marquee>
+    <wheel>./media/wheel/Prince of Persia (BR).smc-wheel.png</wheel>
+    <boxart>./media/image/Prince of Persia (BR).smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Prince of Persia (BR).smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Prince of Persia (BR).smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Prince of Persia (BR).smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Prince of Persia (BR).smc-titleshot.png</titleshot>
+    <manual>./media/manuals/Prince of Persia (BR).smc_(us).pdf</manual>
+    <boxback>./media/image/Prince of Persia (BR).smc-boxback.png</boxback>
+    <extra1>./media/extras/Prince of Persia (BR).smc-extra1.png</extra1>
+    <bezel>./media/bezels/Prince of Persia (BR).smc-bezel.png</bezel>
+  </game>
+  <game id="59600">
+    <path>./Nangoku Shounen Papuwa-kun.7z</path>
+    <name>Nangoku Shounen Papuwa-kun</name>
+    <mode>Jogador individual</mode>
+    <desc>The game is a mix of brawlers and platforms based on the manga of the same title about a boy and his unusual friends on a tropical island.  The player character is Shintaro, a member of the Genma army, as he runs around the island to find out where a bunch of invading monsters came from.  Shintaro has a quick punch move and a charged beam attack, and fights several sub-bosses as he progresses through the levels.  He will also occasionally encounter characters from the manga, including Tanno and Itou, who are a transvestite fish and an effeminate pink snail, respectively.</desc>
+    <rating>0.60</rating>
+    <developer>Daft</developer>
+    <publisher>Enix</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <video>./media/videos/Nangoku Shounen Papuwa-kun-video.mp4</video>
+    <screenshot>./media/screenshots/Nangoku Shounen Papuwa-kun-screenshot.png</screenshot>
+    <fanart>./media/fanart/Nangoku Shounen Papuwa-kun-fanart.jpg</fanart>
+    <titleshot>./media/image/Nangoku Shounen Papuwa-kun-titleshot.png</titleshot>
+    <extra1>./media/extras/Nangoku Shounen Papuwa-kun-extra1.png</extra1>
+  </game>
+  <game id="2178">
+    <path>./Mortal Kombat (BR).sfc.7z</path>
+    <name>Mortal Kombat</name>
+    <desc>Five hundred years ago, an ancient and respected Shaolin fighting tournament, held every 50 years, was corrupted by an evil old sorcerer named Shang Tsung. Shang was accompanied by Prince Goro, a warrior of the Shokan race (a four-armed half-human/half-dragon). Knowing that if ten tournaments in a row were won by the Outworld champion, the Earth Realm would be conquered by evil and fall into darkness, Shang entered Goro into the tournament and had him defeat the great Kung Lao. Goro has reigned as the undefeated fighting champion for five hundred years now. As the final tournament approaches, Raiden, God of Thunder and Protector of the Earth Realm, promises a plan to tip the scales in favor of humans. Seven fighters enter the arena on the mysterious island of Shang Tsung: Shaolin warrior Liu Kang, Special Forces agent Sonya Blade, mercenary bandit Kano, actor Johnny Cage, Lin Kuei warrior Sub-Zero and his undead adversary Scorpion, and Raiden himself.
+Mortal Kombat is a side-scrolling fighting game. The fight is set as a one-on-one kombat, allowing each player to perform a variety of punches, kicks and special moves to defeat their opponent. When the opponent faces defeat in the second round, the winner can perform a finishing move called "Fatality" on the loser. The Fatality is a unique move for each fighter that graphically kills the loser in a blood-soaked finish.
+Mortal Kombat began its life as a 2-player arcade title. It is notable for its use of digitized actors to represent the game's fighters, as well as the use of copious amounts of blood during gameplay.</desc>
+    <rating>0.60</rating>
+    <releasedate>19931028T000000</releasedate>
+    <developer>Midway</developer>
+    <publisher>Acclaim Entertainment</publisher>
+    <genre>Luta</genre>
+    <genreid>262</genreid>
+    <players>1-2</players>
+    <region>eu,us</region>
+    <adult>true</adult>
+    <image>./media/image/Mortal Kombat (BR).sfc-image.png</image>
+    <video>./media/videos/Mortal Kombat (BR).sfc-video.mp4</video>
+    <boxart>./media/image/Mortal Kombat (BR).sfc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Mortal Kombat (BR).sfc-screenshot.png</screenshot>
+    <cartridge>./media/image/Mortal Kombat (BR).sfc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Mortal Kombat (BR).sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/Mortal Kombat (BR).sfc-titleshot.png</titleshot>
+    <manual>./media/manuals/Mortal Kombat (BR).sfc_(us).pdf</manual>
+    <boxback>./media/image/Mortal Kombat (BR).sfc-boxback.png</boxback>
+    <extra1>./media/extras/Mortal Kombat (BR).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/Mortal Kombat (BR).sfc-bezel.png</bezel>
+  </game>
+  <game id="2191">
+    <path>./Mega Man X 3 (BR).smc.7z</path>
+    <name>Mega Man X3</name>
+    <desc>A Reploid scientist named Dr. Doppler begins the creation of a new city for the Reploids, which will bring a new era of peace for the Reploids and humans. But something goes terribly wrong, and now Mavericks have started appearing everywhere! It's up to X and Zero to find out who's behind this Maverick uprising and put it down for good!</desc>
+    <rating>0.80</rating>
+    <releasedate>19960725T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Plataforma / Tiro Com Rolagem, Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <region>eu</region>
+    <image>./media/image/Mega Man X 3 (BR).smc-image.png</image>
+    <video>./media/videos/Mega Man X 3 (BR).smc-video.mp4</video>
+    <marquee>./media/image/Mega Man X 3 (BR).smc-marquee.png</marquee>
+    <wheel>./media/wheel/Mega Man X 3 (BR).smc-wheel.png</wheel>
+    <boxart>./media/image/Mega Man X 3 (BR).smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Mega Man X 3 (BR).smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Mega Man X 3 (BR).smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Mega Man X 3 (BR).smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Mega Man X 3 (BR).smc-titleshot.png</titleshot>
+    <manual>./media/manuals/Mega Man X 3 (BR).smc_(eu).pdf</manual>
+    <boxback>./media/image/Mega Man X 3 (BR).smc-boxback.png</boxback>
+    <extra1>./media/extras/Mega Man X 3 (BR).smc-extra1.png</extra1>
+    <bezel>./media/bezels/Mega Man X 3 (BR).smc-bezel.png</bezel>
+  </game>
+  <game id="2209">
+    <path>./Mega Man X 2 (BR).smc.7z</path>
+    <name>Mega Man X2</name>
+    <mode>Jogador individual</mode>
+    <desc>Sigma, the leader of the Maverick army, was destroyed when he underestimated his opponent: a lone warrior, awakened in a time he never knew...
+6 months have passed and X has risen to the position of leader of the Maverick Hunters. His first task was to eliminate the last of the Mavericks. But as he began his mission, a mysterious group of Reploids called the X-Hunters appeared with a message for X: the remains of their fallen comrade, Zero, were in the hands of the X-Hunters, and they planned to resurrect Zero to fight alongside them and for their fallen leader, Sigma.
+X must now stop the X-Hunters and rescue Zero and once again prevent Sigma from returning to full power.</desc>
+    <rating>0.80</rating>
+    <releasedate>19950712T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Plataforma / Tiro Com Rolagem, Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <region>eu</region>
+    <image>./media/image/Mega Man X 2 (BR).smc-image.png</image>
+    <video>./media/videos/Mega Man X 2 (BR).smc-video.mp4</video>
+    <boxart>./media/image/Mega Man X 2 (BR).smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Mega Man X 2 (BR).smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Mega Man X 2 (BR).smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Mega Man X 2 (BR).smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Mega Man X 2 (BR).smc-titleshot.png</titleshot>
+    <manual>./media/manuals/Mega Man X 2 (BR).smc_(eu).pdf</manual>
+    <boxback>./media/image/Mega Man X 2 (BR).smc-boxback.png</boxback>
+    <extra1>./media/extras/Mega Man X 2 (BR).smc-extra1.png</extra1>
+    <bezel>./media/bezels/Mega Man X 2 (BR).smc-bezel.png</bezel>
+  </game>
+  <game id="2159">
+    <path>./MegaMan X (BR) (T1.2).sfc.7z</path>
+    <name>Mega Man X</name>
+    <mode>Jogador individual</mode>
+    <desc>Mega Man X is a robot designed by Dr. Light to choose his own path in life. Years after he was created, Dr. Cain finds X and imitates his design to create a race of robots called reploids. When the sigma virus infects these reploids, causing them to commit acts of evil, it's up to Mega Man X and his partner Zero (who is quite powerful, contrary to what his name suggests) to stop it.</desc>
+    <rating>0.80</rating>
+    <releasedate>19940825T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Plataforma / Tiro Com Rolagem, Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <region>eu</region>
+    <image>./media/image/MegaMan X (BR) (T1.2).sfc-image.png</image>
+    <video>./media/videos/MegaMan X (BR) (T1.2).sfc-video.mp4</video>
+    <boxart>./media/image/MegaMan X (BR) (T1.2).sfc-boxart.png</boxart>
+    <screenshot>./media/screenshots/MegaMan X (BR) (T1.2).sfc-screenshot.png</screenshot>
+    <cartridge>./media/image/MegaMan X (BR) (T1.2).sfc-cartridge.png</cartridge>
+    <fanart>./media/fanart/MegaMan X (BR) (T1.2).sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/MegaMan X (BR) (T1.2).sfc-titleshot.png</titleshot>
+    <manual>./media/manuals/MegaMan X (BR) (T1.2).sfc_(us).pdf</manual>
+    <boxback>./media/image/MegaMan X (BR) (T1.2).sfc-boxback.png</boxback>
+    <extra1>./media/extras/MegaMan X (BR) (T1.2).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/MegaMan X (BR) (T1.2).sfc-bezel.png</bezel>
+  </game>
+  <game id="19125">
+    <path>./Magical Pop'n.7z</path>
+    <name>Magical Pop'n</name>
+    <desc>The kingdom of Toaru is a prosperous, peaceful place famous for its magic. Inside Toaru castle resides the Magic Jewel and legend has it that it grants the person who holds it great magical power. Because of this, she is sealed inside the castle to prevent her from falling into the wrong hands. One night, a shadowy figure and his army of monsters invade the castle and steal the jewel. Armed with a sword and magical powers, Princess Toaru sets out on a journey to recover the jewel and save the world.</desc>
+    <rating>0.80</rating>
+    <developer>Polestar</developer>
+    <publisher>Pack In Video</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1-5</players>
+    <region>jp</region>
+    <image>./media/image/Magical Pop'n-image.png</image>
+    <video>./media/videos/Magical Pop'n-video.mp4</video>
+    <marquee>./media/image/Magical Pop'n-marquee.png</marquee>
+    <wheel>./media/wheel/Magical Pop'n-wheel.png</wheel>
+    <boxart>./media/image/Magical Pop'n-boxart.png</boxart>
+    <screenshot>./media/screenshots/Magical Pop'n-screenshot.png</screenshot>
+    <cartridge>./media/image/Magical Pop'n-cartridge.png</cartridge>
+    <fanart>./media/fanart/Magical Pop'n-fanart.jpg</fanart>
+    <titleshot>./media/image/Magical Pop'n-titleshot.png</titleshot>
+    <boxback>./media/image/Magical Pop'n-boxback.png</boxback>
+    <extra1>./media/extras/Magical Pop'n-extra1.png</extra1>
+    <bezel>./media/bezels/Magical Pop'n-bezel.png</bezel>
+  </game>
+  <game id="2346">
+    <path>./Knights of the Round (BR).7z</path>
+    <name>Knights of the Round</name>
+    <desc>In Knights of the Round, you play as one of three knights from Arthurian legend. The three knights are Sir Lancelot, Sir Percival, and of course, King Arthur. The story tells of a man who removed the legendary sword Excalibur from a rock that no one else could. This feat meant that he would become king of the Britons and lead them towards peace. The problem is that there is great chaos in the country and the only way to end it is to find the holy grail that has been hidden for over a thousand years. Arthur has the help of Percival and Lancelot on his journey to find the holy grail.</desc>
+    <rating>0.60</rating>
+    <releasedate>19940401T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <region>eu</region>
+    <image>./media/image/Knights of the Round (BR)-image.png</image>
+    <video>./media/videos/Knights of the Round (BR)-video.mp4</video>
+    <boxart>./media/image/Knights of the Round (BR)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Knights of the Round (BR)-screenshot.png</screenshot>
+    <cartridge>./media/image/Knights of the Round (BR)-cartridge.png</cartridge>
+    <fanart>./media/fanart/Knights of the Round (BR)-fanart.jpg</fanart>
+    <titleshot>./media/image/Knights of the Round (BR)-titleshot.png</titleshot>
+    <manual>./media/manuals/Knights of the Round (BR)_(us).pdf</manual>
+    <boxback>./media/image/Knights of the Round (BR)-boxback.png</boxback>
+    <extra1>./media/extras/Knights of the Round (BR)-extra1.png</extra1>
+    <bezel>./media/bezels/Knights of the Round (BR)-bezel.png</bezel>
+  </game>
+  <game id="19109">
+    <path>./Kishin Douji Zenki - Batoru Raiden (J) [T+ESP].sfc.7z</path>
+    <name>Kishin Douji Zenki - Battle Raiden</name>
+    <desc>Kishin Douji Zenki: Batoru Raiden is a platform/action game seen in profile.  You carry Zenki like a little boy or like a real super demon.  The former can only jump and punch, while the latter has a variety of special moves such as fireballs, hooks to fire a tornado, or a fire punch.  The levels are more or less platform/exploration oriented or pure action depending on the character you play.  Some levels end with the usual boss.</desc>
+    <rating>0.60</rating>
+    <developer>Caproduction</developer>
+    <publisher>Hudson Soft</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <region>jp</region>
+    <lang>en,ja</lang>
+    <image>./media/image/Kishin Douji Zenki - Batoru Raiden (J) [T+ESP].sfc-image.png</image>
+    <video>./media/videos/Kishin Douji Zenki - Batoru Raiden (J) [T+ESP].sfc-video.mp4</video>
+    <marquee>./media/image/Kishin Douji Zenki - Batoru Raiden (J) [T+ESP].sfc-marquee.png</marquee>
+    <wheel>./media/wheel/Kishin Douji Zenki - Batoru Raiden (J) [T+ESP].sfc-wheel.png</wheel>
+    <boxart>./media/image/Kishin Douji Zenki - Batoru Raiden (J) [T+ESP].sfc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Kishin Douji Zenki - Batoru Raiden (J) [T+ESP].sfc-screenshot.png</screenshot>
+    <cartridge>./media/image/Kishin Douji Zenki - Batoru Raiden (J) [T+ESP].sfc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Kishin Douji Zenki - Batoru Raiden (J) [T+ESP].sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/Kishin Douji Zenki - Batoru Raiden (J) [T+ESP].sfc-titleshot.png</titleshot>
+    <boxback>./media/image/Kishin Douji Zenki - Batoru Raiden (J) [T+ESP].sfc-boxback.png</boxback>
+    <extra1>./media/extras/Kishin Douji Zenki - Batoru Raiden (J) [T+ESP].sfc-extra1.png</extra1>
+  </game>
+  <game id="2216">
+    <path>./Kirby Super Star (USA).7z</path>
+    <name>Kirby's Fun Pak</name>
+    <desc>Kirby Super Star is a platform game from the Kirby series and brings six games in one on a single cartridge, but with different stories and the most diverse objectives, which makes it one of the most fun games to own and play. And, in addition to these, it also has two bonus minigames for a little relaxed fun and some extras. Each of the main games has a certain difficulty shown by the number of stars and although it is not mandatory, it serves to represent the order to be played. Initially, only 3 of the 6 games are open and to release the others you must complete those that are already released.</desc>
+    <rating>0.80</rating>
+    <releasedate>19970123T000000</releasedate>
+    <developer>HAL Laboratory</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <region>us</region>
+    <image>./media/image/Kirby Super Star (USA)-image.png</image>
+    <video>./media/videos/Kirby Super Star (USA)-video.mp4</video>
+    <marquee>./media/image/Kirby Super Star (USA)-marquee.png</marquee>
+    <wheel>./media/wheel/Kirby Super Star (USA)-wheel.png</wheel>
+    <boxart>./media/image/Kirby Super Star (USA)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Kirby Super Star (USA)-screenshot.png</screenshot>
+    <cartridge>./media/image/Kirby Super Star (USA)-cartridge.png</cartridge>
+    <fanart>./media/fanart/Kirby Super Star (USA)-fanart.jpg</fanart>
+    <titleshot>./media/image/Kirby Super Star (USA)-titleshot.png</titleshot>
+    <manual>./media/manuals/Kirby Super Star (USA)_(us).pdf</manual>
+    <boxback>./media/image/Kirby Super Star (USA)-boxback.png</boxback>
+    <extra1>./media/extras/Kirby Super Star (USA)-extra1.png</extra1>
+    <bezel>./media/bezels/Kirby Super Star (USA)-bezel.png</bezel>
+  </game>
+  <game id="2415">
+    <path>./King of Dragons (BR) (T1.0.2).sfc.7z</path>
+    <name>King of Dragons</name>
+    <desc>The kingdom of Malus suffers from the fury of the red iron-tailed dragon Gildiss, who for more than 100 years has spread chaos in the village of Malus. To make matters worse, Gildiss has the help of terrible beasts that torment and haunt the people of the villages. The soldiers of the kingdom of Malus are sent to face the great red Dragon, but every man who dared to come close to Gildiss was mercilessly killed. The king of Malus looks for a great wizard called Guindon and seems to finally find the solution, as the wizard says he can cast a spell and put the feared Dragon to sleep for 1 year, however when the spell ends Gildiss will wake up even more powerful and hungry for revenge. With his hands tied in view of the situation, the king orders the spell to be cast, as this gives him time to devise a strategy to defeat the Dragon and manages to give some peace to the residents of the village of Malus. With Gildiss in a deep sleep, the king thought it would be easier to defeat the dragon, but thousands of knights went to meet Gildiss and none of them came back alive. Now the effect of the spell is ending and Gildiss is about to wake up, the monsters are already thirsty for blood ready to attack Malus' kingdom, but the king counts on his last card which are the 5 Warriors of Malus who have perfected their powers for the final battle against Gildiss.</desc>
+    <rating>0.60</rating>
+    <releasedate>19940801T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <region>eu</region>
+    <image>./media/image/King of Dragons (BR) (T1.0.2).sfc-image.png</image>
+    <video>./media/videos/King of Dragons (BR) (T1.0.2).sfc-video.mp4</video>
+    <boxart>./media/image/King of Dragons (BR) (T1.0.2).sfc-boxart.png</boxart>
+    <screenshot>./media/screenshots/King of Dragons (BR) (T1.0.2).sfc-screenshot.png</screenshot>
+    <cartridge>./media/image/King of Dragons (BR) (T1.0.2).sfc-cartridge.png</cartridge>
+    <fanart>./media/fanart/King of Dragons (BR) (T1.0.2).sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/King of Dragons (BR) (T1.0.2).sfc-titleshot.png</titleshot>
+    <manual>./media/manuals/King of Dragons (BR) (T1.0.2).sfc_(us).pdf</manual>
+    <boxback>./media/image/King of Dragons (BR) (T1.0.2).sfc-boxback.png</boxback>
+    <extra1>./media/extras/King of Dragons (BR) (T1.0.2).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/King of Dragons (BR) (T1.0.2).sfc-bezel.png</bezel>
+  </game>
+  <game id="2155">
+    <path>./Killer Instinct (USA) (Rev 1).sfc.7z</path>
+    <name>Killer Instinct</name>
+    <desc>The story of Killer Instinct begins in the distant past, where a war of titanic proportions is taking place in the world. Two warlords fought a terrible battle against each other, where many people were killed, armies were destroyed and the world was put at risk. Determined to put an end to this, a group of heroes bravely face the two enemy lords, and create a spell that seals the two titans in limbo. Temporarily, peace reigned again. From the past, we move to a chaotic future not so distant from our era. Pollution took over the environment, governments fell; Now the world is controlled by mega-corporations that face each other and destroy each other for the planet's riches.
+In this context, one mega-corporation stands out: Ultratech. Instead of entering into direct conflicts with other corporations, Ultratech continues to sell advanced weapons to corporations to destroy themselves. But Ultratech doesn't just dominate the world through weapons sales, but also through the media: its entertainment division produces the biggest television phenomenon on the planet: the Killer Instinct tournament, which still serves as a testing ground for Ultratech's weapons. In this tournament, the winners are promised whatever they want, but it does not always guarantee that the promise will be fulfilled. While the losers suffer a cruel fate at the hands of the company.</desc>
+    <rating>0.60</rating>
+    <releasedate>19950921T000000</releasedate>
+    <developer>Rareware</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Luta, Luta / Versus</genre>
+    <genreid>262</genreid>
+    <players>1-2</players>
+    <region>eu</region>
+    <adult>true</adult>
+    <image>./media/image/Killer Instinct (USA) (Rev 1).sfc-image.png</image>
+    <video>./media/videos/Killer Instinct (USA) (Rev 1).sfc-video.mp4</video>
+    <boxart>./media/image/Killer Instinct (USA) (Rev 1).sfc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Killer Instinct (USA) (Rev 1).sfc-screenshot.png</screenshot>
+    <cartridge>./media/image/Killer Instinct (USA) (Rev 1).sfc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Killer Instinct (USA) (Rev 1).sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/Killer Instinct (USA) (Rev 1).sfc-titleshot.png</titleshot>
+    <manual>./media/manuals/Killer Instinct (USA) (Rev 1).sfc_(eu).pdf</manual>
+    <boxback>./media/image/Killer Instinct (USA) (Rev 1).sfc-boxback.png</boxback>
+    <extra1>./media/extras/Killer Instinct (USA) (Rev 1).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/Killer Instinct (USA) (Rev 1).sfc-bezel.png</bezel>
+  </game>
+  <game id="38822">
+    <path>./Great Battle V, The.smc.7z</path>
+    <name>Great Battle 5, The</name>
+    <desc>The Great Battle V is an action game for the Super Famicom and the fifth game in The Great Battle subseries, which in turn is part of the larger Compati Hero series that combines the universes of Ultraman, Kamen Rider and SD Gundam.  This game sees the four main characters - Ultraman, Kamen Rider, SD Knight Gundam and Fighter Roar - fighting their usual enemies on a Wild West planet.  Levels are split between 2D side-scrolling action/platformer stages and third-person shooter stages that resemble those in Natsume's popular Wild Guns.</desc>
+    <rating>0.60</rating>
+    <developer>Sun L</developer>
+    <publisher>Banpresto</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <region>jp</region>
+    <image>./media/image/Great Battle V, The.smc-image.png</image>
+    <video>./media/videos/Great Battle V, The.smc-video.mp4</video>
+    <marquee>./media/image/Great Battle V, The.smc-marquee.png</marquee>
+    <wheel>./media/wheel/Great Battle V, The.smc-wheel.png</wheel>
+    <boxart>./media/image/Great Battle V, The.smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Great Battle V, The.smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Great Battle V, The.smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Great Battle V, The.smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Great Battle V, The.smc-titleshot.png</titleshot>
+    <boxback>./media/image/Great Battle V, The.smc-boxback.png</boxback>
+    <extra1>./media/extras/Great Battle V, The.smc-extra1.png</extra1>
+  </game>
+  <game id="38820">
+    <path>./Great Battle IV, The.smc.7z</path>
+    <name>Great Battle 4, The</name>
+    <desc>The Great Battle IV is the fourth The Great Battle game in the great Compati Hero Series, which aims to combine the heroes and villains of Ultraman, Gundam and Kamen Rider in SD format where they are all in uniform size.  The Great Battle are the "main" games in the Hero Compati series, featuring standard 2D side-scrolling action gameplay with shooting and platforming elements.  Players can switch their playable character between the three protagonists of the series' respective franchises at any time.  It has its own strengths and weaknesses.  The series received one more Super Famicom sequel in 1995: The Great Battle V. Future games would appear on separate systems.</desc>
+    <rating>0.80</rating>
+    <developer>Sun L</developer>
+    <publisher>Banpresto</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <region>jp</region>
+    <image>./media/image/Great Battle IV, The.smc-image.png</image>
+    <video>./media/videos/Great Battle IV, The.smc-video.mp4</video>
+    <marquee>./media/image/Great Battle IV, The.smc-marquee.png</marquee>
+    <wheel>./media/wheel/Great Battle IV, The.smc-wheel.png</wheel>
+    <boxart>./media/image/Great Battle IV, The.smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Great Battle IV, The.smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Great Battle IV, The.smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Great Battle IV, The.smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Great Battle IV, The.smc-titleshot.png</titleshot>
+    <boxback>./media/image/Great Battle IV, The.smc-boxback.png</boxback>
+    <extra1>./media/extras/Great Battle IV, The.smc-extra1.png</extra1>
+    <bezel>./media/bezels/Great Battle IV, The.smc-bezel.png</bezel>
+  </game>
+  <game id="38819">
+    <path>./Great Battle III, The.smc.7z</path>
+    <name>Great Battle 3, The</name>
+    <desc>The Great Battle III is a scrolling fighting game featuring F91 Gundam, Kamen Rider, Ultraman, and the original Great Battle series character, Fighter Roar.  The game takes place in a fantasy world and all characters use medieval weapons in battle.  The game is the third in the Great Battle series of fighting/shooting games and the seventh Compati Hero Series game for the Super Famicom (out of seventeen).</desc>
+    <rating>0.60</rating>
+    <developer>Sun L</developer>
+    <publisher>Banpresto</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <region>jp</region>
+    <image>./media/image/Great Battle III, The.smc-image.png</image>
+    <video>./media/videos/Great Battle III, The.smc-video.mp4</video>
+    <marquee>./media/image/Great Battle III, The.smc-marquee.png</marquee>
+    <wheel>./media/wheel/Great Battle III, The.smc-wheel.png</wheel>
+    <boxart>./media/image/Great Battle III, The.smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Great Battle III, The.smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Great Battle III, The.smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Great Battle III, The.smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Great Battle III, The.smc-titleshot.png</titleshot>
+    <boxback>./media/image/Great Battle III, The.smc-boxback.png</boxback>
+    <extra1>./media/extras/Great Battle III, The.smc-extra1.png</extra1>
+  </game>
+  <game id="38818">
+    <path>./Great Battle II, The - Last Fighter Twin.smc.7z</path>
+    <name>Great Battle 2 - Last Fighter Twin, The</name>
+    <desc>The second game in the Great Battle series for the Super Famicom that began with SD Great Battle in 1990. It is also part of the Compati Hero Series, which re-imagines the Gundam, Ultraman, and Kamen Rider characters as super deformed (SD) versions of relatives.  sizes.  This was so that the immensely tall Gundam and Ultraman characters could fight alongside human-sized Kamen Rider characters.  Last Fighter Twin moves away from the top-down action gameplay of SD Great Battle with a side-scrolling fighting format.</desc>
+    <rating>0.60</rating>
+    <developer>Banpresto</developer>
+    <publisher>Banpresto</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <region>jp</region>
+    <image>./media/image/Great Battle II, The - Last Fighter Twin.smc-image.png</image>
+    <video>./media/videos/Great Battle II, The - Last Fighter Twin.smc-video.mp4</video>
+    <marquee>./media/image/Great Battle II, The - Last Fighter Twin.smc-marquee.png</marquee>
+    <wheel>./media/wheel/Great Battle II, The - Last Fighter Twin.smc-wheel.png</wheel>
+    <boxart>./media/image/Great Battle II, The - Last Fighter Twin.smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Great Battle II, The - Last Fighter Twin.smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Great Battle II, The - Last Fighter Twin.smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Great Battle II, The - Last Fighter Twin.smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Great Battle II, The - Last Fighter Twin.smc-titleshot.png</titleshot>
+    <boxback>./media/image/Great Battle II, The - Last Fighter Twin.smc-boxback.png</boxback>
+    <extra1>./media/extras/Great Battle II, The - Last Fighter Twin.smc-extra1.png</extra1>
+  </game>
+  <game id="2361">
+    <path>./Gradius III (BR).smc.7z</path>
+    <name>Gradius III</name>
+    <desc>Gradius III is the third game in Konami's shooter series, which includes Life Force and Nemesis. As is the case in most Gradius games, you control an advanced Vic Viper ship against a horde of enemies. Weapons can be selected from a predefined list or you can create your own list. The game can be played alone or with two players in alternating turns. The game offers three difficulty levels.</desc>
+    <rating>0.60</rating>
+    <releasedate>19910813T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Konami</publisher>
+    <genre>Shoot'em Up / Horizontal, Shoot'em Up</genre>
+    <genreid>260</genreid>
+    <players>1-2</players>
+    <region>jp,us</region>
+    <image>./media/image/Gradius III (BR).smc-image.png</image>
+    <video>./media/videos/Gradius III (BR).smc-video.mp4</video>
+    <marquee>./media/image/Gradius III (BR).smc-marquee.png</marquee>
+    <wheel>./media/wheel/Gradius III (BR).smc-wheel.png</wheel>
+    <boxart>./media/image/Gradius III (BR).smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Gradius III (BR).smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Gradius III (BR).smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Gradius III (BR).smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Gradius III (BR).smc-titleshot.png</titleshot>
+    <manual>./media/manuals/Gradius III (BR).smc_(us).pdf</manual>
+    <boxback>./media/image/Gradius III (BR).smc-boxback.png</boxback>
+    <extra1>./media/extras/Gradius III (BR).smc-extra1.png</extra1>
+    <bezel>./media/bezels/Gradius III (BR).smc-bezel.png</bezel>
+  </game>
+  <game id="2210">
+    <path>./Goof Troop (BR).smc.7z</path>
+    <name>Goof Troop</name>
+    <mode>Jogador individual</mode>
+    <desc>It's a great day to fish but Goofy just caught a lot of trouble. Pete and Pj were kidnapped by pirates, now Goofy and Max must travel to Spoonerville Island and venture through the forest to rescue their friends.
+Climb aboard with Goofy and Max and fight an army of bad-tempered braggarts and dodge cannonballs. Search for buried treasure and solve puzzles to get the keys that lead to the pirates' hideout and then you will face Keelhaul Pete, the terror of the tropics!</desc>
+    <rating>0.60</rating>
+    <releasedate>19931125T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Quebra-Cabeças</genre>
+    <genreid>2816</genreid>
+    <players>1-2</players>
+    <region>eu,us</region>
+    <image>./media/image/Goof Troop (BR).smc-image.png</image>
+    <video>./media/videos/Goof Troop (BR).smc-video.mp4</video>
+    <boxart>./media/image/Goof Troop (BR).smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Goof Troop (BR).smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Goof Troop (BR).smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Goof Troop (BR).smc-fanart.jpg</fanart>
+    <map>./media/maps/Goof Troop (BR).smc-map.png</map>
+    <titleshot>./media/image/Goof Troop (BR).smc-titleshot.png</titleshot>
+    <manual>./media/manuals/Goof Troop (BR).smc_(us).pdf</manual>
+    <boxback>./media/image/Goof Troop (BR).smc-boxback.png</boxback>
+    <extra1>./media/extras/Goof Troop (BR).smc-extra1.png</extra1>
+    <bezel>./media/bezels/Goof Troop (BR).smc-bezel.png</bezel>
+  </game>
+  <game>
+    <path>./Ganbare Goemon Yukihime Kyūshutsu Emaki (BR) (T1.0).smc.7z</path>
+    <name>Ganbare Goemon Yukihime Kyūshutsu Emaki (BR) (T1.0).smc</name>
+    <genreid>0</genreid>
+  </game>
+  <game>
+    <path>./Ganbare Goemon 2 (BR) (T1.0).sfc.7z</path>
+    <name>Ganbare Goemon 2 (BR) (T1.0).sfc</name>
+    <genreid>0</genreid>
+  </game>
+  <game id="2229">
+    <path>./Flashback (BR).smc.7z</path>
+    <name>Flashback</name>
+    <mode>Jogador individual</mode>
+    <desc>We are in the year 2140, on the distant planet Titan. On the run, agent Conrad B. Hart is shot down by mutants and falls into a dense tropical forest. He narrowly avoids a fatal accident. He wakes up with no memory, lost in a hostile environment, where he finds a holographic cube that, to his surprise, had a message recorded by himself. Perhaps a foreshadowing of things to come? Mysteries, action, twists, this is how Flashback begins, a fictional game highly acclaimed by retrogamers around the world.</desc>
+    <rating>0.80</rating>
+    <releasedate>19931101T000000</releasedate>
+    <developer>Delphine Software International</developer>
+    <publisher>U.S. Gold</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <region>eu</region>
+    <lang>fr,en</lang>
+    <image>./media/image/Flashback (BR).smc-image.png</image>
+    <video>./media/videos/Flashback (BR).smc-video.mp4</video>
+    <marquee>./media/image/Flashback (BR).smc-marquee.png</marquee>
+    <wheel>./media/wheel/Flashback (BR).smc-wheel.png</wheel>
+    <boxart>./media/image/Flashback (BR).smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Flashback (BR).smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Flashback (BR).smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Flashback (BR).smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Flashback (BR).smc-titleshot.png</titleshot>
+    <manual>./media/manuals/Flashback (BR).smc_(eu).pdf</manual>
+    <boxback>./media/image/Flashback (BR).smc-boxback.png</boxback>
+    <extra1>./media/extras/Flashback (BR).smc-extra1.png</extra1>
+    <bezel>./media/bezels/Flashback (BR).smc-bezel.png</bezel>
+  </game>
+  <game id="2284">
+    <path>./Final Fight 3 (BR).smc.7z</path>
+    <name>Final Fight 3</name>
+    <desc>The story of Final Fight 3 takes place some time after the events of Final Fight 2, where Mad Gear was finally annihilated. Unfortunately for Mayor Haggar, with the fall of Mad Gear another criminal gang decided to dominate the streets of Metro City: the infamous “Skull Cross Gang”.
+Coincidentally, on the day that Guy returns to Metro City, after a long period of training, Haggar sees from his office window that the peace of his city is once again threatened: a huge explosion occurs in the center of Metro City, and criminals of the worst kinds are causing real chaos in various parts of the city!
+Haggar then leaves together with Guy, detective Lucia and street fighter Dean to the places where the members of the ?Skull Cross Gang? are taking action in order to once again bring peace to Metro City.</desc>
+    <rating>0.60</rating>
+    <releasedate>19960313T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <region>eu</region>
+    <image>./media/image/Final Fight 3 (BR).smc-image.png</image>
+    <video>./media/videos/Final Fight 3 (BR).smc-video.mp4</video>
+    <boxart>./media/image/Final Fight 3 (BR).smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Final Fight 3 (BR).smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Final Fight 3 (BR).smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Final Fight 3 (BR).smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Final Fight 3 (BR).smc-titleshot.png</titleshot>
+    <manual>./media/manuals/Final Fight 3 (BR).smc_(eu).pdf</manual>
+    <boxback>./media/image/Final Fight 3 (BR).smc-boxback.png</boxback>
+    <extra1>./media/extras/Final Fight 3 (BR).smc-extra1.png</extra1>
+    <bezel>./media/bezels/Final Fight 3 (BR).smc-bezel.png</bezel>
+  </game>
+  <game id="2386">
+    <path>./Final Fight 2 (BR).smc.7z</path>
+    <name>Final Fight 2</name>
+    <desc>Some time after the events that occurred in the first Final Fight, a new mission for Haggar is about to emerge. The brawler is once again fulfilling his duties as mayor of Metro City, while his daughter Jessica is on a vacation with Cody, and the fearless Guy is fulfilling a new mission to perfect his training in an unknown location. But all good things don't last long. The apparent peace would be shattered with the appearance of a new criminal villain named Retu, who brought Mad Gear back from the ashes and turned it into an even more dangerous criminal faction than it originally was! The remnants of the old Mad Gear desire revenge, and a new kidnapping occurs: this time the beautiful Rena and the wise Genryusai, Guy's fiancée and master respectively, are the victims! Two days after the kidnapping, Haggar then receives a call from Maki, Rena's sister, who informs him about what happened and asks for his help. With Guy and Cody absent, Haggar will then count on the help of Carlos Miyamoto, an excellent swordsman, to join Maki in this new fight against the infamous Mad Gear!</desc>
+    <rating>0.60</rating>
+    <releasedate>19930101T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <region>eu</region>
+    <image>./media/image/Final Fight 2 (BR).smc-image.png</image>
+    <video>./media/videos/Final Fight 2 (BR).smc-video.mp4</video>
+    <boxart>./media/image/Final Fight 2 (BR).smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Final Fight 2 (BR).smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Final Fight 2 (BR).smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Final Fight 2 (BR).smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Final Fight 2 (BR).smc-titleshot.png</titleshot>
+    <manual>./media/manuals/Final Fight 2 (BR).smc_(us).pdf</manual>
+    <boxback>./media/image/Final Fight 2 (BR).smc-boxback.png</boxback>
+    <extra1>./media/extras/Final Fight 2 (BR).smc-extra1.png</extra1>
+    <bezel>./media/bezels/Final Fight 2 (BR).smc-bezel.png</bezel>
+  </game>
+  <game id="2269">
+    <path>./Earthworm Jim 2 (BR).sfc.7z</path>
+    <name>Earthworm Jim 2</name>
+    <desc>An ordinary earthworm named Jim lives his life normally, wandering around, dodging crows, and doing earthworm things. Jim is suddenly hit by a super-indestructible-cybernetic-tech-space-suit. Luckily, Jim rests safely in the suit's neck. Suddenly, space particles from the suit begin to interact with Jim. A radical evolution at the speed of light occurs and Jim quickly realizes he is in control of the suit. The gameplay is similar to the first game, with Jim running and jumping through the levels and there are 5 more weapons than the original game to collect.</desc>
+    <rating>0.60</rating>
+    <releasedate>19960125T000000</releasedate>
+    <developer>Shiny Entertainment</developer>
+    <publisher>Virgin Interactive</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <region>eu</region>
+    <image>./media/image/Earthworm Jim 2 (BR).sfc-image.png</image>
+    <video>./media/videos/Earthworm Jim 2 (BR).sfc-video.mp4</video>
+    <boxart>./media/image/Earthworm Jim 2 (BR).sfc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Earthworm Jim 2 (BR).sfc-screenshot.png</screenshot>
+    <cartridge>./media/image/Earthworm Jim 2 (BR).sfc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Earthworm Jim 2 (BR).sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/Earthworm Jim 2 (BR).sfc-titleshot.png</titleshot>
+    <manual>./media/manuals/Earthworm Jim 2 (BR).sfc_(eu).pdf</manual>
+    <boxback>./media/image/Earthworm Jim 2 (BR).sfc-boxback.png</boxback>
+    <extra1>./media/extras/Earthworm Jim 2 (BR).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/Earthworm Jim 2 (BR).sfc-bezel.png</bezel>
+  </game>
+  <game>
+    <path>./Donkey Kong Country 3 (BR) (T1.0a).sfc.7z</path>
+    <name>Donkey Kong Country 3 (BR) (T1.0a).sfc</name>
+    <genreid>0</genreid>
+  </game>
+  <game id="2169">
+    <path>./Donkey Kong Country 2 (BR) (T1.0).sfc.7z</path>
+    <name>Donkey Kong Country 2 : Diddy's Kong Quest</name>
+    <mode>Multijogador local</mode>
+    <desc>After defeating King K. Rool, the Kongs return to the DK Islands with Donkey Kong's stash of bananas. Soon after, DK was relaxing, when an aircraft called the Flying Krock approaches the island. Captain K. Rool sends the Kremlings to the island and kidnaps Donkey Kong. He will only free him if the Kong family hands over Donkey Kong's banana stash to him.
+Then, Diddy and his girlfriend Dixie find a note stating Donkey Kong's kidnapping by Captain K. Rool on the deck of a pirate ship, the two leave together for Crocodile Isle to rescue him, but to do so Diddy and Dixie need to cross a series of places on the island. During their journey, Diddy and Dixie are helped by a variety of animals to save Donkey Kong and defeat K. Rool.</desc>
+    <rating>0.80</rating>
+    <releasedate>19951114T000000</releasedate>
+    <developer>Rareware</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Plataforma / Corre E Pula, Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <region>br</region>
+    <video>./media/videos/Donkey Kong Country 2 (BR) (T1.0).sfc-video.mp4</video>
+    <screenshot>./media/screenshots/Donkey Kong Country 2 (BR) (T1.0).sfc-screenshot.png</screenshot>
+    <fanart>./media/fanart/Donkey Kong Country 2 (BR) (T1.0).sfc-fanart.jpg</fanart>
+    <titleshot>./media/image/Donkey Kong Country 2 (BR) (T1.0).sfc-titleshot.png</titleshot>
+    <manual>./media/manuals/Donkey Kong Country 2 (BR) (T1.0).sfc_(us).pdf</manual>
+    <extra1>./media/extras/Donkey Kong Country 2 (BR) (T1.0).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/Donkey Kong Country 2 (BR) (T1.0).sfc-bezel.png</bezel>
+  </game>
+  <game id="2149">
+    <path>./Donkey Kong Country (BR-EUR) (T1.0).smc.7z</path>
+    <name>Donkey Kong Country</name>
+    <mode>Multijogador local</mode>
+    <desc>Donkey Kong, alongside his nephew and inseparable companion Diddy Kong, must recover the bananas stolen by King K. Rool and his henchmen, the Kremlings. After checking out the empty banana stash located just below his house, Donkey Kong embarks on an adventure in his native land, Donkey Kong Island. While collecting bananas in different regions of the island, Donkey Kong must defeat various enemies, including reptile Kremlings, as well as other dangerous creatures native to the island.</desc>
+    <rating>0.80</rating>
+    <releasedate>19941118T000000</releasedate>
+    <developer>Rareware</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Plataforma, Plataforma / Corre E Pula</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <region>eu</region>
+    <image>./media/image/Donkey Kong Country (BR-EUR) (T1.0).smc-image.png</image>
+    <video>./media/videos/Donkey Kong Country (BR-EUR) (T1.0).smc-video.mp4</video>
+    <marquee>./media/image/Donkey Kong Country (BR-EUR) (T1.0).smc-marquee.png</marquee>
+    <wheel>./media/wheel/Donkey Kong Country (BR-EUR) (T1.0).smc-wheel.png</wheel>
+    <boxart>./media/image/Donkey Kong Country (BR-EUR) (T1.0).smc-boxart.png</boxart>
+    <screenshot>./media/screenshots/Donkey Kong Country (BR-EUR) (T1.0).smc-screenshot.png</screenshot>
+    <cartridge>./media/image/Donkey Kong Country (BR-EUR) (T1.0).smc-cartridge.png</cartridge>
+    <fanart>./media/fanart/Donkey Kong Country (BR-EUR) (T1.0).smc-fanart.jpg</fanart>
+    <titleshot>./media/image/Donkey Kong Country (BR-EUR) (T1.0).smc-titleshot.png</titleshot>
+    <manual>./media/manuals/Donkey Kong Country (BR-EUR) (T1.0).smc_(eu).pdf</manual>
+    <boxback>./media/image/Donkey Kong Country (BR-EUR) (T1.0).smc-boxback.png</boxback>
+    <extra1>./media/extras/Donkey Kong Country (BR-EUR) (T1.0).smc-extra1.png</extra1>
+    <bezel>./media/bezels/Donkey Kong Country (BR-EUR) (T1.0).smc-bezel.png</bezel>
+  </game>
+  <game id="19017">
+    <path>./Contra III - The Alien Wars (BR).sfc.7z</path>
+    <name>Contra III : The Alien Wars</name>
+    <desc>In the year 2636, a fierce extraterrestrial war is raging and only two soldiers, Jimbo and Sully, can put an end to the invasion. Enjoy six levels of non-stop shooting and action in the American version of the Super NES classic, where you can enjoy single-player games or play with a friend.
+Collect upgrades like bombs, flamethrowers, scatter beams, lasers and missile launchers. Take control of Jimbo and Sully on a journey through devastated cities and use aerial vehicles and even missiles to finally reach the alien base, where you must take down the final boss once and for all.</desc>
+    <rating>0.80</rating>
+    <releasedate>19920406T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Konami</publisher>
+    <genre>Plataforma / Tiro Com Rolagem, Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <region>us</region>
+    <lang>BR</lang>
+    <video>./media/videos/Contra III - The Alien Wars (BR).sfc-video.mp4</video>
+    <screenshot>./media/screenshots/Contra III - The Alien Wars (BR).sfc-screenshot.png</screenshot>
+    <fanart>./media/fanart/Contra III - The Alien Wars (BR).sfc-fanart.jpg</fanart>
+    <manual>./media/manuals/Contra III - The Alien Wars (BR).sfc_(us).pdf</manual>
+    <extra1>./media/extras/Contra III - The Alien Wars (BR).sfc-extra1.png</extra1>
+    <bezel>./media/bezels/Contra III - The Alien Wars (BR).sfc-bezel.png</bezel>
+  </game>
+  <game>
+    <path>./Bonkers (BR) (TBeta1).sfc.7z</path>
+    <name>Bonkers (BR) (TBeta1).sfc</name>
+    <genreid>0</genreid>
+    <hidden>true</hidden>
+  </game>
+  <game>
+    <path>./Axelay (USA).sfc.7z</path>
+    <name>Axelay (USA).sfc</name>
+    <genreid>0</genreid>
+  </game>
+  <game>
+    <path>./Ardy Lightfoot.7z</path>
+    <name>Ardy Lightfoot</name>
+    <genreid>0</genreid>
+  </game>
+</gameList>

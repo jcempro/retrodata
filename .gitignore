@@ -1,0 +1,16 @@
+# === Sistema e Metadados ===
+/System Volume Information/
+*.log
+*.tmp
+
+roms/*/*
+roms/*/*.*
+!roms/*/gamelist.xml
+!roms/*/.gitkeep
+
+# === Cache e Compilados ===__pycache__
+.ruff_cache
+
+# === Exceções (Não ignorar) ===
+!.gitkeep
+!.gitignore

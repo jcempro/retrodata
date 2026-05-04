@@ -1,0 +1,781 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gameList>
+  <provider>
+    <system>ps2</system>
+    <software>ARRM</software>
+    <web>http://jujuvincebros.fr/wiki/arrm/doku.php</web>
+  </provider>
+  <game>
+    <path>./Gran Turismo (BR).chd</path>
+    <name>Gran Turismo (BR)</name>
+    <genreid>0</genreid>
+  </game>
+  <game id="22717">
+    <path>./Ben 10 - Protector of Earth (BR-USA).chd</path>
+    <name>Ben 10 : Protector of Earth</name>
+    <desc>Ben 10: Protector Of The Earth is an action game based on the cartoon series Ben 10. The story follows the adventures of Ben Tennyson, who one day finds a watch-like device called the Ominitrix, which give him the ability to transform into different aliens each with its own special ability.
+The aliens in which Ben can transform are: Fourarms, a big brute who excels at close combat, Fireblast, who can torch his enemies with fireballs, XLR8, a superfast speedster, Cannonball, who can turn into a metal ball and lastly Wildvine, who can stretch his limbs to reach new places.
+The player has three kinds of attacks: light, heavy and the special moves as well as a large number of combos. The game features more than 14 levels, visiting locations as the Grand Canyon, San Francisco, Seattle, or Mt. Rushmore.</desc>
+    <rating>0.60</rating>
+    <releasedate>20071116T000000</releasedate>
+    <developer>High Voltage</developer>
+    <publisher>D3 Publisher</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <region>eu</region>
+    <lang>it,es,de,fr,en</lang>
+    <image>./media/image/Ben 10 - Protector of Earth (BR-USA)-image.png</image>
+    <boxart>./media/image/Ben 10 - Protector of Earth (BR-USA)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Ben 10 - Protector of Earth (BR-USA)-screenshot.png</screenshot>
+    <cartridge>./media/image/Ben 10 - Protector of Earth (BR-USA)-cartridge.png</cartridge>
+    <video>./media/videos/Ben 10 - Protector of Earth (BR-USA)-video.mp4</video>
+    <fanart>./media/fanart/Ben 10 - Protector of Earth (BR-USA)-fanart.jpg</fanart>
+    <titleshot>./media/image/Ben 10 - Protector of Earth (BR-USA)-titleshot.png</titleshot>
+    <manual>./media/manuals/Ben 10 - Protector of Earth (BR-USA)_(us).pdf</manual>
+    <boxback>./media/image/Ben 10 - Protector of Earth (BR-USA)-boxback.png</boxback>
+    <extra1>./media/extras/Ben 10 - Protector of Earth (BR-USA)-extra1.png</extra1>
+  </game>
+  <game id="22869">
+    <path>./Ben 10 - Ultimate Alien - Cosmic Destruction (BR).chd</path>
+    <name>Ben 10 : Ultimate Alien, Cosmic Destruction</name>
+    <desc>Ben 10 Ultimate Alien: Cosmic Destruction is a 3D action-adventure game based on the TV series Ben 10: Ultimate Alien. It is now no longer a secret to the world that Ben is a superhero and he is now in control of the Ultimatrix. Earth is threatened by a strange Galactic storm housing a powerful evil and the power of the Ultimatrix may not be enough. Now Ben has to find several Galvan artifacts scattered around the planet to enhance the powers of the Ultimatrix.
+The player takes control of Ben and can transform in to a multitude of aliens that vary in size, and abilities. Gameplay includes defeating enemies, bosses and solving puzzles. In the game various earth locations are visited like China, Paris, Tokyo and Rome. The PS3 and Xbox versions have one extra platform unique alien. The game characters are voiced by the original TV voice actors.</desc>
+    <rating>0.80</rating>
+    <releasedate>20110211T000000</releasedate>
+    <developer>Papaya</developer>
+    <publisher>D3 Publisher</publisher>
+    <genre>Aventura</genre>
+    <genreid>512</genreid>
+    <players>1</players>
+    <region>eu</region>
+    <lang>it,es,de,fr,en</lang>
+    <image>./media/image/Ben 10 - Ultimate Alien - Cosmic Destruction (BR)-image.png</image>
+    <boxart>./media/image/Ben 10 - Ultimate Alien - Cosmic Destruction (BR)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Ben 10 - Ultimate Alien - Cosmic Destruction (BR)-screenshot.png</screenshot>
+    <cartridge>./media/image/Ben 10 - Ultimate Alien - Cosmic Destruction (BR)-cartridge.png</cartridge>
+    <video>./media/videos/Ben 10 - Ultimate Alien - Cosmic Destruction (BR)-video.mp4</video>
+    <fanart>./media/fanart/Ben 10 - Ultimate Alien - Cosmic Destruction (BR)-fanart.jpg</fanart>
+    <titleshot>./media/image/Ben 10 - Ultimate Alien - Cosmic Destruction (BR)-titleshot.png</titleshot>
+    <manual>./media/manuals/Ben 10 - Ultimate Alien - Cosmic Destruction (BR)_(us).pdf</manual>
+    <boxback>./media/image/Ben 10 - Ultimate Alien - Cosmic Destruction (BR)-boxback.png</boxback>
+    <extra1>./media/extras/Ben 10 - Ultimate Alien - Cosmic Destruction (BR)-extra1.png</extra1>
+  </game>
+  <game id="22823">
+    <path>./Ben 10 - Vilgax Attacks (BR).chd</path>
+    <name>Ben 10 : Alien Force, Vilgax Attacks</name>
+    <mode>Jogador individual</mode>
+    <desc>Players take on the role of Ben Tennyson from the television series Ben 10: Alien Force. Vilgax is once again trying to invade Earth, and Ben is the only hero capable of stopping him from using the newly discovered Null Void Cannon.
+Players can transform into eight alien forms to fight Vilgax's minions and solve various puzzles along the way. The action takes place on the home planets of Ben's alien forms, as players explore platforms through Vulpin's lava pits and destroy temples in Terradino. Combat uses a combo-based attack system, focusing on large special attacks that eliminate multiple enemies at once. Enemies appear in waves, creating swarms of attackers.
+In addition to Vilgax, several other memorable villains from the series appear throughout the game in epic boss battles.</desc>
+    <rating>0.60</rating>
+    <releasedate>20100312T000000</releasedate>
+    <developer>Papaya</developer>
+    <publisher>D3 Publisher</publisher>
+    <genre>Aventura</genre>
+    <genreid>512</genreid>
+    <players>1</players>
+    <image>./media/image/Ben 10 - Vilgax Attacks (BR)-image.png</image>
+    <screenshot>./media/screenshots/Ben 10 - Vilgax Attacks (BR)-screenshot.png</screenshot>
+    <video>./media/videos/Ben 10 - Vilgax Attacks (BR)-video.mp4</video>
+    <fanart>./media/fanart/Ben 10 - Vilgax Attacks (BR)-fanart.jpg</fanart>
+    <manual>./media/manuals/Ben 10 - Vilgax Attacks (BR)_(us).pdf</manual>
+    <extra1>./media/extras/Ben 10 - Vilgax Attacks (BR)-extra1.png</extra1>
+  </game>
+  <game id="22022">
+    <path>./Black (BR).chd</path>
+    <name>Black</name>
+    <desc>Black is a first-person shooter from the team behind the Burnout franchise. Players take on the role of Jack Kelar, a member of an elite tactical team sent to Eastern Europe to capture an American traitor. Instead of sneak attacks, the game features a full-on heist across nine levels of explosive action.
+There are 13 state-of-the-art weapons available, and the highlight is the physics engine that allows for completely destroyable environments. Players can target vehicles, barrels, windows, and balconies to cause explosions and destruction. As Kelar advances through besieged cities and snow-covered regions, shells, glass, dust, smoke and fires fill the screen, creating intense war scenes.</desc>
+    <rating>0.80</rating>
+    <releasedate>20060224T000000</releasedate>
+    <developer>Criterion Games</developer>
+    <publisher>EA Games</publisher>
+    <genre>Tiro / Tiro Em 1ª Pessoa, Tiro</genre>
+    <genreid>259</genreid>
+    <players>1</players>
+    <region>eu,us</region>
+    <lang>en,fr,de,es,it</lang>
+    <image>./media/image/Black (BR)-image.png</image>
+    <wheel>./media/wheel/Black (BR)-wheel.png</wheel>
+    <boxart>./media/image/Black (BR)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Black (BR)-screenshot.jpg</screenshot>
+    <cartridge>./media/image/Black (BR)-cartridge.png</cartridge>
+    <marquee>./media/image/Black (BR)-marquee.png</marquee>
+    <video>./media/videos/Black (BR)-video.mp4</video>
+    <fanart>./media/fanart/Black (BR)-fanart.jpg</fanart>
+    <titleshot>./media/image/Black (BR)-titleshot.jpg</titleshot>
+    <manual>./media/manuals/Black (BR)_(us).pdf</manual>
+    <boxback>./media/image/Black (BR)-boxback.png</boxback>
+    <extra1>./media/extras/Black (BR)-extra1.png</extra1>
+  </game>
+  <game id="22596">
+    <path>./Contra - Shattered Soldier (BR).chd</path>
+    <name>Contra : Shattered Soldier</name>
+    <desc>Making its debut in the arcades in 1987 and, more pervasively, on the NES in 1988, the long-running Contra series continues with Contra: Shattered Soldier for the PlayStation 2. The game maintains its old-school, 2D platforming roots, but is enhanced with 3D polygonal models and unlockable endings and levels based on player performance (such as percentage of enemies killed).</desc>
+    <rating>0.60</rating>
+    <releasedate>20030214T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Konami</publisher>
+    <genre>Plataforma / Tiro Com Rolagem, Shoot'em Up / Horizontal, Shoot'em Up, Plataforma</genre>
+    <genreid>257</genreid>
+    <players>2</players>
+    <region>eu</region>
+    <lang>it,es,de,fr,en</lang>
+    <image>./media/image/Contra - Shattered Soldier (BR)-image.png</image>
+    <boxart>./media/image/Contra - Shattered Soldier (BR)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Contra - Shattered Soldier (BR)-screenshot.png</screenshot>
+    <cartridge>./media/image/Contra - Shattered Soldier (BR)-cartridge.png</cartridge>
+    <video>./media/videos/Contra - Shattered Soldier (BR)-video.mp4</video>
+    <fanart>./media/fanart/Contra - Shattered Soldier (BR)-fanart.jpg</fanart>
+    <titleshot>./media/image/Contra - Shattered Soldier (BR)-titleshot.jpg</titleshot>
+    <manual>./media/manuals/Contra - Shattered Soldier (BR)_(us).pdf</manual>
+    <boxback>./media/image/Contra - Shattered Soldier (BR)-boxback.png</boxback>
+    <extra1>./media/extras/Contra - Shattered Soldier (BR)-extra1.png</extra1>
+  </game>
+  <game id="22310">
+    <path>./Crash of the Titans (BR).chd</path>
+    <name>Crash of the Titans</name>
+    <desc>This episode of Crash Bandicoot features a huge change in aesthetics and gameplay. The characters have undergone their biggest transformation to date. The gameplay, while still centered around platforming, features more combat, allowing Crash to punch and kick enemies,... Gameplay also focuses on controlling Titans, giant mutants much more powerful than Crash himself. They can be controlled by Crash by riding them.
+The game's story focuses on the discovery of a substance called Mojo, which Doctor Neo Cortex intends to use to transform the inhabitants of Wumpa Island into an army of loyal mutants, known as "Titans". Crash must stop Cortex from using the “overlap” technique to take control of the mutants and destroy Cortex's Titans while collecting the mojo.</desc>
+    <rating>0.60</rating>
+    <releasedate>20071012T000000</releasedate>
+    <developer>Radical Entertainment</developer>
+    <publisher>Sierra</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <region>eu,us</region>
+    <lang>fi,no,sv,en,da</lang>
+    <image>./media/image/Crash of the Titans (BR)-image.png</image>
+    <boxart>./media/image/Crash of the Titans (BR)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Crash of the Titans (BR)-screenshot.png</screenshot>
+    <cartridge>./media/image/Crash of the Titans (BR)-cartridge.png</cartridge>
+    <video>./media/videos/Crash of the Titans (BR)-video.mp4</video>
+    <fanart>./media/fanart/Crash of the Titans (BR)-fanart.jpg</fanart>
+    <titleshot>./media/image/Crash of the Titans (BR)-titleshot.png</titleshot>
+    <manual>./media/manuals/Crash of the Titans (BR)_(us).pdf</manual>
+    <boxback>./media/image/Crash of the Titans (BR)-boxback.png</boxback>
+    <extra1>./media/extras/Crash of the Titans (BR)-extra1.png</extra1>
+  </game>
+  <game id="22065">
+    <path>./Crash Twinsanity (Dublado) (www.romsportugues.com).chd</path>
+    <name>Crash Twinsanity</name>
+    <mode>Jogador individual</mode>
+    <desc>The events of Crash Twinsanity take place three years after the events of the game Crash Bandicoot: The Wrath of Cortex. In this game Crash and his longtime enemy, Dr. Cortex, make a temporary truce to defeat two evil parrots from the 10th Dimension named Victor and Moritz. However, it won't be easy, as most of Crash and Dr Cortex's allies (who don't know what's going on) will turn against them, and end up being obstacles.</desc>
+    <rating>0.80</rating>
+    <releasedate>20041008T000000</releasedate>
+    <developer>Traveller's Tales</developer>
+    <publisher>Sierra</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <region>eu</region>
+    <lang>it,es,de,fr,en,pt</lang>
+    <image>./media/image/Crash Twinsanity (Dublado) (www.romsportugues.com)-image.png</image>
+    <boxart>./media/image/Crash Twinsanity (Dublado) (www.romsportugues.com)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Crash Twinsanity (Dublado) (www.romsportugues.com)-screenshot.png</screenshot>
+    <cartridge>./media/image/Crash Twinsanity (Dublado) (www.romsportugues.com)-cartridge.png</cartridge>
+    <video>./media/videos/Crash Twinsanity (Dublado) (www.romsportugues.com)-video.mp4</video>
+    <fanart>./media/fanart/Crash Twinsanity (Dublado) (www.romsportugues.com)-fanart.jpg</fanart>
+    <titleshot>./media/image/Crash Twinsanity (Dublado) (www.romsportugues.com)-titleshot.png</titleshot>
+    <manual>./media/manuals/Crash Twinsanity (Dublado) (www.romsportugues.com)_(us).pdf</manual>
+    <boxback>./media/image/Crash Twinsanity (Dublado) (www.romsportugues.com)-boxback.png</boxback>
+    <extra1>./media/extras/Crash Twinsanity (Dublado) (www.romsportugues.com)-extra1.png</extra1>
+  </game>
+  <game id="135258">
+    <path>./Dynamite Deka (Japan).chd</path>
+    <name>Sega Ages 2500 Series Vol. 26 - Dynamite Deka</name>
+    <desc>Emulated versions of both the arcade and Saturn versions of the 3D brawler Die Hard Arcade in which up to 2 players take on the role of spec-ops cops tasked with clearing a sky scrapper of terrorists and rescuing the president's daughter being held there.
+Game modes available include Arcade (with enhanced graphics) and Saturn, as well as an Easy mode that can be completed in a manner of minutes. Additional game modes and costumes can be unlocked and as a completely unrelated bonus you get an emulated version of SEGA's first game: Periscope as well as a complete image gallery with concept designs and promo artwork.</desc>
+    <rating>0.80</rating>
+    <developer>AM1</developer>
+    <publisher>SEGA</publisher>
+    <genreid>0</genreid>
+    <players>1-2</players>
+    <image>./media/image/Dynamite Deka (Japan)-image.png</image>
+    <wheel>./media/wheel/Dynamite Deka (Japan)-wheel.png</wheel>
+    <boxart>./media/image/Dynamite Deka (Japan)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Dynamite Deka (Japan)-screenshot.png</screenshot>
+    <cartridge>./media/image/Dynamite Deka (Japan)-cartridge.png</cartridge>
+    <marquee>./media/image/Dynamite Deka (Japan)-marquee.png</marquee>
+    <video>./media/videos/Dynamite Deka (Japan)-video.mp4</video>
+    <fanart>./media/fanart/Dynamite Deka (Japan)-fanart.jpg</fanart>
+    <titleshot>./media/image/Dynamite Deka (Japan)-titleshot.png</titleshot>
+    <boxback>./media/image/Dynamite Deka (Japan)-boxback.png</boxback>
+    <extra1>./media/extras/Dynamite Deka (Japan)-extra1.png</extra1>
+  </game>
+  <game id="21899">
+    <path>./God of War (BR) (DVD5).chd</path>
+    <name>God of War</name>
+    <mode>Jogador individual</mode>
+    <desc>God of War is a mythological action game for PS2. Play as Kratos, an anti-hero banished and hated by the gods of ancient Greece. To save your soul, obey divine orders and go fight legendary creatures and monsters in battles of incredible violence, but always beautifully orchestrated.</desc>
+    <rating>0.80</rating>
+    <releasedate>20050708T000000</releasedate>
+    <developer>SCE Santa Monica</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Aventura</genre>
+    <genreid>512</genreid>
+    <players>1</players>
+    <region>eu</region>
+    <lang>it,es,de,fr,en</lang>
+    <adult>true</adult>
+    <image>./media/image/God of War (BR) (DVD5)-image.png</image>
+    <boxart>./media/image/God of War (BR) (DVD5)-boxart.png</boxart>
+    <screenshot>./media/screenshots/God of War (BR) (DVD5)-screenshot.png</screenshot>
+    <cartridge>./media/image/God of War (BR) (DVD5)-cartridge.png</cartridge>
+    <video>./media/videos/God of War (BR) (DVD5)-video.mp4</video>
+    <fanart>./media/fanart/God of War (BR) (DVD5)-fanart.jpg</fanart>
+    <titleshot>./media/image/God of War (BR) (DVD5)-titleshot.png</titleshot>
+    <manual>./media/manuals/God of War (BR) (DVD5)_(us).pdf</manual>
+    <boxback>./media/image/God of War (BR) (DVD5)-boxback.png</boxback>
+    <extra1>./media/extras/God of War (BR) (DVD5)-extra1.png</extra1>
+  </game>
+  <game id="128570">
+    <path>./God of War II (BR-USA) (LEG).chd</path>
+    <name>God of War II</name>
+    <mode>Jogador individual</mode>
+    <desc>God of War II is an action-adventure hack and slash video game developed by Santa Monica Studio and published by Sony Computer Entertainment (SCE). First released for the PlayStation 2 on March 13, 2007, it is the second game in the God of War franchise and the sixth in chronological order, being the sequel to God of War (2005). The game is loosely based on Greek mythology and set in Ancient Greece, with revenge being the central motif. The player character is the protagonist Kratos, the new god of war who took Ares' place after killing him. Kratos is betrayed by Zeus, the king of the Olympian gods, who strips him of his divinity and kills him. Slowly dragged into the underworld, he is saved by the Titan Gaia, who instructs him to find the Sisters of Fate as they can allow him to travel back in time, prevent her betrayal, and take revenge on Zeus.</desc>
+    <rating>0.80</rating>
+    <releasedate>20070427T000000</releasedate>
+    <developer>SCE Santa Monica</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1</players>
+    <region>us</region>
+    <image>./media/image/God of War II (BR-USA) (LEG)-image.png</image>
+    <boxart>./media/image/God of War II (BR-USA) (LEG)-boxart.png</boxart>
+    <screenshot>./media/screenshots/God of War II (BR-USA) (LEG)-screenshot.png</screenshot>
+    <cartridge>./media/image/God of War II (BR-USA) (LEG)-cartridge.png</cartridge>
+    <video>./media/videos/God of War II (BR-USA) (LEG)-video.mp4</video>
+    <fanart>./media/fanart/God of War II (BR-USA) (LEG)-fanart.jpg</fanart>
+    <titleshot>./media/image/God of War II (BR-USA) (LEG)-titleshot.png</titleshot>
+    <manual>./media/manuals/God of War II (BR-USA) (LEG)_(us).pdf</manual>
+    <boxback>./media/image/God of War II (BR-USA) (LEG)-boxback.png</boxback>
+    <extra1>./media/extras/God of War II (BR-USA) (LEG)-extra1.png</extra1>
+    <bezel>./media/bezels/God of War II (BR-USA) (LEG)-bezel.png</bezel>
+  </game>
+  <game id="21945">
+    <path>./ICO (BR).chd</path>
+    <name>ICO</name>
+    <mode>Jogador individual</mode>
+    <desc>A young boy in a magical world was born with a strange deformity: large horns that protrude from both sides of his head. The people of his village, fearful of retribution from above, feel they have no choice but to sacrifice this mutant child to appease their gods. To do this, they took this boy, called Ico, to a huge supposedly deserted castle and left him in a giant urn. But when the urn breaks, spilling Ico into the bowels of the fortress, he will soon discover that his adventure has just begun. Along the way, he will encounter a mysterious princess who has been held captive in the castle for countless years.</desc>
+    <rating>0.80</rating>
+    <releasedate>20020322T000000</releasedate>
+    <developer>SCE Japan</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Aventura, Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <region>us,eu</region>
+    <lang>en,fr,de,es,it</lang>
+    <image>./media/image/ICO (BR)-image.png</image>
+    <wheel>./media/wheel/ICO (BR)-wheel.png</wheel>
+    <boxart>./media/image/ICO (BR)-boxart.png</boxart>
+    <screenshot>./media/screenshots/ICO (BR)-screenshot.png</screenshot>
+    <cartridge>./media/image/ICO (BR)-cartridge.png</cartridge>
+    <marquee>./media/image/ICO (BR)-marquee.png</marquee>
+    <video>./media/videos/ICO (BR)-video.mp4</video>
+    <fanart>./media/fanart/ICO (BR)-fanart.jpg</fanart>
+    <titleshot>./media/image/ICO (BR)-titleshot.png</titleshot>
+    <manual>./media/manuals/ICO (BR)_(us).pdf</manual>
+    <boxback>./media/image/ICO (BR)-boxback.png</boxback>
+    <extra1>./media/extras/ICO (BR)-extra1.png</extra1>
+  </game>
+  <game id="22383">
+    <path>./Jackie Chan Adventures (PT).chd</path>
+    <name>Jackie Chan Adventures</name>
+    <mode>Jogador individual</mode>
+    <desc>Based on the animated series by the Hong Kong fighting film star, this third-person action game follows Jackie Chan on a journey around the world — and even to the moon — in search of 12 magical talismans, trying to keep them away from Shendu, the Dark Hand and any other villain who wishes to use them for evil.
+Just like in the TV series, Jackie has the help of Uncle (Uncle), his niece Jade, the former villain Tohru, as well as other international allies.
+The evil Black Hand clan, led by Valmont — a man possessed by a Chinese demon called Shendu — has a sinister plan: to free ancient demons that are imprisoned, using a Pan Ku puzzle box. When this box is resolved in specific locations on the planet, a demon is released and returns to cause destruction. It's up to Jackie Chan to travel the world and stop Valmont before he completes his mission.</desc>
+    <rating>0.60</rating>
+    <releasedate>20041001T000000</releasedate>
+    <developer>Atomic Planet Entertainment</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Aventura</genre>
+    <genreid>512</genreid>
+    <players>1</players>
+    <region>eu</region>
+    <lang>pt,nl,it,es,de,fr,en</lang>
+    <image>./media/image/Jackie Chan Adventures (PT)-image.png</image>
+    <boxart>./media/image/Jackie Chan Adventures (PT)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Jackie Chan Adventures (PT)-screenshot.png</screenshot>
+    <cartridge>./media/image/Jackie Chan Adventures (PT)-cartridge.png</cartridge>
+    <video>./media/videos/Jackie Chan Adventures (PT)-video.mp4</video>
+    <fanart>./media/fanart/Jackie Chan Adventures (PT)-fanart.jpg</fanart>
+    <boxback>./media/image/Jackie Chan Adventures (PT)-boxback.png</boxback>
+    <extra1>./media/extras/Jackie Chan Adventures (PT)-extra1.png</extra1>
+  </game>
+  <game id="22356">
+    <path>./Klonoa 2 - Lunateas Veil (USA).chd</path>
+    <name>Klonoa 2 : Lunatea's Veil</name>
+    <mode>Jogador individual</mode>
+    <desc>Fans of the original Klonoa for the PS can set forth in a new adventure on a new system with this release of Klonoa 2: Lunatea's Veil. The endearing long-eared feline hero and the style of play introduced in his first adventure have been updated to make use of the enhanced processing power and graphical capabilities of Sony's 128-bit PlayStation 2 console. Billed as a "3D dramatic action" game, this second release follows the lead of the original by offering action-oriented gameplay accented with cut-scenes and interludes that add atmosphere and advance the storyline.</desc>
+    <rating>0.80</rating>
+    <releasedate>20011109T000000</releasedate>
+    <developer>Namco</developer>
+    <publisher>Namco</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <region>eu</region>
+    <lang>it,es,de,fr,en</lang>
+    <image>./media/image/Klonoa 2 - Lunateas Veil (USA)-image.png</image>
+    <boxart>./media/image/Klonoa 2 - Lunateas Veil (USA)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Klonoa 2 - Lunateas Veil (USA)-screenshot.png</screenshot>
+    <cartridge>./media/image/Klonoa 2 - Lunateas Veil (USA)-cartridge.png</cartridge>
+    <video>./media/videos/Klonoa 2 - Lunateas Veil (USA)-video.mp4</video>
+    <fanart>./media/fanart/Klonoa 2 - Lunateas Veil (USA)-fanart.jpg</fanart>
+    <titleshot>./media/image/Klonoa 2 - Lunateas Veil (USA)-titleshot.png</titleshot>
+    <manual>./media/manuals/Klonoa 2 - Lunateas Veil (USA)_(eu).pdf</manual>
+    <boxback>./media/image/Klonoa 2 - Lunateas Veil (USA)-boxback.png</boxback>
+    <extra1>./media/extras/Klonoa 2 - Lunateas Veil (USA)-extra1.png</extra1>
+  </game>
+  <game id="22024">
+    <path>./LEGO Batman - The Videogame (BR).chd</path>
+    <name>LEGO Batman : The Videogame</name>
+    <mode>Multijogador local</mode>
+    <desc>Continuing the tradition of adapting well-known franchises such as *Star Wars* and *Indiana Jones* with visuals based on LEGO, this game delves into the Batman universe. The basic concept remains the same: characters and objects are built with LEGO blocks, but now set in more traditionally designed settings. Most environments feature lateral progression with a fixed camera, but in 3D and with good depth.
+The dynamic duo spring into action in *LEGO Batman: The Videogame*. In the main campaign, players take control of Batman and Robin on an action-packed, puzzle-packed adventure through more than a dozen levels set in Gotham City — all recreated entirely using LEGO building blocks.</desc>
+    <rating>0.80</rating>
+    <releasedate>20081010T000000</releasedate>
+    <developer>Traveller's Tales</developer>
+    <publisher>Warner Bros. Games</publisher>
+    <genre>Briga De Rua, Plataforma</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <region>us</region>
+    <image>./media/image/LEGO Batman - The Videogame (BR)-image.png</image>
+    <boxart>./media/image/LEGO Batman - The Videogame (BR)-boxart.png</boxart>
+    <screenshot>./media/screenshots/LEGO Batman - The Videogame (BR)-screenshot.png</screenshot>
+    <cartridge>./media/image/LEGO Batman - The Videogame (BR)-cartridge.png</cartridge>
+    <video>./media/videos/LEGO Batman - The Videogame (BR)-video.mp4</video>
+    <fanart>./media/fanart/LEGO Batman - The Videogame (BR)-fanart.jpg</fanart>
+    <titleshot>./media/image/LEGO Batman - The Videogame (BR)-titleshot.png</titleshot>
+    <manual>./media/manuals/LEGO Batman - The Videogame (BR)_(us).pdf</manual>
+    <boxback>./media/image/LEGO Batman - The Videogame (BR)-boxback.png</boxback>
+    <extra1>./media/extras/LEGO Batman - The Videogame (BR)-extra1.png</extra1>
+  </game>
+  <game id="22328">
+    <path>./Maximo vs. Army of Zin (BR).chd</path>
+    <name>Maximo vs Army of Zin</name>
+    <mode>Jogador individual</mode>
+    <desc>The sequel to Maximo: From Ghosts to Glory, which was loosely based on the classic Ghosts 'n Goblins series, Maximo vs Army of Zin puts players in the role of Maximo, a master swordsman with a penchant for battling undead creatures. The action picks up where Ghosts to Glory left off, as the title hero must abandon his kingdom in order to search for his missing girlfriend. The developers at Capcom promise a more engrossing story this time around and have removed the hub screen, meaning each level flows into the next. There are 26 levels in all spread across six different environments.
+ As in earlier games in the series, Maximo wears boxer shorts beneath his armor. However, the underwear in this game actually serves a functional purpose beyond comic relief.</desc>
+    <rating>0.80</rating>
+    <releasedate>20040213T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <region>us</region>
+    <image>./media/image/Maximo vs. Army of Zin (BR)-image.png</image>
+    <boxart>./media/image/Maximo vs. Army of Zin (BR)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Maximo vs. Army of Zin (BR)-screenshot.png</screenshot>
+    <cartridge>./media/image/Maximo vs. Army of Zin (BR)-cartridge.png</cartridge>
+    <video>./media/videos/Maximo vs. Army of Zin (BR)-video.mp4</video>
+    <fanart>./media/fanart/Maximo vs. Army of Zin (BR)-fanart.jpg</fanart>
+    <titleshot>./media/image/Maximo vs. Army of Zin (BR)-titleshot.png</titleshot>
+    <manual>./media/manuals/Maximo vs. Army of Zin (BR)_(us).pdf</manual>
+    <boxback>./media/image/Maximo vs. Army of Zin (BR)-boxback.png</boxback>
+    <extra1>./media/extras/Maximo vs. Army of Zin (BR)-extra1.png</extra1>
+  </game>
+  <game id="22378">
+    <path>./Mega Man X8 (BR).chd</path>
+    <name>Mega Man X8</name>
+    <mode>Jogador individual</mode>
+    <desc>Like its immediate predecessor, Megaman X8 presents its 2D-style platform-shooter action in a 3D game world. Mega Man X is joined in this adventure by two close associates, Zero and Axle, and each character has different strengths and abilities. Players can switch between two characters in the heat of battle, to solve a platform puzzle or fend of a particular enemy type, and the two characters not controlled by the player will try to help out in combat if the leading character becomes overwhelmed.
+ Characters not controlled by the player recover more quickly when the hero onscreen is performing well. As in most games in the long-running Mega Man series, defeating a boss character earns the ability to use its special weapon. Other defeated enemies may leave behind metal bits, which can be collected and used to create custom power-ups. In addition to the side-scrolling platform levels, some boss fights and other events are played from alternate perspectives.</desc>
+    <rating>0.60</rating>
+    <releasedate>20050211T000000</releasedate>
+    <developer>Valuewave</developer>
+    <publisher>Capcom</publisher>
+    <genre>Plataforma / Tiro Com Rolagem, Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <region>us</region>
+    <image>./media/image/Mega Man X8 (BR)-image.png</image>
+    <wheel>./media/wheel/Mega Man X8 (BR)-wheel.png</wheel>
+    <boxart>./media/image/Mega Man X8 (BR)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Mega Man X8 (BR)-screenshot.png</screenshot>
+    <cartridge>./media/image/Mega Man X8 (BR)-cartridge.png</cartridge>
+    <marquee>./media/image/Mega Man X8 (BR)-marquee.png</marquee>
+    <video>./media/videos/Mega Man X8 (BR)-video.mp4</video>
+    <fanart>./media/fanart/Mega Man X8 (BR)-fanart.jpg</fanart>
+    <titleshot>./media/image/Mega Man X8 (BR)-titleshot.png</titleshot>
+    <manual>./media/manuals/Mega Man X8 (BR)_(us).pdf</manual>
+    <boxback>./media/image/Mega Man X8 (BR)-boxback.png</boxback>
+    <extra1>./media/extras/Mega Man X8 (BR)-extra1.png</extra1>
+  </game>
+  <game id="22507">
+    <path>./Metal Slug Anthology (USA).chd</path>
+    <name>Metal Slug Anthology</name>
+    <desc>The Metal Slug Anthology features seven previously released games in a single package. The set includes Metal Slug, Metal Slug 2, Metal Slug X, Metal Slug 3, Metal Slug 4, Metal Slug 5 and Metal Slug 6.
+Two-player co-op action is available, and the game also offers a wealth of unlockable content and a bonus gallery featuring classic character posters and art.</desc>
+    <rating>0.60</rating>
+    <releasedate>20070706T000000</releasedate>
+    <developer>Terminal Reality</developer>
+    <publisher>SNK</publisher>
+    <genre>Tiro / Run And Gun, Tiro</genre>
+    <genreid>256</genreid>
+    <players>1-2</players>
+    <region>eu</region>
+    <image>./media/image/Metal Slug Anthology (USA)-image.png</image>
+    <wheel>./media/wheel/Metal Slug Anthology (USA)-wheel.png</wheel>
+    <boxart>./media/image/Metal Slug Anthology (USA)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Metal Slug Anthology (USA)-screenshot.png</screenshot>
+    <cartridge>./media/image/Metal Slug Anthology (USA)-cartridge.png</cartridge>
+    <marquee>./media/image/Metal Slug Anthology (USA)-marquee.png</marquee>
+    <video>./media/videos/Metal Slug Anthology (USA)-video.mp4</video>
+    <fanart>./media/fanart/Metal Slug Anthology (USA)-fanart.jpg</fanart>
+    <titleshot>./media/image/Metal Slug Anthology (USA)-titleshot.png</titleshot>
+    <manual>./media/manuals/Metal Slug Anthology (USA)_(us).pdf</manual>
+    <boxback>./media/image/Metal Slug Anthology (USA)-boxback.png</boxback>
+    <extra1>./media/extras/Metal Slug Anthology (USA)-extra1.png</extra1>
+  </game>
+  <game id="22119">
+    <path>./Mortal Kombat - Shaolin Monks (BR).chd</path>
+    <name>Mortal Kombat : Shaolin Monks</name>
+    <desc>Mortal Kombat: Shaolin Monks is an action-adventure game based on the events of Mortal Kombat II, starting with the aftermath of the first Mortal Kombat. It is the fifteenth game, but it is the third installment in the adventure genre of the saga, it was released on September 16, 2005 for the PlayStation 2 and Xbox consoles.
+The game revolves around two members of the Shaolin Temple: Liu Kang and Kung Lao, as they travel through the realms in an attempt to stop Shang Tsung's plans to take over the Earthrealm.</desc>
+    <rating>0.80</rating>
+    <releasedate>20050930T000000</releasedate>
+    <developer>Midway</developer>
+    <publisher>Midway</publisher>
+    <genre>Luta</genre>
+    <genreid>262</genreid>
+    <players>1-2</players>
+    <region>eu</region>
+    <lang>it,es,de,fr,en</lang>
+    <image>./media/image/Mortal Kombat - Shaolin Monks (BR)-image.png</image>
+    <boxart>./media/image/Mortal Kombat - Shaolin Monks (BR)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Mortal Kombat - Shaolin Monks (BR)-screenshot.png</screenshot>
+    <cartridge>./media/image/Mortal Kombat - Shaolin Monks (BR)-cartridge.png</cartridge>
+    <video>./media/videos/Mortal Kombat - Shaolin Monks (BR)-video.mp4</video>
+    <fanart>./media/fanart/Mortal Kombat - Shaolin Monks (BR)-fanart.jpg</fanart>
+    <titleshot>./media/image/Mortal Kombat - Shaolin Monks (BR)-titleshot.png</titleshot>
+    <manual>./media/manuals/Mortal Kombat - Shaolin Monks (BR)_(us).pdf</manual>
+    <boxback>./media/image/Mortal Kombat - Shaolin Monks (BR)-boxback.png</boxback>
+    <extra1>./media/extras/Mortal Kombat - Shaolin Monks (BR)-extra1.png</extra1>
+    <bezel>./media/bezels/Mortal Kombat - Shaolin Monks (BR)-bezel.png</bezel>
+  </game>
+  <game id="21908">
+    <path>./Need for Speed - Underground 2 (BR) (DUB).chd</path>
+    <name>Need for Speed : Underground 2</name>
+    <mode>Jogador individual</mode>
+    <desc>The popular game Need For Speed ​​Underground has been adapted for different systems with different capabilities. In it, you drive in a city divided into 5 distinct areas. As in the other versions, the objective is to drive well enough to increase your reputation. In this version, the route is pre-defined, without the free exploration of other versions. Available cars include machines from Volkswagen, Mitsubishi and Toyota. There are fewer upgrade options in this version, although your car's appearance and handling can still be changed. The story in this version follows a predetermined path.</desc>
+    <rating>0.80</rating>
+    <releasedate>20041119T000000</releasedate>
+    <developer>Electronic Arts</developer>
+    <publisher>EA Games</publisher>
+    <genre>Corrida, Pilotagem</genre>
+    <genreid>1537</genreid>
+    <region>eu,us</region>
+    <lang>en,fr,de,es,it,nl,sv,da</lang>
+    <image>./media/image/Need for Speed - Underground 2 (BR) (DUB)-image.png</image>
+    <boxart>./media/image/Need for Speed - Underground 2 (BR) (DUB)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Need for Speed - Underground 2 (BR) (DUB)-screenshot.png</screenshot>
+    <cartridge>./media/image/Need for Speed - Underground 2 (BR) (DUB)-cartridge.png</cartridge>
+    <video>./media/videos/Need for Speed - Underground 2 (BR) (DUB)-video.mp4</video>
+    <fanart>./media/fanart/Need for Speed - Underground 2 (BR) (DUB)-fanart.jpg</fanart>
+    <titleshot>./media/image/Need for Speed - Underground 2 (BR) (DUB)-titleshot.png</titleshot>
+    <manual>./media/manuals/Need for Speed - Underground 2 (BR) (DUB)_(us).pdf</manual>
+    <boxback>./media/image/Need for Speed - Underground 2 (BR) (DUB)-boxback.png</boxback>
+    <extra1>./media/extras/Need for Speed - Underground 2 (BR) (DUB)-extra1.png</extra1>
+    <bezel>./media/bezels/Need for Speed - Underground 2 (BR) (DUB)-bezel.png</bezel>
+  </game>
+  <game id="23060">
+    <path>./Neo Contra (BR-USA).chd</path>
+    <name>Neo Contra</name>
+    <desc>Neo Contra is the tenth video game in the Contra series by Konami. It was developed by Team Neo Kijirushi, a group of staff members within Konami Computer Entertainment Tokyo, and released for the PlayStation 2 in 2004. The game is a direct follow-up to Contra: Shattered Soldier and is a departure from the traditional scrolling shooter formula from previous games.</desc>
+    <rating>0.60</rating>
+    <releasedate>20050225T000000</releasedate>
+    <developer>Konami</developer>
+    <publisher>Konami</publisher>
+    <genre>Plataforma / Tiro Com Rolagem, Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <region>us</region>
+    <image>./media/image/Neo Contra (BR-USA)-image.png</image>
+    <boxart>./media/image/Neo Contra (BR-USA)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Neo Contra (BR-USA)-screenshot.png</screenshot>
+    <cartridge>./media/image/Neo Contra (BR-USA)-cartridge.png</cartridge>
+    <video>./media/videos/Neo Contra (BR-USA)-video.mp4</video>
+    <fanart>./media/fanart/Neo Contra (BR-USA)-fanart.jpg</fanart>
+    <manual>./media/manuals/Neo Contra (BR-USA)_(us).pdf</manual>
+    <boxback>./media/image/Neo Contra (BR-USA)-boxback.png</boxback>
+    <extra1>./media/extras/Neo Contra (BR-USA)-extra1.png</extra1>
+  </game>
+  <game id="22049">
+    <path>./Onimusha - Warlords (BR).chd</path>
+    <name>Onimusha : Warlords</name>
+    <mode>Jogador individual</mode>
+    <desc>In a world filled with darkness and magic, power-hungry warlords fight for supremacy in feudal Japan. Amidst the chaos, the noble princess Yukihime is kidnapped. A lone warrior, the brave Samanosuke, offers to rescue and avenge the princess. But in these dark and mysterious times, not even Samanosuke realizes how desperate his mission is. A legion of demonic warriors stands between him, the princess and final victory.</desc>
+    <rating>0.80</rating>
+    <releasedate>20010706T000000</releasedate>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Aventura, Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1</players>
+    <region>eu</region>
+    <lang>de,fr,en</lang>
+    <image>./media/image/Onimusha - Warlords (BR)-image.png</image>
+    <boxart>./media/image/Onimusha - Warlords (BR)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Onimusha - Warlords (BR)-screenshot.png</screenshot>
+    <cartridge>./media/image/Onimusha - Warlords (BR)-cartridge.png</cartridge>
+    <video>./media/videos/Onimusha - Warlords (BR)-video.mp4</video>
+    <fanart>./media/fanart/Onimusha - Warlords (BR)-fanart.jpg</fanart>
+    <manual>./media/manuals/Onimusha - Warlords (BR)_(us).pdf</manual>
+    <boxback>./media/image/Onimusha - Warlords (BR)-boxback.png</boxback>
+    <extra1>./media/extras/Onimusha - Warlords (BR)-extra1.png</extra1>
+  </game>
+  <game id="22255">
+    <path>./Ratatouille (BR).chd</path>
+    <name>Disney Pixar Ratatouille</name>
+    <desc>In Disney/Pixar's animated adventure, a rat named Remy dreams of becoming a great French chef despite his family's wishes and the obvious problem of being a rat in a decidedly rodent-phobic profession. When fate places Remy in the sewers of Paris, he finds himself ideally situated beneath a restaurant made famous by his culinary hero, Auguste Gusteau.
+In the game, players will assume the role of Remy and relive some of the film's most thrilling moments. Players will instantly recognize the storyline, characters and key locations of Ratatouille, as they engage in a series of unique mini-games, cooking challenges and head-to-head multiplayer. Ratatouille will allow players to create culinary masterpieces, evade detection from dangerous and often hungry enemies, and brave the perils of the dinner-rush in this senses-shattering journey to fulfill Remy's life-long dream of becoming a great chef.</desc>
+    <rating>0.60</rating>
+    <releasedate>20070928T000000</releasedate>
+    <developer>Asobo</developer>
+    <publisher>THQ</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1-4</players>
+    <image>./media/image/Ratatouille (BR)-image.png</image>
+    <screenshot>./media/screenshots/Ratatouille (BR)-screenshot.png</screenshot>
+    <video>./media/videos/Ratatouille (BR)-video.mp4</video>
+    <fanart>./media/fanart/Ratatouille (BR)-fanart.jpg</fanart>
+    <manual>./media/manuals/Ratatouille (BR)_(us).pdf</manual>
+    <extra1>./media/extras/Ratatouille (BR)-extra1.png</extra1>
+  </game>
+  <game id="23326">
+    <path>./Red Star The (USA).chd</path>
+    <name>The Red Star</name>
+    <desc>This game is a mix of different types of games. It has been described as a fighting, action, and shooter game rolled into one. RPG elements are also apparent as players have the option of upgrading certain attributes of a character depending on how well levels are completed.
+This story is based on The Red Star graphic novel, set in a futuristic, magic-using Soviet Union, which uses floating Skyfurnaces (gigantic magical ships, reminiscent of all-metal blimps) and Warkasters (sorcerers) to conquer its enemies.</desc>
+    <rating>0.60</rating>
+    <releasedate>20070420T000000</releasedate>
+    <developer>XS Games</developer>
+    <publisher>Take 2 Interactive</publisher>
+    <genre>Briga De Rua, Shoot'em Up</genre>
+    <genreid>263</genreid>
+    <players>2</players>
+    <region>eu</region>
+    <lang>it,es,de,fr,en</lang>
+    <image>./media/image/Red Star The (USA)-image.png</image>
+    <boxart>./media/image/Red Star The (USA)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Red Star The (USA)-screenshot.jpg</screenshot>
+    <cartridge>./media/image/Red Star The (USA)-cartridge.png</cartridge>
+    <video>./media/videos/Red Star The (USA)-video.mp4</video>
+    <manual>./media/manuals/Red Star The (USA)_(us).pdf</manual>
+    <boxback>./media/image/Red Star The (USA)-boxback.png</boxback>
+    <extra1>./media/extras/Red Star The (USA)-extra1.png</extra1>
+  </game>
+  <game id="21887">
+    <path>./Shadow of the Colossus (NEMESIS) (BR).chd</path>
+    <name>Shadow of the Colossus</name>
+    <mode>Jogador individual</mode>
+    <desc>Bosses are common in video games, but the bosses are the levels themselves in this unusual adventure. Developed by the studio that created the acclaimed Ico for PS2, Shadow of the Colossus is another fantasy-themed puzzle adventure that values ​​expressive environments and minimal dialogue. Players take on the role of a young knight who sets out to rescue his sleeping princess from a magically induced state of suspended animation. To do this, he will need to defeat the 16 Colossi the size of landscapes so enormous that they can only be conquered by exploring them in a platform game style, discovering their weaknesses. Against some Colossi, the hero can ride alongside the monster on his horse, galloping at full speed just to keep up with its mile-long strides. Other Colossi require the player to actually climb, crawl, run, and jump across their massive bodies to find the hidden vulnerability that can be used to take them down.</desc>
+    <rating>0.80</rating>
+    <releasedate>20060217T000000</releasedate>
+    <developer>Sony Computer Entertainment</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1</players>
+    <region>us</region>
+    <image>./media/image/Shadow of the Colossus (NEMESIS) (BR)-image.png</image>
+    <boxart>./media/image/Shadow of the Colossus (NEMESIS) (BR)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Shadow of the Colossus (NEMESIS) (BR)-screenshot.png</screenshot>
+    <cartridge>./media/image/Shadow of the Colossus (NEMESIS) (BR)-cartridge.png</cartridge>
+    <video>./media/videos/Shadow of the Colossus (NEMESIS) (BR)-video.mp4</video>
+    <fanart>./media/fanart/Shadow of the Colossus (NEMESIS) (BR)-fanart.jpg</fanart>
+    <titleshot>./media/image/Shadow of the Colossus (NEMESIS) (BR)-titleshot.png</titleshot>
+    <manual>./media/manuals/Shadow of the Colossus (NEMESIS) (BR)_(us).pdf</manual>
+    <boxback>./media/image/Shadow of the Colossus (NEMESIS) (BR)-boxback.png</boxback>
+    <extra1>./media/extras/Shadow of the Colossus (NEMESIS) (BR)-extra1.png</extra1>
+  </game>
+  <game id="22411">
+    <path>./Spider-Man – Friend or Foe (BR).chd</path>
+    <name>Spider-Man : Friend or Foe</name>
+    <desc>Spider-Man finds himself beset by his movie villains. He gains help from New Goblin as he combats the Green Goblin, Doctor Octopus, Sandman, and Venom. All six characters suddenly find themselves targeted by an enemy force and one-by-one, the villains begin disappearing. Meanwhile, Spider-Man is rescued by Nick Fury of S.H.I.E.L.D., who informs him that the meteor which brought the Venom symbiote to Earth had broken up in the Earth's atmosphere and five more pieces had landed in numerous locations across the globe. Fury sends Spider-Man to retrieve the shards of meteors. Spider-Man quickly finds that the villains who attacked him and several more of his foes, including Rhino and Scorpion, have been placed under mind control of a mysterious villain. The villain also creates and controls holographic/symbiote combination foot soldiers called P.H.A.N.T.O.M.s (short for Perpetual Holographic Avatar Nano-Tech Offensive Monsters). As Spider-Man fights his enemies one-by-one and rescues them from the mind control, they promise to aid him in finding the villain responsible. As Spider-Man progresses, he obtains more allies such as Black Cat, Iron Fist, Lizard (not portrayed as a villain), and Blade. He discovers that the evil genius is Mysterio, who intends to use his army to take over the world, using each shard of the meteor to make them stronger. Spider-Man decides to temporarily don the Black Suit for the final battle.</desc>
+    <rating>0.60</rating>
+    <releasedate>20071002T000000</releasedate>
+    <developer>Next Level Games</developer>
+    <publisher>Activision</publisher>
+    <genre>Plataforma / Combate Com Rolagem, Plataforma</genre>
+    <genreid>257</genreid>
+    <players>2</players>
+    <region>us</region>
+    <image>./media/image/Spider-Man – Friend or Foe (BR)-image.png</image>
+    <wheel>./media/wheel/Spider-Man – Friend or Foe (BR)-wheel.png</wheel>
+    <boxart>./media/image/Spider-Man – Friend or Foe (BR)-boxart.png</boxart>
+    <cartridge>./media/image/Spider-Man – Friend or Foe (BR)-cartridge.png</cartridge>
+    <marquee>./media/image/Spider-Man – Friend or Foe (BR)-marquee.png</marquee>
+    <video>./media/videos/Spider-Man – Friend or Foe (BR)-video.mp4</video>
+    <fanart>./media/fanart/Spider-Man – Friend or Foe (BR)-fanart.jpg</fanart>
+    <manual>./media/manuals/Spider-Man – Friend or Foe (BR)_(us).pdf</manual>
+    <boxback>./media/image/Spider-Man – Friend or Foe (BR)-boxback.png</boxback>
+    <extra1>./media/extras/Spider-Man – Friend or Foe (BR)-extra1.png</extra1>
+  </game>
+  <game id="22100">
+    <path>./Spider-Man 2 (BR).chd</path>
+    <name>Spider-Man 2</name>
+    <desc>It is two years following the events of the first game. Spider-Man is trying to balance his civilian and superhero life, frequently late or absent for school, work, and leisure time with his friends. Following dinner with Mary Jane Watson, Peter thwarts an armed looting of an art museum, and tracks down an escaped robber, the Black Cat. Soon after this, he thwarts an attack in the streets of Manhattan by The Rhino. Meanwhile, Doctor Otto Octavius attempts to recreate nuclear fusion of that seen in the sun to provide an energy source for Manhattan. To control this fusion, he creates four metal arms which he can mentally control. His fusion creates a strong magnetic field, destroying the lab, killing his wife Rosie, and grafting his metal arms to his spine and giving his arms control over him. He blames Spider-Man for the incident, despite the fact that Spider-Man was not in the lab until the middle of it.</desc>
+    <rating>0.80</rating>
+    <releasedate>20040709T000000</releasedate>
+    <developer>Treyarch</developer>
+    <publisher>Activision</publisher>
+    <genre>Ação / Aventura, Ação</genre>
+    <genreid>256</genreid>
+    <players>1</players>
+    <region>eu,us</region>
+    <image>./media/image/Spider-Man 2 (BR)-image.png</image>
+    <boxart>./media/image/Spider-Man 2 (BR)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Spider-Man 2 (BR)-screenshot.jpg</screenshot>
+    <cartridge>./media/image/Spider-Man 2 (BR)-cartridge.png</cartridge>
+    <video>./media/videos/Spider-Man 2 (BR)-video.mp4</video>
+    <fanart>./media/fanart/Spider-Man 2 (BR)-fanart.jpg</fanart>
+    <titleshot>./media/image/Spider-Man 2 (BR)-titleshot.jpg</titleshot>
+    <manual>./media/manuals/Spider-Man 2 (BR)_(us).pdf</manual>
+    <boxback>./media/image/Spider-Man 2 (BR)-boxback.png</boxback>
+    <extra1>./media/extras/Spider-Man 2 (BR)-extra1.png</extra1>
+  </game>
+  <game id="21964">
+    <path>./Tekken 5 (USA).chd</path>
+    <name>Tekken 5</name>
+    <mode>Jogador individual</mode>
+    <desc>In Tekken 5, Jin Kazama leads a tournament to determine the future of the Mishima Zaibatsu. Master a refined six-button combat system, execute devastating combos, and battle over 30 iconic characters like Xiaoyu, Steve Fox, and new fighters like Lili and Feng Wei. Explore different game modes, customize your character and experience epic battles in high definition. Tekken 5 offers addictive gameplay, stunning graphics and an unforgettable fighting experience!</desc>
+    <rating>0.80</rating>
+    <releasedate>20050224T000000</releasedate>
+    <developer>Namco</developer>
+    <publisher>Namco</publisher>
+    <genre>Luta / Versus, Luta / 2.5D, Luta</genre>
+    <genreid>262</genreid>
+    <players>1-2</players>
+    <region>eu</region>
+    <lang>it,es,de,fr,en</lang>
+    <image>./media/image/Tekken 5 (USA)-image.png</image>
+    <boxart>./media/image/Tekken 5 (USA)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Tekken 5 (USA)-screenshot.png</screenshot>
+    <cartridge>./media/image/Tekken 5 (USA)-cartridge.png</cartridge>
+    <video>./media/videos/Tekken 5 (USA)-video.mp4</video>
+    <fanart>./media/fanart/Tekken 5 (USA)-fanart.jpg</fanart>
+    <manual>./media/manuals/Tekken 5 (USA)_(us).pdf</manual>
+    <boxback>./media/image/Tekken 5 (USA)-boxback.png</boxback>
+    <extra1>./media/extras/Tekken 5 (USA)-extra1.png</extra1>
+  </game>
+  <game id="22769">
+    <path>./The Incredibles - Rise Of The Underminer (BR).chd</path>
+    <name>The Incredibles : Rise of the Underminer</name>
+    <desc>Following Syndrome's defeat by the Incredibles in Walt Disney Pictures' presentation of the Pixar Animation Studios film, a new threat emerges from beneath the ground with a diabolical plot to pollute the world's major cities and rule humanity from below. Fans will be able to pick up where the film left off and relive the glory days as Mr. Incredible and Frozone, superhero best friends who team up to face a new villain, The Digger</desc>
+    <rating>0.60</rating>
+    <releasedate>20051111T000000</releasedate>
+    <developer>Heavy Iron</developer>
+    <publisher>THQ</publisher>
+    <genre>Plataforma</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <tags>completed</tags>
+    <image>./media/image/The Incredibles - Rise Of The Underminer (BR)-image.png</image>
+    <screenshot>./media/screenshots/The Incredibles - Rise Of The Underminer (BR)-screenshot.png</screenshot>
+    <video>./media/videos/The Incredibles - Rise Of The Underminer (BR)-video.mp4</video>
+    <fanart>./media/fanart/The Incredibles - Rise Of The Underminer (BR)-fanart.jpg</fanart>
+    <manual>./media/manuals/The Incredibles - Rise Of The Underminer (BR)_(us).pdf</manual>
+    <extra1>./media/extras/The Incredibles - Rise Of The Underminer (BR)-extra1.png</extra1>
+  </game>
+  <game id="22041">
+    <path>./TimeSplitters - Future Perfect (BR).chd</path>
+    <name>TimeSplitters : Future Perfect</name>
+    <mode>Jogador individual</mode>
+    <desc>In TimeSplitters: Future Perfect, humanity is on the brink of destruction by the evil TimeSplitters. With the help of some familiar faces, Cortez--the tough hero from previous installments--must chase a mystery foe across different time periods to trace the origins of the TimeSplitters.nnnnAs Cortez, you'll have access to weapons, gadgets, characters, and environments that are unique to each time period. You can also correct the mistakes made in athe past or team up with past and future versions of yourself in battles.</desc>
+    <rating>0.80</rating>
+    <releasedate>20050324T000000</releasedate>
+    <developer>Free Radical Design</developer>
+    <publisher>EA Games</publisher>
+    <genre>Tiro / Tiro Em 1ª Pessoa, Tiro</genre>
+    <genreid>259</genreid>
+    <region>eu</region>
+    <lang>it,es,de,fr,en</lang>
+    <adult>true</adult>
+    <image>./media/image/TimeSplitters - Future Perfect (BR)-image.png</image>
+    <screenshot>./media/screenshots/TimeSplitters - Future Perfect (BR)-screenshot.jpg</screenshot>
+    <cartridge>./media/image/TimeSplitters - Future Perfect (BR)-cartridge.png</cartridge>
+    <video>./media/videos/TimeSplitters - Future Perfect (BR)-video.mp4</video>
+    <fanart>./media/fanart/TimeSplitters - Future Perfect (BR)-fanart.jpg</fanart>
+    <titleshot>./media/image/TimeSplitters - Future Perfect (BR)-titleshot.png</titleshot>
+    <manual>./media/manuals/TimeSplitters - Future Perfect (BR)_(us).pdf</manual>
+    <extra1>./media/extras/TimeSplitters - Future Perfect (BR)-extra1.png</extra1>
+  </game>
+  <game id="22030">
+    <path>./True Crime New York City (BR).chd</path>
+    <name>True Crime : New York City</name>
+    <mode>Jogador individual</mode>
+    <desc>Be a good cop or a bad cop in the streetwise action game True Crime: New York City. You can explore the authentically modeled streets of New York City as a police officer tracking down criminals and administering justice. The game features a diverse weapon set, as well as a mixed offering of fighting styles that you can use to take out those who stand in your way. In addition to combat on foot, the game features driving sequences and shootouts. Laurence Fishburne, Christopher Walken, and Mickey Rourke contribute their voice talent to the game as well.</desc>
+    <rating>0.80</rating>
+    <releasedate>20051125T000000</releasedate>
+    <developer>Luxoflux</developer>
+    <publisher>Activision</publisher>
+    <genre>Corrida, Pilotagem</genre>
+    <genreid>1537</genreid>
+    <players>1</players>
+    <region>eu,us</region>
+    <adult>true</adult>
+    <image>./media/image/True Crime New York City (BR)-image.png</image>
+    <boxart>./media/image/True Crime New York City (BR)-boxart.png</boxart>
+    <cartridge>./media/image/True Crime New York City (BR)-cartridge.png</cartridge>
+    <video>./media/videos/True Crime New York City (BR)-video.mp4</video>
+    <fanart>./media/fanart/True Crime New York City (BR)-fanart.jpg</fanart>
+    <manual>./media/manuals/True Crime New York City (BR)_(us).pdf</manual>
+    <boxback>./media/image/True Crime New York City (BR)-boxback.png</boxback>
+    <extra1>./media/extras/True Crime New York City (BR)-extra1.png</extra1>
+  </game>
+  <game id="22586">
+    <path>./Urban Reign (BR).chd</path>
+    <name>Urban Reign</name>
+    <desc>Urban Reign is a 3D fighting game produced by Namco, made in the style of Double Dragon and Final Fight. The story follows Brad Hawk, a hired henchman who tries to find a gang member captured by a rival group.
+In each level, you face various thugs from Green Harbor's many gangs in search of clues. You can count on different allies, who can receive commands and have skills in different fighting techniques, helping you achieve your objectives as you progress through 100 phases.
+There are several types of combos and special moves, as well as objects that can be used as weapons, and it is also possible to dodge enemy attacks with dodge movements.</desc>
+    <rating>0.80</rating>
+    <releasedate>20050913T000000</releasedate>
+    <developer>Namco</developer>
+    <publisher>Namco</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1-4</players>
+    <region>eu</region>
+    <lang>it,es,de,fr,en</lang>
+    <image>./media/image/Urban Reign (BR)-image.png</image>
+    <boxart>./media/image/Urban Reign (BR)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Urban Reign (BR)-screenshot.png</screenshot>
+    <cartridge>./media/image/Urban Reign (BR)-cartridge.png</cartridge>
+    <video>./media/videos/Urban Reign (BR)-video.mp4</video>
+    <fanart>./media/fanart/Urban Reign (BR)-fanart.jpg</fanart>
+    <manual>./media/manuals/Urban Reign (BR)_(us).pdf</manual>
+    <boxback>./media/image/Urban Reign (BR)-boxback.png</boxback>
+    <extra1>./media/extras/Urban Reign (BR)-extra1.png</extra1>
+  </game>
+  <game id="22047">
+    <path>./Warriors, The (BR).chd</path>
+    <name>The Warriors</name>
+    <desc>The Warriors is an action game on Playstation 2. You play as several members of the Warriors gang wrongly accused of killing a member of the rival gang.  It is up to you to enforce your law, that of weapons and force.</desc>
+    <rating>0.80</rating>
+    <releasedate>20051017T000000</releasedate>
+    <developer>Rockstar Games</developer>
+    <publisher>Take 2 Interactive</publisher>
+    <genre>Briga De Rua</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <adult>true</adult>
+    <image>./media/image/Warriors, The (BR)-image.png</image>
+    <screenshot>./media/screenshots/Warriors, The (BR)-screenshot.png</screenshot>
+    <video>./media/videos/Warriors, The (BR)-video.mp4</video>
+    <fanart>./media/fanart/Warriors, The (BR)-fanart.jpg</fanart>
+    <manual>./media/manuals/Warriors, The (BR)_(us).pdf</manual>
+    <extra1>./media/extras/Warriors, The (BR)-extra1.png</extra1>
+  </game>
+</gameList>
