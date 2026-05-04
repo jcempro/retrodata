@@ -321,8 +321,10 @@ function Invoke-TextTranslation {
             continue
           }
 
-          if ($GLOBAL:TRANSLATE_CACHE.ContainsKey($original)) {
-            $results += $GLOBAL:TRANSLATE_CACHE[$original]
+          $cacheKey = $original.ToLowerInvariant() # FIX-BUG: consistência de chave
+
+          if ($GLOBAL:TRANSLATE_CACHE.ContainsKey($cacheKey)) {
+            $results += $GLOBAL:TRANSLATE_CACHE[$cacheKey]
             continue
           }
 
@@ -332,7 +334,7 @@ function Invoke-TextTranslation {
             $translated = $original # PROTECAO
           }
 
-          $GLOBAL:TRANSLATE_CACHE[$original] = $translated
+          $GLOBAL:TRANSLATE_CACHE[$original.ToLowerInvariant()] = $translated # FIX-BUG: chave normalizada
           $results += $translated
         }
 
@@ -420,8 +422,11 @@ function Invoke-GamelistProcessing {
       Rename-Item -Path $fullPath -NewName (Split-Path $newFullPath -Leaf)
 
       # PROTECAO: sincroniza sha256
+      # PROTECAO: sincroniza sha256
       $oldHash = Get-ChildItem -Path $originalDir -Filter "$fileName*.sha256" -ErrorAction SilentlyContinue | Select-Object -First 1
-      $newHash = "$newFullPath.sha256"
+
+      $newHashBase = [System.IO.Path]::GetFileNameWithoutExtension($newFullPath) # FIX-BUG: remove extensão antes de gerar .sha256
+      $newHash = Join-Path $originalDir "$newHashBase.sha256"
 
       if ($oldHash) {
         Rename-Item -Path $oldHash.FullName -NewName (Split-Path $newHash -Leaf)
@@ -433,6 +438,7 @@ function Invoke-GamelistProcessing {
       $relative = "./" + [System.IO.Path]::GetRelativePath($baseDir, $newFullPath).Replace('\', '/')
     }
     catch {
+      Write-Host "[ERRO][GetRelativePath] fallback aplicado :: $($_.Exception.Message)" # FIX-BUG: evita falha silenciosa
       $relative = "./" + (Split-Path $newFullPath -Leaf) # PROTECAO
     }
     $game.path.'#text' = $relative
