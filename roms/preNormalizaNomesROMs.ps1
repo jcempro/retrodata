@@ -121,7 +121,8 @@ function Normalize-Nome {
 
   # TitleCase (controlado)
   $n = $n.Trim().ToLowerInvariant()
-  return ([cultureinfo]::InvariantCulture.TextInfo).ToTitleCase($n)
+  $n = ([cultureinfo]::InvariantCulture.TextInfo).ToTitleCase($n)
+  return ConvertTo-RomanAwareTitle $n
 }
 
 function Extract-Extensions {
@@ -161,6 +162,26 @@ function Extract-Extensions {
     Base       = $baseName
     Extensions = $exts
   }
+}
+
+function ConvertTo-RomanAwareTitle {
+  param([string]$text)
+
+  if (-not $text) { return $null }
+
+  $words = $text -split ' '
+
+  $romanRegex = '^(?i:M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3}))$'
+
+  for ($i = 0; $i -lt $words.Count; $i++) {
+    $w = $words[$i]
+
+    if ($w -match $romanRegex) {
+      $words[$i] = $w.ToUpperInvariant()
+    }
+  }
+
+  return ($words -join ' ')
 }
 
 function Remove-InvalidFileNameChars {
