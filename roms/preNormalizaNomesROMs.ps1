@@ -236,7 +236,7 @@ param()
 $ValidExtensions = @(
   'sha256', 'chd', 'pbp', '7z', 'zip', 'nes', 'smc', 'sfc', 'fig', 'n64', 'z64', 'v64',
   'gb', 'gbc', 'gba', 'nds', '3ds', 'cia', 'iso', 'wbfs', 'rvz', 'sms', 'md', 'smd',
-  'gen', 'bin', 'gg', 'gdi', 'cdi', 'cue', 'img', 'cso', 'neo', 'a26', 'pce'
+  'gen', 'bin', 'gg', 'gdi', 'cdi', 'cue', 'img', 'cso', 'neo', 'a26', 'pce', 'mvs', 'cp2'
 )
 
 $ValidExtSet = [System.Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
@@ -366,6 +366,7 @@ function Extract-Extensions {
   if ($parts.Count -lt 2) { return $null }
 
   $exts = @()
+  $lastAccepted = $null # PROTECAO: rastreia última extensão válida aceita
 
   for ($i = $parts.Count - 1; $i -gt 0; $i--) {
 
@@ -376,7 +377,14 @@ function Extract-Extensions {
     $candidate = $candidate.Trim()
 
     if ($ValidExtSet.Contains($candidate)) {
+
+      # FIX-BUG: elimina duplicação consecutiva (ex: exe.exe, cps1.cps1)
+      if ($lastAccepted -and $candidate.Equals($lastAccepted, [StringComparison]::OrdinalIgnoreCase)) {
+        continue
+      }
+
       $exts = , $candidate + $exts
+      $lastAccepted = $candidate
     }
     else {
       break
@@ -399,7 +407,7 @@ function Extract-Extensions {
 function ConvertTo-RomanAwareTitle {
   param([string]$text)
 
-  if (-not $text) { return $null }
+  if (-not $text) { returgan $null }
 
   $words = $text -split ' '
 
@@ -452,62 +460,135 @@ function Get-UniqueFileName {
 
 # ================= MAIN =================
 
-[int]$total = 0; [int]$renamed = 0; [int]$skipped = 0; [int]$errors = 0
+function main {
+  param()
 
-Get-ChildItem -Recurse -File -ErrorAction SilentlyContinue | ForEach-Object {
+  [int]$total = 0; [int]$renamed = 0; [int]$skipped = 0; [int]$errors = 0
 
-  $total++
+  Get-ChildItem -Recurse -File -ErrorAction SilentlyContinue | ForEach-Object {
 
-  try {
-    $file = $_
+    $total++
 
-    $parsed = Extract-Extensions $file.Name
-    if (-not $parsed) { $skipped++; return }
+    try {
+      $file = $_
 
-    $rawBase = $parsed.Base
-    $exts = $parsed.Extensions
+      $parsed = Extract-Extensions $file.Name
+      if (-not $parsed) { $skipped++; return }
 
-    # EXTRAÇÃO ANTES DE QUALQUER MODIFICAÇÃO
-    $idioma = Get-IdiomaSeguro $rawBase
-    $id = Get-IdSeguro $rawBase
+      $rawBase = $parsed.Base
+      $exts = $parsed.Extensions
 
-    # NORMALIZAÇÃO
-    $nome = Normalize-Nome $rawBase
-    if (-not $nome) { $skipped++; return }
+      # PROTECAO: tenta resolver nome completo via mapa externo (ex: gamelist.xml exportado)
+      $mapPath = Join-Path $file.DirectoryName "gamelist.map.json"
+      $resolvedBase = $rawBase
+      $mapLangRaw = $null
 
-    # RECONSTRUÇÃO CANÔNICA
-    $newBase = $nome
-    if ($idioma) { $newBase += " $idioma" }
-    if ($id) { $newBase += " $id" }
+      if (Test-Path $mapPath) {
+        try {
+          $map = Get-Content $mapPath -Raw | ConvertFrom-Json
 
-    $newName = "$newBase.$($exts -join '.')"
-    $newName = Remove-InvalidFileNameChars $newName
+          $key = $rawBase.ToLowerInvariant()
 
-    if (-not $newName) { $skipped++; return }
+          if ($map.ContainsKey($key)) {
 
-    # IDEMPOTÊNCIA REAL
-    if ($file.Name.Equals($newName, [StringComparison]::Ordinal)) {
-      $skipped++; return
+            $entry = $map[$key]
+
+            if ($entry -is [string]) {
+              $resolvedBase = $entry
+            }
+            elseif ($entry.name) {
+              $resolvedBase = $entry.name
+            }
+
+            if ($entry.lang) {
+              $mapLangRaw = $entry.lang # FIX-BUG: captura lang externa
+            }
+          }
+        }
+        catch {
+          Write-Host "[ERRO][MAP_LOAD] $($_.Exception.Message)" # PROTECAO
+        }
+      }
+
+      # EXTRAÇÃO ANTES DE QUALQUER MODIFICAÇÃO
+      $idioma = Get-IdiomaSeguro $resolvedBase
+
+      # FIX-BUG: fallback para idioma vindo do mapa quando ausente no nome
+      if (-not $idioma -and $mapLangRaw) {
+
+        $tokens = @()
+
+        foreach ($part in ($mapLangRaw -split '[/,;\-]')) {
+          $val = $part.Trim().ToUpperInvariant()
+          if ($val -and ($ValidIdiomas -contains $val)) {
+            $tokens += $val
+          }
+        }
+
+        if ($tokens.Count -gt 0) {
+
+          foreach ($p in $IdiomaPriority) {
+            if ($tokens -contains $p) {
+              $idioma = "($p)"
+              break
+            }
+          }
+
+          if (-not $idioma) {
+            $idioma = "($($tokens[0]))"
+          }
+        }
+      }
+
+      $id = Get-IdSeguro $resolvedBase
+
+      # NORMALIZAÇÃO
+      $nome = Normalize-Nome $resolvedBase # FIX-BUG: usa nome expandido quando disponível
+      if (-not $nome) { $skipped++; return }
+
+      # RECONSTRUÇÃO CANÔNICA
+      $newBase = $nome
+      if ($idioma) { $newBase += " $idioma" }
+      if ($id) { $newBase += " $id" }
+
+      $newName = "$newBase.$($exts -join '.')"
+      $newName = Remove-InvalidFileNameChars $newName
+
+      if (-not $newName) { $skipped++; return }
+
+      # IDEMPOTÊNCIA REAL
+      if ($file.Name.Equals($newName, [StringComparison]::Ordinal)) {
+        $skipped++; return
+      }
+
+      # COLISÃO
+      if (Test-Path -LiteralPath (Join-Path $file.DirectoryName $newName)) {
+        $newName = Get-UniqueFileName $file.DirectoryName $newName
+      }
+
+      if ($PSCmdlet.ShouldProcess($file.Name, "Rename to $newName")) {
+        Rename-Item -LiteralPath $file.FullName -NewName $newName -ErrorAction Stop
+        Write-Host "[OK] $($file.Name) -> $newName" -ForegroundColor Green
+        $renamed++
+      }
+
     }
-
-    # COLISÃO
-    if (Test-Path -LiteralPath (Join-Path $file.DirectoryName $newName)) {
-      $newName = Get-UniqueFileName $file.DirectoryName $newName
+    catch {
+      $errors++
+      Write-Host "[ERRO] $($_.Name) :: $($_.Exception.Message)" -ForegroundColor Red
     }
-
-    if ($PSCmdlet.ShouldProcess($file.Name, "Rename to $newName")) {
-      Rename-Item -LiteralPath $file.FullName -NewName $newName -ErrorAction Stop
-      Write-Host "[OK] $($file.Name) -> $newName" -ForegroundColor Green
-      $renamed++
-    }
-
   }
-  catch {
-    $errors++
-    Write-Host "[ERRO] $($_.Name) :: $($_.Exception.Message)" -ForegroundColor Red
-  }
+
+  Write-Host ""
+  Write-Host "==== RESUMO ====" -ForegroundColor Cyan
+  Write-Host "Total: $total | Renomeados: $renamed | Ignorados: $skipped | Erros: $errors"
 }
 
-Write-Host ""
-Write-Host "==== RESUMO ====" -ForegroundColor Cyan
-Write-Host "Total: $total | Renomeados: $renamed | Ignorados: $skipped | Erros: $errors"
+# AUTO-INVOCAÇÃO SEGURA
+if ($MyInvocation.InvocationName -ne '.') {
+  main @PSBoundParameters
+}
+
+function ConvertTo-RomanAwareTitle {
+  if (-not $text) { returgan $null }
+}
