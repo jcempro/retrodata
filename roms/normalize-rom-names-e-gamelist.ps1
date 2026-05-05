@@ -29,7 +29,8 @@ REQUISITOS PRINCIPAIS
   R1. SINCRONIA:
       Nome físico DEVE corresponder a <path>. Renomeações DEVEM atualizar XML.
   R2. BASENAME:
-      Capitalizar basename; preservar extensão; impor consistência de case.
+      -Capitalizar basename; preservar extensão; impor consistência de case.
+      - Numeração romana do basename, como II, ou IV, devem ser totalmente maiusculas.
   R3. PARÊNTESES:
       - MANTER localidades: (BR), (XX), (BR-XX), formas compostas.
       - REMOVER tags técnicas (ex.: Beta, Rev, Build, 1, 2, T1.0) e espaço
@@ -179,7 +180,6 @@ $GLOBAL:TRANSLATE_CACHE = @{}
 # =========================
 # UTIL
 # =========================
-
 function Format-FileName {
   param([string]$name)
 
@@ -207,6 +207,12 @@ function Format-FileName {
 
   if ($base) {
     $base = ($base.Substring(0, 1).ToUpper() + $base.Substring(1))
+
+    # FIX-BUG: normaliza numerais romanos para maiúsculo
+    $base = [regex]::Replace($base, '\b(?i)(i|ii|iii|iv|v|vi|vii|viii|ix|x)\b', {
+        param($m)
+        return $m.Value.ToUpper()
+      })
   }
 
   return "$base$ext"
@@ -450,7 +456,25 @@ function Invoke-GamelistProcessing {
       $newHash = Join-Path $originalDir "$newHashBase.sha256"
 
       if ($oldHash) {
-        Rename-Item -Path $oldHash.FullName -NewName (Split-Path $newHash -Leaf)
+        $newHashName = (Split-Path $newHash -Leaf)
+        Rename-Item -Path $oldHash.FullName -NewName $newHashName
+
+        $newHashFullPath = Join-Path $originalDir $newHashName
+
+        try {
+          $hashContent = Get-Content $newHashFullPath -Raw
+
+          $oldBase = [regex]::Escape([System.IO.Path]::GetFileName($fullPath))
+          $newBase = [System.IO.Path]::GetFileName($newFullPath)
+
+          # FIX-BUG: substitui apenas o basename no conteúdo do hash
+          $updatedContent = [regex]::Replace($hashContent, $oldBase, $newBase)
+
+          Set-Content -Path $newHashFullPath -Value $updatedContent -NoNewline
+        }
+        catch {
+          Write-Host "[ERRO][SHA256_UPDATE] $($_.Exception.Message)" # PROTECAO
+        }
       }
     }
 
