@@ -1,28 +1,72 @@
 <#
+<#
 .SYNOPSIS
     Normalizador determinístico de nomes de arquivos com suporte a idioma, ID ScreenScraper e extensões encadeadas.
 
 .DESCRIPTION
     Este script percorre recursivamente o diretório atual e renomeia arquivos para um formato canônico,
-    aplicando regras rígidas de normalização. O comportamento é idempotente e resistente a entradas inconsistentes.
+    aplicando regras rígidas de normalização. O comportamento é idempotente, determinístico e resiliente
+    a entradas inconsistentes.
+   
+    Não são tratadas as extensões (.xml, .json, .ini, .exe, .sh, .ps1, .bat)
+    relacionadas a metadados, que devem ser gerenciadas por processos específicos.
 
-    O objetivo é garantir consistência estrutural e previsibilidade, mesmo em coleções heterogêneas.
-
-    Objetivo 2: impedir a existência de dois ou mais arquivos com o mesmo sha256 dentro do mesmo diretório, 
-    ainda que com nomes diferentes.
+    Objetivos:
+        1. Garantir consistência estrutural e previsibilidade em coleções heterogêneas
+        2. Impedir a coexistência de múltiplos arquivos com o mesmo SHA256 no mesmo diretório,
+           independentemente do nome
 
 .RFC
     Especificação de Normalização de Nomes de Arquivos (versão 1.0)
 
-    IMPORTANTE: Nomes de arquivos case-sensitive são tratados de forma consistente (incluindo a forma como o nome
-    aparece dentro dos arquivos .xml, .json e .sha256), e o script é seguro para múltiplas
-    execuções sem causar renomeações adicionais, incluindo casos de colisão e arquivos de hash
+    IMPORTANTE:
+        - Nomes case-sensitive MUST ser tratados de forma consistente, incluindo referências em arquivos
+          .xml, .json e .sha256
+        - O script MUST ser seguro para múltiplas execuções sem gerar renomeações adicionais
+        - Casos de colisão e arquivos de hash são tratados de forma determinística
 
-    Se, vários arquivos possuírem o mesmo sh256 o scrip elimina todo, exceto aquele que possui o nome mais próximo do
-    resultado canônico, e os outros são renomeados para um nome único
-    (ex: "Nome__dup1.ext") ou eliminados caso sejam arquivos de hash (.sha256)
+ Deduplicação por hash:
+        - O SHA256 MUST ser o único fator decisório para igualdade de conteúdo
+        - Se múltiplos arquivos possuírem o mesmo SHA256:
+            * EXACTAMENTE UM arquivo MUST ser preservado
+            * Os demais arquivos MUST ser removidos
+        - O arquivo preservado MUST ser aquele com nome mais próximo do formato canônico
 
-    A iteração se dá exclusivamente por diretório, com consulta ao gamelist.xml como referência.
+        Critério de seleção (determinístico):
+            - A escolha do arquivo a ser preservado MUST ser determinística
+            - O critério MUST considerar:
+                1. Nome já normalizado (preferencial)
+                2. Menor distância para o nome canônico esperado
+                3. Em caso de empate, ordenação lexicográfica estável (ordinal)
+
+        Fail-safe:
+            - O sistema MUST garantir que ao menos um arquivo seja preservado
+            - Em nenhuma circunstância todos os arquivos equivalentes podem ser removidos
+            - Em caso de erro durante remoção, o processo MUST abortar a operação de deduplicação
+              daquele conjunto antes de violar essa garantia
+
+        Restrições:
+            - Criação de cópias de backup de arquivos duplicados MUST NOT ocorrer
+            - Renomeação para sufixos artificiais (ex: "__dup") MUST NOT ser utilizada
+
+        Arquivos de hash (.sha256):
+            - Arquivos ".sha256" MUST ser considerados derivados
+            - Se o arquivo alvo for removido, seus hashes associados MUST ser removidos
+            - Hashes órfãos MUST NOT ser preservados
+
+    Otimização de desempenho (não decisória):
+        - O processo de comparação MAY utilizar heurísticas para redução de custo computacional, incluindo:
+            * Comparação prévia por tamanho de arquivo (short-circuit)
+            * Cache em memória de hashes SHA256 já calculados
+            * Reutilização de resultados dentro do mesmo ciclo de execução
+        - O cache de hashes MUST ser consistente durante toda a execução
+        - Essas heurísticas MUST NOT influenciar a decisão final de igualdade
+        - Metadados (timestamp, atributos, etc.) SHOULD NOT ser utilizados como critério de comparação,
+          por não serem fontes confiáveis de equivalência
+
+    Escopo de iteração:
+        - A iteração MUST ocorrer por diretório
+        - O arquivo gamelist.xml MAY ser utilizado como referência auxiliar
 
     Terminologia normativa conforme RFC 2119:
         MUST, MUST NOT, REQUIRED → obrigatório
@@ -35,7 +79,7 @@
 
     O nome final MUST obedecer ao formato:
 
-        <NomeNormalizado>[ espaço (IDIOMA)]?[ espaço [ID]]?.<ext>[.<ext2>...]
+        <NomeNormalizado>[ (IDIOMA)]?[ [ID]]?.<ext>[.<ext2>...]
 
     Onde:
         - (IDIOMA) é opcional, mas se presente MUST ser único
@@ -52,7 +96,7 @@
         - Tokens MUST ser normalizados (trim + uppercase)
 
     2.2 Validação
-        - Apenas idiomas da whitelist são válidos
+        - Apenas idiomas presentes na whitelist são válidos
         - Tokens inválidos MUST ser descartados
 
     2.3 Seleção
@@ -64,12 +108,12 @@
             4. Primeiro válido restante
 
     2.4 Reconstrução
-        - O idioma MUST ser reintroduzido no final do basename
+        - O idioma MUST ser reintroduzido ao final do basename
         - MUST estar no formato "(XX)"
 
     2.5 Restrições
         - Múltiplos idiomas MUST NOT aparecer no resultado final
-        - Idioma válido MUST NOT ser perdido
+        - Um idioma válido MUST NOT ser perdido
 
     ============================================================
     3. PROCESSAMENTO DE ID (SCREENSCRAPER)
@@ -83,33 +127,33 @@
         - MUST selecionar o último ID válido encontrado
 
     3.3 Reconstrução
-        - O ID MUST ser colocado após o idioma (se existir)
+        - O ID MUST ser posicionado após o idioma (se existir)
         - MUST estar no formato "[12345]"
 
     3.4 Restrições
         - IDs não numéricos MUST ser descartados
         - Apenas UM ID MUST existir no resultado
-        - ID válido MUST NOT ser perdido
+        - Um ID válido MUST NOT ser perdido
 
     ============================================================
     4. NORMALIZAÇÃO DO NOME BASE
     ============================================================
 
     4.1 Limpeza
-        - O script MUST remover todos os conteúdos "()" e "[]" antes da normalização
+        - O script MUST remover conteúdos "()" e "[]" antes da normalização
         - Conteúdos inválidos MUST ser descartados
 
     4.2 Transformações
         - MUST aplicar TitleCase usando cultura invariável
-        - MUST remover padrões conhecidos irrelevantes:
-            - " - The Videogame" no final
+        - MUST remover padrões irrelevantes conhecidos:
+            - " - The Videogame" (quando presente no final)
 
     4.3 Artigos invertidos
         - Padrão "Nome, The|A|An" MUST ser convertido para "The Nome"
         - Essa transformação MUST NOT ocorrer se houver hífen no nome base
 
     4.4 Numeração romana
-        - Tokens que representem números romanos válidos MUST ser convertidos para UPPERCASE
+        - Tokens válidos MUST ser convertidos para UPPERCASE
         - Tokens inválidos MUST NOT ser alterados
 
     ============================================================
@@ -125,11 +169,11 @@
         - Todas as extensões MUST ser válidas
 
     5.3 Limpeza
-        - Qualquer conteúdo entre extensões (ex: "(1)") MUST ser removido
+        - Conteúdos entre extensões (ex: "(1)") MUST ser removidos
 
     5.4 Restrições
         - Extensões inválidas MUST encerrar o parsing
-        - Ordem das extensões MUST ser preservada
+        - A ordem original das extensões MUST ser preservada
 
     ============================================================
     6. RECONSTRUÇÃO FINAL
@@ -148,6 +192,7 @@
 
     7.1 Idempotência
         - O script MUST NOT renomear arquivos já normalizados
+        - O processo de deduplicação MUST ser idempotente após convergência
 
     7.2 Sistema de arquivos
         - Caracteres inválidos MUST ser removidos
@@ -158,74 +203,55 @@
         - O processo MUST evitar loops infinitos
 
     7.4 Robustez
-        - O script MUST continuar execução mesmo após erros
-        - Falhas MUST ser reportadas no console
+        - O script MUST continuar execução mesmo após falhas
+        - Erros MUST ser reportados no console
 
     ============================================================
     8. LIMITAÇÕES
     ============================================================
 
-        - O script NÃO valida nomes contra bases externas (ex: No-Intro)
-        - O script NÃO corrige semanticamente nomes incorretos
-        - O script NÃO garante correspondência com nomes oficiais
+        - NÃO valida nomes contra bases externas (ex: No-Intro)
+        - NÃO corrige semanticamente nomes incorretos
+        - NÃO garante correspondência com nomes oficiais
 
     ============================================================
     9. GARANTIAS
     ============================================================
 
-        - Idioma válido nunca será perdido
-        - ID válido nunca será perdido
-        - Estrutura final sempre será consistente
-        - Execução é determinística
+        - Idiomas válidos nunca serão perdidos
+        - IDs válidos nunca serão perdidos
+        - A estrutura final será sempre consistente
+        - Execução determinística e reproduzível
+        - Deduplicação segura sem risco de perda total de dados
 
+    ============================================================
     10. LOG
+    ============================================================
 
-    Cores no console (humanos), sem incuir os dizeres entre []:
-      - OK, com alteraçÃo    : Verde escuro ()
-      - OK, já estava certo  : Verde escuro (sem alteração)
-      - FIX                  : Verde claro
-      - INFO                 : Ciano
-      - WARN                 : Amarelo
-      - ERROR                : Branco sobre fundo vermelho (com msg em vermelho)
+    Diretrizes:
+        - O log MUST indicar a ação tomada
+        - MUST incluir o caminho do arquivo (preferencialmente relativo)
+        - SHOULD utilizar reescrita inline quando apropriado, preservando histórico legível
+        - MUST evitar poluição visual mantendo rastreabilidade
+        - MUST ser legível por máquina
+        - SHOULD utilizar cores e destaques para status
 
-        Diretrizes de conteúdo:
+    Status (emoji + cor):
+        - OK    : ✔ (verde)
+        - INFO  : ℹ️
+        - WARN  : ⚠️
+        - ERROR : ❌ (com destaque)
 
-        * Log deve indicar ação tomada 
-        * log deve indicar o caminho do arquivo afetado (preferencialmente
-          relativo) e a operação ocorrendo 
-        * log deve preferir reecrista inline (com clear da linha prévio), e logar
-          nova line quando conveniente para histórico legível, evitando
-          poluição visual e mantendo rastreabilidade de ações em tempo real   
-        * Uso de cores e destaques visuais para facilitar identificação de status
-          e erros críticos
-        * arquivo de log deve ser estruturado e legível por máquina para análises futuras
-        * utilize caractere unicode (emoji) único para identificar OK, FIX, INFO, WARN, ERROR:
-          - OK    : ✔  (EM COR VERDE)
-          - INFO  : ℹ️
-          - WARN  : ⚠️
-          - ERROR : ❌    
-        * utilize caracter unicode (emoji) único para identificar ações executadas e em execução:
-          - JSON-VALIDATE : 📄
-          - PROCESS       : ⚙️
-          - VERIFY        : 🔍
-          - CHANGE-NAME   : ✏️
-          - SKIP          : ⏭️
-          - FIX           : 🛠️
-          - FIXED         : ✅
+    Ações:
+        - JSON-VALIDATE : 📄
+        - PROCESS       : ⚙️
+        - VERIFY        : 🔍
+        - CHANGE-NAME   : ✏️
+        - SKIP          : ⏭️
+        - FIX           : 🛠️
+        - FIXED         : ✅
 
-.EXAMPLE
-    PS> .\normalize.ps1 -WhatIf
-
-    Simula renomeações sem alterar arquivos.
-
-.EXAMPLE
-    PS> .\normalize.ps1
-
-    Executa renomeação real.
-
-.NOTES
-    Compatível com PowerShell 5.1 e 7+
-    Não cria logs em arquivo; saída apenas em console.
+[REGRAS DE CONTEXTO GLOBAL]
 
   [ESTILO, DESIGN & RASTREABILIDADE]
   - Design: Imutabilidade, Baixo Acoplamento e suporte a camelCase/snake_case.
@@ -273,19 +299,7 @@
   1. Se executado diretamente executa função main repassando parâmetros 
       recebidos por linha de comando ou variáveis de ambiente.
   2. Se importado expõe as funções públicas para serem chamadas por outros
-      scripts sem executar nada.    
-      
-  [SOBRE COMPARAÇÕES DE HASH E COLISÕES]
-    - Short-circuit por tamanho
-      * Evita SHA256 em arquivos obviamente diferentes
-      * Não influencia decisão de igualdade
-    - Mutex global (Global\NormalizeScript_HashMutex)
-      * Serializa operações de hash
-      * Evita saturação de disco / IO
-      * Evita race conditions e corrupção indireta
-    - Timeout controlado (30s)
-      * Evita deadlock
-      * Garante progresso do script  
+      scripts sem executar nada        
 #>
 
 [CmdletBinding(SupportsShouldProcess = $true)]
