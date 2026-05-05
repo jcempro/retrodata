@@ -367,8 +367,11 @@ function Write-Log {
   }
 
   switch ($Level) {
-    "OK" { Write-Host "✅ '$File' :: $Message" -ForegroundColor DarkGreen }
-    "FIX" { Write-Host "🛠️ '$File' :: $Message" -ForegroundColor Green }
+    "OK" { 
+      Write-Host "✓ " -ForegroundColor Green -NoNewline
+      Write-Host " '$File' :: $Message" -ForegroundColor DarkGray 
+    }
+    "FIX" { Write-Host "🛠️ Fix: '$File' :: $Message" -ForegroundColor Green }
     "INFO" { Write-Host "ℹ️ '$File' :: $Message" -ForegroundColor Cyan }
     "WARN" { Write-Host "⚠️ '$File' :: $Message" -ForegroundColor Yellow }
     "ERROR" {
