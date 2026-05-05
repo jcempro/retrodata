@@ -442,7 +442,7 @@ function Extract-Extensions {
 function ConvertTo-RomanAwareTitle {
   param([string]$text)
 
-  if (-not $text) { returgan $null }
+  if (-not $text) { return $null } # FIX-BUG: typo returgan
 
   $words = $text -split ' '
 
@@ -483,8 +483,8 @@ function Get-UniqueFileName {
 
   while (Test-Path -LiteralPath (Join-Path $dir $candidate)) {
 
-    # 🔥 usa sufixo neutro, NÃO semântico
-    $candidate = "{0}__dup{i}{1}" -f $base, $ext
+    # FIX-BUG: correção de formatação inválida em string format
+    $candidate = "{0}__dup{1}{2}" -f $base, $i, $ext
     $i++
 
     if ($i -gt 9999) { throw "Colisão infinita" }
@@ -541,7 +541,7 @@ function main {
           }
         }
         catch {
-          Write-Host "[ERRO][MAP_LOAD] $($_.Exception.Message)" # PROTECAO
+          Write-Host "❌ 📄 MAP_LOAD :: $($_.Exception.Message)" -ForegroundColor Red # PROTECAO: erro estruturado
         }
       }
 
@@ -603,27 +603,23 @@ function main {
 
       if ($PSCmdlet.ShouldProcess($file.Name, "Rename to $newName")) {
         Rename-Item -LiteralPath $file.FullName -NewName $newName -ErrorAction Stop
-        Write-Host "[OK] $($file.Name) -> $newName" -ForegroundColor Green
+        Write-Host "✔ ✏️ $($file.Name) -> $newName" -ForegroundColor DarkGreen # PROTECAO: padronização de log conforme RFC
         $renamed++
       }
 
     }
     catch {
       $errors++
-      Write-Host "[ERRO] $($_.Name) :: $($_.Exception.Message)" -ForegroundColor Red
+      Write-Host "❌ $($file.Name) :: $($_.Exception.Message)" -ForegroundColor Red -BackgroundColor Black # PROTECAO: padronização ERROR
     }
   }
 
   Write-Host ""
-  Write-Host "==== RESUMO ====" -ForegroundColor Cyan
-  Write-Host "Total: $total | Renomeados: $renamed | Ignorados: $skipped | Erros: $errors"
+  Write-Host "ℹ️ ==== RESUMO ====" -ForegroundColor Cyan
+  Write-Host "ℹ️ Total: $total | Renomeados: $renamed | Ignorados: $skipped | Erros: $errors"
 }
 
 # AUTO-INVOCAÇÃO SEGURA
 if ($MyInvocation.InvocationName -ne '.') {
   main @PSBoundParameters
-}
-
-function ConvertTo-RomanAwareTitle {
-  if (-not $text) { returgan $null }
 }
