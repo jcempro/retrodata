@@ -8,12 +8,19 @@
 
     O objetivo é garantir consistência estrutural e previsibilidade, mesmo em coleções heterogêneas.
 
+    Objetivo 2: impedir a existência de dois ou mais arquivos com o mesmo sha256 dentro do mesmo diretório, 
+    ainda que com nomes diferentes.
+
 .RFC
     Especificação de Normalização de Nomes de Arquivos (versão 1.0)
 
     IMPORTANTE: Nomes de arquivos case-sensitive são tratados de forma consistente (incluindo a forma como o nome
     aparece dentro dos arquivos .xml, .json e .sha256), e o script é seguro para múltiplas
     execuções sem causar renomeações adicionais, incluindo casos de colisão e arquivos de hash
+
+    Se, vários arquivos possuírem o mesmo sh256 o scrip elimina todo, exceto aquele que possui o nome mais próximo do
+    resultado canônico, e os outros são renomeados para um nome único
+    (ex: "Nome__dup1.ext") ou eliminados caso sejam arquivos de hash (.sha256)
 
     Terminologia normativa conforme RFC 2119:
         MUST, MUST NOT, REQUIRED → obrigatório
