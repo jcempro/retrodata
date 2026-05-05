@@ -317,11 +317,13 @@ function Remove-NoiseMarkers {
 
   if (-not $text) { return $null }
 
-  # Remove TODOS () e []
+  # remove TODOS () e []
   $t = $text -replace '\s*\([^)]*\)', ''
   $t = $t -replace '\s*\[[^\]]*\]', ''
 
-  # Remove múltiplos espaços
+  # 🔥 REMOVE especificamente (1), (2), etc (caso escapem)
+  $t = $t -replace '\s*\(\d+\)', ''
+
   $t = $t -replace '\s{2,}', ' '
 
   return $t.Trim()
@@ -437,8 +439,11 @@ function Get-UniqueFileName {
   $candidate = $name
 
   while (Test-Path -LiteralPath (Join-Path $dir $candidate)) {
-    $candidate = "$base ($i)$ext"
+
+    # 🔥 usa sufixo neutro, NÃO semântico
+    $candidate = "{0}__dup{i}{1}" -f $base, $ext
     $i++
+
     if ($i -gt 9999) { throw "Colisão infinita" }
   }
 
