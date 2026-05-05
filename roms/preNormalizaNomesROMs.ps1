@@ -22,6 +22,8 @@
     resultado canônico, e os outros são renomeados para um nome único
     (ex: "Nome__dup1.ext") ou eliminados caso sejam arquivos de hash (.sha256)
 
+    A iteração se dá exclusivamente por diretório, com consulta ao gamelist.xml como referência.
+
     Terminologia normativa conforme RFC 2119:
         MUST, MUST NOT, REQUIRED → obrigatório
         SHOULD → recomendado
