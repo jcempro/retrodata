@@ -11,6 +11,10 @@
 .RFC
     Especificação de Normalização de Nomes de Arquivos (versão 1.0)
 
+    IMPORTANTE: Nomes de arquivos case-sensitive são tratados de forma consistente (incluindo a forma como o nome
+    aparece dentro dos arquivos .xml, .json e .sha256), e o script é seguro para múltiplas
+    execuções sem causar renomeações adicionais, incluindo casos de colisão e arquivos de hash
+
     Terminologia normativa conforme RFC 2119:
         MUST, MUST NOT, REQUIRED → obrigatório
         SHOULD → recomendado
