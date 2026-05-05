@@ -25,7 +25,7 @@ DIRETRIZES OBRIGATÓRIAS:
 
 1. ESCOPO DE ARQUIVOS
    - Extensões válidas: .zip, .7z, .iso, .gen, .chd, .z64, .nes, .sfc, .smc, .bin, .cue
-   - Diretório 'windows' tratado como caso especial (JSON tree validation usado como emulador de pastas virtual)
+   - Diretório 'steam' tratado como caso especial (JSON tree validation usado como emulador de pastas virtual)
                 * comportamento lógico de .sha256 convencional, mas com estrutura hierárquica definida por JSON
    - Arquivos .sha256.json são ignorados em todas as operações
    - .sha256 convencionais operam por arquivo (.ROM.sha256)
@@ -48,11 +48,12 @@ DIRETRIZES OBRIGATÓRIAS:
    - Corrige automaticamente hash divergente (regrava .sha256) ou valor de
    - JSON divergente   
 
-3. TRATAMENTO ESPECIAL: DIRETÓRIO 'WINDOWS'
+3. TRATAMENTO ESPECIAL: DIRETÓRIO 'WINDOWS' e `steam`
 
    Requisito estrutural OBRIGATÓRIO:
    - json emula uma pasta virtual (drive virtual)
    - Cada subdiretório DEVE ter um JSON em ./windows/<nome>.sha256.json
+     e ./steam/<nome>.sha256.json
    - JSON contém árvore de hashes de todo o subdiretório
 
    Comportamento:
@@ -152,7 +153,7 @@ DIRETRIZES OBRIGATÓRIAS:
 7. VARIÁVEIS GLOBAIS DE ESTADO
 
    $script:hasError:
-   - Escopo: por diretório 'windows' validation
+   - Escopo: por diretório 'windows' e `steam` validation
    - Reset: a cada novo diretório
    - Uso: detectar divergência para log final consolidado
 
@@ -167,7 +168,7 @@ DIRETRIZES OBRIGATÓRIAS:
    - Escrita atômica via .tmp + Move-Item (evita arquivo corrompido)
    - Validação de formato antes de remoção de .sha256
    - Fallback manual em Get-RelativePathSafe
-   - Isolamento do diretório 'windows' da varredura normal (regex exclusion)
+   - Isolamento do diretório 'windows' e `steam` da varredura normal (regex exclusion)
 
 9. COMPORTAMENTO EM CASOS ESPECÍFICOS
 
@@ -605,7 +606,7 @@ function main {
   # ================================
   # WINDOWS JSON VALIDATION
   # ================================
-  $windowsRoot = Join-Path (Get-Location) "windows"
+  $windowsRoot = Join-Path (Get-Location) "steam"
 
   if (Test-Path $windowsRoot) {
 
@@ -680,7 +681,7 @@ function main {
   # EXECUÇÃO NORMAL
   # ================================
   Get-ChildItem -Recurse -File | Where-Object {
-    $_.FullName -notmatch '\\windows\\' -and
+    $_.FullName -notmatch '\\steam\\' -and
     $validExt -contains $_.Extension.ToLowerInvariant()
   } | ForEach-Object {
 
