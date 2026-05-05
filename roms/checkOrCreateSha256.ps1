@@ -166,7 +166,7 @@ DIRETRIZES OBRIGATÓRIAS:
    - Verifica correspondência 1:1 entre filesystem e JSON
    - Divergência estrutural → log ERROR
 
-   Parse-Sha256:
+   ConvertFrom-Sha256:
    - Entrada: ShaPath (string)
    - Saída: Hash (string) ou $null se inválido
    - Lê apenas primeira linha
@@ -343,7 +343,8 @@ function Write-LogInline {
   }
 
   if ($script:lastInline -ne $line) {
-    Write-Host ("`r" + $line) -NoNewline
+    $clear = ' ' * [Math]::Max($script:lastInline.Length, $line.Length)
+    Write-Host ("`r" + $clear + "`r" + $line) -NoNewline # FIX-BUG: limpeza completa garantida
     $script:lastInline = $line
   }
 }
@@ -366,16 +367,18 @@ function Write-Log {
   }
 
   switch ($Level) {
-    "OK" { Write-Host "[OK]    $File :: $Message" -ForegroundColor DarkGreen }
-    "FIX" { Write-Host "[FIX]   $File :: $Message" -ForegroundColor Green }
-    "INFO" { Write-Host "[INFO]  $File :: $Message" -ForegroundColor Cyan }
-    "WARN" { Write-Host "[WARN]  $File :: $Message" -ForegroundColor Yellow }
+    "OK" { Write-Host "✅ '$File' :: $Message" -ForegroundColor DarkGreen }
+    "FIX" { Write-Host "🛠️ '$File' :: $Message" -ForegroundColor Green }
+    "INFO" { Write-Host "ℹ️ '$File' :: $Message" -ForegroundColor Cyan }
+    "WARN" { Write-Host "⚠️ '$File' :: $Message" -ForegroundColor Yellow }
     "ERROR" {
       $script:globalError = $true
-      Write-Host "[ERROR] $File" -ForegroundColor White -BackgroundColor DarkRed
+      Write-Host "❌ '$File'" -ForegroundColor White -BackgroundColor DarkRed
       if ($Message) { Write-Host "        -> $Message" -ForegroundColor Red }
     }
-    default { Write-Host "[$Level] $File :: $Message" }
+    default {
+      Write-Host "[$Level] '$File' :: $Message" # PROTECAO: fallback determinístico
+    }
   }
 
   try {
@@ -391,10 +394,14 @@ function Write-Log {
         $json = $obj | ConvertTo-Json -Compress -Depth 5
         Add-Content -LiteralPath $LogPath -Value $json -Encoding UTF8
       }
-      catch { }
+      catch {
+        Write-Host "⚠️ Falha ao persistir log JSONL" -ForegroundColor Yellow # FIX-BUG: evitar catch vazio
+      }
     }
   }
-  catch { }
+  catch {
+    Write-Host "❌ Falha estrutural no log" -ForegroundColor Red # FIX-BUG: evitar catch vazio
+  }
 }
 
 # ================================
@@ -411,7 +418,7 @@ function Get-HashSafe {
   }
 }
 
-function New-TreeHash {
+function Get-TreeHash {
   param([string]$Base)
 
   $result = @{}
@@ -432,7 +439,7 @@ function New-TreeHash {
     Write-LogInline "TREE-SCAN" $rel # PROTECAO
 
     if ($item.PSIsContainer) {
-      $result[$item.Name] = New-TreeHash $item.FullName
+      $result[$item.Name] = Get-TreeHash $item.FullName
     }
     else {
       $result[$item.Name] = Get-HashSafe $item.FullName
@@ -507,7 +514,7 @@ function Validate-Tree {
   }
 }
 
-function Parse-Sha256 {
+function ConvertFrom-Sha256 {
   param([string]$ShaPath)
 
   Write-LogInline "READ-SHA256" (Get-RelativePathSafe $ShaPath)
@@ -695,7 +702,7 @@ function main {
 
         if (-not $VerifyOnly) {
           try {
-            $tree = New-TreeHash $rootDir.FullName
+            $tree = Get-TreeHash $rootDir.FullName
             $json = ($tree | ConvertTo-Json -Depth 100 -Compress)
 
             $tmp = "$jsonPath.tmp"
@@ -724,7 +731,7 @@ function main {
       if ($script:hasError) {
         if ($Fix -and -not $VerifyOnly) {
           try {
-            $tree = New-TreeHash $rootDir.FullName
+            $tree = Get-TreeHash $rootDir.FullName
             $json = ($tree | ConvertTo-Json -Depth 100 -Compress)
 
             $tmp = "$jsonPath.tmp"
@@ -794,7 +801,7 @@ function main {
     $hashIndex[$dir][$currentHash] += $filePath
 
     $exists = Test-Path $shaPath
-    $storedHash = if ($exists) { Parse-Sha256 $shaPath } else { $null }
+    $storedHash = if ($exists) { ConvertFrom-Sha256 $shaPath } else { $null }
 
     if ($VerifyOnly) {
       if (-not $storedHash) {
@@ -869,4 +876,11 @@ function main {
 
 if ($MyInvocation.InvocationName -ne '.') {
   main
+
+  if ($script:globalError) {
+    exit 1 # FIX-BUG: aderência ao RFC código de saída
+  }
+  else {
+    exit 0 # FIX-BUG: execução sem erros
+  }
 }
