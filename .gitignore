@@ -3,6 +3,9 @@
 *.log
 *.tmp
 *.jsonl
+*.7z
+*.iso
+*.chd
 
 roms/*/*
 roms/*/*.*
