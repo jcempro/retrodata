@@ -12,6 +12,9 @@ de arquivos de integridade (.sha256) para ROMs, garantindo:
 - Verificação e regeneração de hashes SHA256
 - Limpeza de arquivos .sha256 órfãos ou inválidos
 - Validação estrutural de diretórios via JSON tree
+  * JSON tree se ajusta à realidade do filesystem, como se fosse
+    um espelho virtual, removendo e incluindo, mas a alteração de hash, somente
+    se houver parametro -Fix, caso contrário, apenas log de divergência
 - Suporte a dry-run e modo verificação
 
 PARÂMETROS DE ENTRADA:
@@ -48,7 +51,7 @@ DIRETRIZES OBRIGATÓRIAS:
    - Corrige automaticamente hash divergente (regrava .sha256) ou valor de
    - JSON divergente   
 
-3. TRATAMENTO ESPECIAL: DIRETÓRIO 'WINDOWS' e `steam`
+3. TRATAMENTO ESPECIAL: DIRETÓRIOS CONTIDOS EM $specialJsonDirs
 
    Requisito estrutural OBRIGATÓRIO:
    - json emula uma pasta virtual (drive virtual)
@@ -86,12 +89,38 @@ DIRETRIZES OBRIGATÓRIAS:
    - msg    : mensagem descritiva
    - Extra  : campos adicionais conforme necessidade
 
-   Cores no console (humanos):
-   - OK    : Verde escuro
-   - FIX   : Verde claro
-   - INFO  : Ciano
-   - WARN  : Amarelo
-   - ERROR : Branco sobre fundo vermelho (com msg em vermelho)
+   Cores no console (humanos), sem incuir os dizeres entre []:
+   - OK, com alteraçÃo    : Verde escuro ()
+   - OK, já estava certo  : Verde escuro (sem alteração)
+   - FIX                  : Verde claro
+   - INFO                 : Ciano
+   - WARN                 : Amarelo
+   - ERROR                : Branco sobre fundo vermelho (com msg em vermelho)
+
+    Diretrizes de conteúdo:
+
+    * Log deve indicar ação tomada 
+    * log deve indicar o caminho do arquivo afetado (preferencialmente
+      relativo) e a operação ocorrendo 
+    * log deve preferir reecrista inline (com clear da linha prévio), e logar
+      nova line quando conveniente para histórico legível, evitando
+      poluição visual e mantendo rastreabilidade de ações em tempo real   
+    * Uso de cores e destaques visuais para facilitar identificação de status
+      e erros críticos
+    * arquivo de log deve ser estruturado e legível por máquina para análises futuras
+    * utilize caractere unicode (emoji) único para identificar OK, FIX, INFO, WARN, ERROR entre []:
+      - OK    : ✅      
+      - INFO  : ℹ️
+      - WARN  : ⚠️
+      - ERROR : ❌
+    * utilize caracter unicode (emoji) único para identificar ações de HASHING, JSON-VALIDATE, PROCESS, etc, entre []:      
+      - JSON-VALIDATE : 📄
+      - PROCESS       : ⚙️
+      - VERIFY        : 🔍      
+      - CRIANDO-SHA256: ✍️
+      - CHANGE-NAME   : 🔤
+      - HASHING       : 🧮
+      - FIX:          : 🛠️
 
    PROTEÇÃO: Falha no log NUNCA interrompe a execução             
 
@@ -112,7 +141,11 @@ DIRETRIZES OBRIGATÓRIAS:
    - Se nenhum encontrado → .sha256 é ORFÃO (remove)
 
    PROTEÇÃO: Correção automática de hash divergente padrão é apenas log ERROR
-             (sem correção automática), mas pode ser forçada com -Fix             
+             (sem correção automática), mas pode ser forçada com -Fix   
+             Nome do .sha256 DEVE ser sensível a case do arquivo original 
+             (ex: game.iso.sha256, não game.ISO.sha256)
+             Conteúdo possui nome do arquivo e deve ser case-sensitive,
+             e isso deve ser conferido
 
 6. FUNÇÕES CORE (ESPECIFICAÇÃO)
 
@@ -153,7 +186,7 @@ DIRETRIZES OBRIGATÓRIAS:
 7. VARIÁVEIS GLOBAIS DE ESTADO
 
    $script:hasError:
-   - Escopo: por diretório 'windows' e `steam` validation
+   - Escopo: por diretórios contidos em $specialJsonDirs validation
    - Reset: a cada novo diretório
    - Uso: detectar divergência para log final consolidado
 
@@ -168,7 +201,7 @@ DIRETRIZES OBRIGATÓRIAS:
    - Escrita atômica via .tmp + Move-Item (evita arquivo corrompido)
    - Validação de formato antes de remoção de .sha256
    - Fallback manual em Get-RelativePathSafe
-   - Isolamento do diretório 'windows' e `steam` da varredura normal (regex exclusion)
+   - Isolamento do diretório contidos em $specialJsonDirs da varredura normal (regex exclusion)
 
 9. COMPORTAMENTO EM CASOS ESPECÍFICOS
 
@@ -187,17 +220,17 @@ DIRETRIZES OBRIGATÓRIAS:
    Colisão de hash em diretório:
    - Primeiro arquivo encontrado com hash correspondente determina
      o vínculo;
-   - Se encontrar mais de um → log WARN de cada, mas
-     mantém o primeiro encontrado
+   - Se encontrar mais de um → log WARN de cada, remove os demais, incluindo
+     seus .sha256 e entradas no json equivalentes, mas
+     mantém o primeiro encontrado intactamente (sem remoção, 
+     sem correção automática (exceto se -Fix)
 
 10. LIMITAÇÕES CONHECIDAS (deciões de escopo e trade-offs)
 
     - Não suporta .sha256 com múltiplas linhas
     - Não renomeia .sha256 automaticamente quando ROM renomeada (exceto se 
       identificar hash correspondente no mesmo diretório)
-    - JSON tree se ajusta à realidade do filesystem, como se fosse
-      um espelho virtual, removendo e incluindo, mas alteração de hash, somente
-      se houver parametro -Fix, caso contrário, apenas log de divergência
+
     - Suporte a symlinks/junctions (apenas se o sistema de arquivos e PowerShell
       permitirem, sem tratamento especial)
 
@@ -212,12 +245,16 @@ DIRETRIZES OBRIGATÓRIAS:
     # Log customizado
     .\script.ps1 -LogPath "C:\logs\audit.jsonl"
 
+    # Correção automática de divergências
+    .\script.ps1 -Fix
+
 12. CÓDIGOS DE SAÍDA (NÃO EXPLÍCITOS NO SCRIPT ATUAL)
 
     - 0 : Execução bem sucedida (sem erros críticos)
     - 1 : Erros detectados (hashes divergentes, JSON inválidos)
     - Nota: Script atual não define $LASTEXITCODE explicitamente
 
+13. REGRAS DE CONTEXTO GLOBAL
 
   [ESTILO, DESIGN & RASTREABILIDADE]
   - Design: Imutabilidade, Baixo Acoplamento e suporte a camelCase/snake_case.
@@ -267,6 +304,10 @@ DIRETRIZES OBRIGATÓRIAS:
   2. Se importado expõe as funções públicas para serem chamadas por outros
       scripts sem executar nada. 
 #>
+<#
+[... CABEÇALHO ORIGINAL PRESERVADO INTEGRALMENTE ...]
+#>
+
 param(
   [switch]$Fix,
   [switch]$VerifyOnly,
@@ -277,13 +318,36 @@ param(
 # CONFIG
 # ================================
 $validExt = @('.zip', '.7z', '.iso', '.gen', '.chd', '.z64', '.nes', '.sfc', '.smc', '.bin', '.cue')
-
-# PROTECAO: diretórios especiais com JSON tree virtual
 $specialJsonDirs = @('windows', 'steam')
 
 # ================================
 # LOG
 # ================================
+$script:lastInline = ""
+
+function Write-LogInline {
+  param(
+    [string]$Status,
+    [string]$File
+  )
+
+  $line = "$Status :: $File"
+
+  # PROTECAO: limpa completamente a linha anterior evitando resíduos visuais
+  $prevLen = if ($script:lastInline) { $script:lastInline.Length } else { 0 }
+  $currLen = $line.Length
+
+  if ($currLen -lt $prevLen) {
+    $pad = ' ' * ($prevLen - $currLen)
+    $line = $line + $pad
+  }
+
+  if ($script:lastInline -ne $line) {
+    Write-Host ("`r" + $line) -NoNewline
+    $script:lastInline = $line
+  }
+}
+
 function Write-Log {
   param(
     [string]$Level,
@@ -294,17 +358,24 @@ function Write-Log {
 
   $timestamp = (Get-Date).ToString("yyyy-MM-dd HH:mm:ss")
 
+  # flush linha inline antes de log persistente
+  if ($script:lastInline) {
+    # PROTECAO: força quebra limpa da linha inline
+    Write-Host ("`r" + (' ' * $script:lastInline.Length) + "`r")
+    $script:lastInline = ""
+  }
+
   switch ($Level) {
-    "OK" { Write-Host "[OK]    $File" -ForegroundColor DarkGreen }
-    "FIX" { Write-Host "[FIX]   $File" -ForegroundColor Green }
-    "INFO" { Write-Host "[INFO]  $File" -ForegroundColor Cyan }
-    "WARN" { Write-Host "[WARN]  $File" -ForegroundColor Yellow }
+    "OK" { Write-Host "[OK]    $File :: $Message" -ForegroundColor DarkGreen }
+    "FIX" { Write-Host "[FIX]   $File :: $Message" -ForegroundColor Green }
+    "INFO" { Write-Host "[INFO]  $File :: $Message" -ForegroundColor Cyan }
+    "WARN" { Write-Host "[WARN]  $File :: $Message" -ForegroundColor Yellow }
     "ERROR" {
-      $script:globalError = $true # PROTECAO: rastreio de erro global para exit code
+      $script:globalError = $true
       Write-Host "[ERROR] $File" -ForegroundColor White -BackgroundColor DarkRed
       if ($Message) { Write-Host "        -> $Message" -ForegroundColor Red }
     }
-    default { Write-Host "[$Level] $File" }
+    default { Write-Host "[$Level] $File :: $Message" }
   }
 
   try {
@@ -316,19 +387,14 @@ function Write-Log {
     } + $Extra
 
     if ($LogPath) {
-      # FIX-BUG: variável sempre definida via param
       try {
         $json = $obj | ConvertTo-Json -Compress -Depth 5
         Add-Content -LiteralPath $LogPath -Value $json -Encoding UTF8
       }
-      catch {
-        # PROTECAO: falha de log não interrompe execução
-      }
+      catch { }
     }
   }
-  catch {
-    # PROTECAO: falha de log não interrompe execução
-  }
+  catch { }
 }
 
 # ================================
@@ -336,7 +402,7 @@ function Write-Log {
 # ================================
 function Get-HashSafe {
   param([string]$Path)
-
+  Write-LogInline "HASHING" (Get-RelativePathSafe $Path) # PROTECAO: visibilidade
   try {
     return (Get-FileHash -LiteralPath $Path -Algorithm SHA256 -ErrorAction Stop).Hash
   }
@@ -354,20 +420,22 @@ function New-TreeHash {
     $items = Get-ChildItem -LiteralPath $Base -Force -ErrorAction Stop
   }
   catch {
-    Write-Log "WARN" "falha ao listar diretório → $($_.Exception.Message)" (Get-RelativePathSafe $Base) # PROTECAO
+    Write-Log "WARN" "falha ao listar diretório → $($_.Exception.Message)" (Get-RelativePathSafe $Base)
     return @{}
   }
 
-  $items | ForEach-Object {
+  foreach ($item in $items) {
 
-    # PROTECAO: ignorar qualquer .sha256.json (novo padrão fora da pasta não entra aqui, mas mantém compatibilidade)
-    if ($_.Name -like "*.sha256.json") { return }
+    if ($item.Name -like "*.sha256.json") { continue }
 
-    if ($_.PSIsContainer) {
-      $result[$_.Name] = New-TreeHash $_.FullName
+    $rel = Get-RelativePathSafe $item.FullName
+    Write-LogInline "TREE-SCAN" $rel # PROTECAO
+
+    if ($item.PSIsContainer) {
+      $result[$item.Name] = New-TreeHash $item.FullName
     }
     else {
-      $result[$_.Name] = Get-HashSafe $_.FullName
+      $result[$item.Name] = Get-HashSafe $item.FullName
     }
   }
 
@@ -384,54 +452,53 @@ function Validate-Tree {
     $items = Get-ChildItem -LiteralPath $BasePath -Force -ErrorAction Stop
   }
   catch {
-    Write-Log "ERROR" "falha ao listar diretório → $($_.Exception.Message)" (Get-RelativePathSafe $BasePath) # PROTECAO
+    Write-Log "ERROR" "falha ao listar diretório → $($_.Exception.Message)" (Get-RelativePathSafe $BasePath)
     $script:hasError = $true
     return
   }
 
   $fsNames = @{}
 
-  $items | ForEach-Object {
+  foreach ($item in $items) {
 
-    # PROTECAO: ignorar qualquer .sha256.json
-    if ($_.Name -like "*.sha256.json") { return }
+    if ($item.Name -like "*.sha256.json") { continue }
 
-    $fsNames[$_.Name] = $true
+    $rel = Get-RelativePathSafe $item.FullName
+    Write-LogInline "JSON-VALIDATE" $rel # PROTECAO
 
-    if (-not $Node.PSObject.Properties[$_.Name]) {
-      Write-Log "ERROR" "item não presente no json" (Get-RelativePathSafe $_.FullName)
+    $fsNames[$item.Name] = $true
+
+    if (-not $Node.PSObject.Properties[$item.Name]) {
+      Write-Log "ERROR" "item não presente no json" $rel
       $script:hasError = $true
-      return
+      continue
     }
 
-    $entry = $Node.$($_.Name)
+    $entry = $Node.$($item.Name)
 
-    if ($_.PSIsContainer) {
+    if ($item.PSIsContainer) {
       if ($entry -isnot [psobject]) {
-        Write-Log "ERROR" "esperado diretório, mas json contém hash" (Get-RelativePathSafe $_.FullName)
+        Write-Log "ERROR" "esperado diretório, mas json contém hash" $rel
         $script:hasError = $true
-        return
+        continue
       }
-
-      Validate-Tree $_.FullName $entry
+      Validate-Tree $item.FullName $entry
     }
     else {
       try {
-        $realHash = Get-HashSafe $_.FullName
-
+        $realHash = Get-HashSafe $item.FullName
         if ($entry -ne $realHash) {
-          Write-Log "ERROR" "hash divergente → arquivo alterado" (Get-RelativePathSafe $_.FullName)
+          Write-Log "ERROR" "hash divergente → arquivo alterado" $rel
           $script:hasError = $true
         }
       }
       catch {
-        Write-Log "ERROR" "falha ao calcular hash → $($_.Exception.Message)" (Get-RelativePathSafe $_.FullName)
+        Write-Log "ERROR" "falha ao calcular hash → $($_.Exception.Message)" $rel
         $script:hasError = $true
       }
     }
   }
 
-  # FIX-BUG: validação reversa (JSON → FS)
   foreach ($prop in $Node.PSObject.Properties.Name) {
     if (-not $fsNames.ContainsKey($prop)) {
       Write-Log "ERROR" "item presente no json mas ausente no filesystem → $prop" (Get-RelativePathSafe $BasePath)
@@ -443,11 +510,13 @@ function Validate-Tree {
 function Parse-Sha256 {
   param([string]$ShaPath)
 
+  Write-LogInline "READ-SHA256" (Get-RelativePathSafe $ShaPath)
+
   try {
     $line = Get-Content -LiteralPath $ShaPath -TotalCount 1 -ErrorAction Stop
 
     if (-not $line) {
-      Write-Log "WARN" "sha256 vazio" (Get-RelativePathSafe $ShaPath) # PROTECAO: visibilidade de erro
+      Write-Log "WARN" "sha256 vazio" (Get-RelativePathSafe $ShaPath)
       return $null
     }
 
@@ -457,11 +526,11 @@ function Parse-Sha256 {
       return $Matches[0].ToUpperInvariant()
     }
 
-    Write-Log "WARN" "sha256 formato inválido" (Get-RelativePathSafe $ShaPath) # PROTECAO
+    Write-Log "WARN" "sha256 formato inválido" (Get-RelativePathSafe $ShaPath)
     return $null
   }
   catch {
-    Write-Log "WARN" "falha ao ler sha256 → $($_.Exception.Message)" (Get-RelativePathSafe $ShaPath) # PROTECAO
+    Write-Log "WARN" "falha ao ler sha256 → $($_.Exception.Message)" (Get-RelativePathSafe $ShaPath)
     return $null
   }
 }
@@ -472,6 +541,8 @@ function Write-Sha256 {
     [string]$Hash,
     [string]$FileName
   )
+
+  Write-LogInline "WRITE-SHA256" (Get-RelativePathSafe $ShaPath)
 
   try {
     $tmp = "$ShaPath.tmp"
@@ -501,14 +572,15 @@ function Get-RelativePathSafe {
     catch {
       Write-Log "WARN" "falha ignorada controladamente → $($_.Exception.Message)" ""
     }
-
     return $FullPath
   }
 }
 
 function main {
 
-  $script:globalError = $false # PROTECAO: estado global consolidado
+  $script:globalError = $false
+
+  Write-Log "INFO" "início processamento" ""
 
   # ================================
   # LIMPEZA SHA256
@@ -517,14 +589,16 @@ function main {
     $shaFiles = Get-ChildItem -Recurse -File -Filter "*.sha256" -ErrorAction Stop
   }
   catch {
-    Write-Log "ERROR" "falha ao enumerar arquivos sha256 → $($_.Exception.Message)" "" # PROTECAO
+    Write-Log "ERROR" "falha ao enumerar arquivos sha256 → $($_.Exception.Message)" ""
     $shaFiles = @()
   }
 
-  $shaFiles | ForEach-Object {
+  foreach ($file in $shaFiles) {
 
-    $shaPath = $_.FullName
+    $shaPath = $file.FullName
     $relPath = Get-RelativePathSafe $shaPath
+
+    Write-LogInline "VERIFY-SHA256" $relPath
 
     try {
       $line = Get-Content -LiteralPath $shaPath -TotalCount 1 -ErrorAction Stop
@@ -545,13 +619,8 @@ function main {
       $found = $false
 
       if (Test-Path -LiteralPath $expectedPath) {
-        try {
-          if ((Get-HashSafe $expectedPath) -eq $expectedHash) {
-            $found = $true
-          }
-        }
-        catch {
-          Write-Log "WARN" "falha ignorada controladamente → $($_.Exception.Message)" ""
+        if ((Get-HashSafe $expectedPath) -eq $expectedHash) {
+          $found = $true
         }
       }
 
@@ -560,44 +629,37 @@ function main {
 
           if ($item.FullName -eq $shaPath) { continue }
 
-          try {
-            if ((Get-HashSafe $item.FullName) -eq $expectedHash) {
-              $found = $true
+          if ((Get-HashSafe $item.FullName) -eq $expectedHash) {
+            $found = $true
 
-              if (-not $VerifyOnly) {
-                $newShaPath = Join-Path $dir ($item.Name + ".sha256")
-                if ($newShaPath -ne $shaPath) {
-                  Move-Item -LiteralPath $shaPath -Destination $newShaPath -Force
-                  Write-Log "FIX" "sha256 renomeado para corresponder ao arquivo" (Get-RelativePathSafe $newShaPath)
-                }
+            if (-not $VerifyOnly) {
+              $newShaPath = Join-Path $dir ($item.Name + ".sha256")
+              if ($newShaPath -ne $shaPath) {
+                Move-Item -LiteralPath $shaPath -Destination $newShaPath -Force
+                Write-Log "FIX" "sha256 renomeado para corresponder ao arquivo" (Get-RelativePathSafe $newShaPath)
               }
-
-              break
             }
-          }
-          catch {
-            Write-Log "WARN" "falha ao verificar hash durante varredura → $($_.Exception.Message)" (Get-RelativePathSafe $item.FullName)
+            break
           }
         }
       }
 
-      # FIX-BUG: evitar remoção de sha256 válido quando hash correspondente foi encontrado
       if (-not $found) {
         if ($VerifyOnly) {
           Write-Log "WARN" "sha256 órfão detectado (não removido)" $relPath
         }
         else {
-          Remove-Item -LiteralPath $shaPath -Force -ErrorAction Stop
+          Remove-Item -LiteralPath $shaPath -Force
           Write-Log "FIX" "sha256 órfão removido" $relPath
         }
       }
       else {
-        Write-Log "OK" "sha256 válido vinculado a arquivo existente" $relPath
+        Write-Log "OK" "sha256 válido" $relPath
       }
     }
     catch {
       if (-not $VerifyOnly) {
-        Remove-Item -LiteralPath $shaPath -Force -ErrorAction Stop
+        Remove-Item -LiteralPath $shaPath -Force
         Write-Log "FIX" "sha256 inválido removido" $relPath
       }
       else {
@@ -605,15 +667,18 @@ function main {
       }
     }
   }
-  
+
+  Write-Log "INFO" "fim limpeza sha256" ""
+
   # ================================
-  # JSON TREE VALIDATION (WINDOWS / STEAM / CONFIGURÁVEL)
+  # JSON TREE
   # ================================
   foreach ($dirName in $specialJsonDirs) {
 
     $rootBase = Join-Path (Get-Location) $dirName
+    if (-not (Test-Path $rootBase)) { continue }
 
-    if (-not (Test-Path $rootBase)) { continue } # PROTECAO: diretório inexistente ignorado
+    Write-Log "INFO" "processando árvore JSON" $rootBase
 
     Get-ChildItem -LiteralPath $rootBase -Directory | ForEach-Object {
 
@@ -621,10 +686,11 @@ function main {
       $jsonPath = Join-Path $rootBase ($rootDir.Name + ".sha256.json")
       $relPath = Get-RelativePathSafe $jsonPath
 
+      Write-LogInline "JSON-ROOT" $relPath
+
       $script:hasError = $false
 
       if (-not (Test-Path $jsonPath)) {
-
         Write-Log "INFO" "json ausente → será criado" $relPath
 
         if (-not $VerifyOnly) {
@@ -634,7 +700,7 @@ function main {
 
             $tmp = "$jsonPath.tmp"
             [System.IO.File]::WriteAllText($tmp, $json, [System.Text.Encoding]::UTF8)
-            Move-Item -LiteralPath $tmp -Destination $jsonPath -Force
+            Move-Item $tmp $jsonPath -Force
 
             Write-Log "FIX" "json criado" $relPath
           }
@@ -642,7 +708,6 @@ function main {
             Write-Log "ERROR" "falha ao escrever json → $($_.Exception.Message)" $relPath
           }
         }
-
         return
       }
 
@@ -664,7 +729,7 @@ function main {
 
             $tmp = "$jsonPath.tmp"
             [System.IO.File]::WriteAllText($tmp, $json, [System.Text.Encoding]::UTF8)
-            Move-Item -LiteralPath $tmp -Destination $jsonPath -Force
+            Move-Item $tmp $jsonPath -Force
 
             Write-Log "FIX" "json regenerado" $relPath
           }
@@ -685,7 +750,6 @@ function main {
   # ================================
   # EXECUÇÃO NORMAL
   # ================================
-  # PROTECAO: indexação por diretório+hash para deduplicação segura
   $hashIndex = @{}
 
   Get-ChildItem -Recurse -File | Where-Object {
@@ -709,6 +773,8 @@ function main {
     $shaPath = "$filePath.sha256"
     $dir = Split-Path $filePath -Parent
 
+    Write-LogInline "PROCESS" $relPath # PROTECAO: visibilidade
+
     try {
       $currentHash = Get-HashSafe $filePath
     }
@@ -717,7 +783,6 @@ function main {
       return
     }
 
-    # PROTECAO: inicializa bucket por diretório
     if (-not $hashIndex.ContainsKey($dir)) {
       $hashIndex[$dir] = @{}
     }
@@ -769,17 +834,15 @@ function main {
   }
 
   # ================================
-  # DEDUPLICAÇÃO POR HASH (FAIL-SAFE)
+  # DEDUPLICAÇÃO
   # ================================
   foreach ($dir in $hashIndex.Keys) {
     foreach ($hash in $hashIndex[$dir].Keys) {
 
       $files = $hashIndex[$dir][$hash]
 
-      # PROTECAO: apenas processar se houver duplicados reais
       if ($files.Count -le 1) { continue }
 
-      # PROTECAO: garante retenção do primeiro arquivo
       $keep = $files[0]
       $toRemove = $files | Select-Object -Skip 1
 
@@ -802,19 +865,8 @@ function main {
       }
     }
   }
-
-  # ================================
-  # EXIT CODE
-  # ================================
-  if ($script:globalError) {
-    exit 1
-  }
-  else {
-    exit 0
-  }
 }
 
-# PROTECAO: execução apenas quando não importado (dot-sourced)
 if ($MyInvocation.InvocationName -ne '.') {
   main
 }
