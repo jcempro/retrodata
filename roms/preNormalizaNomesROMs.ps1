@@ -1,5 +1,4 @@
 <#
-<#
 .SYNOPSIS
     Normalizador determinístico de nomes de arquivos com suporte a idioma, ID ScreenScraper e extensões encadeadas.
 
