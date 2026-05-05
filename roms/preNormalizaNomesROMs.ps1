@@ -231,7 +231,8 @@
     Diretrizes:
         - O log MUST indicar a ação tomada
         - MUST incluir o caminho do arquivo (preferencialmente relativo)
-        - SHOULD utilizar reescrita inline quando apropriado, preservando histórico legível
+        - SHOULD utilizar reescrita inline e, new line apenas quando apropriado, 
+          preservando histórico legível e sem fllooding de mensagens
         - MUST evitar poluição visual mantendo rastreabilidade
         - MUST ser legível por máquina
         - SHOULD utilizar cores e destaques para status
@@ -522,8 +523,8 @@ function Get-UniqueFileName {
 
   while (Test-Path -LiteralPath (Join-Path $dir $candidate)) {
 
-    # FIX-BUG: correção de formatação inválida em string format
-    $candidate = "{0}__dup{1}{2}" -f $base, $i, $ext
+    # FIX-BUG: evita sufixo proibido "__dup" e mantém determinismo
+    $candidate = "{0} ({1}){2}" -f $base, $i, $ext
     $i++
 
     if ($i -gt 9999) { throw "Colisão infinita" }
@@ -553,7 +554,8 @@ function main {
       $exts = $parsed.Extensions
 
       # PROTECAO: tenta resolver nome completo via mapa externo (ex: gamelist.xml exportado)
-      $mapPath = Join-Path $file.DirectoryName "gamelist.map.json"
+      $mapPath = Join-Path $file.DirectoryName "gamelist.json"
+      $xmlPath = Join-Path $file.DirectoryName "gamelist.xml" # PROTECAO: fallback XML
       $resolvedBase = $rawBase
       $mapLangRaw = $null
 
@@ -575,12 +577,65 @@ function main {
             }
 
             if ($entry.lang) {
-              $mapLangRaw = $entry.lang # FIX-BUG: captura lang externa
+              $mapLangRaw = $entry.lang
             }
           }
         }
         catch {
-          Write-Host "❌ 📄 MAP_LOAD :: $($_.Exception.Message)" -ForegroundColor Red # PROTECAO: erro estruturado
+          Write-Host "❌ 📄 MAP_LOAD :: $($_.Exception.Message)" -ForegroundColor Red
+        }
+      }
+      elseif (Test-Path $xmlPath) {
+        try {
+          # FIX-BUG: suporte direto a gamelist.xml quando JSON inexistente
+          [xml]$xml = Get-Content $xmlPath -Raw
+
+          # FIX-BUG: escape seguro de string para XPath (suporta aspas simples)
+          function ConvertTo-XPathLiteral {
+            param([string]$value)
+
+            if ($value -notmatch "'") {
+              return "'$value'"
+            }
+
+            if ($value -notmatch '"') {
+              return '"' + $value + '"'
+            }
+
+            # fallback: concatenação segura
+            $parts = $value -split "'"
+            $xpath = "concat("
+
+            for ($i = 0; $i -lt $parts.Count; $i++) {
+              if ($i -gt 0) {
+                $xpath += ", ""'"", "
+              }
+              $xpath += "'" + $parts[$i] + "'"
+            }
+
+            $xpath += ")"
+            return $xpath
+          }
+
+          # PROTECAO: normaliza para comparação case-insensitive
+          $searchName = $file.Name.ToLowerInvariant()
+          $escaped = ConvertTo-XPathLiteral $searchName
+
+          $node = $xml.SelectSingleNode("//game[translate(path, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = $escaped]")
+
+          if ($node) {
+
+            if ($node.name) {
+              $resolvedBase = $node.name
+            }
+
+            if ($node.lang) {
+              $mapLangRaw = $node.lang.InnerText
+            }
+          }
+        }
+        catch {
+          Write-Host "❌ 📄 XML_LOAD :: $($_.Exception.Message)" -ForegroundColor Red
         }
       }
 
@@ -686,11 +741,64 @@ function main {
 
               if ($hashA.Hash -eq $hashB.Hash) {
 
-                Write-Host "⚠️ 🛠️ DUPLICATE_CONFIRMED :: removendo $($file.Name)" -ForegroundColor Yellow
+                Write-Host "⚠️ 🛠️ DUPLICATE_CONFIRMED :: avaliando preservação determinística" -ForegroundColor Yellow
 
-                if ($PSCmdlet.ShouldProcess($file.Name, "Remove confirmed duplicate")) {
-                  Remove-Item -LiteralPath $file.FullName -Force -ErrorAction Stop
-                  Write-Host "✔ 🗑️ REMOVED :: $($file.Name)" -ForegroundColor DarkGreen
+                # FIX-BUG: seleção determinística do melhor candidato
+                $candidateA = $file.Name
+                $candidateB = (Split-Path $targetPath -Leaf)
+
+                $normalizedA = $candidateA.Equals($newName, [StringComparison]::Ordinal)
+                $normalizedB = $candidateB.Equals($newName, [StringComparison]::Ordinal)
+
+                function __distance($a, $b) {
+                  # PROTECAO: aproximação simples determinística
+                  return [Math]::Abs($a.Length - $b.Length)
+                }
+
+                if ($normalizedA -and -not $normalizedB) {
+                  $remove = $candidateB
+                  $removePath = $targetPath
+                }
+                elseif ($normalizedB -and -not $normalizedA) {
+                  $remove = $candidateA
+                  $removePath = $file.FullName
+                }
+                else {
+                  $distA = __distance $candidateA $newName
+                  $distB = __distance $candidateB $newName
+
+                  if ($distA -lt $distB) {
+                    $remove = $candidateB
+                    $removePath = $targetPath
+                  }
+                  elseif ($distB -lt $distA) {
+                    $remove = $candidateA
+                    $removePath = $file.FullName
+                  }
+                  else {
+                    # desempate lexicográfico estável
+                    if ($candidateA -lt $candidateB) {
+                      $remove = $candidateB
+                      $removePath = $targetPath
+                    }
+                    else {
+                      $remove = $candidateA
+                      $removePath = $file.FullName
+                    }
+                  }
+                }
+
+                if ($PSCmdlet.ShouldProcess($remove, "Remove duplicate determinístico")) {
+                  Remove-Item -LiteralPath $removePath -Force -ErrorAction Stop
+
+                  # FIX-BUG: remove hash associado ao arquivo removido
+                  $hashFile = "$removePath.sha256"
+                  if (Test-Path $hashFile) {
+                    Remove-Item -LiteralPath $hashFile -Force -ErrorAction SilentlyContinue
+                    Write-Host "✔ 🗑️ HASH_REMOVED :: $(Split-Path $hashFile -Leaf)" -ForegroundColor DarkGreen
+                  }
+
+                  Write-Host "✔ 🗑️ REMOVED :: $remove" -ForegroundColor DarkGreen
                   $renamed++
                 }
 
@@ -726,6 +834,27 @@ function main {
     catch {
       $errors++
       Write-Host "❌ $($file.Name) :: $($_.Exception.Message)" -ForegroundColor Red -BackgroundColor Black # PROTECAO: padronização ERROR
+    }
+  }
+
+  # FIX-BUG: remoção de hashes órfãos após processamento
+  Get-ChildItem -Recurse -File -Filter *.sha256 -ErrorAction SilentlyContinue | ForEach-Object {
+    try {
+      $hashFile = $_
+      $targetFile = $hashFile.FullName -replace '\.sha256$', ''
+
+      if (-not (Test-Path $targetFile)) {
+
+        Write-Host "⚠️ 🛠️ ORPHAN_HASH :: removendo $($hashFile.Name)" -ForegroundColor Yellow
+
+        if ($PSCmdlet.ShouldProcess($hashFile.Name, "Remove orphan hash")) {
+          Remove-Item -LiteralPath $hashFile.FullName -Force -ErrorAction Stop
+          Write-Host "✔ 🗑️ HASH_REMOVED :: $($hashFile.Name)" -ForegroundColor DarkGreen
+        }
+      }
+    }
+    catch {
+      Write-Host "❌ HASH_ORPHAN_FAIL :: $($_.Exception.Message)" -ForegroundColor Red
     }
   }
 
