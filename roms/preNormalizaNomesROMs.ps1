@@ -260,7 +260,19 @@
   1. Se executado diretamente executa função main repassando parâmetros 
       recebidos por linha de comando ou variáveis de ambiente.
   2. Se importado expõe as funções públicas para serem chamadas por outros
-      scripts sem executar nada.      
+      scripts sem executar nada.    
+      
+  [SOBRE COMPARAÇÕES DE HASH E COLISÕES]
+    - Short-circuit por tamanho
+      * Evita SHA256 em arquivos obviamente diferentes
+      * Não influencia decisão de igualdade
+    - Mutex global (Global\NormalizeScript_HashMutex)
+      * Serializa operações de hash
+      * Evita saturação de disco / IO
+      * Evita race conditions e corrupção indireta
+    - Timeout controlado (30s)
+      * Evita deadlock
+      * Garante progresso do script  
 #>
 
 [CmdletBinding(SupportsShouldProcess = $true)]
@@ -597,8 +609,84 @@ function main {
       }
 
       # COLISÃO
-      if (Test-Path -LiteralPath (Join-Path $file.DirectoryName $newName)) {
-        $newName = Get-UniqueFileName $file.DirectoryName $newName
+      $targetPath = Join-Path $file.DirectoryName $newName
+
+      if (Test-Path -LiteralPath $targetPath) {
+
+        # FIX-BUG: arquivos de hash (.sha256) não devem ser duplicados
+        if ($exts.Count -eq 1 -and $exts[0].Equals('sha256', [StringComparison]::OrdinalIgnoreCase)) {
+
+          Write-Host "⚠️ 🛠️ HASH_DUPLICADO :: removendo $($file.Name)" -ForegroundColor Yellow
+
+          if ($PSCmdlet.ShouldProcess($file.Name, "Remove duplicate hash file")) {
+            Remove-Item -LiteralPath $file.FullName -Force -ErrorAction Stop
+            Write-Host "✔ 🗑️ REMOVED :: $($file.Name)" -ForegroundColor DarkGreen
+            $renamed++
+          }
+
+          return
+        }
+
+        # 🔒 SHORT-CIRCUIT POR TAMANHO (NÃO DECISIVO)
+        $fileSizeA = $file.Length
+        $fileSizeB = (Get-Item -LiteralPath $targetPath).Length
+
+        if ($fileSizeA -ne $fileSizeB) {
+          # PROTECAO: tamanhos diferentes → não são duplicados → evita hash desnecessário
+          $newName = Get-UniqueFileName $file.DirectoryName $newName
+        }
+        else {
+
+          # 🔒 MUTEX GLOBAL PARA OPERAÇÕES DE HASH
+          $mutexName = "Global\NormalizeScript_HashMutex"
+          $mutex = New-Object System.Threading.Mutex($false, $mutexName)
+          $lockAcquired = $false
+
+          try {
+            # PROTECAO: evita concorrência de IO e contenção de disco
+            $lockAcquired = $mutex.WaitOne([TimeSpan]::FromSeconds(30))
+
+            if (-not $lockAcquired) {
+              Write-Host "⚠️ 🔍 MUTEX_TIMEOUT :: fallback sem hash" -ForegroundColor Yellow
+              $newName = Get-UniqueFileName $file.DirectoryName $newName
+            }
+            else {
+
+              Write-Host "🔍 ⚙️ HASH_COMPARE :: $($file.Name)" -ForegroundColor Cyan
+
+              $hashA = Get-FileHash -LiteralPath $file.FullName -Algorithm SHA256
+              $hashB = Get-FileHash -LiteralPath $targetPath -Algorithm SHA256
+
+              if ($hashA.Hash -eq $hashB.Hash) {
+
+                Write-Host "⚠️ 🛠️ DUPLICATE_CONFIRMED :: removendo $($file.Name)" -ForegroundColor Yellow
+
+                if ($PSCmdlet.ShouldProcess($file.Name, "Remove confirmed duplicate")) {
+                  Remove-Item -LiteralPath $file.FullName -Force -ErrorAction Stop
+                  Write-Host "✔ 🗑️ REMOVED :: $($file.Name)" -ForegroundColor DarkGreen
+                  $renamed++
+                }
+
+                return
+              }
+              else {
+                # PROTECAO: mesmo tamanho, conteúdo diferente
+                $newName = Get-UniqueFileName $file.DirectoryName $newName
+              }
+            }
+          }
+          catch {
+            Write-Host "❌ 🔍 HASH_COMPARE_FAIL :: $($_.Exception.Message)" -ForegroundColor Red
+            # PROTECAO: fallback seguro → NÃO remover sem confirmação
+            $newName = Get-UniqueFileName $file.DirectoryName $newName
+          }
+          finally {
+            if ($lockAcquired) {
+              $mutex.ReleaseMutex()
+            }
+            $mutex.Dispose()
+          }
+        }
       }
 
       if ($PSCmdlet.ShouldProcess($file.Name, "Rename to $newName")) {
