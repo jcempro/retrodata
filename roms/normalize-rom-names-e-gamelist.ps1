@@ -20,6 +20,10 @@ ESCOPO
   - Varredura recursiva de diretórios contendo 'gamelist.xml'.
   - Operação sobre ROMs referenciadas por <path> e seus metadados.
   - compatibilidade do gamelista.xml total com batocera.
+  - gamelist.xml deve estar imediatamente no root de 
+    qualquer subpasta de roms (ex.: roms/snes/gamelist.xml, mas 
+    não roms/snes/collection/gamelist.xml), portando, a recursividade é apenas para encontrar 
+    gamelist.xml, não para processar múltiplos níveis de subpastas.
 
 REQUISITOS PRINCIPAIS
   R1. SINCRONIA:
@@ -28,13 +32,15 @@ REQUISITOS PRINCIPAIS
       Capitalizar basename; preservar extensão; impor consistência de case.
   R3. PARÊNTESES:
       - MANTER localidades: (BR), (XX), (BR-XX), formas compostas.
-      - REMOVER tags técnicas (ex.: Beta, Rev, Build) e espaço precedente.
+      - REMOVER tags técnicas (ex.: Beta, Rev, Build, 1, 2, T1.0) e espaço
+        precedente.
       - NORMALIZAR conteúdo restante para MAIÚSCULO.
   R4. IDENTIFICADOR:
       Sufixar " [id]" (sanitizado) antes da extensão usando <game id>.
       Unicidade do nome DEVE ser garantida via [id].
   R5. HASH:
-      Se existir *.sha256, DEVE ser renomeado para casar com a ROM (case).
+      - Se existir *.sha256, DEVE ser renomeado para casar com a ROM (case);
+      - o basename dentro do .sha256 DEVE ser atualizado para refletir o novo nome da ROM.
   R6. CASE (WINDOWS):
       Impor unicidade efetiva sensível a maiúsc./minúsc. (evitar colisões).
   R7. TAG <LANG>:
@@ -534,11 +540,40 @@ function Invoke-GamelistProcessing {
 
 function main {
   param(
-    [string]$RootPath = (Get-Location).Path
+    [string]$RootPath
   )
+
+  # PROTECAO: resolve RootPath explicitamente ou tenta detectar 'roms'
+  if (-not $RootPath) {
+    $current = (Get-Location).Path
+    $cursor = $current
+
+    while ($true) {
+      if (Test-Path (Join-Path $cursor "roms")) {
+        $RootPath = Join-Path $cursor "roms"
+        break
+      }
+
+      $parent = Split-Path $cursor -Parent
+      if (-not $parent -or $parent -eq $cursor) {
+        throw "Pasta 'roms' não encontrada na hierarquia" # PROTECAO
+      }
+
+      $cursor = $parent
+    }
+  }
 
   if (-not (Test-Path $RootPath)) {
     throw "Caminho inválido: $RootPath" # PROTECAO
+  }
+
+  # PROTECAO: valida estrutura mínima esperada (roms/<system>/gamelist.xml)
+  $hasValidStructure = Get-ChildItem -Path $RootPath -Directory -ErrorAction SilentlyContinue | Where-Object {
+    Test-Path (Join-Path $_.FullName "gamelist.xml")
+  }
+
+  if (-not $hasValidStructure) {
+    throw "Estrutura inválida: nenhum gamelist.xml em roms/<system>" # PROTECAO
   }
 
   $mutex = New-Object System.Threading.Mutex($false, "Global\BatoceraGamelistMutex")
@@ -548,7 +583,22 @@ function main {
   }
 
   try {
-    Get-ChildItem -Path $RootPath -Recurse -Filter "gamelist.xml" -ErrorAction SilentlyContinue | ForEach-Object {
+    Get-ChildItem -Path $RootPath -Recurse -Filter "gamelist.xml" -ErrorAction SilentlyContinue | Where-Object {
+      # PROTECAO: garante que gamelist.xml está no nível imediatamente abaixo do RootPath
+      $parent = Split-Path $_.FullName -Parent
+      $grandParent = Split-Path $parent -Parent
+
+      try {
+        $normalizedRoot = (Resolve-Path $RootPath).Path.TrimEnd('\')
+        $normalizedGrandParent = (Resolve-Path $grandParent).Path.TrimEnd('\')
+
+        return $normalizedGrandParent -eq $normalizedRoot
+      }
+      catch {
+        Write-Host "[ERRO][PathValidation] $($_.Exception.Message)" # PROTECAO
+        return $false
+      }
+    } | ForEach-Object {
       Invoke-GamelistProcessing $_.FullName
     }
   }
