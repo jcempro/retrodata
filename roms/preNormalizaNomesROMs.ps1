@@ -14,7 +14,7 @@
     Terminologia normativa conforme RFC 2119:
         MUST, MUST NOT, REQUIRED → obrigatório
         SHOULD → recomendado
-        MAY → opcional
+        MAY → opcional            
 
     ============================================================
     1. ESTRUTURA CANÔNICA DO NOME
@@ -164,6 +164,41 @@
         - ID válido nunca será perdido
         - Estrutura final sempre será consistente
         - Execução é determinística
+
+    10. LOG
+
+    Cores no console (humanos), sem incuir os dizeres entre []:
+      - OK, com alteraçÃo    : Verde escuro ()
+      - OK, já estava certo  : Verde escuro (sem alteração)
+      - FIX                  : Verde claro
+      - INFO                 : Ciano
+      - WARN                 : Amarelo
+      - ERROR                : Branco sobre fundo vermelho (com msg em vermelho)
+
+        Diretrizes de conteúdo:
+
+        * Log deve indicar ação tomada 
+        * log deve indicar o caminho do arquivo afetado (preferencialmente
+          relativo) e a operação ocorrendo 
+        * log deve preferir reecrista inline (com clear da linha prévio), e logar
+          nova line quando conveniente para histórico legível, evitando
+          poluição visual e mantendo rastreabilidade de ações em tempo real   
+        * Uso de cores e destaques visuais para facilitar identificação de status
+          e erros críticos
+        * arquivo de log deve ser estruturado e legível por máquina para análises futuras
+        * utilize caractere unicode (emoji) único para identificar OK, FIX, INFO, WARN, ERROR:
+          - OK    : ✔  (EM COR VERDE)
+          - INFO  : ℹ️
+          - WARN  : ⚠️
+          - ERROR : ❌    
+        * utilize caracter unicode (emoji) único para identificar ações executadas e em execução:
+          - JSON-VALIDATE : 📄
+          - PROCESS       : ⚙️
+          - VERIFY        : 🔍
+          - CHANGE-NAME   : ✏️
+          - SKIP          : ⏭️
+          - FIX           : 🛠️
+          - FIXED         : ✅
 
 .EXAMPLE
     PS> .\normalize.ps1 -WhatIf

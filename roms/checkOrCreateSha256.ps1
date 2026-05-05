@@ -80,15 +80,7 @@ DIRETRIZES OBRIGATÓRIAS:
    }
   
 4. REGRAS DE LOG ESTRUTURADO
-
-   Formato: JSONL (uma linha por evento)
-   Campos obrigatórios:
-   - time   : ISO timestamp (yyyy-MM-dd HH:mm:ss)
-   - level  : OK | FIX | INFO | WARN | ERROR
-   - file   : caminho relativo (preferencial) ou absoluto
-   - msg    : mensagem descritiva
-   - Extra  : campos adicionais conforme necessidade
-
+   
    Cores no console (humanos), sem incuir os dizeres entre []:
    - OK, com alteraçÃo    : Verde escuro ()
    - OK, já estava certo  : Verde escuro (sem alteração)
@@ -108,12 +100,12 @@ DIRETRIZES OBRIGATÓRIAS:
     * Uso de cores e destaques visuais para facilitar identificação de status
       e erros críticos
     * arquivo de log deve ser estruturado e legível por máquina para análises futuras
-    * utilize caractere unicode (emoji) único para identificar OK, FIX, INFO, WARN, ERROR entre []:
-      - OK    : ✅      
+    * utilize caractere unicode (emoji) único para identificar OK, FIX, INFO, WARN, ERROR:
+      - OK    : ✔ (em cor verde)
       - INFO  : ℹ️
       - WARN  : ⚠️
       - ERROR : ❌
-    * utilize caracter unicode (emoji) único para identificar ações de HASHING, JSON-VALIDATE, PROCESS, etc, entre []:      
+    * utilize caracter unicode (emoji) único para identificar ações de HASHING, JSON-VALIDATE, PROCESS, etc:
       - JSON-VALIDATE : 📄
       - PROCESS       : ⚙️
       - VERIFY        : 🔍      
@@ -368,7 +360,7 @@ function Write-Log {
 
   switch ($Level) {
     "OK" { 
-      Write-Host "✓ " -ForegroundColor Green -NoNewline
+      Write-Host "✔ " -ForegroundColor Green -NoNewline
       Write-Host " '$File' :: $Message" -ForegroundColor DarkGray 
     }
     "FIX" { Write-Host "🛠️ Fix: '$File' :: $Message" -ForegroundColor Green }
