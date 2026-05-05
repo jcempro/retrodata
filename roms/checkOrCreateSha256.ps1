@@ -278,6 +278,9 @@ param(
 # ================================
 $validExt = @('.zip', '.7z', '.iso', '.gen', '.chd', '.z64', '.nes', '.sfc', '.smc', '.bin', '.cue')
 
+# PROTECAO: diretórios especiais com JSON tree virtual
+$specialJsonDirs = @('windows', 'steam')
+
 # ================================
 # LOG
 # ================================
@@ -602,18 +605,20 @@ function main {
       }
     }
   }
-
+  
   # ================================
-  # WINDOWS JSON VALIDATION
+  # JSON TREE VALIDATION (WINDOWS / STEAM / CONFIGURÁVEL)
   # ================================
-  $windowsRoot = Join-Path (Get-Location) "steam"
+  foreach ($dirName in $specialJsonDirs) {
 
-  if (Test-Path $windowsRoot) {
+    $rootBase = Join-Path (Get-Location) $dirName
 
-    Get-ChildItem -LiteralPath $windowsRoot -Directory | ForEach-Object {
+    if (-not (Test-Path $rootBase)) { continue } # PROTECAO: diretório inexistente ignorado
+
+    Get-ChildItem -LiteralPath $rootBase -Directory | ForEach-Object {
 
       $rootDir = $_
-      $jsonPath = Join-Path $windowsRoot ($rootDir.Name + ".sha256.json")
+      $jsonPath = Join-Path $rootBase ($rootDir.Name + ".sha256.json")
       $relPath = Get-RelativePathSafe $jsonPath
 
       $script:hasError = $false
@@ -680,14 +685,29 @@ function main {
   # ================================
   # EXECUÇÃO NORMAL
   # ================================
+  # PROTECAO: indexação por diretório+hash para deduplicação segura
+  $hashIndex = @{}
+
   Get-ChildItem -Recurse -File | Where-Object {
-    $_.FullName -notmatch '\\steam\\' -and
-    $validExt -contains $_.Extension.ToLowerInvariant()
+
+    $isSpecial = $false
+
+    foreach ($d in $specialJsonDirs) {
+      if ($_.FullName -match "\\$d\\") {
+        $isSpecial = $true
+        break
+      }
+    }
+
+    (-not $isSpecial) -and
+    ($validExt -contains $_.Extension.ToLowerInvariant())
+
   } | ForEach-Object {
 
     $filePath = $_.FullName
     $relPath = Get-RelativePathSafe $filePath
     $shaPath = "$filePath.sha256"
+    $dir = Split-Path $filePath -Parent
 
     try {
       $currentHash = Get-HashSafe $filePath
@@ -696,6 +716,17 @@ function main {
       Write-Log "ERROR" "falha hash" $relPath
       return
     }
+
+    # PROTECAO: inicializa bucket por diretório
+    if (-not $hashIndex.ContainsKey($dir)) {
+      $hashIndex[$dir] = @{}
+    }
+
+    if (-not $hashIndex[$dir].ContainsKey($currentHash)) {
+      $hashIndex[$dir][$currentHash] = @()
+    }
+
+    $hashIndex[$dir][$currentHash] += $filePath
 
     $exists = Test-Path $shaPath
     $storedHash = if ($exists) { Parse-Sha256 $shaPath } else { $null }
@@ -734,6 +765,41 @@ function main {
     if ($regenerate -and -not $VerifyOnly) {
       Write-Sha256 $shaPath $currentHash $_.Name
       Write-Log "FIX" "sha256 regenerado" $relPath
+    }
+  }
+
+  # ================================
+  # DEDUPLICAÇÃO POR HASH (FAIL-SAFE)
+  # ================================
+  foreach ($dir in $hashIndex.Keys) {
+    foreach ($hash in $hashIndex[$dir].Keys) {
+
+      $files = $hashIndex[$dir][$hash]
+
+      # PROTECAO: apenas processar se houver duplicados reais
+      if ($files.Count -le 1) { continue }
+
+      # PROTECAO: garante retenção do primeiro arquivo
+      $keep = $files[0]
+      $toRemove = $files | Select-Object -Skip 1
+
+      foreach ($file in $toRemove) {
+
+        $rel = Get-RelativePathSafe $file
+
+        if ($VerifyOnly) {
+          Write-Log "WARN" "duplicado por hash detectado (não removido)" $rel @{ hash = $hash }
+          continue
+        }
+
+        try {
+          Remove-Item -LiteralPath $file -Force -ErrorAction Stop
+          Write-Log "FIX" "arquivo duplicado removido (hash)" $rel @{ hash = $hash }
+        }
+        catch {
+          Write-Log "ERROR" "falha ao remover duplicado → $($_.Exception.Message)" $rel
+        }
+      }
     }
   }
 
