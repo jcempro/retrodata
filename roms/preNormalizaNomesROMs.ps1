@@ -526,13 +526,49 @@ function Get-UniqueFileName {
     $candidate = "{0} ({1}){2}" -f $base, $i, $ext
     $i++
 
-    if ($i -gt 9999) { throw "Colisão infinita" }
+    if ($i -gt 9999) {
+      throw "Colisão infinita detectada para: $name" # FIX-BUG: adiciona contexto para diagnóstico
+    }
   }
 
   return $candidate
 }
 
-# ================= MAIN =================
+# PROTECAO: controle global de flooding e cache
+$script:__lastLog = $null
+$script:__hashLogCache = @{}
+
+# PROTECAO: engine de log inline com controle de flooding (RFC 10)
+$script:__logState = @{
+  lastLine = ''
+  lastType = ''
+}
+
+function Write-InlineLog {
+  param(
+    [string]$message,
+    [string]$color = 'White',
+    [switch]$forceNewLine
+  )
+
+  # evita flooding (mensagem idêntica)
+  if (-not $forceNewLine -and $script:__logState.lastLine -eq $message) {
+    return
+  }
+
+  $script:__logState.lastLine = $message
+
+  if ($forceNewLine) {
+    Write-Host $message -ForegroundColor $color
+    return
+  }
+
+  # sobrescreve linha atual
+  $padLength = [Math]::Max(0, $Host.UI.RawUI.BufferSize.Width - $message.Length - 1)
+  $padding = ' ' * $padLength
+
+  Write-Host -NoNewline ("`r" + $message + $padding) -ForegroundColor $color
+}
 
 function main {
   param()
@@ -547,7 +583,10 @@ function main {
       $file = $_
 
       $parsed = Extract-Extensions $file.Name
-      if (-not $parsed) { $skipped++; return }
+      if (-not $parsed) {
+        Write-InlineLog "⏭️ SKIP :: $($file.Name)" DarkGray
+        $skipped++; return 
+      }
 
       $rawBase = $parsed.Base
       $exts = $parsed.Extensions
@@ -641,6 +680,14 @@ function main {
       # EXTRAÇÃO ANTES DE QUALQUER MODIFICAÇÃO
       $idioma = Get-IdiomaSeguro $resolvedBase
 
+      # FIX-BUG: garante que idioma válido nunca seja perdido
+      if (-not $idioma) {
+        $fallbackIdioma = Get-IdiomaSeguro $rawBase
+        if ($fallbackIdioma) {
+          $idioma = $fallbackIdioma # PROTECAO: fallback obrigatório
+        }
+      }
+
       # FIX-BUG: fallback para idioma vindo do mapa quando ausente no nome
       if (-not $idioma -and $mapLangRaw) {
 
@@ -672,7 +719,11 @@ function main {
 
       # NORMALIZAÇÃO
       $nome = Normalize-Nome $resolvedBase # FIX-BUG: usa nome expandido quando disponível
-      if (-not $nome) { $skipped++; return }
+      if (-not $nome) {
+        Write-Host "⚠️ WARN :: SKIP :: Nome vazio após normalização :: $($file.Name)" -ForegroundColor Yellow
+        $skipped++
+        return
+      }
 
       # RECONSTRUÇÃO CANÔNICA
       $newBase = $nome
@@ -696,6 +747,12 @@ function main {
 
         # FIX-BUG: arquivos de hash (.sha256) não devem ser duplicados
         if ($exts.Count -eq 1 -and $exts[0].Equals('sha256', [StringComparison]::OrdinalIgnoreCase)) {
+
+          # PROTECAO: evita reprocessamento redundante
+          if ($file.Name -eq $newName) {
+            $skipped++
+            return
+          }
 
           Write-Host "⚠️ 🛠️ HASH_DUPLICADO :: removendo $($file.Name)" -ForegroundColor Yellow
 
@@ -733,7 +790,13 @@ function main {
             }
             else {
 
-              Write-Host "🔍 ⚙️ HASH_COMPARE :: $($file.Name)" -ForegroundColor Cyan
+              # PROTECAO: evita spam de comparação repetida
+              if (-not $script:__hashLogCache) { $script:__hashLogCache = @{} }
+
+              if (-not $script:__hashLogCache.ContainsKey($file.FullName)) {
+                Write-InlineLog "🔍 PROCESS :: HASH_COMPARE :: $($file.Name)" Cyan
+                $script:__hashLogCache[$file.FullName] = $true
+              }
 
               $hashA = Get-FileHash -LiteralPath $file.FullName -Algorithm SHA256
               $hashB = Get-FileHash -LiteralPath $targetPath -Algorithm SHA256
@@ -797,7 +860,7 @@ function main {
                     Write-Host "✔ 🗑️ HASH_REMOVED :: $(Split-Path $hashFile -Leaf)" -ForegroundColor DarkGreen
                   }
 
-                  Write-Host "✔ 🗑️ REMOVED :: $remove" -ForegroundColor DarkGreen
+                  Write-InlineLog "✔ REMOVED :: $remove" DarkGreen -forceNewLine
                   $renamed++
                 }
 
@@ -825,14 +888,18 @@ function main {
 
       if ($PSCmdlet.ShouldProcess($file.Name, "Rename to $newName")) {
         Rename-Item -LiteralPath $file.FullName -NewName $newName -ErrorAction Stop
-        Write-Host "✔ ✏️ $($file.Name) -> $newName" -ForegroundColor DarkGreen # PROTECAO: padronização de log conforme RFC
+        # PROTECAO: evita flooding - log consolidado por evento único
+        if ($script:__lastLog -ne $newName) {
+          Write-InlineLog "✔ CHANGE-NAME :: $($file.Name) -> $newName" DarkGreen
+          $script:__lastLog = $newName
+        }
         $renamed++
       }
 
     }
     catch {
       $errors++
-      Write-Host "❌ $($file.Name) :: $($_.Exception.Message)" -ForegroundColor Red -BackgroundColor Black # PROTECAO: padronização ERROR
+      Write-InlineLog "❌ ERROR :: $($file.Name) :: $($_.Exception.Message)" Red -forceNewLine
     }
   }
 
@@ -844,7 +911,7 @@ function main {
 
       if (-not (Test-Path $targetFile)) {
 
-        Write-Host "⚠️ 🛠️ ORPHAN_HASH :: removendo $($hashFile.Name)" -ForegroundColor Yellow
+        Write-InlineLog "⚠️ FIX :: ORPHAN_HASH :: $($hashFile.Name)" Yellow -forceNewLine
 
         if ($PSCmdlet.ShouldProcess($hashFile.Name, "Remove orphan hash")) {
           Remove-Item -LiteralPath $hashFile.FullName -Force -ErrorAction Stop
@@ -858,8 +925,8 @@ function main {
   }
 
   Write-Host ""
-  Write-Host "ℹ️ ==== RESUMO ====" -ForegroundColor Cyan
-  Write-Host "ℹ️ Total: $total | Renomeados: $renamed | Ignorados: $skipped | Erros: $errors"
+  Write-Host "" # flush linha inline
+  Write-InlineLog "ℹ️ ==== RESUMO ====" Cyan -forceNewLine
 }
 
 # AUTO-INVOCAÇÃO SEGURA
