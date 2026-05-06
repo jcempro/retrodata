@@ -517,7 +517,22 @@ function Remove-NoiseMarkers {
   if (-not $text) { return $null }
 
   # remove TODOS () e []
-  $t = $text -replace '\s*\([^)]*\)', ''
+  # FIX-BUG: remove apenas parênteses inválidos (RFC 4.6)
+  $t = [regex]::Replace($text, '\(([^)]+)\)', {
+      param($m)
+
+      $val = $m.Groups[1].Value.Trim().ToUpperInvariant()
+
+      if ($ValidIdiomas -contains $val) {
+        return $m.Value # preserva idioma válido
+      }
+
+      if ($val -match '^(BETA|REV|BUILD|PROTO|DEMO|SAMPLE|V[\d\.]+|T-\d+|\d+)$') {
+        return '' # remove inválidos
+      }
+
+      return '' # default: remove
+    })
   $t = $t -replace '\s*\[[^\]]*\]', ''
 
   # 🔥 REMOVE especificamente (1), (2), etc (caso escapem)
@@ -787,6 +802,32 @@ function main {
           $node = $xml.SelectSingleNode("//game[translate(path, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = $escaped]")
 
           if ($node) {
+            # FIX-BUG: atualização obrigatória da tag <lang>
+            if ($idioma) {
+
+              $langValue = $null
+
+              if ($idioma -match '\(BR') {
+                $langValue = 'pt-br'
+              }
+              elseif ($idioma -eq '(PT)') {
+                $langValue = 'pt-pt'
+              }
+              else {
+                $langValue = $idioma.Trim('()').ToLowerInvariant()
+              }
+
+              if ($node.lang) {
+                $node.lang = $langValue
+              }
+              else {
+                $newLang = $xml.CreateElement("lang")
+                $newLang.InnerText = $langValue
+                $node.AppendChild($newLang) | Out-Null
+              }
+
+              $xml.Save($xmlPath)
+            }            
 
             if ($node.name) {
               $resolvedBase = $node.name
@@ -851,6 +892,23 @@ function main {
       }
 
       # RECONSTRUÇÃO CANÔNICA
+      $newBase = $nome
+      if ($idioma) { $newBase += " $idioma" }
+      # FIX-BUG: garantia obrigatória de identificador único (RFC 4.8)
+      if (-not $id) {
+
+        try {
+          $hash = Get-FileHash -LiteralPath $file.FullName -Algorithm SHA256 -ErrorAction Stop
+          $fallback = $hash.Hash.Substring(0, 8)
+          $id = "[$fallback]"
+        }
+        catch {
+          # PROTECAO: fallback determinístico mínimo sem hash
+          $fallback = [Math]::Abs($file.FullName.GetHashCode()).ToString("X8").Substring(0, 8)
+          $id = "[$fallback]"
+        }
+      }
+
       $newBase = $nome
       if ($idioma) { $newBase += " $idioma" }
       if ($id) { $newBase += " $id" }
@@ -1013,6 +1071,31 @@ function main {
 
       if ($PSCmdlet.ShouldProcess($file.Name, "Rename to $newName")) {
         Rename-Item -LiteralPath $file.FullName -NewName $newName -ErrorAction Stop
+
+        # FIX-BUG: sincroniza arquivo .sha256 associado
+        $oldHashFile = "$($file.FullName).sha256"
+        $newHashFile = (Join-Path $file.DirectoryName $newName) + ".sha256"
+
+        if (Test-Path $oldHashFile) {
+          try {
+            Rename-Item -LiteralPath $oldHashFile -NewName (Split-Path $newHashFile -Leaf) -ErrorAction Stop
+
+            # PROTECAO: atualiza conteúdo interno do .sha256
+            $content = Get-Content $newHashFile -Raw
+            $content = $content -replace [regex]::Escape($file.Name), $newName
+            Set-Content -LiteralPath $newHashFile -Value $content -Encoding ASCII
+
+          }
+          catch {
+            Write-Host "❌ HASH_SYNC_FAIL :: $($_.Exception.Message)" -ForegroundColor Red
+          }
+        }
+
+        # PROTECAO: evita flooding - log consolidado por evento único
+        if ($script:__lastLog -ne $newName) {
+          Write-InlineLog "✔ CHANGE-NAME :: $($file.Name) -> $newName" DarkGreen
+          $script:__lastLog = $newName
+        }
         # PROTECAO: evita flooding - log consolidado por evento único
         if ($script:__lastLog -ne $newName) {
           Write-InlineLog "✔ CHANGE-NAME :: $($file.Name) -> $newName" DarkGreen
