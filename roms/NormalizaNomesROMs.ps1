@@ -8,7 +8,10 @@
     a entradas inconsistentes.
    
     Não são tratadas as extensões (.xml, .json, .ini, .exe, .sh, .ps1, .bat)
-    relacionadas a metadados, que devem ser gerenciadas por processos específicos.
+    relacionadas a metadados, que devem ser gerenciadas por processos específicos,
+    e, exceto quanto a validação de .sha256,  também não são tratado os arquivos de 
+    mídia (.mp3, .png, .jpg, .jpeg, .mp4, .avi, .mkv).
+    
 
     Objetivos:
         1. Garantir consistência estrutural e previsibilidade em coleções heterogêneas
@@ -516,28 +519,16 @@ function Remove-NoiseMarkers {
 
   if (-not $text) { return $null }
 
-  # remove TODOS () e []
-  # FIX-BUG: remove apenas parênteses inválidos (RFC 4.6)
-  $t = [regex]::Replace($text, '\(([^)]+)\)', {
-      param($m)
+  # FIX-BUG: remove TODOS os parênteses, inclusive idiomas (RFC 1 + 2.5 + idempotência)
+  $t = [regex]::Replace($text, '\s*\([^)]+\)', '')
 
-      $val = $m.Groups[1].Value.Trim().ToUpperInvariant()
-
-      if ($ValidIdiomas -contains $val) {
-        return $m.Value # preserva idioma válido
-      }
-
-      if ($val -match '^(BETA|REV|BUILD|PROTO|DEMO|SAMPLE|V[\d\.]+|T-\d+|\d+)$') {
-        return '' # remove inválidos
-      }
-
-      return '' # default: remove
-    })
+  # remove IDs existentes (serão reconstruídos)
   $t = $t -replace '\s*\[[^\]]*\]', ''
 
-  # 🔥 REMOVE especificamente (1), (2), etc (caso escapem)
+  # remove resíduos numéricos em parênteses
   $t = $t -replace '\s*\(\d+\)', ''
 
+  # normaliza espaços
   $t = $t -replace '\s{2,}', ' '
 
   return $t.Trim()
@@ -910,6 +901,7 @@ function main {
             }
           
             # FIX-BUG: usa path relativo padrão "./"
+            # FIX-BUG: busca deve usar nome REAL do arquivo (RFC 0.2 correlação)
             $searchName = ("./" + $file.Name).ToLowerInvariant()
             $escaped = ConvertTo-XPathLiteral $searchName
 
@@ -1215,18 +1207,30 @@ function main {
           Rename-Item -LiteralPath $file.FullName -NewName $newName -ErrorAction Stop
 
           # FIX-BUG: sincroniza arquivo .sha256 associado
-          $oldHashFile = "$($file.FullName).sha256"
+          # PROTECAO: resolve corretamente nome do .sha256 (com ou sem extensão intermediária)
+          # PROTECAO: resolve corretamente nome do .sha256 (opcional)
+          $hashCandidates = @(
+            "$($file.FullName).sha256",
+            (Join-Path $file.DirectoryName ([IO.Path]::GetFileNameWithoutExtension($file.Name) + ".sha256"))
+          )
+
+          $oldHashFile = $hashCandidates | Where-Object { Test-Path -LiteralPath $_ } | Select-Object -First 1
           $newHashFile = (Join-Path $file.DirectoryName $newName) + ".sha256"
 
-          if (Test-Path $oldHashFile) {
+          # PROTECAO: .sha256 é derivado opcional; ausência não bloqueia rename
+          if ($oldHashFile) {
             try {
               Rename-Item -LiteralPath $oldHashFile -NewName (Split-Path $newHashFile -Leaf) -ErrorAction Stop
 
-              # PROTECAO: atualiza conteúdo interno do .sha256
-              $content = Get-Content $newHashFile -Raw
-              $content = $content -replace [regex]::Escape($file.Name), $newName
-              Set-Content -LiteralPath $newHashFile -Value $content -Encoding ASCII
-
+              # PROTECAO: valida existência real após rename
+              if (Test-Path -LiteralPath $newHashFile) {
+                $content = Get-Content -LiteralPath $newHashFile -Raw -ErrorAction Stop
+                $content = $content -replace [regex]::Escape($file.Name), $newName
+                Set-Content -LiteralPath $newHashFile -Value $content -Encoding ASCII -ErrorAction Stop
+              }
+              else {
+                Write-Host "⚠️ WARN :: HASH_RENAME_SKIP :: $(Split-Path $oldHashFile -Leaf)" -ForegroundColor Yellow
+              }
             }
             catch {
               Write-Host "❌ HASH_SYNC_FAIL :: $($_.Exception.Message)" -ForegroundColor Red
