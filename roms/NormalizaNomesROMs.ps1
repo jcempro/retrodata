@@ -161,8 +161,9 @@
 
     4.8 Garantia de unicidade (cadeia de fallback)
         - PRIORIDADE 1: [id] do ScreenScraper (Seção 3)
-        - PRIORIDADE 2: Se [id] ausente ou colidir, o script DEVE gerar [fallback_id]
-        - [fallback_id] DEVE ser um hash curto (8 primeiros chars do SHA256 do conteúdo)
+          * Se [id] ausente ou colidir, o script DEVE não deve gerar [fallback_id]
+          * o conteúdo de id não deve ser o case alterado, ou seja, ele deve ser preservado
+            independente da origem (basename / .xml)
         - Garantia: TODO nome final DEVE conter um identificador único entre colchetes
         - O processo de fallback NÃO DEVE violar idempotência        
 
@@ -1047,25 +1048,16 @@ function main {
 
         # RECONSTRUÇÃO CANÔNICA
         $newBase = $nome
-        if ($idioma) { $newBase += " $idioma" }
-        # FIX-BUG: garantia obrigatória de identificador único (RFC 4.8)
-        if (-not $id) {
-
-          try {
-            $hash = Get-FileHash -LiteralPath $file.FullName -Algorithm SHA256 -ErrorAction Stop
-            $fallback = $hash.Hash.Substring(0, 8)
-            $id = "[$fallback]"
-          }
-          catch {
-            # PROTECAO: fallback determinístico mínimo sem hash
-            $fallback = [Math]::Abs($file.FullName.GetHashCode()).ToString("X8").Substring(0, 8)
-            $id = "[$fallback]"
-          }
-        }
+        if ($idioma) { $newBase += " $idioma" }        
+        # FIX-BUG: remoção de fallback_id (nova regra RFC 4.8)
+        # PROTECAO: ID só deve existir se extraído de origem válida
+        # NÃO gerar identificador artificial em nenhuma hipótese
 
         $newBase = $nome
         if ($idioma) { $newBase += " $idioma" }
-        if ($id) { $newBase += " $id" }
+        if ($raw -match '^\d+$') {
+          $validIds += $raw
+        }
 
         $newName = "$newBase.$($exts -join '.')"
         $newName = Remove-InvalidFileNameChars $newName
@@ -1107,8 +1099,10 @@ function main {
           $fileSizeB = (Get-Item -LiteralPath $targetPath).Length
 
           if ($fileSizeA -ne $fileSizeB) {
-            # PROTECAO: tamanhos diferentes → não são duplicados → evita hash desnecessário
-            $newName = Get-UniqueFileName $file.DirectoryName $newName $file.FullName
+            # PROTECAO: tamanhos diferentes → não são duplicados → evita hash desnecessário            
+            Write-Host "⚠️ WARN :: NAME_COLLISION_NO_ID :: $newName" -ForegroundColor Yellow
+            $skipped++
+            return
           }
           else {
 
