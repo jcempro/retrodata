@@ -313,7 +313,7 @@ param(
 # ================================
 # CONFIG
 # ================================
-$validExt = @('.zip', '.7z', '.iso', '.gen', '.chd', '.z64', '.nes', '.sfc', '.smc', '.bin', '.cue')
+$validExt = @('.zip', '.7z', '.iso', '.gen', '.chd', '.z64', '.nes', '.sfc', '.smc', '.bin', '.cue', 'cp2', '.mvs')
 $specialJsonDirs = @('windows', 'steam')
 
 # ================================
@@ -760,10 +760,15 @@ function main {
 
   Get-ChildItem -Recurse -File | Where-Object {
 
+    $full = $_.FullName
+
     $isSpecial = $false
 
     foreach ($d in $specialJsonDirs) {
-      if ($_.FullName -match "\\$d\\") {
+      $specialRoot = Join-Path (Get-Location) $d
+
+      # PROTECAO: comparação determinística de path (evita falso positivo por substring)
+      if ($full.StartsWith($specialRoot, [System.StringComparison]::OrdinalIgnoreCase)) {
         $isSpecial = $true
         break
       }
