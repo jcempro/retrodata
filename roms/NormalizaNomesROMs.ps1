@@ -102,9 +102,13 @@
     3. PROCESSAMENTO DE ID (SCREENSCRAPER)
     ============================================================
 
-    3.1 Extração
-        - O script MUST extrair conteúdos entre colchetes "[]"
-        - Apenas valores numéricos são válidos
+    3.1 Extração                
+        - Prioridade 1: extrair do gamelist.xml presente no mesmo diretório
+          do elemento <game> cuja subtag <path> contenha valor igual path 
+          relativo igual ao arquivo ROM (case-sensitive); o `id` é obtido pelo
+          atributo `id` da tag pai <game>
+        - Priridade 2: o script MUST extrair conteúdos entre colchetes "[]" do filename.
+        - Apenas valores alphanuméricos são válidos
 
     3.2 Seleção
         - MUST selecionar o último ID válido encontrado
@@ -112,11 +116,13 @@
     3.3 Reconstrução
         - O ID MUST ser posicionado após o idioma (se existir)
         - MUST estar no formato "[12345]"
+        -
 
-    3.4 Restrições
-        - IDs não numéricos MUST ser descartados
+    3.4 Restrições        
         - Apenas UM ID MUST existir no resultado
         - Um ID válido MUST NOT ser perdido
+        - Case-sensitive original deve ser preservado , sem alteração
+          seja do filename para o .xmkm, seja do .xml para o filename
 
     ============================================================
     4. NORMALIZAÇÃO DO NOME BASE
