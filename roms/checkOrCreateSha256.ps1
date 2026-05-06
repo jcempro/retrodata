@@ -1,3 +1,6 @@
+﻿#!/usr/bin/env pwsh
+# encoding: utf-8
+
 <#
 DOCUMENTO NORMATIVO - RFC-003
 TÍTULO: Sistema de Verificação e Manutenção de Integridade SHA256

@@ -1,3 +1,6 @@
+﻿#!/usr/bin/env pwsh
+# encoding: utf-8
+
 <#
 .SYNOPSIS
     Normalizador determinístico de nomes de arquivos com suporte a idioma, ID ScreenScraper e extensões encadeadas.
