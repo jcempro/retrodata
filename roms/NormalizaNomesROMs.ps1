@@ -447,6 +447,12 @@ $ValidIdiomas = @(
   'BR', 'USA', 'US', 'EUR', 'EU', 'JP', 'JPN', 'JAPAN', 'EN', 'PT', 'ES', 'FR', 'DE', 'IT', 'BR-BR'
 )
 
+
+$blocked = @(
+  '.xml', '.json', '.ini', '.exe', '.sh', '.ps1', '.bat',
+  '.md5', '.mp3', '.png', '.jpg', '.jpeg', '.mp4', '.avi', '.mkv'
+)
+
 $IdiomaPriority = @('BR', 'PT', 'USA')
 
 # ================= CORE HELPERS =================
@@ -820,6 +826,16 @@ function main {
     }      
 
     Get-ChildItem -Recurse -File -ErrorAction SilentlyContinue | ForEach-Object {
+
+      # PROTECAO: exclusão de extensões proibidas (RFC cabeçalho)
+      $extLower = [IO.Path]::GetExtension($_.Name).ToLowerInvariant()
+
+      # .sha256 é tratado separadamente no pipeline → não deve entrar como ROM
+      if ($blocked -contains $extLower -or $extLower -eq '.sha256') {
+        Write-InlineLog "⏭️ SKIP :: BLOCKED_EXT :: $($_.Name)" DarkGray
+        $skipped++
+        return
+      }
 
       $total++
 
