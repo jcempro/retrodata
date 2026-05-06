@@ -7,11 +7,10 @@
     aplicando regras rígidas de normalização. O comportamento é idempotente, determinístico e resiliente
     a entradas inconsistentes.
    
-    Não são tratadas as extensões (.xml, .json, .ini, .exe, .sh, .ps1, .bat)
-    relacionadas a metadados, que devem ser gerenciadas por processos específicos,
-    e, exceto quanto a validação de .sha256,  também não são tratado os arquivos de 
-    mídia (.mp3, .png, .jpg, .jpeg, .mp4, .avi, .mkv).
-    
+    Exceto pelo processamento de criação/validação/atualização de hash, não são
+    processados os arquivos com extenções:
+      .xml, .json, .ini, .exe, .sh, .ps1, .bat. sha256, .md5
+      .mp3, .png, .jpg, .jpeg, .mp4, .avi, .mkv
 
     Objetivos:
         1. Garantir consistência estrutural e previsibilidade em coleções heterogêneas
@@ -977,8 +976,13 @@ function main {
           Write-InlineLog "⚠️ WARN :: XML_REF_SEM_ROM :: $searchName" Yellow -forceNewLine
         }
 
-        # EXTRAÇÃO ANTES DE QUALQUER MODIFICAÇÃO
+        # EXTRAÇÃO ANTES DE QUALQUER MODIFICAÇÃO        
         $idioma = Get-IdiomaSeguro $resolvedBase
+
+        # FIX-BUG: normalização obrigatória para uppercase (RFC 2.1)
+        if ($idioma) {
+          $idioma = "(" + $idioma.Trim('()').ToUpperInvariant() + ")"
+        }
 
         # FIX-BUG: garante que idioma válido nunca seja perdido
         if (-not $idioma) {
@@ -1010,7 +1014,7 @@ function main {
             }
 
             if (-not $idioma) {
-              $idioma = "($($tokens[0]))"
+              $idioma = "(" + $tokens[0].ToUpperInvariant() + ")"
             }
           }
         }
@@ -1215,10 +1219,12 @@ function main {
           )
 
           $oldHashFile = $hashCandidates | Where-Object { Test-Path -LiteralPath $_ } | Select-Object -First 1
+          # FIX-BUG: garante coerência com extensões encadeadas (ex: .chd, .zip, etc)
           $newHashFile = (Join-Path $file.DirectoryName $newName) + ".sha256"
-
-          # PROTECAO: .sha256 é derivado opcional; ausência não bloqueia rename
-          if ($oldHashFile) {
+          $newHashFile = $newHashFile -replace '\.\.', '.' # PROTECAO
+          
+          # PROTECAO: .sha256 é opcional e deve existir no momento da operação
+          if ($oldHashFile -and (Test-Path -LiteralPath $oldHashFile)) {
             try {
               Rename-Item -LiteralPath $oldHashFile -NewName (Split-Path $newHashFile -Leaf) -ErrorAction Stop
 
