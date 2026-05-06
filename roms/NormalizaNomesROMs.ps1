@@ -115,8 +115,7 @@
 
     3.3 Reconstrução
         - O ID MUST ser posicionado após o idioma (se existir)
-        - MUST estar no formato "[12345]"
-        -
+        - MUST estar no formato "[12345]"        
 
     3.4 Restrições        
         - Apenas UM ID MUST existir no resultado
