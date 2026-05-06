@@ -14,9 +14,11 @@
         1. Garantir consistência estrutural e previsibilidade em coleções heterogêneas
         2. Impedir a coexistência de múltiplos arquivos com o mesmo SHA256 no mesmo diretório,
            independentemente do nome
+        3. Sincronizar bidirecionalmente nomes de ROMs com gamelist.xml quando presente
+        4. Garantir coerência de metadados e tradução segura para pt-BR
 
 .RFC
-    Especificação de Normalização de Nomes de Arquivos (versão 1.0)
+    Especificação de Normalização de Nomes de Arquivos (versão 2.0)
 
     IMPORTANTE:
         - Nomes case-sensitive MUST ser tratados de forma consistente, incluindo referências em arquivos
@@ -24,53 +26,32 @@
         - O script MUST ser seguro para múltiplas execuções sem gerar renomeações adicionais
         - Casos de colisão e arquivos de hash são tratados de forma determinística
 
- Deduplicação por hash:
-        - O SHA256 MUST ser o único fator decisório para igualdade de conteúdo
-        - Se múltiplos arquivos possuírem o mesmo SHA256:
-            * EXACTAMENTE UM arquivo MUST ser preservado
-            * Os demais arquivos MUST ser removidos
-        - O arquivo preservado MUST ser aquele com nome mais próximo do formato canônico
+    ============================================================
+    0. ESCOPO E SINCRONIA COM GAMELIST.XML
+    ============================================================
 
-        Critério de seleção (determinístico):
-            - A escolha do arquivo a ser preservado MUST ser determinística
-            - O critério MUST considerar:
-                1. Nome já normalizado (preferencial)
-                2. Menor distância para o nome canônico esperado
-                3. Em caso de empate, ordenação lexicográfica estável (ordinal)
+    0.1 Detecção
+        - O script MUST detectar se o diretório contém 'gamelist.xml'
+        - O gamelist.xml DEVE estar imediatamente no root de qualquer subpasta de ROMs
+          (ex.: roms/snes/gamelist.xml, NÃO roms/snes/collection/gamelist.xml)
+        - O script NÃO DEVE processar múltiplos níveis de subpastas para encontrar gamelist.xml
 
-        Fail-safe:
-            - O sistema MUST garantir que ao menos um arquivo seja preservado
-            - Em nenhuma circunstância todos os arquivos equivalentes podem ser removidos
-            - Em caso de erro durante remoção, o processo MUST abortar a operação de deduplicação
-              daquele conjunto antes de violar essa garantia
+    0.2 Correlação
+        - O script DEVE verificar se cada arquivo ROM está correlacionado na tag <path> da sub tag <game>
+        - A operação DEVE ocorrer APENAS sobre ROMs referenciadas por <path> e seus metadados
+        - O script DEVE garantir compatibilidade total com batocera
 
-        Restrições:
-            - Criação de cópias de backup de arquivos duplicados MUST NOT ocorrer
-            - Renomeação para sufixos artificiais (ex: "__dup") MUST NOT ser utilizada
+    0.3 Sincronia bidirecional
+        - O nome físico DEVE corresponder ao conteúdo de <path>
+        - Renomeações DEVEM atualizar o XML imediatamente
+        - O script MUST ser capaz de sincronizar tanto de ROM → XML quanto de XML → ROM
+        - Zero efeitos colaterais não intencionais inferidos bidirecionalmente DEVEM ser garantidos
 
-        Arquivos de hash (.sha256):
-            - Arquivos ".sha256" MUST ser considerados derivados
-            - Se o arquivo alvo for removido, seus hashes associados MUST ser removidos
-            - Hashes órfãos MUST NOT ser preservados
-
-    Otimização de desempenho (não decisória):
-        - O processo de comparação MAY utilizar heurísticas para redução de custo computacional, incluindo:
-            * Comparação prévia por tamanho de arquivo (short-circuit)
-            * Cache em memória de hashes SHA256 já calculados
-            * Reutilização de resultados dentro do mesmo ciclo de execução
-        - O cache de hashes MUST ser consistente durante toda a execução
-        - Essas heurísticas MUST NOT influenciar a decisão final de igualdade
-        - Metadados (timestamp, atributos, etc.) SHOULD NOT ser utilizados como critério de comparação,
-          por não serem fontes confiáveis de equivalência
-
-    Escopo de iteração:
-        - A iteração MUST ocorrer por diretório
-        - O arquivo gamelist.xml MAY ser utilizado como referência auxiliar
-
-    Terminologia normativa conforme RFC 2119:
-        MUST, MUST NOT, REQUIRED → obrigatório
-        SHOULD → recomendado
-        MAY → opcional            
+    0.4 Direcionalidade da sincronia
+          - Modo PRIMARY: ROM → XML (renomeia ROM, atualiza <path> no XML)
+          - Modo SECONDARY: XML → ROM (APENAS se ROM referenciada não existir)
+          - O script NÃO DEVE criar ROMs inexistentes a partir do XML
+          - Se ROM ausente e referenciada no XML: LOG como WARN, pular operação                
 
     ============================================================
     1. ESTRUTURA CANÔNICA DO NOME
@@ -93,10 +74,11 @@
         - O script MUST extrair TODOS os conteúdos entre parênteses "()"
         - Conteúdos compostos MAY conter separadores: "/", ",", ";", "-"
         - Tokens MUST ser normalizados (trim + uppercase)
-
-    2.2 Validação
-        - Apenas idiomas presentes na whitelist são válidos
-        - Tokens inválidos MUST ser descartados
+   
+   2.2 Validação e whitelist
+        - Whitelist de idiomas válidos: BR, PT, USA, JP, EU, ES, FR, DE, IT
+        - Tokens fora da whitelist NÃO SÃO idiomas
+        - Apenas tokens na whitelist são elegíveis para seleção        
 
     2.3 Seleção
         - MUST selecionar apenas UM idioma final
@@ -155,6 +137,33 @@
         - Tokens válidos MUST ser convertidos para UPPERCASE
         - Tokens inválidos MUST NOT ser alterados
 
+    4.5 Regras adicionais para basename
+        - MUST capitalizar basename preservando extensão
+        - MUST impor consistência de case
+        - Numeração romana (II, IV, etc.) DEVEM ser totalmente maiúsculas
+
+    4.6 Parênteses (regra de decisão)
+        - O script DEVE primeiro extrair possíveis idiomas (Seção 2.1)
+        - Conteúdos entre parênteses QUE NÃO SEJAM idiomas válidos:
+            * Tags técnicas como "Beta", "Rev", "Build", "Proto", "Demo", "Sample"
+            * Números isolados como "(1)", "(2)"
+            * Versões como "(v1.0)", "(T-101)"
+        - DEVEM ser removidos COMPLETAMENTE, incluindo os parênteses e espaço precedente
+        - CONTEÚDOS QUE SÃO localidades válidas (BR, PT, USA, etc.) 
+            * DEVEM ser preservados conforme seção 2.4
+        - Formas compostas como "(BR-XX)" DEVEM ser preservadas integralmente
+
+    4.7 Sufixo de identificação
+        - MUST sufixar " [id]" (sanitizado) antes da extensão usando <game id>
+        - A unicidade do nome DEVE ser garantida via [id]
+
+    4.8 Garantia de unicidade (cadeia de fallback)
+        - PRIORIDADE 1: [id] do ScreenScraper (Seção 3)
+        - PRIORIDADE 2: Se [id] ausente ou colidir, o script DEVE gerar [fallback_id]
+        - [fallback_id] DEVE ser um hash curto (8 primeiros chars do SHA256 do conteúdo)
+        - Garantia: TODO nome final DEVE conter um identificador único entre colchetes
+        - O processo de fallback NÃO DEVE violar idempotência        
+
     ============================================================
     5. EXTENSÕES DE ARQUIVO
     ============================================================
@@ -185,53 +194,147 @@
         + " [ID]" (se existir)
         + "." + extensões encadeadas
 
+    6.1 Definição da tag <lang>
+        - Se o nome normalizado contiver "(BR)" ou "(BR-*)", <lang> DEVE ser 'PT-BR'
+        - Se o nome contiver "(PT)", <lang> DEVE ser 'PT-PT' (prioridade menor que BR)
+        - Para outros idiomas válidos, <lang> DEVE seguir ISO 639-1
+        - A tag DEVE ser inserida/atualizada no nó <game> correspondente no gamelist.xml        
+
     ============================================================
-    7. SEGURANÇA E INTEGRIDADE
+    7. TRADUÇÃO (<desc> → pt-BR)
     ============================================================
 
-    7.1 Idempotência
+    7.1 Fonte de tradução
+        - DEVE traduzir via API REST pública com controle de rate limit
+        - MUST implementar cache para evitar requisições duplicadas
+
+    7.2 Detecção de pt-BR pré-existente
+        - O script DEVE detectar conteúdo já em pt-BR
+        - Quando aplicável, DEVE pular tradução
+
+    7.3 Qualidade da tradução
+        - Se saída == entrada após tentativas, MUST manter original
+        - Se saída for sem sentido (nomes técnicos), MUST manter original
+
+    7.4 Processamento em lote
+        - DEVE enviar pequenos lotes (ex.: 5) com delimitadores rastreáveis
+        - Mesmo quando mal traduzidas, DEVE manter separação clara entre entradas individuais
+        - MUST preservar contexto original
+
+    7.5 Backoff
+        - MUST implementar backoff exponencial com limite de tentativas
+        - DEVE ser resiliente a falhas de rede
+
+    ============================================================
+    8. HASH E INTEGRIDADE
+    ============================================================
+
+    8.1 Arquivos .sha256
+        - Se existir *.sha256, DEVE ser renomeado para casar com a ROM (case-sensitive)
+        - O basename dentro do .sha256 DEVE ser atualizado para refletir o novo nome da ROM
+        - Arquivos .sha256 MUST ser considerados derivados
+        - Se o arquivo alvo for removido, seus hashes associados MUST ser removidos
+        - Hashes órfãos MUST NOT ser preservados
+
+    ============================================================
+    9. DEDUPLICAÇÃO POR HASH
+    ============================================================
+
+    9.1 Critério primário
+        - O SHA256 MUST ser o único fator decisório para igualdade de conteúdo
+        - Se múltiplos arquivos possuírem o mesmo SHA256:
+            * EXACTAMENTE UM arquivo MUST ser preservado
+            * Os demais arquivos MUST ser removidos
+        - O arquivo preservado MUST ser aquele com nome mais próximo do formato canônico
+
+    9.2 Critério de seleção (determinístico)
+        - A escolha do arquivo a ser preservado MUST ser determinística
+        - O critério MUST considerar:
+            1. Nome já normalizado (preferencial)
+            2. Menor distância para o nome canônico esperado
+            3. Em caso de empate, ordenação lexicográfica estável (ordinal)
+
+    9.3 Fail-safe
+        - O sistema MUST garantir que ao menos um arquivo seja preservado
+        - Em nenhuma circunstância todos os arquivos equivalentes podem ser removidos
+        - Em caso de erro durante remoção, o processo MUST abortar a operação de deduplicação
+          daquele conjunto antes de violar essa garantia
+
+    9.4 Restrições
+        - Criação de cópias de backup de arquivos duplicados MUST NOT ocorrer
+        - Renomeação para sufixos artificiais (ex: "__dup") MUST NOT ser utilizada
+
+    ============================================================
+    10. OTIMIZAÇÃO DE DESEMPENHO
+    ============================================================
+
+    - O processo de comparação MAY utilizar heurísticas para redução de custo computacional, incluindo:
+        * Comparação prévia por tamanho de arquivo (short-circuit)
+        * Cache em memória de hashes SHA256 já calculados
+        * Reutilização de resultados dentro do mesmo ciclo de execução
+    - O cache de hashes MUST ser consistente durante toda a execução
+    - Essas heurísticas MUST NOT influenciar a decisão final de igualdade
+    - Metadados (timestamp, atributos, etc.) SHOULD NOT ser utilizados como critério de comparação,
+      por não serem fontes confiáveis de equivalência
+
+    ============================================================
+    11. SEGURANÇA E INTEGRIDADE
+    ============================================================
+
+    11.1 Idempotência
         - O script MUST NOT renomear arquivos já normalizados
         - O processo de deduplicação MUST ser idempotente após convergência
+        - Reexecução NÃO DEVE produzir deriva
 
-    7.2 Sistema de arquivos
+    11.2 Sistema de arquivos
         - Caracteres inválidos MUST ser removidos
         - Nomes MUST NOT terminar com espaço ou ponto
+        - MUST proteger contra caracteres inválidos, nomes reservados, ROM ausente
 
-    7.3 Colisão
+    11.3 Colisão
         - Em caso de conflito, o script MUST gerar nome único
         - O processo MUST evitar loops infinitos
 
-    7.4 Robustez
+    11.4 Robustez
         - O script MUST continuar execução mesmo após falhas
         - Erros MUST ser reportados no console
+        - 'catch' vazio é PROIBIDO. Toda falha DEVE ser tratada/reportada
+
+    11.5 Validação
+        - Pré-checagem DEVE verificar integridade (entry 'main', delimitadores)
+        - MUST preservar encoding e estrutura do XML (zero mutações indevidas)
+        - Blocos anti-bug DEVEM conter "// PROTECAO: <descrição>"
 
     ============================================================
-    8. LIMITAÇÕES
+    12. GARANTIAS
     ============================================================
 
-        - NÃO valida nomes contra bases externas (ex: No-Intro)
-        - NÃO corrige semanticamente nomes incorretos
-        - NÃO garante correspondência com nomes oficiais
+    - Idiomas válidos nunca serão perdidos
+    - IDs válidos nunca serão perdidos
+    - A estrutura final será sempre consistente
+    - Execução determinística e reproduzível
+    - Deduplicação segura sem risco de perda total de dados
+    - Preservação de diretórios e paths relativos
+    - Imposição de unicidade efetiva sensível a maiúsc./minúsc. (evitar colisões)
 
     ============================================================
-    9. GARANTIAS
+    13. LIMITAÇÕES
     ============================================================
 
-        - Idiomas válidos nunca serão perdidos
-        - IDs válidos nunca serão perdidos
-        - A estrutura final será sempre consistente
-        - Execução determinística e reproduzível
-        - Deduplicação segura sem risco de perda total de dados
+    - NÃO valida nomes contra bases externas (ex: No-Intro)
+    - NÃO corrige semanticamente nomes incorretos
+    - NÃO garante correspondência com nomes oficiais
+    - NÃO processa gamelist.xml em subdiretórios aninhados
 
     ============================================================
-    10. LOG
+    14. LOG
     ============================================================
 
     Diretrizes:
         - O log MUST indicar a ação tomada
         - MUST incluir o caminho do arquivo (preferencialmente relativo)
         - SHOULD utilizar reescrita inline e, new line apenas quando apropriado, 
-          preservando histórico legível e sem fllooding de mensagens
+          preservando histórico legível e sem flooding de mensagens
         - MUST evitar poluição visual mantendo rastreabilidade
         - MUST ser legível por máquina
         - SHOULD utilizar cores e destaques para status
@@ -250,6 +353,8 @@
         - SKIP          : ⏭️
         - FIX           : 🛠️
         - FIXED         : ✅
+        - TRANSLATE     : 🌐
+        - SYNC-XML      : 📄➡️💿
 
 [REGRAS DE CONTEXTO GLOBAL]
 
@@ -275,15 +380,18 @@
   - SINCRO: Execução 100% síncrona, bloqueante e sequencial:        
   - ESTADO: Barreira de consistência (DISM/CBS) para operações de sistema.
   - NATIVO: Uso estrito de comandos nativos do OS, salvo exceção declarada.
+  - CÓDIGO: Implementado em microfunções reutilizáveis, evitando reimplementar funcionalidade
 
   [DIRETRIZES DE IMPLEMENTAÇÃO]
   - IDEMPOTÊNCIA: Seguro para múltiplas execuções no mesmo ambiente.
-  - HEADLESS: Operação plena sem interface gráfica ou interação de usuário.  
+  - HEADLESS: Operação plena sem interface gráfica ou interação de usuário.
+  - CIRURGIA: Minimizar diffs; sem refatoração estética; preservar comentários/indent.
+  - DETERMINISMO: Linguagem declarativa; regras testáveis.
 
   [RESTRIÇÕES / VEDAÇÕES]
   - Não prosseguir com sistema em estado inconsistente ou pendente.
   - Não assumir conectividade de rede (Offline-First por padrão)
-    configurável para Online-FIRST.
+    configurável para Online-First.
   - Não depender de módulos externos ou bibliotecas não nativas.
   - Não executar etapas sem validação de sucesso posterior.
 
@@ -291,16 +399,33 @@
   1. Inicialização segura (ExecutionPolicy, TLS, Context Check).
   2. Garantia de instância única (Global Mutex).
   3. Validação de pré-requisitos e pilha de manutenção do SO.
-  4. Orquestração modular com validação individual de cada micro-função.
-  5. Finalização auditável com log rastreável e saída determinística.
+  4. Detecção e validação de gamelist.xml.
+  5. Orquestração modular com validação individual de cada micro-função.
+  6. Finalização auditável com log rastreável e saída determinística.
 
   [INVOCAÇÃO]
   O script sempre auto identifica se foi importado ou executado:
   1. Se executado diretamente executa função main repassando parâmetros 
       recebidos por linha de comando ou variáveis de ambiente.
   2. Se importado expõe as funções públicas para serem chamadas por outros
-      scripts sem executar nada        
-#>
+      scripts sem executar nada
+        
+  [CONTRATO DE I/O]
+  Entrada: Árvore com 'gamelist.xml' e ROMs.
+  Saída:   Arquivos renomeados, XML sincronizado, <desc> em pt-BR,
+           hashes consistentes e nomes sem colisão.
+
+  [CHECKLIST DE CONFORMIDADE (MUST)]
+  - Todos os <path> correspondem aos arquivos reais.
+  - Nomes contêm " [id]" e são únicos.
+  - Regras de parênteses aplicadas; localidades preservadas.
+  - <lang>='pt-br' quando (BR)/(BR-*) presente.
+  - .sha256 (se houver) alinhado à ROM (case sensitive).
+  - Sem falhas silenciosas; erros logados em tela/reportados.
+  - Encoding/estrutura do XML inalterados fora do escopo.
+  - Script deve ser idempotente, fail-safe e auditável.
+  - Tradução controlada: detecta pt-BR, backoff, cache, mantém original se falha.
+#> 
 
 [CmdletBinding(SupportsShouldProcess = $true)]
 param()
