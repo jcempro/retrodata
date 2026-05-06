@@ -116,6 +116,7 @@ DIRETRIZES OBRIGATÓRIAS:
       - CHANGE-NAME   : 🔤
       - HASHING       : 🧮
       - FIX:          : 🛠️
+      - REMOVE-FILE   : 🗑️ (em cor vermelho, se possível)
 
    PROTEÇÃO: Falha no log NUNCA interrompe a execução             
 
@@ -407,7 +408,7 @@ function Write-Log {
 # ================================
 function Get-HashSafe {
   param([string]$Path)
-  Write-LogInline "HASHING" (Get-RelativePathSafe $Path) # PROTECAO: visibilidade
+  Write-LogInline "🧮 HASHING" (Get-RelativePathSafe $Path) # FIX-BUG: padronização RFC
   try {
     return (Get-FileHash -LiteralPath $Path -Algorithm SHA256 -ErrorAction Stop).Hash
   }
@@ -655,7 +656,7 @@ function main {
         }
         else {
           Remove-Item -LiteralPath $shaPath -Force
-          Write-Log "FIX" "sha256 órfão removido" $relPath
+          Write-Host "🗑️ REMOVE-FILE: '$relPath'" -ForegroundColor Red # FIX-BUG: aderência RFC
         }
       }
       else {
@@ -665,7 +666,7 @@ function main {
     catch {
       if (-not $VerifyOnly) {
         Remove-Item -LiteralPath $shaPath -Force
-        Write-Log "FIX" "sha256 inválido removido" $relPath
+        Write-Host "🗑️ REMOVE-FILE: '$relPath'" -ForegroundColor Red # FIX-BUG: aderência RFC
       }
       else {
         Write-Log "WARN" "sha256 inválido detectado (não removido)" $relPath
@@ -854,6 +855,7 @@ function main {
       foreach ($file in $toRemove) {
 
         $rel = Get-RelativePathSafe $file
+        $shaPath = "$file.sha256"
 
         if ($VerifyOnly) {
           Write-Log "WARN" "duplicado por hash detectado (não removido)" $rel @{ hash = $hash }
@@ -861,8 +863,16 @@ function main {
         }
 
         try {
+          # REMOVE arquivo principal
           Remove-Item -LiteralPath $file -Force -ErrorAction Stop
-          Write-Log "FIX" "arquivo duplicado removido (hash)" $rel @{ hash = $hash }
+
+          # REMOVE sha256 associado se existir
+          if (Test-Path $shaPath) {
+            Remove-Item -LiteralPath $shaPath -Force -ErrorAction Stop
+            Write-Host "🗑️ REMOVE-FILE (SHA256): '$rel.sha256'" -ForegroundColor Red # FIX-BUG: remoção vinculada
+          }
+
+          Write-Host "🗑️ REMOVE-FILE: '$rel'" -ForegroundColor Red # FIX-BUG: aderência RFC log
         }
         catch {
           Write-Log "ERROR" "falha ao remover duplicado → $($_.Exception.Message)" $rel
