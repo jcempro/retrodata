@@ -648,30 +648,122 @@ function Remove-InvalidFileNameChars {
     $name = $name -replace [regex]::Escape($c), ''
   }
 
-  return $name.TrimEnd(' ', '.')
+  $name = $name.TrimEnd(' ', '.')
+
+  # PROTECAO: nomes reservados Windows (RFC 11.2)
+  $base = [IO.Path]::GetFileNameWithoutExtension($name)
+  $ext = [IO.Path]::GetExtension($name)
+
+  $reserved = @(
+    'CON', 'PRN', 'AUX', 'NUL',
+    'COM1', 'COM2', 'COM3', 'COM4', 'COM5', 'COM6', 'COM7', 'COM8', 'COM9',
+    'LPT1', 'LPT2', 'LPT3', 'LPT4', 'LPT5', 'LPT6', 'LPT7', 'LPT8', 'LPT9'
+  )
+
+  if ($reserved -contains $base.ToUpperInvariant()) {
+    $base = "_$base" # PROTECAO
+  }
+
+  if (-not $base) {
+    $base = "file" # PROTECAO: evita nome vazio
+  }
+
+  return "$base$ext"
 }
 
 function Get-UniqueFileName {
-  param($dir, $name)
+  param($dir, $name, $fileFullPath)
+
+  # PROTECAO: unicidade deve ser garantida exclusivamente via ID/hash (RFC 4.8)
+  if (-not (Test-Path -LiteralPath (Join-Path $dir $name))) {
+    return $name
+  }
+
+  try {
+    $hash = Get-FileHash -LiteralPath $fileFullPath -Algorithm SHA256 -ErrorAction Stop
+    $fallback = $hash.Hash.Substring(0, 8)
+  }
+  catch {
+    # PROTECAO: fallback determinístico mínimo
+    $fallback = [Math]::Abs($fileFullPath.GetHashCode()).ToString("X8").Substring(0, 8)
+  }
 
   $base = [IO.Path]::GetFileNameWithoutExtension($name)
   $ext = [IO.Path]::GetExtension($name)
 
-  $i = 1
-  $candidate = $name
+  # FIX-BUG: substitui/força ID no nome ao invés de sufixo incremental
+  $base = $base -replace '\s\[[^\]]+\]$', ''
+  $candidate = "$base [$fallback]$ext"
 
-  while (Test-Path -LiteralPath (Join-Path $dir $candidate)) {
-
-    # FIX-BUG: evita sufixo proibido "__dup" e mantém determinismo
-    $candidate = "{0} ({1}){2}" -f $base, $i, $ext
-    $i++
-
-    if ($i -gt 9999) {
-      throw "Colisão infinita detectada para: $name" # FIX-BUG: adiciona contexto para diagnóstico
-    }
+  if (Test-Path -LiteralPath (Join-Path $dir $candidate)) {
+    throw "Colisão determinística não resolvível para: $candidate" # PROTECAO
   }
 
   return $candidate
+}
+
+# ================= TRANSLATION ENGINE =================
+
+$script:__translateCache = @{}
+
+function Test-Portuguese {
+  param([string]$text)
+
+  if (-not $text) { return $false }
+
+  $score = 0
+  if ($text -match '\b(de|da|do|para|com|uma|não|que|em)\b') { $score++ }
+  if ($text -match '[ãõçáéíóú]') { $score++ }
+
+  return ($score -ge 2) # PROTECAO
+}
+
+function Invoke-TranslateBatch {
+  param([string[]]$texts)
+
+  if (-not $texts -or $texts.Count -eq 0) { return @() }
+
+  $results = @()
+  $batchSize = 5
+  $delimiter = "|||SEP|||"
+
+  for ($i = 0; $i -lt $texts.Count; $i += $batchSize) {
+
+    $batch = $texts[$i..([math]::Min($i + $batchSize - 1, $texts.Count - 1))]
+
+    $joined = ($batch -join " $delimiter ")
+
+    for ($retry = 0; $retry -lt 3; $retry++) {
+      try {
+
+        $uri = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=pt&dt=t&q=$([uri]::EscapeDataString($joined))"
+        $res = Invoke-RestMethod -Uri $uri -Method Get -TimeoutSec 10
+
+        $translatedRaw = ($res[0] | ForEach-Object { $_[0] }) -join ''
+        $split = $translatedRaw -split [regex]::Escape($delimiter)
+
+        for ($j = 0; $j -lt $batch.Count; $j++) {
+
+          $original = $batch[$j]
+          $translated = if ($j -lt $split.Count) { $split[$j].Trim() } else { $original }
+
+          if (-not $translated -or $translated -eq $original) {
+            $translated = $original # PROTECAO
+          }
+
+          $results += $translated
+        }
+
+        Start-Sleep -Milliseconds 200
+        break
+      }
+      catch {
+        Start-Sleep -Seconds (2 * ($retry + 1)) # PROTECAO
+      }
+    }
+  }
+
+  return $results
 }
 
 # PROTECAO: controle global de flooding e cache
@@ -713,403 +805,461 @@ function Write-InlineLog {
 function main {
   param()
 
-  [int]$total = 0; [int]$renamed = 0; [int]$skipped = 0; [int]$errors = 0
+  # PROTECAO: mutex global para evitar concorrência (RFC ARQUITETURA)
+  $mutex = New-Object System.Threading.Mutex($false, "Global\ROM_Normalizer_Mutex")
+  $lockAcquired = $false
 
-  Get-ChildItem -Recurse -File -ErrorAction SilentlyContinue | ForEach-Object {
+  try {
+    $lockAcquired = $mutex.WaitOne(0)
 
-    $total++
+    if (-not $lockAcquired) {
+      Write-Host "❌ ERROR :: Outra instância em execução" -ForegroundColor Red
+      return
+    }
 
-    try {
-      $file = $_
+    [int]$total = 0; [int]$renamed = 0; [int]$skipped = 0; [int]$errors = 0
 
-      $parsed = Extract-Extensions $file.Name
-      if (-not $parsed) {
-        Write-InlineLog "⏭️ SKIP :: $($file.Name)" DarkGray
-        $skipped++; return 
-      }
+    # PROTECAO: valida estrutura mínima Batocera
+    $valid = Get-ChildItem -Directory | Where-Object {
+      Test-Path (Join-Path $_.FullName "gamelist.xml")
+    }
 
-      $rawBase = $parsed.Base
-      $exts = $parsed.Extensions
+    if (-not $valid) {
+      Write-Host "❌ ERROR :: Estrutura inválida - gamelist.xml ausente" -ForegroundColor Red
+      return
+    }      
 
-      # PROTECAO: tenta resolver nome completo via mapa externo (ex: gamelist.xml exportado)
-      $mapPath = Join-Path $file.DirectoryName "gamelist.json"
-      $xmlPath = Join-Path $file.DirectoryName "gamelist.xml" # PROTECAO: fallback XML
-      $resolvedBase = $rawBase
-      $mapLangRaw = $null
+    Get-ChildItem -Recurse -File -ErrorAction SilentlyContinue | ForEach-Object {
 
-      if (Test-Path $mapPath) {
-        try {
-          $map = Get-Content $mapPath -Raw | ConvertFrom-Json
+      $total++
 
-          $key = $rawBase.ToLowerInvariant()
+      try {
+        $file = $_
 
-          if ($map.ContainsKey($key)) {
+        $parsed = Extract-Extensions $file.Name
+        if (-not $parsed) {
+          Write-InlineLog "⏭️ SKIP :: $($file.Name)" DarkGray
+          $skipped++; return 
+        }
 
-            $entry = $map[$key]
+        $rawBase = $parsed.Base
+        $exts = $parsed.Extensions
 
-            if ($entry -is [string]) {
-              $resolvedBase = $entry
-            }
-            elseif ($entry.name) {
-              $resolvedBase = $entry.name
-            }
+        # PROTECAO: tenta resolver nome completo via mapa externo (ex: gamelist.xml exportado)
+        $mapPath = Join-Path $file.DirectoryName "gamelist.json"
+        $xmlPath = Join-Path $file.DirectoryName "gamelist.xml" # PROTECAO: fallback XML
+        $resolvedBase = $rawBase
+        $mapLangRaw = $null
 
-            if ($entry.lang) {
-              $mapLangRaw = $entry.lang
+        if (Test-Path $mapPath) {
+          try {
+            $map = Get-Content $mapPath -Raw | ConvertFrom-Json
+
+            $key = $rawBase.ToLowerInvariant()
+
+            if ($map.ContainsKey($key)) {
+
+              $entry = $map[$key]
+
+              if ($entry -is [string]) {
+                $resolvedBase = $entry
+              }
+              elseif ($entry.name) {
+                $resolvedBase = $entry.name
+              }
+
+              if ($entry.lang) {
+                $mapLangRaw = $entry.lang
+              }
             }
           }
-        }
-        catch {
-          Write-Host "❌ 📄 MAP_LOAD :: $($_.Exception.Message)" -ForegroundColor Red
-        }
-      }
-      elseif (Test-Path $xmlPath) {
-        try {
-          # FIX-BUG: suporte direto a gamelist.xml quando JSON inexistente
-          [xml]$xml = Get-Content $xmlPath -Raw
-
-          # FIX-BUG: escape seguro de string para XPath (suporta aspas simples)
-          function ConvertTo-XPathLiteral {
-            param([string]$value)
-
-            if ($value -notmatch "'") {
-              return "'$value'"
-            }
-
-            if ($value -notmatch '"') {
-              return '"' + $value + '"'
-            }
-
-            # fallback: concatenação segura
-            $parts = $value -split "'"
-            $xpath = "concat("
-
-            for ($i = 0; $i -lt $parts.Count; $i++) {
-              if ($i -gt 0) {
-                $xpath += ", ""'"", "
-              }
-              $xpath += "'" + $parts[$i] + "'"
-            }
-
-            $xpath += ")"
-            return $xpath
+          catch {
+            Write-Host "❌ 📄 MAP_LOAD :: $($_.Exception.Message)" -ForegroundColor Red
           }
+        }
+        elseif (Test-Path $xmlPath) {
+          try {
+            # FIX-BUG: suporte direto a gamelist.xml quando JSON inexistente
+            [xml]$xml = Get-Content $xmlPath -Raw
 
-          # PROTECAO: normaliza para comparação case-insensitive
-          $searchName = $file.Name.ToLowerInvariant()
-          $escaped = ConvertTo-XPathLiteral $searchName
+            # FIX-BUG: escape seguro de string para XPath (suporta aspas simples)
+            function ConvertTo-XPathLiteral {
+              param([string]$value)
 
-          $node = $xml.SelectSingleNode("//game[translate(path, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = $escaped]")
-
-          if ($node) {
-            # FIX-BUG: atualização obrigatória da tag <lang>
-            if ($idioma) {
-
-              $langValue = $null
-
-              if ($idioma -match '\(BR') {
-                $langValue = 'pt-br'
+              if ($value -notmatch "'") {
+                return "'$value'"
               }
-              elseif ($idioma -eq '(PT)') {
-                $langValue = 'pt-pt'
+
+              if ($value -notmatch '"') {
+                return '"' + $value + '"'
               }
-              else {
-                $langValue = $idioma.Trim('()').ToLowerInvariant()
+
+              # fallback: concatenação segura
+              $parts = $value -split "'"
+              $xpath = "concat("
+
+              for ($i = 0; $i -lt $parts.Count; $i++) {
+                if ($i -gt 0) {
+                  $xpath += ", ""'"", "
+                }
+                $xpath += "'" + $parts[$i] + "'"
+              }
+
+              $xpath += ")"
+              return $xpath
+            }
+          
+            # FIX-BUG: usa path relativo padrão "./"
+            $searchName = ("./" + $file.Name).ToLowerInvariant()
+            $escaped = ConvertTo-XPathLiteral $searchName
+
+            $node = $xml.SelectSingleNode("//game[translate(path, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = $escaped]")
+
+            if ($node) {
+              # ================= TRADUÇÃO <desc> =================
+
+              $descNode = $node.SelectSingleNode("desc")
+
+              if ($descNode -and $descNode.InnerText -and -not (Test-Portuguese $descNode.InnerText)) {
+
+                $original = $descNode.InnerText
+                $key = $original.ToLowerInvariant()
+
+                if (-not $script:__translateCache.ContainsKey($key)) {
+
+                  $translated = Invoke-TranslateBatch @($original)
+
+                  if ($translated.Count -gt 0) {
+                    $script:__translateCache[$key] = $translated[0]
+                  }
+                  else {
+                    $script:__translateCache[$key] = $original # PROTECAO
+                  }
+                }
+
+                $descNode.InnerText = $script:__translateCache[$key]
+              }
+
+              # FIX-BUG: atualização obrigatória da tag <lang>
+              if ($idioma) {
+
+                $langValue = $null
+
+                if ($idioma -match '\(BR') {
+                  $langValue = 'pt-br'
+                }
+                elseif ($idioma -eq '(PT)') {
+                  $langValue = 'pt-pt'
+                }
+                else {
+                  $langValue = $idioma.Trim('()').ToLowerInvariant()
+                }
+
+                if ($node.lang) {
+                  $node.lang = $langValue
+                }
+                else {
+                  $newLang = $xml.CreateElement("lang")
+                  $newLang.InnerText = $langValue
+                  $node.AppendChild($newLang) | Out-Null
+                }
+
+                $xml.Save($xmlPath)
+              }            
+
+              if ($node.name) {
+                $resolvedBase = $node.name
               }
 
               if ($node.lang) {
-                $node.lang = $langValue
+                $mapLangRaw = $node.lang.InnerText
               }
-              else {
-                $newLang = $xml.CreateElement("lang")
-                $newLang.InnerText = $langValue
-                $node.AppendChild($newLang) | Out-Null
+            }
+          }
+          catch {
+            Write-Host "❌ 📄 XML_LOAD :: $($_.Exception.Message)" -ForegroundColor Red
+          }
+        }
+        else {
+          # PROTECAO: ROM ausente referenciada no XML
+          Write-InlineLog "⚠️ WARN :: XML_REF_SEM_ROM :: $searchName" Yellow -forceNewLine
+        }
+
+        # EXTRAÇÃO ANTES DE QUALQUER MODIFICAÇÃO
+        $idioma = Get-IdiomaSeguro $resolvedBase
+
+        # FIX-BUG: garante que idioma válido nunca seja perdido
+        if (-not $idioma) {
+          $fallbackIdioma = Get-IdiomaSeguro $rawBase
+          if ($fallbackIdioma) {
+            $idioma = $fallbackIdioma # PROTECAO: fallback obrigatório
+          }
+        }
+
+        # FIX-BUG: fallback para idioma vindo do mapa quando ausente no nome
+        if (-not $idioma -and $mapLangRaw) {
+
+          $tokens = @()
+
+          foreach ($part in ($mapLangRaw -split '[/,;\-]')) {
+            $val = $part.Trim().ToUpperInvariant()
+            if ($val -and ($ValidIdiomas -contains $val)) {
+              $tokens += $val
+            }
+          }
+
+          if ($tokens.Count -gt 0) {
+
+            foreach ($p in $IdiomaPriority) {
+              if ($tokens -contains $p) {
+                $idioma = "($p)"
+                break
               }
-
-              $xml.Save($xmlPath)
-            }            
-
-            if ($node.name) {
-              $resolvedBase = $node.name
             }
 
-            if ($node.lang) {
-              $mapLangRaw = $node.lang.InnerText
+            if (-not $idioma) {
+              $idioma = "($($tokens[0]))"
             }
           }
         }
-        catch {
-          Write-Host "❌ 📄 XML_LOAD :: $($_.Exception.Message)" -ForegroundColor Red
-        }
-      }
 
-      # EXTRAÇÃO ANTES DE QUALQUER MODIFICAÇÃO
-      $idioma = Get-IdiomaSeguro $resolvedBase
+        $id = Get-IdSeguro $resolvedBase
 
-      # FIX-BUG: garante que idioma válido nunca seja perdido
-      if (-not $idioma) {
-        $fallbackIdioma = Get-IdiomaSeguro $rawBase
-        if ($fallbackIdioma) {
-          $idioma = $fallbackIdioma # PROTECAO: fallback obrigatório
-        }
-      }
-
-      # FIX-BUG: fallback para idioma vindo do mapa quando ausente no nome
-      if (-not $idioma -and $mapLangRaw) {
-
-        $tokens = @()
-
-        foreach ($part in ($mapLangRaw -split '[/,;\-]')) {
-          $val = $part.Trim().ToUpperInvariant()
-          if ($val -and ($ValidIdiomas -contains $val)) {
-            $tokens += $val
-          }
-        }
-
-        if ($tokens.Count -gt 0) {
-
-          foreach ($p in $IdiomaPriority) {
-            if ($tokens -contains $p) {
-              $idioma = "($p)"
-              break
-            }
-          }
-
-          if (-not $idioma) {
-            $idioma = "($($tokens[0]))"
-          }
-        }
-      }
-
-      $id = Get-IdSeguro $resolvedBase
-
-      # NORMALIZAÇÃO
-      $nome = Normalize-Nome $resolvedBase # FIX-BUG: usa nome expandido quando disponível
-      if (-not $nome) {
-        Write-Host "⚠️ WARN :: SKIP :: Nome vazio após normalização :: $($file.Name)" -ForegroundColor Yellow
-        $skipped++
-        return
-      }
-
-      # RECONSTRUÇÃO CANÔNICA
-      $newBase = $nome
-      if ($idioma) { $newBase += " $idioma" }
-      # FIX-BUG: garantia obrigatória de identificador único (RFC 4.8)
-      if (-not $id) {
-
-        try {
-          $hash = Get-FileHash -LiteralPath $file.FullName -Algorithm SHA256 -ErrorAction Stop
-          $fallback = $hash.Hash.Substring(0, 8)
-          $id = "[$fallback]"
-        }
-        catch {
-          # PROTECAO: fallback determinístico mínimo sem hash
-          $fallback = [Math]::Abs($file.FullName.GetHashCode()).ToString("X8").Substring(0, 8)
-          $id = "[$fallback]"
-        }
-      }
-
-      $newBase = $nome
-      if ($idioma) { $newBase += " $idioma" }
-      if ($id) { $newBase += " $id" }
-
-      $newName = "$newBase.$($exts -join '.')"
-      $newName = Remove-InvalidFileNameChars $newName
-
-      if (-not $newName) { $skipped++; return }
-
-      # IDEMPOTÊNCIA REAL
-      if ($file.Name.Equals($newName, [StringComparison]::Ordinal)) {
-        $skipped++; return
-      }
-
-      # COLISÃO
-      $targetPath = Join-Path $file.DirectoryName $newName
-
-      if (Test-Path -LiteralPath $targetPath) {
-
-        # FIX-BUG: arquivos de hash (.sha256) não devem ser duplicados
-        if ($exts.Count -eq 1 -and $exts[0].Equals('sha256', [StringComparison]::OrdinalIgnoreCase)) {
-
-          # PROTECAO: evita reprocessamento redundante
-          if ($file.Name -eq $newName) {
-            $skipped++
-            return
-          }
-
-          Write-Host "⚠️ 🛠️ HASH_DUPLICADO :: removendo $($file.Name)" -ForegroundColor Yellow
-
-          if ($PSCmdlet.ShouldProcess($file.Name, "Remove duplicate hash file")) {
-            Remove-Item -LiteralPath $file.FullName -Force -ErrorAction Stop
-            Write-Host "✔ 🗑️ REMOVED :: $($file.Name)" -ForegroundColor DarkGreen
-            $renamed++
-          }
-
+        # NORMALIZAÇÃO
+        $nome = Normalize-Nome $resolvedBase # FIX-BUG: usa nome expandido quando disponível
+        if (-not $nome) {
+          Write-Host "⚠️ WARN :: SKIP :: Nome vazio após normalização :: $($file.Name)" -ForegroundColor Yellow
+          $skipped++
           return
         }
 
-        # 🔒 SHORT-CIRCUIT POR TAMANHO (NÃO DECISIVO)
-        $fileSizeA = $file.Length
-        $fileSizeB = (Get-Item -LiteralPath $targetPath).Length
-
-        if ($fileSizeA -ne $fileSizeB) {
-          # PROTECAO: tamanhos diferentes → não são duplicados → evita hash desnecessário
-          $newName = Get-UniqueFileName $file.DirectoryName $newName
-        }
-        else {
-
-          # 🔒 MUTEX GLOBAL PARA OPERAÇÕES DE HASH
-          $mutexName = "Global\NormalizeScript_HashMutex"
-          $mutex = New-Object System.Threading.Mutex($false, $mutexName)
-          $lockAcquired = $false
+        # RECONSTRUÇÃO CANÔNICA
+        $newBase = $nome
+        if ($idioma) { $newBase += " $idioma" }
+        # FIX-BUG: garantia obrigatória de identificador único (RFC 4.8)
+        if (-not $id) {
 
           try {
-            # PROTECAO: evita concorrência de IO e contenção de disco
-            $lockAcquired = $mutex.WaitOne([TimeSpan]::FromSeconds(30))
+            $hash = Get-FileHash -LiteralPath $file.FullName -Algorithm SHA256 -ErrorAction Stop
+            $fallback = $hash.Hash.Substring(0, 8)
+            $id = "[$fallback]"
+          }
+          catch {
+            # PROTECAO: fallback determinístico mínimo sem hash
+            $fallback = [Math]::Abs($file.FullName.GetHashCode()).ToString("X8").Substring(0, 8)
+            $id = "[$fallback]"
+          }
+        }
 
-            if (-not $lockAcquired) {
-              Write-Host "⚠️ 🔍 MUTEX_TIMEOUT :: fallback sem hash" -ForegroundColor Yellow
-              $newName = Get-UniqueFileName $file.DirectoryName $newName
+        $newBase = $nome
+        if ($idioma) { $newBase += " $idioma" }
+        if ($id) { $newBase += " $id" }
+
+        $newName = "$newBase.$($exts -join '.')"
+        $newName = Remove-InvalidFileNameChars $newName
+
+        if (-not $newName) { $skipped++; return }
+
+        # IDEMPOTÊNCIA REAL
+        if ($file.Name.Equals($newName, [StringComparison]::Ordinal)) {
+          $skipped++; return
+        }
+
+        # COLISÃO
+        $targetPath = Join-Path $file.DirectoryName $newName
+
+        if (Test-Path -LiteralPath $targetPath) {
+
+          # FIX-BUG: arquivos de hash (.sha256) não devem ser duplicados
+          if ($exts.Count -eq 1 -and $exts[0].Equals('sha256', [StringComparison]::OrdinalIgnoreCase)) {
+
+            # PROTECAO: evita reprocessamento redundante
+            if ($file.Name -eq $newName) {
+              $skipped++
+              return
             }
-            else {
 
-              # PROTECAO: evita spam de comparação repetida
-              if (-not $script:__hashLogCache) { $script:__hashLogCache = @{} }
+            Write-Host "⚠️ 🛠️ HASH_DUPLICADO :: removendo $($file.Name)" -ForegroundColor Yellow
 
-              if (-not $script:__hashLogCache.ContainsKey($file.FullName)) {
-                Write-InlineLog "🔍 PROCESS :: HASH_COMPARE :: $($file.Name)" Cyan
-                $script:__hashLogCache[$file.FullName] = $true
+            if ($PSCmdlet.ShouldProcess($file.Name, "Remove duplicate hash file")) {
+              Remove-Item -LiteralPath $file.FullName -Force -ErrorAction Stop
+              Write-Host "✔ 🗑️ REMOVED :: $($file.Name)" -ForegroundColor DarkGreen
+              $renamed++
+            }
+
+            return
+          }
+
+          # 🔒 SHORT-CIRCUIT POR TAMANHO (NÃO DECISIVO)
+          $fileSizeA = $file.Length
+          $fileSizeB = (Get-Item -LiteralPath $targetPath).Length
+
+          if ($fileSizeA -ne $fileSizeB) {
+            # PROTECAO: tamanhos diferentes → não são duplicados → evita hash desnecessário
+            $newName = Get-UniqueFileName $file.DirectoryName $newName $file.FullName
+          }
+          else {
+
+            # 🔒 MUTEX GLOBAL PARA OPERAÇÕES DE HASH
+            $mutexName = "Global\NormalizeScript_HashMutex"
+            $mutex = New-Object System.Threading.Mutex($false, $mutexName)
+            $lockAcquired = $false
+
+            try {
+              # PROTECAO: evita concorrência de IO e contenção de disco
+              $lockAcquired = $mutex.WaitOne([TimeSpan]::FromSeconds(30))
+
+              if (-not $lockAcquired) {
+                Write-Host "⚠️ 🔍 MUTEX_TIMEOUT :: fallback sem hash" -ForegroundColor Yellow
+                $newName = Get-UniqueFileName $file.DirectoryName $newName
               }
+              else {
 
-              $hashA = Get-FileHash -LiteralPath $file.FullName -Algorithm SHA256
-              $hashB = Get-FileHash -LiteralPath $targetPath -Algorithm SHA256
+                # PROTECAO: evita spam de comparação repetida
+                if (-not $script:__hashLogCache) { $script:__hashLogCache = @{} }
 
-              if ($hashA.Hash -eq $hashB.Hash) {
-
-                Write-Host "⚠️ 🛠️ DUPLICATE_CONFIRMED :: avaliando preservação determinística" -ForegroundColor Yellow
-
-                # FIX-BUG: seleção determinística do melhor candidato
-                $candidateA = $file.Name
-                $candidateB = (Split-Path $targetPath -Leaf)
-
-                $normalizedA = $candidateA.Equals($newName, [StringComparison]::Ordinal)
-                $normalizedB = $candidateB.Equals($newName, [StringComparison]::Ordinal)
-
-                function __distance($a, $b) {
-                  # PROTECAO: aproximação simples determinística
-                  return [Math]::Abs($a.Length - $b.Length)
+                if (-not $script:__hashLogCache.ContainsKey($file.FullName)) {
+                  Write-InlineLog "🔍 PROCESS :: HASH_COMPARE :: $($file.Name)" Cyan
+                  $script:__hashLogCache[$file.FullName] = $true
                 }
 
-                if ($normalizedA -and -not $normalizedB) {
-                  $remove = $candidateB
-                  $removePath = $targetPath
-                }
-                elseif ($normalizedB -and -not $normalizedA) {
-                  $remove = $candidateA
-                  $removePath = $file.FullName
-                }
-                else {
-                  $distA = __distance $candidateA $newName
-                  $distB = __distance $candidateB $newName
+                $hashA = Get-FileHash -LiteralPath $file.FullName -Algorithm SHA256
+                $hashB = Get-FileHash -LiteralPath $targetPath -Algorithm SHA256
 
-                  if ($distA -lt $distB) {
+                if ($hashA.Hash -eq $hashB.Hash) {
+
+                  Write-Host "⚠️ 🛠️ DUPLICATE_CONFIRMED :: avaliando preservação determinística" -ForegroundColor Yellow
+
+                  # FIX-BUG: seleção determinística do melhor candidato
+                  $candidateA = $file.Name
+                  $candidateB = (Split-Path $targetPath -Leaf)
+
+                  $normalizedA = $candidateA.Equals($newName, [StringComparison]::Ordinal)
+                  $normalizedB = $candidateB.Equals($newName, [StringComparison]::Ordinal)
+
+                  function __distance($a, $b) {
+                    # PROTECAO: aproximação simples determinística
+                    return [Math]::Abs($a.Length - $b.Length)
+                  }
+
+                  if ($normalizedA -and -not $normalizedB) {
                     $remove = $candidateB
                     $removePath = $targetPath
                   }
-                  elseif ($distB -lt $distA) {
+                  elseif ($normalizedB -and -not $normalizedA) {
                     $remove = $candidateA
                     $removePath = $file.FullName
                   }
                   else {
-                    # desempate lexicográfico estável
-                    if ($candidateA -lt $candidateB) {
+                    $distA = __distance $candidateA $newName
+                    $distB = __distance $candidateB $newName
+
+                    if ($distA -lt $distB) {
                       $remove = $candidateB
                       $removePath = $targetPath
                     }
-                    else {
+                    elseif ($distB -lt $distA) {
                       $remove = $candidateA
                       $removePath = $file.FullName
                     }
+                    else {
+                      # desempate lexicográfico estável
+                      if ($candidateA -lt $candidateB) {
+                        $remove = $candidateB
+                        $removePath = $targetPath
+                      }
+                      else {
+                        $remove = $candidateA
+                        $removePath = $file.FullName
+                      }
+                    }
                   }
-                }
 
-                if ($PSCmdlet.ShouldProcess($remove, "Remove duplicate determinístico")) {
-                  Remove-Item -LiteralPath $removePath -Force -ErrorAction Stop
+                  if ($PSCmdlet.ShouldProcess($remove, "Remove duplicate determinístico")) {
+                    Remove-Item -LiteralPath $removePath -Force -ErrorAction Stop
 
-                  # FIX-BUG: remove hash associado ao arquivo removido
-                  $hashFile = "$removePath.sha256"
-                  if (Test-Path $hashFile) {
-                    Remove-Item -LiteralPath $hashFile -Force -ErrorAction SilentlyContinue
-                    Write-Host "✔ 🗑️ HASH_REMOVED :: $(Split-Path $hashFile -Leaf)" -ForegroundColor DarkGreen
+                    # FIX-BUG: remove hash associado ao arquivo removido
+                    $hashFile = "$removePath.sha256"
+                    if (Test-Path $hashFile) {
+                      Remove-Item -LiteralPath $hashFile -Force -ErrorAction SilentlyContinue
+                      Write-Host "✔ 🗑️ HASH_REMOVED :: $(Split-Path $hashFile -Leaf)" -ForegroundColor DarkGreen
+                    }
+
+                    Write-InlineLog "✔ REMOVED :: $remove" DarkGreen -forceNewLine
+                    $renamed++
                   }
 
-                  Write-InlineLog "✔ REMOVED :: $remove" DarkGreen -forceNewLine
-                  $renamed++
+                  return
                 }
-
-                return
-              }
-              else {
-                # PROTECAO: mesmo tamanho, conteúdo diferente
-                $newName = Get-UniqueFileName $file.DirectoryName $newName
+                else {
+                  # PROTECAO: mesmo tamanho, conteúdo diferente
+                  $newName = Get-UniqueFileName $file.DirectoryName $newName
+                }
               }
             }
-          }
-          catch {
-            Write-Host "❌ 🔍 HASH_COMPARE_FAIL :: $($_.Exception.Message)" -ForegroundColor Red
-            # PROTECAO: fallback seguro → NÃO remover sem confirmação
-            $newName = Get-UniqueFileName $file.DirectoryName $newName
-          }
-          finally {
-            if ($lockAcquired) {
-              $mutex.ReleaseMutex()
+            catch {
+              Write-Host "❌ 🔍 HASH_COMPARE_FAIL :: $($_.Exception.Message)" -ForegroundColor Red
+              # PROTECAO: fallback seguro → NÃO remover sem confirmação
+              $newName = Get-UniqueFileName $file.DirectoryName $newName
             }
-            $mutex.Dispose()
+            finally {
+              if ($lockAcquired) {
+                $mutex.ReleaseMutex()
+              }
+              $mutex.Dispose()
+            }
           }
         }
+
+        if ($PSCmdlet.ShouldProcess($file.Name, "Rename to $newName")) {
+          Rename-Item -LiteralPath $file.FullName -NewName $newName -ErrorAction Stop
+
+          # FIX-BUG: sincroniza arquivo .sha256 associado
+          $oldHashFile = "$($file.FullName).sha256"
+          $newHashFile = (Join-Path $file.DirectoryName $newName) + ".sha256"
+
+          if (Test-Path $oldHashFile) {
+            try {
+              Rename-Item -LiteralPath $oldHashFile -NewName (Split-Path $newHashFile -Leaf) -ErrorAction Stop
+
+              # PROTECAO: atualiza conteúdo interno do .sha256
+              $content = Get-Content $newHashFile -Raw
+              $content = $content -replace [regex]::Escape($file.Name), $newName
+              Set-Content -LiteralPath $newHashFile -Value $content -Encoding ASCII
+
+            }
+            catch {
+              Write-Host "❌ HASH_SYNC_FAIL :: $($_.Exception.Message)" -ForegroundColor Red
+            }
+          }
+
+          # PROTECAO: evita flooding - log consolidado por evento único
+          if ($script:__lastLog -ne $newName) {
+            Write-InlineLog "✔ CHANGE-NAME :: $($file.Name) -> $newName" DarkGreen
+            $script:__lastLog = $newName
+          }
+          # PROTECAO: evita flooding - log consolidado por evento único
+          if ($script:__lastLog -ne $newName) {
+            Write-InlineLog "✔ CHANGE-NAME :: $($file.Name) -> $newName" DarkGreen
+            $script:__lastLog = $newName
+          }
+          $renamed++
+        }
+
       }
-
-      if ($PSCmdlet.ShouldProcess($file.Name, "Rename to $newName")) {
-        Rename-Item -LiteralPath $file.FullName -NewName $newName -ErrorAction Stop
-
-        # FIX-BUG: sincroniza arquivo .sha256 associado
-        $oldHashFile = "$($file.FullName).sha256"
-        $newHashFile = (Join-Path $file.DirectoryName $newName) + ".sha256"
-
-        if (Test-Path $oldHashFile) {
-          try {
-            Rename-Item -LiteralPath $oldHashFile -NewName (Split-Path $newHashFile -Leaf) -ErrorAction Stop
-
-            # PROTECAO: atualiza conteúdo interno do .sha256
-            $content = Get-Content $newHashFile -Raw
-            $content = $content -replace [regex]::Escape($file.Name), $newName
-            Set-Content -LiteralPath $newHashFile -Value $content -Encoding ASCII
-
-          }
-          catch {
-            Write-Host "❌ HASH_SYNC_FAIL :: $($_.Exception.Message)" -ForegroundColor Red
-          }
-        }
-
-        # PROTECAO: evita flooding - log consolidado por evento único
-        if ($script:__lastLog -ne $newName) {
-          Write-InlineLog "✔ CHANGE-NAME :: $($file.Name) -> $newName" DarkGreen
-          $script:__lastLog = $newName
-        }
-        # PROTECAO: evita flooding - log consolidado por evento único
-        if ($script:__lastLog -ne $newName) {
-          Write-InlineLog "✔ CHANGE-NAME :: $($file.Name) -> $newName" DarkGreen
-          $script:__lastLog = $newName
-        }
-        $renamed++
+      catch {
+        $errors++
+        Write-InlineLog "❌ ERROR :: $($file.Name) :: $($_.Exception.Message)" Red -forceNewLine
       }
+    }
 
-    }
-    catch {
-      $errors++
-      Write-InlineLog "❌ ERROR :: $($file.Name) :: $($_.Exception.Message)" Red -forceNewLine
-    }
   }
+  finally {
+    if ($lockAcquired) {
+      $mutex.ReleaseMutex()
+    }
+    $mutex.Dispose()
+  }    
 
   # FIX-BUG: remoção de hashes órfãos após processamento
   Get-ChildItem -Recurse -File -Filter *.sha256 -ErrorAction SilentlyContinue | ForEach-Object {
@@ -1141,3 +1291,4 @@ function main {
 if ($MyInvocation.InvocationName -ne '.') {
   main @PSBoundParameters
 }
+  
