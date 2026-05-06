@@ -1100,7 +1100,7 @@ function main {
 
           if ($fileSizeA -ne $fileSizeB) {
             # PROTECAO: tamanhos diferentes → não são duplicados → evita hash desnecessário            
-            Write-Host "⚠️ WARN :: NAME_COLLISION_NO_ID :: $newName" -ForegroundColor Yellow
+            Write-InlineLog "⏭️ SKIP :: NO_MATCH_SIZE :: $(newName)" DarkGray            
             $skipped++
             return
           }
