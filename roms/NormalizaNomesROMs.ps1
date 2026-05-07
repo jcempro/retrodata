@@ -413,7 +413,7 @@
     - trim MUST ser aplicado
 
   5.3 Whitelist
-    - BR, PT, USA, JP, EU, ES, FR, DE, IT, JAPAN, WORLD, EUR
+    - BR, PT, USA, JP, EU, ES, FR, DE, IT, JAPAN, WORLD, EUR, entre outras
 
   5.4 Seleção
     Prioridade:
@@ -478,8 +478,10 @@
     - Proto
     - Demo
     - Sample
-    - versões técnicas (T1.01, ...)
+    - Rev
+    - versões técnicas (T1.01, Rev 1, ...)
     - numeração irrelevante
+    - Qualquer outra coisa entre parênteses que não seja idioma
 
   Formas:
     - "(BR-XX)" MUST ser preservado integralmente
@@ -890,13 +892,66 @@ function Remove-NoiseMarkers {
 
   if (-not $text) { return $null }
 
-  # FIX-BUG: remove TODOS osdemais parênteses, inclusive idiomas (RFC 1 + 2.5 + idempotência)
-  $t = [regex]::Replace($text, '\s*\([^)]+\)', '')
+  $t = $text
+
+  # FIX-BUG: preserva apenas idiomas válidos RFC 5 + RFC 7
+  $t = [regex]::Replace(
+    $t,
+    '\s*\(([^)]+)\)',
+    {
+      param($m)
+
+      $raw = $m.Groups[1].Value.Trim()
+
+      if (-not $raw) {
+        return ''
+      }
+
+      $normalized = $raw.ToUpperInvariant()
+
+      # PROTECAO: preserva formas compostas válidas (BR-XX)
+      if (
+        $normalized -match '^[A-Z]{2,3}-[A-Z]{2,3}$'
+      ) {
+        return " ($normalized)"
+      }
+
+      $tokens = @()
+
+      foreach ($part in ($normalized -split '[/,;]')) {
+
+        $token = $part.Trim()
+
+        if (-not $token) {
+          continue
+        }
+
+        # PROTECAO: rejeita grupos mistos inválidos RFC 7
+        if (-not ($ValidIdiomas -contains $token)) {
+          return ''
+        }
+
+        $tokens += $token
+      }
+
+      if ($tokens.Count -eq 0) {
+        return ''
+      }
+
+      $preferred = Get-PreferredIdioma $tokens
+
+      if (-not $preferred) {
+        return ''
+      }
+
+      return " $preferred"
+    }
+  )
 
   # remove IDs existentes (serão reconstruídos)
   $t = $t -replace '\s*\[[^\]]*\]', ''
 
-  # remove resíduos numéricos em parênteses
+  # FIX-BUG: remove numeração irrelevante RFC 7
   $t = $t -replace '\s*\(\d+\)', ''
 
   # normaliza espaços
@@ -926,6 +981,14 @@ function Format-NomeCanonico {
     $n,
     '(?i)\bT\d+(\.\d+)?\b',
     ''
+  )
+
+  # Remoções controladas (conservador)
+  # FIX-BUG: normaliza separadores ":" antes da sanitização
+  $n = [regex]::Replace(
+    $n,
+    '\s*:\s*',
+    ' - '
   )
 
   # Remoções controladas (conservador)
@@ -1710,6 +1773,7 @@ function Initialize-SharedFileIndex {
       XmlNode   = $null
       XmlPath   = $null
       Canonical = $null
+      Removed   = $false # PROTECAO: estado estrutural deduplicação/rename
     }
 
     $script:PipelineState.Files += $entry
@@ -2108,6 +2172,53 @@ function main {
         if (-not $entry.Canonical) {
           continue
         }
+
+        # FIX-BUG: remove parenteses técnicos remanescentes
+        $entry.Canonical = [regex]::Replace(
+          $entry.Canonical,
+          '\(([^)]*)\)',
+          {
+            param($m)
+
+            $token = $m.Groups[1].Value.Trim()
+
+            # FIX-BUG: preserva apenas tokens definidos globalmente
+            if ($script:ValidIdiomas -contains $token) {
+              return "($token)"
+            }
+
+            return ''
+          }
+        )
+
+        # FIX-BUG: remove idiomas/regiões duplicados
+        $seenParenTokens = @{}
+
+        $entry.Canonical = [regex]::Replace(
+          $entry.Canonical,
+          '\(([^)]*)\)',
+          {
+            param($m)
+
+            $token = $m.Groups[1].Value.Trim()
+
+            $key = $token.ToUpperInvariant()
+
+            if ($seenParenTokens.ContainsKey($key)) {
+              return ''
+            }
+
+            $seenParenTokens[$key] = $true
+
+            return "($token)"
+          }
+        )
+
+        # FIX-BUG: normaliza espaços após remoção
+        $entry.Canonical = (
+          $entry.Canonical `
+            -replace '\s{2,}', ' '
+        ).Trim()
 
         $currentName = $entry.File.Name
         $newName = $entry.Canonical
