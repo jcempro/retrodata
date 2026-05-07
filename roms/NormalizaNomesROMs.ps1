@@ -2490,70 +2490,81 @@ function main {
             ))
         ) {
 
-          $conflictTarget = Get-Item `
-            -LiteralPath $targetPath `
-            -ErrorAction SilentlyContinue
+          $srcHash = Get-FileHashCached $entry.File.FullName
+          $dstHash = Get-FileHashCached $targetPath
 
-          $conflictName = if ($conflictTarget) {
-            $conflictTarget.Name
-          }
-          else {
-            "<unknown>"
-          }
+          # PROTECAO:
+          # colisão real por conteúdo diferente RFC 4 + RFC 11
+          if (
+            -not $srcHash.Equals(
+              $dstHash,
+              [StringComparison]::OrdinalIgnoreCase
+            )
+          ) {
 
-          # ==========================================================
-          # FIX-BUG:
-          # convergência nominal redundante antes da fase global
-          # de deduplicação.
-          #
-          # Exemplo:
-          #   Game (USA).zip
-          #   Game.zip
-          #
-          # ambos convergem para:
-          #   Game.zip
-          #
-          # Se hashes forem iguais:
-          #   remove redundante imediatamente.
-          # ==========================================================
+            $parsedCollision = Extract-Extensions $newName
 
-          $existingHash = Get-FileHashCached `
-            $targetPath
+            if (-not $parsedCollision) {
+              throw "Falha estrutural collision parsing"
+            }
 
-          $currentHash = Get-FileHashCached `
-            $entry.File.FullName
+            $shortHash = $srcHash.Substring(0, 8)
 
-          if ($existingHash -eq $currentHash) {
+            $collisionBase =
+            "$($parsedCollision.Base) {$shortHash}"
+
+            $resolvedName =
+            "$collisionBase.$($parsedCollision.Extensions -join '.')"
+
+            $resolvedDir = $entry.File.DirectoryName
+
+            $resolvedPath = Join-Path `
+              $resolvedDir `
+              $resolvedName
+
+            # FAIL-SAFE:
+            # evita colisão impossível extremamente rara
+            if (
+              (Test-Path -LiteralPath $resolvedPath) `
+                -and `
+              (-not $resolvedPath.Equals(
+                  $entry.File.FullName,
+                  [StringComparison]::OrdinalIgnoreCase
+                ))
+            ) {
+
+              throw (
+                "COLLISION_IMPOSSIBLE :: " +
+                "SOURCE=[$($entry.File.Name)] " +
+                "TARGET=[$resolvedName]"
+              )
+            }
 
             Write-InlineLog `
-              "🗑️ PRE-DEDUP :: $currentName -> $newName" `
+            (
+              "⚠️ COLLISION_RESOLVED :: " +
+              "SOURCE=[$($entry.File.Name)] " +
+              "TARGET=[$resolvedName]"
+            ) `
               Yellow `
               -forceNewLine
 
-            Remove-XmlNode $entry
-            Remove-JsonTreeEntry $entry.File.FullName
+            $newName = $resolvedName
+            $targetPath = $resolvedPath
+          }
+          else {
 
-            if (-not $VerifyOnly) {
-
-              Remove-Item `
-                -LiteralPath $entry.File.FullName `
-                -Force `
-                -ErrorAction Stop
-            }
-
-            $entry.Removed = $true
+            Write-InlineLog `
+            (
+              "⚠️ DUPLICATE_ALREADY_EXISTS :: " +
+              "SOURCE=[$($entry.File.Name)] " +
+              "TARGET=[$newName]"
+            ) `
+              Yellow `
+              -forceNewLine
 
             continue
           }
-
-          throw (
-            "COLLISION :: " +
-            "SOURCE=[$currentName] " +
-            "TARGET=[$newName] " +
-            "EXISTING=[$conflictName] " +
-            "SRC_HASH=[$currentHash] " +
-            "DST_HASH=[$existingHash]"
-          )
         }
 
         Write-InlineLog `
