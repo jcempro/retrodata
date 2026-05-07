@@ -2285,11 +2285,10 @@ function main {
     Initialize-SharedFileIndex
     Resolve-XmlCorrelation
 
-    # FIX-BUG: hashing lazy RFC 13
-    # PROTECAO: evita snapshot estrutural prematuro
-
     # ==========================================================
-    # NORMALIZAÇÃO
+    # NORMALIZAÇÃO + RENAME
+    # RFC:
+    # ENUMERAÇÃO → CORRELAÇÃO → NORMALIZAÇÃO → RENAME
     # ==========================================================
 
     foreach ($entry in $script:PipelineState.Files) {
@@ -2306,103 +2305,7 @@ function main {
           continue
         }
 
-        # FIX-BUG: remove parenteses técnicos remanescentes
-        $entry.Canonical = [regex]::Replace(
-          $entry.Canonical,
-          '\(([^)]*)\)',
-          {
-            param($m)
-
-            $token = $m.Groups[1].Value.Trim()
-
-            # FIX-BUG: usa whitelist real RFC 5
-            if ($ValidIdiomas -contains $token) {
-              return "($token)"
-            }
-
-            return ''
-          }
-        )
-
-        # FIX-BUG: força idioma único RFC 4 + RFC 5
-        $idiomaMatches = [regex]::Matches(
-          $entry.Canonical,
-          '\(([^)]*)\)'
-        )
-
-        $idiomaFinal = $null
-
-        if ($idiomaMatches.Count -gt 0) {
-
-          $idiomaTokens = @()
-
-          foreach ($m in $idiomaMatches) {
-
-            $token = $m.Groups[1].Value.Trim().ToUpperInvariant()
-
-            if (
-              $token `
-                -and `
-              ($ValidIdiomas -contains $token)
-            ) {
-              $idiomaTokens += $token
-            }
-          }
-
-          $idiomaFinal = Get-PreferredIdioma $idiomaTokens
-        }
-
-        # FIX-BUG: remove TODOS os grupos "()"
-        $entry.Canonical = [regex]::Replace(
-          $entry.Canonical,
-          '\s*\(([^)]*)\)',
-          ''
-        )
-
-        # FIX-BUG: remove TODOS os grupos "[]"
-        $entry.Canonical = [regex]::Replace(
-          $entry.Canonical,
-          '\s*\[[^\]]*\]',
-          ''
-        )
-
-        # FIX-BUG: reconstrói idioma único canônico
-        if ($idiomaFinal) {
-          $entry.Canonical += " $idiomaFinal"
-        }
-
-        # FIX-BUG: reconstrói ID único canônico RFC 6
-        $resolvedId = Get-IdSeguro $entry.Canonical
-
-        if (-not $resolvedId) {
-
-          $resolvedId = Get-IdSeguro $currentName
-        }
-
-        if (
-          -not $resolvedId `
-            -and `
-            $entry.XmlNode
-        ) {
-
-          $xmlIdAttr = $entry.XmlNode.Attributes["id"]
-
-          if (
-            $xmlIdAttr `
-              -and `
-              $xmlIdAttr.Value
-          ) {
-            $resolvedId = "[" + $xmlIdAttr.Value.Trim() + "]"
-          }
-        }
-
-        if ($resolvedId) {
-
-          # PROTECAO: garante ID único
-          $entry.Canonical += " $resolvedId"
-        }
-
-        # FIX-BUG: normalização estrutural final
+        # FIX-BUG: convergência final RFC 4/5/6
         $entry.Canonical = (
           $entry.Canonical `
             -replace '\s{2,}', ' '
@@ -2411,35 +2314,9 @@ function main {
         $currentName = $entry.File.Name
         $newName = $entry.Canonical
 
-        # FIX-BUG: força convergência nominal RFC 4/5/6
-        $rawParenCount = (
-          [regex]::Matches(
-            $currentName,
-            '\([^)]*\)'
-          )
-        ).Count
-
-        $rawIdCount = (
-          [regex]::Matches(
-            $currentName,
-            '\[[^\]]*\]'
-          )
-        ).Count
-
-        # FIX-BUG: comparação determinística pós-normalização
-        $normalizedCurrent = (
-          $currentName `
-            -replace '\s{2,}', ' '
-        ).Trim()
-
-        $normalizedNew = (
-          $newName `
-            -replace '\s{2,}', ' '
-        ).Trim()
-
         if (
-          $normalizedCurrent.Equals(
-            $normalizedNew,
+          $currentName.Equals(
+            $newName,
             [StringComparison]::Ordinal
           )
         ) {
@@ -2456,40 +2333,6 @@ function main {
           ($targetPath -ne $entry.File.FullName)
         ) {
 
-          $existingHash = Get-FileHashCached $targetPath
-
-          if ($existingHash -eq $entry.Hash) {
-
-            Write-InlineLog `
-              "⚠️ DUPLICATE :: $(Get-RelativePathSafe $entry.File.FullName)" `
-              Yellow `
-              -forceNewLine
-
-            Remove-XmlNode $entry
-            Remove-JsonTreeEntry $entry.File.FullName
-
-            if (-not $VerifyOnly) {
-
-              Remove-Item `
-                -LiteralPath $entry.File.FullName `
-                -Force `
-                -ErrorAction Stop
-
-              $entry.Removed = $true
-
-              $sha = "$($entry.File.FullName).sha256"
-
-              if (Test-Path -LiteralPath $sha) {
-                Remove-Item `
-                  -LiteralPath $sha `
-                  -Force `
-                  -ErrorAction SilentlyContinue
-              }
-            }
-
-            continue
-          }
-
           throw "Colisão estrutural não resolvível"
         }
 
@@ -2498,19 +2341,10 @@ function main {
           DarkGreen `
           -forceNewLine
 
-        # PROTECAO: evita rename redundante estrutural
-        if (
-          $entry.File.FullName.Equals(
-            (Join-Path $entry.File.DirectoryName $newName),
-            [StringComparison]::Ordinal
-          )
-        ) {
-          continue
-        }
-
         $oldXmlPathValue = $null
 
         if ($Entry.XmlNode) {
+
           $pathNode = $Entry.XmlNode.SelectSingleNode("path")
 
           if ($pathNode) {
@@ -2523,7 +2357,6 @@ function main {
           -NewName $newName
 
         if (-not $VerifyOnly) {
-          $oldShaPath = "$($entry.File.FullName).sha256"
 
           $oldFullPath = $entry.File.FullName
 
@@ -2536,22 +2369,9 @@ function main {
             -NewName $newName `
             -ErrorAction Stop
 
-          $oldKey = [IO.Path]::GetFullPath($oldFullPath)
-
-          if ($script:PipelineState.HashCache.ContainsKey($oldKey)) {
-
-            $hash = $script:PipelineState.HashCache[$oldKey]
-
-            $script:PipelineState.HashCache.Remove($oldKey)
-
-            $newKey = [IO.Path]::GetFullPath($newFullPath)
-
-            $script:PipelineState.HashCache[$newKey] = $hash
-          }
-
           if (-not (Test-Path -LiteralPath $newFullPath)) {
 
-            # FIX-BUG: rollback XML em falha estrutural
+            # FIX-BUG: rollback XML pós-falha
             if (
               $Entry.XmlNode `
                 -and `
@@ -2572,31 +2392,12 @@ function main {
             -LiteralPath $newFullPath `
             -ErrorAction Stop
 
-          Write-Sha256File `
-            -FilePath $newFullPath `
-            -Hash $entry.Hash
-
-          if (
-            (Test-Path -LiteralPath $oldShaPath) `
-              -and `
-            ($oldShaPath -ne "$newFullPath.sha256")
-          ) {
-
-            Remove-Item `
-              -LiteralPath $oldShaPath `
-              -Force `
-              -ErrorAction SilentlyContinue
-          }            
-
-          if (Test-IsSpecialJsonPath $newFullPath) {
-
-            Set-JsonTreeHashEntry `
-              -FilePath $newFullPath `
-              -Hash $entry.Hash
-          }
+          $entry.Relative = Get-RelativePathSafe `
+            $newFullPath
         }
       }
       catch {
+
         Write-InlineLog `
           "❌ NORMALIZE_FAIL :: $($_.Exception.Message)" `
           Red `
@@ -2605,7 +2406,17 @@ function main {
     }
 
     # ==========================================================
+    # HASH
+    # RFC:
+    # HASH APENAS APÓS CONVERGÊNCIA NOMINAL
+    # ==========================================================
+
+    Build-SharedHashIndex
+
+    # ==========================================================
     # DEDUPLICAÇÃO GLOBAL
+    # RFC:
+    # DEDUP SOBRE SNAPSHOT FINAL CONVERGIDO
     # ==========================================================
 
     foreach ($hash in $script:PipelineState.DuplicateIndex.Keys) {
