@@ -836,6 +836,12 @@ $blocked = @(
   '.md5', '.mp3', '.png', '.jpg', '.jpeg', '.mp4', '.avi', '.mkv'
 )
 
+$reserved = @(
+  'CON', 'PRN', 'AUX', 'NUL',
+  'COM1', 'COM2', 'COM3', 'COM4', 'COM5', 'COM6', 'COM7', 'COM8', 'COM9',
+  'LPT1', 'LPT2', 'LPT3', 'LPT4', 'LPT5', 'LPT6', 'LPT7', 'LPT8', 'LPT9'
+)
+
 $IdiomaPriority = @('BR', 'PT', 'USA')
 
 # ================= CORE HELPERS =================
@@ -1124,13 +1130,7 @@ function Remove-InvalidFileNameChars {
   $base = [IO.Path]::GetFileNameWithoutExtension($name)
   $ext = [IO.Path]::GetExtension($name)
 
-  $reserved = @(
-    'CON', 'PRN', 'AUX', 'NUL',
-    'COM1', 'COM2', 'COM3', 'COM4', 'COM5', 'COM6', 'COM7', 'COM8', 'COM9',
-    'LPT1', 'LPT2', 'LPT3', 'LPT4', 'LPT5', 'LPT6', 'LPT7', 'LPT8', 'LPT9'
-  )
 
-  $specialJsonDirs = @('windows', 'steam')
 
   if ($reserved -contains $base.ToUpperInvariant()) {
     $base = "_$base" # PROTECAO
@@ -1499,6 +1499,11 @@ function Set-JsonTreeHashEntry {
     -Segments $segments `
     -Create
 
+  # PROTECAO: VerifyOnly não altera JSON tree RFC 0
+  if ($script:VerifyOnlyMode) {
+    return
+  }
+
   $target | Add-Member `
     -MemberType NoteProperty `
     -Name $leafName `
@@ -1563,6 +1568,11 @@ function Remove-JsonTreeEntry {
     -Segments $segments
 
   if ($target -and $target.PSObject.Properties[$leafName]) {
+
+    # PROTECAO: VerifyOnly não altera JSON tree RFC 0
+    if ($script:VerifyOnlyMode) {
+      return
+    }
 
     $target.PSObject.Properties.Remove($leafName)
 
@@ -2023,6 +2033,90 @@ function Get-CanonicalName {
     ).Trim()
   }
 
+  # FIX-BUG: elimina resíduos duplicados estruturais finais
+  $base = (
+    $base `
+      -replace '\s{2,}', ' '
+  ).Trim()
+
+  # FIX-BUG: garante exatamente UM idioma RFC 5
+  $idiomaMatches = [regex]::Matches(
+    $base,
+    '\(([^)]*)\)'
+  )
+
+  if ($idiomaMatches.Count -gt 1) {
+
+    $tokens = @()
+
+    foreach ($m in $idiomaMatches) {
+
+      $token = $m.Groups[1].Value.Trim().ToUpperInvariant()
+
+      if (
+        $token `
+          -and `
+        ($ValidIdiomas -contains $token)
+      ) {
+        $tokens += $token
+      }
+    }
+
+    $preferredIdioma = Get-PreferredIdioma $tokens
+
+    $base = [regex]::Replace(
+      $base,
+      '\s*\([^)]*\)',
+      ''
+    ).Trim()
+
+    if ($preferredIdioma) {
+      $base += " $preferredIdioma"
+    }
+
+    if ($id) {
+      $base += " $id"
+    }
+
+    $base = (
+      $base `
+        -replace '\s{2,}', ' '
+    ).Trim()
+  }
+
+  # FIX-BUG: garante exatamente UM ID RFC 6
+  $idMatches = [regex]::Matches(
+    $base,
+    '\[([^\]]+)\]'
+  )
+
+  if ($idMatches.Count -gt 1) {
+
+    $resolvedId = Get-IdSeguro $base
+
+    $base = [regex]::Replace(
+      $base,
+      '\s*\[[^\]]*\]',
+      ''
+    ).Trim()
+
+    if ($idioma) {
+      $base += " $idioma"
+    }
+
+    if ($resolvedId) {
+      $base += " $resolvedId"
+    }
+
+    $base = (
+      $base `
+        -replace '\s{2,}', ' '
+    ).Trim()
+  }
+
+  # FIX-BUG: remove resíduos estruturais órfãos finais
+  $base = $base.Trim(' ', '.', '-', '_')
+
   $newName = "$base.$($parsed.Extensions -join '.')"
 
   $safeName = Remove-InvalidFileNameChars $newName
@@ -2038,6 +2132,7 @@ function Get-CanonicalName {
 
   return $safeName
 }
+
 function Build-SharedHashIndex {
 
   $script:PipelineState.DuplicateIndex = @{}
@@ -2069,12 +2164,52 @@ function Select-CanonicalDuplicate {
   param([object[]]$Entries)
 
   $ordered = $Entries | Sort-Object `
-  @{ Expression = { $_.Canonical.Length } ; Ascending = $true },
-  @{ Expression = { $_.Canonical } ; Ascending = $true }
+  @{ Expression   = {
 
-  return $ordered[0]
+      $relative = $_.Relative
+
+      if (-not $relative) {
+        return 999999
+      }
+
+      # FIX-BUG: menor profundidade estrutural RFC 11
+      return (
+        ($relative -split '[\\/]').Count
+      )
+    } ; Ascending = $true 
+  },
+  @{ Expression   = {
+
+      # FIX-BUG: nome mais canônico RFC 11
+      if ($_.Canonical) {
+        return $_.Canonical.Length
+      }
+
+      return 999999
+    } ; Ascending = $true 
+  },
+  @{ Expression   = {
+
+      if ($_.Canonical) {
+        return $_.Canonical
+      }
+
+      return $_.File.Name
+    } ; Ascending = $true 
+  },
+  @{ Expression   = {
+
+      # PROTECAO: ordem ordinal estável RFC 11
+      return $_.Relative
+    } ; Ascending = $true 
+  }
+
+  # FIX-BUG: estabiliza sobrevivente deterministicamente RFC 11
+  return (
+    $ordered |
+    Select-Object -First 1
+  )
 }
-
 function Update-XmlPath {
   param(
     [object]$Entry,
@@ -2114,6 +2249,11 @@ function Update-XmlPath {
 
   if ($oldRelative -ne $newRelative) {
 
+    # PROTECAO: VerifyOnly não altera estado XML RFC 0
+    if ($script:VerifyOnlyMode) {
+      return
+    }
+
     $pathNode.InnerText = $newRelative
 
     $script:PipelineState.PendingXmlSave[
@@ -2132,6 +2272,11 @@ function Remove-XmlNode {
   $parent = $Entry.XmlNode.ParentNode
 
   if ($parent) {
+
+    # PROTECAO: VerifyOnly não altera XML RFC 0
+    if ($script:VerifyOnlyMode) {
+      return
+    }
 
     [void]$parent.RemoveChild($Entry.XmlNode)
 
@@ -2165,8 +2310,17 @@ function Invoke-TranslateBatch {
     for ($retry = 0; $retry -lt 3; $retry++) {
       try {
 
+        # PROTECAO: fail-fast offline RFC rede
+        if (-not [System.Net.NetworkInformation.NetworkInterface]::GetIsNetworkAvailable()) {
+          throw "Rede indisponível"
+        }
+
         $uri = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=pt&dt=t&q=$([uri]::EscapeDataString($joined))"
-        $res = Invoke-RestMethod -Uri $uri -Method Get -TimeoutSec 10
+
+        $res = Invoke-RestMethod `
+          -Uri $uri `
+          -Method Get `
+          -TimeoutSec 3
 
         $translatedRaw = ($res[0] | ForEach-Object { $_[0] }) -join ''
         $translatedBatch = $translatedRaw -split [regex]::Escape($delimiter)
@@ -2364,10 +2518,60 @@ function main {
             $entry.File.DirectoryName `
             $newName
 
+          # FIX-BUG: força rename case-only em FS case-insensitive
+          $tempName = (
+            [IO.Path]::GetFileNameWithoutExtension($newName) +
+            ".__REN_TMP_FORCE_WIN__." +
+            ($entry.Parsed.Extensions -join '.')
+          )
+
+          $tempFullPath = Join-Path `
+            $entry.File.DirectoryName `
+            $tempName
+
+          # PROTECAO: evita colisão estrutural temporária
+          if (
+            (Test-Path -LiteralPath $tempFullPath) `
+              -and `
+            ($tempFullPath -ne $oldFullPath)
+          ) {
+            throw "Colisão rename temporário"
+          }
+
           Rename-Item `
             -LiteralPath $oldFullPath `
-            -NewName $newName `
+            -NewName $tempName `
             -ErrorAction Stop
+
+          # PROTECAO: valida rename intermediário
+          if (-not (Test-Path -LiteralPath $tempFullPath)) {
+            throw "Falha rename temporário"
+          }
+
+          try {
+
+            Rename-Item `
+              -LiteralPath $tempFullPath `
+              -NewName $newName `
+              -ErrorAction Stop
+          }
+          catch {
+
+            # FIX-BUG: rollback determinístico
+            if (
+              (Test-Path -LiteralPath $tempFullPath) `
+                -and `
+                -not (Test-Path -LiteralPath $oldFullPath)
+            ) {
+
+              Rename-Item `
+                -LiteralPath $tempFullPath `
+                -NewName ([IO.Path]::GetFileName($oldFullPath)) `
+                -ErrorAction SilentlyContinue
+            }
+
+            throw
+          }
 
           if (-not (Test-Path -LiteralPath $newFullPath)) {
 
@@ -2388,12 +2592,29 @@ function main {
             throw "Falha pós-rename"
           }
 
+          $oldMapKey = [IO.Path]::GetFullPath(
+            $oldFullPath
+          )
+
+          $newMapKey = [IO.Path]::GetFullPath(
+            $newFullPath
+          )
+
           $entry.File = Get-Item `
             -LiteralPath $newFullPath `
             -ErrorAction Stop
 
           $entry.Relative = Get-RelativePathSafe `
             $newFullPath
+
+          # FIX-BUG: sincroniza índice estrutural pós-rename
+          $script:PipelineState.FileMap.Remove(
+            $oldMapKey
+          )
+
+          $script:PipelineState.FileMap[
+          $newMapKey
+          ] = $entry
         }
       }
       catch {
@@ -2539,21 +2760,75 @@ function main {
       -Filter *.sha256 `
       -ErrorAction SilentlyContinue | ForEach-Object {
 
-      $target = $_.FullName -replace '\.sha256$', ''
+      $shaPath = $_.FullName
 
+      $target = $shaPath -replace '\.sha256$', ''
+
+      # PROTECAO: target ainda existe
       if (Test-Path -LiteralPath $target) {
         return
       }
 
+      $parsedSha = ConvertFrom-Sha256 $shaPath
+
+      $correlated = $false
+
+      if ($parsedSha) {
+
+        $expectedPath = Join-Path `
+          $_.DirectoryName `
+          $parsedSha.FileName
+
+        # FIX-BUG: correlaciona rename legítimo RFC 10
+        if (Test-Path -LiteralPath $expectedPath) {
+          $correlated = $true
+        }
+
+        # FIX-BUG: correlaciona por SHA256 RFC 10
+        if (-not $correlated) {
+
+          foreach ($entry in $script:PipelineState.Files) {
+
+            if ($entry.Removed) {
+              continue
+            }
+
+            if (-not $entry.Hash) {
+              continue
+            }
+
+            if (
+              $entry.Hash.Equals(
+                $parsedSha.Hash,
+                [StringComparison]::OrdinalIgnoreCase
+              )
+            ) {
+              $correlated = $true
+              break
+            }
+          }
+        }
+      }
+
+      if ($correlated) {
+
+        Write-InlineLog `
+          "ℹ️ HASH_CORRELATED :: $(Get-RelativePathSafe $shaPath)" `
+          DarkCyan `
+          -forceNewLine
+
+        return
+      }
+
       Write-InlineLog `
-        "⚠️ ORPHAN_HASH :: $(Get-RelativePathSafe $_.FullName)" `
+        "⚠️ ORPHAN_HASH :: $(Get-RelativePathSafe $shaPath)" `
         Yellow `
         -forceNewLine
 
       if ($Fix -and -not $VerifyOnly) {
 
         Remove-Item `
-          -LiteralPath $_.FullName `
+          -LiteralPath $shaPath `
           -Force `
           -ErrorAction Stop
       }
