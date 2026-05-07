@@ -2501,11 +2501,58 @@ function main {
             "<unknown>"
           }
 
+          # ==========================================================
+          # FIX-BUG:
+          # convergência nominal redundante antes da fase global
+          # de deduplicação.
+          #
+          # Exemplo:
+          #   Game (USA).zip
+          #   Game.zip
+          #
+          # ambos convergem para:
+          #   Game.zip
+          #
+          # Se hashes forem iguais:
+          #   remove redundante imediatamente.
+          # ==========================================================
+
+          $existingHash = Get-FileHashCached `
+            $targetPath
+
+          $currentHash = Get-FileHashCached `
+            $entry.File.FullName
+
+          if ($existingHash -eq $currentHash) {
+
+            Write-InlineLog `
+              "🗑️ PRE-DEDUP :: $currentName -> $newName" `
+              Yellow `
+              -forceNewLine
+
+            Remove-XmlNode $entry
+            Remove-JsonTreeEntry $entry.File.FullName
+
+            if (-not $VerifyOnly) {
+
+              Remove-Item `
+                -LiteralPath $entry.File.FullName `
+                -Force `
+                -ErrorAction Stop
+            }
+
+            $entry.Removed = $true
+
+            continue
+          }
+
           throw (
             "COLLISION :: " +
             "SOURCE=[$currentName] " +
             "TARGET=[$newName] " +
-            "EXISTING=[$conflictName]"
+            "EXISTING=[$conflictName] " +
+            "SRC_HASH=[$currentHash] " +
+            "DST_HASH=[$existingHash]"
           )
         }
 
