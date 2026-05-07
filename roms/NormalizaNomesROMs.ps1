@@ -45,6 +45,21 @@
   Especificação Integrada de Normalização, Integridade e JSON Tree
   (versão 3.1)
 
+  Estrutura - Iteração Única - Foco em Desempenho O(N) :
+    ENUMERAÇÃO ÚNICA
+        ↓
+    CORRELAÇÃO
+        ↓
+    NORMALIZAÇÃO
+        ↓
+    RENAME
+        ↓
+    HASH
+        ↓
+    DEDUP
+        ↓
+    SYNC XML/JSON/SHA    
+
   IMPORTANTE:
     - Todo comportamento MUST ser determinístico e idempotente
     - O filesystem real é a origem primária de verdade física
@@ -1864,19 +1879,52 @@ function Get-CanonicalName {
     $id = Get-IdSeguro $resolvedBase
   }
 
+  # FIX-BUG: extrai idioma ANTES da sanitização estrutural
   $idioma = Get-IdiomaSeguro $resolvedBase
 
   if ($idioma) {
     $idioma = "(" + $idioma.Trim('()').ToUpperInvariant() + ")"
   }
 
-  $nome = Format-NomeCanonico $resolvedBase
+  # FIX-BUG: remove TODOS os grupos antes da canonicalização
+  $normalizedBase = [regex]::Replace(
+    $resolvedBase,
+    '\s*\([^)]*\)',
+    ''
+  )
 
+  $normalizedBase = [regex]::Replace(
+    $normalizedBase,
+    '\s*\[[^\]]*\]',
+    ''
+  )
+
+  $normalizedBase = (
+    $normalizedBase `
+      -replace '\s{2,}', ' '
+  ).Trim()
+
+  $nome = Format-NomeCanonico $normalizedBase
+
+  # FIX-BUG: fail-safe estrutural pós-format
   $nome = [regex]::Replace(
     $nome,
-    '\s*\(([A-Z\-]+)\)',
+    '\s*\([^)]*\)',
     ''
-  ).Trim()  
+  ).Trim()
+
+  # FIX-BUG: remove TODOS os grupos "[]" residuais RFC 6
+  $nome = [regex]::Replace(
+    $nome,
+    '\s*\[[^\]]*\]',
+    ''
+  ).Trim()
+
+  # FIX-BUG: normalização estrutural pós-limpeza
+  $nome = (
+    $nome `
+      -replace '\s{2,}', ' '
+  ).Trim()
 
   if (-not $nome) {
     return $null
@@ -1884,12 +1932,95 @@ function Get-CanonicalName {
 
   $base = $nome
 
+  # PROTECAO: reconstrói exatamente UM idioma
   if ($idioma) {
     $base += " $idioma"
   }
 
+  # PROTECAO: reconstrói exatamente UM ID
   if ($id) {
     $base += " $id"
+  }
+
+  # FIX-BUG: convergência estrutural final
+  $base = (
+    $base `
+      -replace '\s{2,}', ' '
+  ).Trim()
+
+  # FIX-BUG: fail-safe final contra múltiplos "()"
+  $allIdiomas = [regex]::Matches(
+    $base,
+    '\(([^)]*)\)'
+  )
+
+  if ($allIdiomas.Count -gt 1) {
+
+    $tokens = @()
+
+    foreach ($m in $allIdiomas) {
+
+      $token = $m.Groups[1].Value.Trim().ToUpperInvariant()
+
+      if (
+        $token `
+          -and `
+        ($ValidIdiomas -contains $token)
+      ) {
+        $tokens += $token
+      }
+    }
+
+    $preferredIdioma = Get-PreferredIdioma $tokens
+
+    $base = [regex]::Replace(
+      $base,
+      '\s*\([^)]*\)',
+      ''
+    ).Trim()
+
+    if ($preferredIdioma) {
+      $base += " $preferredIdioma"
+    }
+
+    if ($id) {
+      $base += " $id"
+    }
+
+    $base = (
+      $base `
+        -replace '\s{2,}', ' '
+    ).Trim()
+  }
+
+  # FIX-BUG: fail-safe final contra múltiplos "[]"
+  $allIds = [regex]::Matches(
+    $base,
+    '\[([^\]]+)\]'
+  )
+
+  if ($allIds.Count -gt 1) {
+
+    $resolvedId = Get-IdSeguro $base
+
+    $base = [regex]::Replace(
+      $base,
+      '\s*\[[^\]]*\]',
+      ''
+    ).Trim()
+
+    if ($idioma) {
+      $base += " $idioma"
+    }
+
+    if ($resolvedId) {
+      $base += " $resolvedId"
+    }
+
+    $base = (
+      $base `
+        -replace '\s{2,}', ' '
+    ).Trim()
   }
 
   $newName = "$base.$($parsed.Extensions -join '.')"
@@ -2153,7 +2284,9 @@ function main {
     Load-Gamelists
     Initialize-SharedFileIndex
     Resolve-XmlCorrelation
-    Build-SharedHashIndex
+
+    # FIX-BUG: hashing lazy RFC 13
+    # PROTECAO: evita snapshot estrutural prematuro
 
     # ==========================================================
     # NORMALIZAÇÃO
@@ -2182,8 +2315,8 @@ function main {
 
             $token = $m.Groups[1].Value.Trim()
 
-            # FIX-BUG: preserva apenas tokens definidos globalmente
-            if ($script:ValidIdiomas -contains $token) {
+            # FIX-BUG: usa whitelist real RFC 5
+            if ($ValidIdiomas -contains $token) {
               return "($token)"
             }
 
@@ -2191,30 +2324,85 @@ function main {
           }
         )
 
-        # FIX-BUG: remove idiomas/regiões duplicados
-        $seenParenTokens = @{}
-
-        $entry.Canonical = [regex]::Replace(
+        # FIX-BUG: força idioma único RFC 4 + RFC 5
+        $idiomaMatches = [regex]::Matches(
           $entry.Canonical,
-          '\(([^)]*)\)',
-          {
-            param($m)
-
-            $token = $m.Groups[1].Value.Trim()
-
-            $key = $token.ToUpperInvariant()
-
-            if ($seenParenTokens.ContainsKey($key)) {
-              return ''
-            }
-
-            $seenParenTokens[$key] = $true
-
-            return "($token)"
-          }
+          '\(([^)]*)\)'
         )
 
-        # FIX-BUG: normaliza espaços após remoção
+        $idiomaFinal = $null
+
+        if ($idiomaMatches.Count -gt 0) {
+
+          $idiomaTokens = @()
+
+          foreach ($m in $idiomaMatches) {
+
+            $token = $m.Groups[1].Value.Trim().ToUpperInvariant()
+
+            if (
+              $token `
+                -and `
+              ($ValidIdiomas -contains $token)
+            ) {
+              $idiomaTokens += $token
+            }
+          }
+
+          $idiomaFinal = Get-PreferredIdioma $idiomaTokens
+        }
+
+        # FIX-BUG: remove TODOS os grupos "()"
+        $entry.Canonical = [regex]::Replace(
+          $entry.Canonical,
+          '\s*\(([^)]*)\)',
+          ''
+        )
+
+        # FIX-BUG: remove TODOS os grupos "[]"
+        $entry.Canonical = [regex]::Replace(
+          $entry.Canonical,
+          '\s*\[[^\]]*\]',
+          ''
+        )
+
+        # FIX-BUG: reconstrói idioma único canônico
+        if ($idiomaFinal) {
+          $entry.Canonical += " $idiomaFinal"
+        }
+
+        # FIX-BUG: reconstrói ID único canônico RFC 6
+        $resolvedId = Get-IdSeguro $entry.Canonical
+
+        if (-not $resolvedId) {
+
+          $resolvedId = Get-IdSeguro $currentName
+        }
+
+        if (
+          -not $resolvedId `
+            -and `
+            $entry.XmlNode
+        ) {
+
+          $xmlIdAttr = $entry.XmlNode.Attributes["id"]
+
+          if (
+            $xmlIdAttr `
+              -and `
+              $xmlIdAttr.Value
+          ) {
+            $resolvedId = "[" + $xmlIdAttr.Value.Trim() + "]"
+          }
+        }
+
+        if ($resolvedId) {
+
+          # PROTECAO: garante ID único
+          $entry.Canonical += " $resolvedId"
+        }
+
+        # FIX-BUG: normalização estrutural final
         $entry.Canonical = (
           $entry.Canonical `
             -replace '\s{2,}', ' '
@@ -2223,9 +2411,35 @@ function main {
         $currentName = $entry.File.Name
         $newName = $entry.Canonical
 
+        # FIX-BUG: força convergência nominal RFC 4/5/6
+        $rawParenCount = (
+          [regex]::Matches(
+            $currentName,
+            '\([^)]*\)'
+          )
+        ).Count
+
+        $rawIdCount = (
+          [regex]::Matches(
+            $currentName,
+            '\[[^\]]*\]'
+          )
+        ).Count
+
+        # FIX-BUG: comparação determinística pós-normalização
+        $normalizedCurrent = (
+          $currentName `
+            -replace '\s{2,}', ' '
+        ).Trim()
+
+        $normalizedNew = (
+          $newName `
+            -replace '\s{2,}', ' '
+        ).Trim()
+
         if (
-          $currentName.Equals(
-            $newName,
+          $normalizedCurrent.Equals(
+            $normalizedNew,
             [StringComparison]::Ordinal
           )
         ) {
@@ -2283,6 +2497,16 @@ function main {
           "✏️ CHANGE-NAME :: $currentName -> $newName" `
           DarkGreen `
           -forceNewLine
+
+        # PROTECAO: evita rename redundante estrutural
+        if (
+          $entry.File.FullName.Equals(
+            (Join-Path $entry.File.DirectoryName $newName),
+            [StringComparison]::Ordinal
+          )
+        ) {
+          continue
+        }
 
         $oldXmlPathValue = $null
 
