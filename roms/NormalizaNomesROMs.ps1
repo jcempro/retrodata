@@ -930,6 +930,15 @@ function Remove-NoiseMarkers {
 
       $normalized = $raw.ToUpperInvariant()
 
+      # FIX-BUG:
+      # remove grupos técnicos RFC 7 antes da validação de idioma
+      if (
+        $normalized -match `
+          '^(REV(?:ISION)?|BETA|PROTO|PROTOTYPE|DEMO|SAMPLE|BUILD)\b'
+      ) {
+        return ''
+      }      
+
       # PROTECAO: preserva formas compostas válidas (BR-XX)
       if (
         $normalized -match '^[A-Z]{2,3}-[A-Z]{2,3}$'
