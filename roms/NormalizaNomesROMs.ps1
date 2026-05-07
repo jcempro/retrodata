@@ -823,7 +823,7 @@ $IdiomaPriority = @('BR', 'PT', 'USA')
 
 # ================= CORE HELPERS =================
 
-function Split-IdiomaTokens {
+function Get-IdiomaTokens {
   param([string]$text)
 
   $tokens = @()
@@ -842,7 +842,7 @@ function Split-IdiomaTokens {
   return $tokens
 }
 
-function Select-Idioma {
+function Get-PreferredIdioma {
   param([string[]]$tokens)
 
   if (-not $tokens -or $tokens.Count -eq 0) { return $null }
@@ -859,8 +859,8 @@ function Select-Idioma {
 function Get-IdiomaSeguro {
   param([string]$text)
 
-  $tokens = Split-IdiomaTokens $text
-  return Select-Idioma $tokens
+  $tokens = Get-IdiomaTokens $text
+  return Get-PreferredIdioma $tokens
 }
 
 function Get-IdSeguro {
@@ -905,7 +905,7 @@ function Remove-NoiseMarkers {
   return $t.Trim()
 }
 
-function Normalize-Nome {
+function Format-NomeCanonico {
   param([string]$nome)
 
   if (-not $nome) { return $null }
@@ -913,6 +913,20 @@ function Normalize-Nome {
   $n = Remove-NoiseMarkers $nome
 
   if (-not $n) { return $null }
+
+  # FIX-BUG: remove marcadores técnicos RFC 7
+  $n = [regex]::Replace(
+    $n,
+    '(?i)\s*[\[\(]?\b(beta|proto|prototype|sample|demo|build|rev(?:ision)?)[^)\]]*[\)\]]?',
+    ''
+  )
+
+  # FIX-BUG: remove versões técnicas RFC 7
+  $n = [regex]::Replace(
+    $n,
+    '(?i)\bT\d+(\.\d+)?\b',
+    ''
+  )
 
   # Remoções controladas (conservador)
   $n = $n -replace '\s-\sThe Videogame$', ''
@@ -927,6 +941,13 @@ function Normalize-Nome {
   # Normalização de espaços
   $n = $n -replace '\s{2,}', ' '
 
+  # FIX-BUG: remove resíduos estruturais finais
+  $n = $n.Trim(' ', '-', '_', '.')
+
+  if (-not $n) {
+    return $null
+  }
+
   # TitleCase (controlado)
   $n = ([cultureinfo]::InvariantCulture.TextInfo).ToTitleCase(
     $n.Trim().ToLowerInvariant()
@@ -937,7 +958,8 @@ function Normalize-Nome {
       param($m)
       $m.Value.ToUpperInvariant()
     })
-  return ConvertTo-RomanAwareTitle $n
+
+  return Format-RomanAwareTitle $n
 }
 
 function Extract-Extensions {
@@ -956,7 +978,8 @@ function Extract-Extensions {
     $candidate = $parts[$i]
 
     # remove lixo tipo "(1)"
-    $candidate = $candidate -replace '\s*\(.*?\)', ''
+    # FIX-BUG: remove apenas lixo numérico intermediário
+    $candidate = $candidate -replace '^\(\d+\)$', ''
     $candidate = $candidate.Trim()
 
     if ($ValidExtSet.Contains($candidate)) {
@@ -987,14 +1010,14 @@ function Extract-Extensions {
   }
 }
 
-function ConvertTo-RomanAwareTitle {
+function Format-RomanAwareTitle {
   param([string]$text)
 
   if (-not $text) { return $null } # FIX-BUG: typo returgan
 
   $words = $text -split ' '
 
-  $romanRegex = '^(?i:M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3}))$'
+  $romanRegex = '^(?=.+)(?i:M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3}))$'
 
   for ($i = 0; $i -lt $words.Count; $i++) {
     $w = $words[$i]
@@ -1096,7 +1119,7 @@ function Get-RelativePathSafe {
   catch {
     try {
       $base = (Get-Location).Path.TrimEnd('\', '/')
-      if ($FullPath.StartsWith($base, [StringComparison]::OrdinalIgnoreCase)) {
+      if ($FullPath.StartsWith($base, [StringComparison]::Ordinal)) {
         return $FullPath.Substring($base.Length).TrimStart('\', '/')
       }
     }
@@ -1119,6 +1142,18 @@ function Write-AtomicTextFile {
 
   try {
     [System.IO.File]::WriteAllText($tmp, $Content, $Encoding)
+
+    # PROTECAO: valida escrita antes da substituição
+    if (-not (Test-Path -LiteralPath $tmp)) {
+      throw "TMP não criado"
+    }
+
+    $tmpInfo = Get-Item -LiteralPath $tmp -ErrorAction Stop
+
+    # FIX-BUG: valida arquivo temporário estruturalmente
+    if ($tmpInfo.Length -eq 0 -and $Content.Length -gt 0) {
+      throw "TMP inválido"
+    }
 
     Move-Item `
       -LiteralPath $tmp `
@@ -1233,6 +1268,12 @@ function ConvertFrom-Sha256 {
     }
   }
   catch {
+
+    Write-InlineLog `
+      "⚠️ SHA256_PARSE_FAIL :: $(Get-RelativePathSafe $ShaPath)" `
+      Yellow `
+      -forceNewLine
+
     return $null
   }
 }
@@ -1260,10 +1301,14 @@ function Test-IsSpecialJsonPath {
 
     $root = Join-Path (Get-Location) $dir
 
+    $normalizedRoot = [IO.Path]::GetFullPath($root).TrimEnd('\', '/') + [IO.Path]::DirectorySeparatorChar
+    $normalizedPath = [IO.Path]::GetFullPath($Path)
+
+    # FIX-BUG: evita falso positivo estrutural
     if (
-      $Path.StartsWith(
-        $root,
-        [StringComparison]::OrdinalIgnoreCase
+      $normalizedPath.StartsWith(
+        $normalizedRoot,
+        [StringComparison]::Ordinal
       )
     ) {
       return $true
@@ -1280,14 +1325,18 @@ function Get-JsonTreePath {
 
     $root = Join-Path (Get-Location) $dir
 
+    $normalizedRoot = [IO.Path]::GetFullPath($root).TrimEnd('\', '/') + [IO.Path]::DirectorySeparatorChar
+    $normalizedPath = [IO.Path]::GetFullPath($FilePath)
+
+    # FIX-BUG: evita colisão parcial de path
     if (
-      $FilePath.StartsWith(
-        $root,
-        [StringComparison]::OrdinalIgnoreCase
+      $normalizedPath.StartsWith(
+        $normalizedRoot,
+        [StringComparison]::Ordinal
       )
     ) {
 
-      $relative = $FilePath.Substring($root.Length).TrimStart('\', '/')
+      $relative = $normalizedPath.Substring($normalizedRoot.Length).TrimStart('\', '/')
 
       $parts = $relative -split '[\\/]'
 
@@ -1422,6 +1471,10 @@ function Remove-JsonTreeEntry {
       Name   = $segment
     }
 
+    if (-not $cursor.PSObject.Properties[$segment]) {
+      return
+    }
+
     $cursor = $cursor.$segment
   }
 
@@ -1468,6 +1521,26 @@ function Load-JsonTrees {
       continue
     }
 
+    # FIX-BUG: cria JSON tree ausente RFC 2
+    Get-ChildItem `
+      -LiteralPath $root `
+      -Directory `
+      -ErrorAction SilentlyContinue | ForEach-Object {
+
+      $jsonTreePath = Join-Path $_.FullName "$($_.Name).sha256.json"
+
+      if (-not (Test-Path -LiteralPath $jsonTreePath)) {
+
+        $emptyTree = [pscustomobject]@{}
+
+        $script:PipelineState.JsonTrees[$jsonTreePath] = $emptyTree
+
+        if (-not $script:VerifyOnlyMode) {
+          $script:PipelineState.PendingJsonSave[$jsonTreePath] = $true
+        }
+      }
+    }
+
     Get-ChildItem `
       -LiteralPath $root `
       -Filter *.sha256.json `
@@ -1482,6 +1555,10 @@ function Load-JsonTrees {
           -ErrorAction Stop
 
         $parsed = $json | ConvertFrom-Json -ErrorAction Stop
+
+        if (-not $parsed) {
+          $parsed = [pscustomobject]@{}
+        }
 
         $script:PipelineState.JsonTrees[$_.FullName] = $parsed
       }
@@ -1498,7 +1575,7 @@ function Save-PendingJsonTrees {
 
     $json = (
       $script:PipelineState.JsonTrees[$jsonPath] |
-      ConvertTo-Json -Depth 100 -Compress
+      ConvertTo-Json -Depth 100
     )
 
     Write-AtomicTextFile `
@@ -1519,8 +1596,15 @@ function Load-Gamelists {
     -Directory `
     -ErrorAction SilentlyContinue | Where-Object {
 
-    Test-Path `
-      -LiteralPath (Join-Path $_.FullName "gamelist.xml")
+    # FIX-BUG: restringe gamelist.xml ao root ROM imediato
+    $_.Parent `
+      -and `
+      $_.Parent.FullName -eq (Get-Location).Path `
+      -and `
+    (
+      Test-Path `
+        -LiteralPath (Join-Path $_.FullName "gamelist.xml")
+    )
 
   } | ForEach-Object {
 
@@ -1551,7 +1635,32 @@ function Save-PendingXml {
 
     $xml = $script:PipelineState.XmlMap[$xmlPath]
 
-    $content = $xml.OuterXml
+    # FIX-BUG: preserva declaração XML e estrutura RFC 3.7
+    $settings = New-Object System.Xml.XmlWriterSettings
+    $settings.Indent = $true
+    $settings.OmitXmlDeclaration = $false
+    $settings.Encoding = [System.Text.Encoding]::UTF8
+
+    $sw = New-Object System.IO.StringWriter
+
+    try {
+
+      $xw = [System.Xml.XmlWriter]::Create($sw, $settings)
+
+      $xml.Save($xw)
+
+      $xw.Flush()
+
+      $content = $sw.ToString()
+    }
+    finally {
+
+      if ($xw) {
+        $xw.Dispose()
+      }
+
+      $sw.Dispose()
+    }
 
     Write-AtomicTextFile `
       -Path $xmlPath `
@@ -1565,7 +1674,7 @@ function Save-PendingXml {
   }
 }
 
-function Build-SharedFileIndex {
+function Initialize-SharedFileIndex {
 
   $script:PipelineState.Files = @()
   $script:PipelineState.FileMap = @{}
@@ -1605,8 +1714,9 @@ function Build-SharedFileIndex {
 
     $script:PipelineState.Files += $entry
 
+    # FIX-BUG: preserva case-sensitive estrutural RFC 3.2
     $script:PipelineState.FileMap[
-    $_.FullName.ToLowerInvariant()
+    [IO.Path]::GetFullPath($_.FullName)
     ] = $entry
   }
 }
@@ -1633,7 +1743,8 @@ function Resolve-XmlCorrelation {
 
       $full = Join-Path $systemRoot $relative
 
-      $key = $full.ToLowerInvariant()
+      # FIX-BUG: preserva correlação case-sensitive RFC 3.2
+      $key = [IO.Path]::GetFullPath($full)
 
       if ($script:PipelineState.FileMap.ContainsKey($key)) {
 
@@ -1641,12 +1752,8 @@ function Resolve-XmlCorrelation {
 
         if ($entry.XmlNode) {
 
-          Write-InlineLog `
-            "⚠️ XML-DUPLICATE :: $relative" `
-            Yellow `
-            -forceNewLine
-
-          continue
+          # FIX-BUG: aborta ambiguidade estrutural XML RFC 3.5
+          throw "XML duplicado para path correlacionado: $relative"
         }
 
         $entry.XmlNode = $game
@@ -1669,12 +1776,23 @@ function Get-CanonicalName {
 
   if ($Entry.XmlNode) {
 
-    if ($Entry.XmlNode.name) {
-      $resolvedBase = $Entry.XmlNode.name
+    $xmlName = $Entry.XmlNode.SelectSingleNode("name")
+    $xmlId = $Entry.XmlNode.Attributes["id"]
+
+    if (
+      $xmlName `
+        -and `
+        $xmlName.InnerText
+    ) {
+      $resolvedBase = $xmlName.InnerText.Trim()
     }
 
-    if ($Entry.XmlNode.id) {
-      $id = "[" + $Entry.XmlNode.id + "]"
+    if (
+      $xmlId `
+        -and `
+        $xmlId.Value
+    ) {
+      $id = "[" + $xmlId.Value.Trim() + "]"
     }
   }
 
@@ -1688,7 +1806,7 @@ function Get-CanonicalName {
     $idioma = "(" + $idioma.Trim('()').ToUpperInvariant() + ")"
   }
 
-  $nome = Normalize-Nome $resolvedBase
+  $nome = Format-NomeCanonico $resolvedBase
 
   $nome = [regex]::Replace(
     $nome,
@@ -1712,14 +1830,31 @@ function Get-CanonicalName {
 
   $newName = "$base.$($parsed.Extensions -join '.')"
 
-  return (Remove-InvalidFileNameChars $newName)
-}
+  $safeName = Remove-InvalidFileNameChars $newName
 
-function Build-DuplicateIndex {
+  # FIX-BUG: proteção pós-normalização extrema
+  if (
+    -not $safeName `
+      -or `
+      $safeName.StartsWith('.')
+  ) {
+    return $null
+  }
+
+  return $safeName
+}
+function Build-SharedHashIndex {
+
+  $script:PipelineState.DuplicateIndex = @{}
 
   foreach ($entry in $script:PipelineState.Files) {
 
     if ($entry.Removed) {
+      continue
+    }
+
+    # PROTECAO: evita hashing de arquivo inexistente
+    if (-not (Test-Path -LiteralPath $entry.File.FullName)) {
       continue
     }
 
@@ -1745,7 +1880,7 @@ function Select-CanonicalDuplicate {
   return $ordered[0]
 }
 
-function Sync-XmlPath {
+function Update-XmlPath {
   param(
     [object]$Entry,
     [string]$NewName
@@ -1763,7 +1898,24 @@ function Sync-XmlPath {
 
   $oldRelative = $pathNode.InnerText
 
-  $newRelative = "./$NewName"
+  $currentRelative = $pathNode.InnerText.Trim()
+
+  $currentRelative = $currentRelative -replace '^[.][\\/]', ''
+
+  $currentDir = Split-Path `
+    -Path $currentRelative `
+    -Parent
+
+  if (
+    $currentDir `
+      -and `
+      $currentDir -ne '.'
+  ) {
+    $newRelative = "./$currentDir/$NewName"
+  }
+  else {
+    $newRelative = "./$NewName"
+  }
 
   if ($oldRelative -ne $newRelative) {
 
@@ -1801,9 +1953,7 @@ function Invoke-TranslateBatch {
 
   if (-not $script:TranslationEnabled) {
     return $texts
-  }  
-
-  $script:TranslationEnabled = $false
+  }
 
   $results = @()
   $batchSize = 5
@@ -1815,6 +1965,8 @@ function Invoke-TranslateBatch {
 
     $joined = ($batch -join " $delimiter ")
 
+    $translatedBatch = $null
+
     for ($retry = 0; $retry -lt 3; $retry++) {
       try {
 
@@ -1822,26 +1974,42 @@ function Invoke-TranslateBatch {
         $res = Invoke-RestMethod -Uri $uri -Method Get -TimeoutSec 10
 
         $translatedRaw = ($res[0] | ForEach-Object { $_[0] }) -join ''
-        $split = $translatedRaw -split [regex]::Escape($delimiter)
-
-        for ($j = 0; $j -lt $batch.Count; $j++) {
-
-          $original = $batch[$j]
-          $translated = if ($j -lt $split.Count) { $split[$j].Trim() } else { $original }
-
-          if (-not $translated -or $translated -eq $original) {
-            $translated = $original # PROTECAO
-          }
-
-          $results += $translated
-        }
+        $translatedBatch = $translatedRaw -split [regex]::Escape($delimiter)
 
         Start-Sleep -Milliseconds 200
         break
       }
       catch {
-        Start-Sleep -Seconds (2 * ($retry + 1)) # PROTECAO
+
+        # PROTECAO: backoff determinístico
+        Start-Sleep -Seconds (2 * ($retry + 1))
+
+        if ($retry -eq 2) {
+          $translatedBatch = $batch
+        }
       }
+    }
+
+    for ($j = 0; $j -lt $batch.Count; $j++) {
+
+      $original = $batch[$j]
+
+      $translated = if (
+        $translatedBatch `
+          -and `
+          $j -lt $translatedBatch.Count
+      ) {
+        $translatedBatch[$j].Trim()
+      }
+      else {
+        $original
+      }
+
+      if (-not $translated) {
+        $translated = $original # PROTECAO: preserva conteúdo original
+      }
+
+      $results += $translated
     }
   }
 
@@ -1913,13 +2081,15 @@ function main {
       throw "Outra instância já está em execução"
     }
 
+    $script:VerifyOnlyMode = $VerifyOnly
+
     Write-InlineLog "ℹ️ PIPELINE :: INITIALIZE" Cyan -forceNewLine
 
     Load-JsonTrees
     Load-Gamelists
-    Build-SharedFileIndex
+    Initialize-SharedFileIndex
     Resolve-XmlCorrelation
-    Build-DuplicateIndex
+    Build-SharedHashIndex
 
     # ==========================================================
     # NORMALIZAÇÃO
@@ -2003,23 +2173,63 @@ function main {
           DarkGreen `
           -forceNewLine
 
-        Sync-XmlPath `
+        $oldXmlPathValue = $null
+
+        if ($Entry.XmlNode) {
+          $pathNode = $Entry.XmlNode.SelectSingleNode("path")
+
+          if ($pathNode) {
+            $oldXmlPathValue = $pathNode.InnerText
+          }
+        }
+
+        Update-XmlPath `
           -Entry $entry `
           -NewName $newName
 
         if (-not $VerifyOnly) {
           $oldShaPath = "$($entry.File.FullName).sha256"
 
-          Rename-Item `
-            -LiteralPath $entry.File.FullName `
-            -NewName $newName `
-            -ErrorAction Stop
+          $oldFullPath = $entry.File.FullName
 
           $newFullPath = Join-Path `
             $entry.File.DirectoryName `
             $newName
 
+          Rename-Item `
+            -LiteralPath $oldFullPath `
+            -NewName $newName `
+            -ErrorAction Stop
+
+          $oldKey = [IO.Path]::GetFullPath($oldFullPath)
+
+          if ($script:PipelineState.HashCache.ContainsKey($oldKey)) {
+
+            $hash = $script:PipelineState.HashCache[$oldKey]
+
+            $script:PipelineState.HashCache.Remove($oldKey)
+
+            $newKey = [IO.Path]::GetFullPath($newFullPath)
+
+            $script:PipelineState.HashCache[$newKey] = $hash
+          }
+
           if (-not (Test-Path -LiteralPath $newFullPath)) {
+
+            # FIX-BUG: rollback XML em falha estrutural
+            if (
+              $Entry.XmlNode `
+                -and `
+                $oldXmlPathValue
+            ) {
+
+              $rollbackPathNode = $Entry.XmlNode.SelectSingleNode("path")
+
+              if ($rollbackPathNode) {
+                $rollbackPathNode.InnerText = $oldXmlPathValue
+              }
+            }
+
             throw "Falha pós-rename"
           }
 
