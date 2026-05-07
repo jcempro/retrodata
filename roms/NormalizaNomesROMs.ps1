@@ -2484,10 +2484,29 @@ function main {
         if (
           (Test-Path -LiteralPath $targetPath) `
             -and `
-          ($targetPath -ne $entry.File.FullName)
+          (-not $targetPath.Equals(
+              $entry.File.FullName,
+              [StringComparison]::OrdinalIgnoreCase
+            ))
         ) {
 
-          throw "Colisão estrutural não resolvível"
+          $conflictTarget = Get-Item `
+            -LiteralPath $targetPath `
+            -ErrorAction SilentlyContinue
+
+          $conflictName = if ($conflictTarget) {
+            $conflictTarget.Name
+          }
+          else {
+            "<unknown>"
+          }
+
+          throw (
+            "COLLISION :: " +
+            "SOURCE=[$currentName] " +
+            "TARGET=[$newName] " +
+            "EXISTING=[$conflictName]"
+          )
         }
 
         Write-InlineLog `
@@ -2518,59 +2537,46 @@ function main {
             $entry.File.DirectoryName `
             $newName
 
-          # FIX-BUG: força rename case-only em FS case-insensitive
-          $tempName = (
-            [IO.Path]::GetFileNameWithoutExtension($newName) +
-            ".__REN_TMP_FORCE_WIN__." +
-            ($entry.Parsed.Extensions -join '.')
+          # FIX BUG:
+          # Windows não diferencia case no filesystem.
+          # Renames apenas de capitalização exigem rename intermediário.
+
+          $requiresCaseFix = (
+            $currentName -ieq $newName `
+              -and `
+              $currentName -cne $newName
           )
 
-          $tempFullPath = Join-Path `
-            $entry.File.DirectoryName `
-            $tempName
+          if ($requiresCaseFix) {
 
-          # PROTECAO: evita colisão estrutural temporária
-          if (
-            (Test-Path -LiteralPath $tempFullPath) `
-              -and `
-            ($tempFullPath -ne $oldFullPath)
-          ) {
-            throw "Colisão rename temporário"
-          }
+            $__TAG_FORCE = ".__rename_tmp__"
 
-          Rename-Item `
-            -LiteralPath $oldFullPath `
-            -NewName $tempName `
-            -ErrorAction Stop
+            $tempName = "$newName$__TAG_FORCE"
 
-          # PROTECAO: valida rename intermediário
-          if (-not (Test-Path -LiteralPath $tempFullPath)) {
-            throw "Falha rename temporário"
-          }
+            $tempPath = Join-Path `
+              $entry.File.DirectoryName `
+              $tempName
 
-          try {
+            if (Test-Path -LiteralPath $tempPath) {
+              throw "Colisão temporária de rename"
+            }
 
             Rename-Item `
-              -LiteralPath $tempFullPath `
+              -LiteralPath $oldFullPath `
+              -NewName $tempName `
+              -ErrorAction Stop
+
+            Rename-Item `
+              -LiteralPath $tempPath `
               -NewName $newName `
               -ErrorAction Stop
           }
-          catch {
+          else {
 
-            # FIX-BUG: rollback determinístico
-            if (
-              (Test-Path -LiteralPath $tempFullPath) `
-                -and `
-                -not (Test-Path -LiteralPath $oldFullPath)
-            ) {
-
-              Rename-Item `
-                -LiteralPath $tempFullPath `
-                -NewName ([IO.Path]::GetFileName($oldFullPath)) `
-                -ErrorAction SilentlyContinue
-            }
-
-            throw
+            Rename-Item `
+              -LiteralPath $oldFullPath `
+              -NewName $newName `
+              -ErrorAction Stop
           }
 
           if (-not (Test-Path -LiteralPath $newFullPath)) {
