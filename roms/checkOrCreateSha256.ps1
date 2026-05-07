@@ -31,8 +31,9 @@ DIRETRIZES OBRIGATÓRIAS:
 
 1. ESCOPO DE ARQUIVOS
    - Extensões válidas: .zip, .7z, .iso, .gen, .chd, .z64, .nes, .sfc, .smc, .bin, .cue
-   - Diretório 'steam' tratado como caso especial (JSON tree validation usado como emulador de pastas virtual)
-                * comportamento lógico de .sha256 convencional, mas com estrutura hierárquica definida por JSON
+   - Diretórios contidos em $specialJsonDirs tratado como caso especial (JSON tree 
+                validation usado como emulador de pastas virtual) comportamento lógico 
+                de .sha256 convencional, mas com estrutura hierárquica definida por JSON
    - Arquivos .sha256.json são ignorados em todas as operações
    - .sha256 convencionais operam por arquivo (.ROM.sha256)
 
@@ -58,23 +59,29 @@ DIRETRIZES OBRIGATÓRIAS:
 
    Requisito estrutural OBRIGATÓRIO:
    - json emula uma pasta virtual (drive virtual)
-   - Cada subdiretório DEVE ter um JSON em ./windows/<nome>.sha256.json
-     e ./steam/<nome>.sha256.json
+   - Cada subdiretório DEVE ter um JSON, exemplo: em ./windows/<nome>.sha256.json
+     ou ./steam/<nome>.sha256.json
    - JSON contém árvore de hashes de todo o subdiretório
 
    Comportamento:
    - Se JSON ausente → cria automaticamente
-   - Se JSON inválido (mal formatado) → log ERROR, sem correção
+   - Se JSON inválido (mal formatado) → log ERROR, corrige
    - Valida recursivamente todos os arquivos vs JSON
    - Divergência estrutural (arquivo faltante/sobrando) → log ERROR
    - Hash divergente → log ERROR
    - cada item string do json representa um arquivo .sha256 convencional,
-     possuindo a mesma lógica aplicada a ele incluindo, mas não se limidando a:
-     * hash divergente → log ERROR, correção automática apenas com -Fix
-     * hash ausente → regenera hash, log FIX
-     * entrada presente no JSON mas ausente no FS → removido
-     * entrada presente no FS mas ausente no JSON → log ERROR, sem correção automática
-     * outros...
+     possuindo a mesma lógica aplicada a ele, incluindo, mas não se limidando a:
+     * eventual lógica para deleção, inclusão e alteração de entrada (arquivo);
+     * eventual lógica para hash divergente;
+     * eventual lógica para hash ausente;
+     * eventual lógica para verificação de arquivo correspondente (originário do hash)
+       no FS ;     
+     * eventual lógica para entrada presente no FS mas ausente no JSON;
+     * outros..
+    - a única diferença diferença entre uma entrada string do json, e um arquivo
+      .sha256 real, é que a entrada do jsson é uma string ASCII pura do hash,
+      enquanto o .sha256 segue uma sintaxe que inclui o nome do arquivo, pois o nome (a
+      a entrada já serve como suficiente para isso [case-sensitive])
 
    Estrutura do JSON:
    {
