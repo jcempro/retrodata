@@ -5,328 +5,324 @@
     <software>ARRM</software>
     <web>http://jujuvincebros.fr/wiki/arrm/doku.php</web>
   </provider>
-  <game id="5402">
-    <path>./Conker's Bad Fur Day (BR) (Sem Censura) (T1.01).z64.7z</path>
-    <name>Conker's Bad Fur Day</name>
+  <game id="5415">
+    <path>./Killer Instinct Gold [5415].7z</path>
+    <name>KILLER INSTINCT GOLD [5415]</name>
     <mode>Jogador individual</mode>
-    <desc>Conker's Bad Fur Day released in 2001 features graphic violence, sexual themes, strong language, scatological humor, and numerous film parodies. The game received high praise from critics, who praised its graphics, sounds and presentation. It is considered by many to be one of the best-looking games on the Nintendo 64.
-Very good gameplay along the lines of Banjo-Kazoie and a narrative told in chapters without taking the player out of the immersion, and one of the top multiplayers on the Nintendo 64.</desc>
+    <desc>UMA CONVERSÃO ATUALIZADA DO KILLER INSTINCT 2 DOS ARCADAS, TODOS OS LUTADORES, MOVIMENTOS E FASES ESTÃO DISPONÍVEIS (INCLUINDO AS TRÊS NOVOS LUTADOR, MAYA, KIM WU E TUSK) ALÉM DE NOVOS MODOS DE JOGO, COMO TEAM, TEAM ELIMINATION, 5 NÍVEIS DE VELOCIDADE E UM MODO DE TREINAMENTO COMPLETO AJUDANDO VOCÊ A APRENDER OS MUITOS MOVIMENTOS, COMBOS E ATAQUES ESPECIAIS PARA CADA LUTADOR.</desc>
+    <rating>0.60</rating>
+    <releasedate>19970701T000000</releasedate>
+    <developer>RAREWARE</developer>
+    <publisher>NINTENDO</publisher>
+    <genre>LUTA / VERSUS, LUTA</genre>
+    <genreid>262</genreid>
+    <players>1-2</players>
+    <md5>dd0a82fcc10397afb37f12bb7f94e67a</md5>
+    <hash>0B5B5DF8</hash>
+    <region>us</region>
+    <image>./media/image/Killer Instinct Gold [5415]-image.png</image>
+    <video>./media/videos/Killer Instinct Gold [5415]-video.mp4</video>
+    <boxart>./media/image/Killer Instinct Gold [5415]-boxart.png</boxart>
+    <screenshot>./media/screenshots/Killer Instinct Gold [5415]-screenshot.png</screenshot>
+    <cartridge>./media/image/Killer Instinct Gold [5415]-cartridge.png</cartridge>
+    <fanart>./media/fanart/Killer Instinct Gold [5415]-fanart.jpg</fanart>
+    <titleshot>./media/image/Killer Instinct Gold [5415]-titleshot.png</titleshot>
+    <manual>./media/manuals/Killer Instinct Gold [5415]_(us).pdf</manual>
+    <boxback>./media/image/Killer Instinct Gold [5415]-boxback.png</boxback>
+    <extra1>./media/extras/Killer Instinct Gold [5415]-extra1.png</extra1>
+    <bezel>./media/image/Killer Instinct Gold [5415]-bezel.png</bezel>
+  </game>
+  <game id="5510">
+    <path>./Mace - The Dark Age [5510].7z</path>
+    <name>MACE - THE DARK AGE [5510]</name>
+    <mode>Jogador individual</mode>
+    <desc>MACE THE DARK AGE É UM JOGO DE LUTA QUE FOI FEITO PELA JOGOS MIDWAY, E LANÇADO PELA ATARI PARA ARCADE. ACREDITA-SE QUE FOI O PIONEIRO EM APROVEITAR O AMBIENTE 3D JOGO EM DE LUTA NO NINTENDO 64.
+VIVA PELA ESPADA. MATE PELA MAÇA! FORJADO NO FOGO DA IDADE DAS TREVAS, CADA PERSONAGEM MEDIEVAL EMPUNHA UMA ARMA ÚNICA EM SUA TERRA DE ORIGEM. SEU ÚNICO DESEJO - INFLIGIR DOR GRAVE! DEZESSEIS PERSONAGENS SELECIONÁVEIS PELO JOGADOR, DOIS CHEFES INCRÍVEIS E SEIS PERSONAGENS OCULTOS. TONELADAS DE COMBINAÇÕES SABOROSAS E REVERSÕES COM CONTROLES SIMPLES DE QUATRO BOTÕES. TORNE-SE IMERSO NA BATALHA COM O MOVIMENTO COMPLETO DOS PERSONAGENS EM 3D. CONTEMPLE AS ARENAS MULTI-NÍVEL INTERATIVAS, MAS CUIDADO COM OS LIMITES MORTAIS!</desc>
+    <rating>0.60</rating>
+    <releasedate>19971201T000000</releasedate>
+    <developer>MIDWAY</developer>
+    <publisher>GT INTERACTIVE SOFTWARE</publisher>
+    <genre>LUTA / VERSUS, LUTA</genre>
+    <genreid>262</genreid>
+    <players>1-2</players>
+    <md5>39a2bca1c17cd4cf1a9f3ae2b725b5c6</md5>
+    <hash>D2A363A6</hash>
+    <region>us</region>
+    <image>./media/image/Mace - The Dark Age [5510]-image.png</image>
+    <video>./media/videos/Mace - The Dark Age [5510]-video.mp4</video>
+    <boxart>./media/image/Mace - The Dark Age [5510]-boxart.png</boxart>
+    <screenshot>./media/screenshots/Mace - The Dark Age [5510]-screenshot.png</screenshot>
+    <cartridge>./media/image/Mace - The Dark Age [5510]-cartridge.png</cartridge>
+    <fanart>./media/fanart/Mace - The Dark Age [5510]-fanart.jpg</fanart>
+    <titleshot>./media/image/Mace - The Dark Age [5510]-titleshot.png</titleshot>
+    <manual>./media/manuals/Mace - The Dark Age [5510]_(us).pdf</manual>
+    <boxback>./media/image/Mace - The Dark Age [5510]-boxback.png</boxback>
+    <extra1>./media/extras/Mace - The Dark Age [5510]-extra1.png</extra1>
+    <bezel>./media/image/Mace - The Dark Age [5510]-bezel.png</bezel>
+  </game>
+  <game id="5624">
+    <path>./San Francisco Rush - Extreme Racing [5624].7z</path>
+    <name>SAN FRANCISCO RUSH - EXTREME RACING [5624]</name>
+    <mode>Multijogador em tela dividida</mode>
+    <desc>COLOQUE O PEDAL NO METAL, FUME OS PNEUS E DERRUBE A VELOCIDADE COM O SAN FRANCISCO RUSH! VÁ PARA A ESTRADA EM UM DOS OITO CARROS DE CORRIDA EXCLUSIVOS CLASSIFICADOS EM QUATRO CLASSES DE DESEMPENHO DISTINTAS. QUEIME BORRACHA ATRAVÉS DAS COLINAS E MARCOS MODELADOS EM 3D DE SÃO FRANCISCO. ESCOLHA ENTRE SEIS FAIXAS DETALHADAS QUE PODEM SER AJUSTADAS COM AS OPÇÕES "ESPELHO" OU "PARA TRÁS" DOS JOGOS, NUM TOTAL DE 24 PISTAS INCRÍVEIS! ATALHOS ESCONDIDOS ESPETACULARES EM CADA FAIXA!</desc>
+    <rating>0.60</rating>
+    <releasedate>19971201T000000</releasedate>
+    <developer>MIDWAY</developer>
+    <publisher>GT INTERACTIVE SOFTWARE</publisher>
+    <genre>CORRIDA, PILOTAGEM</genre>
+    <genreid>1537</genreid>
+    <players>1-2</players>
+    <md5>5b127e6b090a0b3f68a114d4d89323d4</md5>
+    <hash>886C5753</hash>
+    <region>us</region>
+    <lang>en,fr,de</lang>
+    <image>./media/image/San Francisco Rush - Extreme Racing [5624]-image.png</image>
+    <video>./media/videos/San Francisco Rush - Extreme Racing [5624]-video.mp4</video>
+    <boxart>./media/image/San Francisco Rush - Extreme Racing [5624]-boxart.png</boxart>
+    <screenshot>./media/screenshots/San Francisco Rush - Extreme Racing [5624]-screenshot.png</screenshot>
+    <cartridge>./media/image/San Francisco Rush - Extreme Racing [5624]-cartridge.png</cartridge>
+    <fanart>./media/fanart/San Francisco Rush - Extreme Racing [5624]-fanart.jpg</fanart>
+    <titleshot>./media/image/San Francisco Rush - Extreme Racing [5624]-titleshot.png</titleshot>
+    <manual>./media/manuals/San Francisco Rush - Extreme Racing [5624]_(us).pdf</manual>
+    <boxback>./media/image/San Francisco Rush - Extreme Racing [5624]-boxback.png</boxback>
+    <extra1>./media/extras/San Francisco Rush - Extreme Racing [5624]-extra1.png</extra1>
+    <bezel>./media/image/San Francisco Rush - Extreme Racing [5624]-bezel.png</bezel>
+  </game>
+  <game id="5439">
+    <path>./Wave Race 64 [5439].7z</path>
+    <name>WAVE RACE 64 [5439]</name>
+    <mode>Jogador individual</mode>
+    <desc>O WAVE RACE 64 OFERECE ALGUMAS DAS CORRIDAS MAIS EMOCIONANTES QUE VOCÊ JÁ EXPERIMENTOU. SENTE O BATER E BATER DAS ONDAS À MEDIDA QUE ACELERA EM LINHA RETA, CHICOTEIA EM TORNO DAS BÓIAS DE MARCAÇÃO E VAI NO AR NAS RAMPAS DE SALTO. NÃO CORRA SOZINHO - DESAFIE UM AMIGO! ASSUMA O CONTROLE EM TRÊS DIFERENTES MODOS DE JOGO - CHAMPIONSHIP, TIME TRIALS E STUNT MODE. NOVE CAMPOS DESAFIADORES EM LOCAIS EXÓTICOS - AS CONDIÇÕES DA CORRIDA MUDAM E A AÇÃO DAS ONDAS RESPONDE À MANEIRA COMO VOCÊ E SEUS OPONENTES CORREM!</desc>
+    <rating>0.80</rating>
+    <releasedate>19970429T000000</releasedate>
+    <developer>NINTENDO</developer>
+    <publisher>NINTENDO</publisher>
+    <genre>ESPORTE / NÁUTICO, ESPORTE</genre>
+    <genreid>1536</genreid>
+    <players>1-2</players>
+    <md5>aac1d9486c073447a058f515ac6b70ff</md5>
+    <hash>7DDD07F4</hash>
+    <region>eu</region>
+    <lang>de,en</lang>
+    <image>./media/image/Wave Race 64 [5439]-image.png</image>
+    <video>./media/videos/Wave Race 64 [5439]-video.mp4</video>
+    <marquee>./media/image/Wave Race 64 [5439]-marquee.png</marquee>
+    <wheel>./media/image/Wave Race 64 [5439]-wheel.png</wheel>
+    <boxart>./media/image/Wave Race 64 [5439]-boxart.png</boxart>
+    <screenshot>./media/screenshots/Wave Race 64 [5439]-screenshot.png</screenshot>
+    <cartridge>./media/image/Wave Race 64 [5439]-cartridge.png</cartridge>
+    <fanart>./media/fanart/Wave Race 64 [5439]-fanart.jpg</fanart>
+    <titleshot>./media/image/Wave Race 64 [5439]-titleshot.png</titleshot>
+    <manual>./media/manuals/Wave Race 64 [5439]_(eu).pdf</manual>
+    <boxback>./media/image/Wave Race 64 [5439]-boxback.png</boxback>
+    <extra1>./media/extras/Wave Race 64 [5439]-extra1.png</extra1>
+    <bezel>./media/image/Wave Race 64 [5439]-bezel.png</bezel>
+  </game>
+  <game id="5402">
+    <path>./Conker's Bad Fur Day [5402].z64.7z</path>
+    <name>CONKER'S BAD FUR DAY [5402].Z64</name>
+    <mode>Jogador individual</mode>
+    <desc>CONKER'S BAD FUR DAY LANÇADO EM 2001 APRESENTA VIOLÊNCIA EXPLÍCITA, TEMAS SEXUAIS, LINGUAGEM FORTE, HUMOR ESCATOLÓGICO, E INÚMERAS PARÓDIAS CINEMATOGRÁFICAS. O JOGO RECEBEU MUITOS ELOGIOS POR CRÍTICOS, QUE ELOGIARAM SEUS GRÁFICOS, SONS E APRESENTAÇÃO. É CONSIDERADO POR MUITOS COMO UM DOS JOGOS DE MELHOR VISUAL DO NINTENDO 64.
+JOGABILIDADE MUITO BOA NOS MOLDES DE BANJO-KAZOIE E UMA NARRATIVA CONTADA EM CAPÍTULOS SEM TIRAR O JOGADOR DA IMERSÃO, E UM DOS TOP MULTIPLAYERS DO NINTENDO 64.</desc>
     <rating>0.80</rating>
     <releasedate>20010406T000000</releasedate>
-    <developer>Rareware</developer>
-    <publisher>Rareware</publisher>
-    <genre>Ação / Aventura, Ação</genre>
+    <developer>RAREWARE</developer>
+    <publisher>RAREWARE</publisher>
+    <genre>AÇÃO / AVENTURA, AÇÃO</genre>
     <genreid>256</genreid>
     <players>1-4</players>
+    <md5>a8c8ca9f0c613a28084be45ec4a6c44c</md5>
+    <hash>5927048B</hash>
     <region>eu</region>
-    <image>./media/image/Conker's Bad Fur Day (BR) (Sem Censura) (T1.01).z64-image.png</image>
-    <video>./media/videos/Conker's Bad Fur Day (BR) (Sem Censura) (T1.01).z64-video.mp4</video>
-    <boxart>./media/image/Conker's Bad Fur Day (BR) (Sem Censura) (T1.01).z64-boxart.png</boxart>
-    <screenshot>./media/screenshots/Conker's Bad Fur Day (BR) (Sem Censura) (T1.01).z64-screenshot.png</screenshot>
-    <cartridge>./media/image/Conker's Bad Fur Day (BR) (Sem Censura) (T1.01).z64-cartridge.png</cartridge>
-    <fanart>./media/fanart/Conker's Bad Fur Day (BR) (Sem Censura) (T1.01).z64-fanart.jpg</fanart>
-    <titleshot>./media/image/Conker's Bad Fur Day (BR) (Sem Censura) (T1.01).z64-titleshot.png</titleshot>
-    <manual>./media/manuals/Conker's Bad Fur Day (BR) (Sem Censura) (T1.01).z64_(us).pdf</manual>
-    <boxback>./media/image/Conker's Bad Fur Day (BR) (Sem Censura) (T1.01).z64-boxback.png</boxback>
-    <extra1>./media/extras/Conker's Bad Fur Day (BR) (Sem Censura) (T1.01).z64-extra1.png</extra1>
-    <bezel>./media/bezels/Conker's Bad Fur Day (BR) (Sem Censura) (T1.01).z64-bezel.png</bezel>
+    <image>./media/image/Conker's Bad Fur Day [5402].z64-image.png</image>
+    <video>./media/videos/Conker's Bad Fur Day [5402].z64-video.mp4</video>
+    <boxart>./media/image/Conker's Bad Fur Day [5402].z64-boxart.png</boxart>
+    <screenshot>./media/screenshots/Conker's Bad Fur Day [5402].z64-screenshot.png</screenshot>
+    <cartridge>./media/image/Conker's Bad Fur Day [5402].z64-cartridge.png</cartridge>
+    <fanart>./media/fanart/Conker's Bad Fur Day [5402].z64-fanart.jpg</fanart>
+    <titleshot>./media/image/Conker's Bad Fur Day [5402].z64-titleshot.png</titleshot>
+    <manual>./media/manuals/Conker's Bad Fur Day [5402].z64_(us).pdf</manual>
+    <boxback>./media/image/Conker's Bad Fur Day [5402].z64-boxback.png</boxback>
+    <extra1>./media/extras/Conker's Bad Fur Day [5402].z64-extra1.png</extra1>
+    <bezel>./media/image/Conker's Bad Fur Day [5402].z64-bezel.png</bezel>
   </game>
   <game id="5409">
-    <path>./Diddy Kong Racing (BR) (TRev0.7-Ver1.0).z64.7z</path>
-    <name>Diddy Kong Racing</name>
+    <path>./Diddy Kong Racing [5409].z64.7z</path>
+    <name>DIDDY KONG RACING [5409].Z64</name>
     <mode>Jogador individual</mode>
-    <desc>It's an island takeover when the evil space wizard, Wizpig, discovers Tiger Island!  After the islands prized racetracks become sealed up, Timber Tiger contacts his friend Diddy Kong to help him reclaim the racetracks and save the island before his parents return.  Along for the ride are the Kremling spy Krunch, Bumper Badger, Banjo (prior to meeting Kazooie in Banjo-Kazooie), pre-sweary Conker, Tiptup Turtle, and Pipsy Mouse.
-Diddy Kong Racing is a racing game with similarities to Mario Kart 64, in that you race with a variety of cheery racers while using weapons.  However, the similarities end there.  DKR includes an adventure mode, which features bosses, an overworld to explore, many hidden secrets, the addition of hovercrafts and planes, and a unique way of racing called the "Silver Coin Challenge".  In this mode, in addition to coming first, you must also find the eight Silver Coins deviously hidden throughout the courses (some in alternate paths).
-The game also features a strategic method of using weapons.  Each colored balloon on the track matches a specific weapon, and collecting the same type of balloon multiple times in a row powers it up (to a maximum of three times).  This gives the player the choice of snatching every balloon available and using it immediately, or storing the existing weapon, and using a more powerful version of it later.
-Up to four players can compete in the races, but in order to play new tracks, they must first be unlocked in the single player game.  There are also four battle modes of play - two standard deathmatch maps, a capture-the-flag style battle where you must nab eggs and hatch three of them in your home nest, and another where you must be the first to return ten bananas to your treasure chest (with the limitation of only being able to hold two at any one time).</desc>
+    <desc>É UMA TOMADA DE CONTROLE DA ILHA QUANDO O MALVADO MAGO ESPACIAL, WIZPIG, DESCOBRE A ILHA DO TIGRE!  DEPOIS QUE AS VALIOSAS PISTAS DE CORRIDA DA ILHA FORAM FECHADAS, TIMBER TIGER CONTATA SEU AMIGO DIDDY KONG PARA AJUDÁ-LO A RECUPERAR AS PISTAS DE CORRIDA E SALVAR A ILHA ANTES QUE SEUS PAIS RETORNEM.  JUNTO COM O PASSEIO ESTÃO O ESPIÃO KRUNCH DO KREMLING, BUMPER BADGER, BANJO (ANTES DE CONHECER KAZOOIE EM BANJO-KAZOOIE), O PRÉ-JURADO CONKER, TIPTUP TURTLE E PIPSY MOUSE.
+DIDDY KONG RACING É UM JOGO DE CORRIDA SEMELHANTE AO MARIO KART 64, ONDE VOCÊ CORRE COM UMA VARIEDADE DE PILOTOS ALEGRES ENQUANTO USA ARMAS.  NO ENTANTO, AS SEMELHANÇAS TERMINAM AÍ.  DKR INCLUI UM MODO DE AVENTURA, QUE APRESENTA CHEFES, UM MUNDO SUPERIOR PARA EXPLORAR, MUITOS SEGREDOS ESCONDIDOS, A ADIÇÃO DE HOVERCRAFTS E AVIÕES E UMA FORMA ÚNICA DE CORRIDA CHAMADA "SILVER COIN CHALLENGE".  NESTE MODO, ALÉM DE CHEGAR PRIMEIRO, VOCÊ TAMBÉM DEVE ENCONTRAR AS OITO MOEDAS DE PRATA ESCONDIDAS AO LONGO DOS PERCURSOS (ALGUMAS EM CAMINHOS ALTERNATIVOS).
+O JOGO TAMBÉM APRESENTA UM MÉTODO ESTRATÉGICO DE USO DE ARMAS.  CADA BALÃO COLORIDO NA PISTA CORRESPONDE A UMA ARMA ESPECÍFICA, E COLETAR O MESMO TIPO DE BALÃO VÁRIAS VEZES SEGUIDAS O FORTALECE (ATÉ UM MÁXIMO DE TRÊS VEZES).  ISSO DÁ AO JOGADOR A OPÇÃO DE PEGAR TODOS OS BALÕES DISPONÍVEIS E USÁ-LOS IMEDIATAMENTE, OU ARMAZENAR A ARMA EXISTENTE E USAR UMA VERSÃO MAIS PODEROSA DELA POSTERIORMENTE.
+ATÉ QUATRO JOGADORES PODEM COMPETIR NAS CORRIDAS, MAS PARA JOGAR EM NOVAS PISTAS, ELAS DEVEM PRIMEIRO SER DESBLOQUEADAS NO JOGO PARA UM JOGADOR.  EXISTEM TAMBÉM QUATRO MODOS DE JOGO DE BATALHA - DOIS MAPAS PADRÃO DE DEATHMATCH, UMA BATALHA NO ESTILO CAPTURE A BANDEIRA ONDE VOCÊ DEVE PEGAR OVOS E CHOCAR TRÊS DELES EM SEU NINHO, E OUTRO ONDE VOCÊ DEVE SER O PRIMEIRO A DEVOLVER DEZ BANANAS AO SEU BAÚ DO TESOURO (COM A LIMITAÇÃO DE SÓ PODER SEGURAR DUAS DE CADA VEZ).</desc>
     <rating>0.80</rating>
     <releasedate>19971114T000000</releasedate>
-    <developer>Rareware</developer>
-    <publisher>Rareware</publisher>
-    <genre>Corrida, Pilotagem</genre>
+    <developer>RAREWARE</developer>
+    <publisher>RAREWARE</publisher>
+    <genre>CORRIDA, PILOTAGEM</genre>
     <genreid>1537</genreid>
     <players>1-4</players>
+    <md5>a3d97e9a063aa22217e90865c6b5f544</md5>
+    <hash>9C6F4575</hash>
     <region>eu</region>
     <lang>de,fr,en</lang>
-    <image>./media/image/Diddy Kong Racing (BR) (TRev0.7-Ver1.0).z64-image.png</image>
-    <video>./media/videos/Diddy Kong Racing (BR) (TRev0.7-Ver1.0).z64-video.mp4</video>
-    <boxart>./media/image/Diddy Kong Racing (BR) (TRev0.7-Ver1.0).z64-boxart.png</boxart>
-    <screenshot>./media/screenshots/Diddy Kong Racing (BR) (TRev0.7-Ver1.0).z64-screenshot.png</screenshot>
-    <cartridge>./media/image/Diddy Kong Racing (BR) (TRev0.7-Ver1.0).z64-cartridge.png</cartridge>
-    <fanart>./media/fanart/Diddy Kong Racing (BR) (TRev0.7-Ver1.0).z64-fanart.jpg</fanart>
-    <titleshot>./media/image/Diddy Kong Racing (BR) (TRev0.7-Ver1.0).z64-titleshot.png</titleshot>
-    <manual>./media/manuals/Diddy Kong Racing (BR) (TRev0.7-Ver1.0).z64_(eu).pdf</manual>
-    <boxback>./media/image/Diddy Kong Racing (BR) (TRev0.7-Ver1.0).z64-boxback.png</boxback>
-    <extra1>./media/extras/Diddy Kong Racing (BR) (TRev0.7-Ver1.0).z64-extra1.png</extra1>
-    <bezel>./media/bezels/Diddy Kong Racing (BR) (TRev0.7-Ver1.0).z64-bezel.png</bezel>
+    <image>./media/image/Diddy Kong Racing [5409].z64-image.png</image>
+    <video>./media/videos/Diddy Kong Racing [5409].z64-video.mp4</video>
+    <boxart>./media/image/Diddy Kong Racing [5409].z64-boxart.png</boxart>
+    <screenshot>./media/screenshots/Diddy Kong Racing [5409].z64-screenshot.png</screenshot>
+    <cartridge>./media/image/Diddy Kong Racing [5409].z64-cartridge.png</cartridge>
+    <fanart>./media/fanart/Diddy Kong Racing [5409].z64-fanart.jpg</fanart>
+    <titleshot>./media/image/Diddy Kong Racing [5409].z64-titleshot.png</titleshot>
+    <manual>./media/manuals/Diddy Kong Racing [5409].z64_(eu).pdf</manual>
+    <boxback>./media/image/Diddy Kong Racing [5409].z64-boxback.png</boxback>
+    <extra1>./media/extras/Diddy Kong Racing [5409].z64-extra1.png</extra1>
+    <bezel>./media/image/Diddy Kong Racing [5409].z64-bezel.png</bezel>
   </game>
   <game id="5539">
-    <path>./Extreme-G XG2 (USA).7z</path>
-    <name>Extreme-G XG2</name>
+    <path>./Extreme-G Xg2 [5539].7z</path>
+    <name>EXTREME-G XG2 [5539]</name>
     <mode>Jogador individual</mode>
-    <desc>Extreme-G 2 is a futuristic racing video game for the Nintendo 64, developed by Probe Entertainment and published by Acclaim Entertainment in 1998.
-Get ready for the ride of your life! Extreme-G 2. Power the speedfreak inside. Faster than the original. And ten times more deadly. One false spin and you're toast! Break the sound barrier with 12 radical evolution maneuvers. More than 40 torsion tracks. Blast your enemies with rear-firing rockets, ion cannons, magnetic mines and more! Intense 4-player action: Battle Mode, Cup Challenge and Head-to-Head.</desc>
+    <desc>EXTREME-G 2 É UM JOGO ELETRÔNICO DE CORRIDA FUTURÍSTICA PARA NINTENDO 64 FOI DESENVOLVIDO PELA PROBE ENTERTAINMENT E PUBLICADO PELA ACCLAIM ENTERTAINMENT EM LANÇADA EM 1998.
+PREPARE-SE PARA O PASSEIO DA SUA VIDA! EXTREME-G 2. ALIMENTE O SPEEDFREAK DENTRO. MAIS RÁPIDO QUE O ORIGINAL. E DEZ VEZES MAIS MORTAL. UM FALSO GIRO E VOCÊ É UM BRINDE! QUEBRE A BARREIRA DO SOM COM 12 MANOBRAS RADICAIS DE EVOLUÇÃO. MAIS DE 40 PISTAS DE TORÇÃO. EXPLODA SEUS INIMIGOS COM FOGUETES DE DISPARO TRASEIRO, CANHÕES DE ÍONS, MINAS MAGNÉTICAS E MUITO MAIS! INTENSA AÇÃO DE 4 JOGADORES: BATTLE MODE, CUP CHALLENGE E HEAD-TO-HEAD.</desc>
     <rating>0.80</rating>
     <releasedate>19981204T000000</releasedate>
-    <developer>Probe Software</developer>
-    <publisher>Acclaim Entertainment</publisher>
-    <genre>Corrida, Pilotagem</genre>
+    <developer>PROBE SOFTWARE</developer>
+    <publisher>ACCLAIM ENTERTAINMENT</publisher>
+    <genre>CORRIDA, PILOTAGEM</genre>
     <genreid>1537</genreid>
     <players>1-4</players>
+    <md5>44fe06ba3686c02a7988f27600a533da</md5>
+    <hash>81A4C28B</hash>
     <region>us</region>
-    <image>./media/image/Extreme-G XG2 (USA)-image.png</image>
-    <video>./media/videos/Extreme-G XG2 (USA)-video.mp4</video>
-    <boxart>./media/image/Extreme-G XG2 (USA)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Extreme-G XG2 (USA)-screenshot.png</screenshot>
-    <cartridge>./media/image/Extreme-G XG2 (USA)-cartridge.png</cartridge>
-    <fanart>./media/fanart/Extreme-G XG2 (USA)-fanart.jpg</fanart>
-    <titleshot>./media/image/Extreme-G XG2 (USA)-titleshot.png</titleshot>
-    <manual>./media/manuals/Extreme-G XG2 (USA)_(us).pdf</manual>
-    <boxback>./media/image/Extreme-G XG2 (USA)-boxback.png</boxback>
-    <extra1>./media/extras/Extreme-G XG2 (USA)-extra1.png</extra1>
-    <bezel>./media/bezels/Extreme-G XG2 (USA)-bezel.png</bezel>
+    <image>./media/image/Extreme-G Xg2 [5539]-image.png</image>
+    <video>./media/videos/Extreme-G Xg2 [5539]-video.mp4</video>
+    <boxart>./media/image/Extreme-G Xg2 [5539]-boxart.png</boxart>
+    <screenshot>./media/screenshots/Extreme-G Xg2 [5539]-screenshot.png</screenshot>
+    <cartridge>./media/image/Extreme-G Xg2 [5539]-cartridge.png</cartridge>
+    <fanart>./media/fanart/Extreme-G Xg2 [5539]-fanart.jpg</fanart>
+    <titleshot>./media/image/Extreme-G Xg2 [5539]-titleshot.png</titleshot>
+    <manual>./media/manuals/Extreme-G Xg2 [5539]_(us).pdf</manual>
+    <boxback>./media/image/Extreme-G Xg2 [5539]-boxback.png</boxback>
+    <extra1>./media/extras/Extreme-G Xg2 [5539]-extra1.png</extra1>
+    <bezel>./media/image/Extreme-G Xg2 [5539]-bezel.png</bezel>
   </game>
   <game id="5418">
-    <path>./F-Zero X (USA).7z</path>
-    <name>F-Zero X</name>
+    <path>./F-Zero X [5418].7z</path>
+    <name>F-ZERO X [5418]</name>
     <mode>Jogador individual</mode>
-    <desc>F-Zero X is the sequel to F-Zero for the Nintendo 64. This game was also released for iQue in China and for the Virtual Console. F-Zero X is a race of ships called Machines, which race at the speed of sound. In this version, there are 30 different pilots with their Machines, unlike its predecessor, which only had 4 pilots. Each machine has its ups and downs.
-Featuring a total of 30 ships, the game takes place in a futuristic environment, with races of the most varied forms, with loops and free falls. F-Zero X is considered one of the fastest games in history. Aboard a ship, the player can reach more than 1000km/h in a race, giving the feeling of speed, which was one of the game's great positive points.</desc>
+    <desc>F-ZERO X É A SEQUÊNCIA DE F-ZERO PARA NINTENDO 64. ESTE JOGO TAMBÉM FOI LANÇADO PARA A IQUE NA CHINA E PARA A VIRTUAL CONSOLE. F-ZERO X É UMA CORRIDA DE NAVES CHAMADAS MACHINES, QUE CORREM QUEBRANDO A VELOCIDADE DO SOM. NESSA VERSÃO, EXISTEM 30 PILOTOS DISTINTOS COM SUAS MACHINES, AO CONTRÁRIO DE SEU ANTECESSOR, QUE POSSUÍA APENAS 4 PILOTOS. CADA MACHINE POSSUI SEUS ALTOS E BAIXOS.
+DISPONDO DE UM TOTAL DE 30 NAVES, O JOGO SE PASSA EM UM AMBIENTE FUTURÍSTICO, COM CORRIDAS DAS MAIS VARIADAS FORMAS, COM LOOPS E QUEDAS LIVRES. F-ZERO X É CONSIDERADO UM DOS JOGOS MAIS RÁPIDOS DA HISTÓRIA. A BORDO DE UMA NAVE, O JOGADOR PODE CHEGAR A MAIS DE 1000KM/H NUMA CORRIDA, E PASSANDO A SENSAÇÃO DE VELOCIDADE, O QUE FOI UM DOS GRANDES PONTOS POSITIVOS DO JOGO.</desc>
     <rating>0.80</rating>
     <releasedate>19981106T000000</releasedate>
-    <developer>Nintendo</developer>
-    <publisher>Nintendo</publisher>
-    <genre>Corrida, Pilotagem</genre>
+    <developer>NINTENDO</developer>
+    <publisher>NINTENDO</publisher>
+    <genre>CORRIDA, PILOTAGEM</genre>
     <genreid>1537</genreid>
     <players>1-4</players>
-    <region>eu</region>
-    <image>./media/image/F-Zero X (USA)-image.png</image>
-    <video>./media/videos/F-Zero X (USA)-video.mp4</video>
-    <boxart>./media/image/F-Zero X (USA)-boxart.png</boxart>
-    <screenshot>./media/screenshots/F-Zero X (USA)-screenshot.png</screenshot>
-    <cartridge>./media/image/F-Zero X (USA)-cartridge.png</cartridge>
-    <fanart>./media/fanart/F-Zero X (USA)-fanart.jpg</fanart>
-    <map>./media/maps/F-Zero X (USA)-map.jpg</map>
-    <titleshot>./media/image/F-Zero X (USA)-titleshot.png</titleshot>
-    <manual>./media/manuals/F-Zero X (USA)_(eu).pdf</manual>
-    <boxback>./media/image/F-Zero X (USA)-boxback.png</boxback>
-    <extra1>./media/extras/F-Zero X (USA)-extra1.png</extra1>
-    <bezel>./media/bezels/F-Zero X (USA)-bezel.png</bezel>
+    <md5>753437d0d8ada1d12f3f9cf0f0a5171f</md5>
+    <hash>0B561FBA</hash>
+    <region>us</region>
+    <image>./media/image/F-Zero X [5418]-image.png</image>
+    <video>./media/videos/F-Zero X [5418]-video.mp4</video>
+    <boxart>./media/image/F-Zero X [5418]-boxart.png</boxart>
+    <screenshot>./media/screenshots/F-Zero X [5418]-screenshot.png</screenshot>
+    <cartridge>./media/image/F-Zero X [5418]-cartridge.png</cartridge>
+    <fanart>./media/fanart/F-Zero X [5418]-fanart.jpg</fanart>
+    <map>./media/maps/F-Zero X [5418]-map.jpg</map>
+    <titleshot>./media/image/F-Zero X [5418]-titleshot.png</titleshot>
+    <manual>./media/manuals/F-Zero X [5418]_(eu).pdf</manual>
+    <boxback>./media/image/F-Zero X [5418]-boxback.png</boxback>
+    <extra1>./media/extras/F-Zero X [5418]-extra1.png</extra1>
+    <bezel>./media/image/F-Zero X [5418]-bezel.png</bezel>
   </game>
   <game id="5420">
-    <path>./Jet Force Gemini (BR).7z</path>
-    <name>Jet Force Gemini</name>
+    <path>./Jet Force Gemini [5420].7z</path>
+    <name>JET FORCE GEMINI [5420]</name>
     <mode>Multijogador local</mode>
-    <desc>Jet Force Gemini is a third-person shooter released on October 11, 1999 by Rare for the Nintendo 64. Rare used elements from its other successful Nintendo 64 games in this game, such as GoldenEye 007 and Banjo-Kazooie.
-The main characters of the game are Juno (human), Vela (human), Lupus (dog) and Floyd (robot). The villain is Mizar, head of an army of ants that colonize several planets and enslave a race known as Tribals. The objective of the game is to free the Tribals and defeat Mizar.
-Its censorship is a little high because of the fictional blood, when you shoot enemy soldiers a very large amount of green, gooey blood comes out, you can also activate the cheat to make the blood turn colored.</desc>
+    <desc>JET FORCE GEMINI É UM JOGO DE TIRO EM TERCEIRA PESSOA LANÇADO EM 11 DE OUTUBRO DE 1999 PELA RARE PARA O NINTENDO 64. A RARE UTILIZOU NESTE JOGO ELEMENTOS DE OUTROS JOGOS SEUS DE SUCESSO DO NINTENDO 64, COMO GOLDENEYE 007 E BANJO-KAZOOIE.
+OS PERSONAGENS PRINCIPAIS DO JOGO SÃO JUNO (SER HUMANO), VELA (SER HUMANO), LUPUS (CÃO) E FLOYD (ROBÔ). O VILÃO É MIZAR, CHEFE DE UM EXÉRCITO DE FORMIGAS QUE COLONIZAM DIVERSOS PLANETAS E ESCRAVIZAM UMA RAÇA CONHECIDA COMO TRIBALS. O OBJETIVO DO JOGO É LIBERTAR OS TRIBALS E DERROTAR MIZAR.
+SUA CENSURA É UM POUCO ELEVADA POR CAUSA DO SANGUE FICTÍCIO, QUANDO VOCÊ ATIRA NOS SOLDADOS INIMIGOS SAI UMA QUANTIDADE MUITO GRANDE DE SANGUE VERDE E GOSMENTO, TAMBÉM PODE SE ATIVAR A TRAPAÇA PARA O SANGUE FICAR COLORIDO.</desc>
     <rating>0.80</rating>
     <releasedate>19991102T000000</releasedate>
-    <developer>Rareware</developer>
-    <publisher>Rareware</publisher>
-    <genre>Ação / Aventura, Ação</genre>
+    <developer>RAREWARE</developer>
+    <publisher>RAREWARE</publisher>
+    <genre>AÇÃO / AVENTURA, AÇÃO</genre>
     <genreid>256</genreid>
     <players>1-4</players>
+    <md5>6cf3ba905c594cf2de261091ec4a2a8e</md5>
+    <hash>61322FC2</hash>
     <region>eu</region>
     <lang>es,de,fr,en</lang>
     <adult>true</adult>
-    <image>./media/image/Jet Force Gemini (BR)-image.png</image>
-    <video>./media/videos/Jet Force Gemini (BR)-video.mp4</video>
-    <boxart>./media/image/Jet Force Gemini (BR)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Jet Force Gemini (BR)-screenshot.png</screenshot>
-    <cartridge>./media/image/Jet Force Gemini (BR)-cartridge.png</cartridge>
-    <fanart>./media/fanart/Jet Force Gemini (BR)-fanart.jpg</fanart>
-    <titleshot>./media/image/Jet Force Gemini (BR)-titleshot.png</titleshot>
-    <manual>./media/manuals/Jet Force Gemini (BR)_(us).pdf</manual>
-    <boxback>./media/image/Jet Force Gemini (BR)-boxback.png</boxback>
-    <extra1>./media/extras/Jet Force Gemini (BR)-extra1.png</extra1>
-    <bezel>./media/bezels/Jet Force Gemini (BR)-bezel.png</bezel>
-  </game>
-  <game id="5415">
-    <path>./Killer Instinct Gold (USA) (Rev 2).7z</path>
-    <name>Killer Instinct Gold</name>
-    <mode>Jogador individual</mode>
-    <desc>An updated conversion of the arcade Killer Instinct 2, all fighters, moves and stages are available (including the three new fighters, Maya, Kim Wu and Tusk) plus new game modes such as Team, Team Elimination, 5 speed levels and a full training mode helping you learn the many moves, combos and special attacks for each fighter.</desc>
-    <rating>0.60</rating>
-    <releasedate>19970701T000000</releasedate>
-    <developer>Rareware</developer>
-    <publisher>Nintendo</publisher>
-    <genre>Luta / Versus, Luta</genre>
-    <genreid>262</genreid>
-    <players>1-2</players>
-    <region>eu</region>
-    <image>./media/image/Killer Instinct Gold (USA) (Rev 2)-image.png</image>
-    <video>./media/videos/Killer Instinct Gold (USA) (Rev 2)-video.mp4</video>
-    <boxart>./media/image/Killer Instinct Gold (USA) (Rev 2)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Killer Instinct Gold (USA) (Rev 2)-screenshot.png</screenshot>
-    <cartridge>./media/image/Killer Instinct Gold (USA) (Rev 2)-cartridge.png</cartridge>
-    <fanart>./media/fanart/Killer Instinct Gold (USA) (Rev 2)-fanart.jpg</fanart>
-    <titleshot>./media/image/Killer Instinct Gold (USA) (Rev 2)-titleshot.png</titleshot>
-    <manual>./media/manuals/Killer Instinct Gold (USA) (Rev 2)_(us).pdf</manual>
-    <boxback>./media/image/Killer Instinct Gold (USA) (Rev 2)-boxback.png</boxback>
-    <extra1>./media/extras/Killer Instinct Gold (USA) (Rev 2)-extra1.png</extra1>
-    <bezel>./media/bezels/Killer Instinct Gold (USA) (Rev 2)-bezel.png</bezel>
+    <image>./media/image/Jet Force Gemini [5420]-image.png</image>
+    <video>./media/videos/Jet Force Gemini [5420]-video.mp4</video>
+    <boxart>./media/image/Jet Force Gemini [5420]-boxart.png</boxart>
+    <screenshot>./media/screenshots/Jet Force Gemini [5420]-screenshot.png</screenshot>
+    <cartridge>./media/image/Jet Force Gemini [5420]-cartridge.png</cartridge>
+    <fanart>./media/fanart/Jet Force Gemini [5420]-fanart.jpg</fanart>
+    <titleshot>./media/image/Jet Force Gemini [5420]-titleshot.png</titleshot>
+    <manual>./media/manuals/Jet Force Gemini [5420]_(us).pdf</manual>
+    <boxback>./media/image/Jet Force Gemini [5420]-boxback.png</boxback>
+    <extra1>./media/extras/Jet Force Gemini [5420]-extra1.png</extra1>
+    <bezel>./media/image/Jet Force Gemini [5420]-bezel.png</bezel>
   </game>
   <game id="5416">
-    <path>./Star Fox (BR) (T1.0_r2a).z64.7z</path>
-    <name>Lylat Wars</name>
+    <path>./Lylat Wars [5416].z64.7z</path>
+    <name>LYLAT WARS [5416].Z64</name>
     <mode>Jogador individual</mode>
-    <desc>Star Fox 64, also known as Lylat Wars in Europe and Oceania (due to copyright issues). It was released on April 27, 1997 in Japan, on July 1, 1997 in North America and on October 20, 1997 in Europe and Australia. Afterwards, it was imported to the China-exclusive console iQue Player on November 21, 2003. Furthermore, it was planned as a remake of the original Star Fox game.
-Many aspects of this game were reused in the Star Fox 2 project, which was to be released for the Super Nintendo but was canceled by the developers, as the Nintendo 64 was almost on the market. Star Fox 64 was the first Nintendo 64 game to use the Rumble Pak, an accessory that makes the controller shake.
-The soundtrack for Star Fox 64 was composed by K?ji Kond? and Hajime Wakai. Some songs from this game were used again in other games in the franchise.</desc>
+    <desc>STAR FOX 64, TAMBÉM CONHECIDO COMO LYLAT WARS NA EUROPA E OCEANIA (DEVIDO A PROBLEMAS COM DIREITOS AUTORAIS). ELE FOI LANÇADO EM 27 DE ABRIL DE 1997 NO JAPÃO, EM 1º DE JULHO DE 1997 NA AMÉRICA DO NORTE E EM 20 DE OUTUBRO DE 1997 NA EUROPA E NA AUSTRÁLIA. DEPOIS, ELE FOI IMPORTADO AO CONSOLE EXCLUSIVO DA CHINA IQUE PLAYER EM 21 DE NOVEMBRO DE 2003. ALÉM DISSO, ELE FOI PLANEJADO COMO UM REMAKE DO JOGO ORIGINAL STAR FOX.
+MUITOS ASPECTOS DESTE JOGO FORAM REAPROVEITADOS NO PROJETO STAR FOX 2, QUE SERIA LANÇADO PARA O SUPER NINTENDO MAS FOI CANCELADO PELOS DESENVOLVEDORES, VISTO QUE O NINTENDO 64 JÁ ESTAVA QUASE CHEGANDO AO MERCADO. STAR FOX 64 FOI O PRIMEIRO JOGO DO NINTENDO 64 A SE UTILIZAR DO RUMBLE PAK, ACESSÓRIO QUE FAZ O CONTROLE TREMER.
+A TRILHA SONORA DE STAR FOX 64 FOI COMPOSTA POR K?JI KOND? E HAJIME WAKAI. ALGUMAS MÚSICAS DESTE JOGO FORAM UTILIZADAS NOVAMENTE EM OUTROS JOGOS DA FRANQUIA.</desc>
     <rating>0.80</rating>
     <releasedate>19971020T000000</releasedate>
-    <developer>Nintendo</developer>
-    <publisher>Nintendo</publisher>
-    <genre>Tiro / Carro 3ª Pessoa, Tiro</genre>
+    <developer>NINTENDO</developer>
+    <publisher>NINTENDO</publisher>
+    <genre>TIRO / CARRO 3ª PESSOA, TIRO</genre>
     <genreid>1028</genreid>
     <players>1-4</players>
-    <region>us</region>
-    <image>./media/image/Star Fox (BR) (T1.0_r2a).z64-image.png</image>
-    <video>./media/videos/Star Fox (BR) (T1.0_r2a).z64-video.mp4</video>
-    <marquee>./media/image/Star Fox (BR) (T1.0_r2a).z64-marquee.png</marquee>
-    <wheel>./media/wheel/Star Fox (BR) (T1.0_r2a).z64-wheel.png</wheel>
-    <boxart>./media/image/Star Fox (BR) (T1.0_r2a).z64-boxart.png</boxart>
-    <screenshot>./media/screenshots/Star Fox (BR) (T1.0_r2a).z64-screenshot.png</screenshot>
-    <cartridge>./media/image/Star Fox (BR) (T1.0_r2a).z64-cartridge.png</cartridge>
-    <fanart>./media/fanart/Star Fox (BR) (T1.0_r2a).z64-fanart.jpg</fanart>
-    <titleshot>./media/image/Star Fox (BR) (T1.0_r2a).z64-titleshot.png</titleshot>
-    <manual>./media/manuals/Star Fox (BR) (T1.0_r2a).z64_(eu).pdf</manual>
-    <boxback>./media/image/Star Fox (BR) (T1.0_r2a).z64-boxback.png</boxback>
-    <extra1>./media/extras/Star Fox (BR) (T1.0_r2a).z64-extra1.png</extra1>
-    <bezel>./media/bezels/Star Fox (BR) (T1.0_r2a).z64-bezel.png</bezel>
-  </game>
-  <game id="5510">
-    <path>./Mace - The Dark Age (USA).7z</path>
-    <name>Mace : The Dark Age</name>
-    <mode>Jogador individual</mode>
-    <desc>Mace The Dark Age is a fighting game that was made by Midway Games, and released by Atari for Arcade. It is believed that he was the pioneer in taking advantage of the 3D fighting game environment on the Nintendo 64.
-Live by the sword. Kill by the apple! Forged in the fire of the Dark Ages, each medieval character wields a weapon unique to their homeland. His only desire - to inflict severe pain! Sixteen player-selectable characters, two incredible bosses, and six hidden characters. Tons of tasty combinations and reversals with simple four-button controls. Become immersed in battle with full 3D character movement. Behold the interactive multi-level arenas, but beware the deadly limits!</desc>
-    <rating>0.60</rating>
-    <releasedate>19971201T000000</releasedate>
-    <developer>Midway</developer>
-    <publisher>GT Interactive Software</publisher>
-    <genre>Luta / Versus, Luta</genre>
-    <genreid>262</genreid>
-    <players>1-2</players>
-    <region>us</region>
-    <image>./media/image/Mace - The Dark Age (USA)-image.png</image>
-    <video>./media/videos/Mace - The Dark Age (USA)-video.mp4</video>
-    <boxart>./media/image/Mace - The Dark Age (USA)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Mace - The Dark Age (USA)-screenshot.png</screenshot>
-    <cartridge>./media/image/Mace - The Dark Age (USA)-cartridge.png</cartridge>
-    <fanart>./media/fanart/Mace - The Dark Age (USA)-fanart.jpg</fanart>
-    <titleshot>./media/image/Mace - The Dark Age (USA)-titleshot.png</titleshot>
-    <manual>./media/manuals/Mace - The Dark Age (USA)_(us).pdf</manual>
-    <boxback>./media/image/Mace - The Dark Age (USA)-boxback.png</boxback>
-    <extra1>./media/extras/Mace - The Dark Age (USA)-extra1.png</extra1>
-    <bezel>./media/bezels/Mace - The Dark Age (USA)-bezel.png</bezel>
+    <md5>b633803af2a0a755c58c66356e1d2e57</md5>
+    <hash>DA0B6B8C</hash>
+    <region>au,eu</region>
+    <lang>de,fr,en</lang>
+    <image>./media/image/Lylat Wars [5416].z64-image.png</image>
+    <video>./media/videos/Lylat Wars [5416].z64-video.mp4</video>
+    <marquee>./media/image/Lylat Wars [5416].z64-marquee.png</marquee>
+    <wheel>./media/image/Lylat Wars [5416].z64-wheel.png</wheel>
+    <boxart>./media/image/Lylat Wars [5416].z64-boxart.png</boxart>
+    <screenshot>./media/screenshots/Lylat Wars [5416].z64-screenshot.png</screenshot>
+    <cartridge>./media/image/Lylat Wars [5416].z64-cartridge.png</cartridge>
+    <fanart>./media/fanart/Lylat Wars [5416].z64-fanart.jpg</fanart>
+    <titleshot>./media/image/Lylat Wars [5416].z64-titleshot.png</titleshot>
+    <manual>./media/manuals/Lylat Wars [5416].z64_(eu).pdf</manual>
+    <boxback>./media/image/Lylat Wars [5416].z64-boxback.png</boxback>
+    <extra1>./media/extras/Lylat Wars [5416].z64-extra1.png</extra1>
+    <bezel>./media/image/Lylat Wars [5416].z64-bezel.png</bezel>
   </game>
   <game id="5401">
-    <path>./Mario Kart 64 (BR).7z</path>
-    <name>Mario Kart 64</name>
+    <path>./Mario Kart 64 [5401].7z</path>
+    <name>MARIO KART 64 [5401]</name>
     <mode>Multijogador em tela dividida</mode>
-    <desc>Mario Kart 64 is the second game in the Mario Kart series, and the first to use three-dimensional graphics. It was released between 1996 and 1997 for the Nintendo 64 console.
-The game offers two camera angles and three engine sizes: 50cc, 100cc and 150cc. You can gain even more speed by mastering the Power Slide technique or picking up Super Star power-ups. Each kart has distinct handling, acceleration and top speed capabilities. Light karts, like Princess's, smoothly navigate tight corners, but are at constant risk of being flattened by heavy karts, like Donkey Kong's. Grenades that you fire at rival racers, Bananas that make them skid, and Lightning Bolts that make them small and very slow are just some of the game's unique power-ups.</desc>
+    <desc>MARIO KART 64 É O SEGUNDO JOGO DA SÉRIE MARIO KART, E O PRIMEIRO A USAR GRÁFICOS TRIDIMENSIONAIS. FOI LANÇADO ENTRE 1996 E 1997 PARA O CONSOLE NINTENDO 64.
+O JOGO OFERECE DOIS ÂNGULOS DE CÂMERA E TRÊS TAMANHOS DE MOTOR: 50CC, 100CC E 150CC. VOCÊ PODE GANHAR AINDA MAIS VELOCIDADE DOMINANDO A TÉCNICA POWER SLIDE OU PEGANDO POWER-UPS SUPER STAR. CADA KART TEM RECURSOS DISTINTOS DE MANUSEIO, ACELERAÇÃO E VELOCIDADE MÁXIMA. OS KARTS LEVES, COMO OS DA PRINCESA, PASSAM SUAVEMENTE POR CURVAS APERTADAS, MAS CORREM O RISCO CONSTANTE DE SEREM ACHATADOS POR KARTS PESADOS, COMO O DE DONKEY KONG. AS GRANADAS QUE VOCÊ DISPARA EM CORREDORES RIVAIS, BANANAS QUE AS FAZEM DERRAPAR E LIGHTNING BOLTS, QUE AS TORNAM PEQUENAS E MUITO LENTAS, SÃO APENAS ALGUNS DOS POWER-UPS ÚNICOS DO JOGO.</desc>
     <rating>0.80</rating>
     <releasedate>19970624T000000</releasedate>
-    <developer>Nintendo</developer>
-    <publisher>Nintendo</publisher>
-    <genre>Corrida, Pilotagem</genre>
+    <developer>NINTENDO</developer>
+    <publisher>NINTENDO</publisher>
+    <genre>CORRIDA, PILOTAGEM</genre>
     <genreid>1537</genreid>
     <players>1-4</players>
+    <md5>d81760c53417ea97b04f311b02558aae</md5>
+    <hash>3B0D98C1</hash>
     <region>eu</region>
-    <image>./media/image/Mario Kart 64 (BR)-image.png</image>
-    <video>./media/videos/Mario Kart 64 (BR)-video.mp4</video>
-    <boxart>./media/image/Mario Kart 64 (BR)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Mario Kart 64 (BR)-screenshot.png</screenshot>
-    <cartridge>./media/image/Mario Kart 64 (BR)-cartridge.png</cartridge>
-    <fanart>./media/fanart/Mario Kart 64 (BR)-fanart.jpg</fanart>
-    <titleshot>./media/image/Mario Kart 64 (BR)-titleshot.png</titleshot>
-    <manual>./media/manuals/Mario Kart 64 (BR)_(eu).pdf</manual>
-    <boxback>./media/image/Mario Kart 64 (BR)-boxback.png</boxback>
-    <extra1>./media/extras/Mario Kart 64 (BR)-extra1.png</extra1>
-    <bezel>./media/bezels/Mario Kart 64 (BR)-bezel.png</bezel>
-  </game>
-  <game id="5624">
-    <path>./San Francisco Rush - Extreme Racing (USA).7z</path>
-    <name>San Francisco Rush : Extreme Racing</name>
-    <mode>Multijogador em tela dividida</mode>
-    <desc>Put the pedal to the metal, smoke the tires and break speed with San Francisco Rush! Take to the road in one of eight unique race cars classified into four distinct performance classes. Burn rubber through San Francisco's 3D modeled hills and landmarks. Choose from six detailed tracks that can be adjusted with the games' "Mirror" or "Backward" options, for a total of 24 incredible tracks! Spectacular hidden shortcuts in every track!</desc>
-    <rating>0.60</rating>
-    <releasedate>19971201T000000</releasedate>
-    <developer>Midway</developer>
-    <publisher>GT Interactive Software</publisher>
-    <genre>Corrida, Pilotagem</genre>
-    <genreid>1537</genreid>
-    <players>1-2</players>
-    <region>eu,us</region>
-    <lang>de,fr,en</lang>
-    <image>./media/image/San Francisco Rush - Extreme Racing (USA)-image.png</image>
-    <video>./media/videos/San Francisco Rush - Extreme Racing (USA)-video.mp4</video>
-    <boxart>./media/image/San Francisco Rush - Extreme Racing (USA)-boxart.png</boxart>
-    <screenshot>./media/screenshots/San Francisco Rush - Extreme Racing (USA)-screenshot.png</screenshot>
-    <cartridge>./media/image/San Francisco Rush - Extreme Racing (USA)-cartridge.png</cartridge>
-    <fanart>./media/fanart/San Francisco Rush - Extreme Racing (USA)-fanart.jpg</fanart>
-    <titleshot>./media/image/San Francisco Rush - Extreme Racing (USA)-titleshot.png</titleshot>
-    <manual>./media/manuals/San Francisco Rush - Extreme Racing (USA)_(us).pdf</manual>
-    <boxback>./media/image/San Francisco Rush - Extreme Racing (USA)-boxback.png</boxback>
-    <extra1>./media/extras/San Francisco Rush - Extreme Racing (USA)-extra1.png</extra1>
-    <bezel>./media/bezels/San Francisco Rush - Extreme Racing (USA)-bezel.png</bezel>
-  </game>
-  <game id="5396">
-    <path>./Super Mario 64 (BR).7z</path>
-    <name>Super Mario 64</name>
-    <mode>Jogador individual</mode>
-    <desc>Mario is super in a whole new way! Combining the best 3D graphics ever developed for a video game and an explosive soundtrack, Super Mario 64 sets a new standard for video games. It's packed with hard-hitting battles, scary obstacle courses, and underwater adventures. Recover the Power Stars from their hidden locations and face your arch enemy - Bowser, King of the Koopas!</desc>
-    <rating>0.80</rating>
-    <releasedate>19970301T000000</releasedate>
-    <developer>Nintendo</developer>
-    <publisher>Nintendo</publisher>
-    <genre>Ação, Ação / Aventura</genre>
-    <genreid>256</genreid>
-    <players>1</players>
-    <region>us</region>
-    <image>./media/image/Super Mario 64 (BR)-image.png</image>
-    <video>./media/videos/Super Mario 64 (BR)-video.mp4</video>
-    <marquee>./media/image/Super Mario 64 (BR)-marquee.png</marquee>
-    <wheel>./media/wheel/Super Mario 64 (BR)-wheel.png</wheel>
-    <boxart>./media/image/Super Mario 64 (BR)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Super Mario 64 (BR)-screenshot.png</screenshot>
-    <cartridge>./media/image/Super Mario 64 (BR)-cartridge.png</cartridge>
-    <fanart>./media/fanart/Super Mario 64 (BR)-fanart.jpg</fanart>
-    <titleshot>./media/image/Super Mario 64 (BR)-titleshot.png</titleshot>
-    <manual>./media/manuals/Super Mario 64 (BR)_(eu).pdf</manual>
-    <boxback>./media/image/Super Mario 64 (BR)-boxback.png</boxback>
-    <extra1>./media/extras/Super Mario 64 (BR)-extra1.png</extra1>
-    <bezel>./media/bezels/Super Mario 64 (BR)-bezel.png</bezel>
-  </game>
-  <game id="5439">
-    <path>./Wave Race 64 (BR).7z</path>
-    <name>Wave Race 64</name>
-    <mode>Jogador individual</mode>
-    <desc>Wave Race 64 offers some of the most exciting races you will ever experience. Feel the crash and crash of the waves as you accelerate in a straight line, whip around the marker buoys and take to the air on the jump ramps. Don't run alone - challenge a friend! Take control in three different game modes - Championship, Time Trials and Stunt Mode. Nine challenging courses in exotic locations - race conditions change and wave action responds to the way you and your opponents race!</desc>
-    <rating>0.80</rating>
-    <releasedate>19970429T000000</releasedate>
-    <developer>Nintendo</developer>
-    <publisher>Nintendo</publisher>
-    <genre>Esporte / Náutico, Esporte</genre>
-    <genreid>1536</genreid>
-    <players>1-2</players>
-    <region>eu</region>
-    <lang>de,en</lang>
-    <image>./media/image/Wave Race 64 (BR)-image.png</image>
-    <video>./media/videos/Wave Race 64 (BR)-video.mp4</video>
-    <marquee>./media/image/Wave Race 64 (BR)-marquee.png</marquee>
-    <wheel>./media/wheel/Wave Race 64 (BR)-wheel.png</wheel>
-    <boxart>./media/image/Wave Race 64 (BR)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Wave Race 64 (BR)-screenshot.png</screenshot>
-    <cartridge>./media/image/Wave Race 64 (BR)-cartridge.png</cartridge>
-    <fanart>./media/fanart/Wave Race 64 (BR)-fanart.jpg</fanart>
-    <titleshot>./media/image/Wave Race 64 (BR)-titleshot.png</titleshot>
-    <manual>./media/manuals/Wave Race 64 (BR)_(eu).pdf</manual>
-    <boxback>./media/image/Wave Race 64 (BR)-boxback.png</boxback>
-    <extra1>./media/extras/Wave Race 64 (BR)-extra1.png</extra1>
-    <bezel>./media/bezels/Wave Race 64 (BR)-bezel.png</bezel>
+    <image>./media/image/Mario Kart 64 [5401]-image.png</image>
+    <video>./media/videos/Mario Kart 64 [5401]-video.mp4</video>
+    <boxart>./media/image/Mario Kart 64 [5401]-boxart.png</boxart>
+    <screenshot>./media/screenshots/Mario Kart 64 [5401]-screenshot.png</screenshot>
+    <cartridge>./media/image/Mario Kart 64 [5401]-cartridge.png</cartridge>
+    <fanart>./media/fanart/Mario Kart 64 [5401]-fanart.jpg</fanart>
+    <titleshot>./media/image/Mario Kart 64 [5401]-titleshot.png</titleshot>
+    <manual>./media/manuals/Mario Kart 64 [5401]_(eu).pdf</manual>
+    <boxback>./media/image/Mario Kart 64 [5401]-boxback.png</boxback>
+    <extra1>./media/extras/Mario Kart 64 [5401]-extra1.png</extra1>
+    <bezel>./media/image/Mario Kart 64 [5401]-bezel.png</bezel>
   </game>
 </gameList>

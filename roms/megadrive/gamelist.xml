@@ -6,1257 +6,1350 @@
     <web>http://jujuvincebros.fr/wiki/arrm/doku.php</web>
   </provider>
   <game id="1048">
-    <path>./Dinosaur's Tale, A (BR).md.7z</path>
-    <name>A Dinosaur's Tale</name>
-    <desc>Play as the characters from Spielberg's animated film "The Dinosaurs Are Back." Run and jump through a variety of levels and defeat Professor Screweyes. Each first level is a side-scrolling platformer where you take on the role of human children Cecilia or Louie and move through obstacles to reach the end of the level. These levels take place in various locations in New York, including a TV studio and a circus that wants to keep dinosaurs for an exhibition. Every other stage is a 3D stage where you play as one of the dinosaur characters, for example, skateboarding in the back of a pickup truck as Rex or flying as Elsa over Central Park while collecting balloons. This is one of the first Mega Drive games with 3D gameplay.</desc>
+    <path>./A Dinosaur's Tale [1048].md.7z</path>
+    <name>A DINOSAUR'S TALE [1048].MD</name>
+    <desc>JOGUE COMO OS PERSONAGENS DO FILME DE ANIMAÇÃO DE SPIELBERG "OS DINOSSAUROS VOLTARAM". CORRA E PULE ATRAVÉS DE UMA VARIEDADE DE FASES E DERROTE O PROFESSOR SCREWEYES. CADA PRIMEIRA FASE É UM PLATAFORMA SIDE-SCROLLING ONDE VOCÊ ASSUME O PAPEL DAS CRIANÇAS HUMANAS CECILIA OU LOUIE E SE MOVE ATRAVÉS DE OBSTÁCULOS PARA CHEGAR AO FINAL DA FASE. ESTAS FASES SE PASSAM EM VÁRIOS LOCAIS DE NOVA YORK, INCLUINDO UM ESTÚDIO DE TV E UM CIRCO QUE QUER MANTER OS DINOSSAUROS PARA UMA EXPOSIÇÃO. CADA OUTRO FASE É UMA FASE 3D ONDE VOCÊ JOGA COM UM DOS PERSONAGENS DINOSSAURO, EXEMPLO, ANDANDO DE SKATE NA PARTE TRASEIRA DE UMA CAMIONETE COMO REX OU VOANDO COMO ELSA SOBRE O CENTRAL PARK AO COLETAR BALÕES. ESTE É UM DOS PRIMEIROS JOGOS DO MEGA DRIVE COM JOGABILIDADE 3D.</desc>
     <rating>0.60</rating>
     <releasedate>19940101T000000</releasedate>
-    <developer>Funcom</developer>
-    <publisher>Hi-Tec Software</publisher>
-    <genre>Plataforma</genre>
+    <developer>FUNCOM</developer>
+    <publisher>HI-TEC SOFTWARE</publisher>
+    <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
-    <region>us</region>
-    <image>./media/image/Dinosaur's Tale, A (BR).md-image.png</image>
-    <video>./media/videos/Dinosaur's Tale, A (BR).md-video.mp4</video>
-    <marquee>./media/image/Dinosaur's Tale, A (BR).md-marquee.png</marquee>
-    <wheel>./media/wheel/Dinosaur's Tale, A (BR).md-wheel.png</wheel>
-    <boxart>./media/image/Dinosaur's Tale, A (BR).md-boxart.png</boxart>
-    <screenshot>./media/screenshots/Dinosaur's Tale, A (BR).md-screenshot.png</screenshot>
-    <cartridge>./media/image/Dinosaur's Tale, A (BR).md-cartridge.png</cartridge>
-    <fanart>./media/fanart/Dinosaur's Tale, A (BR).md-fanart.jpg</fanart>
-    <titleshot>./media/image/Dinosaur's Tale, A (BR).md-titleshot.png</titleshot>
-    <manual>./media/manuals/Dinosaur's Tale, A (BR).md_(us).pdf</manual>
-    <boxback>./media/image/Dinosaur's Tale, A (BR).md-boxback.png</boxback>
-    <extra1>./media/extras/Dinosaur's Tale, A (BR).md-extra1.png</extra1>
-    <bezel>./media/bezels/Dinosaur's Tale, A (BR).md-bezel.png</bezel>
+    <md5>ba72c8f0f48909789b4b4f252634d116</md5>
+    <hash>37359CF7</hash>
+    <video>./media/videos/A Dinosaur's Tale [1048].md-video.mp4</video>
+    <fanart>./media/fanart/A Dinosaur's Tale [1048].md-fanart.jpg</fanart>
+    <manual>./media/manuals/A Dinosaur's Tale [1048].md_(us).pdf</manual>
+    <extra1>./media/extras/A Dinosaur's Tale [1048].md-extra1.png</extra1>
+    <bezel>./media/image/A Dinosaur's Tale [1048].md-bezel.png</bezel>
   </game>
   <game id="36">
-    <path>./Alien Soldier (BR).md.7z</path>
-    <name>Alien Soldier</name>
+    <path>./Alien Soldier [36].md.7z</path>
+    <name>ALIEN SOLDIER [36].MD</name>
     <mode>Jogador individual</mode>
-    <desc>Alien Soldier is a side-scrolling action game in which the player takes on the role of Epsilon-Eagle, the former leader of the mutant group Scarlet. The mutants are now led by the evil Xi-Tiger who has turned them into terrorists, and one of his goals is to kill Epsilon-Eagle...
-At the start of the game, the player chooses four of six weapons - each with special advantages or disadvantages against certain enemies. The Epsilon-Eagle mutant also has other special powers, e.g. ex. teleporting across the screen or (with full health) transforming into a powerful phoenix destroying everything in its path.
-The 25 stages consist of short side-scrolling sequences and some boss fights. In fact, bosses appear throughout most of the game and side-scrolling sequences are mainly used to give the player the opportunity to collect ammo. Bosses have their own patterns and weaknesses.</desc>
+    <desc>ALIEN SOLDIER É UM JOGO DE AÇÃO SIDE-SCROLLING NO QUAL O JOGADOR ASSUME O PAPEL DE EPSILON-EAGLE, O EX-LÍDER DO GRUPO MUTANTE SCARLET. OS MUTANTES SÃO AGORA LIDERADOS PELO MALVADO XI-TIGER QUE OS TRANSFORMOU EM TERRORISTAS, E UM DE SEUS OBJETIVOS É MATAR EPSILON-EAGLE...
+NO INÍCIO DO JOGO, O JOGADOR ESCOLHE QUATRO DE SEIS ARMAS - CADA UMA COM VANTAGENS OU DESVANTAGENS ESPECIAIS CONTRA CERTOS INIMIGOS. O MUTANTE EPSILON-EAGLE TAMBÉM TEM OUTROS PODERES ESPECIAIS, P. EX. TELEPORTANDO ATRAVÉS DA TELA OU (COM PLENA SAÚDE) SE TRANSFORMANDO EM UMA FÊNIX PODEROSA DESTRUINDO TUDO PELO CAMINHO.
+AS 25 FASES CONSISTEM EM CURTAS SEQUÊNCIAS SIDE-SCROLLING E ALGUMAS LUTAS DE CHEFE. NA VERDADE, OS CHEFES APARECEM NA MAIOR PARTE DO JOGO E AS SEQUÊNCIAS DE SIDE-SCROLLING SÃO USADAS PRINCIPALMENTE PARA DAR AO JOGADOR A OPORTUNIDADE DE COLETAR MUNIÇÃO. OS CHEFES TÊM SEUS PRÓPRIOS PADRÕES E FRAQUEZAS.</desc>
     <rating>0.80</rating>
     <releasedate>19950601T000000</releasedate>
-    <developer>Treasure</developer>
+    <developer>TREASURE</developer>
     <publisher>SEGA</publisher>
-    <genre>Tiro / Run And Gun, Tiro</genre>
+    <genre>TIRO / RUN AND GUN, TIRO</genre>
     <genreid>256</genreid>
     <players>1</players>
+    <md5>776acea2305dba3cfd0c1317780d9372</md5>
+    <hash>1D2BB7A0</hash>
     <region>eu</region>
-    <image>./media/image/Alien Soldier (BR).md-image.png</image>
-    <video>./media/videos/Alien Soldier (BR).md-video.mp4</video>
-    <boxart>./media/image/Alien Soldier (BR).md-boxart.png</boxart>
-    <screenshot>./media/screenshots/Alien Soldier (BR).md-screenshot.png</screenshot>
-    <cartridge>./media/image/Alien Soldier (BR).md-cartridge.png</cartridge>
-    <fanart>./media/fanart/Alien Soldier (BR).md-fanart.jpg</fanart>
-    <titleshot>./media/image/Alien Soldier (BR).md-titleshot.png</titleshot>
-    <manual>./media/manuals/Alien Soldier (BR).md_(eu).pdf</manual>
-    <boxback>./media/image/Alien Soldier (BR).md-boxback.png</boxback>
-    <extra1>./media/extras/Alien Soldier (BR).md-extra1.png</extra1>
-    <bezel>./media/bezels/Alien Soldier (BR).md-bezel.png</bezel>
+    <image>./media/image/Alien Soldier [36].md-image.png</image>
+    <video>./media/videos/Alien Soldier [36].md-video.mp4</video>
+    <boxart>./media/image/Alien Soldier [36].md-boxart.png</boxart>
+    <screenshot>./media/screenshots/Alien Soldier [36].md-screenshot.png</screenshot>
+    <cartridge>./media/image/Alien Soldier [36].md-cartridge.png</cartridge>
+    <fanart>./media/fanart/Alien Soldier [36].md-fanart.jpg</fanart>
+    <titleshot>./media/image/Alien Soldier [36].md-titleshot.png</titleshot>
+    <manual>./media/manuals/Alien Soldier [36].md_(eu).pdf</manual>
+    <boxback>./media/image/Alien Soldier [36].md-boxback.png</boxback>
+    <extra1>./media/extras/Alien Soldier [36].md-extra1.png</extra1>
+    <bezel>./media/image/Alien Soldier [36].md-bezel.png</bezel>
   </game>
   <game id="53">
-    <path>./Alisia Dragoon (USA).smd.7z</path>
-    <name>Alisia Dragoon</name>
+    <path>./Alisia Dragoon [53].smd.7z</path>
+    <name>ALISIA DRAGOON [53].SMD</name>
     <mode>Jogador individual</mode>
-    <desc>When she was a child, Alisia went through the worst period of her life: the murder of her father. To this day, terrible nightmares permeate his nights. The person responsible for this horrendous evil was the evil sorcerer Baidour.
-On the day of the tragedy Alisia swore: "Baldour will regret having caused so much suffering." However, in order for her to keep her word, she will have to defeat battalions of terrible barbarians, monstrous poisonous centipedes and squadrons of winged gnomes.
-You will only have your magical powers and one of four friendly creatures that will help protect you. Will she be able to destroy the cocoon where Baldour rests before he wakes up? We believe so, because she is tough, warrior and dangerous: she is Alisia Dragoon!</desc>
+    <desc>QUANDO ERA ANDA CRIANÇA ALISIA PASSOU PELO PIOR PERÍODO DE SUA VIDA: O ASSASSINATO DE SEU PAI. ATÉ HOJE TERRÍVEIS PESADELOS PERMEIAM AS SUAS NOITES. O RESPONSÁVEL POR ESSA HORRENDA MALDADE FOI O MALÉFICO FEITICEIRO BAIDOUR.
+NO DIA DA TRAGÉDIA ALISIA JUROU: "BALDOUR SE ARREPENDERÁ POR TER CAUSADO TANTO SOFRIMENTO". ENTRETANTO, PARA QUE ELA POSSA CUMPRIR COM A SUA PALAVRA TERÁ QUE VENCER BATALHÕES DE TERRÍVEIS BÁRBAROS, MONSTRUOSAS CENTOPÉIAS VENENOSAS E ESQUADRÕES DE GNOMOS ALADOS.
+CONTARÁ SOMENTE COM SEUS PODERES MÁGICOS E COM UMA DAS QUATRO CRIATURAS AMIGAS QUE AJUDARÃO A PROTEGÊ-LA. SERÁ QUE EIA CONSEGUIRÁ DESTRUIR O CASULO AONDE BALDOUR DESCANSA ANTES QUE ELE ACORDE? ACREDITAMOS QUE SIM, POIS ELA É DURONA, GUERREIRA E PERIGOSA: ELA É ALISIA DRAGOON!</desc>
     <rating>0.60</rating>
     <releasedate>19920401T000000</releasedate>
-    <developer>Game Arts</developer>
+    <developer>GAME ARTS</developer>
     <publisher>SEGA</publisher>
-    <genre>Plataforma</genre>
+    <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
-    <region>eu,us</region>
-    <image>./media/image/Alisia Dragoon (USA).smd-image.png</image>
-    <video>./media/videos/Alisia Dragoon (USA).smd-video.mp4</video>
-    <boxart>./media/image/Alisia Dragoon (USA).smd-boxart.png</boxart>
-    <screenshot>./media/screenshots/Alisia Dragoon (USA).smd-screenshot.png</screenshot>
-    <cartridge>./media/image/Alisia Dragoon (USA).smd-cartridge.png</cartridge>
-    <fanart>./media/fanart/Alisia Dragoon (USA).smd-fanart.jpg</fanart>
-    <titleshot>./media/image/Alisia Dragoon (USA).smd-titleshot.png</titleshot>
-    <manual>./media/manuals/Alisia Dragoon (USA).smd_(br).pdf</manual>
-    <boxback>./media/image/Alisia Dragoon (USA).smd-boxback.png</boxback>
-    <extra1>./media/extras/Alisia Dragoon (USA).smd-extra1.png</extra1>
-    <bezel>./media/bezels/Alisia Dragoon (USA).smd-bezel.png</bezel>
+    <md5>77be06102101759f30b416d80872c8da</md5>
+    <hash>D28D5C40</hash>
+    <region>us</region>
+    <image>./media/image/Alisia Dragoon [53].smd-image.png</image>
+    <video>./media/videos/Alisia Dragoon [53].smd-video.mp4</video>
+    <boxart>./media/image/Alisia Dragoon [53].smd-boxart.png</boxart>
+    <screenshot>./media/screenshots/Alisia Dragoon [53].smd-screenshot.png</screenshot>
+    <cartridge>./media/image/Alisia Dragoon [53].smd-cartridge.png</cartridge>
+    <fanart>./media/fanart/Alisia Dragoon [53].smd-fanart.jpg</fanart>
+    <titleshot>./media/image/Alisia Dragoon [53].smd-titleshot.png</titleshot>
+    <manual>./media/manuals/Alisia Dragoon [53].smd_(br).pdf</manual>
+    <boxback>./media/image/Alisia Dragoon [53].smd-boxback.png</boxback>
+    <extra1>./media/extras/Alisia Dragoon [53].smd-extra1.png</extra1>
+    <bezel>./media/image/Alisia Dragoon [53].smd-bezel.png</bezel>
   </game>
   <game id="40">
-    <path>./Castlevania Bloodlines (BR).bin.7z</path>
-    <name>Castlevania : The New Generation</name>
-    <desc>In the year 1917, evil threatened to rise again in Transylvania. A young woman named Elizabeth Bartley, who was tried as a witch and killed centuries ago, was planning to resurrect the Prince of Darkness, Count Dracula, once again.
-The last of the Belmont line, John Morris, and his friend Eric Lecarde, must now travel across Europe to the Palace of Versailles in France, where Bartley is planning the resurrection. And on their way, Dracula's strongest followers follow...</desc>
+    <path>./Castlevania - The New Generation [40].bin.7z</path>
+    <name>CASTLEVANIA - THE NEW GENERATION [40].BIN</name>
+    <desc>NO ANO DE 1917, O MAL AMEAÇOU SE LEVANTAR NOVAMENTE NA TRANSILVÂNIA. UMA JOVEM CHAMADA ELIZABETH BARTLEY, QUE FOI JULGADA COMO UMA BRUXA E MORTA HÁ SÉCULOS ATRÁS, ESTAVA PLANEJANDO RESSUSCITAR O PRÍNCIPE DAS TREVAS, CONDE DRÁCULA, MAIS UMA VEZ.
+O ÚLTIMO DA LINHAGEM DOS BELMONT, JOHN MORRIS, E SEU AMIGO ERIC LECARDE, AGORA DEVEM VIAJAR PELA EUROPA PARA O PALÁCIO DE VERSALHES, NA FRANÇA, ONDE BARTLEY ESTÁ PLANEJANDO A RESSURREIÇÃO. E, EM SEU CAMINHO, SEGUEM OS SEGUIDORES MAIS FORTES DE DRÁCULA...</desc>
     <rating>0.80</rating>
     <releasedate>19940320T000000</releasedate>
-    <developer>Konami</developer>
-    <publisher>Konami</publisher>
-    <genre>Plataforma / Combate Com Rolagem, Plataforma</genre>
+    <developer>KONAMI</developer>
+    <publisher>KONAMI</publisher>
+    <genre>PLATAFORMA / COMBATE COM ROLAGEM, PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
-    <region>eu,us</region>
-    <image>./media/image/Castlevania Bloodlines (BR).bin-image.png</image>
-    <video>./media/videos/Castlevania Bloodlines (BR).bin-video.mp4</video>
-    <marquee>./media/image/Castlevania Bloodlines (BR).bin-marquee.png</marquee>
-    <wheel>./media/wheel/Castlevania Bloodlines (BR).bin-wheel.png</wheel>
-    <boxart>./media/image/Castlevania Bloodlines (BR).bin-boxart.png</boxart>
-    <screenshot>./media/screenshots/Castlevania Bloodlines (BR).bin-screenshot.png</screenshot>
-    <cartridge>./media/image/Castlevania Bloodlines (BR).bin-cartridge.png</cartridge>
-    <fanart>./media/fanart/Castlevania Bloodlines (BR).bin-fanart.jpg</fanart>
-    <titleshot>./media/image/Castlevania Bloodlines (BR).bin-titleshot.png</titleshot>
-    <manual>./media/manuals/Castlevania Bloodlines (BR).bin_(eu).pdf</manual>
-    <boxback>./media/image/Castlevania Bloodlines (BR).bin-boxback.png</boxback>
-    <extra1>./media/extras/Castlevania Bloodlines (BR).bin-extra1.png</extra1>
-    <bezel>./media/bezels/Castlevania Bloodlines (BR).bin-bezel.png</bezel>
+    <md5>3ecece62a4e2ed1bd974408765a88980</md5>
+    <hash>B917DFE6</hash>
+    <region>eu</region>
+    <image>./media/image/Castlevania - The New Generation [40].bin-image.png</image>
+    <video>./media/videos/Castlevania - The New Generation [40].bin-video.mp4</video>
+    <marquee>./media/image/Castlevania - The New Generation [40].bin-marquee.png</marquee>
+    <wheel>./media/image/Castlevania - The New Generation [40].bin-wheel.png</wheel>
+    <boxart>./media/image/Castlevania - The New Generation [40].bin-boxart.png</boxart>
+    <screenshot>./media/screenshots/Castlevania - The New Generation [40].bin-screenshot.png</screenshot>
+    <cartridge>./media/image/Castlevania - The New Generation [40].bin-cartridge.png</cartridge>
+    <fanart>./media/fanart/Castlevania - The New Generation [40].bin-fanart.jpg</fanart>
+    <manual>./media/manuals/Castlevania - The New Generation [40].bin_(eu).pdf</manual>
+    <boxback>./media/image/Castlevania - The New Generation [40].bin-boxback.png</boxback>
+    <extra1>./media/extras/Castlevania - The New Generation [40].bin-extra1.png</extra1>
+    <bezel>./media/image/Castlevania - The New Generation [40].bin-bezel.png</bezel>
   </game>
   <game id="35">
-    <path>./Comix Zone (BR).md.7z</path>
-    <name>Comix Zone</name>
+    <path>./Comix Zone [35].md.7z</path>
+    <name>COMIX ZONE [35].MD</name>
     <mode>Jogador individual</mode>
-    <desc>The first interactive comic book in history! More than a comic book. More than a video game. Take part in this adventure alongside Sketch Turner, a cartoonist who became trapped in the world of comics he created. Now, to be able to return to the real world, our hero must fight frame by frame of the magazine, passing through all the obstacles that appear in front of him. This will not be an easy task, as with each page turned, mutant enemies will be drawn to try to annihilate you. Failing... means staying in the Comix Zone forever!!! Instead of traditional scenarios, each fight takes place in a story comic with balloons and everything! There are 24 Mega of lots of action, with the original multi-scrolling perspective.</desc>
+    <desc>O PRIMEIRO GIBI INTERATIVO DA HISTÓRIA! MAIS DO QUE UMA REVISTA EM QUADRINHOS. MAIS DO QUE UM VIDEOGAME. PARTICIPE DESSA AVENTURA AO LADO DE SKETCH TURNER, UM CARTUNISTA QUE FICOU PRESO NO MUNDO DOS QUADRINHOS QUE ELE MESMO CRIOU. AGORA, PARA CONSEGUIR VOLTAR AO MUNDO REAL, NOSSO HERÓI DEVE LUTAR QUADRO A QUADRO DA REVISTA PASSANDO POR TODOS OS OBSTÁCULOS QUE SURGIREM À SUA FRENTE. ESTA NÃO SERÁ UMA TAREFA FÁCIL, POIS A CADA PÁGINA VIRADA INIMIGOS MUTANTES SERÃO DESENHADOS PARA TENTAR ANIQUILÁ-LO. FALHAR... SIGNIFICA FICAR NA COMIX ZONE PARA SEMPRE!!! EM VEZ DE CENÁRIOS TRADICIONAIS, CADA LUTA ACONTECE NUM QUADRINHO DA HISTÓRIA COM BALÕEZINHOS E TUDO! SÃO 24 MEGA DE MUITA AÇÃO, COM A PERSPECTIVA ORIGINAL EM MULTI-SCROLLING.</desc>
     <rating>0.60</rating>
     <releasedate>19951027T000000</releasedate>
     <developer>SEGA</developer>
     <publisher>SEGA</publisher>
-    <genre>Briga De Rua</genre>
+    <genre>BRIGA DE RUA</genre>
     <genreid>263</genreid>
     <players>1</players>
+    <md5>393ac681c66051906cb15fdf12861caf</md5>
+    <hash>CB152165</hash>
     <region>eu,us</region>
-    <image>./media/image/Comix Zone (BR).md-image.png</image>
-    <video>./media/videos/Comix Zone (BR).md-video.mp4</video>
-    <boxart>./media/image/Comix Zone (BR).md-boxart.png</boxart>
-    <screenshot>./media/screenshots/Comix Zone (BR).md-screenshot.png</screenshot>
-    <cartridge>./media/image/Comix Zone (BR).md-cartridge.png</cartridge>
-    <fanart>./media/fanart/Comix Zone (BR).md-fanart.jpg</fanart>
-    <map>./media/maps/Comix Zone (BR).md-map.jpg</map>
-    <titleshot>./media/image/Comix Zone (BR).md-titleshot.png</titleshot>
-    <manual>./media/manuals/Comix Zone (BR).md_(br).pdf</manual>
-    <boxback>./media/image/Comix Zone (BR).md-boxback.png</boxback>
-    <extra1>./media/extras/Comix Zone (BR).md-extra1.png</extra1>
-    <bezel>./media/bezels/Comix Zone (BR).md-bezel.png</bezel>
+    <image>./media/image/Comix Zone [35].md-image.png</image>
+    <video>./media/videos/Comix Zone [35].md-video.mp4</video>
+    <boxart>./media/image/Comix Zone [35].md-boxart.png</boxart>
+    <screenshot>./media/screenshots/Comix Zone [35].md-screenshot.png</screenshot>
+    <cartridge>./media/image/Comix Zone [35].md-cartridge.png</cartridge>
+    <fanart>./media/fanart/Comix Zone [35].md-fanart.jpg</fanart>
+    <map>./media/maps/Comix Zone [35].md-map.jpg</map>
+    <titleshot>./media/image/Comix Zone [35].md-titleshot.png</titleshot>
+    <manual>./media/manuals/Comix Zone [35].md_(br).pdf</manual>
+    <boxback>./media/image/Comix Zone [35].md-boxback.png</boxback>
+    <extra1>./media/extras/Comix Zone [35].md-extra1.png</extra1>
+    <bezel>./media/image/Comix Zone [35].md-bezel.png</bezel>
   </game>
   <game id="1046">
-    <path>./Decap Attack (UE).smd.7z</path>
-    <name>DEcapAttack</name>
-    <desc>Things seem to be getting crazy on Body Island! Max D. Cap took control of the body-shaped island, chopping it into little pieces. But Dr. Frank N. Stein has already announced that this will not stay like that!
-It had long been known that he created strange beings for his experiments. And Chuck D. Head, the two-headed monster, was the one he destined to fight Max D. Cap's army, collect coins, find and use the island's magic potions.
-The entire enemy army is made up of bizarre creatures recruited from Dr. Frank himself! And there is no shortage of danger everywhere on the island. Don't you understand anything? No one on the island is either! All we know is that a great reward awaits whoever reconstructs the pieces of Body Island. And who can resist rewards?</desc>
+    <path>./Decapattack [1046].smd.7z</path>
+    <name>DECAPATTACK [1046].SMD</name>
+    <desc>AS COISAS PARECEM ESTAR FICANDO LOUCAS EM BODY ISLAND! MAX D. CAP ASSUMIU O CONTROLE DA ILHA EM FORMATO DE CORPO, PICANDO-A EM PEDACINHOS. MAS DR. FRANK N. STEIN JÁ ANUNCIOU QUE ISTO NÃO VAI FICAR ASSIM!
+HÁ MUITO JÁ SE SABIA QUE ELE CRIAVA ESTRANHOS SERES PARA SUAS EXPERIÊNCIAS. E CHUCK D. HEAD, O MONSTRO DE DUAS CABEÇAS, FOI QUEM ELE DESTINOU PARA LUTAR CONTRA O EXÉRCITO DE MAX D. CAP, COLECIONAR MOEDAS, ENCONTRAR E USAR AS POÇÕES MÁGICAS DA ILHA.
+TODO O EXÉRCITO INIMIGO É COMPOSTO POR CRIATURAS BIZARRAS RECRUTADAS DO PRÓPRIO DR. FRANK! E POR TODO LADO DA ILHA NÃO FALTA O PERIGO. VOCÊ NÃO ESTÁ ENTENDENDO NADA? NINGUÉM NA ILHA ESTÁ TAMBÉM! TUDO O QUE SABEMOS É QUE UMA ÓTIMA RECOMPENSA ESPERA POR QUEM RECONSTITUIR OS PEDAÇOS DE BODY ISLAND. E QUEM É QUE RESISTE A RECOMPENSAS?</desc>
     <rating>0.60</rating>
     <releasedate>19911101T000000</releasedate>
-    <developer>Vic Tokai</developer>
-    <publisher>Vic Tokai</publisher>
-    <genre>Plataforma</genre>
+    <developer>VIC TOKAI</developer>
+    <publisher>VIC TOKAI</publisher>
+    <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
-    <region>us,eu</region>
-    <image>./media/image/Decap Attack (UE).smd-image.png</image>
-    <video>./media/videos/Decap Attack (UE).smd-video.mp4</video>
-    <boxart>./media/image/Decap Attack (UE).smd-boxart.png</boxart>
-    <screenshot>./media/screenshots/Decap Attack (UE).smd-screenshot.png</screenshot>
-    <cartridge>./media/image/Decap Attack (UE).smd-cartridge.png</cartridge>
-    <fanart>./media/fanart/Decap Attack (UE).smd-fanart.jpg</fanart>
-    <titleshot>./media/image/Decap Attack (UE).smd-titleshot.png</titleshot>
-    <manual>./media/manuals/Decap Attack (UE).smd_(br).pdf</manual>
-    <boxback>./media/image/Decap Attack (UE).smd-boxback.png</boxback>
-    <extra1>./media/extras/Decap Attack (UE).smd-extra1.png</extra1>
-    <bezel>./media/bezels/Decap Attack (UE).smd-bezel.png</bezel>
+    <md5>283c180cede3352dabec75fff677052e</md5>
+    <hash>73DC0DD8</hash>
+    <region>eu,us</region>
+    <image>./media/image/Decapattack [1046].smd-image.png</image>
+    <video>./media/videos/Decapattack [1046].smd-video.mp4</video>
+    <boxart>./media/image/Decapattack [1046].smd-boxart.png</boxart>
+    <screenshot>./media/screenshots/Decapattack [1046].smd-screenshot.png</screenshot>
+    <cartridge>./media/image/Decapattack [1046].smd-cartridge.png</cartridge>
+    <fanart>./media/fanart/Decapattack [1046].smd-fanart.jpg</fanart>
+    <titleshot>./media/image/Decapattack [1046].smd-titleshot.png</titleshot>
+    <manual>./media/manuals/Decapattack [1046].smd_(br).pdf</manual>
+    <boxback>./media/image/Decapattack [1046].smd-boxback.png</boxback>
+    <extra1>./media/extras/Decapattack [1046].smd-extra1.png</extra1>
+    <bezel>./media/image/Decapattack [1046].smd-bezel.png</bezel>
   </game>
   <game id="426">
-    <path>./Elemental Master (BR) (T1.0).bin.7z</path>
-    <name>Elemental Master</name>
+    <path>./Elemental Master [426].bin.7z</path>
+    <name>ELEMENTAL MASTER [426].BIN</name>
     <mode>Jogador individual</mode>
-    <desc>In Elemental Master, you control a mystical warrior called Laden through vertically scrolling scenarios, where enemies move down the screen with the intention of preventing the hero from reaching the location of the game's villain, his brother Roki. Elemental Master is basically a shoot 'em up with power-ups and everything, with the difference that instead of a ship, we have a warrior running towards his destination.</desc>
+    <desc>EM ELEMENTAL MASTER, VOCÊ CONTROLA UM GUERREIRO MÍSTICO CHAMADO LADEN POR CENÁRIOS DE ROLAGEM VERTICAL, ONDE OS INIMIGOS VÃO DESCENDO A TELA NA INTENÇÃO DE IMPEDIR QUE O HERÓI CHEGUE ATÉ O LOCAL ONDE ESTÁ O VILÃO DO JOGO, SEU IRMÃO ROKI. ELEMENTAL MASTER É BASICAMENTE UM SHOOT 'EM UP COM POWER-UPS E TUDO MAIS, COM A DIFERENÇA QUE AO INVÉS DE UMA NAVE, TEMOS UM GUERREIRO QUE CORRE EM DIREÇÃO AO SEU DESTINO.</desc>
     <rating>0.60</rating>
     <releasedate>19930101T000000</releasedate>
-    <developer>Technosoft</developer>
-    <publisher>Renovation Products</publisher>
-    <genre>Shoot'em Up / Vertical, Shoot'em Up</genre>
+    <developer>TECHNOSOFT</developer>
+    <publisher>RENOVATION PRODUCTS</publisher>
+    <genre>SHOOT'EM UP / VERTICAL, SHOOT'EM UP</genre>
     <genreid>260</genreid>
     <players>1</players>
+    <md5>21bd22072daf017aa3b2bfa9fb68fb52</md5>
+    <hash>5D642527</hash>
     <region>us</region>
-    <image>./media/image/Elemental Master (BR) (T1.0).bin-image.png</image>
-    <video>./media/videos/Elemental Master (BR) (T1.0).bin-video.mp4</video>
-    <boxart>./media/image/Elemental Master (BR) (T1.0).bin-boxart.png</boxart>
-    <screenshot>./media/screenshots/Elemental Master (BR) (T1.0).bin-screenshot.png</screenshot>
-    <cartridge>./media/image/Elemental Master (BR) (T1.0).bin-cartridge.png</cartridge>
-    <fanart>./media/fanart/Elemental Master (BR) (T1.0).bin-fanart.jpg</fanart>
-    <titleshot>./media/image/Elemental Master (BR) (T1.0).bin-titleshot.png</titleshot>
-    <manual>./media/manuals/Elemental Master (BR) (T1.0).bin_(us).pdf</manual>
-    <boxback>./media/image/Elemental Master (BR) (T1.0).bin-boxback.png</boxback>
-    <extra1>./media/extras/Elemental Master (BR) (T1.0).bin-extra1.png</extra1>
-    <bezel>./media/bezels/Elemental Master (BR) (T1.0).bin-bezel.png</bezel>
+    <image>./media/image/Elemental Master [426].bin-image.png</image>
+    <video>./media/videos/Elemental Master [426].bin-video.mp4</video>
+    <boxart>./media/image/Elemental Master [426].bin-boxart.png</boxart>
+    <screenshot>./media/screenshots/Elemental Master [426].bin-screenshot.png</screenshot>
+    <cartridge>./media/image/Elemental Master [426].bin-cartridge.png</cartridge>
+    <fanart>./media/fanart/Elemental Master [426].bin-fanart.jpg</fanart>
+    <titleshot>./media/image/Elemental Master [426].bin-titleshot.png</titleshot>
+    <manual>./media/manuals/Elemental Master [426].bin_(us).pdf</manual>
+    <boxback>./media/image/Elemental Master [426].bin-boxback.png</boxback>
+    <extra1>./media/extras/Elemental Master [426].bin-extra1.png</extra1>
+    <bezel>./media/image/Elemental Master [426].bin-bezel.png</bezel>
   </game>
   <game id="188">
-    <path>./Steel Empire, The (UE).smd.7z</path>
-    <name>Empire of Steel</name>
-    <desc>The game presents itself as an old-time war film produced by "HOT-B Film Corporation". In the film the skies are populated by zeppelins, large warships and flying fortresses. In this age of steel, the Motorhead Empire has conquered and enslaved almost the entire planet. The last free nation, the Silverhead Republic, attempts to overthrow the Motorhead Empire using their newly developed weapon, the lightning bomb.
-Aside from its unusual Steampunk setting, Steel Empire is a fairly traditional side-scrolling shoot-'em-up. At the beginning of each phase, the player chooses between an attack plane and a zeppelin. While the plane is faster, the zeppelin has a longer life bar and can therefore take more damage. Both ships use the same standard weapon, which can be fired forward or backward, as well as bombs that are automatically released when fired. Also available are a limited number of lightning bombs that damage or destroy all enemies on the screen.
-Defeated enemies often lose power-ups, including health-replenishing hearts, lightning bombs, bonus points, extra lives, options, and experience points.
-Options are small "drones" that fly alongside the player's ship and imitate its behavior.
-Experience points can be collected to level up the ships' weapons (up to level 20) and thus increase their firepower.</desc>
+    <path>./Empire Of Steel [188].smd.7z</path>
+    <name>EMPIRE OF STEEL [188].SMD</name>
+    <desc>O JOGO SE APRESENTA COMO UM FILME DE GUERRA DOS VELHOS TEMPOS PRODUZIDO PELA "HOT-B FILM CORPORATION". NO FILME OS CÉUS ESTÃO POVOADOS POR ZEPELINS, GRANDES NAVES DE GUERRA E FORTALEZAS VOADORAS. NESTA ERA DO AÇO, O IMPÉRIO MOTORHEAD CONQUISTOU E ESCRAVIZOU QUASE TODO O PLANETA. A ÚLTIMA NAÇÃO LIVRE, A REPÚBLICA DE SILVERHEAD, TENTA DERRUBAR O IMPÉRIO MOTORHEAD USANDO SUA ARMA RECÉM-DESENVOLVIDA, A BOMBA RELÂMPAGO.
+ALÉM DE SEU INCOMUM CENÁRIO STEAMPUNK, STEEL EMPIRE É UM SHOOT-'EM-UP DE ROLAGEM LATERAL BASTANTE TRADICIONAL. NO COMEÇO DE CADA FASE, O JOGADOR ESCOLHE ENTRE UM AVIÃO DE ATAQUE E UM ZEPELIM. ENQUANTO O AVIÃO É MAIS RÁPIDO, O ZEPELIM TEM UMA BARRA DE VIDA MAIS LONGA E PODE, PORTANTO, SOFRER MAIS DANOS. AMBOS AS NAVES USAM A MESMA ARMA PADRÃO, QUE PODE SER DISPARADA PARA FRENTE OU PARA TRÁS, BEM COMO BOMBAS QUE SÃO LIBERADAS AUTOMATICAMENTE DURANTE O DISPARO. TAMBÉM ESTÁ DISPONÍVEL UM NÚMERO LIMITADO DE BOMBAS RELÂMPAGO QUE DANIFICAM OU DESTROEM TODOS OS INIMIGOS NA TELA.
+OS INIMIGOS DERROTADOS GERALMENTE PERDEM POWER-UPS, INCLUINDO CORAÇÕES QUE REABASTECEM A SAÚDE, BOMBAS RELÂMPAGO, PONTOS DE BÔNUS, VIDAS EXTRAS, OPÇÕES E PONTOS DE EXPERIÊNCIA.
+AS OPÇÕES SÃO PEQUENOS "DRONES" QUE VOAM AO LADO DA NAVE DO JOGADOR E IMITAM SEU COMPORTAMENTO.
+PONTOS DE EXPERIÊNCIA PODEM SER COLETADOS PARA SUBIR DE NÍVEL AS ARMAS DAS NAVES (ATÉ O NÍVEL 20) E ASSIM AUMENTAR SEU PODER DE FOGO.</desc>
     <rating>0.80</rating>
     <releasedate>19920601T000000</releasedate>
-    <developer>Flying Edge</developer>
-    <publisher>Hot-B</publisher>
-    <genre>Shoot'em Up / Horizontal, Shoot'em Up</genre>
+    <developer>FLYING EDGE</developer>
+    <publisher>HOT-B</publisher>
+    <genre>SHOOT'EM UP / HORIZONTAL, SHOOT'EM UP</genre>
     <genreid>260</genreid>
     <players>1</players>
-    <region>us,eu</region>
-    <image>./media/image/Steel Empire, The (UE).smd-image.png</image>
-    <video>./media/videos/Steel Empire, The (UE).smd-video.mp4</video>
-    <marquee>./media/image/Steel Empire, The (UE).smd-marquee.png</marquee>
-    <wheel>./media/wheel/Steel Empire, The (UE).smd-wheel.png</wheel>
-    <boxart>./media/image/Steel Empire, The (UE).smd-boxart.png</boxart>
-    <screenshot>./media/screenshots/Steel Empire, The (UE).smd-screenshot.png</screenshot>
-    <cartridge>./media/image/Steel Empire, The (UE).smd-cartridge.png</cartridge>
-    <fanart>./media/fanart/Steel Empire, The (UE).smd-fanart.jpg</fanart>
-    <titleshot>./media/image/Steel Empire, The (UE).smd-titleshot.png</titleshot>
-    <manual>./media/manuals/Steel Empire, The (UE).smd_(us).pdf</manual>
-    <boxback>./media/image/Steel Empire, The (UE).smd-boxback.png</boxback>
-    <extra1>./media/extras/Steel Empire, The (UE).smd-extra1.png</extra1>
-    <bezel>./media/bezels/Steel Empire, The (UE).smd-bezel.png</bezel>
+    <md5>9105a05e3e2e0ae261789fdafca676a2</md5>
+    <hash>D0E7A0B6</hash>
+    <region>us</region>
+    <lang>en</lang>
+    <image>./media/image/Empire Of Steel [188].smd-image.png</image>
+    <video>./media/videos/Empire Of Steel [188].smd-video.mp4</video>
+    <marquee>./media/image/Empire Of Steel [188].smd-marquee.png</marquee>
+    <wheel>./media/image/Empire Of Steel [188].smd-wheel.png</wheel>
+    <boxart>./media/image/Empire Of Steel [188].smd-boxart.png</boxart>
+    <screenshot>./media/screenshots/Empire Of Steel [188].smd-screenshot.png</screenshot>
+    <cartridge>./media/image/Empire Of Steel [188].smd-cartridge.png</cartridge>
+    <fanart>./media/fanart/Empire Of Steel [188].smd-fanart.jpg</fanart>
+    <titleshot>./media/image/Empire Of Steel [188].smd-titleshot.png</titleshot>
+    <manual>./media/manuals/Empire Of Steel [188].smd_(us).pdf</manual>
+    <boxback>./media/image/Empire Of Steel [188].smd-boxback.png</boxback>
+    <extra1>./media/extras/Empire Of Steel [188].smd-extra1.png</extra1>
+    <bezel>./media/image/Empire Of Steel [188].smd-bezel.png</bezel>
   </game>
   <game id="85">
-    <path>./Ghostbusters.smd.7z</path>
-    <name>Ghostbusters</name>
+    <path>./Ghostbusters [85].smd.7z</path>
+    <name>GHOSTBUSTERS [85].SMD</name>
     <mode>Jogador individual</mode>
-    <desc>If you thought the Ghostbusters were done with their work after their latest victory, you were dead wrong. The ghosts returned to the city, Peter, Raymond and Egon returned to their posts ready to save the world.
-But then again, hunting ghosts requires a lot of money, equipment and, of course, a lot of courage. Are you daring enough to lead the Ghostbusters to the end of their mission?
-Are you determined enough to solve the terrible mystery of the missing tombstone?
-Once inside the demon world, there is no turning back! Ghosts, hauntings, elves; call it whatever you want. They are awaiting your arrival. Therefore, before facing them, don't forget to equip yourself with powerful weapons. It's the only way to stop them!</desc>
+    <desc>SE VOCÊ PENSAVA QUE OS CAÇA-FANTASMAS HAVIAM ACABADO SEU TRABALHO DEPOIS DE SUA ÚLTIMA VITÓRIA, VOCÊ ESTAVA COMPLETAMENTE ENGANADO. OS FANTASMAS VOLTARAM À CIDADE, PETER, RAYMOND E EGON RETORNARAM AOS SEUS POSTOS PRONTOS PARA SALVAR O MUNDO.
+MAS, DE NOVO, CAÇAR FANTASMAS REQUER MUITO DINHEIRO, EQUIPAMENTOS E, CLARO, MUITA CORAGEM. SERÁ QUE VOCÊ É AUDACIOSO O SUFICIENTE PARA CONDUZIR OS CAÇA-FANTASMAS ATÉ O FINAL DE SUA MISSÃO?
+VOCÊ É DETERMINADO A PONTO DE RESOLVER O TERRÍVEL MISTÉRIO DA LÁPIDE DESAPARECIDA?
+UMA VEZ DENTRO DO MUNDO DOS DEMÔNIOS, NÃO HÁ COMO VOLTAR ATRÁS! FANTASMAS, ASSOMBRAÇÕES, DUENDES; CHAME COMO QUISER. ELES ESTÃO AGUARDANDO A SUA CHEGADA. PORTANTO, ANTES DE ENFRENTÁ-LOS, NÃO SE ESQUEÇA DE SE MUNIR DE ARMAS PODEROSAS. É O ÚNICO MEIO DE DETÊ-LOS!</desc>
     <rating>0.80</rating>
     <releasedate>19901201T000000</releasedate>
-    <developer>Compile</developer>
+    <developer>COMPILE</developer>
     <publisher>SEGA</publisher>
-    <genre>Plataforma</genre>
+    <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
+    <md5>d73f3b9feac4734e9a391aa211a88159</md5>
+    <hash>792DF93B</hash>
     <region>wor</region>
-    <image>./media/image/Ghostbusters.smd-image.png</image>
-    <video>./media/videos/Ghostbusters.smd-video.mp4</video>
-    <marquee>./media/image/Ghostbusters.smd-marquee.png</marquee>
-    <wheel>./media/wheel/Ghostbusters.smd-wheel.png</wheel>
-    <boxart>./media/image/Ghostbusters.smd-boxart.png</boxart>
-    <screenshot>./media/screenshots/Ghostbusters.smd-screenshot.png</screenshot>
-    <cartridge>./media/image/Ghostbusters.smd-cartridge.png</cartridge>
-    <fanart>./media/fanart/Ghostbusters.smd-fanart.jpg</fanart>
-    <titleshot>./media/image/Ghostbusters.smd-titleshot.png</titleshot>
-    <manual>./media/manuals/Ghostbusters.smd_(eu).pdf</manual>
-    <boxback>./media/image/Ghostbusters.smd-boxback.png</boxback>
-    <extra1>./media/extras/Ghostbusters.smd-extra1.png</extra1>
-    <bezel>./media/bezels/Ghostbusters.smd-bezel.png</bezel>
-  </game>
-  <game id="28">
-    <path>./Golden Axe (BR).gen.7z</path>
-    <name>Golden Axe</name>
-    <mode>Multijogador local</mode>
-    <desc>The game takes place in the fictional land named Yuria. a medieval fantasy world in the style of Conan the Barbarian.
-An evil entity known as Death Adder captured the king and his daughter, keeping them both captive inside his castle. Death Adder also finds the Golden Axe, which is Yuria's symbol, and with it, he threatens to destroy both the ax and the royal family unless Yuria's people accept him as their ruler.
-So, three warriors set out on a mission to save Yuria and avenge their losses at the hands of Death Adder. The first is Gilius Thunderhead, from the Wolud mines, who had his twin brother murdered by Death Adder's soldiers. The second is the barbarian Ax Battler, who seeks revenge for the murder of his mother. And last but not least, we have Tyris Flare, who had her parents murdered by Death Adder himself.
-The warriors rescued the inhabitants of the then-plundered Turtle Village, named after the shell of a giant turtle. This turtle takes the heroes across the sea and then flies to Death Adder's castle on the back of a giant eagle. Once at the castle, the heroes defeat Death Adder, who was taking over the Golden Ax, and save Yuria.</desc>
-    <rating>0.80</rating>
-    <releasedate>19901101T000000</releasedate>
-    <developer>Team Shinobi</developer>
-    <publisher>SEGA</publisher>
-    <genre>Briga De Rua</genre>
-    <genreid>263</genreid>
-    <players>1-2</players>
-    <region>wor</region>
-    <image>./media/image/Golden Axe (BR).gen-image.png</image>
-    <video>./media/videos/Golden Axe (BR).gen-video.mp4</video>
-    <marquee>./media/image/Golden Axe (BR).gen-marquee.png</marquee>
-    <wheel>./media/wheel/Golden Axe (BR).gen-wheel.png</wheel>
-    <boxart>./media/image/Golden Axe (BR).gen-boxart.png</boxart>
-    <screenshot>./media/screenshots/Golden Axe (BR).gen-screenshot.png</screenshot>
-    <cartridge>./media/image/Golden Axe (BR).gen-cartridge.png</cartridge>
-    <fanart>./media/fanart/Golden Axe (BR).gen-fanart.jpg</fanart>
-    <titleshot>./media/image/Golden Axe (BR).gen-titleshot.png</titleshot>
-    <manual>./media/manuals/Golden Axe (BR).gen_(br).pdf</manual>
-    <boxback>./media/image/Golden Axe (BR).gen-boxback.png</boxback>
-    <extra1>./media/extras/Golden Axe (BR).gen-extra1.png</extra1>
-    <bezel>./media/bezels/Golden Axe (BR).gen-bezel.png</bezel>
-  </game>
-  <game id="88">
-    <path>./Golden Axe II (BR).md.7z</path>
-    <name>Golden Axe II</name>
-    <desc>The diabolical Dark Guld recovered from his last defeat and returned even more determined to make Earth the stage of his destruction. He came accompanied by a clan of wicked creatures and stole the Golden Axe, a golden ax symbol of peace and prosperity.
-Once again, our brave warriors will put themselves in the path of evildoers. They are: Ax-Battler, the barbarian; Tyris-Flare, the fierce Amazon; and Gilius Thunderhead, the fearless dwarf.
-No matter how difficult the battle, no matter how long the journey, nothing will stop them. The Golden Ax must return to its rightful place. And these terrible enemies of humanity too! Help them in this arduous mission!</desc>
-    <rating>0.80</rating>
-    <releasedate>19920101T000000</releasedate>
-    <developer>SEGA</developer>
-    <publisher>SEGA</publisher>
-    <genre>Briga De Rua</genre>
-    <genreid>263</genreid>
-    <players>1-2</players>
-    <region>wor</region>
-    <image>./media/image/Golden Axe II (BR).md-image.png</image>
-    <video>./media/videos/Golden Axe II (BR).md-video.mp4</video>
-    <marquee>./media/image/Golden Axe II (BR).md-marquee.png</marquee>
-    <wheel>./media/wheel/Golden Axe II (BR).md-wheel.png</wheel>
-    <boxart>./media/image/Golden Axe II (BR).md-boxart.png</boxart>
-    <screenshot>./media/screenshots/Golden Axe II (BR).md-screenshot.png</screenshot>
-    <cartridge>./media/image/Golden Axe II (BR).md-cartridge.png</cartridge>
-    <fanart>./media/fanart/Golden Axe II (BR).md-fanart.jpg</fanart>
-    <titleshot>./media/image/Golden Axe II (BR).md-titleshot.png</titleshot>
-    <manual>./media/manuals/Golden Axe II (BR).md_(br).pdf</manual>
-    <boxback>./media/image/Golden Axe II (BR).md-boxback.png</boxback>
-    <extra1>./media/extras/Golden Axe II (BR).md-extra1.png</extra1>
-    <bezel>./media/bezels/Golden Axe II (BR).md-bezel.png</bezel>
-  </game>
-  <game id="61">
-    <path>./Golden Axe III (BR).bin.7z</path>
-    <name>Golden Axe III</name>
-    <desc>The legendary ax of power, the Golden Axe, has been stolen (again) and the land of Yuria has been placed in danger (again). This time the one who stole the golden ax was the ?Prince of Darkness? who, in addition, placed a curse on all warriors and heroes. Some of these heroes, however, manage to escape this curse and now have the mission to save the other warriors, defeat the villain and return with the Golden Axe. Among the new heroes we have the giant Proud Cragger, who escaped from an enemy prison and still appears wearing chains on his arms and legs. He's slow, but he's the strongest of them all. We also have the interesting werepanther Chronos ?Evil? Lait, who is quite agile, but in terms of strength is the weakest of the group; the barbarian Kain Grinder, who is similar to Ax Battler and the Amazon Sarah Barn, who resembles Tyris Flare.</desc>
-    <rating>0.60</rating>
-    <releasedate>19930101T000000</releasedate>
-    <developer>SEGA</developer>
-    <publisher>SEGA</publisher>
-    <genre>Briga De Rua</genre>
-    <genreid>263</genreid>
-    <players>1-2</players>
-    <region>jp</region>
-    <image>./media/image/Golden Axe III (BR).bin-image.png</image>
-    <video>./media/videos/Golden Axe III (BR).bin-video.mp4</video>
-    <marquee>./media/image/Golden Axe III (BR).bin-marquee.png</marquee>
-    <wheel>./media/wheel/Golden Axe III (BR).bin-wheel.png</wheel>
-    <boxart>./media/image/Golden Axe III (BR).bin-boxart.png</boxart>
-    <screenshot>./media/screenshots/Golden Axe III (BR).bin-screenshot.png</screenshot>
-    <cartridge>./media/image/Golden Axe III (BR).bin-cartridge.png</cartridge>
-    <fanart>./media/fanart/Golden Axe III (BR).bin-fanart.jpg</fanart>
-    <titleshot>./media/image/Golden Axe III (BR).bin-titleshot.png</titleshot>
-    <boxback>./media/image/Golden Axe III (BR).bin-boxback.png</boxback>
-    <extra1>./media/extras/Golden Axe III (BR).bin-extra1.png</extra1>
-    <bezel>./media/bezels/Golden Axe III (BR).bin-bezel.png</bezel>
-  </game>
-  <game id="89">
-    <path>./Gunstar Heroes (USA).7z</path>
-    <name>Gunstar Heroes</name>
-    <desc>The story began a long, long time ago... The famous Professor White Gunstar became the greatest hero on Planet Gunstar 9. At that time, a powerful robot known as Golden Silver was devastating the planet. But the Professor managed to remove the four Mystic Stones from him, and expel him to a distant moon. Many years passed and everything was calm. But a dictator named Colonel Red, figuring the Gunstar family would know where the stones are, has kidnapped the eldest son, Green, and is forcing him to be obedient! That's where you enter the story. As the Professor's son, you must stop the Colonel and stop him from bringing back the terror of Golden Siver. It won't be easy at all, the fight will be against androids and powerful weapons. Call your friends and fight for real! Gunstar 9 is counting on you!</desc>
-    <rating>0.80</rating>
-    <releasedate>19930910T000000</releasedate>
-    <developer>Treasure</developer>
-    <publisher>SEGA</publisher>
-    <genre>Tiro / Run And Gun, Plataforma / Tiro Com Rolagem, Tiro, Plataforma</genre>
-    <genreid>257</genreid>
-    <players>1-2</players>
-    <region>us</region>
-    <image>./media/image/Gunstar Heroes (USA)-image.png</image>
-    <video>./media/videos/Gunstar Heroes (USA)-video.mp4</video>
-    <boxart>./media/image/Gunstar Heroes (USA)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Gunstar Heroes (USA)-screenshot.png</screenshot>
-    <cartridge>./media/image/Gunstar Heroes (USA)-cartridge.png</cartridge>
-    <fanart>./media/fanart/Gunstar Heroes (USA)-fanart.jpg</fanart>
-    <titleshot>./media/image/Gunstar Heroes (USA)-titleshot.png</titleshot>
-    <manual>./media/manuals/Gunstar Heroes (USA)_(br).pdf</manual>
-    <boxback>./media/image/Gunstar Heroes (USA)-boxback.png</boxback>
-    <extra1>./media/extras/Gunstar Heroes (USA)-extra1.png</extra1>
-    <bezel>./media/bezels/Gunstar Heroes (USA)-bezel.png</bezel>
-  </game>
-  <game id="364">
-    <path>./Haunting Starring Polterguy (BR) (T1.1).md.7z</path>
-    <name>Haunting Starring Polterguy</name>
-    <desc>The ghost of a teenager seeks revenge on a snobbish family. Your job is to scare them into leaving their homes. They can't see you, so your only means of scaring them away is by possessing various objects throughout the house. For example, owning a piece of furniture would cause something to come out of it and possess an object that would make it come alive in one way or another. You need to act quickly, because you have something called "ecto", which acts as the fuel that allows you to move through the real world. The more scares you get, the more ecto you earn. Losing all ecto sends you to the underworld, where you have to regain your ecto to full capacity to return to the real world.</desc>
-    <rating>0.60</rating>
-    <releasedate>19930901T000000</releasedate>
-    <developer>Electronic Arts</developer>
-    <publisher>Electronic Arts</publisher>
-    <genreid>0</genreid>
-    <players>1-2</players>
-    <region>eu,us</region>
-    <image>./media/image/Haunting Starring Polterguy (BR) (T1.1).md-image.png</image>
-    <video>./media/videos/Haunting Starring Polterguy (BR) (T1.1).md-video.mp4</video>
-    <boxart>./media/image/Haunting Starring Polterguy (BR) (T1.1).md-boxart.png</boxart>
-    <screenshot>./media/screenshots/Haunting Starring Polterguy (BR) (T1.1).md-screenshot.png</screenshot>
-    <cartridge>./media/image/Haunting Starring Polterguy (BR) (T1.1).md-cartridge.png</cartridge>
-    <fanart>./media/fanart/Haunting Starring Polterguy (BR) (T1.1).md-fanart.jpg</fanart>
-    <titleshot>./media/image/Haunting Starring Polterguy (BR) (T1.1).md-titleshot.png</titleshot>
-    <manual>./media/manuals/Haunting Starring Polterguy (BR) (T1.1).md_(eu).pdf</manual>
-    <boxback>./media/image/Haunting Starring Polterguy (BR) (T1.1).md-boxback.png</boxback>
-    <extra1>./media/extras/Haunting Starring Polterguy (BR) (T1.1).md-extra1.png</extra1>
-    <bezel>./media/bezels/Haunting Starring Polterguy (BR) (T1.1).md-bezel.png</bezel>
+    <image>./media/image/Ghostbusters [85].smd-image.png</image>
+    <video>./media/videos/Ghostbusters [85].smd-video.mp4</video>
+    <marquee>./media/image/Ghostbusters [85].smd-marquee.png</marquee>
+    <wheel>./media/image/Ghostbusters [85].smd-wheel.png</wheel>
+    <boxart>./media/image/Ghostbusters [85].smd-boxart.png</boxart>
+    <screenshot>./media/screenshots/Ghostbusters [85].smd-screenshot.png</screenshot>
+    <cartridge>./media/image/Ghostbusters [85].smd-cartridge.png</cartridge>
+    <fanart>./media/fanart/Ghostbusters [85].smd-fanart.jpg</fanart>
+    <titleshot>./media/image/Ghostbusters [85].smd-titleshot.png</titleshot>
+    <manual>./media/manuals/Ghostbusters [85].smd_(eu).pdf</manual>
+    <boxback>./media/image/Ghostbusters [85].smd-boxback.png</boxback>
+    <extra1>./media/extras/Ghostbusters [85].smd-extra1.png</extra1>
+    <bezel>./media/image/Ghostbusters [85].smd-bezel.png</bezel>
   </game>
   <game id="366">
-    <path>./Jewel Master (UE).smd.7z</path>
-    <name>Jewel Master</name>
-    <desc>As the peaceful kingdom of Mythgard approaches being overthrown by the demon king Jardine the Mad, the kingdom's Elemental Masters have joined together in battle. They fought Jardine until there were no more than four of them left. The remaining four combined their powers to form the Elemental Blade that can be used to defeat the demon king. The Jewel Master was summoned to wield the blade, but it was lost and the rings of the elemental masters were scattered across Mythgard, except for two. The Jewel Master must seek out the other ten rings from the Elemental Masters and retrieve the blade for the final confrontation with the demon king.
-The gameplay is platform-based with fighting against various monsters like in any arcade classic. To do this, you have several rings at your disposal, two of which you start with in the game and the others are obtained along the way. Each ring is from one of the four elements, and by combining them new effects are created. Rings of opposing elements cancel each other out, however you have two hands so you can have fire effects in one of them and water in the other (for example). The rings also have different levels of strength, increasing the complexity of the combinations.</desc>
+    <path>./Jewel Master [366].smd.7z</path>
+    <name>JEWEL MASTER [366].SMD</name>
+    <desc>ENQUANTO O PACÍFICO REINO DE MYTHGARD SE APROXIMA DE SER DERRUBADO PELO REI DEMÔNIO JARDINE O LOUCO, OS MESTRES ELEMENTAIS DO REINO SE UNIRAM EM BATALHA. ELES COMBATERAM JARDINE ATÉ QUE NÃO HOUVESSE MAIS QUE QUATRO DELES. OS QUATRO RESTANTES COMBINARAM SEUS PODERES PARA FORMAR A LÂMINA ELEMENTAL QUE PODERÁ SER USADA PARA DERROTAR O REI DEMÔNIO. O MESTRE DAS JÓIAS(JEWEL MASTER) FOI INVOCADO PARA EMPUNHAR A LÂMINA, MAS ELA FOI PERDIDA E OS ANÉIS DOS MESTRES ELEMENTAIS FORAM ESPALHADOS ATRAVÉS DE MYTHGARD, COM EXCEÇÃO DE DOIS. O MESTRE DAS JÓIAS DEVE BUSCAR OS OUTROS DEZ ANÉIS DOS MESTRES ELEMENTAIS E RECUPERAR A LÂMINA PARA O CONFRONTO FINAL COM O REI DEMÔNIO.
+A JOGABILIDADE É BASEADO EM PLATAFORMA COM LUTA CONTRA VÁRIOS MONSTROS COMO EM QUALQUER CLÁSSICO DE ARCADE. PARA TAL, VOCÊ TEM A DISPOSIÇÃO DIVERSOS ANÉIS, DOIS DOS QUAIS VOCÊ COMEÇA NO JOGO E OS OUTROS SÃO OBTIDOS NO CAMINHO. CADA ANEL É DE UM DOS QUATRO ELEMENTOS, E AO COMBINÁ-LOS NOVOS EFEITOS SÃO CRIADOS. ANÉIS DE ELEMENTOS OPOSTOS SE CANCELAM, CONTUDO VOCÊ POSSUI DUAS MÃOS PARA PODER EM UMA DELAS TER EFEITOS DE FOGO E NA OUTRA DE ÁGUA(POR EXEMPLO). OS ANÉIS TAMBÉM POSSUEM NÍVEIS DISTINTOS DE FORÇA, AUMENTANDO A COMPLEXIDADE DAS COMBINAÇÕES.</desc>
     <rating>0.80</rating>
     <releasedate>19911201T000000</releasedate>
     <developer>SEGA</developer>
     <publisher>SEGA</publisher>
-    <genre>Plataforma</genre>
+    <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
-    <region>us,eu</region>
-    <image>./media/image/Jewel Master (UE).smd-image.png</image>
-    <video>./media/videos/Jewel Master (UE).smd-video.mp4</video>
-    <boxart>./media/image/Jewel Master (UE).smd-boxart.png</boxart>
-    <screenshot>./media/screenshots/Jewel Master (UE).smd-screenshot.png</screenshot>
-    <cartridge>./media/image/Jewel Master (UE).smd-cartridge.png</cartridge>
-    <fanart>./media/fanart/Jewel Master (UE).smd-fanart.jpg</fanart>
-    <titleshot>./media/image/Jewel Master (UE).smd-titleshot.png</titleshot>
-    <manual>./media/manuals/Jewel Master (UE).smd_(eu).pdf</manual>
-    <boxback>./media/image/Jewel Master (UE).smd-boxback.png</boxback>
-    <extra1>./media/extras/Jewel Master (UE).smd-extra1.png</extra1>
-    <bezel>./media/bezels/Jewel Master (UE).smd-bezel.png</bezel>
-  </game>
-  <game id="38">
-    <path>./Kid Chameleon (BR).md.7z</path>
-    <name>Kid Chameleon</name>
-    <desc>Kid Chameleon is a side-scroller platform game where the main character enters a virtual reality called "Wild Side" to free other children who have been captured. He can change his shape into several others (hence the "Chameleon" - Chameleon in English). This gives you special abilities that must be used to pass each of the game's 100+ stages.
-An interesting fact about Kid Chameleon is that the game has more than 100 levels (several of them very, very difficult) and that they must be played in sequence and there is no possibility of saving or using a password - which means that completing this game is an extraordinary feat of perseverance (and patience).</desc>
-    <rating>0.60</rating>
-    <releasedate>19920501T000000</releasedate>
-    <developer>SEGA</developer>
-    <publisher>SEGA</publisher>
-    <genre>Plataforma, Aventura</genre>
-    <genreid>257</genreid>
-    <players>1-2</players>
-    <region>eu,us</region>
-    <image>./media/image/Kid Chameleon (BR).md-image.png</image>
-    <video>./media/videos/Kid Chameleon (BR).md-video.mp4</video>
-    <marquee>./media/image/Kid Chameleon (BR).md-marquee.png</marquee>
-    <wheel>./media/wheel/Kid Chameleon (BR).md-wheel.png</wheel>
-    <boxart>./media/image/Kid Chameleon (BR).md-boxart.png</boxart>
-    <screenshot>./media/screenshots/Kid Chameleon (BR).md-screenshot.png</screenshot>
-    <cartridge>./media/image/Kid Chameleon (BR).md-cartridge.png</cartridge>
-    <fanart>./media/fanart/Kid Chameleon (BR).md-fanart.jpg</fanart>
-    <titleshot>./media/image/Kid Chameleon (BR).md-titleshot.png</titleshot>
-    <manual>./media/manuals/Kid Chameleon (BR).md_(br).pdf</manual>
-    <boxback>./media/image/Kid Chameleon (BR).md-boxback.png</boxback>
-    <extra1>./media/extras/Kid Chameleon (BR).md-extra1.png</extra1>
-    <bezel>./media/bezels/Kid Chameleon (BR).md-bezel.png</bezel>
-  </game>
-  <game id="12">
-    <path>./Mortal Kombat (BR).gen.7z</path>
-    <name>Mortal Kombat</name>
-    <desc>Simply Deadly! The seven best fighters are gathered to defeat the great champion Goro and the terrible demon Shang Tsung. Different fighting styles and chilling special moves! A great arcade success, now on Mega Drive, with 16 Mega digitized graphics and lots of speed in movement. Remember: the mind is much more powerful than the body. In combat between two equal fighters, what decides is wisdom. Choose the best strategy, focus and good luck! What is at stake is not victory. It's your life! Destroy enemies with Johnny Cage's shadow kick! Liu Kang's fireball will extinguish opponents! Face the best warriors in the tournament! Goro still resists! Destroy it! Come here! You are under Scorpion's control! Lots of energy and concentration. Who is the best?</desc>
-    <rating>0.60</rating>
-    <releasedate>19930913T000000</releasedate>
-    <developer>Probe Software</developer>
-    <publisher>Acclaim Entertainment</publisher>
-    <genre>Luta</genre>
-    <genreid>262</genreid>
-    <players>1-2</players>
-    <region>wor</region>
-    <image>./media/image/Mortal Kombat (BR).gen-image.png</image>
-    <video>./media/videos/Mortal Kombat (BR).gen-video.mp4</video>
-    <marquee>./media/image/Mortal Kombat (BR).gen-marquee.png</marquee>
-    <wheel>./media/wheel/Mortal Kombat (BR).gen-wheel.png</wheel>
-    <boxart>./media/image/Mortal Kombat (BR).gen-boxart.png</boxart>
-    <screenshot>./media/screenshots/Mortal Kombat (BR).gen-screenshot.png</screenshot>
-    <fanart>./media/fanart/Mortal Kombat (BR).gen-fanart.jpg</fanart>
-    <titleshot>./media/image/Mortal Kombat (BR).gen-titleshot.png</titleshot>
-    <manual>./media/manuals/Mortal Kombat (BR).gen_(eu).pdf</manual>
-    <boxback>./media/image/Mortal Kombat (BR).gen-boxback.png</boxback>
-    <extra1>./media/extras/Mortal Kombat (BR).gen-extra1.png</extra1>
-    <bezel>./media/bezels/Mortal Kombat (BR).gen-bezel.png</bezel>
+    <md5>42ec7e0894625345be8021f9d5f5d52f</md5>
+    <hash>CEE98813</hash>
+    <region>wor,us,eu</region>
+    <image>./media/image/Jewel Master [366].smd-image.png</image>
+    <video>./media/videos/Jewel Master [366].smd-video.mp4</video>
+    <marquee>./media/image/Jewel Master [366].smd-marquee.png</marquee>
+    <wheel>./media/image/Jewel Master [366].smd-wheel.png</wheel>
+    <boxart>./media/image/Jewel Master [366].smd-boxart.png</boxart>
+    <screenshot>./media/screenshots/Jewel Master [366].smd-screenshot.png</screenshot>
+    <cartridge>./media/image/Jewel Master [366].smd-cartridge.png</cartridge>
+    <fanart>./media/fanart/Jewel Master [366].smd-fanart.jpg</fanart>
+    <titleshot>./media/image/Jewel Master [366].smd-titleshot.png</titleshot>
+    <manual>./media/manuals/Jewel Master [366].smd_(eu).pdf</manual>
+    <boxback>./media/image/Jewel Master [366].smd-boxback.png</boxback>
+    <extra1>./media/extras/Jewel Master [366].smd-extra1.png</extra1>
+    <bezel>./media/image/Jewel Master [366].smd-bezel.png</bezel>
   </game>
   <game id="186">
-    <path>./MUSHA - Metallic Uniframe Super Hybrid Armor (BR).gen.7z</path>
-    <name>MUSHA : Metallic Uniframe Super Hybrid Armor</name>
-    <desc>M.U.S.H.A is a shoot'em up for Megadrive. You are in the cockpit of a "Metallic Uniframe Super Hybrid Armor" or "Suoer Armor Híbrida Uniframe Metálica" and your objective is to destroy as many enemies as possible throughout the game's levels. Various bonuses can be picked up along the way, including small satellites that can defend or attack for you.</desc>
+    <path>./Musha - Metallic Uniframe Super Hybrid Armor [186].gen.7z</path>
+    <name>MUSHA - METALLIC UNIFRAME SUPER HYBRID ARMOR [186].GEN</name>
+    <desc>M.U.S.H.A É UM SHOOT'EM UP PARA MEGADRIVE. VOCÊ ESTÁ NO COCKPIT DE UMA "METALLIC UNIFRAME SUPER HYBRID ARMOR" OU "SUOER ARMADURA HÍBRIDA UNIFRAME METÁLICA" E SEU OBJETIVO É DESTRUIR O MÁXIMO DE INIMIGOS AO LONGO DOS NÍVEIS DO JOGO. VÁRIOS BÔNUS PODEM SER PEGOS AO LONGO DO CAMINHO, INCLUINDO PEQUENOS SATÉLITES QUE PODEM TE DEFENDER OU ATACAR POR VOCÊ.</desc>
     <rating>0.80</rating>
     <releasedate>19900101T000000</releasedate>
-    <developer>Compile</developer>
-    <publisher>Seismic</publisher>
-    <genre>Shoot'em Up / Vertical, Shoot'em Up</genre>
+    <developer>COMPILE</developer>
+    <publisher>SEISMIC</publisher>
+    <genre>SHOOT'EM UP / VERTICAL, SHOOT'EM UP</genre>
     <genreid>260</genreid>
     <players>1</players>
+    <md5>bc11c67fb59dd361d404f85ecad32f9a</md5>
+    <hash>2EDA1600</hash>
     <region>us</region>
-    <image>./media/image/MUSHA - Metallic Uniframe Super Hybrid Armor (BR).gen-image.png</image>
-    <video>./media/videos/MUSHA - Metallic Uniframe Super Hybrid Armor (BR).gen-video.mp4</video>
-    <marquee>./media/image/MUSHA - Metallic Uniframe Super Hybrid Armor (BR).gen-marquee.png</marquee>
-    <wheel>./media/wheel/MUSHA - Metallic Uniframe Super Hybrid Armor (BR).gen-wheel.png</wheel>
-    <boxart>./media/image/MUSHA - Metallic Uniframe Super Hybrid Armor (BR).gen-boxart.png</boxart>
-    <screenshot>./media/screenshots/MUSHA - Metallic Uniframe Super Hybrid Armor (BR).gen-screenshot.png</screenshot>
-    <cartridge>./media/image/MUSHA - Metallic Uniframe Super Hybrid Armor (BR).gen-cartridge.png</cartridge>
-    <fanart>./media/fanart/MUSHA - Metallic Uniframe Super Hybrid Armor (BR).gen-fanart.jpg</fanart>
-    <titleshot>./media/image/MUSHA - Metallic Uniframe Super Hybrid Armor (BR).gen-titleshot.png</titleshot>
-    <manual>./media/manuals/MUSHA - Metallic Uniframe Super Hybrid Armor (BR).gen_(us).pdf</manual>
-    <boxback>./media/image/MUSHA - Metallic Uniframe Super Hybrid Armor (BR).gen-boxback.png</boxback>
-    <extra1>./media/extras/MUSHA - Metallic Uniframe Super Hybrid Armor (BR).gen-extra1.png</extra1>
-    <bezel>./media/bezels/MUSHA - Metallic Uniframe Super Hybrid Armor (BR).gen-bezel.png</bezel>
-  </game>
-  <game id="69">
-    <path>./Contra - Hard Corps (BR).bin.7z</path>
-    <name>Probotector</name>
-    <desc>A criminal military faction stole an alien cell remaining from the Alien War that took place in the last game in the franchise, Contra III, and plans to use it to resurrect and clone an alien called Red Falcon, the most dangerous being that has ever existed. Thus, the player is then introduced to the Hard Corps, a military terrestrial defense organization that has four soldiers highly trained in special alien containment techniques and operations and, as one of them, must go through several very difficult stages in order to prevent criminals from being able to carry out their plans, something that could put the entire planet in danger.</desc>
-    <rating>0.80</rating>
-    <releasedate>19941101T000000</releasedate>
-    <developer>Konami</developer>
-    <publisher>Konami</publisher>
-    <genre>Tiro / Run And Gun, Tiro</genre>
-    <genreid>256</genreid>
-    <players>1-2</players>
-    <region>us,kr</region>
-    <image>./media/image/Contra - Hard Corps (BR).bin-image.png</image>
-    <video>./media/videos/Contra - Hard Corps (BR).bin-video.mp4</video>
-    <marquee>./media/image/Contra - Hard Corps (BR).bin-marquee.png</marquee>
-    <wheel>./media/wheel/Contra - Hard Corps (BR).bin-wheel.png</wheel>
-    <boxart>./media/image/Contra - Hard Corps (BR).bin-boxart.png</boxart>
-    <screenshot>./media/screenshots/Contra - Hard Corps (BR).bin-screenshot.png</screenshot>
-    <cartridge>./media/image/Contra - Hard Corps (BR).bin-cartridge.png</cartridge>
-    <fanart>./media/fanart/Contra - Hard Corps (BR).bin-fanart.jpg</fanart>
-    <titleshot>./media/image/Contra - Hard Corps (BR).bin-titleshot.png</titleshot>
-    <manual>./media/manuals/Contra - Hard Corps (BR).bin_(us).pdf</manual>
-    <boxback>./media/image/Contra - Hard Corps (BR).bin-boxback.png</boxback>
-    <extra1>./media/extras/Contra - Hard Corps (BR).bin-extra1.png</extra1>
-    <bezel>./media/bezels/Contra - Hard Corps (BR).bin-bezel.png</bezel>
+    <image>./media/image/Musha - Metallic Uniframe Super Hybrid Armor [186].gen-image.png</image>
+    <video>./media/videos/Musha - Metallic Uniframe Super Hybrid Armor [186].gen-video.mp4</video>
+    <marquee>./media/image/Musha - Metallic Uniframe Super Hybrid Armor [186].gen-marquee.png</marquee>
+    <wheel>./media/image/Musha - Metallic Uniframe Super Hybrid Armor [186].gen-wheel.png</wheel>
+    <boxart>./media/image/Musha - Metallic Uniframe Super Hybrid Armor [186].gen-boxart.png</boxart>
+    <screenshot>./media/screenshots/Musha - Metallic Uniframe Super Hybrid Armor [186].gen-screenshot.png</screenshot>
+    <cartridge>./media/image/Musha - Metallic Uniframe Super Hybrid Armor [186].gen-cartridge.png</cartridge>
+    <fanart>./media/fanart/Musha - Metallic Uniframe Super Hybrid Armor [186].gen-fanart.jpg</fanart>
+    <titleshot>./media/image/Musha - Metallic Uniframe Super Hybrid Armor [186].gen-titleshot.png</titleshot>
+    <manual>./media/manuals/Musha - Metallic Uniframe Super Hybrid Armor [186].gen_(us).pdf</manual>
+    <boxback>./media/image/Musha - Metallic Uniframe Super Hybrid Armor [186].gen-boxback.png</boxback>
+    <extra1>./media/extras/Musha - Metallic Uniframe Super Hybrid Armor [186].gen-extra1.png</extra1>
+    <bezel>./media/image/Musha - Metallic Uniframe Super Hybrid Armor [186].gen-bezel.png</bezel>
   </game>
   <game id="210">
-    <path>./Pulseman (BR).gen.7z</path>
-    <name>Pulseman</name>
-    <desc>Pulseman is an electric hero who was created to combat cybercrime. Fight the "galaxy" gang across 7 stages with around 50 levels. Pulseman is best described as a fusion of Sonic the Hedgehog and Mega Man gameplay.</desc>
+    <path>./Pulseman [210].gen.7z</path>
+    <name>PULSEMAN [210].GEN</name>
+    <desc>PULSEMAN É UM HERÓI ELÉTRICO QUE FOI CRIADO PARA COMBATER O CRIME CIBERNÉTICO. LUTE CONTRA A GANGUE "GALAXY" AO LONGO DE 7 ESTÁGIOS COM CERCA DE 50 NÍVEIS. PULSEMAN É MELHOR DESCRITO COMO UMA FUSÃO ENTRE A JOGABILIDADE DE SONIC THE HEDGEHOG E MEGA MAN NA FORMA DE JOGAR.</desc>
     <rating>0.80</rating>
-    <developer>Game Freak</developer>
+    <developer>GAME FREAK</developer>
     <publisher>SEGA</publisher>
-    <genre>Plataforma</genre>
+    <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
+    <md5>5a161a537e4aeb0cfc5d3358de6d3a26</md5>
+    <hash>925F7BE6</hash>
     <region>jp</region>
-    <image>./media/image/Pulseman (BR).gen-image.png</image>
-    <video>./media/videos/Pulseman (BR).gen-video.mp4</video>
-    <marquee>./media/image/Pulseman (BR).gen-marquee.png</marquee>
-    <wheel>./media/wheel/Pulseman (BR).gen-wheel.png</wheel>
-    <boxart>./media/image/Pulseman (BR).gen-boxart.png</boxart>
-    <screenshot>./media/screenshots/Pulseman (BR).gen-screenshot.png</screenshot>
-    <cartridge>./media/image/Pulseman (BR).gen-cartridge.png</cartridge>
-    <fanart>./media/fanart/Pulseman (BR).gen-fanart.jpg</fanart>
-    <titleshot>./media/image/Pulseman (BR).gen-titleshot.png</titleshot>
-    <boxback>./media/image/Pulseman (BR).gen-boxback.png</boxback>
-    <extra1>./media/extras/Pulseman (BR).gen-extra1.png</extra1>
-    <bezel>./media/bezels/Pulseman (BR).gen-bezel.png</bezel>
+    <image>./media/image/Pulseman [210].gen-image.png</image>
+    <video>./media/videos/Pulseman [210].gen-video.mp4</video>
+    <marquee>./media/image/Pulseman [210].gen-marquee.png</marquee>
+    <wheel>./media/image/Pulseman [210].gen-wheel.png</wheel>
+    <boxart>./media/image/Pulseman [210].gen-boxart.png</boxart>
+    <screenshot>./media/screenshots/Pulseman [210].gen-screenshot.png</screenshot>
+    <cartridge>./media/image/Pulseman [210].gen-cartridge.png</cartridge>
+    <fanart>./media/fanart/Pulseman [210].gen-fanart.jpg</fanart>
+    <titleshot>./media/image/Pulseman [210].gen-titleshot.png</titleshot>
+    <boxback>./media/image/Pulseman [210].gen-boxback.png</boxback>
+    <extra1>./media/extras/Pulseman [210].gen-extra1.png</extra1>
+    <bezel>./media/image/Pulseman [210].gen-bezel.png</bezel>
   </game>
   <game id="42">
-    <path>./Ristar (BR).gen.7z</path>
-    <name>Ristar</name>
+    <path>./Ristar [42].gen.7z</path>
+    <name>RISTAR [42].GEN</name>
     <mode>Jogador individual</mode>
-    <desc>Catch a star! Ristar, the captured son of a legendary hero, is the solar system's last hope against the evil space pirate: Greedy. Ristar must travel to seven planets to try and restore peace and, of course, last but not least, free his father. Ristar stretches out his long, elastic arms to grab enemies and destroy them without mercy. Discover totally different worlds with new creatures on each planet. Attack strange beings that are not exactly what they seem to be! Have fun with a game that combines action and strategy with a character that surprises you at every moment.</desc>
+    <desc>PEGUE UMA ESTRELA! RISTAR, O FILHO DE UM LEGENDÁRIO HERÓI QUE FOI CAPTURADO, É A ÚLTIMA ESPERANÇA DO SISTEMA SOLAR CONTRA O MALIGNO PIRATA DO ESPAÇO: GREEDY. RISTAR PRECISA VIAJAR PARA SETE PLANETAS PARA TENTAR RESTAURAR A PAZ E, É CLARO, POR ÚLTIMO MAS NÃO MENOS IMPORTANTE, LIBERTAR SEU PAI. RISTAR ESTICA SEUS LONGOS E ELÁSTICOS BRAÇOS PARA AGARRAR INIMIGOS E DESTRUÍ-LOS SEM PIEDADE. DESCUBRA MUNDOS TOTALMENTE DIFERENTES COM NOVAS CRIATURAS EM CADA PLANETA. ATAQUE ESTRANHOS SERES QUE NÃO SÃO EXATAMENTE O QUE PARECEM SER! DIVIRTA-SE COM UM JOGO QUE COMBINA AÇÃO E ESTRATÉGIA COM UM PERSONAGEM QUE SURPREENDE A CADA MOMENTO.</desc>
     <rating>0.80</rating>
     <releasedate>19950217T000000</releasedate>
     <developer>SEGA</developer>
     <publisher>SEGA</publisher>
-    <genre>Plataforma</genre>
+    <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
+    <md5>3f8d356ef37ea8162c287dca8cac6d4e</md5>
+    <hash>2A046240</hash>
     <region>eu,us</region>
-    <image>./media/image/Ristar (BR).gen-image.png</image>
-    <video>./media/videos/Ristar (BR).gen-video.mp4</video>
-    <boxart>./media/image/Ristar (BR).gen-boxart.png</boxart>
-    <screenshot>./media/screenshots/Ristar (BR).gen-screenshot.png</screenshot>
-    <cartridge>./media/image/Ristar (BR).gen-cartridge.png</cartridge>
-    <fanart>./media/fanart/Ristar (BR).gen-fanart.jpg</fanart>
-    <map>./media/maps/Ristar (BR).gen-map.jpg</map>
-    <titleshot>./media/image/Ristar (BR).gen-titleshot.png</titleshot>
-    <manual>./media/manuals/Ristar (BR).gen_(eu).pdf</manual>
-    <boxback>./media/image/Ristar (BR).gen-boxback.png</boxback>
-    <extra1>./media/extras/Ristar (BR).gen-extra1.png</extra1>
-    <bezel>./media/bezels/Ristar (BR).gen-bezel.png</bezel>
-  </game>
-  <game id="119">
-    <path>./Road Rash (BR).gen.7z</path>
-    <name>Road Rash</name>
-    <desc>No speed limit! Ride an incredible racing motorcycle along the roads of California. Dodge cows, oil puddles and cars coming towards you!
-No rules! Disguise yourself from 15 other motorcyclists who are in your way. No! You don't understand! It's not overtaking them... it's kicking them, knocking them down! Everything goes here!! There will be 5 races in each level and at the end of each one you will win a certain amount of money. For what? To buy even faster motorcycles! Let's go! Enter the most illegal, dangerous and exciting race of your life!</desc>
-    <rating>0.60</rating>
-    <releasedate>19910901T000000</releasedate>
-    <developer>Electronic Arts</developer>
-    <publisher>Electronic Arts</publisher>
-    <genre>Corrida, Pilotagem / Moto, Corrida, Pilotagem</genre>
-    <genreid>1537</genreid>
-    <players>1-2</players>
-    <region>eu,us</region>
-    <image>./media/image/Road Rash (BR).gen-image.png</image>
-    <video>./media/videos/Road Rash (BR).gen-video.mp4</video>
-    <boxart>./media/image/Road Rash (BR).gen-boxart.png</boxart>
-    <screenshot>./media/screenshots/Road Rash (BR).gen-screenshot.png</screenshot>
-    <cartridge>./media/image/Road Rash (BR).gen-cartridge.png</cartridge>
-    <fanart>./media/fanart/Road Rash (BR).gen-fanart.jpg</fanart>
-    <titleshot>./media/image/Road Rash (BR).gen-titleshot.png</titleshot>
-    <manual>./media/manuals/Road Rash (BR).gen_(eu).pdf</manual>
-    <boxback>./media/image/Road Rash (BR).gen-boxback.png</boxback>
-    <extra1>./media/extras/Road Rash (BR).gen-extra1.png</extra1>
-    <bezel>./media/bezels/Road Rash (BR).gen-bezel.png</bezel>
-  </game>
-  <game id="102">
-    <path>./Road Rash II (BR).md.7z</path>
-    <name>Road Rash II</name>
-    <desc>A motorcycle racing game with attitude. You race in varied environments to earn more and more money. With this money you can buy faster and better motorcycles. There are many objects on the way to observe, from cars to rocks and signs, if you hit one you will fly and lose valuable time. If you crash too often, your bike could be destroyed. You can also attack other riders. The default attack is a punch, but some pilots have weapons, which you can steal and use against them. Police patrol several races, so if you're not careful, you could be arrested. Road Rash II is not just a racing game but also a fighting game.</desc>
-    <rating>0.60</rating>
-    <releasedate>19930101T000000</releasedate>
-    <developer>Electronic Arts</developer>
-    <publisher>Electronic Arts</publisher>
-    <genre>Corrida, Pilotagem</genre>
-    <genreid>1537</genreid>
-    <players>1-2</players>
-    <region>eu,us</region>
-    <image>./media/image/Road Rash II (BR).md-image.png</image>
-    <video>./media/videos/Road Rash II (BR).md-video.mp4</video>
-    <boxart>./media/image/Road Rash II (BR).md-boxart.png</boxart>
-    <screenshot>./media/screenshots/Road Rash II (BR).md-screenshot.png</screenshot>
-    <cartridge>./media/image/Road Rash II (BR).md-cartridge.png</cartridge>
-    <fanart>./media/fanart/Road Rash II (BR).md-fanart.jpg</fanart>
-    <titleshot>./media/image/Road Rash II (BR).md-titleshot.png</titleshot>
-    <manual>./media/manuals/Road Rash II (BR).md_(us).pdf</manual>
-    <boxback>./media/image/Road Rash II (BR).md-boxback.png</boxback>
-    <extra1>./media/extras/Road Rash II (BR).md-extra1.png</extra1>
-    <bezel>./media/bezels/Road Rash II (BR).md-bezel.png</bezel>
+    <image>./media/image/Ristar [42].gen-image.png</image>
+    <video>./media/videos/Ristar [42].gen-video.mp4</video>
+    <boxart>./media/image/Ristar [42].gen-boxart.png</boxart>
+    <screenshot>./media/screenshots/Ristar [42].gen-screenshot.png</screenshot>
+    <cartridge>./media/image/Ristar [42].gen-cartridge.png</cartridge>
+    <fanart>./media/fanart/Ristar [42].gen-fanart.jpg</fanart>
+    <map>./media/maps/Ristar [42].gen-map.jpg</map>
+    <titleshot>./media/image/Ristar [42].gen-titleshot.png</titleshot>
+    <manual>./media/manuals/Ristar [42].gen_(eu).pdf</manual>
+    <boxback>./media/image/Ristar [42].gen-boxback.png</boxback>
+    <extra1>./media/extras/Ristar [42].gen-extra1.png</extra1>
+    <bezel>./media/image/Ristar [42].gen-bezel.png</bezel>
   </game>
   <game id="72">
-    <path>./Rocket Knight Adventures (BR).md.7z</path>
-    <name>Rocket Knight Adventures</name>
+    <path>./Rocket Knight Adventures [72].md.7z</path>
+    <name>ROCKET KNIGHT ADVENTURES [72].MD</name>
     <mode>Jogador individual</mode>
-    <desc>Rocket Knight Adventures is a platform/action game for the Mega Drive. The protagonist is called Sparkster, a fearless possum who wields his sword and wears his armor with rockets (hence the name Rocket Knight) to save the princess from the traitor Axel Gear, a former ally who ended up betraying everyone with his excessive ambition. The player needs to overcome seven stages with action and several enemies along the way. You will have your sword to attack and you can launch a projectile at a short distance. It is possible to charge the rocket bar to launch a frontal attack or, if the player does not press the directional pad, he can launch a spinning attack without moving. The character can collect several items along the way and one in particular called "Power Item" keeps the rocket bar at maximum for a short period of time, but enough to cause considerable damage to enemies.</desc>
+    <desc>ROCKET KNIGHT ADVENTURES É UM JOGO DE PLATAFORMA/AÇÃO PARA O MEGA DRIVE. O PROTAGONISTA SE CHAMA SPARKSTER, UM DESTEMIDO GAMBÁ QUE EMPUNHA SUA ESPADA E VESTE SUA ARMADURA COM FOGUETES (DAÍ O NOME ROCKET KNIGHT) PARA SALVAR A PRINCESA DO TRAIDOR AXEL GEAR, UM ANTIGO ALIADO QUE ACABOU TRAINDO A TODOS COM SUA AMBIÇÃO DESMEDIDA. O JOGADOR PRECISA ULTRAPASSAR SETE FASES COM AÇÃO E DIVERSOS INIMIGOS PELO CAMINHO. VOCÊ TERÁ A SUA ESPADA PARA ATACAR E PODERÁ LANÇAR UM PROJÉTIL A CURTA DISTÂNCIA. É POSSÍVEL CARREGAR A BARRA DO FOGUETE PARA CONSEGUIR SE PROJETAR PARA UM ATAQUE FRONTAL OU, SE O JOGADOR NÃO PRESSIONAR O DIRECIONAL, PODERÁ DESFERIR UM ATAQUE GIRATÓRIO SEM SE DESLOCAR. O PERSONAGEM CONSEGUE COLETAR DIVERSOS ITENS PELO CAMINHO E UM EM ESPECIAL CHAMADO "POWER ITEM" MANTÉM A BARRA DO FOGUETE NO MÁXIMO POR UM CURTO PERÍODO DE TEMPO, MAS O SUFICIENTE PARA CAUSAR UM BELO ESTRAGO NOS INIMIGOS.</desc>
     <rating>0.80</rating>
     <releasedate>19930924T000000</releasedate>
-    <developer>Konami</developer>
-    <publisher>Konami</publisher>
-    <genre>Plataforma</genre>
+    <developer>KONAMI</developer>
+    <publisher>KONAMI</publisher>
+    <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
+    <md5>1ca9f3880e6a9495a62c50144e3a2d67</md5>
+    <hash>4B6EE8B8</hash>
     <region>eu,us</region>
-    <image>./media/image/Rocket Knight Adventures (BR).md-image.png</image>
-    <video>./media/videos/Rocket Knight Adventures (BR).md-video.mp4</video>
-    <boxart>./media/image/Rocket Knight Adventures (BR).md-boxart.png</boxart>
-    <screenshot>./media/screenshots/Rocket Knight Adventures (BR).md-screenshot.png</screenshot>
-    <cartridge>./media/image/Rocket Knight Adventures (BR).md-cartridge.png</cartridge>
-    <fanart>./media/fanart/Rocket Knight Adventures (BR).md-fanart.jpg</fanart>
-    <titleshot>./media/image/Rocket Knight Adventures (BR).md-titleshot.png</titleshot>
-    <manual>./media/manuals/Rocket Knight Adventures (BR).md_(eu).pdf</manual>
-    <boxback>./media/image/Rocket Knight Adventures (BR).md-boxback.png</boxback>
-    <extra1>./media/extras/Rocket Knight Adventures (BR).md-extra1.png</extra1>
-    <bezel>./media/bezels/Rocket Knight Adventures (BR).md-bezel.png</bezel>
+    <image>./media/image/Rocket Knight Adventures [72].md-image.png</image>
+    <video>./media/videos/Rocket Knight Adventures [72].md-video.mp4</video>
+    <boxart>./media/image/Rocket Knight Adventures [72].md-boxart.png</boxart>
+    <screenshot>./media/screenshots/Rocket Knight Adventures [72].md-screenshot.png</screenshot>
+    <cartridge>./media/image/Rocket Knight Adventures [72].md-cartridge.png</cartridge>
+    <fanart>./media/fanart/Rocket Knight Adventures [72].md-fanart.jpg</fanart>
+    <titleshot>./media/image/Rocket Knight Adventures [72].md-titleshot.png</titleshot>
+    <manual>./media/manuals/Rocket Knight Adventures [72].md_(eu).pdf</manual>
+    <boxback>./media/image/Rocket Knight Adventures [72].md-boxback.png</boxback>
+    <extra1>./media/extras/Rocket Knight Adventures [72].md-extra1.png</extra1>
+    <bezel>./media/image/Rocket Knight Adventures [72].md-bezel.png</bezel>
   </game>
   <game id="11">
-    <path>./Shinobi III - Return of the Ninja Master (BR).7z</path>
-    <name>Shinobi III : Return of the Ninja Master</name>
-    <desc>Do you know Joe Musashi? A tip: he ended the plans of the criminal organization Neo Zeed, using his incredible knowledge of martial arts. Exactly, Joe is actually Master Shinobi! After defeating this evil gang, Shinobi decided to return to Japan and further perfect his ninja techniques. But meanwhile, Neo City saw the return of crime and the terrible organization Neo Zeed! Now in his best form, Shinobi will have to face the most dangerous bandits and weapons using his magic, his sword, shurikens and a lot of strength to free the city. With your horse or even a jet ski, face 25 levels of fury! Courage, ninja warrior!</desc>
+    <path>./Shinobi III - Return Of The Ninja Master [11].7z</path>
+    <name>SHINOBI III - RETURN OF THE NINJA MASTER [11]</name>
+    <desc>VOCÊ CONHECE JOE MUSASHI? UMA DICA: ELE ACABOU COM OS PLANOS DA ORGANIZAÇÃO CRIMINOSA NEO ZEED, USANDO SEUS INCRÍVEIS CONHECIMENTOS DE ARTES MARCIAIS. EXATAMENTE, JOE É NA VERDADE O MESTRE SHINOBI! DEPOIS DE DERROTAR ESTA GANGUE DO MAL, SHINOBI RESOLVEU VOLTAR PARA O JAPÃO E APERFEIÇOAR AINDA MAIS AS SUAS TÉCNICAS NINJAS. MAS ENQUANTO ISSO, NEO CITY ASSISTIA À VOLTA DO CRIME E DA TERRÍVEL ORGANIZAÇÃO NEO ZEED! AGORA NA SUA MELHOR FORMA, SHINOBI TERÁ QUE ENFRENTAR OS BANDIDOS E ARMAS MAIS PERIGOSAS USANDO SUA MAGIA, SUA ESPADA, SHURIKENS E MUITA FORÇA PARA LIVRAR A CIDADE. COM SEU CAVALO OU ATÉ COM UM JET SKI, ENCARE 25 NÍVEIS DE FÚRIA! CORAGEM, GUERREIRO NINJA!</desc>
     <rating>0.80</rating>
     <releasedate>19930724T000000</releasedate>
-    <developer>Megasoft</developer>
+    <developer>MEGASOFT</developer>
     <publisher>SEGA</publisher>
-    <genre>Plataforma</genre>
+    <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
+    <md5>f560addd75659e5351f362a0ac9aba61</md5>
+    <hash>0DF26C36</hash>
     <region>eu,us</region>
-    <image>./media/image/Shinobi III - Return of the Ninja Master (BR)-image.png</image>
-    <video>./media/videos/Shinobi III - Return of the Ninja Master (BR)-video.mp4</video>
-    <marquee>./media/image/Shinobi III - Return of the Ninja Master (BR)-marquee.png</marquee>
-    <wheel>./media/wheel/Shinobi III - Return of the Ninja Master (BR)-wheel.png</wheel>
-    <boxart>./media/image/Shinobi III - Return of the Ninja Master (BR)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Shinobi III - Return of the Ninja Master (BR)-screenshot.png</screenshot>
-    <cartridge>./media/image/Shinobi III - Return of the Ninja Master (BR)-cartridge.png</cartridge>
-    <fanart>./media/fanart/Shinobi III - Return of the Ninja Master (BR)-fanart.jpg</fanart>
-    <titleshot>./media/image/Shinobi III - Return of the Ninja Master (BR)-titleshot.png</titleshot>
-    <manual>./media/manuals/Shinobi III - Return of the Ninja Master (BR)_(br).pdf</manual>
-    <boxback>./media/image/Shinobi III - Return of the Ninja Master (BR)-boxback.png</boxback>
-    <extra1>./media/extras/Shinobi III - Return of the Ninja Master (BR)-extra1.png</extra1>
-    <bezel>./media/bezels/Shinobi III - Return of the Ninja Master (BR)-bezel.png</bezel>
+    <image>./media/image/Shinobi III - Return Of The Ninja Master [11]-image.png</image>
+    <video>./media/videos/Shinobi III - Return Of The Ninja Master [11]-video.mp4</video>
+    <marquee>./media/image/Shinobi III - Return Of The Ninja Master [11]-marquee.png</marquee>
+    <wheel>./media/image/Shinobi III - Return Of The Ninja Master [11]-wheel.png</wheel>
+    <boxart>./media/image/Shinobi III - Return Of The Ninja Master [11]-boxart.png</boxart>
+    <screenshot>./media/screenshots/Shinobi III - Return Of The Ninja Master [11]-screenshot.png</screenshot>
+    <cartridge>./media/image/Shinobi III - Return Of The Ninja Master [11]-cartridge.png</cartridge>
+    <fanart>./media/fanart/Shinobi III - Return Of The Ninja Master [11]-fanart.jpg</fanart>
+    <titleshot>./media/image/Shinobi III - Return Of The Ninja Master [11]-titleshot.png</titleshot>
+    <manual>./media/manuals/Shinobi III - Return Of The Ninja Master [11]_(br).pdf</manual>
+    <boxback>./media/image/Shinobi III - Return Of The Ninja Master [11]-boxback.png</boxback>
+    <extra1>./media/extras/Shinobi III - Return Of The Ninja Master [11]-extra1.png</extra1>
+    <bezel>./media/image/Shinobi III - Return Of The Ninja Master [11]-bezel.png</bezel>
   </game>
   <game id="1181">
-    <path>./Socket (USA).smd.7z</path>
-    <name>Socket</name>
-    <desc>The hero Socket (or Minute, in the Japanese version) is a time traveler and needs to stop the dangerous Time Dominator. The game takes a lot of inspiration from Sonic, including his speed, and places the traveling duck as a great conductor of electrical energy, which would explain his agility. The gameplay has an emphasis on platform style. You will need to escape mazes and explore the levels in search of items.</desc>
+    <path>./Socket [1181].smd.7z</path>
+    <name>SOCKET [1181].SMD</name>
+    <desc>O HERÓI SOCKET (OU MINUTE, NA VERSÃO JAPONESA) É UM VIAJANTE DO TEMPO E PRECISA DETER O PERIGOSO TIME DOMINATOR. O JOGO SE INSPIRA MUITO EM SONIC, INCLUSIVE EM SUA VELOCIDADE, E COLOCA O PATO VIAJANTE COMO UM GRANDE CONDUTOR DE ENERGIA ELÉTRICA, O QUE EXPLICARIA A SUA AGILIDADE. A JOGABILIDADE TEM ÊNFASE NO ESTILO PLATAFORMA. SERÁ NECESSÁRIO ESCAPAR DE LABIRINTOS E EXPLORAR AS FASES EM BUSCA DE ITENS.</desc>
     <rating>0.60</rating>
     <releasedate>19940101T000000</releasedate>
-    <developer>Vic Tokai</developer>
-    <publisher>Tokai Engineering</publisher>
-    <genre>Plataforma</genre>
+    <developer>VIC TOKAI</developer>
+    <publisher>TOKAI ENGINEERING</publisher>
+    <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
+    <md5>9df8251cbfe05a47a5ff8fd9cf328b32</md5>
+    <hash>3C14E15A</hash>
     <region>us</region>
-    <image>./media/image/Socket (USA).smd-image.png</image>
-    <video>./media/videos/Socket (USA).smd-video.mp4</video>
-    <boxart>./media/image/Socket (USA).smd-boxart.png</boxart>
-    <screenshot>./media/screenshots/Socket (USA).smd-screenshot.png</screenshot>
-    <cartridge>./media/image/Socket (USA).smd-cartridge.png</cartridge>
-    <fanart>./media/fanart/Socket (USA).smd-fanart.jpg</fanart>
-    <titleshot>./media/image/Socket (USA).smd-titleshot.png</titleshot>
-    <boxback>./media/image/Socket (USA).smd-boxback.png</boxback>
-    <extra1>./media/extras/Socket (USA).smd-extra1.png</extra1>
-    <bezel>./media/bezels/Socket (USA).smd-bezel.png</bezel>
+    <image>./media/image/Socket [1181].smd-image.png</image>
+    <video>./media/videos/Socket [1181].smd-video.mp4</video>
+    <boxart>./media/image/Socket [1181].smd-boxart.png</boxart>
+    <screenshot>./media/screenshots/Socket [1181].smd-screenshot.png</screenshot>
+    <cartridge>./media/image/Socket [1181].smd-cartridge.png</cartridge>
+    <fanart>./media/fanart/Socket [1181].smd-fanart.jpg</fanart>
+    <titleshot>./media/image/Socket [1181].smd-titleshot.png</titleshot>
+    <boxback>./media/image/Socket [1181].smd-boxback.png</boxback>
+    <extra1>./media/extras/Socket [1181].smd-extra1.png</extra1>
+    <bezel>./media/image/Socket [1181].smd-bezel.png</bezel>
   </game>
   <game id="14">
-    <path>./Sonic and Knuckles &amp; Sonic 1.smd.7z</path>
-    <name>Sonic &amp; Knuckles</name>
+    <path>./Sonic &amp; Knuckles [14] {EE1177D2}.smd.7z</path>
+    <name>SONIC &amp; KNUCKLES [14] {EE1177D2}.SMD</name>
     <mode>Jogador individual</mode>
-    <desc>Sonic &amp; Knuckles continues the story directly where Sonic the Hedgehog 3 left off. The Death Egg's explosion sends Sonic deep into Angel Island in Mushroom Hill. Sonic discovers that the Master Emerald is hidden somewhere on the island and is sure that Dr. Robotnik wants it to give his Death Egg unlimited power. Knuckles probably knows where it is - but can Sonic stop Robotnik's plans and find the Master Emerald while fighting Knuckles? Meanwhile, Knuckles is watching the island when he is attacked by one of Robotnik's robots! He quickly begins a chase for revenge.</desc>
+    <desc>SONIC &amp; KNUCKLES CONTINUA A HISTÓRIA DIRETAMENTE DE ONDE SONIC THE HEDGEHOG 3 PAROU. A EXPLOSÃO DO DEATH EGG ENVIA SONIC NAS PROFUNDEZAS DA ANGEL ISLAND EM MUSHROOM HILL. SONIC DESCOBRE QUE A MASTER EMERALD ESTÁ ESCONDIDA EM ALGUM LUGAR NA ILHA E TEM CERTEZA DE QUE O DR. ROBOTNIK A QUER PARA QUE DÊ PODER ILIMITADO AO SEU DEATH EGG. KNUCKLES PROVAVELMENTE SABE ONDE ESTÁ - MAS SONIC PODERÁ PARAR OS PLANOS DE ROBOTNIK E ENCONTRAR A MASTER EMERALD ENQUANTO LUTA CONTRA KNUCKLES? ENQUANTO ISSO, KNUCKLES ESTÁ VIGIANDO A ILHA QUANDO É ATACADO POR UM DOS ROBÔS DE ROBOTNIK! ELE RAPIDAMENTE COMEÇA UMA PERSEGUIÇÃO POR VINGANÇA.</desc>
     <rating>0.80</rating>
     <releasedate>19941018T000000</releasedate>
     <developer>SEGA</developer>
     <publisher>SEGA</publisher>
-    <genre>Plataforma</genre>
+    <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
+    <md5>4ea493ea4e9f6c9ebfccbdb15110367e</md5>
+    <hash>0658F691</hash>
     <region>wor</region>
-    <image>./media/image/Sonic and Knuckles &amp; Sonic 1.smd-image.png</image>
-    <video>./media/videos/Sonic and Knuckles &amp; Sonic 1.smd-video.mp4</video>
-    <marquee>./media/image/Sonic and Knuckles &amp; Sonic 1.smd-marquee.png</marquee>
-    <wheel>./media/wheel/Sonic and Knuckles &amp; Sonic 1.smd-wheel.png</wheel>
-    <boxart>./media/image/Sonic and Knuckles &amp; Sonic 1.smd-boxart.png</boxart>
-    <screenshot>./media/screenshots/Sonic and Knuckles &amp; Sonic 1.smd-screenshot.png</screenshot>
-    <cartridge>./media/image/Sonic and Knuckles &amp; Sonic 1.smd-cartridge.png</cartridge>
-    <fanart>./media/fanart/Sonic and Knuckles &amp; Sonic 1.smd-fanart.jpg</fanart>
-    <titleshot>./media/image/Sonic and Knuckles &amp; Sonic 1.smd-titleshot.png</titleshot>
-    <manual>./media/manuals/Sonic and Knuckles &amp; Sonic 1.smd_(br).pdf</manual>
-    <boxback>./media/image/Sonic and Knuckles &amp; Sonic 1.smd-boxback.png</boxback>
-    <extra1>./media/extras/Sonic and Knuckles &amp; Sonic 1.smd-extra1.png</extra1>
-    <bezel>./media/bezels/Sonic and Knuckles &amp; Sonic 1.smd-bezel.png</bezel>
+    <lang>en</lang>
+    <image>./media/image/Sonic &amp; Knuckles [14] {EE1177D2}.smd-image.png</image>
+    <video>./media/videos/Sonic &amp; Knuckles [14] {EE1177D2}.smd-video.mp4</video>
+    <marquee>./media/image/Sonic &amp; Knuckles [14] {EE1177D2}.smd-marquee.png</marquee>
+    <wheel>./media/image/Sonic &amp; Knuckles [14] {EE1177D2}.smd-wheel.png</wheel>
+    <boxart>./media/image/Sonic &amp; Knuckles [14] {EE1177D2}.smd-boxart.png</boxart>
+    <screenshot>./media/screenshots/Sonic &amp; Knuckles [14] {EE1177D2}.smd-screenshot.png</screenshot>
+    <cartridge>./media/image/Sonic &amp; Knuckles [14] {EE1177D2}.smd-cartridge.png</cartridge>
+    <fanart>./media/fanart/Sonic &amp; Knuckles [14] {EE1177D2}.smd-fanart.jpg</fanart>
+    <titleshot>./media/image/Sonic &amp; Knuckles [14] {EE1177D2}.smd-titleshot.png</titleshot>
+    <manual>./media/manuals/Sonic &amp; Knuckles [14] {EE1177D2}.smd_(br).pdf</manual>
+    <boxback>./media/image/Sonic &amp; Knuckles [14] {EE1177D2}.smd-boxback.png</boxback>
+    <extra1>./media/extras/Sonic &amp; Knuckles [14] {EE1177D2}.smd-extra1.png</extra1>
+    <bezel>./media/image/Sonic &amp; Knuckles [14] {EE1177D2}.smd-bezel.png</bezel>
   </game>
-  <game id="14">
-    <path>./Sonic and Knuckles.smd.7z</path>
-    <name>Sonic &amp; Knuckles</name>
+  <game id="1183">
+    <path>./Sonic &amp; Knuckles [14].smd.7z</path>
+    <name>SONIC &amp; KNUCKLES [14].SMD</name>
     <mode>Jogador individual</mode>
-    <desc>Sonic &amp; Knuckles continues the story directly where Sonic the Hedgehog 3 left off. The Death Egg's explosion sends Sonic deep into Angel Island in Mushroom Hill. Sonic discovers that the Master Emerald is hidden somewhere on the island and is sure that Dr. Robotnik wants it to give his Death Egg unlimited power. Knuckles probably knows where it is - but can Sonic stop Robotnik's plans and find the Master Emerald while fighting Knuckles? Meanwhile, Knuckles is watching the island when he is attacked by one of Robotnik's robots! He quickly begins a chase for revenge.</desc>
+    <desc>BLUE SPHERE É UM JOGO SECRETO NO CARTUCHO DE SONIC &amp; KNUCKLES PARA O SEGA MEGA DRIVE, ACESSÍVEL AO ANEXAR QUALQUER CARTUCHO DE MEGA DRIVE (QUE NÃO SEJA SONIC THE HEDGEHOG 2 OU SONIC THE HEDGEHOG 3) NA ENTRADA LOCK-ON DE SONIC &amp; KNUCKLES. BLUE SPHERE É UMA COLEÇÃO DE SPECIAL STAGES NO MESMO ESTILO E ENGINE DOS APRESENTADOS EM SONIC THE HEDGEHOG 3 E SONIC &amp; KNUCKLES.
+O NOME BLUE SPHERE VEM DO NOME MOSTRADO NA LISTAGEM EM SONIC MEGA COLLECTION E SONIC MEGA COLLECTION PLUS.</desc>
     <rating>0.80</rating>
     <releasedate>19941018T000000</releasedate>
     <developer>SEGA</developer>
     <publisher>SEGA</publisher>
-    <genre>Plataforma</genre>
+    <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
-    <image>./media/image/Sonic and Knuckles.smd-image.png</image>
-    <video>./media/videos/Sonic and Knuckles.smd-video.mp4</video>
-    <boxart>./media/image/Sonic and Knuckles.smd-boxart.png</boxart>
-    <screenshot>./media/screenshots/Sonic and Knuckles.smd-screenshot.png</screenshot>
-    <fanart>./media/fanart/Sonic and Knuckles.smd-fanart.jpg</fanart>
-    <titleshot>./media/image/Sonic and Knuckles.smd-titleshot.png</titleshot>
-    <manual>./media/manuals/Sonic and Knuckles.smd_(br).pdf</manual>
-    <boxback>./media/image/Sonic and Knuckles.smd-boxback.png</boxback>
-    <extra1>./media/extras/Sonic and Knuckles.smd-extra1.png</extra1>
-    <bezel>./media/bezels/Sonic and Knuckles.smd-bezel.png</bezel>
+    <md5>17ffe04bb891253e7ac3fb0952bb2edb</md5>
+    <hash>E01F6ED5</hash>
+    <region>wor</region>
+    <image>./media/image/Sonic &amp; Knuckles [14].smd-image.png</image>
+    <video>./media/videos/Sonic &amp; Knuckles [14].smd-video.mp4</video>
+    <marquee>./media/image/Sonic &amp; Knuckles [14].smd-marquee.png</marquee>
+    <wheel>./media/image/Sonic &amp; Knuckles [14].smd-wheel.png</wheel>
+    <boxart>./media/image/Sonic &amp; Knuckles [14].smd-boxart.png</boxart>
+    <screenshot>./media/screenshots/Sonic &amp; Knuckles [14].smd-screenshot.png</screenshot>
+    <cartridge>./media/image/Sonic &amp; Knuckles [14].smd-cartridge.png</cartridge>
+    <fanart>./media/fanart/Sonic &amp; Knuckles [14].smd-fanart.jpg</fanart>
+    <titleshot>./media/image/Sonic &amp; Knuckles [14].smd-titleshot.png</titleshot>
+    <extra1>./media/extras/Sonic &amp; Knuckles [14].smd-extra1.png</extra1>
+    <bezel>./media/image/Sonic &amp; Knuckles [14].smd-bezel.png</bezel>
   </game>
   <game id="1184">
-    <path>./Sonic and Knuckles &amp; Sonic 2.smd.7z</path>
-    <name>Sonic &amp; Knuckles + Sonic The Hedgehog 2</name>
-    <desc>Knuckles the Echidna in Sonic the Hedgehog 2 (or simply Knuckles in Sonic 2) is a platform game resulting from the combination of Sonic &amp; Knuckles and Sonic the Hedgehog 2 using the cartridge's exclusive "lock-on" technology. As the name suggests, this game is essentially identical to Sonic the Hedgehog 2 with the exception of Knuckles the Echidna starring as the main character and Sonic the Hedgehog and Miles "Tails" Prower are not playable in the game.</desc>
+    <path>./Sonic &amp; Knuckles + Sonic The Hedgehog 2 [1184].smd.7z</path>
+    <name>SONIC &amp; KNUCKLES + SONIC THE HEDGEHOG 2 [1184].SMD</name>
+    <desc>KNUCKLES THE ECHIDNA IN SONIC THE HEDGEHOG 2 (OU SIMPLESMENTE KNUCKLES IN SONIC 2) É UM JOGO DE PLATAFORMA RESULTADO DA JUNÇÃO DO SONIC &amp; KNUCKLES COM O SONIC THE HEDGEHOG 2 USANDO A EXCLUSIVA TECNOLOGIA DE "LOCK-ON" DO CARTUCHO. COMO O NOME SUGERE, ESTE JOGO É ESSENCIALMENTE IDÊNTICO A SONIC THE HEDGEHOG 2 COM EXCEÇÃO DE KNUCKLES THE ECHIDNA ESTRELANDO COMO O PERSONAGEM PRINCIPAL E SONIC THE HEDGEHOG E MILES "TAILS" PROWER NÃO SÃO JOGÁVEIS ​​NO JOGO.</desc>
     <rating>0.80</rating>
     <releasedate>19941018T000000</releasedate>
-    <developer>Sonic Team</developer>
+    <developer>SONIC TEAM</developer>
     <publisher>SEGA</publisher>
-    <genre>Plataforma</genre>
+    <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
+    <md5>3e5e4b18d035775b916a06f2b3dc5031</md5>
+    <hash>2AC1E7C6</hash>
     <region>wor</region>
-    <image>./media/image/Sonic and Knuckles &amp; Sonic 2.smd-image.png</image>
-    <video>./media/videos/Sonic and Knuckles &amp; Sonic 2.smd-video.mp4</video>
-    <marquee>./media/image/Sonic and Knuckles &amp; Sonic 2.smd-marquee.png</marquee>
-    <wheel>./media/wheel/Sonic and Knuckles &amp; Sonic 2.smd-wheel.png</wheel>
-    <boxart>./media/image/Sonic and Knuckles &amp; Sonic 2.smd-boxart.png</boxart>
-    <screenshot>./media/screenshots/Sonic and Knuckles &amp; Sonic 2.smd-screenshot.png</screenshot>
-    <cartridge>./media/image/Sonic and Knuckles &amp; Sonic 2.smd-cartridge.png</cartridge>
-    <fanart>./media/fanart/Sonic and Knuckles &amp; Sonic 2.smd-fanart.jpg</fanart>
-    <titleshot>./media/image/Sonic and Knuckles &amp; Sonic 2.smd-titleshot.png</titleshot>
-    <manual>./media/manuals/Sonic and Knuckles &amp; Sonic 2.smd_(eu).pdf</manual>
-    <extra1>./media/extras/Sonic and Knuckles &amp; Sonic 2.smd-extra1.png</extra1>
-    <bezel>./media/bezels/Sonic and Knuckles &amp; Sonic 2.smd-bezel.png</bezel>
-  </game>
-  <game id="1185">
-    <path>./Sonic and Knuckles &amp; Sonic 3.smd.7z</path>
-    <name>Sonic &amp; Knuckles + Sonic The Hedgehog 3</name>
-    <desc>Dr. Eggman's (aka Dr. Robotnik) Death Egg was once again destroyed by Sonic, crashing into the top of a volcano on Floating Island.
-Dr. Eggman is still free, and Sonic can't let him get his hands on the Master Emerald in order to repair the Death Egg. Sonic should also stay away from Knuckles, who is also in trouble. As the guardian of the Floating Island and all the emeralds, Knuckles has the responsibility of keeping the island safe. While Sonic and Knuckles are busy fighting, who will stop Dr. Eggman?</desc>
-    <rating>0.80</rating>
-    <releasedate>19941018T000000</releasedate>
-    <developer>Sonic Team</developer>
-    <publisher>SEGA</publisher>
-    <genre>Plataforma, Plataforma / Corre E Pula Com Rolagem</genre>
-    <genreid>257</genreid>
-    <players>1-2</players>
-    <region>wor,us,eu</region>
-    <image>./media/image/Sonic and Knuckles &amp; Sonic 3.smd-image.png</image>
-    <video>./media/videos/Sonic and Knuckles &amp; Sonic 3.smd-video.mp4</video>
-    <marquee>./media/image/Sonic and Knuckles &amp; Sonic 3.smd-marquee.png</marquee>
-    <wheel>./media/wheel/Sonic and Knuckles &amp; Sonic 3.smd-wheel.png</wheel>
-    <boxart>./media/image/Sonic and Knuckles &amp; Sonic 3.smd-boxart.png</boxart>
-    <screenshot>./media/screenshots/Sonic and Knuckles &amp; Sonic 3.smd-screenshot.png</screenshot>
-    <cartridge>./media/image/Sonic and Knuckles &amp; Sonic 3.smd-cartridge.png</cartridge>
-    <fanart>./media/fanart/Sonic and Knuckles &amp; Sonic 3.smd-fanart.jpg</fanart>
-    <titleshot>./media/image/Sonic and Knuckles &amp; Sonic 3.smd-titleshot.png</titleshot>
-    <boxback>./media/image/Sonic and Knuckles &amp; Sonic 3.smd-boxback.png</boxback>
-    <extra1>./media/extras/Sonic and Knuckles &amp; Sonic 3.smd-extra1.png</extra1>
-    <bezel>./media/bezels/Sonic and Knuckles &amp; Sonic 3.smd-bezel.png</bezel>
-  </game>
-  <game id="1187">
-    <path>./Sonic The Hedgehog 3 (USA).smd.7z</path>
-    <name>Sonic 3</name>
-    <desc>Dr. Robotnik's Death Egg has landed on Angel Island, also known as the Floating Island because it harnesses the power of the Master Emerald to float in the air. Robotnik needs her to repair the Death Egg, so he tells the island's guardian, Knuckles the Echidna that Sonic and Tails are there to steal it. With Knuckles tricked and trying to stop the heroes, will they be able to stop Robotnik in time?</desc>
-    <rating>0.80</rating>
-    <releasedate>19940224T000000</releasedate>
-    <developer>Sonic Team</developer>
-    <publisher>SEGA</publisher>
-    <genre>Plataforma</genre>
-    <genreid>257</genreid>
-    <players>1-2</players>
-    <region>eu,us</region>
-    <image>./media/image/Sonic The Hedgehog 3 (USA).smd-image.png</image>
-    <video>./media/videos/Sonic The Hedgehog 3 (USA).smd-video.mp4</video>
-    <marquee>./media/image/Sonic The Hedgehog 3 (USA).smd-marquee.png</marquee>
-    <wheel>./media/wheel/Sonic The Hedgehog 3 (USA).smd-wheel.png</wheel>
-    <boxart>./media/image/Sonic The Hedgehog 3 (USA).smd-boxart.png</boxart>
-    <screenshot>./media/screenshots/Sonic The Hedgehog 3 (USA).smd-screenshot.png</screenshot>
-    <cartridge>./media/image/Sonic The Hedgehog 3 (USA).smd-cartridge.png</cartridge>
-    <fanart>./media/fanart/Sonic The Hedgehog 3 (USA).smd-fanart.jpg</fanart>
-    <titleshot>./media/image/Sonic The Hedgehog 3 (USA).smd-titleshot.png</titleshot>
-    <manual>./media/manuals/Sonic The Hedgehog 3 (USA).smd_(br).pdf</manual>
-    <boxback>./media/image/Sonic The Hedgehog 3 (USA).smd-boxback.png</boxback>
-    <extra1>./media/extras/Sonic The Hedgehog 3 (USA).smd-extra1.png</extra1>
-    <bezel>./media/bezels/Sonic The Hedgehog 3 (USA).smd-bezel.png</bezel>
+    <image>./media/image/Sonic &amp; Knuckles + Sonic The Hedgehog 2 [1184].smd-image.png</image>
+    <video>./media/videos/Sonic &amp; Knuckles + Sonic The Hedgehog 2 [1184].smd-video.mp4</video>
+    <marquee>./media/image/Sonic &amp; Knuckles + Sonic The Hedgehog 2 [1184].smd-marquee.png</marquee>
+    <wheel>./media/image/Sonic &amp; Knuckles + Sonic The Hedgehog 2 [1184].smd-wheel.png</wheel>
+    <boxart>./media/image/Sonic &amp; Knuckles + Sonic The Hedgehog 2 [1184].smd-boxart.png</boxart>
+    <screenshot>./media/screenshots/Sonic &amp; Knuckles + Sonic The Hedgehog 2 [1184].smd-screenshot.png</screenshot>
+    <cartridge>./media/image/Sonic &amp; Knuckles + Sonic The Hedgehog 2 [1184].smd-cartridge.png</cartridge>
+    <fanart>./media/fanart/Sonic &amp; Knuckles + Sonic The Hedgehog 2 [1184].smd-fanart.jpg</fanart>
+    <titleshot>./media/image/Sonic &amp; Knuckles + Sonic The Hedgehog 2 [1184].smd-titleshot.png</titleshot>
+    <manual>./media/manuals/Sonic &amp; Knuckles + Sonic The Hedgehog 2 [1184].smd_(eu).pdf</manual>
+    <extra1>./media/extras/Sonic &amp; Knuckles + Sonic The Hedgehog 2 [1184].smd-extra1.png</extra1>
+    <bezel>./media/image/Sonic &amp; Knuckles + Sonic The Hedgehog 2 [1184].smd-bezel.png</bezel>
   </game>
   <game id="18434">
-    <path>./Sonic 3D Blast (BR).smd.7z</path>
-    <name>Sonic 3D Flickies' Island</name>
+    <path>./Sonic 3D Flickies' Island [18434].smd.7z</path>
+    <name>SONIC 3D FLICKIES' ISLAND [18434].SMD</name>
     <mode>Jogador individual</mode>
-    <desc>While visiting Flicky Island, Sonic notices that the Flickies, his little feathered friends who can travel between parallel worlds, have been captured and turned into badniks (Sonic's robot enemies) by Dr. Robotnik in his never-ending search for the Chaos Emeralds. Seven stages separate Sonic from the final confrontation with Robotnik.
-Sonic 3D Blast was the last Sonic title released for the Mega Drive, the blue blur's only platform game on the Sega Saturn and one of its rare appearances on PCs. The title, considering the time in which it was released, is somewhat misleading, as instead of 3D graphics, it uses an isometric view where Sonic can move not only forward and backward, but also left and right.
-Gameplay is much slower compared to other games in the series and the number of badniks has been reduced to five in each section. As usual, when Sonic destroys a badnik, an animal jumps free from inside, but this time Sonic has to catch it and take them to an interdimensional ring. While they can be picked up one by one, exploring the level with all five allows the player to reach otherwise inaccessible items. Unlike all other previous games, time is not a requirement: if the player completes a level in more than 10 minutes, it means there will be no time bonus at the end. Finally, to collect all seven Chaos Emeralds, Sonic must first find Tails or Knuckles and offer them at least 50 rings.</desc>
+    <desc>AO VISITAR A FLICKY ISLAND, SONIC NOTA QUE OS FLICKIES, SEUS PEQUENOS AMIGOS EMPLUMADOS QUE PODEM VIAJAR ENTRE MUNDOS PARALELOS FORAM CAPTURADOS E TRANSFORMADOS EM BADNIKS (OS ROBÔS INIMIGOS DO SONIC) PELO DR. ROBOTNIK EM SUA BUSCA INTERMINÁVEL PELAS CHAOS EMERALDS. SETE FASES SEPARAM SONIC DO CONFRONTO FINAL COM ROBOTNIK.
+SONIC 3D BLAST FOI O ÚLTIMO TÍTULO DO SONIC LANÇADO PARA O MEGA DRIVE, O ÚNICO JOGO DE PLATAFORMA DO BORRÃO AZUL NO SEGA SATURN E UMA DE SUAS RARAS APARIÇÕES EM PCS. O TÍTULO, CONSIDERANDO A ÉPOCA EM QUE FOI LANÇADO, É UM TANTO ENGANADOR, POIS AO INVÉS DE GRÁFICOS 3D, ELE USA UMA VISÃO ISOMÉTRICA ONDE SONIC PODE SE MOVER NÃO APENAS PARA A FRENTE E PARA TRÁS, MAS TAMBÉM PARA A ESQUERDA E PARA A DIREITA.
+A JOGABILIDADE É MUITO MAIS LENTA QUANDO COMPARADA COM OUTROS JOGOS DA SÉRIE E O NÚMERO DE BADNIKS FOI REDUZIDO PARA CINCO EM CADA SEÇÃO. COMO DE COSTUME, QUANDO SONIC DESTRÓI UM BADNIK, UM ANIMAL SALTA LIVRE DE DENTRO, MAS DESTA VEZ SONIC TEM QUE PEGÁ-LO E LEVÁ-LOS PARA UM ANEL INTERDIMENSIONAL. ENQUANTO ELES PODEM SER PEGOS UM POR UM, EXPLORANDO O NÍVEL COM TODOS OS CINCO PERMITIR QUE O JOGADOR ALCANCE ITENS INACESSÍVEIS. AO CONTRÁRIO DE TODOS OS OUTROS JOGOS ANTERIORES, O TEMPO NÃO É UMA EXIGÊNCIA: SE O JOGADOR COMPLETAR UM NÍVEL EM MAIS DE 10 MINUTOS, ISSO SIGNIFICA QUE NÃO HAVERÁ BÔNUS DE TEMPO NO FINAL. FINALMENTE, PARA COLETAR TODAS AS SETE CHAOS EMERALDS, SONIC DEVE PRIMEIRO ENCONTRAR TAILS OU KNUCKLES E LHES OFERECER PELO MENOS 50 ANÉIS.</desc>
     <rating>0.60</rating>
     <releasedate>19961105T000000</releasedate>
-    <developer>Traveller's Tales</developer>
+    <developer>TRAVELLER'S TALES</developer>
     <publisher>SEGA</publisher>
-    <genre>Plataforma</genre>
+    <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
-    <region>us</region>
-    <image>./media/image/Sonic 3D Blast (BR).smd-image.png</image>
-    <video>./media/videos/Sonic 3D Blast (BR).smd-video.mp4</video>
-    <marquee>./media/image/Sonic 3D Blast (BR).smd-marquee.png</marquee>
-    <wheel>./media/wheel/Sonic 3D Blast (BR).smd-wheel.png</wheel>
-    <boxart>./media/image/Sonic 3D Blast (BR).smd-boxart.png</boxart>
-    <screenshot>./media/screenshots/Sonic 3D Blast (BR).smd-screenshot.png</screenshot>
-    <cartridge>./media/image/Sonic 3D Blast (BR).smd-cartridge.png</cartridge>
-    <fanart>./media/fanart/Sonic 3D Blast (BR).smd-fanart.jpg</fanart>
-    <titleshot>./media/image/Sonic 3D Blast (BR).smd-titleshot.png</titleshot>
-    <manual>./media/manuals/Sonic 3D Blast (BR).smd_(br).pdf</manual>
-    <boxback>./media/image/Sonic 3D Blast (BR).smd-boxback.png</boxback>
-    <extra1>./media/extras/Sonic 3D Blast (BR).smd-extra1.png</extra1>
-    <bezel>./media/bezels/Sonic 3D Blast (BR).smd-bezel.png</bezel>
+    <md5>0c5729718c26e3c2fa3b0331a3695c4b</md5>
+    <hash>127CA9C2</hash>
+    <image>./media/image/Sonic 3D Flickies' Island [18434].smd-image.png</image>
+    <video>./media/videos/Sonic 3D Flickies' Island [18434].smd-video.mp4</video>
+    <boxart>./media/image/Sonic 3D Flickies' Island [18434].smd-boxart.png</boxart>
+    <screenshot>./media/screenshots/Sonic 3D Flickies' Island [18434].smd-screenshot.png</screenshot>
+    <cartridge>./media/image/Sonic 3D Flickies' Island [18434].smd-cartridge.png</cartridge>
+    <fanart>./media/fanart/Sonic 3D Flickies' Island [18434].smd-fanart.jpg</fanart>
+    <titleshot>./media/image/Sonic 3D Flickies' Island [18434].smd-titleshot.png</titleshot>
+    <manual>./media/manuals/Sonic 3D Flickies' Island [18434].smd_(br).pdf</manual>
+    <boxback>./media/image/Sonic 3D Flickies' Island [18434].smd-boxback.png</boxback>
+    <extra1>./media/extras/Sonic 3D Flickies' Island [18434].smd-extra1.png</extra1>
+    <bezel>./media/image/Sonic 3D Flickies' Island [18434].smd-bezel.png</bezel>
   </game>
   <game id="5">
-    <path>./Sonic the Hedgehog (BR).bin.7z</path>
-    <name>Sonic The Hedgehog</name>
+    <path>./Sonic The Hedgehog [5].bin.7z</path>
+    <name>SONIC THE HEDGEHOG [5].BIN</name>
     <mode>Jogador individual</mode>
-    <desc>Sonic the Hedgehog is the first of many games starring SEGA's flagship rodent, Sonic. It's a side scrolling platformer with one difference: speed. Sonic runs through levels with incredible speed, allowing him to traverse loops and jumps with ease.
-The game's plot is simple. The evil Dr. Robotnik has captured many of Sonic's animal friends on South Island, and trapped them inside robots. Fortunately, Sonic can free his friends by destroying the robots with his Spin Attack. Meanwhile, Dr. Robotnik is trying to control the all-powerful Chaos Emeralds. Sonic must catch them before he does in the special rotating stages.</desc>
+    <desc>SONIC THE HEDGEHOG É O PRIMEIRO DE MUITOS JOGOS ESTRELANDO O PRINCIPAL ROEDOR DA SEGA, SONIC. É UM JOGO DE PLATAFORMA SIDE SCROLLING COM UMA DIFERENÇA: VELOCIDADE. SONIC CORRE ATRAVÉS DOS NÍVEIS COM INCRÍVEL VELOCIDADE, O PERMITINDO ATRAVESSAR LOOPS E SALTOS COM FACILIDADE.
+O ENREDO DO JOGO É SIMPLES. O MALVADO DR. ROBOTNIK CAPTUROU MUITOS DOS AMIGOS ANIMAIS DE SONIC EM SOUTH ISLAND, E OS PRENDEU DENTRO DE ROBÔS. FELIZMENTE, SONIC PODE LIBERTAR SEUS AMIGOS DESTRUINDO OS ROBÔS COM SEU SPIN ATTACK. ENQUANTO ISSO, O DR. ROBOTNIK ESTÁ TENTANDO CONTROLAR AS TODA-PODEROSAS CHAOS EMERALDS. SONIC DEVE PEGÁ-LAS ANTES DELE NAS FASES ESPECIAIS GIRATÓRIAS.</desc>
     <rating>0.80</rating>
     <releasedate>19910623T000000</releasedate>
     <developer>SEGA</developer>
     <publisher>SEGA</publisher>
-    <genre>Plataforma</genre>
+    <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
+    <md5>f4e0a81fcba6c29dbd552c48211fb237</md5>
+    <hash>1DE03238</hash>
     <region>us,eu</region>
-    <image>./media/image/Sonic the Hedgehog (BR).bin-image.png</image>
-    <video>./media/videos/Sonic the Hedgehog (BR).bin-video.mp4</video>
-    <marquee>./media/image/Sonic the Hedgehog (BR).bin-marquee.png</marquee>
-    <wheel>./media/wheel/Sonic the Hedgehog (BR).bin-wheel.png</wheel>
-    <boxart>./media/image/Sonic the Hedgehog (BR).bin-boxart.png</boxart>
-    <screenshot>./media/screenshots/Sonic the Hedgehog (BR).bin-screenshot.png</screenshot>
-    <cartridge>./media/image/Sonic the Hedgehog (BR).bin-cartridge.png</cartridge>
-    <fanart>./media/fanart/Sonic the Hedgehog (BR).bin-fanart.jpg</fanart>
-    <map>./media/maps/Sonic the Hedgehog (BR).bin-map.jpg</map>
-    <titleshot>./media/image/Sonic the Hedgehog (BR).bin-titleshot.png</titleshot>
-    <manual>./media/manuals/Sonic the Hedgehog (BR).bin_(br).pdf</manual>
-    <boxback>./media/image/Sonic the Hedgehog (BR).bin-boxback.png</boxback>
-    <extra1>./media/extras/Sonic the Hedgehog (BR).bin-extra1.png</extra1>
-    <bezel>./media/bezels/Sonic the Hedgehog (BR).bin-bezel.png</bezel>
-  </game>
-  <game id="3">
-    <path>./Sonic The Hedgehog 2.smd.7z</path>
-    <name>Sonic The Hedgehog 2</name>
-    <mode>Jogador individual com 2 controles</mode>
-    <desc>Sonic the Hedgehog 2 is a speed-based side-scrolling platformer and the sequel to Sonic the Hedgehog. Like the original, players race through different worlds called "zones" which each have their own specific theme. There are two Acts in almost all 10 Zones, and at the end of the last Act of each Zone is a machine that Robotnik controls that you must defeat to progress. The evil Dr. Robotnik wants to conquer the world. To do this, he imprisons and transforms all animals into robots called "Badniks". This way they can build their powerful weapon, the Death Egg. Only Sonic the Hedgehog, and his new partner, Miles 'Tails' Prower, can stop Robotnik and his army of Badniks from conquering the world.
-Sonic and Tails can collect rings that are scattered throughout the levels. As with most platformers, when the player collects 100 rings, they gain an extra life. However, the rings also act as protection; If Sonic is hit when he is carrying rings, they scatter everywhere and he is briefly invincible. If he gets hit again when he has no rings, he will lose a life. If the player reaches a checkpoint post with 50 or more rings, they will be able to access the Special Stage. In this stage, you must collect a set amount of rings in a skate park-style stage before reaching a checkpoint. Complete all checkpoints and you will earn one of seven Chaos Emeralds.
-New to Sonic the Hedgehog 2 is the ability to play the game co-op with a friend - at any time, a player can connect a second controller and take control of Tails. Tails has infinite lives and the camera remains focused on Sonic, meaning Tails will not impede the game. Sonic (and Tails) can now also gain speed by repeatedly pressing the jump button for a "Spin Dash". This is useful when stuck near steep slopes or other areas where you need some momentum. The game also has a 2-player versus mode. This mode is a horizontally split-screen race through stages based on three of the main game's zones.</desc>
-    <rating>0.80</rating>
-    <releasedate>19921124T000000</releasedate>
-    <developer>SEGA</developer>
-    <publisher>SEGA</publisher>
-    <genre>Plataforma</genre>
-    <genreid>257</genreid>
-    <players>1-2</players>
-    <image>./media/image/Sonic The Hedgehog 2.smd-image.png</image>
-    <video>./media/videos/Sonic The Hedgehog 2.smd-video.mp4</video>
-    <boxart>./media/image/Sonic The Hedgehog 2.smd-boxart.png</boxart>
-    <screenshot>./media/screenshots/Sonic The Hedgehog 2.smd-screenshot.png</screenshot>
-    <cartridge>./media/image/Sonic The Hedgehog 2.smd-cartridge.png</cartridge>
-    <fanart>./media/fanart/Sonic The Hedgehog 2.smd-fanart.jpg</fanart>
-    <titleshot>./media/image/Sonic The Hedgehog 2.smd-titleshot.png</titleshot>
-    <manual>./media/manuals/Sonic The Hedgehog 2.smd_(br).pdf</manual>
-    <boxback>./media/image/Sonic The Hedgehog 2.smd-boxback.png</boxback>
-    <extra1>./media/extras/Sonic The Hedgehog 2.smd-extra1.png</extra1>
-    <bezel>./media/bezels/Sonic The Hedgehog 2.smd-bezel.png</bezel>
-  </game>
-  <game id="7">
-    <path>./Streets of Rage (BR).gen.7z</path>
-    <name>Streets of Rage</name>
-    <desc>This city was once a happy and peaceful place... Until one day, a powerful criminal organization took over the city. A cruel union soon had control of the government and even the police. The city has become a center of violence and crime, where no one is safe.
-Amid this turmoil, a group of determined young people vowed to clean up the city. Among them are Adam Hunter, Axel Stone and Blaze Fielding. They are willing to risk anything... even their lives... on... Streets Of Rage.</desc>
-    <rating>0.80</rating>
-    <releasedate>19911001T000000</releasedate>
-    <developer>SEGA</developer>
-    <publisher>SEGA</publisher>
-    <genre>Briga De Rua</genre>
-    <genreid>263</genreid>
-    <players>1-2</players>
-    <image>./media/image/Streets of Rage (BR).gen-image.png</image>
-    <video>./media/videos/Streets of Rage (BR).gen-video.mp4</video>
-    <boxart>./media/image/Streets of Rage (BR).gen-boxart.png</boxart>
-    <screenshot>./media/screenshots/Streets of Rage (BR).gen-screenshot.png</screenshot>
-    <cartridge>./media/image/Streets of Rage (BR).gen-cartridge.png</cartridge>
-    <fanart>./media/fanart/Streets of Rage (BR).gen-fanart.jpg</fanart>
-    <map>./media/maps/Streets of Rage (BR).gen-map.jpg</map>
-    <titleshot>./media/image/Streets of Rage (BR).gen-titleshot.png</titleshot>
-    <manual>./media/manuals/Streets of Rage (BR).gen_(br).pdf</manual>
-    <boxback>./media/image/Streets of Rage (BR).gen-boxback.png</boxback>
-    <extra1>./media/extras/Streets of Rage (BR).gen-extra1.png</extra1>
-    <bezel>./media/bezels/Streets of Rage (BR).gen-bezel.png</bezel>
-  </game>
-  <game id="143230">
-    <path>./Streets of Rage 3 (BR).gen.7z</path>
-    <name>Streets of Rage 3</name>
-    <mode>Multijogador em tela dividida</mode>
-    <desc>The Crime Syndicate strikes back! Mr-X, the most terrible of villains is back with a diabolical plan: exchange all the city's leaders for robots. And dominate them with a simple remote control! This way, he will have the entire city in his hands, and will be able to take revenge on those responsible for his last failure... But things won't be that easy for the Union. Blaze, Axel, Skate and a new team member, Dr. Zan, are more than willing to get things in order. To do this, they just need a leader with courage. Will you face it?
-New moves, and secret moves! Two-player and co-op attacks and Head-to-Head battles! Four different endings. Whoever plays better will see! Amazing sound effects and music! Many new stages and scenarios!</desc>
-    <rating>0.80</rating>
-    <releasedate>19940601T000000</releasedate>
-    <developer>SEGA</developer>
-    <publisher>SEGA</publisher>
-    <genre>Briga De Rua</genre>
-    <genreid>263</genreid>
-    <players>1-2</players>
-    <region>eu,us</region>
-    <image>./media/image/Streets of Rage 3 (BR).gen-image.png</image>
-    <video>./media/videos/Streets of Rage 3 (BR).gen-video.mp4</video>
-    <marquee>./media/image/Streets of Rage 3 (BR).gen-marquee.png</marquee>
-    <wheel>./media/wheel/Streets of Rage 3 (BR).gen-wheel.png</wheel>
-    <boxart>./media/image/Streets of Rage 3 (BR).gen-boxart.png</boxart>
-    <screenshot>./media/screenshots/Streets of Rage 3 (BR).gen-screenshot.png</screenshot>
-    <cartridge>./media/image/Streets of Rage 3 (BR).gen-cartridge.png</cartridge>
-    <fanart>./media/fanart/Streets of Rage 3 (BR).gen-fanart.jpg</fanart>
-    <titleshot>./media/image/Streets of Rage 3 (BR).gen-titleshot.png</titleshot>
-    <manual>./media/manuals/Streets of Rage 3 (BR).gen_(br).pdf</manual>
-    <boxback>./media/image/Streets of Rage 3 (BR).gen-boxback.png</boxback>
-    <extra1>./media/extras/Streets of Rage 3 (BR).gen-extra1.png</extra1>
-    <bezel>./media/bezels/Streets of Rage 3 (BR).gen-bezel.png</bezel>
-  </game>
-  <game id="20">
-    <path>./Streets of Rage 2 (BR).bin.7z</path>
-    <name>Streets of Rage II</name>
-    <desc>Streets of Rage 2 is the continuation of Streets of Rage, and its plot basically tells that in the past young ex-police officers Axel Stone, Adam Hunter and Blaze Fielding celebrated the victory against the criminal syndicate, a year after its fall. Axel became a bodyguard and Blaze now works as a dance teacher, but Adam decides to join the police again and starts living in a small house with his younger brother.
-One day Axel receives a desperate call from Eddie "Skate" Hunter (also known as Eddie "Sammy" Hunter) saying that when he arrived at the small house, it was completely torn apart and destroyed. Adam's disappearance marks the beginning of the nightmare, within days the syndicate was back on the streets, now completely renewed and with many new criminal fighters, from armed ninjas to even bomb-throwing motorcyclists.
-Axel contacts Max, his old friend; Blaze and Sammy (Skate), and decide to team up to once again destroy the syndicate's criminal organization, rescue Adam and reestablish order and peace.</desc>
-    <rating>0.80</rating>
-    <releasedate>19930104T000000</releasedate>
-    <developer>SEGA</developer>
-    <publisher>SEGA</publisher>
-    <genre>Briga De Rua</genre>
-    <genreid>263</genreid>
-    <players>1-2</players>
-    <region>us</region>
-    <image>./media/image/Streets of Rage 2 (BR).bin-image.png</image>
-    <video>./media/videos/Streets of Rage 2 (BR).bin-video.mp4</video>
-    <marquee>./media/image/Streets of Rage 2 (BR).bin-marquee.png</marquee>
-    <wheel>./media/wheel/Streets of Rage 2 (BR).bin-wheel.png</wheel>
-    <boxart>./media/image/Streets of Rage 2 (BR).bin-boxart.png</boxart>
-    <screenshot>./media/screenshots/Streets of Rage 2 (BR).bin-screenshot.png</screenshot>
-    <cartridge>./media/image/Streets of Rage 2 (BR).bin-cartridge.png</cartridge>
-    <fanart>./media/fanart/Streets of Rage 2 (BR).bin-fanart.jpg</fanart>
-    <map>./media/maps/Streets of Rage 2 (BR).bin-map.jpg</map>
-    <titleshot>./media/image/Streets of Rage 2 (BR).bin-titleshot.png</titleshot>
-    <manual>./media/manuals/Streets of Rage 2 (BR).bin_(br).pdf</manual>
-    <boxback>./media/image/Streets of Rage 2 (BR).bin-boxback.png</boxback>
-    <extra1>./media/extras/Streets of Rage 2 (BR).bin-extra1.png</extra1>
-    <bezel>./media/bezels/Streets of Rage 2 (BR).bin-bezel.png</bezel>
+    <image>./media/image/Sonic The Hedgehog [5].bin-image.png</image>
+    <video>./media/videos/Sonic The Hedgehog [5].bin-video.mp4</video>
+    <marquee>./media/image/Sonic The Hedgehog [5].bin-marquee.png</marquee>
+    <wheel>./media/image/Sonic The Hedgehog [5].bin-wheel.png</wheel>
+    <boxart>./media/image/Sonic The Hedgehog [5].bin-boxart.png</boxart>
+    <screenshot>./media/screenshots/Sonic The Hedgehog [5].bin-screenshot.png</screenshot>
+    <cartridge>./media/image/Sonic The Hedgehog [5].bin-cartridge.png</cartridge>
+    <fanart>./media/fanart/Sonic The Hedgehog [5].bin-fanart.jpg</fanart>
+    <map>./media/maps/Sonic The Hedgehog [5].bin-map.jpg</map>
+    <titleshot>./media/image/Sonic The Hedgehog [5].bin-titleshot.png</titleshot>
+    <manual>./media/manuals/Sonic The Hedgehog [5].bin_(br).pdf</manual>
+    <boxback>./media/image/Sonic The Hedgehog [5].bin-boxback.png</boxback>
+    <extra1>./media/extras/Sonic The Hedgehog [5].bin-extra1.png</extra1>
+    <bezel>./media/image/Sonic The Hedgehog [5].bin-bezel.png</bezel>
   </game>
   <game id="78">
-    <path>./Strider (BR).gen.7z</path>
-    <name>Strider</name>
+    <path>./Strider [78].gen.7z</path>
+    <name>STRIDER [78].GEN</name>
     <mode>Jogador individual</mode>
-    <desc>Can your nerves handle 8 Mega of excitement? Yes, because you need nerves of steel and a lot of courage in this hallucinating adventure. You are Strider, a mountain of muscles with an efficient punch and a laser sword. You are in a future land with a past environment and the Master of Evil is mocking your defeat. Protect your wrists with iron bracelets and enter the fortress. You will have to survive the attack of robots with wings, scary prehistoric animals and an entire army. Fight against seductive Amazons who throw violent boomerangs and enter a war destined to dominate even your mind. Slide, duck, escape bombs, face monkeys and giant metal centipedes! Feel your biceps burst as you strive to defeat muscular men, who also make grunts. Strider, the Master of Evil, awaits you. You know you can defeat him!</desc>
+    <desc>SERÁ QUE SEUS NERVOS AGUENTAM 8 MEGA DE MUITA EMOÇÃO? SIM, POR QUE É PRECISO TER NERVOS DE AÇO E MUITA CORAGEM NESTA AVENTURA ALUCINANTE. VOCÊ É STRIDER, UMA MONTANHA DE MÚSCULOS DONO DE UM EFICIENTE SOCO E DE UMA ESPADA A LASER. VOCÊ ESTÁ NUMA TERRA FUTURA COM UM AMBIENTE DO PASSADO E O MESTRE DO MAL ESTÁ ZOMBANDO DE SUA DERROTA. PROTEJA SEUS PUNHOS COM BRACELETES DE FERRO E ADENTRE A FORTALEZA. VOCÊ TERÁ QUE SOBREVIVER AO ATAQUE DE ROBÔS COM ASAS, DE ANIMAIS PRÉ-HISTÓRICOS AMEDRONTADORES E DE UM EXÉRCITO INTEIRO. LUTE CONTRA SEDUTORAS AMAZONAS QUE ATIRAM VIOLENTOS BUMERANGUES E ENTRE NUMA GUERRA DESTINADA A DOMINAR ATÉ A SUA MENTE. DESLIZE, ABAIXE-SE, FUJA DAS BOMBAS, ENFRENTE MACACOS E CENTOPÉIAS GIGANTES DE METAL! SINTA SEUS BÍCEPS ESTOURAREM ENQUANTO VOCÊ SE ESFORÇA PARA DERROTAR HOMENS MUSCULOSOS, QUE AINDA POR CIMA EMITEM GRUNHIDOS. STRIDER, O MESTRE DO MAL, O ESPERA. VOCÊ SABE QUE PODE DERROTÁ-LO!</desc>
     <rating>0.60</rating>
     <releasedate>19910501T000000</releasedate>
-    <developer>Capcom</developer>
-    <publisher>Capcom</publisher>
-    <genre>Plataforma / Combate Com Rolagem, Plataforma</genre>
+    <developer>CAPCOM</developer>
+    <publisher>CAPCOM</publisher>
+    <genre>PLATAFORMA / COMBATE COM ROLAGEM, PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
+    <md5>ceed9f4f76ee20a53644c67e6b2a1816</md5>
+    <hash>E95C3B81</hash>
     <region>us,eu</region>
-    <image>./media/image/Strider (BR).gen-image.png</image>
-    <video>./media/videos/Strider (BR).gen-video.mp4</video>
-    <boxart>./media/image/Strider (BR).gen-boxart.png</boxart>
-    <screenshot>./media/screenshots/Strider (BR).gen-screenshot.png</screenshot>
-    <cartridge>./media/image/Strider (BR).gen-cartridge.png</cartridge>
-    <fanart>./media/fanart/Strider (BR).gen-fanart.jpg</fanart>
-    <titleshot>./media/image/Strider (BR).gen-titleshot.png</titleshot>
-    <manual>./media/manuals/Strider (BR).gen_(br).pdf</manual>
-    <boxback>./media/image/Strider (BR).gen-boxback.png</boxback>
-    <extra1>./media/extras/Strider (BR).gen-extra1.png</extra1>
-    <bezel>./media/bezels/Strider (BR).gen-bezel.png</bezel>
-  </game>
-  <game id="80">
-    <path>./Super Street Fighter II - The New Challengers (BR).bin.7z</path>
-    <name>Super Street Fighter II</name>
-    <desc>For years the twelve greatest fighters in the world have faced each other. And they became the great masters. But it's time for a new challenge. Four fighters emerged with a lot of promise, skills and one certainty: they can destroy Bison! But are they capable of facing the famous Street Fighters and their new moves?
-4 new characters: Cammy, Dee Jay, T. Hawk and Fei Long. Even better hits for the fantastic original Street Fighters. More battle mode options: Group Battle, Tournament Battle and the challenge against the clock in Time Challenge. Scenarios with incredible graphics!</desc>
-    <rating>0.80</rating>
-    <releasedate>19940101T000000</releasedate>
-    <developer>Capcom</developer>
-    <publisher>Capcom</publisher>
-    <genre>Luta</genre>
-    <genreid>262</genreid>
-    <players>1-2</players>
-    <region>jp</region>
-    <image>./media/image/Super Street Fighter II - The New Challengers (BR).bin-image.png</image>
-    <video>./media/videos/Super Street Fighter II - The New Challengers (BR).bin-video.mp4</video>
-    <marquee>./media/image/Super Street Fighter II - The New Challengers (BR).bin-marquee.png</marquee>
-    <wheel>./media/wheel/Super Street Fighter II - The New Challengers (BR).bin-wheel.png</wheel>
-    <boxart>./media/image/Super Street Fighter II - The New Challengers (BR).bin-boxart.png</boxart>
-    <screenshot>./media/screenshots/Super Street Fighter II - The New Challengers (BR).bin-screenshot.png</screenshot>
-    <cartridge>./media/image/Super Street Fighter II - The New Challengers (BR).bin-cartridge.png</cartridge>
-    <fanart>./media/fanart/Super Street Fighter II - The New Challengers (BR).bin-fanart.jpg</fanart>
-    <titleshot>./media/image/Super Street Fighter II - The New Challengers (BR).bin-titleshot.png</titleshot>
-    <manual>./media/manuals/Super Street Fighter II - The New Challengers (BR).bin_(br).pdf</manual>
-    <boxback>./media/image/Super Street Fighter II - The New Challengers (BR).bin-boxback.png</boxback>
-    <extra1>./media/extras/Super Street Fighter II - The New Challengers (BR).bin-extra1.png</extra1>
-    <bezel>./media/bezels/Super Street Fighter II - The New Challengers (BR).bin-bezel.png</bezel>
-  </game>
-  <game id="52">
-    <path>./Adventures of Batman &amp; Robin, The (BR).bin.7z</path>
-    <name>The Adventures of Batman &amp; Robin</name>
-    <desc>In this adventure, based on the award-winning TV series, Bat-Man got himself into trouble. His archenemy, Mr. Freeze, intends to turn Gotham into a great glacier. And to make matters worse, he teamed up with the Joker, Two-Face and other evildoers to eliminate our heroes once and for all.</desc>
-    <rating>0.60</rating>
-    <releasedate>19950101T000000</releasedate>
-    <developer>Clockworks Entertainment</developer>
-    <publisher>SEGA</publisher>
-    <genre>Briga De Rua</genre>
-    <genreid>263</genreid>
-    <players>1-2</players>
-    <region>eu,us</region>
-    <image>./media/image/Adventures of Batman &amp; Robin, The (BR).bin-image.png</image>
-    <video>./media/videos/Adventures of Batman &amp; Robin, The (BR).bin-video.mp4</video>
-    <boxart>./media/image/Adventures of Batman &amp; Robin, The (BR).bin-boxart.png</boxart>
-    <screenshot>./media/screenshots/Adventures of Batman &amp; Robin, The (BR).bin-screenshot.png</screenshot>
-    <cartridge>./media/image/Adventures of Batman &amp; Robin, The (BR).bin-cartridge.png</cartridge>
-    <fanart>./media/fanart/Adventures of Batman &amp; Robin, The (BR).bin-fanart.jpg</fanart>
-    <titleshot>./media/image/Adventures of Batman &amp; Robin, The (BR).bin-titleshot.png</titleshot>
-    <manual>./media/manuals/Adventures of Batman &amp; Robin, The (BR).bin_(br).pdf</manual>
-    <boxback>./media/image/Adventures of Batman &amp; Robin, The (BR).bin-boxback.png</boxback>
-    <extra1>./media/extras/Adventures of Batman &amp; Robin, The (BR).bin-extra1.png</extra1>
-    <bezel>./media/bezels/Adventures of Batman &amp; Robin, The (BR).bin-bezel.png</bezel>
+    <image>./media/image/Strider [78].gen-image.png</image>
+    <video>./media/videos/Strider [78].gen-video.mp4</video>
+    <boxart>./media/image/Strider [78].gen-boxart.png</boxart>
+    <screenshot>./media/screenshots/Strider [78].gen-screenshot.png</screenshot>
+    <cartridge>./media/image/Strider [78].gen-cartridge.png</cartridge>
+    <fanart>./media/fanart/Strider [78].gen-fanart.jpg</fanart>
+    <titleshot>./media/image/Strider [78].gen-titleshot.png</titleshot>
+    <manual>./media/manuals/Strider [78].gen_(br).pdf</manual>
+    <boxback>./media/image/Strider [78].gen-boxback.png</boxback>
+    <extra1>./media/extras/Strider [78].gen-extra1.png</extra1>
+    <bezel>./media/image/Strider [78].gen-bezel.png</bezel>
   </game>
   <game id="39">
-    <path>./Revenge of Shinobi, The (BR).gen.7z</path>
-    <name>The Revenge of Shinobi</name>
+    <path>./The [39].gen.7z</path>
+    <name>THE [39].GEN</name>
     <mode>Jogador individual</mode>
-    <desc>You are Musashi, the ninja master. As one of the mystical warriors, you have the power to see and know everything, and now you have to destroy Neo Zeed's evil army. If you fail, Naoko, the beautiful hostage, will die. Attack with the Ninja sword and daggers. Somersault over fences while throwing deadly knives. Dodge bombs, deadly stars and junk cars by jumping, turning and kicking! The Neo Zeed are almost unbeatable, and will be after you in 24 treacherous scenes. But you have a secret weapon: ninja magic.</desc>
+    <desc>VOCÊ É MUSASHI, O MESTRE NINJA. COMO UM DOS GUERREIROS MÍSTICOS, VOCÊ TEM O PODER DE VER E SABER DE TUDO, E AGORA TEM QUE DESTRUIR O MALÍGNO EXÉRCITO DE NEO ZEED. SE FALHAR, NAOKO, A BELA REFÉM, MORRERÁ. ATAQUE COM A ESPADA NINJA E COM OS PUNHAIS. DÊ CAMBALHOTAS SOBRE CERCAS ENQUANTO ARREMESSA FACAS MORTAIS. DESVIE DAS BOMBAS, DAS ESTRELAS MORTÍFERAS E DOS CARROS VELHOS, SALTANDO, VIRANDO-SE E CHUTANDO! OS NEO ZEED SÃO QUASE IMBATÍVEIS, E ESTARÃO ATRÁS DE VOCÊ EM 24 CENAS TRAIÇOEIRAS. MAS VOCÊ TEM UMA ARMA SECRETA: A MAGIA NINJA.</desc>
     <rating>0.60</rating>
     <releasedate>19901001T000000</releasedate>
     <developer>SEGA</developer>
     <publisher>SEGA</publisher>
-    <genre>Plataforma / Combate Com Rolagem, Plataforma</genre>
+    <genre>PLATAFORMA / COMBATE COM ROLAGEM, PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
+    <md5>0b184f075fedfc91bce63ef9702cc26a</md5>
+    <hash>61C1DAF8</hash>
     <region>us,eu</region>
-    <image>./media/image/Revenge of Shinobi, The (BR).gen-image.png</image>
-    <video>./media/videos/Revenge of Shinobi, The (BR).gen-video.mp4</video>
-    <boxart>./media/image/Revenge of Shinobi, The (BR).gen-boxart.png</boxart>
-    <screenshot>./media/screenshots/Revenge of Shinobi, The (BR).gen-screenshot.png</screenshot>
-    <cartridge>./media/image/Revenge of Shinobi, The (BR).gen-cartridge.png</cartridge>
-    <fanart>./media/fanart/Revenge of Shinobi, The (BR).gen-fanart.jpg</fanart>
-    <titleshot>./media/image/Revenge of Shinobi, The (BR).gen-titleshot.png</titleshot>
-    <manual>./media/manuals/Revenge of Shinobi, The (BR).gen_(br).pdf</manual>
-    <boxback>./media/image/Revenge of Shinobi, The (BR).gen-boxback.png</boxback>
-    <extra1>./media/extras/Revenge of Shinobi, The (BR).gen-extra1.png</extra1>
-    <bezel>./media/bezels/Revenge of Shinobi, The (BR).gen-bezel.png</bezel>
+    <image>./media/image/The [39].gen-image.png</image>
+    <video>./media/videos/The [39].gen-video.mp4</video>
+    <boxart>./media/image/The [39].gen-boxart.png</boxart>
+    <screenshot>./media/screenshots/The [39].gen-screenshot.png</screenshot>
+    <cartridge>./media/image/The [39].gen-cartridge.png</cartridge>
+    <fanart>./media/fanart/The [39].gen-fanart.jpg</fanart>
+    <titleshot>./media/image/The [39].gen-titleshot.png</titleshot>
+    <manual>./media/manuals/The [39].gen_(br).pdf</manual>
+    <boxback>./media/image/The [39].gen-boxback.png</boxback>
+    <extra1>./media/extras/The [39].gen-extra1.png</extra1>
+    <bezel>./media/image/The [39].gen-bezel.png</bezel>
   </game>
   <game id="275">
-    <path>./Thunder Force II (BR).bin.7z</path>
-    <name>Thunder Force II</name>
-    <desc>18 years ago, the planet Nebula was attacked by the Lone Star System, arch enemy of the Interplanetary Federation. The population has been decimated and the few survivors have sworn to protect the future of the planet, whatever the cost! The time has come to show that they were serious! Plealos, the mothership of the System fleet, is on alert at the Nebula spaceport, ready to destroy everything it cannot stop. You are Ryder Jupiter, known as the Ace of the Federation. The only person you trust is Diana Rean, and you unite against the tyrant Reficul, Emperor of the Lone Star. Only Thunder Force II can put an end to Nebula's plans for domination. Pilot the super jet across the planet's surface to the Plealos Fortress for the final confrontation, where you can use a bomb so terrible that it leaves nothing behind but memories... Go ahead, brave warrior, and free the Federation from the hands of the evil Reficul.</desc>
+    <path>./Thunder Force II [275].bin.7z</path>
+    <name>THUNDER FORCE II [275].BIN</name>
+    <desc>HÁ 18 ANOS O PLANETA NEBULA FOI ATACADO PELO SISTEMA DA ESTRELA SOLITÁRIA, ARQUI INIMIGA DA FEDERAÇÃO INTERPLANETÁRIA. A POPULAÇÃO FOI DIZIMADA E OS POUCOS SOBREVIVENTES JURARAM PROTEGER O FUTURO DO PLANETA, CUSTE O QUE CUSTAR! CHEGOU A HORA DE MOSTRAR QUE ESTAVAM FALANDO SÉRIO! PLEALOS, A NAVE MÃE DA ESQUADRA DO SISTEMA, ESTÁ DE SOBRE AVISO NO ESPAÇO-PORTO DE NEBULA, PRONTA PARA DESTRUIR TUDO QUE NÃO PUDER DETER. VOCÊ É RYDER JUPITER, CONHECIDO COMO O ÀS DA FEDERAÇÃO. A ÚNICA PESSOA EM QUE VOCÊ CONFIA É DIANA REAN, E VOCÊS SE UNEM CONTRA O TIRANO REFICUL, IMPERADOR DA ESTRELA SOLITÁRIA. SOMENTE THUNDER FORCE II PODE ACABAR COM OS PLANOS DE DOMINAÇÃO DE NEBULA. PILOTE O SUPER JATO PELA SUPERFÍCIE DO PLANETA ATÉ A FORTALEZA PLEALOS, PARA O CONFRONTO FINAL, ONDE VOCÊ PODERÁ USAR UMA BOMBA TÃO TERRÍVEL QUE NÃO DEIXA NADA PARA TRÁS, A NÃO SER MEMÓRIAS... VÁ EM FRENTE BRAVO GUERREIRO, E LIBERTE A FEDERAÇÃO DAS MÃOS DO MALIGNO REFICUL.</desc>
     <rating>0.80</rating>
     <releasedate>19900901T000000</releasedate>
-    <developer>Technosoft</developer>
+    <developer>TECHNOSOFT</developer>
     <publisher>SEGA</publisher>
-    <genre>Shoot'em Up</genre>
+    <genre>SHOOT'EM UP</genre>
     <genreid>260</genreid>
     <players>1</players>
+    <md5>542b200644713eef2e8420e3cc82ac78</md5>
+    <hash>9648485E</hash>
     <region>us,eu</region>
-    <image>./media/image/Thunder Force II (BR).bin-image.png</image>
-    <video>./media/videos/Thunder Force II (BR).bin-video.mp4</video>
-    <boxart>./media/image/Thunder Force II (BR).bin-boxart.png</boxart>
-    <screenshot>./media/screenshots/Thunder Force II (BR).bin-screenshot.png</screenshot>
-    <cartridge>./media/image/Thunder Force II (BR).bin-cartridge.png</cartridge>
-    <fanart>./media/fanart/Thunder Force II (BR).bin-fanart.jpg</fanart>
-    <titleshot>./media/image/Thunder Force II (BR).bin-titleshot.png</titleshot>
-    <manual>./media/manuals/Thunder Force II (BR).bin_(eu).pdf</manual>
-    <boxback>./media/image/Thunder Force II (BR).bin-boxback.png</boxback>
-    <extra1>./media/extras/Thunder Force II (BR).bin-extra1.png</extra1>
-    <bezel>./media/bezels/Thunder Force II (BR).bin-bezel.png</bezel>
+    <image>./media/image/Thunder Force II [275].bin-image.png</image>
+    <video>./media/videos/Thunder Force II [275].bin-video.mp4</video>
+    <boxart>./media/image/Thunder Force II [275].bin-boxart.png</boxart>
+    <screenshot>./media/screenshots/Thunder Force II [275].bin-screenshot.png</screenshot>
+    <cartridge>./media/image/Thunder Force II [275].bin-cartridge.png</cartridge>
+    <fanart>./media/fanart/Thunder Force II [275].bin-fanart.jpg</fanart>
+    <titleshot>./media/image/Thunder Force II [275].bin-titleshot.png</titleshot>
+    <manual>./media/manuals/Thunder Force II [275].bin_(eu).pdf</manual>
+    <boxback>./media/image/Thunder Force II [275].bin-boxback.png</boxback>
+    <extra1>./media/extras/Thunder Force II [275].bin-extra1.png</extra1>
+    <bezel>./media/image/Thunder Force II [275].bin-bezel.png</bezel>
   </game>
   <game id="141">
-    <path>./Thunder Force III (BR).gen.7z</path>
-    <name>Thunder Force III</name>
-    <desc>Anyone who thinks they've seen everything in space combat won't miss out by waiting. In Thunder Force III you pilot the most advanced ships! You will cross several planets in the galaxy: fire, water, earth and many others. When you arrive at each of them you will receive information about the biggest enemy you will defeat and also their weak point. But until you reach the final fight, you will face a variety of dangers and surprises. Your objective: eliminate all enemies on the different planets to face the mothership that controls the galaxy. This is what you are so well equipped for. That's why he spent so much time in training. A mission like this isn't given to just anyone. You know this and you will deserve this choice.</desc>
+    <path>./Thunder Force III [141].gen.7z</path>
+    <name>THUNDER FORCE III [141].GEN</name>
+    <desc>QUEM PENSA QUE JÁ VIU TUDO EM COMBATES ESPACIAIS NÃO PERDE POR ESPERAR. EM THUNDER FORCE III VOCÊ PILOTA O QUE HÁ DE MAIS AVANÇADO EM NAVES! VOCÊ ATRAVESSARÁ DIVERSOS PLANETAS DA GALÁXIA: O DO FOGO, O DA ÁGUA, O DA TERRA E MUITOS OUTROS. AO CHEGAR EM CADA UM DELES VOCÊ RECEBERÁ INFORMAÇÕES SOBRE O MAIOR DOS INIMIGOS QUE DERROTARÁ E TAMBÉM SEU PONTO FRACO. MAS ATÉ CHEGAR AO COMBATE FINAL, PASSARÁ POR UMA VARIEDADE DE PERIGOS E SURPRESAS. SEU OBJETIVO: ELIMINAR TODOS OS INIMIGOS DOS DIVERSOS PLANETAS PARA ENFRENTAR A NAVE-MÃE QUE CONTROLA A GALÁXIA. É PARA ISTO QUE VOCÊ ESTÁ TÃO BEM EQUIPADO. FOI POR ISTO QUE PASSOU TANTO TEMPO EM TREINAMENTO UMA MISSÃO COMO ESTA NÃO É DADA PARA QUALQUER UM. VOCÊ SABE DISTO E FARÁ POR MERECER ESTA ESCOLHA.</desc>
     <rating>0.80</rating>
     <releasedate>19900101T000000</releasedate>
-    <developer>Technosoft</developer>
+    <developer>TECHNOSOFT</developer>
     <publisher>SEGA</publisher>
-    <genre>Shoot'em Up / Horizontal, Shoot'em Up</genre>
+    <genre>SHOOT'EM UP / HORIZONTAL, SHOOT'EM UP</genre>
     <genreid>260</genreid>
     <players>1</players>
+    <md5>2f7c575b29f7f2ea79b929e732039e0d</md5>
+    <hash>DFBB2F9E</hash>
     <region>jp,us</region>
-    <image>./media/image/Thunder Force III (BR).gen-image.png</image>
-    <video>./media/videos/Thunder Force III (BR).gen-video.mp4</video>
-    <marquee>./media/image/Thunder Force III (BR).gen-marquee.png</marquee>
-    <wheel>./media/wheel/Thunder Force III (BR).gen-wheel.png</wheel>
-    <boxart>./media/image/Thunder Force III (BR).gen-boxart.png</boxart>
-    <screenshot>./media/screenshots/Thunder Force III (BR).gen-screenshot.png</screenshot>
-    <cartridge>./media/image/Thunder Force III (BR).gen-cartridge.png</cartridge>
-    <fanart>./media/fanart/Thunder Force III (BR).gen-fanart.jpg</fanart>
-    <titleshot>./media/image/Thunder Force III (BR).gen-titleshot.png</titleshot>
-    <manual>./media/manuals/Thunder Force III (BR).gen_(br).pdf</manual>
-    <boxback>./media/image/Thunder Force III (BR).gen-boxback.png</boxback>
-    <extra1>./media/extras/Thunder Force III (BR).gen-extra1.png</extra1>
-    <bezel>./media/bezels/Thunder Force III (BR).gen-bezel.png</bezel>
+    <image>./media/image/Thunder Force III [141].gen-image.png</image>
+    <video>./media/videos/Thunder Force III [141].gen-video.mp4</video>
+    <marquee>./media/image/Thunder Force III [141].gen-marquee.png</marquee>
+    <wheel>./media/image/Thunder Force III [141].gen-wheel.png</wheel>
+    <boxart>./media/image/Thunder Force III [141].gen-boxart.png</boxart>
+    <screenshot>./media/screenshots/Thunder Force III [141].gen-screenshot.png</screenshot>
+    <cartridge>./media/image/Thunder Force III [141].gen-cartridge.png</cartridge>
+    <fanart>./media/fanart/Thunder Force III [141].gen-fanart.jpg</fanart>
+    <titleshot>./media/image/Thunder Force III [141].gen-titleshot.png</titleshot>
+    <manual>./media/manuals/Thunder Force III [141].gen_(br).pdf</manual>
+    <boxback>./media/image/Thunder Force III [141].gen-boxback.png</boxback>
+    <extra1>./media/extras/Thunder Force III [141].gen-extra1.png</extra1>
+    <bezel>./media/image/Thunder Force III [141].gen-bezel.png</bezel>
   </game>
   <game id="55">
-    <path>./Thunder Force IV (BR).md.7z</path>
-    <name>Thunder Force IV</name>
+    <path>./Thunder Force IV [55].md.7z</path>
+    <name>THUNDER FORCE IV [55].MD</name>
     <mode>Jogador individual</mode>
-    <desc>The super computer that we thought was destroyed was only damaged. The federation has decided to send you on a ship to destroy this threat. Thunder Force IV, known in North America as Lightening Force: Quest for the Darkstar, is a 1992 game developed and published by Technosoft for the Sega Genesis as the fourth installment in the Thunder Force series. The game was released in Japan on July 24, 1992, in North America in September 1992, and in Europe in December 1992.</desc>
+    <desc>O SUPER COMPUTADOR QUE PENSAMOS TER SIDO DESTRUÍDO SÓ FOI DANIFICADO. A FEDERAÇÃO DECIDIU TE ENVIAR EM UMA NAVE PARA DESTRUIR ESSA AMEAÇA. THUNDER FORCE IV, CONHECIDO NA AMÉRICA DO NORTE COMO LIGHTENING FORCE: QUEST FOR THE DARKSTAR, É UM JOGO DE 1992, DESENVOLVIDO E PUBLICADO PELA TECHNOSOFT PARA SEGA GENESIS COMO A QUARTA EDIÇÃO DA SÉRIE THUNDER FORCE. O JOGO FOI LANÇADO NO JAPÃO EM 24 DE JULHO DE 1992, NA AMÉRICA DO NORTE EM SETEMBRO DE 1992 E NA EUROPA EM DEZEMBRO DE 1992.</desc>
     <rating>0.80</rating>
     <releasedate>19920101T000000</releasedate>
-    <developer>Technosoft</developer>
+    <developer>TECHNOSOFT</developer>
     <publisher>SEGA</publisher>
-    <genre>Shoot'em Up / Horizontal, Shoot'em Up</genre>
+    <genre>SHOOT'EM UP / HORIZONTAL, SHOOT'EM UP</genre>
     <genreid>260</genreid>
     <players>1</players>
+    <md5>3dfa38e1e6b34995fee22108992afca4</md5>
+    <hash>BA828175</hash>
     <region>eu</region>
-    <image>./media/image/Thunder Force IV (BR).md-image.png</image>
-    <video>./media/videos/Thunder Force IV (BR).md-video.mp4</video>
-    <boxart>./media/image/Thunder Force IV (BR).md-boxart.png</boxart>
-    <screenshot>./media/screenshots/Thunder Force IV (BR).md-screenshot.png</screenshot>
-    <cartridge>./media/image/Thunder Force IV (BR).md-cartridge.png</cartridge>
-    <fanart>./media/fanart/Thunder Force IV (BR).md-fanart.jpg</fanart>
-    <titleshot>./media/image/Thunder Force IV (BR).md-titleshot.png</titleshot>
-    <manual>./media/manuals/Thunder Force IV (BR).md_(eu).pdf</manual>
-    <boxback>./media/image/Thunder Force IV (BR).md-boxback.png</boxback>
-    <extra1>./media/extras/Thunder Force IV (BR).md-extra1.png</extra1>
-    <bezel>./media/bezels/Thunder Force IV (BR).md-bezel.png</bezel>
+    <image>./media/image/Thunder Force IV [55].md-image.png</image>
+    <video>./media/videos/Thunder Force IV [55].md-video.mp4</video>
+    <boxart>./media/image/Thunder Force IV [55].md-boxart.png</boxart>
+    <screenshot>./media/screenshots/Thunder Force IV [55].md-screenshot.png</screenshot>
+    <cartridge>./media/image/Thunder Force IV [55].md-cartridge.png</cartridge>
+    <fanart>./media/fanart/Thunder Force IV [55].md-fanart.jpg</fanart>
+    <titleshot>./media/image/Thunder Force IV [55].md-titleshot.png</titleshot>
+    <manual>./media/manuals/Thunder Force IV [55].md_(eu).pdf</manual>
+    <boxback>./media/image/Thunder Force IV [55].md-boxback.png</boxback>
+    <extra1>./media/extras/Thunder Force IV [55].md-extra1.png</extra1>
+    <bezel>./media/image/Thunder Force IV [55].md-bezel.png</bezel>
   </game>
   <game id="79">
-    <path>./Tiny Toon Adventures - Buster's Hidden Treasure (USA).md.7z</path>
-    <name>Tiny Toon Adventures : Buster's Hidden Treasure</name>
+    <path>./Tiny Toon Adventures - Buster's Hidden Treasure [79].md.7z</path>
+    <name>TINY TOON ADVENTURES - BUSTER'S HIDDEN TREASURE [79].MD</name>
     <mode>Jogador individual</mode>
-    <desc>In addition to the funniest cartoons on television, the ACME City gang decided to get involved in video games. It all started when Buster decided to clean up the basement of Looniversidade ACME, and suddenly found a treasure map. But the terrible Valentino struck again! He stole the map, and on top of that he got a special helmet to force the gang to look for the treasure. Do you think that's all? No, Valentino this time went even further. He kidnapped Lilica and her friends, to keep our friend busy. Yeah, this time Buster is in trouble. But really fun troubles! There will be 33 exciting levels, and the island where the treasure is located has different dangers every inch! Good thing Buster can count on Godo Dodo... and you! Or will you leave your friend alone in this ACME problem?</desc>
+    <desc>ALÉM DOS DESENHOS ANIMADOS MAIS DIVERTIDOS DA TELEVISÃO, A TURMINHA DE ACME CITY RESOLVEU APRONTAR NOS VIDEO GAMES. TUDO COMEÇOU QUANDO PERNINHA RESOLVEU ARRUMAR O PORÃO DA LOONIVERSIDADE ACME, E DE REPENTE ENCONTROU UM MAPA DO TESOURO. MAS O TERRÍVEL VALENTINO ATACOU NOVAMENTE! ROUBOU O MAPA, E AINDA POR CIMA CONSEGUIU UM CAPACETE ESPECIAL PARA FORÇAR A TURMA A PROCURAR O TESOURO. VOCÊ ACHA QUE É SÓ ISSO? NÃO, VALENTINO DESTA VEZ FOI AINDA MAIS LONGE. SEQUESTROU LILICA E SUAS AMIGAS, PARA MANTER O NOSSO AMIGO BEM OCUPADO. É, DESTA VEZ O PERNINHA ESTÁ EM APUROS. MAS APUROS BEM DIVERTIDOS! SERÃO 33 FASES EMOCIONANTES, E A ILHA ONDE ESTÁ O TESOURO TEM PERIGOS DIFERENTES A CADA CENTÍMETRO! AINDA BEM QUE O PERNINHA PODE CONTAR COM GODO DODO... E COM VOCÊ! OU VOCÊ VAI DEIXAR SEU AMIGO SOZINHO NESTE ACME PROBLEMA?</desc>
     <rating>0.80</rating>
     <releasedate>19930101T000000</releasedate>
-    <developer>Konami</developer>
-    <publisher>Konami</publisher>
-    <genre>Plataforma</genre>
+    <developer>KONAMI</developer>
+    <publisher>KONAMI</publisher>
+    <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
-    <region>eu</region>
-    <image>./media/image/Tiny Toon Adventures - Buster's Hidden Treasure (USA).md-image.png</image>
-    <video>./media/videos/Tiny Toon Adventures - Buster's Hidden Treasure (USA).md-video.mp4</video>
-    <marquee>./media/image/Tiny Toon Adventures - Buster's Hidden Treasure (USA).md-marquee.png</marquee>
-    <wheel>./media/wheel/Tiny Toon Adventures - Buster's Hidden Treasure (USA).md-wheel.png</wheel>
-    <boxart>./media/image/Tiny Toon Adventures - Buster's Hidden Treasure (USA).md-boxart.png</boxart>
-    <screenshot>./media/screenshots/Tiny Toon Adventures - Buster's Hidden Treasure (USA).md-screenshot.png</screenshot>
-    <cartridge>./media/image/Tiny Toon Adventures - Buster's Hidden Treasure (USA).md-cartridge.png</cartridge>
-    <fanart>./media/fanart/Tiny Toon Adventures - Buster's Hidden Treasure (USA).md-fanart.jpg</fanart>
-    <titleshot>./media/image/Tiny Toon Adventures - Buster's Hidden Treasure (USA).md-titleshot.png</titleshot>
-    <manual>./media/manuals/Tiny Toon Adventures - Buster's Hidden Treasure (USA).md_(us).pdf</manual>
-    <boxback>./media/image/Tiny Toon Adventures - Buster's Hidden Treasure (USA).md-boxback.png</boxback>
-    <extra1>./media/extras/Tiny Toon Adventures - Buster's Hidden Treasure (USA).md-extra1.png</extra1>
-    <bezel>./media/bezels/Tiny Toon Adventures - Buster's Hidden Treasure (USA).md-bezel.png</bezel>
+    <md5>4831cb1b067887a086467ec51653af48</md5>
+    <hash>A26D3AE0</hash>
+    <region>us</region>
+    <image>./media/image/Tiny Toon Adventures - Buster's Hidden Treasure [79].md-image.png</image>
+    <video>./media/videos/Tiny Toon Adventures - Buster's Hidden Treasure [79].md-video.mp4</video>
+    <marquee>./media/image/Tiny Toon Adventures - Buster's Hidden Treasure [79].md-marquee.png</marquee>
+    <wheel>./media/image/Tiny Toon Adventures - Buster's Hidden Treasure [79].md-wheel.png</wheel>
+    <boxart>./media/image/Tiny Toon Adventures - Buster's Hidden Treasure [79].md-boxart.png</boxart>
+    <screenshot>./media/screenshots/Tiny Toon Adventures - Buster's Hidden Treasure [79].md-screenshot.png</screenshot>
+    <cartridge>./media/image/Tiny Toon Adventures - Buster's Hidden Treasure [79].md-cartridge.png</cartridge>
+    <fanart>./media/fanart/Tiny Toon Adventures - Buster's Hidden Treasure [79].md-fanart.jpg</fanart>
+    <titleshot>./media/image/Tiny Toon Adventures - Buster's Hidden Treasure [79].md-titleshot.png</titleshot>
+    <manual>./media/manuals/Tiny Toon Adventures - Buster's Hidden Treasure [79].md_(us).pdf</manual>
+    <boxback>./media/image/Tiny Toon Adventures - Buster's Hidden Treasure [79].md-boxback.png</boxback>
+    <extra1>./media/extras/Tiny Toon Adventures - Buster's Hidden Treasure [79].md-extra1.png</extra1>
+    <bezel>./media/image/Tiny Toon Adventures - Buster's Hidden Treasure [79].md-bezel.png</bezel>
+  </game>
+  <game id="325">
+    <path>./Vectorman 2 [325].bin.7z</path>
+    <name>VECTORMAN 2 [325].BIN</name>
+    <mode>Jogador individual</mode>
+    <desc>ESTA É A SEQUÊNCIA DE VECTORMAN. AGORA, O PODEROSO E PEQUENO ROBÔ FOI ATACADO AO RETORNAR PARA A TERRA EM SUA ESPAÇONAVE. AO CAIR NA TERRA, ACABA DESCOBRINDO LOCALIZAÇÕES OBSCURAS E CHEIAS DE CRIATURAS HOSTIS E ACABA PARTICIPANDO DE UMA PLATAFORMA DE AÇÃO RÁPIDA E FURIOSA. LUTE CONTRA SEUS INIMIGOS, COLETE PHOTONS, PULE SOBRE OBSTÁCULOS, ENCONTRE ARMAS, SE TRANSFORME EM OUTRAS CRIATURAS E ESCALE PAREDES COMANDANDO O ROBÔ VERDE "ORBOT" VECTORMAN.</desc>
+    <rating>0.80</rating>
+    <releasedate>19961115T000000</releasedate>
+    <developer>BLUESKY SOFTWARE</developer>
+    <publisher>SEGA</publisher>
+    <genre>PLATAFORMA / TIRO COM ROLAGEM, PLATAFORMA</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <md5>d0d7a2c5fad243f7ba6fb75acfc66e2c</md5>
+    <hash>AA5A3614</hash>
+    <region>us</region>
+    <image>./media/image/Vectorman 2 [325].bin-image.png</image>
+    <video>./media/videos/Vectorman 2 [325].bin-video.mp4</video>
+    <marquee>./media/image/Vectorman 2 [325].bin-marquee.png</marquee>
+    <wheel>./media/image/Vectorman 2 [325].bin-wheel.png</wheel>
+    <boxart>./media/image/Vectorman 2 [325].bin-boxart.png</boxart>
+    <screenshot>./media/screenshots/Vectorman 2 [325].bin-screenshot.png</screenshot>
+    <cartridge>./media/image/Vectorman 2 [325].bin-cartridge.png</cartridge>
+    <fanart>./media/fanart/Vectorman 2 [325].bin-fanart.jpg</fanart>
+    <titleshot>./media/image/Vectorman 2 [325].bin-titleshot.png</titleshot>
+    <manual>./media/manuals/Vectorman 2 [325].bin_(br).pdf</manual>
+    <boxback>./media/image/Vectorman 2 [325].bin-boxback.png</boxback>
+    <extra1>./media/extras/Vectorman 2 [325].bin-extra1.png</extra1>
+    <bezel>./media/image/Vectorman 2 [325].bin-bezel.png</bezel>
+  </game>
+  <game id="28">
+    <path>./Golden Axe [28].gen.7z</path>
+    <name>GOLDEN AXE [28].GEN</name>
+    <mode>Multijogador local</mode>
+    <desc>O JOGO SE PASSA NA TERRA FICTÍCIA NOMEADA YURIA. UM MUNDO DE FANTASIA MEDIEVAL NO ESTILO CONAN O BÁRBARO.
+UMA ENTIDADE MALÉFICA CONHECIDA COMO DEATH ADDER CAPTUROU O REI E SUA FILHA, MANTENDO OS DOIS EM CATIVEIRO DENTRO DE SEU CASTELO. DEATH ADDER TAMBÉM ENCONTRA O GOLDEN AXE (MACHADO DE OURO), QUE É O SÍMBOLO DE YURIA, COM ISSO, ELE AMEAÇA DESTRUIR TANTO O MACHADO QUANTO A FAMÍLIA REAL, A MENOS QUE O POVO DE YURIA O ACEITE COMO GOVERNANTE.
+ENTÃO, TRÊS GUERREIROS PARTEM EM UMA MISSÃO DE SALVAR YURIA E VINGAR SUAS PERDAS PELAS MÃOS DE DEATH ADDER. O PRIMEIRO É GILIUS THUNDERHEAD, DAS MINAS DE WOLUD, QUE TEVE SEU IRMÃO GÊMEO ASSASSINADO PELOS SOLDADOS DE DEATH ADDER. O SEGUNDO É O BÁRBARO AX BATTLER, QUE PROCURA VINGANÇA PELO ASSASSINATO DE SUA MÃE. E NO FINAL, MAS NÃO MENOS IMPORTANTE, TEMOS TYRIS FLARE, QUE TEVE SEUS PAIS ASSASSINADOS PELO PRÓPRIO DEATH ADDER.
+OS GUERREIROS RESGATARAM OS HABITANTES DA ENTÃO SAQUEADA TURTLE VILLAGE (VILAREJO TARTARUGA), QUE TEM ESSE NOME POR SE ENCONTRAR NO CASCO DE UMA TARTARUGA GIGANTE. ESSA TARTARUGA LEVA OS HERÓIS ATRAVÉS DO MAR E EM SEGUIDA VOARAM PARA O CASTELO DE DEATH ADDER NAS COSTAS DE UMA ÁGUIA GIGANTE. UMA VEZ NO CASTELO, OS HERÓIS DERROTAM DEATH ADDER, QUE ESTAVA DOMINANDO O GOLDEN AXE E SALVAM YURIA.</desc>
+    <rating>0.80</rating>
+    <releasedate>19901101T000000</releasedate>
+    <developer>TEAM SHINOBI</developer>
+    <publisher>SEGA</publisher>
+    <genre>BRIGA DE RUA</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <md5>f846492bf6367e4982ba5ba44575894b</md5>
+    <hash>B8239AEA</hash>
+    <region>wor</region>
+    <image>./media/image/Golden Axe [28].gen-image.png</image>
+    <video>./media/videos/Golden Axe [28].gen-video.mp4</video>
+    <marquee>./media/image/Golden Axe [28].gen-marquee.png</marquee>
+    <wheel>./media/image/Golden Axe [28].gen-wheel.png</wheel>
+    <boxart>./media/image/Golden Axe [28].gen-boxart.png</boxart>
+    <screenshot>./media/screenshots/Golden Axe [28].gen-screenshot.png</screenshot>
+    <cartridge>./media/image/Golden Axe [28].gen-cartridge.png</cartridge>
+    <fanart>./media/fanart/Golden Axe [28].gen-fanart.jpg</fanart>
+    <titleshot>./media/image/Golden Axe [28].gen-titleshot.png</titleshot>
+    <manual>./media/manuals/Golden Axe [28].gen_(br).pdf</manual>
+    <boxback>./media/image/Golden Axe [28].gen-boxback.png</boxback>
+    <extra1>./media/extras/Golden Axe [28].gen-extra1.png</extra1>
+    <bezel>./media/image/Golden Axe [28].gen-bezel.png</bezel>
+  </game>
+  <game id="88">
+    <path>./Golden Axe II [88].md.7z</path>
+    <name>GOLDEN AXE II [88].MD</name>
+    <desc>O DIABÓLICO DARK GULD RECUPEROU-SE DE SUA ÚLTIMA DERROTA E VOLTOU AINDA MAIS DETERMINADO A FAZER DA TERRA O PALCO DE SUA DESTRUIÇÃO. ELE VEIO ACOMPANHADO DE UM CLÃ DE PERVERSAS CRIATURAS E ROUBOU O GOLDEN AXE, MACHADO DE OURO SÍMBOLO DA PAZ E PROSPERIDADE.
+DE NOVO, NOSSOS BRAVOS GUERREIROS VÃO SE COLOCAR NO CAMINHO DOS MALFEITORES. ELES SÃO: AX-BATTLER, O BÁRBARO; TYRIS-FLARE, A FEROZ AMAZONA; E GILIUS THUNDERHEAD, O ANÃO DESTEMIDO.
+POR MAIS DIFÍCIL QUE SEJA A BATALHA, POR MAIS LONGA QUE SEJA A JORNADA, NADA VAI IMPEDI-LOS. O GOLDEN AXE DEVE VOLTAR PARA SEU DEVIDO LUGAR. E ESSES TERRÍVEIS INIMIGOS DA HUMANIDADE TAMBÉM! AJUDE-OS NESSA ÁRDUA MISSÃO!</desc>
+    <rating>0.80</rating>
+    <releasedate>19920101T000000</releasedate>
+    <developer>SEGA</developer>
+    <publisher>SEGA</publisher>
+    <genre>BRIGA DE RUA</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <md5>fc25c0ae98c019d8f5066074ba6b103b</md5>
+    <hash>CFAB61CE</hash>
+    <region>wor</region>
+    <image>./media/image/Golden Axe II [88].md-image.png</image>
+    <video>./media/videos/Golden Axe II [88].md-video.mp4</video>
+    <marquee>./media/image/Golden Axe II [88].md-marquee.png</marquee>
+    <wheel>./media/image/Golden Axe II [88].md-wheel.png</wheel>
+    <boxart>./media/image/Golden Axe II [88].md-boxart.png</boxart>
+    <screenshot>./media/screenshots/Golden Axe II [88].md-screenshot.png</screenshot>
+    <cartridge>./media/image/Golden Axe II [88].md-cartridge.png</cartridge>
+    <fanart>./media/fanart/Golden Axe II [88].md-fanart.jpg</fanart>
+    <titleshot>./media/image/Golden Axe II [88].md-titleshot.png</titleshot>
+    <manual>./media/manuals/Golden Axe II [88].md_(br).pdf</manual>
+    <boxback>./media/image/Golden Axe II [88].md-boxback.png</boxback>
+    <extra1>./media/extras/Golden Axe II [88].md-extra1.png</extra1>
+    <bezel>./media/image/Golden Axe II [88].md-bezel.png</bezel>
+  </game>
+  <game id="61">
+    <path>./Golden Axe III [61].bin.7z</path>
+    <name>GOLDEN AXE III [61].BIN</name>
+    <desc>O LENDÁRIO MACHADO DO PODER, O GOLDEN AXE, FOI ROUBADO (DE NOVO) E A TERRA DE YURIA FOI COLOCADA EM PERIGO (DE NOVO). DESTA VEZ QUEM ROUBOU O MACHADO DOURADO FOI O ?PRINCE OF DARKNESS? QUE, ALÉM DISSO, LANÇOU UMA MALDIÇÃO EM TODOS OS GUERREIROS E HERÓIS. ALGUNS DESSES HERÓIS, PORÉM, CONSEGUEM ESCAPAR DESSA MALDIÇÃO E AGORA POSSUEM A MISSÃO DE SALVAR OS OUTROS GUERREIROS, DERROTAR O VILÃO E RETORNAR COM O GOLDEN AXE. ENTRE OS NOVOS HERÓIS TEMOS O GIGANTE PROUD CRAGGER, QUE FUGIU DE UMA PRISÃO DO INIMIGO E APARECE AINDA USANDO CORRENTES NOS BRAÇOS E PERNAS. ELE É LENTO, MAS É O MAIS FORTE DE TODOS. TEMOS TAMBÉM O INTERESSANTE HOMEM-PANTERA CHRONOS ?EVIL? LAIT, QUE É BASTANTE ÁGIL, MAS EM TERMOS DE FORÇA É O MAIS FRACO DO GRUPO; O BÁRBARO KAIN GRINDER, QUE É SEMELHANTE AO AX BATTLER E A AMAZONA SARAH BARN, QUE LEMBRA A TYRIS FLARE.</desc>
+    <rating>0.60</rating>
+    <releasedate>19930101T000000</releasedate>
+    <developer>SEGA</developer>
+    <publisher>SEGA</publisher>
+    <genre>BRIGA DE RUA</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <md5>259dac8c3ac022d379684081a294c8cf</md5>
+    <hash>744983D5</hash>
+    <region>jp</region>
+    <image>./media/image/Golden Axe III [61].bin-image.png</image>
+    <video>./media/videos/Golden Axe III [61].bin-video.mp4</video>
+    <marquee>./media/image/Golden Axe III [61].bin-marquee.png</marquee>
+    <wheel>./media/image/Golden Axe III [61].bin-wheel.png</wheel>
+    <boxart>./media/image/Golden Axe III [61].bin-boxart.png</boxart>
+    <screenshot>./media/screenshots/Golden Axe III [61].bin-screenshot.png</screenshot>
+    <cartridge>./media/image/Golden Axe III [61].bin-cartridge.png</cartridge>
+    <fanart>./media/fanart/Golden Axe III [61].bin-fanart.jpg</fanart>
+    <titleshot>./media/image/Golden Axe III [61].bin-titleshot.png</titleshot>
+    <boxback>./media/image/Golden Axe III [61].bin-boxback.png</boxback>
+    <extra1>./media/extras/Golden Axe III [61].bin-extra1.png</extra1>
+    <bezel>./media/image/Golden Axe III [61].bin-bezel.png</bezel>
+  </game>
+  <game id="89">
+    <path>./Gunstar Heroes [89].7z</path>
+    <name>GUNSTAR HEROES [89]</name>
+    <desc>A HISTÓRIA COMEÇOU HÁ MUITO, MUITO TEMPO ATRÁS... O FAMOSO PROFESSOR WHITE GUNSTAR TOMOU-SE O MAIOR HERÓI DO PLANETA GUNSTAR 9. NAQUELA ÉPOCA, UM PODEROSO ROBÔ CONHECIDO COMO GOLDEN SILVER ESTAVA ARRASANDO O PLANETA. MAS O PROFESSOR CONSEGUIU RETIRAR DELE AS QUATRO PEDRAS MÍSTICAS, E EXPULSÁ-LO PARA UMA LUA DISTANTE. MUITOS ANOS SE PASSARAM E TUDO ESTAVA CALMO. MAS UM DITADOR CHAMADO CORONEL RED, IMAGINANDO QUE A FAMÍLIA GUNSTAR SABERIA ONDE ESTÃO AS PEDRAS, SEQÜESTROU O FILHO MAIS VELHO, GREEN, E ESTÁ FORÇANDO-O A SER OBEDIENTE! É AÍ QUE VOCÊ ENTRA NA HISTÓRIA. COMO O FILHO DO PROFESSOR, VOCÊ DEVE DETER O CORONEL E IMPEDI-LO DE TRAZER DE VOLTA O TERROR DE GOLDEN SIVER. NÃO SERÁ NADA FÁCIL, A LUTA SERÁ CONTRA ANDRÓIDES E ARMAS PODEROSAS. CHAME SEUS AMIGOS E LUTE PRA VALER! GUNSTAR 9 CONTA COM VOCÊ!</desc>
+    <rating>0.80</rating>
+    <releasedate>19930910T000000</releasedate>
+    <developer>TREASURE</developer>
+    <publisher>SEGA</publisher>
+    <genre>TIRO / RUN AND GUN, PLATAFORMA / TIRO COM ROLAGEM, TIRO, PLATAFORMA</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <md5>9a369cfc6355db48677771e345421e0e</md5>
+    <hash>B813CF0D</hash>
+    <region>us</region>
+    <image>./media/image/Gunstar Heroes [89]-image.png</image>
+    <video>./media/videos/Gunstar Heroes [89]-video.mp4</video>
+    <boxart>./media/image/Gunstar Heroes [89]-boxart.png</boxart>
+    <screenshot>./media/screenshots/Gunstar Heroes [89]-screenshot.png</screenshot>
+    <cartridge>./media/image/Gunstar Heroes [89]-cartridge.png</cartridge>
+    <fanart>./media/fanart/Gunstar Heroes [89]-fanart.jpg</fanart>
+    <titleshot>./media/image/Gunstar Heroes [89]-titleshot.png</titleshot>
+    <manual>./media/manuals/Gunstar Heroes [89]_(br).pdf</manual>
+    <boxback>./media/image/Gunstar Heroes [89]-boxback.png</boxback>
+    <extra1>./media/extras/Gunstar Heroes [89]-extra1.png</extra1>
+    <bezel>./media/image/Gunstar Heroes [89]-bezel.png</bezel>
+  </game>
+  <game id="364">
+    <path>./Haunting Starring Polterguy [364].md.7z</path>
+    <name>HAUNTING STARRING POLTERGUY [364].MD</name>
+    <desc>O FANTASMA DE UM ADOLESCENTE BUSCA VINGANÇA CONTRA UMA FAMÍLIA ESNOBE. SEU TRABALHO É ASSUSTÁ-LOS PARA QUE SAIAM DE SUAS CASAS. ELES NÃO PODEM VER VOCÊ, ENTÃO SEU ÚNICO MEIO DE ASSUSTÁ-LOS É POSSUINDO VÁRIOS OBJETOS EM TODA A CASA. POR EXEMPLO, POSSUIR UMA PEÇA DE MOBÍLIA FARIA COM QUE ALGO SAÍSSE DELA E POSSUÍSSE UM OBJETO QUE A TORNARIA VIVA DE UMA FORMA OU DE OUTRA. VOCÊ PRECISA AGIR RAPIDAMENTE, PORQUE VOCÊ TEM ALGO CHAMADO "ECTO", QUE ATUA COMO O COMBUSTÍVEL QUE PERMITE QUE VOCÊ PERCORRA O MUNDO REAL. QUANTO MAIS SUSTOS VOCÊ CONSEGUIR, MAIS ECTO VOCÊ GANHA. PERDER TODO O ECTO MANDA VOCÊ PARA O SUBMUNDO, ONDE VOCÊ TEM QUE RECUPERAR O SEU ECTO A PLENA CAPACIDADE PARA VOLTAR AO MUNDO REAL.</desc>
+    <rating>0.60</rating>
+    <releasedate>19930901T000000</releasedate>
+    <developer>ELECTRONIC ARTS</developer>
+    <publisher>ELECTRONIC ARTS</publisher>
+    <genre>AÇÃO / AVENTURA, AÇÃO</genre>
+    <genreid>256</genreid>
+    <players>1-2</players>
+    <md5>4e4249a4a7657decf02eb77f15d67491</md5>
+    <hash>BF64D92E</hash>
+    <region>eu,us</region>
+    <image>./media/image/Haunting Starring Polterguy [364].md-image.png</image>
+    <video>./media/videos/Haunting Starring Polterguy [364].md-video.mp4</video>
+    <boxart>./media/image/Haunting Starring Polterguy [364].md-boxart.png</boxart>
+    <screenshot>./media/screenshots/Haunting Starring Polterguy [364].md-screenshot.png</screenshot>
+    <cartridge>./media/image/Haunting Starring Polterguy [364].md-cartridge.png</cartridge>
+    <fanart>./media/fanart/Haunting Starring Polterguy [364].md-fanart.jpg</fanart>
+    <titleshot>./media/image/Haunting Starring Polterguy [364].md-titleshot.png</titleshot>
+    <manual>./media/manuals/Haunting Starring Polterguy [364].md_(eu).pdf</manual>
+    <boxback>./media/image/Haunting Starring Polterguy [364].md-boxback.png</boxback>
+    <extra1>./media/extras/Haunting Starring Polterguy [364].md-extra1.png</extra1>
+    <bezel>./media/image/Haunting Starring Polterguy [364].md-bezel.png</bezel>
+  </game>
+  <game id="38">
+    <path>./Kid Chameleon [38].md.7z</path>
+    <name>KID CHAMELEON [38].MD</name>
+    <desc>KID CHAMELEON É UM JOGO DE PLATAFORMA SIDE-SCROLLER ONDE O PERSONAGEM PRINCIPAL ENTRA EM UMA REALIDADE VIRTUAL CHAMADA "WILD SIDE" PARA LIBERTAR OUTRAS CRIANÇAS QUE FORAM CAPTURADAS. ELE PODE ALTERAR A SUA FORMA EM VÁRIAS OUTRAS(DAÍ O "CHAMELEON" - CAMALEÃO EM INGLÊS). ISTO LHE DÁ A HABILIDADES ESPECIAIS QUE DEVEM SER USADAS PARA PASSAR CADA UM DOS MAIS DE 100 ESTÁGIOS DO JOGO.
+UM FATO INTERESSANTE SOBRE KID CHAMELEON É QUE O JOGO POSSUI MAIS DE 100 NÍVEIS(VÁRIOS DELES MUITO, MAS MUITO DIFÍCEIS) E QUE DEVEM SER JOGADOS EM SEQUENCIA E NÃO EXISTE A POSSIBILIDADE DE SALVAR OU UTILIZAR PASSWORD - O QUE SIGNIFICA QUE COMPLETAR ESTE JOGO É UM FEITO EXTRAORDINÁRIO DE PERSEVERANÇA(E PACIÊNCIA).</desc>
+    <rating>0.60</rating>
+    <releasedate>19920501T000000</releasedate>
+    <developer>SEGA</developer>
+    <publisher>SEGA</publisher>
+    <genre>PLATAFORMA, AVENTURA</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <md5>71c87ec7ba1154788d40ab3055bb12b2</md5>
+    <hash>AD40AAA4</hash>
+    <region>eu,us</region>
+    <image>./media/image/Kid Chameleon [38].md-image.png</image>
+    <video>./media/videos/Kid Chameleon [38].md-video.mp4</video>
+    <marquee>./media/image/Kid Chameleon [38].md-marquee.png</marquee>
+    <wheel>./media/image/Kid Chameleon [38].md-wheel.png</wheel>
+    <boxart>./media/image/Kid Chameleon [38].md-boxart.png</boxart>
+    <screenshot>./media/screenshots/Kid Chameleon [38].md-screenshot.png</screenshot>
+    <cartridge>./media/image/Kid Chameleon [38].md-cartridge.png</cartridge>
+    <fanart>./media/fanart/Kid Chameleon [38].md-fanart.jpg</fanart>
+    <titleshot>./media/image/Kid Chameleon [38].md-titleshot.png</titleshot>
+    <manual>./media/manuals/Kid Chameleon [38].md_(br).pdf</manual>
+    <boxback>./media/image/Kid Chameleon [38].md-boxback.png</boxback>
+    <extra1>./media/extras/Kid Chameleon [38].md-extra1.png</extra1>
+    <bezel>./media/image/Kid Chameleon [38].md-bezel.png</bezel>
+  </game>
+  <game id="12">
+    <path>./Mortal Kombat [12].gen.7z</path>
+    <name>MORTAL KOMBAT [12].GEN</name>
+    <desc>SIMPLESMENTE MORTAL! OS SETE MELHORES LUTADORES ESTÃO REUNIDOS PARA DERROTAR O GRANDE CAMPEÃO GORO E O TERRÍVEL DEMÔNIO SHANG TSUNG. ESTILOS DE LUTA DIFERENTES E GOLPES ESPECIAIS DE ARREPIAR! UM GRANDE SUCESSO DOS ARCADES, AGORA NO MEGA DRIVE, COM 16 MEGA DE GRÁFICOS DIGITALIZADOS E MUITA VELOCIDADE NOS MOVIMENTOS. LEMBRE-SE: A MENTE É MUITO MAIS PODEROSA DO QUE O CORPO. EM COMBATE ENTRE DOIS LUTADORES IGUAIS, O QUE DECIDE É A SABEDORIA. ESCOLHA A MELHOR ESTRATÉGIA, CONCENTRE-SE E BOA SORTE! O QUE ESTÁ EM JOGO NÃO É A VITÓRIA. É A SUA VIDA! DETONE OS INIMIGOS COM O CHUTE SOMBRA DE JOHNNY CAGE! A BOLA DE FOGO DE LIU KANG VAI APAGAR OS ADVERSÁRIOS! ENCARE OS MELHORES GUERREIROS DO TORNEIO! GORO AINDA RESISTE! DESTRUA-O! VENHA AQUI! VOCÊ ESTÁ SOB O CONTROLA DE SCORPION! MUITO ENERGIA E CONCENTRAÇÃO. QUEM É O MELHOR?</desc>
+    <rating>0.60</rating>
+    <releasedate>19930913T000000</releasedate>
+    <developer>PROBE SOFTWARE</developer>
+    <publisher>ACCLAIM ENTERTAINMENT</publisher>
+    <genre>LUTA</genre>
+    <genreid>262</genreid>
+    <players>1-2</players>
+    <md5>02c92861ee5c6b4004e2bac07b220a4b</md5>
+    <hash>A8F728C2</hash>
+    <region>wor</region>
+    <image>./media/image/Mortal Kombat [12].gen-image.png</image>
+    <video>./media/videos/Mortal Kombat [12].gen-video.mp4</video>
+    <marquee>./media/image/Mortal Kombat [12].gen-marquee.png</marquee>
+    <wheel>./media/image/Mortal Kombat [12].gen-wheel.png</wheel>
+    <boxart>./media/image/Mortal Kombat [12].gen-boxart.png</boxart>
+    <screenshot>./media/screenshots/Mortal Kombat [12].gen-screenshot.png</screenshot>
+    <fanart>./media/fanart/Mortal Kombat [12].gen-fanart.jpg</fanart>
+    <titleshot>./media/image/Mortal Kombat [12].gen-titleshot.png</titleshot>
+    <manual>./media/manuals/Mortal Kombat [12].gen_(eu).pdf</manual>
+    <boxback>./media/image/Mortal Kombat [12].gen-boxback.png</boxback>
+    <extra1>./media/extras/Mortal Kombat [12].gen-extra1.png</extra1>
+    <bezel>./media/image/Mortal Kombat [12].gen-bezel.png</bezel>
+  </game>
+  <game id="69">
+    <path>./Probotector [69].bin.7z</path>
+    <name>PROBOTECTOR [69].BIN</name>
+    <desc>UMA FACÇÃO MILITAR CRIMINOSA ROUBOU UMA CÉLULA ALIENÍGENA REMANESCENTE DA ALIEN WAR OCORRIDA NO ÚLTIMO GAME DA FRANQUIA, CONTRA III, E PLANEJA COM ELA RESSUSCITAR E CLONAR UM ALIEN CHAMADO RED FALCON, O MAIS PERIGOSO SER QUE JÁ EXISTIU. ASSIM, O JOGADOR É APRESENTADO ENTÃO AOS HARD CORPS, UMA ORGANIZAÇÃO MILITAR DE DEFESA TERRESTRE QUE CONTA COM QUATRO SOLDADOS ALTAMENTE TREINADOS EM TÉCNICAS E OPERAÇÕES ESPECIAIS DE CONTENÇÃO ALIENÍGENA E, NA PELE DE UM DELES, DEVERÁ PASSAR POR DIVERSAS E DIFICÍLIMAS ETAPAS DE MODO A IMPEDIR QUE OS CRIMINOSOS CONSIGAM REALIZAR SEUS PLANOS, ALGO QUE PODE COLOCAR O PLANETA INTEIRO EM PERIGO.</desc>
+    <rating>0.80</rating>
+    <releasedate>19941101T000000</releasedate>
+    <developer>KONAMI</developer>
+    <publisher>KONAMI</publisher>
+    <genre>TIRO / RUN AND GUN, TIRO</genre>
+    <genreid>256</genreid>
+    <players>1-2</players>
+    <md5>9d723e9c13a0912ad39cb8dfae613934</md5>
+    <hash>62BC5116</hash>
+    <region>us,kr</region>
+    <lang>pt</lang>
+    <image>./media/image/Probotector [69].bin-image.png</image>
+    <video>./media/videos/Probotector [69].bin-video.mp4</video>
+    <marquee>./media/image/Probotector [69].bin-marquee.png</marquee>
+    <wheel>./media/image/Probotector [69].bin-wheel.png</wheel>
+    <boxart>./media/image/Probotector [69].bin-boxart.png</boxart>
+    <screenshot>./media/screenshots/Probotector [69].bin-screenshot.png</screenshot>
+    <cartridge>./media/image/Probotector [69].bin-cartridge.png</cartridge>
+    <fanart>./media/fanart/Probotector [69].bin-fanart.jpg</fanart>
+    <titleshot>./media/image/Probotector [69].bin-titleshot.png</titleshot>
+    <manual>./media/manuals/Probotector [69].bin_(us).pdf</manual>
+    <boxback>./media/image/Probotector [69].bin-boxback.png</boxback>
+    <extra1>./media/extras/Probotector [69].bin-extra1.png</extra1>
+    <bezel>./media/image/Probotector [69].bin-bezel.png</bezel>
+  </game>
+  <game id="119">
+    <path>./Road Rash [119].gen.7z</path>
+    <name>ROAD RASH [119].GEN</name>
+    <desc>SEM LIMITE DE VELOCIDADE! PILOTE UMA INCRÍVEL MOTO DE CORRIDA PELAS ESTRADAS DA CALIFÓRNIA. ESQUIVE-SE DE VACAS, POÇAS DE ÓLEO E CARROS QUE VÊM EM SUA DIREÇÃO!
+SEM REGRAS! DISFAÇA-SE DE 15 OUTROS MOTOCICLISTAS QUE ESTÃO EM SEU CAMINHO. NÃO! VOCÊ NÃO ENTENDEU! NÃO É ULTRAPASSE-OS... É CHUTE-OS, DERRUBE-OS! AQUI VALE TUDO!! SERÃO 5 CORRIDAS EM CADA NÍVEL E AO FINAL DE CADA UMA DELAS VOCÊ GANHARÁ UMA CERTA QUANTIA DE DINHEIRO. PARA QUÊ? PARA COMPRAR MOTOCICLETAS AINDA MAIS VELOZES! VAMOS LÁ! ENTRE PARA A MAIS ILEGAL, PERIGOSA E EMOCIONANTE CORRIDA DE SUA VIDA!</desc>
+    <rating>0.60</rating>
+    <releasedate>19910901T000000</releasedate>
+    <developer>ELECTRONIC ARTS</developer>
+    <publisher>ELECTRONIC ARTS</publisher>
+    <genre>CORRIDA, PILOTAGEM / MOTO, CORRIDA, PILOTAGEM</genre>
+    <genreid>1537</genreid>
+    <players>1-2</players>
+    <md5>b4ee3b1e5792479bf6544e72c5c854db</md5>
+    <hash>9025781B</hash>
+    <region>eu,us</region>
+    <image>./media/image/Road Rash [119].gen-image.png</image>
+    <video>./media/videos/Road Rash [119].gen-video.mp4</video>
+    <boxart>./media/image/Road Rash [119].gen-boxart.png</boxart>
+    <screenshot>./media/screenshots/Road Rash [119].gen-screenshot.png</screenshot>
+    <cartridge>./media/image/Road Rash [119].gen-cartridge.png</cartridge>
+    <fanart>./media/fanart/Road Rash [119].gen-fanart.jpg</fanart>
+    <titleshot>./media/image/Road Rash [119].gen-titleshot.png</titleshot>
+    <manual>./media/manuals/Road Rash [119].gen_(eu).pdf</manual>
+    <boxback>./media/image/Road Rash [119].gen-boxback.png</boxback>
+    <extra1>./media/extras/Road Rash [119].gen-extra1.png</extra1>
+    <bezel>./media/image/Road Rash [119].gen-bezel.png</bezel>
+  </game>
+  <game id="102">
+    <path>./Road Rash II [102].md.7z</path>
+    <name>ROAD RASH II [102].MD</name>
+    <desc>UM JOGO DE CORRIDA DE MOTOS COM ATITUDE. VOCÊ CORRE EM AMBIENTES VARIADOS PARA GANHAR CADA VEZ MAIS DINHEIRO. COM ESSE DINHEIRO VOCÊ PODE COMPRAR MOTOS MAIS RÁPIDAS E MELHORES. HÁ MUITOS OBJETOS NO CAMINHO PARA OBSERVAR, DE CARROS A PEDRAS E PLACAS, SE VOCÊ ACERTAR UM, VOCÊ VAI VOAR E PERDER UM TEMPO VALIOSO. SE VOCÊ BATER COM MUITA FREQÜÊNCIA, SUA MOTO PODE FICAR DESTRUÍDA. VOCÊ TAMBÉM PODE ATACAR OUTROS PILOTOS. O ATAQUE PADRÃO É UM SOCO, MAS ALGUNS PILOTOS TÊM ARMAS, QUE VOCÊ PODE ROUBAR E USAR CONTRA ELES. A POLÍCIA PATRULHA VÁRIAS CORRIDAS, ENTÃO SE VOCÊ NÃO TOMAR CUIDADO, PODE SER PRESO. ROAD RASH II NÃO É APENAS UM JOGO DE CORRIDA, MAS TAMBÉM UM JOGO DE LUTA.</desc>
+    <rating>0.60</rating>
+    <releasedate>19930101T000000</releasedate>
+    <developer>ELECTRONIC ARTS</developer>
+    <publisher>ELECTRONIC ARTS</publisher>
+    <genre>CORRIDA, PILOTAGEM</genre>
+    <genreid>1537</genreid>
+    <players>1-2</players>
+    <md5>1eecdcf92231baf5348138a792e39194</md5>
+    <hash>759C445F</hash>
+    <region>eu,us</region>
+    <image>./media/image/Road Rash II [102].md-image.png</image>
+    <video>./media/videos/Road Rash II [102].md-video.mp4</video>
+    <boxart>./media/image/Road Rash II [102].md-boxart.png</boxart>
+    <screenshot>./media/screenshots/Road Rash II [102].md-screenshot.png</screenshot>
+    <cartridge>./media/image/Road Rash II [102].md-cartridge.png</cartridge>
+    <fanart>./media/fanart/Road Rash II [102].md-fanart.jpg</fanart>
+    <titleshot>./media/image/Road Rash II [102].md-titleshot.png</titleshot>
+    <manual>./media/manuals/Road Rash II [102].md_(us).pdf</manual>
+    <boxback>./media/image/Road Rash II [102].md-boxback.png</boxback>
+    <extra1>./media/extras/Road Rash II [102].md-extra1.png</extra1>
+    <bezel>./media/image/Road Rash II [102].md-bezel.png</bezel>
+  </game>
+  <game id="1185">
+    <path>./Sonic &amp; Knuckles + Sonic The Hedgehog 3 [1185].smd.7z</path>
+    <name>SONIC &amp; KNUCKLES + SONIC THE HEDGEHOG 3 [1185].SMD</name>
+    <desc>O OVO DA MORTE DO DR. EGGMAN (CONHECIDO COMO DR. ROBOTNIK) FOI MAIS UMA VEZ DESTRUÍDO POR SONIC, CAINDO NO CUME DE UM VULCÃO NA FLOATING ISLAND (ILHA FLUTUANTE).
+DR. EGGMAN AINDA ESTÁ LIVRE, E SONIC NÃO PODE DEIXÁ-LO COLOCAR AS MÃOS NA MASTER EMERALD A FIM DE CONSERTAR O DEATH EGG. SONIC TAMBÉM DEVE FICAR LONGE DE KNUCKLES, QUE TAMBÉM ESTÁ COM PROBLEMAS. SENDO O GUARDIÃO DA ILHA FLUTUANTE E DE TODAS AS ESMERALDAS, KNUCKLES TEM A RESPONSABILIDADE DE MANTER A ILHA SEGURA. ENQUANTO SONIC E KNUCKLES ESTÃO OCUPADOS EM CONFRONTOS, QUEM VAI PARAR O DR. EGGMAN?</desc>
+    <rating>0.80</rating>
+    <releasedate>19941018T000000</releasedate>
+    <developer>SONIC TEAM</developer>
+    <publisher>SEGA</publisher>
+    <genre>PLATAFORMA, PLATAFORMA / CORRE E PULA COM ROLAGEM</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <md5>c5b1c655c19f462ade0ac4e17a844d10</md5>
+    <hash>63522553</hash>
+    <region>wor</region>
+    <lang>en</lang>
+    <video>./media/videos/Sonic &amp; Knuckles + Sonic The Hedgehog 3 [1185].smd-video.mp4</video>
+    <marquee>./media/image/Sonic &amp; Knuckles + Sonic The Hedgehog 3 [1185].smd-marquee.png</marquee>
+    <wheel>./media/image/Sonic &amp; Knuckles + Sonic The Hedgehog 3 [1185].smd-wheel.png</wheel>
+    <screenshot>./media/screenshots/Sonic &amp; Knuckles + Sonic The Hedgehog 3 [1185].smd-screenshot.png</screenshot>
+    <cartridge>./media/image/Sonic &amp; Knuckles + Sonic The Hedgehog 3 [1185].smd-cartridge.png</cartridge>
+    <fanart>./media/fanart/Sonic &amp; Knuckles + Sonic The Hedgehog 3 [1185].smd-fanart.jpg</fanart>
+    <titleshot>./media/image/Sonic &amp; Knuckles + Sonic The Hedgehog 3 [1185].smd-titleshot.png</titleshot>
+    <extra1>./media/extras/Sonic &amp; Knuckles + Sonic The Hedgehog 3 [1185].smd-extra1.png</extra1>
+    <bezel>./media/image/Sonic &amp; Knuckles + Sonic The Hedgehog 3 [1185].smd-bezel.png</bezel>
+  </game>
+  <game id="1187">
+    <path>./Sonic 3 [1187].smd.7z</path>
+    <name>SONIC 3 [1187].SMD</name>
+    <desc>O DEATH EGG DO DR. ROBOTNIK ATERRISSOU NA ANGEL ISLAND, TAMBÉM CONHECIDA COMO ILHA FLUTUANTE PORQUE APROVEITA O PODER DA MASTER EMERALD PARA FLUTUAR NO AR. ROBOTNIK PRECISA DELA PARA REPARAR O DEATH EGG, ENTÃO ELE DIZ AO GUARDIÃO DA ILHA, KNUCKLES THE ECHIDNA QUE SONIC E TAILS ESTÃO LÁ PARA ROUBÁ-LA. COM KNUCKLES ENGANADO E TENTANDO PARAR OS HERÓIS, ELES SERÃO CAPAZES DE IMPEDIR ROBOTNIK A TEMPO?</desc>
+    <rating>0.80</rating>
+    <releasedate>19940224T000000</releasedate>
+    <developer>SONIC TEAM</developer>
+    <publisher>SEGA</publisher>
+    <genre>PLATAFORMA</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <md5>d724ea4dd417fe330c9dcfd955c596b2</md5>
+    <hash>9BC192CE</hash>
+    <region>us</region>
+    <lang>en</lang>
+    <image>./media/image/Sonic 3 [1187].smd-image.png</image>
+    <video>./media/videos/Sonic 3 [1187].smd-video.mp4</video>
+    <marquee>./media/image/Sonic 3 [1187].smd-marquee.png</marquee>
+    <wheel>./media/image/Sonic 3 [1187].smd-wheel.png</wheel>
+    <boxart>./media/image/Sonic 3 [1187].smd-boxart.png</boxart>
+    <screenshot>./media/screenshots/Sonic 3 [1187].smd-screenshot.png</screenshot>
+    <cartridge>./media/image/Sonic 3 [1187].smd-cartridge.png</cartridge>
+    <fanart>./media/fanart/Sonic 3 [1187].smd-fanart.jpg</fanart>
+    <titleshot>./media/image/Sonic 3 [1187].smd-titleshot.png</titleshot>
+    <manual>./media/manuals/Sonic 3 [1187].smd_(br).pdf</manual>
+    <boxback>./media/image/Sonic 3 [1187].smd-boxback.png</boxback>
+    <extra1>./media/extras/Sonic 3 [1187].smd-extra1.png</extra1>
+    <bezel>./media/image/Sonic 3 [1187].smd-bezel.png</bezel>
+  </game>
+  <game id="3">
+    <path>./Sonic The Hedgehog 2 [3].smd.7z</path>
+    <name>SONIC THE HEDGEHOG 2 [3].SMD</name>
+    <mode>Jogador individual com 2 controles</mode>
+    <desc>SONIC THE HEDGEHOG 2 É UM JOGO DE PLATAFORMA SIDE-SCROLLING BASEADO EM VELOCIDADE E A SEQUELA DE SONIC THE HEDGEHOG. COMO O ORIGINAL, OS JOGADORES CORREM ATRAVÉS DE DIFERENTES MUNDOS CHAMADOS DE "ZONAS" ONDE CADA UMA TEM SEU PRÓPRIO TEMA ESPECÍFICO. HÁ DOIS ATOS EM QUASE TODAS AS 10 ZONAS, E NO FINAL DO ÚLTIMO ATO DE CADA ZONA É UMA MÁQUINA QUE ROBOTNIK CONTROLA QUE VOCÊ DEVE DERROTAR PARA PROGREDIR. O MALVADO DR. ROBOTNIK QUER CONQUISTAR O MUNDO. PARA FAZER ISSO, ELE APRISIONA E TRANSFORMA TODOS OS ANIMAIS EM ROBÔS CHAMADOS "BADNIKS". DESTA FORMA ELES PODEM CONSTRUIR SUA PODEROSA ARMA, O DEATH EGG. APENAS SONIC THE HEDGEHOG, E SEU NOVO PARCEIRO, MILES 'TAILS' PROWER, PODEM IMPEDIR ROBOTNIK E SEU EXÉRCITO DE BADNIKS DE CONQUISTAR O MUNDO.
+SONIC E TAILS PODEM COLETAR ANÉIS QUE ESTÃO ESPALHADOS POR TODAS AS FASES. TAL COMO ACONTECE COM A MAIORIA DOS JOGOS DE PLATAFORMAS, QUANDO O JOGADOR COLETA 100 ANÉIS, ELES GANHAM UMA VIDA EXTRA. NO ENTANTO, OS ANÉIS TAMBÉM ATUAM COMO PROTEÇÃO; SE SONIC É ATINGIDO QUANDO ELE ESTÁ CARREGANDO ANÉIS, ELES SE ESPALHAM POR TODA PARTE E ELE É BREVEMENTE INVENCÍVEL. SE ELE FOR ATINGIDO NOVAMENTE QUANDO NÃO TIVER ANÉIS, ELE PERDERÁ UMA VIDA. SE O JOGADOR ATINGIR UM POSTE DE CHECKPOINT COM 50 OU MAIS ANÉIS, ELES PODERÃO ACESSAR O SPECIAL STAGE. NESTA FASE, VOCÊ DEVE REUNIR UMA QUANTIDADE DEFINIDA DE ANÉIS EM UMA FASE ESTILO PISTA DE SKATE ANTES DE CHEGAR A UM CHECKPOINT. COMPLETE TODOS OS CHECKPOINTS E VOCÊ GANHARÁ UMA DAS SETE CHAOS EMERALDS.
+NOVIDADE PARA SONIC THE HEDGEHOG 2 É A CAPACIDADE DE JOGAR O JOGO CO-OP COM UM AMIGO - A QUALQUER MOMENTO, UM JOGADOR PODE LIGAR UM SEGUNDO CONTROLE E ASSUMIR O CONTROLE DO TAILS. TAILS TEM VIDAS INFINITAS E A CÂMERA PERMANECE FOCADA EM SONIC, O QUE SIGNIFICA QUE TAILS NÃO IMPEDIRÁ O JOGO. SONIC (E TAILS) AGORA TAMBÉM PODEM OBTER VELOCIDADE PRESSIONANDO BAIXO E REPETIDAMENTE O BOTÃO DE SALTO PARA UM "SPIN DASH". ISSO É ÚTIL QUANDO ESTIVER PRESO PERTO DE ENCOSTAS ÍNGREMES OU OUTRAS ÁREAS ONDE VOCÊ PRECISA DE ALGUM IMPULSO. O JOGO TAMBÉM POSSUI UM MODO VERSUS DE 2 JOGADORES. ESTE MODO É UMA CORRIDA DE TELA DIVIDIDA HORIZONTALMENTE ATRAVÉS DE FASES BASEADAS EM TRÊS DAS ZONAS DO JOGO PRINCIPAL.</desc>
+    <rating>0.80</rating>
+    <releasedate>19921124T000000</releasedate>
+    <developer>SEGA</developer>
+    <publisher>SEGA</publisher>
+    <genre>PLATAFORMA</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <md5>9feeb724052c39982d432a7851c98d3e</md5>
+    <hash>7B905383</hash>
+    <region>wor</region>
+    <lang>en</lang>
+    <image>./media/image/Sonic The Hedgehog 2 [3].smd-image.png</image>
+    <video>./media/videos/Sonic The Hedgehog 2 [3].smd-video.mp4</video>
+    <marquee>./media/image/Sonic The Hedgehog 2 [3].smd-marquee.png</marquee>
+    <wheel>./media/image/Sonic The Hedgehog 2 [3].smd-wheel.png</wheel>
+    <boxart>./media/image/Sonic The Hedgehog 2 [3].smd-boxart.png</boxart>
+    <screenshot>./media/screenshots/Sonic The Hedgehog 2 [3].smd-screenshot.png</screenshot>
+    <cartridge>./media/image/Sonic The Hedgehog 2 [3].smd-cartridge.png</cartridge>
+    <fanart>./media/fanart/Sonic The Hedgehog 2 [3].smd-fanart.jpg</fanart>
+    <titleshot>./media/image/Sonic The Hedgehog 2 [3].smd-titleshot.png</titleshot>
+    <manual>./media/manuals/Sonic The Hedgehog 2 [3].smd_(br).pdf</manual>
+    <boxback>./media/image/Sonic The Hedgehog 2 [3].smd-boxback.png</boxback>
+    <extra1>./media/extras/Sonic The Hedgehog 2 [3].smd-extra1.png</extra1>
+    <bezel>./media/image/Sonic The Hedgehog 2 [3].smd-bezel.png</bezel>
+  </game>
+  <game id="7">
+    <path>./Streets Of Rage [7].gen.7z</path>
+    <name>STREETS OF RAGE [7].GEN</name>
+    <desc>ESTA CIDADE JÁ FOI UM LUGAR FELIZ E TRANQUILO... ATÉ QUE UM DIA, UMA PODEROSA ORGANIZAÇÃO CRIMINOSA TOMOU CONTA DA CIDADE. UM SINDICATO CRUEL LOGO TEVE O CONTROLE DO GOVERNO E ATÉ MESMO DA POLICIA. A CIDADE TORNOU-SE UM CENTRO DE VIOLÊNCIA E DE CRIMINALIDADE, ONDE NINGUÉM ESTÁ SEGURO.
+EM MEIO A ESSA TURBULÊNCIA, UM GRUPO DE JOVENS DETERMINADOS JUROU LIMPAR A CIDADE. ENTRE ELES ESTÃO ADAM HUNTER, AXEL STONE E BLAZE FIELDING. ELES ESTÃO DISPOSTOS A ARRISCAR QUALQUER COISA ... ATÉ AS SUAS VIDAS ... NO ... STREETS OF RAGE.</desc>
+    <rating>0.80</rating>
+    <releasedate>19911001T000000</releasedate>
+    <developer>SEGA</developer>
+    <publisher>SEGA</publisher>
+    <genre>BRIGA DE RUA</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <md5>1825eb68fdbd33fbfd2926a45eeb4620</md5>
+    <hash>88E4EF3C</hash>
+    <image>./media/image/Streets Of Rage [7].gen-image.png</image>
+    <video>./media/videos/Streets Of Rage [7].gen-video.mp4</video>
+    <boxart>./media/image/Streets Of Rage [7].gen-boxart.png</boxart>
+    <screenshot>./media/screenshots/Streets Of Rage [7].gen-screenshot.png</screenshot>
+    <cartridge>./media/image/Streets Of Rage [7].gen-cartridge.png</cartridge>
+    <fanart>./media/fanart/Streets Of Rage [7].gen-fanart.jpg</fanart>
+    <map>./media/maps/Streets Of Rage [7].gen-map.jpg</map>
+    <titleshot>./media/image/Streets Of Rage [7].gen-titleshot.png</titleshot>
+    <manual>./media/manuals/Streets Of Rage [7].gen_(br).pdf</manual>
+    <boxback>./media/image/Streets Of Rage [7].gen-boxback.png</boxback>
+    <extra1>./media/extras/Streets Of Rage [7].gen-extra1.png</extra1>
+    <bezel>./media/image/Streets Of Rage [7].gen-bezel.png</bezel>
+  </game>
+  <game id="143230">
+    <path>./Streets Of Rage 3 [143230].gen.7z</path>
+    <name>STREETS OF RAGE 3 [143230].GEN</name>
+    <mode>Multijogador em tela dividida</mode>
+    <desc>O SINDICATO DO CRIME CONTRA-ATACA! MR-X, O MAIS TERRÍVEL DOS VILÕES ESTÁ DE VOLTA COM UM PLANO DIABÓLICO: TROCAR TODOS OS LÍDERES DA CIDADE POR ROBÔS. E DOMINÁ-LOS COM UM SIMPLES CONTROLE REMOTO! ASSIM, ELE TERÁ TODA A CIDADE EM SUAS MÃOS, E PODERÁ SE VINGAR DOS RESPONSÁVEIS PELO SEU ÚLTIMO FRACASSO... MAS AS COISAS NÃO SERÃO ASSIM TÃO FÁCEIS PARA O SINDICATO. BLAZE, AXEL, SKATE E UM NOVO MEMBRO DA EQUIPE, DR. ZAN, ESTÃO MAIS DO QUE DISPOSTOS A COLOCAR AS COISAS EM ORDEM. PARA ISSO, SÓ PRECISAM DE ALGUM LÍDER COM CORAGEM. VAI ENCARAR?
+NOVOS MOVIMENTOS, E GOLPES SECRETOS! ATAQUES EM CONJUNTO E COM DOIS JOGADORES E BATALHAS HEAD-TO-HEAD! QUATRO FINAIS DIFERENTES. QUEM JOGAR MELHOR VERÁ! EFEITOS SONOROS E MÚSICAS INCRÍVEIS! MUITAS FASES E CENÁRIOS INÉDITOS!</desc>
+    <rating>0.80</rating>
+    <releasedate>19940601T000000</releasedate>
+    <developer>SEGA</developer>
+    <publisher>SEGA</publisher>
+    <genre>BRIGA DE RUA</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <md5>efe8917538741a6302eda35f365d2785</md5>
+    <hash>A553FF4F</hash>
+    <region>us</region>
+    <lang>pt</lang>
+    <image>./media/image/Streets Of Rage 3 [143230].gen-image.png</image>
+    <video>./media/videos/Streets Of Rage 3 [143230].gen-video.mp4</video>
+    <marquee>./media/image/Streets Of Rage 3 [143230].gen-marquee.png</marquee>
+    <wheel>./media/image/Streets Of Rage 3 [143230].gen-wheel.png</wheel>
+    <boxart>./media/image/Streets Of Rage 3 [143230].gen-boxart.png</boxart>
+    <screenshot>./media/screenshots/Streets Of Rage 3 [143230].gen-screenshot.png</screenshot>
+    <cartridge>./media/image/Streets Of Rage 3 [143230].gen-cartridge.png</cartridge>
+    <fanart>./media/fanart/Streets Of Rage 3 [143230].gen-fanart.jpg</fanart>
+    <titleshot>./media/image/Streets Of Rage 3 [143230].gen-titleshot.png</titleshot>
+    <manual>./media/manuals/Streets Of Rage 3 [143230].gen_(br).pdf</manual>
+    <boxback>./media/image/Streets Of Rage 3 [143230].gen-boxback.png</boxback>
+    <extra1>./media/extras/Streets Of Rage 3 [143230].gen-extra1.png</extra1>
+    <bezel>./media/image/Streets Of Rage 3 [143230].gen-bezel.png</bezel>
+  </game>
+  <game id="20">
+    <path>./Streets Of Rage II [20].bin.7z</path>
+    <name>STREETS OF RAGE II [20].BIN</name>
+    <desc>STREETS OF RAGE 2 É A CONTINUAÇÃO DE STREETS OF RAGE, SENDO QUE SEU ENREDO BASICAMENTE CONTA QUE NO PASSADO OS JOVENS EX-POLICIAIS AXEL STONE, ADAM HUNTER E BLAZE FIELDING COMEMORAVAM A VITÓRIA CONTRA O SINDICATO CRIMINOSO, APÓS UM ANO DE SUA QUEDA. AXEL VIROU GUARDA COSTAS E BLAZE AGORA TRABALHA COMO PROFESSORA DE DANÇA, PORÉM ADAM RESOLVE SE JUNTAR NOVAMENTE A POLÍCIA E PASSA A MORAR NUMA PEQUENA CASA JUNTO COM SEU IRMÃO MAIS NOVO.
+UM DIA AXEL RECEBE UM TELEFONEMA DESESPERADO DE EDDIE "SKATE" HUNTER (TAMBÉM CONHECIDO COMO EDDIE "SAMMY" HUNTER) DIZENDO QUE AO CHEGAR NA PEQUENA CASA, ELA ESTAVA TODA REVIRADA E DESTRUÍDA. O DESAPARECIMENTO DE ADAM MARCA O COMEÇO DO PESADELO, EM POUCOS DIAS O SINDICATO ESTAVA DE VOLTA ÀS RUAS, AGORA TOTALMENTE RENOVADOS E COM MUITOS NOVOS LUTADORES CRIMINOSOS, DESDE NINJAS ARMADOS ATÉ MESMO MOTOCICLISTAS QUE ARREMESSAM BOMBAS.
+AXEL CONTATA MAX, SEU VELHO AMIGO; BLAZE E SAMMY (SKATE), E DECIDEM SE UNIR PARA DESTRUIR NOVAMENTE A ORGANIZAÇÃO CRIMINAL DO SINDICATO, RESGATAR ADAM E RESTABELECER A ORDEM E A PAZ.</desc>
+    <rating>0.80</rating>
+    <releasedate>19930104T000000</releasedate>
+    <developer>SEGA</developer>
+    <publisher>SEGA</publisher>
+    <genre>BRIGA DE RUA</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <md5>43840dd595537f96197e6b1c624462f3</md5>
+    <hash>1818B03F</hash>
+    <region>jp,eu</region>
+    <lang>en</lang>
+    <image>./media/image/Streets Of Rage II [20].bin-image.png</image>
+    <video>./media/videos/Streets Of Rage II [20].bin-video.mp4</video>
+    <marquee>./media/image/Streets Of Rage II [20].bin-marquee.png</marquee>
+    <wheel>./media/image/Streets Of Rage II [20].bin-wheel.png</wheel>
+    <boxart>./media/image/Streets Of Rage II [20].bin-boxart.png</boxart>
+    <screenshot>./media/screenshots/Streets Of Rage II [20].bin-screenshot.png</screenshot>
+    <cartridge>./media/image/Streets Of Rage II [20].bin-cartridge.png</cartridge>
+    <fanart>./media/fanart/Streets Of Rage II [20].bin-fanart.jpg</fanart>
+    <map>./media/maps/Streets Of Rage II [20].bin-map.jpg</map>
+    <titleshot>./media/image/Streets Of Rage II [20].bin-titleshot.png</titleshot>
+    <manual>./media/manuals/Streets Of Rage II [20].bin_(br).pdf</manual>
+    <boxback>./media/image/Streets Of Rage II [20].bin-boxback.png</boxback>
+    <extra1>./media/extras/Streets Of Rage II [20].bin-extra1.png</extra1>
+    <bezel>./media/image/Streets Of Rage II [20].bin-bezel.png</bezel>
+  </game>
+  <game id="80">
+    <path>./Super Street Fighter II [80].bin.7z</path>
+    <name>SUPER STREET FIGHTER II [80].BIN</name>
+    <desc>DURANTE ANOS OS DOZE MAIORES LUTADORES DO MUNDO SE ENFRENTARAM. E TORNARAM-SE OS GRANDES MESTRES. MAS CHEGOU A HORA DO NOVO DESAFIO. QUATRO LUTADORES SURGIRAM COM MUITAS PROMESSAS, HABILIDADES E UMA CERTEZA: PODEM DESTRUIR BISON! MAS SERÁ QUE ELES SÃO CAPAZES DE ENFRENTAR OS FAMOSOS STREET FIGHTERS E SEUS NOVOS GOLPES?
+4 PERSONAGENS INÉDITOS: CAMMY, DEE JAY, T. HAWK E FEI LONG. GOLPES AINDA MELHORES PARA OS FANTÁSTICOS STREET FIGHTERS ORIGINAIS. MAIS OPÇÕES DE MODOS DE BATALHA: GROUP BATTLE, TOURNAMENT BATTLE E O DESAFIO CONTRA O RELÓGIO NO TIME CHALLENGE. CENÁRIOS COM GRÁFICOS INCRÍVEIS!</desc>
+    <rating>0.80</rating>
+    <releasedate>19940101T000000</releasedate>
+    <developer>CAPCOM</developer>
+    <publisher>CAPCOM</publisher>
+    <genre>LUTA</genre>
+    <genreid>262</genreid>
+    <players>1-2</players>
+    <md5>7ef204b138e02e8663ed2a5b8bff449d</md5>
+    <hash>0198B9F8</hash>
+    <region>eu,us</region>
+    <image>./media/image/Super Street Fighter II [80].bin-image.png</image>
+    <video>./media/videos/Super Street Fighter II [80].bin-video.mp4</video>
+    <marquee>./media/image/Super Street Fighter II [80].bin-marquee.png</marquee>
+    <wheel>./media/image/Super Street Fighter II [80].bin-wheel.png</wheel>
+    <boxart>./media/image/Super Street Fighter II [80].bin-boxart.png</boxart>
+    <screenshot>./media/screenshots/Super Street Fighter II [80].bin-screenshot.png</screenshot>
+    <cartridge>./media/image/Super Street Fighter II [80].bin-cartridge.png</cartridge>
+    <fanart>./media/fanart/Super Street Fighter II [80].bin-fanart.jpg</fanart>
+    <titleshot>./media/image/Super Street Fighter II [80].bin-titleshot.png</titleshot>
+    <manual>./media/manuals/Super Street Fighter II [80].bin_(br).pdf</manual>
+    <boxback>./media/image/Super Street Fighter II [80].bin-boxback.png</boxback>
+    <extra1>./media/extras/Super Street Fighter II [80].bin-extra1.png</extra1>
+    <bezel>./media/image/Super Street Fighter II [80].bin-bezel.png</bezel>
+  </game>
+  <game id="52">
+    <path>./The Adventures Of Batman &amp; Robin [52].bin.7z</path>
+    <name>THE ADVENTURES OF BATMAN &amp; ROBIN [52].BIN</name>
+    <desc>NESSA AVENTURA, BASEADA NA PREMIADA SÉRIE DE TV, O HOMEM MORCEGO SE METEU NUMA FRIA. SEU ARQUE-INIMIGO, O SR. FRIO, PRETENDE TRANSFORMAR GOTHAM EM UMA GRANDE GELEIRA. E PARA PIORAR AS COISAS, ELE SE JUNTOU AO CORINGA, AO DUAS-CARAS E A OUTROS MALFEITORES PARA ELIMINAR NOSSOS HEROIS DE UMA VEZ POR TODAS.</desc>
+    <rating>0.60</rating>
+    <releasedate>19950101T000000</releasedate>
+    <developer>CLOCKWORKS ENTERTAINMENT</developer>
+    <publisher>SEGA</publisher>
+    <genre>BRIGA DE RUA</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <md5>2987402f8a1c7b847eb2c5ada321d623</md5>
+    <hash>3323B6C5</hash>
+    <image>./media/image/The Adventures Of Batman &amp; Robin [52].bin-image.png</image>
+    <video>./media/videos/The Adventures Of Batman &amp; Robin [52].bin-video.mp4</video>
+    <boxart>./media/image/The Adventures Of Batman &amp; Robin [52].bin-boxart.png</boxart>
+    <screenshot>./media/screenshots/The Adventures Of Batman &amp; Robin [52].bin-screenshot.png</screenshot>
+    <cartridge>./media/image/The Adventures Of Batman &amp; Robin [52].bin-cartridge.png</cartridge>
+    <fanart>./media/fanart/The Adventures Of Batman &amp; Robin [52].bin-fanart.jpg</fanart>
+    <titleshot>./media/image/The Adventures Of Batman &amp; Robin [52].bin-titleshot.png</titleshot>
+    <manual>./media/manuals/The Adventures Of Batman &amp; Robin [52].bin_(br).pdf</manual>
+    <boxback>./media/image/The Adventures Of Batman &amp; Robin [52].bin-boxback.png</boxback>
+    <extra1>./media/extras/The Adventures Of Batman &amp; Robin [52].bin-extra1.png</extra1>
+    <bezel>./media/image/The Adventures Of Batman &amp; Robin [52].bin-bezel.png</bezel>
   </game>
   <game id="577">
-    <path>./Dinosaurs for Hire (USA).md.7z</path>
-    <name>Tom Mason's Dinosaurs for Hire</name>
-    <desc>The dinosaurs are back! And these terrible prehistoric monsters are ready to attack with their huge sharp fangs... Lie! This story of fangs, attacks and bites is a thing of the past!
-Modern Dinosaur is different: use the most fantastic weapons to defeat prehistoric beasts and ninjas created by a crazy dictator. These friendly dinos don't care about gigantic monsters or dangerous situations. They want gunpowder!
-This will be your new gang:
-Archie, the Tyrannosaurus Rex, is the leader of the dinosaurs and has only one idea in his head: to eliminate.
-Lorenzo is a surfing Triceratops, who will make a lot of noise with his 50 caliber gun.
-Last but not least destructive, Reese, the Stegosaurus, willing to blast enemies with his cannon.</desc>
+    <path>./Tom Mason's Dinosaurs For Hire [577].md.7z</path>
+    <name>TOM MASON'S DINOSAURS FOR HIRE [577].MD</name>
+    <desc>OS DINOSSAUROS ESTÃO DE VOLTA! E ESTES TERRÍVEIS MONSTROS PRÉ-HISTÓRICOS ESTÃO PRONTOS PARA ATACAR COM SUAS ENORMES PRESAS AFIADAS... MENTIRA! ESTA HISTÓRIA DE PRESAS, ATAQUES E MORDIDAS É COISA DO PASSADO!
+DINOSSAURO MODERNO É DIFERENTE: USA AS MAIS FANTÁSTICAS ARMAS PARA ACABAR COM AS FERAS PRÉ-HISTÓRICAS E NINJAS CRIADOS POR UM DITADOR MALUCO. ESTES SIMPÁTICOS DINOS NÃO ESTÃO NEM AÍ PARA MONSTROS GIGANTESCOS OU SITUAÇÕES DE PERIGO. ELES QUEREM PÓLVORA!
+ESTA SERÁ SUA NOVA GANGUE:
+ARCHIE, O TIRANOSSAURO REX, É O LÍDER DOS DINOSSAUROS E TEM UMA ÚNICA IDÉIA NA CABEÇA: ELIMINAR.
+LORENZO É UM TRICERÁTOPE SURFISTA, QUE VAI FAZER MUITO BARULHO COM SUA ARMA CALIBRE 50.
+POR ÚLTIMO, MAS NÃO MENOS DESTRUIDOR, REESE, O ESTEGOSSAURO, DISPOSTO A EXPLODIR OS INIMIGOS COM O SEU CANHÃO.</desc>
     <rating>0.80</rating>
     <releasedate>19930101T000000</releasedate>
     <developer>SEGA</developer>
     <publisher>SEGA</publisher>
-    <genre>Plataforma</genre>
+    <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1-2</players>
+    <md5>e4c6cbf1a2ea36404fb69667cd080b4f</md5>
+    <hash>39351146</hash>
     <region>us</region>
-    <image>./media/image/Dinosaurs for Hire (USA).md-image.png</image>
-    <video>./media/videos/Dinosaurs for Hire (USA).md-video.mp4</video>
-    <boxart>./media/image/Dinosaurs for Hire (USA).md-boxart.png</boxart>
-    <screenshot>./media/screenshots/Dinosaurs for Hire (USA).md-screenshot.png</screenshot>
-    <cartridge>./media/image/Dinosaurs for Hire (USA).md-cartridge.png</cartridge>
-    <fanart>./media/fanart/Dinosaurs for Hire (USA).md-fanart.jpg</fanart>
-    <titleshot>./media/image/Dinosaurs for Hire (USA).md-titleshot.png</titleshot>
-    <manual>./media/manuals/Dinosaurs for Hire (USA).md_(us).pdf</manual>
-    <boxback>./media/image/Dinosaurs for Hire (USA).md-boxback.png</boxback>
-    <extra1>./media/extras/Dinosaurs for Hire (USA).md-extra1.png</extra1>
-    <bezel>./media/bezels/Dinosaurs for Hire (USA).md-bezel.png</bezel>
-  </game>
-  <game id="325">
-    <path>./Vectorman 2 (BR).bin.7z</path>
-    <name>Vectorman 2</name>
-    <mode>Jogador individual</mode>
-    <desc>This is the sequel to Vectorman. Now the powerful little robot has been attacked while returning to earth in his spaceship. When you fall to the ground, you end up discovering obscure locations full of hostile creatures and ending up participating in a fast and furious platform action. Fight your enemies, collect photons, jump over obstacles, find weapons, transform into other creatures and climb walls commanding the green "orbot" Vectorman robot.</desc>
-    <rating>0.80</rating>
-    <releasedate>19961115T000000</releasedate>
-    <developer>Bluesky Software</developer>
-    <publisher>SEGA</publisher>
-    <genre>Plataforma / Tiro Com Rolagem, Plataforma</genre>
-    <genreid>257</genreid>
-    <players>1</players>
-    <region>us</region>
-    <image>./media/image/Vectorman 2 (BR).bin-image.png</image>
-    <video>./media/videos/Vectorman 2 (BR).bin-video.mp4</video>
-    <marquee>./media/image/Vectorman 2 (BR).bin-marquee.png</marquee>
-    <wheel>./media/wheel/Vectorman 2 (BR).bin-wheel.png</wheel>
-    <boxart>./media/image/Vectorman 2 (BR).bin-boxart.png</boxart>
-    <screenshot>./media/screenshots/Vectorman 2 (BR).bin-screenshot.png</screenshot>
-    <cartridge>./media/image/Vectorman 2 (BR).bin-cartridge.png</cartridge>
-    <fanart>./media/fanart/Vectorman 2 (BR).bin-fanart.jpg</fanart>
-    <titleshot>./media/image/Vectorman 2 (BR).bin-titleshot.png</titleshot>
-    <manual>./media/manuals/Vectorman 2 (BR).bin_(br).pdf</manual>
-    <boxback>./media/image/Vectorman 2 (BR).bin-boxback.png</boxback>
-    <extra1>./media/extras/Vectorman 2 (BR).bin-extra1.png</extra1>
-    <bezel>./media/bezels/Vectorman 2 (BR).bin-bezel.png</bezel>
+    <image>./media/image/Tom Mason's Dinosaurs For Hire [577].md-image.png</image>
+    <video>./media/videos/Tom Mason's Dinosaurs For Hire [577].md-video.mp4</video>
+    <boxart>./media/image/Tom Mason's Dinosaurs For Hire [577].md-boxart.png</boxart>
+    <screenshot>./media/screenshots/Tom Mason's Dinosaurs For Hire [577].md-screenshot.png</screenshot>
+    <cartridge>./media/image/Tom Mason's Dinosaurs For Hire [577].md-cartridge.png</cartridge>
+    <fanart>./media/fanart/Tom Mason's Dinosaurs For Hire [577].md-fanart.jpg</fanart>
+    <titleshot>./media/image/Tom Mason's Dinosaurs For Hire [577].md-titleshot.png</titleshot>
+    <manual>./media/manuals/Tom Mason's Dinosaurs For Hire [577].md_(us).pdf</manual>
+    <boxback>./media/image/Tom Mason's Dinosaurs For Hire [577].md-boxback.png</boxback>
+    <extra1>./media/extras/Tom Mason's Dinosaurs For Hire [577].md-extra1.png</extra1>
+    <bezel>./media/image/Tom Mason's Dinosaurs For Hire [577].md-bezel.png</bezel>
   </game>
   <game id="46">
-    <path>./World of Illusion Starring Mickey Mouse and Donald Duck (BR).md.7z</path>
-    <name>World of Illusion Starring Mickey Mouse and Donald</name>
-    <desc>CHAZAM!! Magically, the most famous characters in the Disney world, Mickey Mouse and Donald Duck, were transported to a mysterious world, where dreams are reality and the unexpected always happens! How do I find my way back? Only through magic... transforming enemies with a bewitched cloak, magic powder or a magic wand!! To explore the World of Illusion they can hitch a ride on a flying carpet or be submerged in the depths of the ocean through air bubbles!! And since friendship comes first here, only by working as a team will Mickey and Donald be able to return home. By the way, speaking of friends, do you know who is also here? Minnie, Margarida, Pluto, Clarabela, Huguinho, Zezinho and Luisinho... the only thing left is you to complete this special group!!</desc>
+    <path>./World Of Illusion Starring Mickey Mouse And Donald [46].md.7z</path>
+    <name>WORLD OF ILLUSION STARRING MICKEY MOUSE AND DONALD [46].MD</name>
+    <desc>CHAZAM!! MAGICAMENTE OS PERSONAGENS MAS FAMOSOS DO MUNDO DISNEY, MICKEY MOUSE E DONALD DUCK, FORAM TRANSPORTADOS PARA UM MISTERIOSO MUNDO, ONDE SONHOS SÃO REALIDADE E O INESPERADO SEMPRE ACONTECE! COMO FAZER PARA ACHAR O CAMINHO DE VOLTA? SOMENTE ATRAVÉS DA MAGIA... TRANSFORMANDO OS INIMIGOS COM UMA CAPA ENFEITIÇADA, COM PÓ MÁGICO OU COM UMA VARINHA DE CONDÃO!! PARA EXPLORAR O MUNDO DA ILUSÃO ELES PODERÃO PEGAR CARONA NUM TAPETE VOADOR OU FICAR SUBMERSOS NAS PROFUNDEZAS DO OCEANO ATRAVÉS DE BOLHAS DE AR!! E COMO AQUI A AMIZADE VEM EM PRIMEIRO LUGAR, SOMENTE TRABALHANDO EM EQUIPE MICKEY E DONALD CONSEGUIRÃO VOLTAR PARA CASA. ALIÁS, POR FALAR EM AMIGOS, SABEM QUEM TAMBÉM ESTÁ PRO AQUI? MINNIE, MARGARIDA, PLUTO, CLARABELA, HUGUINHO, ZEZINHO E LUISINHO.. SÓ FALTA VOCÊ PARA COMPLETAR ESTA TURMA TÃO ESPECIAL!!</desc>
     <rating>0.60</rating>
     <releasedate>19921214T000000</releasedate>
     <developer>SEGA</developer>
     <publisher>SEGA</publisher>
-    <genre>Plataforma</genre>
+    <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1-2</players>
-    <region>eu,kr,us</region>
-    <image>./media/image/World of Illusion Starring Mickey Mouse and Donald Duck (BR).md-image.png</image>
-    <video>./media/videos/World of Illusion Starring Mickey Mouse and Donald Duck (BR).md-video.mp4</video>
-    <marquee>./media/image/World of Illusion Starring Mickey Mouse and Donald Duck (BR).md-marquee.png</marquee>
-    <wheel>./media/wheel/World of Illusion Starring Mickey Mouse and Donald Duck (BR).md-wheel.png</wheel>
-    <boxart>./media/image/World of Illusion Starring Mickey Mouse and Donald Duck (BR).md-boxart.png</boxart>
-    <screenshot>./media/screenshots/World of Illusion Starring Mickey Mouse and Donald Duck (BR).md-screenshot.png</screenshot>
-    <cartridge>./media/image/World of Illusion Starring Mickey Mouse and Donald Duck (BR).md-cartridge.png</cartridge>
-    <fanart>./media/fanart/World of Illusion Starring Mickey Mouse and Donald Duck (BR).md-fanart.jpg</fanart>
-    <titleshot>./media/image/World of Illusion Starring Mickey Mouse and Donald Duck (BR).md-titleshot.png</titleshot>
-    <manual>./media/manuals/World of Illusion Starring Mickey Mouse and Donald Duck (BR).md_(br).pdf</manual>
-    <boxback>./media/image/World of Illusion Starring Mickey Mouse and Donald Duck (BR).md-boxback.png</boxback>
-    <extra1>./media/extras/World of Illusion Starring Mickey Mouse and Donald Duck (BR).md-extra1.png</extra1>
-    <bezel>./media/bezels/World of Illusion Starring Mickey Mouse and Donald Duck (BR).md-bezel.png</bezel>
+    <md5>39b0f4e3e1ae9a6694396ccdd7aaab0f</md5>
+    <hash>C29911B4</hash>
+    <image>./media/image/World Of Illusion Starring Mickey Mouse And Donald [46].md-image.png</image>
+    <video>./media/videos/World Of Illusion Starring Mickey Mouse And Donald [46].md-video.mp4</video>
+    <boxart>./media/image/World Of Illusion Starring Mickey Mouse And Donald [46].md-boxart.png</boxart>
+    <screenshot>./media/screenshots/World Of Illusion Starring Mickey Mouse And Donald [46].md-screenshot.png</screenshot>
+    <cartridge>./media/image/World Of Illusion Starring Mickey Mouse And Donald [46].md-cartridge.png</cartridge>
+    <fanart>./media/fanart/World Of Illusion Starring Mickey Mouse And Donald [46].md-fanart.jpg</fanart>
+    <titleshot>./media/image/World Of Illusion Starring Mickey Mouse And Donald [46].md-titleshot.png</titleshot>
+    <manual>./media/manuals/World Of Illusion Starring Mickey Mouse And Donald [46].md_(br).pdf</manual>
+    <boxback>./media/image/World Of Illusion Starring Mickey Mouse And Donald [46].md-boxback.png</boxback>
+    <extra1>./media/extras/World Of Illusion Starring Mickey Mouse And Donald [46].md-extra1.png</extra1>
+    <bezel>./media/image/World Of Illusion Starring Mickey Mouse And Donald [46].md-bezel.png</bezel>
   </game>
 </gameList>
