@@ -9,6 +9,12 @@
 *.ffs_db
 *.ffs_lock
 
+roms/bezels_project
+roms/decorations
+roms/overlays_priority
+
+**/media/
+
 roms/*/*
 roms/*/*.*
 !roms/*/gamelist.xml
