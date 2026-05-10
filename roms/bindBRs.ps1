@@ -550,6 +550,38 @@ try {
 
   $json = $OrderedIndex | ConvertTo-Json -Depth 100
 
+  # ------------------------------------------------------------------------
+  # FORMATAÇÃO JSON LIMPA (2 espaços)
+  # ------------------------------------------------------------------------
+
+  try {
+
+    $parsedJson = $json | ConvertFrom-Json
+
+    $json = (
+      $parsedJson |
+      ConvertTo-Json -Depth 100
+    )
+
+    # ConvertTo-Json usa 2 espaços por nível no PowerShell
+    # Apenas normaliza EOL e remove trailing spaces
+
+    $json = (
+      $json `
+        -split "`r?`n" `
+    | ForEach-Object {
+        $_.TrimEnd()
+      }
+    ) -join "`n"
+
+    # newline final POSIX-friendly
+    $json += "`n"
+
+  }
+  catch {
+    Write-Log WARN "Falha ao reformatar JSON: $($_.Exception.Message)"
+  }
+
   # Escrita atômica
   $tempFile = "$JsonPath.tmp"
 
