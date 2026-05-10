@@ -922,8 +922,15 @@ $reserved = @(
 
 $IdiomaPriority = @('BR', 'PT', 'USA')
 
+# PROTECAO: bootstrap antecipado do estado global
+if (-not $script:PipelineState) {
+  $script:PipelineState = @{}
+}
+
 $script:PipelineState.BrsIndexes = @{}
 $script:PipelineState.PendingBrsSave = @{}
+
+# ================= CORE HELPERS =================
 
 # ================= CORE HELPERS =================
 
@@ -1319,7 +1326,12 @@ function Initialize-BrsIndex {
         [string[]]$PathStack
       )
 
-      if ($Node -isnot [psobject]) {
+      # FIX-BUG: ConvertFrom-Json retorna PSCustomObject
+      if (
+        ($Node -isnot [psobject]) `
+          -and `
+        ($Node -isnot [System.Management.Automation.PSCustomObject])
+      ) {
         return
       }
 
@@ -2010,17 +2022,23 @@ function Save-PendingXml {
     $settings.OmitXmlDeclaration = $false
     $settings.Encoding = [System.Text.Encoding]::UTF8
 
-    $sw = New-Object System.IO.StringWriter
+    # FIX-BUG: StringWriter padrão gera UTF-16 incompatível com RFC XML
+    $memoryStream = New-Object System.IO.MemoryStream
 
     try {
 
-      $xw = [System.Xml.XmlWriter]::Create($sw, $settings)
+      $xw = [System.Xml.XmlWriter]::Create(
+        $memoryStream,
+        $settings
+      )
 
       $xml.Save($xw)
 
       $xw.Flush()
 
-      $content = $sw.ToString()
+      $content = [System.Text.Encoding]::UTF8.GetString(
+        $memoryStream.ToArray()
+      )
     }
     finally {
 
@@ -2028,7 +2046,7 @@ function Save-PendingXml {
         $xw.Dispose()
       }
 
-      $sw.Dispose()
+      $memoryStream.Dispose()
     }
 
     Write-AtomicTextFile `
@@ -2283,7 +2301,19 @@ function Get-CanonicalName {
     ).Trim()
 
     if ($preferredIdioma) {
-      $base += " ($preferredIdioma)"
+      # FIX-BUG: Get-PreferredIdioma já retorna "(XX)"
+      $preferredIdioma = $preferredIdioma.Trim()
+
+      if (
+        $preferredIdioma.StartsWith('(') `
+          -and `
+          $preferredIdioma.EndsWith(')')
+      ) {
+        $base += " $preferredIdioma"
+      }
+      else {
+        $base += " ($preferredIdioma)"
+      }
     }
 
     if ($id) {
@@ -2364,7 +2394,19 @@ function Get-CanonicalName {
     ).Trim()
 
     if ($preferredIdioma) {
-      $base += " ($preferredIdioma)"
+      # FIX-BUG: Get-PreferredIdioma já retorna "(XX)"
+      $preferredIdioma = $preferredIdioma.Trim()
+
+      if (
+        $preferredIdioma.StartsWith('(') `
+          -and `
+          $preferredIdioma.EndsWith(')')
+      ) {
+        $base += " $preferredIdioma"
+      }
+      else {
+        $base += " ($preferredIdioma)"
+      }
     }
 
     if ($id) {
@@ -2489,7 +2531,7 @@ function Select-CanonicalDuplicate {
       return (
         ($relative -split '[\\/]').Count
       )
-    } ; Ascending = $true 
+    } ; Ascending = $true
   },
   @{ Expression   = {
 
@@ -2499,7 +2541,7 @@ function Select-CanonicalDuplicate {
       }
 
       return 999999
-    } ; Ascending = $true 
+    } ; Ascending = $true
   },
   @{ Expression   = {
 
@@ -2508,13 +2550,13 @@ function Select-CanonicalDuplicate {
       }
 
       return $_.File.Name
-    } ; Ascending = $true 
+    } ; Ascending = $true
   },
   @{ Expression   = {
 
       # PROTECAO: ordem ordinal estável RFC 11
       return $_.Relative
-    } ; Ascending = $true 
+    } ; Ascending = $true
   }
 
   # FIX-BUG: estabiliza sobrevivente deterministicamente RFC 11
@@ -2721,7 +2763,24 @@ function Format-DescriptionText {
     return $normalized
   }
 
-  $lower = $normalized.ToLowerInvariant()
+  # FIX-BUG: preserva siglas estruturais e nomes técnicos
+  $tokens = $normalized -split ' '
+
+  $normalizedTokens = foreach ($token in $tokens) {
+
+    if (
+      $token.Length -le 4 `
+        -and `
+        $token -cmatch '^[A-Z0-9]+$'
+    ) {
+      $token
+    }
+    else {
+      $token.ToLowerInvariant()
+    }
+  }
+
+  $lower = ($normalizedTokens -join ' ')
 
   $formatted = [regex]::Replace(
     $lower,
