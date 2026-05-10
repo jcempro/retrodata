@@ -24,55 +24,21 @@ O JOGO INCLUI NÍVEIS NORMAIS DE COMBATE, MINI-JOGOS E VÁRIOS NÍVEIS ESPECIAIS
     <screenshot>./media/screenshots/Charlie Murder (BR)-screenshot.jpg</screenshot>
     <fanart>./media/fanart/Charlie Murder (BR)-fanart.jpg</fanart>
   </game>
-  <game id="319968">
-    <path>./Mortal Kombat Complete Edition (BR)/Mortal Kombat Complete Edition (BR).pc</path>
-    <name>MORTAL KOMBAT COMPLETE EDITION (BR)</name>
-    <desc>ESTA EDIÇÃO KOMPLETE É UM RELANÇAMENTO DO JOGO ORIGINAL COM TODO O CONTEÚDO PARA DOWNLOAD. INCLUI:
-MORTAL KOMBAT (JOGO BÁSICO)
-MORTAL KOMBAT (CÓDIGO PARA BAIXAR O FILME DE 1995 – APENAS XBOX 360/PS3 DOS EUA)
-MORTAL KOMBAT: SONGS INSPIRED BY THE WARRIORS (CÓDIGO PARA BAIXAR UM ÁLBUM DE TRILHA SONORA – APENAS XBOX 360/PS3 DOS EUA)
-MORTAL KOMBAT: COMPATIBILITY PACK 1 COM SEKTOR E CYRAX KLASSIC SKINS (DLC COM 2 SKINS E UMA ATUALIZAÇÃO DE COMPATIBILIDADE)
-MORTAL KOMBAT: COMPATIBILITY PACK 2 COM SKINS KLASSIC DE SMOKE E NOOB SAIBOT (DLC COM 2 SKINS E UMA ATUALIZAÇÃO DE COMPATIBILIDADE)
-MORTAL KOMBAT: COMPATIBILITY PACK 3 COM KLASSIC SKINS (DLC COM 2 SKINS E UMA ATUALIZAÇÃO DE COMPATIBILIDADE)
-MORTAL KOMBAT: COMPATIBILITY PACK 4 COM SUB ZERO KLASSIC SKINS (DLC COM 2 SKINS E UMA ATUALIZAÇÃO DE COMPATIBILIDADE)
-MORTAL KOMBAT: FREDDY KRUEGER (DLC COM NOVO PERSONAGEM)
-MORTAL KOMBAT: KLASSIC SKINS PACK #1 (DLC COM 7 SKINS E 3 FATALITIES)
-MORTAL KOMBAT: RAIN (DLC COM NOVO PERSONAGEM)
-MORTAL KOMBAT: SKARLET (DLC COM UM NOVO PERSONAGEM)
-MORTAL KOMBAT: WARRIOR KENSHI (DLC COM UM NOVO PERSONAGEM)</desc>
-    <rating>0.80</rating>
-    <releasedate>20130703T000000</releasedate>
-    <developer>NETHERREALM</developer>
-    <publisher>WARNER BROS. GAMES</publisher>
-    <genre>COMPILAÇÃO, LUTA / VERSUS, LUTA</genre>
-    <genreid>262</genreid>
-    <players>1-2</players>
-    <adult>true</adult>
-    <video>./media/videos/Mortal Kombat Complete Edition (BR)-video.mp4</video>
-    <screenshot>./media/screenshots/Mortal Kombat Complete Edition (BR)-screenshot.jpg</screenshot>
-    <fanart>./media/fanart/Mortal Kombat Complete Edition (BR)-fanart.jpg</fanart>
-    <titleshot>./media/image/Mortal Kombat Complete Edition (BR)-titleshot.jpg</titleshot>
-    <extra1>./media/extras/Mortal Kombat Complete Edition (BR)-extra1.png</extra1>
-  </game>
-  <game id="326674">
-    <path>./Phantom Breaker Battle Grounds Ultimate (BR)/Phantom Breaker Battle Grounds Ultimate (BR).pc</path>
-    <name>PHANTOM BREAKER BATTLE GROUNDS ULTIMATE (BR)</name>
-    <genreid>0</genreid>
-  </game>
   <game>
     <path>./Scott Pilgrim EX (BR)/Scott Pilgrim Ex (BR).pc</path>
     <name>SCOTT PILGRIM EX (BR)</name>
+    <desc>JUNTE-SE A SCOTT PILGRIM E RAMONA FLOWERS EM UMA NOVA AVENTURA DE LUTA PELO ESPAÇO, TEMPO E PELAS RUAS DE TORONTO!  
+TORONTO, 20XX. A CIDADE FOI TOMADA POR TRÊS GANGUES RIVAIS - OS VEGANOS, OS ROBÔS E OS DEMÔNIOS. MAS QUEM ESTÁ POR TRÁS DESSA LOUCURA? QUANDO OS COMPANHEIROS DE BANDA DE SCOTT PILGRIM SÃO SEQUESTRADOS POR FORÇAS SOMBRIAS, UMA NOVA AVENTURA COMEÇA!
+SCOTT PILGRIM EX É UM JOGO DE AÇÃO E AVENTURA ONDE OS JOGADORES PODEM LUTAR COMO SCOTT PILGRIM, RAMONA FLOWERS E MUITO MAIS ENQUANTO LUTAM NO TEMPO E ESPAÇO FRAGMENTADOS DE TORONTO. A JOGABILIDADE DE COMBATE É IMPULSIONADA PELO INSTINTO E PELA IMPROVISAÇÃO - UM BALÉ FRENÉTICO DE PUNHOS E TALENTO QUE RECOMPENSA A ESTRATÉGIA, A ESPONTANEIDADE E UM POUCO DE CAOS VIOLENTO. COMBINE COMBOS ELEGANTES, EXPERIMENTE ARMAS MALUCAS E LIBERE ATAQUES ESPECIAIS EXAGERADOS. OS PERSONAGENS PODEM SER ATUALIZADOS COM EMBLEMAS ESPECIAIS QUE MELHORAM SUAS ESTATÍSTICAS E CONCEDEM BÔNUS ESPECIAIS. OS JOGADORES IRÃO EXPLORAR UMA CIDADE INTEIRA DE NÍVEIS INTERCONECTADOS PARA CONHECER ROSTOS NOVOS E ANTIGOS, COMPLETAR MISSÕES E DESCOBRIR ÁREAS ESCONDIDAS. O MODO COOPERATIVO MULTIJOGADOR, LOCAL OU ONLINE, PERMITE QUE ATÉ QUATRO JOGADORES PARTICIPEM DA AÇÃO, TORNANDO-A UMA EXPERIÊNCIA DIVERTIDA E DINÂMICA.</desc>
+    <rating>0.80</rating>
+    <developer>TRIBUTE GAMES</developer>
+    <publisher>TRIBUTE GAMES</publisher>
+    <genre>BEAT 'EM UP</genre>
     <genreid>0</genreid>
-  </game>
-  <game>
-    <path>./Tunic (BR)/Tunic (BR).pc</path>
-    <name>TUNIC (BR)</name>
-    <genreid>0</genreid>
-  </game>
-  <game id="355028">
-    <path>./Wulverblade (USA)/Wulverblade (USA).pc</path>
-    <name>WULVERBLADE (USA)</name>
-    <genreid>0</genreid>
+    <players>4</players>
+    <video>./media/videos/Scott Pilgrim Ex (BR)-video.mp4</video>
+    <screenshot>./media/screenshots/Scott Pilgrim Ex (BR)-screenshot.jpg</screenshot>
+    <fanart>./media/fanart/Scott Pilgrim Ex (BR)-fanart.jpg</fanart>
   </game>
   <game id="251501">
     <path>./Blazing Chrome (BR) v28.09.2019/Blazing Chrome (BR).pc</path>
@@ -89,6 +55,7 @@ MORTAL KOMBAT: WARRIOR KENSHI (DLC COM UM NOVO PERSONAGEM)</desc>
     <image>./media/image/Blazing Chrome (BR)-image.png</image>
     <video>./media/videos/Blazing Chrome (BR)-video.mp4</video>
     <screenshot>./media/screenshots/Blazing Chrome (BR)-screenshot.jpg</screenshot>
+    <mix>./media/image/Blazing Chrome (BR)-image.png</mix>
     <fanart>./media/fanart/Blazing Chrome (BR)-fanart.jpg</fanart>
     <extra1>./media/extras/Blazing Chrome (BR)-extra1.png</extra1>
   </game>
@@ -106,6 +73,7 @@ DEPENDENDO DO MODO DE JOGO, PODES CORRER SOZINHO OU EM ESTAFETAS. UTILIZANDO BÓ
     <image>./media/image/Blur (BR)-image.png</image>
     <video>./media/videos/Blur (BR)-video.mp4</video>
     <screenshot>./media/screenshots/Blur (BR)-screenshot.jpg</screenshot>
+    <mix>./media/image/Blur (BR)-image.png</mix>
     <fanart>./media/fanart/Blur (BR)-fanart.jpg</fanart>
     <extra1>./media/extras/Blur (BR)-extra1.png</extra1>
   </game>
@@ -123,6 +91,7 @@ BROFORCE CONSISTE EM NAVEGAR POR NÍVEIS AMPLAMENTE DESTRUTÍVEIS PARA CHEGAR A 
     <image>./media/image/Broforce (BR)-image.png</image>
     <video>./media/videos/Broforce (BR)-video.mp4</video>
     <screenshot>./media/screenshots/Broforce (BR)-screenshot.jpg</screenshot>
+    <mix>./media/image/Broforce (BR)-image.png</mix>
     <fanart>./media/fanart/Broforce (BR)-fanart.jpg</fanart>
     <titleshot>./media/image/Broforce (BR)-titleshot.jpg</titleshot>
     <extra1>./media/extras/Broforce (BR)-extra1.png</extra1>
@@ -141,6 +110,7 @@ BROFORCE CONSISTE EM NAVEGAR POR NÍVEIS AMPLAMENTE DESTRUTÍVEIS PARA CHEGAR A 
     <image>./media/image/Castle Crashers (PT)-image.png</image>
     <video>./media/videos/Castle Crashers (PT)-video.mp4</video>
     <screenshot>./media/screenshots/Castle Crashers (PT)-screenshot.jpg</screenshot>
+    <mix>./media/image/Castle Crashers (PT)-image.png</mix>
     <fanart>./media/fanart/Castle Crashers (PT)-fanart.jpg</fanart>
     <titleshot>./media/image/Castle Crashers (PT)-titleshot.jpg</titleshot>
     <extra1>./media/extras/Castle Crashers (PT)-extra1.png</extra1>
@@ -161,6 +131,7 @@ ESTE É UM JOGO DE PLATAFORMA SIDE-SCROLLING EM QUE MICKEY SALTA SOBRE OBSTÁCUL
     <image>./media/image/Castle Of Illusion (BR)-image.png</image>
     <video>./media/videos/Castle Of Illusion (BR)-video.mp4</video>
     <screenshot>./media/screenshots/Castle Of Illusion (BR)-screenshot.jpg</screenshot>
+    <mix>./media/image/Castle Of Illusion (BR)-image.png</mix>
     <fanart>./media/fanart/Castle Of Illusion (BR)-fanart.jpg</fanart>
     <titleshot>./media/image/Castle Of Illusion (BR)-titleshot.jpg</titleshot>
     <extra1>./media/extras/Castle Of Illusion (BR)-extra1.png</extra1>
@@ -178,6 +149,7 @@ ESTE É UM JOGO DE PLATAFORMA SIDE-SCROLLING EM QUE MICKEY SALTA SOBRE OBSTÁCUL
     <image>./media/image/Crash Bandicoot N Sane Trilogy (BR)-image.png</image>
     <video>./media/videos/Crash Bandicoot N Sane Trilogy (BR)-video.mp4</video>
     <screenshot>./media/screenshots/Crash Bandicoot N Sane Trilogy (BR)-screenshot.png</screenshot>
+    <mix>./media/image/Crash Bandicoot N Sane Trilogy (BR)-image.png</mix>
     <fanart>./media/fanart/Crash Bandicoot N Sane Trilogy (BR)-fanart.jpg</fanart>
     <titleshot>./media/image/Crash Bandicoot N Sane Trilogy (BR)-titleshot.jpg</titleshot>
     <extra1>./media/extras/Crash Bandicoot N Sane Trilogy (BR)-extra1.png</extra1>
@@ -198,6 +170,7 @@ JOGUE COMO CUPHEAD OU MUGMAN (NO MODO SINGLE PLAYER OU LOCAL CO-OP) ENQUANTO ATR
     <image>./media/image/Cuphead The Delicious Last Course (BR)-image.png</image>
     <video>./media/videos/Cuphead The Delicious Last Course (BR)-video.mp4</video>
     <screenshot>./media/screenshots/Cuphead The Delicious Last Course (BR)-screenshot.jpg</screenshot>
+    <mix>./media/image/Cuphead The Delicious Last Course (BR)-image.png</mix>
     <fanart>./media/fanart/Cuphead The Delicious Last Course (BR)-fanart.jpg</fanart>
     <titleshot>./media/image/Cuphead The Delicious Last Course (BR)-titleshot.jpg</titleshot>
     <extra1>./media/extras/Cuphead The Delicious Last Course (BR)-extra1.png</extra1>
@@ -218,6 +191,7 @@ NÚMERO DE JOGADORES: DE UM A TRÊS JOGADORES NO MODO COOPERATIVO LOCAL.</desc>
     <image>./media/image/Fight N Rage (BR)-image.png</image>
     <video>./media/videos/Fight N Rage (BR)-video.mp4</video>
     <screenshot>./media/screenshots/Fight N Rage (BR)-screenshot.jpg</screenshot>
+    <mix>./media/image/Fight N Rage (BR)-image.png</mix>
     <fanart>./media/fanart/Fight N Rage (BR)-fanart.jpg</fanart>
     <titleshot>./media/image/Fight N Rage (BR)-titleshot.jpg</titleshot>
     <extra1>./media/extras/Fight N Rage (BR)-extra1.png</extra1>
@@ -242,6 +216,7 @@ PREPARA-TE PARA...
     <image>./media/image/Guacamelee Super Turbo Championship Edition (BR)-image.png</image>
     <video>./media/videos/Guacamelee Super Turbo Championship Edition (BR)-video.mp4</video>
     <screenshot>./media/screenshots/Guacamelee Super Turbo Championship Edition (BR)-screenshot.jpg</screenshot>
+    <mix>./media/image/Guacamelee Super Turbo Championship Edition (BR)-image.png</mix>
     <fanart>./media/fanart/Guacamelee Super Turbo Championship Edition (BR)-fanart.jpg</fanart>
     <extra1>./media/extras/Guacamelee Super Turbo Championship Edition (BR)-extra1.png</extra1>
   </game>
@@ -259,9 +234,42 @@ FORÇA EXCESSIVA VAMOS DEIXAR UMA COISA BEM CLARA; SE VOCÊ JÁ PENSOU QUE UM DI
     <image>./media/image/Mayhembrawler (BR)-image.png</image>
     <video>./media/videos/Mayhembrawler (BR)-video.mp4</video>
     <screenshot>./media/screenshots/Mayhembrawler (BR)-screenshot.jpg</screenshot>
+    <mix>./media/image/Mayhembrawler (BR)-image.png</mix>
     <fanart>./media/fanart/Mayhembrawler (BR)-fanart.jpg</fanart>
     <titleshot>./media/image/Mayhembrawler (BR)-titleshot.jpg</titleshot>
     <extra1>./media/extras/Mayhembrawler (BR)-extra1.png</extra1>
+  </game>
+  <game id="319968">
+    <path>./Mortal Kombat Complete Edition (BR)/Mortal Kombat Complete Edition (BR).pc</path>
+    <name>MORTAL KOMBAT COMPLETE EDITION (BR)</name>
+    <desc>ESTA EDIÇÃO KOMPLETE É UM RELANÇAMENTO DO JOGO ORIGINAL COM TODO O CONTEÚDO PARA DOWNLOAD. INCLUI:
+MORTAL KOMBAT (JOGO BÁSICO)
+MORTAL KOMBAT (CÓDIGO PARA BAIXAR O FILME DE 1995 – APENAS XBOX 360/PS3 DOS EUA)
+MORTAL KOMBAT: SONGS INSPIRED BY THE WARRIORS (CÓDIGO PARA BAIXAR UM ÁLBUM DE TRILHA SONORA – APENAS XBOX 360/PS3 DOS EUA)
+MORTAL KOMBAT: COMPATIBILITY PACK 1 COM SEKTOR E CYRAX KLASSIC SKINS (DLC COM 2 SKINS E UMA ATUALIZAÇÃO DE COMPATIBILIDADE)
+MORTAL KOMBAT: COMPATIBILITY PACK 2 COM SKINS KLASSIC DE SMOKE E NOOB SAIBOT (DLC COM 2 SKINS E UMA ATUALIZAÇÃO DE COMPATIBILIDADE)
+MORTAL KOMBAT: COMPATIBILITY PACK 3 COM KLASSIC SKINS (DLC COM 2 SKINS E UMA ATUALIZAÇÃO DE COMPATIBILIDADE)
+MORTAL KOMBAT: COMPATIBILITY PACK 4 COM SUB ZERO KLASSIC SKINS (DLC COM 2 SKINS E UMA ATUALIZAÇÃO DE COMPATIBILIDADE)
+MORTAL KOMBAT: FREDDY KRUEGER (DLC COM NOVO PERSONAGEM)
+MORTAL KOMBAT: KLASSIC SKINS PACK #1 (DLC COM 7 SKINS E 3 FATALITIES)
+MORTAL KOMBAT: RAIN (DLC COM NOVO PERSONAGEM)
+MORTAL KOMBAT: SKARLET (DLC COM UM NOVO PERSONAGEM)
+MORTAL KOMBAT: WARRIOR KENSHI (DLC COM UM NOVO PERSONAGEM)</desc>
+    <rating>0.80</rating>
+    <releasedate>20130703T000000</releasedate>
+    <developer>NETHERREALM</developer>
+    <publisher>WARNER BROS. GAMES</publisher>
+    <genre>COMPILAÇÃO, LUTA / VERSUS, LUTA</genre>
+    <genreid>262</genreid>
+    <players>1-2</players>
+    <adult>true</adult>
+    <image>./media/image/Mortal Kombat Complete Edition (BR)-image.png</image>
+    <video>./media/videos/Mortal Kombat Complete Edition (BR)-video.mp4</video>
+    <screenshot>./media/screenshots/Mortal Kombat Complete Edition (BR)-screenshot.jpg</screenshot>
+    <mix>./media/image/Mortal Kombat Complete Edition (BR)-image.png</mix>
+    <fanart>./media/fanart/Mortal Kombat Complete Edition (BR)-fanart.jpg</fanart>
+    <titleshot>./media/image/Mortal Kombat Complete Edition (BR)-titleshot.jpg</titleshot>
+    <extra1>./media/extras/Mortal Kombat Complete Edition (BR)-extra1.png</extra1>
   </game>
   <game id="320062">
     <path>./Mother Russia Bleeds (BR) v2.4.0.6/Mother Russia Bleeds (BR).pc</path>
@@ -279,9 +287,28 @@ LUTE SOZINHO OU AO LADO DOS SEUS AMIGOS NUM MODO DE HISTÓRIA ÚNICO, OU ASSUMA 
     <image>./media/image/Mother Russia Bleeds (BR)-image.png</image>
     <video>./media/videos/Mother Russia Bleeds (BR)-video.mp4</video>
     <screenshot>./media/screenshots/Mother Russia Bleeds (BR)-screenshot.jpg</screenshot>
+    <mix>./media/image/Mother Russia Bleeds (BR)-image.png</mix>
     <fanart>./media/fanart/Mother Russia Bleeds (BR)-fanart.jpg</fanart>
     <titleshot>./media/image/Mother Russia Bleeds (BR)-titleshot.png</titleshot>
     <extra1>./media/extras/Mother Russia Bleeds (BR)-extra1.png</extra1>
+  </game>
+  <game id="81459">
+    <path>./Phantom Breaker Battle Grounds Ultimate (BR)/Phantom Breaker - Battle Grounds Ultimate (BR).pc</path>
+    <name>PHANTOM BREAKER - BATTLE GROUNDS ULTIMATE (BR)</name>
+    <desc>"PHANTOM BREAKER: BATTLE GROUNDS ULTIMATE" É UM BEAT-'EM-UP DE ROLAGEM LATERAL COM O CORAÇÃO DE UM JOGO DE LUTA, APRESENTANDO PIXEL ART NOSTÁLGICO E O MAIS RECENTE MULTIJOGADOR ONLINE MULTIPLATAFORMA. EXPERIMENTE A MAIOR E MAIS EXPANSIVA ENTRADA DA SÉRIE "PHANTOM BREAKER: BATTLE GROUNDS" ATÉ HOJE!</desc>
+    <releasedate>00000000T000000</releasedate>
+    <developer>ROCKET PANDA GAMES JAPAN</developer>
+    <publisher>ROCKET PANDA GAMES</publisher>
+    <genre>AÇÃO</genre>
+    <genreid>0</genreid>
+    <image>./media/image/Phantom Breaker - Battle Grounds Ultimate (BR)-image.png</image>
+    <video>./media/videos/Phantom Breaker - Battle Grounds Ultimate (BR)-video.mp4</video>
+    <thumbnail>./media/image/Phantom Breaker - Battle Grounds Ultimate (BR)-thumb.jpg</thumbnail>
+    <marquee>./media/image/Phantom Breaker - Battle Grounds Ultimate (BR)-marquee.png</marquee>
+    <wheel>./media/image/Phantom Breaker - Battle Grounds Ultimate (BR)-wheel.png</wheel>
+    <boxart>./media/image/Phantom Breaker - Battle Grounds Ultimate (BR)-boxart.jpg</boxart>
+    <screenshot>./media/screenshots/Phantom Breaker - Battle Grounds Ultimate (BR)-screenshot.jpg</screenshot>
+    <fanart>./media/fanart/Phantom Breaker - Battle Grounds Ultimate (BR)-fanart.jpg</fanart>
   </game>
   <game id="330850">
     <path>./Rayman Origins (BR)/Rayman Origins (BR).pc</path>
@@ -297,6 +324,7 @@ LUTE SOZINHO OU AO LADO DOS SEUS AMIGOS NUM MODO DE HISTÓRIA ÚNICO, OU ASSUMA 
     <image>./media/image/Rayman Origins (BR)-image.png</image>
     <video>./media/videos/Rayman Origins (BR)-video.mp4</video>
     <screenshot>./media/screenshots/Rayman Origins (BR)-screenshot.jpg</screenshot>
+    <mix>./media/image/Rayman Origins (BR)-image.png</mix>
     <fanart>./media/fanart/Rayman Origins (BR)-fanart.jpg</fanart>
     <titleshot>./media/image/Rayman Origins (BR)-titleshot.png</titleshot>
     <manual>./media/manuals/Rayman Origins (BR)_(us).pdf</manual>
@@ -315,6 +343,7 @@ LUTE SOZINHO OU AO LADO DOS SEUS AMIGOS NUM MODO DE HISTÓRIA ÚNICO, OU ASSUMA 
     <image>./media/image/Shank 2-image.png</image>
     <video>./media/videos/Shank 2-video.mp4</video>
     <screenshot>./media/screenshots/Shank 2-screenshot.jpg</screenshot>
+    <mix>./media/image/Shank 2-image.png</mix>
     <fanart>./media/fanart/Shank 2-fanart.jpg</fanart>
     <titleshot>./media/image/Shank 2-titleshot.jpg</titleshot>
     <extra1>./media/extras/Shank 2-extra1.png</extra1>
@@ -332,6 +361,7 @@ NO JOGO ARCADE OU MULTIJOGADOR, O JOGADOR PODE SELECIONAR SE DESEJA UMA EQUIPE D
     <image>./media/image/Skullgirls 2Nd Encore (BR)-image.png</image>
     <video>./media/videos/Skullgirls 2Nd Encore (BR)-video.mp4</video>
     <screenshot>./media/screenshots/Skullgirls 2Nd Encore (BR)-screenshot.jpg</screenshot>
+    <mix>./media/image/Skullgirls 2Nd Encore (BR)-image.png</mix>
     <fanart>./media/fanart/Skullgirls 2Nd Encore (BR)-fanart.jpg</fanart>
     <extra1>./media/extras/Skullgirls 2Nd Encore (BR)-extra1.png</extra1>
   </game>
@@ -349,6 +379,7 @@ NO JOGO ARCADE OU MULTIJOGADOR, O JOGADOR PODE SELECIONAR SE DESEJA UMA EQUIPE D
     <image>./media/image/Street Fighter X Tekken (BR)-image.png</image>
     <video>./media/videos/Street Fighter X Tekken (BR)-video.mp4</video>
     <screenshot>./media/screenshots/Street Fighter X Tekken (BR)-screenshot.jpg</screenshot>
+    <mix>./media/image/Street Fighter X Tekken (BR)-image.png</mix>
     <fanart>./media/fanart/Street Fighter X Tekken (BR)-fanart.jpg</fanart>
     <titleshot>./media/image/Street Fighter X Tekken (BR)-titleshot.jpg</titleshot>
     <extra1>./media/extras/Street Fighter X Tekken (BR)-extra1.png</extra1>
@@ -369,6 +400,7 @@ UMA SÉRIE ICÔNICA COMO STREETS OF RAGE CONTA COM PERSONAGENS TAMBÉM ICÔNICOS
     <image>./media/image/Streets Of Rage 4 (BR)-image.png</image>
     <video>./media/videos/Streets Of Rage 4 (BR)-video.mp4</video>
     <screenshot>./media/screenshots/Streets Of Rage 4 (BR)-screenshot.jpg</screenshot>
+    <mix>./media/image/Streets Of Rage 4 (BR)-image.png</mix>
     <fanart>./media/fanart/Streets Of Rage 4 (BR)-fanart.jpg</fanart>
     <titleshot>./media/image/Streets Of Rage 4 (BR)-titleshot.jpg</titleshot>
     <extra1>./media/extras/Streets Of Rage 4 (BR)-extra1.png</extra1>
@@ -387,8 +419,54 @@ UMA SÉRIE ICÔNICA COMO STREETS OF RAGE CONTA COM PERSONAGENS TAMBÉM ICÔNICOS
     <image>./media/image/Teenage Mutant Ninja Turtles - Shredders (BR)-image.png</image>
     <video>./media/videos/Teenage Mutant Ninja Turtles - Shredders (BR)-video.mp4</video>
     <screenshot>./media/screenshots/Teenage Mutant Ninja Turtles - Shredders (BR)-screenshot.jpg</screenshot>
+    <mix>./media/image/Teenage Mutant Ninja Turtles - Shredders (BR)-image.png</mix>
     <fanart>./media/fanart/Teenage Mutant Ninja Turtles - Shredders (BR)-fanart.jpg</fanart>
     <titleshot>./media/image/Teenage Mutant Ninja Turtles - Shredders (BR)-titleshot.jpg</titleshot>
     <extra1>./media/extras/Teenage Mutant Ninja Turtles - Shredders (BR)-extra1.png</extra1>
+  </game>
+  <game>
+    <path>./Tunic (BR)/Tunic (BR).pc</path>
+    <name>TUNIC (BR)</name>
+    <desc>EXPLORE UMA TERRA REPLETA DE LENDAS PERDIDAS, PODERES ANTIGOS E MONSTROS FEROZES EM TUNIC, UM JOGO DE AÇÃO ISOMÉTRICA SOBRE UMA PEQUENA RAPOSA EM UMA GRANDE AVENTURA. PRESO EM UMA TERRA EM RUÍNAS E ARMADO APENAS COM SUA PRÓPRIA CURIOSIDADE, VOCÊ ENFRENTARÁ FERAS COLOSSAIS, COLETARÁ ITENS ESTRANHOS E PODEROSOS E DESVENDARÁ SEGREDOS HÁ MUITO PERDIDOS.
+TORNE-SE UMA LENDA - AS HISTÓRIAS DIZEM QUE UM GRANDE TESOURO ESTÁ ESCONDIDO EM ALGUM LUGAR DESTA TERRA. TALVEZ ESTEJA ALÉM DA PORTA DOURADA? OU EM ALGUM LUGAR NAS PROFUNDEZAS DA TERRA? ALGUMAS HISTÓRIAS FALAM DE UM PALÁCIO BEM ACIMA DAS NUVENS E DE SERES ANTIGOS COM UM PODER INCRÍVEL. O QUE VOCÊ ENCONTRARÁ?
+RECONSTRUA UM LIVRO SAGRADO - DURANTE SUAS VIAGENS, VOCÊ RECONSTRUIRÁ O MANUAL DE INSTRUÇÕES DO JOGO. PÁGINA POR PÁGINA, VOCÊ REVELARÁ MAPAS, DICAS, TÉCNICAS ESPECIAIS E OS SEGREDOS MAIS PROFUNDOS. SE VOCÊ ENCONTRAR ATÉ O ÚLTIMO, TALVEZ ALGO DE BOM ACONTEÇA...
+TENHA CORAGEM, PEQUENO! - MERGULHE EM COMBATES TÉCNICOS VARIADOS. DESVIE, BLOQUEIE, DESVIE E ATAQUE! APRENDA COMO CONQUISTAR UM GRANDE ELENCO DE MONSTROS, GRANDES E PEQUENOS — E DESCUBRA NOVOS ITENS ÚTEIS PARA AJUDÁ-LO EM SEU CAMINHO.
+• EXPLORE UM MUNDO HOSTIL E INTRINSECAMENTE CONECTADO DE FLORESTAS SOMBRIAS, RUÍNAS EXTENSAS E CATACUMBAS LABIRÍNTICAS
+• LUTE CONTRA CHEFES PODEROSOS NAS PROFUNDEZAS DA TERRA, BEM ACIMA DAS NUVENS E EM LUGARES AINDA MAIS ESTRANHOS
+• RECOLHA AS PÁGINAS DE MANUAL QUE FALTAM, REPLETAS DE DICAS E ILUSTRAÇÕES COLORIDAS ORIGINAIS
+• DESCUBRA TESOUROS ESCONDIDOS PARA AJUDÁ-LO EM SEU CAMINHO
+• DESENTERRE RELÍQUIAS SECRETAS, TÉCNICAS SECRETAS, QUEBRA-CABEÇAS SECRETOS E... OUÇA, HÁ MUITOS SEGREDOS!
+• APRESENTANDO DESIGN DE SOM DA POWER UP AUDIO
+• E UMA TRILHA SONORA ORIGINAL DE LIFEFORMED (TERENCE LEE E JANICE KWAN)</desc>
+    <rating>0.87</rating>
+    <developer>TUNIC TEAM</developer>
+    <publisher>FINJI</publisher>
+    <genre>ACTION, ADVENTURE</genre>
+    <genreid>0</genreid>
+    <players>1</players>
+    <image>./media/image/Tunic (BR)-image.png</image>
+    <video>./media/videos/Tunic (BR)-video.mp4</video>
+    <thumbnail>./media/image/Tunic (BR)-boxart.png</thumbnail>
+    <boxart>./media/image/Tunic (BR)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Tunic (BR)-screenshot.jpg</screenshot>
+    <cartridge>./media/image/Tunic (BR)-cartridge.png</cartridge>
+    <mix>./media/image/Tunic (BR)-image.png</mix>
+    <fanart>./media/fanart/Tunic (BR)-fanart.jpg</fanart>
+  </game>
+  <game id="355028">
+    <path>./Wulverblade (USA)/Wulverblade (USA).pc</path>
+    <name>WULVERBLADE (USA)</name>
+    <desc>DERROTE A NONA LEGIÃO DO EXÉRCITO ROMANO NESTE BEAT 'EM UP DE ROLAGEM LATERAL E INSPIRADO EM ARCADE, AMBIENTADO NA GRÃ-BRETANHA DA ERA ROMANA.</desc>
+    <rating>0.82</rating>
+    <developer>DARKWIND MEDIA</developer>
+    <publisher>DARKWIND MEDIA</publisher>
+    <genre>ACTION, ADVENTURE, BEAT 'EM UP</genre>
+    <genreid>0</genreid>
+    <players>2</players>
+    <image>./media/image/Wulverblade (USA)-image.png</image>
+    <marquee>./media/image/Wulverblade (USA)-marquee.png</marquee>
+    <wheel>./media/image/Wulverblade (USA)-wheel.png</wheel>
+    <screenshot>./media/screenshots/Wulverblade (USA)-screenshot.jpg</screenshot>
+    <mix>./media/image/Wulverblade (USA)-image.png</mix>
   </game>
 </gameList>
