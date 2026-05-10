@@ -495,7 +495,7 @@
         antes da extensão
 
   ============================================================
-  7. NORMALIZAÇÃO DO BASENAME e DESCRI
+  7. NORMALIZAÇÃO DO BASENAME e DESC
   ============================================================
   
   [BASENAME]
@@ -529,9 +529,9 @@
     Formas:
       - "(BR-XX)" MUST ser preservado integralmente
 
-  [DESCRI]
+  [DESC]
 
-      A tag <descri> do xml NÃO pode estar todo em uppercase
+      A tag <desc> do xml NÃO pode estar todo em uppercase
       ou lowercase, devendo seguir um padrão adequado de
       texto:
 
@@ -770,11 +770,13 @@
 
   18. ARQUIVO brs.json
 
-  se existir, identifica ROMs traduzidas, mesmo que não haja tag no xml
+  Se existir, identifica ROMs traduzidas, mesmo que não haja tag no xml
   ou equivalente (BR) no filename.
 
   Deve-se, usá-lo para buscar pelo nome do JOGO, limidado pelo diretório
   que identifica o sistema.  
+
+  Não editado nem alterado - serve apenas como fonte de consulta
 
   formato:
 
@@ -920,6 +922,9 @@ $reserved = @(
 
 $IdiomaPriority = @('BR', 'PT', 'USA')
 
+$script:PipelineState.BrsIndexes = @{}
+$script:PipelineState.PendingBrsSave = @{}
+
 # ================= CORE HELPERS =================
 
 function Get-IdiomaTokens {
@@ -939,6 +944,57 @@ function Get-IdiomaTokens {
   }
 
   return $tokens
+}
+
+function Load-BrsIndexes {
+
+  $script:PipelineState.BrsIndexes = @{}
+
+  Get-ChildItem `
+    -Recurse `
+    -File `
+    -Filter brs.json `
+    -ErrorAction SilentlyContinue | ForEach-Object {
+
+    try {
+
+      $json = Get-Content `
+        -LiteralPath $_.FullName `
+        -Raw `
+        -Encoding UTF8 |
+      ConvertFrom-Json -Depth 100
+
+      $script:PipelineState.BrsIndexes[
+      [IO.Path]::GetFullPath($_.FullName)
+      ] = $json
+    }
+    catch {
+
+      Write-InlineLog `
+        "⚠️ BRS_LOAD_FAIL :: $($_.FullName)" `
+        Yellow `
+        -forceNewLine
+    }
+  }
+}
+
+function Save-PendingBrsIndexes {
+
+  foreach ($path in $script:PipelineState.PendingBrsSave.Keys) {
+
+    if (-not $script:PipelineState.BrsIndexes.ContainsKey($path)) {
+      continue
+    }
+
+    $json = $script:PipelineState.BrsIndexes[$path]
+
+    $serialized = $json | ConvertTo-Json -Depth 100
+
+    Set-Content `
+      -LiteralPath $path `
+      -Value $serialized `
+      -Encoding UTF8
+  }
 }
 
 function Get-PreferredIdioma {
@@ -1231,6 +1287,146 @@ function Remove-InvalidFileNameChars {
 # ================= TRANSLATION ENGINE =================
 
 $script:__translateCache = @{}
+
+$script:BrsIndex = @{}
+
+function Initialize-BrsIndex {
+
+  $script:BrsIndex = @{}
+
+  $brsPath = Join-Path $PSScriptRoot 'brs.json'
+
+  if (-not (Test-Path -LiteralPath $brsPath)) {
+    return
+  }
+
+  try {
+
+    $raw = Get-Content `
+      -LiteralPath $brsPath `
+      -Raw `
+      -ErrorAction Stop
+
+    if (-not $raw.Trim()) {
+      return
+    }
+
+    $parsed = $raw | ConvertFrom-Json -ErrorAction Stop
+
+    function __WalkBrsNode {
+      param(
+        [object]$Node,
+        [string[]]$PathStack
+      )
+
+      if ($Node -isnot [psobject]) {
+        return
+      }
+
+      foreach ($prop in $Node.PSObject.Properties) {
+
+        if ($prop.Name -eq 'arquivos') {
+
+          if ($prop.Value -isnot [System.Collections.IEnumerable]) {
+            continue
+          }
+
+          $systemName = $null
+
+          if ($PathStack.Count -gt 0) {
+            $systemName = $PathStack[-1].ToLowerInvariant()
+          }
+
+          if (-not $systemName) {
+            continue
+          }
+
+          if (-not $script:BrsIndex.ContainsKey($systemName)) {
+            $script:BrsIndex[$systemName] = @{}
+          }
+
+          foreach ($item in $prop.Value) {
+
+            if (-not ($item -is [string])) {
+              continue
+            }
+
+            $normalized = $item
+
+            $normalized = $normalized -replace '[\[\(\.].*$', ''
+            $normalized = $normalized.Trim().ToLowerInvariant()
+
+            if (-not $normalized) {
+              continue
+            }
+
+            $script:BrsIndex[$systemName][$normalized] = $true
+          }
+
+          continue
+        }
+
+        if ($prop.Value -is [psobject]) {
+
+          __WalkBrsNode `
+            -Node $prop.Value `
+            -PathStack ($PathStack + $prop.Name)
+        }
+      }
+    }
+
+    __WalkBrsNode `
+      -Node $parsed `
+      -PathStack @()
+  }
+  catch {
+    throw "brs.json inválido: $brsPath"
+  }
+}
+
+function Test-BrsTranslatedRom {
+  param(
+    [object]$Entry,
+    [string]$BaseName
+  )
+
+  if (-not $Entry) {
+    return $false
+  }
+
+  if (-not $BaseName) {
+    return $false
+  }
+
+  $relative = $Entry.Relative
+
+  if (-not $relative) {
+    return $false
+  }
+
+  $segments = $relative -split '[\\/]'
+
+  if ($segments.Count -lt 2) {
+    return $false
+  }
+
+  $systemName = $segments[0].ToLowerInvariant()
+
+  if (-not $script:BrsIndex.ContainsKey($systemName)) {
+    return $false
+  }
+
+  $lookup = $BaseName
+
+  $lookup = $lookup -replace '[\[\(\.].*$', ''
+  $lookup = $lookup.Trim().ToLowerInvariant()
+
+  if (-not $lookup) {
+    return $false
+  }
+
+  return $script:BrsIndex[$systemName].ContainsKey($lookup)
+}
 
 function Test-Portuguese {
   
@@ -1975,7 +2171,19 @@ function Get-CanonicalName {
   }
 
   # FIX-BUG: extrai idioma ANTES da sanitização estrutural
+  # FIX-BUG: extrai idioma ANTES da sanitização estrutural
   $idioma = Get-IdiomaSeguro $resolvedBase
+
+  # FIX-BUG: integração RFC 18 brs.json
+  if (
+    (-not $idioma) `
+      -and `
+    (Test-BrsTranslatedRom `
+        -Entry $Entry `
+        -BaseName $resolvedBase)
+  ) {
+    $idioma = '(BR)'
+  }
 
   if ($idioma) {
     $idioma = "(" + $idioma.Trim('()').ToUpperInvariant() + ")"
@@ -2075,7 +2283,7 @@ function Get-CanonicalName {
     ).Trim()
 
     if ($preferredIdioma) {
-      $base += " $preferredIdioma"
+      $base += " ($preferredIdioma)"
     }
 
     if ($id) {
@@ -2156,7 +2364,7 @@ function Get-CanonicalName {
     ).Trim()
 
     if ($preferredIdioma) {
-      $base += " $preferredIdioma"
+      $base += " ($preferredIdioma)"
     }
 
     if ($id) {
@@ -2201,6 +2409,26 @@ function Get-CanonicalName {
 
   # FIX-BUG: remove resíduos estruturais órfãos finais
   $base = $base.Trim(' ', '.', '-', '_')
+
+  # FIX-BUG: fail-safe estrutural de extensão RFC 4
+  if (
+    -not $parsed.Extensions `
+      -or `
+      $parsed.Extensions.Count -eq 0
+  ) {
+    return $null
+  }
+
+  foreach ($ext in $parsed.Extensions) {
+
+    if (
+      -not $ext `
+        -or `
+        -not $ext.Trim()
+    ) {
+      return $null
+    }
+  }  
 
   $newName = "$base.$($parsed.Extensions -join '.')"
 
@@ -2480,29 +2708,33 @@ function Format-DescriptionText {
     return $normalized
   }
 
-  $lower = $normalized.ToLowerInvariant()
-
-  $textInfo = [cultureinfo]::InvariantCulture.TextInfo
-
-  $formatted = $textInfo.ToTitleCase($lower)
-
-  # FIX-BUG: palavras conectivas permanecem minúsculas
-  $formatted = [regex]::Replace(
-    $formatted,
-    '\b(De|Da|Do|Das|Dos|E|Em|No|Na|Nos|Nas|Com|Para|Por|A|O|As|Os)\b',
-    {
-      param($m)
-      $m.Value.ToLowerInvariant()
-    }
+  # PROTECAO: evita destruir textos já corretamente formatados
+  $allUpper = (
+    $normalized -ceq $normalized.ToUpperInvariant()
   )
 
-  # FIX-BUG: garante primeira letra maiúscula
-  if ($formatted.Length -gt 0) {
-    $formatted = (
-      $formatted.Substring(0, 1).ToUpperInvariant() +
-      $formatted.Substring(1)
-    )
+  $allLower = (
+    $normalized -ceq $normalized.ToLowerInvariant()
+  )
+
+  if (-not $allUpper -and -not $allLower) {
+    return $normalized
   }
+
+  $lower = $normalized.ToLowerInvariant()
+
+  $formatted = [regex]::Replace(
+    $lower,
+    '(^|[.!?]\s+)(\p{L})',
+    {
+      param($m)
+
+      return (
+        $m.Groups[1].Value +
+        $m.Groups[2].Value.ToUpperInvariant()
+      )
+    }
+  )
 
   return $formatted.Trim()
 }
@@ -2567,6 +2799,8 @@ function main {
     Write-InlineLog "ℹ️ PIPELINE :: INITIALIZE" Cyan -forceNewLine
 
     Load-JsonTrees
+    Load-BrsIndexes
+    Initialize-BrsIndex
     Load-Gamelists
     Initialize-SharedFileIndex
     Resolve-XmlCorrelation
@@ -2829,12 +3063,23 @@ function main {
             $newFullPath
           )
 
+          # FIX-BUG: garante hash estrutural disponível RFC 2/RFC 11
+          if (-not $srcHash) {
+            $srcHash = Get-FileHashCached $newFullPath
+          }          
+
           # FIX-BUG: sincroniza JSON tree pós-rename RFC 2
           if (Test-IsSpecialJsonPath $oldFullPath) {
             Remove-JsonTreeEntry $oldFullPath
           }
 
           if (Test-IsSpecialJsonPath $newFullPath) {
+
+            # FIX-BUG: garante hash válido pós-rename
+            if (-not $srcHash) {
+              $srcHash = Get-FileHashCached $newFullPath
+            }
+
             Set-JsonTreeHashEntry `
               -FilePath $newFullPath `
               -Hash $srcHash
@@ -3143,6 +3388,7 @@ function main {
 
       Save-PendingXml
       Save-PendingJsonTrees
+      Save-PendingBrsIndexes
     }
 
     Write-InlineLog `
