@@ -21,6 +21,10 @@ roms/*/*.*
 !roms/**/gamelist.xml
 !roms/*/.gitkeep
 
+!roms/*/media/**/*.png
+!roms/*/media/**/*.jpg
+!roms/*/media/**/*.mp4
+
 # === Cache e Compilados ===__pycache__
 .ruff_cache
 
