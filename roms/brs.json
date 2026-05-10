@@ -70,5 +70,67 @@
       "Ganbare Goemon Yukihime Kyūshutsu Emaki",
       "Legend of Zelda, The - A Link to the Past"
     ]
+  },
+  "windows": {
+    "Blazing Chrome (BR) v28.09.2019": {
+      "arquivos": "Blazing Chrome"
+    },
+    "Blur (BR)": {
+      "arquivos": "Blur"
+    },
+    "Broforce (BR)": {
+      "arquivos": "BroforceC"
+    },
+    "Castle of Illusion (BR)": {
+      "arquivos": "Castle Of Illusion"
+    },
+    "Charlie Murder (BR)": {
+      "arquivos": "Charlie Murder"
+    },
+    "Crash Bandicoot N Sane Trilogy (BR)": {
+      "arquivos": "Crash Bandicoot N Sane Trilogy"
+    },
+    "Cuphead The Delicious Last Course (BR)": {
+      "arquivos": "Cuphead The Delicious Last Course"
+    },
+    "FightN Rage (BR)": {
+      "arquivos": "Fight N Rage"
+    },
+    "Guacamelee Super Turbo Championship Edition (BR)": {
+      "arquivos": "Guacamelee Super Turbo Championship Edition"
+    },
+    "Mayhem Brawler (BR)": {
+      "arquivos": "Mayhembrawler"
+    },
+    "Mortal Kombat Complete Edition (BR)": {
+      "arquivos": "Mortal Kombat Complete Edition"
+    },
+    "Mother Russia Bleeds (BR) v2.4.0.6": {
+      "arquivos": "Mother Russia Bleeds"
+    },
+    "Phantom Breaker Battle Grounds Ultimate (BR)": {
+      "arquivos": "Phantom Breaker Battle Grounds Ultimate"
+    },
+    "Rayman Origins (BR)": {
+      "arquivos": "Rayman Origins"
+    },
+    "Scott Pilgrim EX (BR)": {
+      "arquivos": "Scott Pilgrim Ex"
+    },
+    "Skullgirls 2nd Encore (BR)": {
+      "arquivos": "Skullgirls 2Nd Encore"
+    },
+    "Street Fighter X Tekken (BR)": {
+      "arquivos": "Street Fighter X Tekken"
+    },
+    "Streets of Rage 4 (BR)": {
+      "arquivos": "Streets Of Rage 4"
+    },
+    "Teenage Mutant Ninja Turtles - Shredders Revenge (BR)": {
+      "arquivos": "Teenage Mutant Ninja Turtles - Shredders"
+    },
+    "Tunic (BR)": {
+      "arquivos": "Tunic"
+    }
   }
 }
