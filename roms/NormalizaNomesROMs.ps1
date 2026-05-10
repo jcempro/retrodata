@@ -179,7 +179,7 @@
     - entrada JSON tree
     - arquivo .sha256 convencional
 
-  é a forma de armazenamento.
+    é a forma de armazenamento.
 
   A semântica operacional MUST permanecer equivalente.
 
@@ -221,16 +221,14 @@
     - filesystem
     - JSON tree correspondente
 
-  preservando consistência lógica bidirecional.
+    preservando consistência lógica bidirecional.
 
   JSON tree NÃO altera a hierarquia lógica do root ROM.
-
-  Ela representa apenas mecanismo virtual de consolidação
-  estrutural de hashes.
+    Ela representa apenas mecanismo virtual de consolidação
+    estrutural de hashes.
 
   JSON tree MUST ser tratada como estrutura derivada.
-
-  O filesystem real permanece a autoridade física primária.
+    O filesystem real permanece a autoridade física primária.
 
   ============================================================
   3. GAMELIST.XML
@@ -418,14 +416,14 @@
   5. PROCESSAMENTO DE IDIOMA
   ============================================================
 
-  5.0 Identificar se ROM consta como traudção em ./brs.json
-      (formado e regras no item 18.)
+  5.0 Identificar ROMs tradudizadas atraves de./brs.json
+      (formato e regras no item 18.)
 
-      Se o nome da ROM (para um sistema/diretório específico) constar como traduzido:
+      Se o nome da ROM (para um <sistema> específico) constar como traduzido:
 
       - MUST preferir BR
-      - MUST adicionar `br` à tag <lang>, caso já não exista
-      - MUST adicionar `(BR)` ao filename, incluindo arquivo .sha256
+      - MUST adicionar `br` à tag <lang>, caso já não exista, conforme regra específica
+      - MUST adicionar ` (BR)` ao filename, incluindo arquivo .sha256
         caso já não esteja presente
 
   5.1 Extração
@@ -741,7 +739,7 @@
   ou equivalente (BR) no filename.
 
   Deve-se, usá-lo para buscar pelo nome do JOGO, limidado pelo diretório
-  que identifica o sistema.
+  que identifica o sistema.  
 
   formato:
 
@@ -764,6 +762,7 @@
           - sem extensão
           - truncado antes do primeiro:
               "[" ou "(" ou "."
+      * cusca insensitive-case
 
 [REGRAS DE CONTEXTO GLOBAL]
 
