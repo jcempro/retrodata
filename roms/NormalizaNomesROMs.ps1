@@ -237,6 +237,15 @@
   ROM é qualquer arquivo cujo conjunto de extensões encadeadas
   resulte em extensão final válida de conteúdo executável/emulável.
 
+  - Gamelist.xml deve ter a sintaxe preservada;
+  - deve ter edição e estrutura ediutada com segurança;
+  - não pode ser corrompido;
+  - cada edição de tag deve ser fail-safe com fallback para valor anterior;
+  - manter compatibilidade com o batocera e não quebrar a estrutura
+  - não editar tags e valores fora da tag <game>
+  - manter e preservar identaçÃo usando espaços: 2
+  - remoção de dados, quando necessária, segura (garantia de que atende deduplicação e preservação)
+
   Exemplos válidos:
     game.sfc
     game.sfc.7z
@@ -361,11 +370,20 @@
     - MUST NOT existir múltiplas entradas <game>
       apontando para o mesmo <path>
 
-    - Em caso de duplicidade:
-        * MUST detectar
-        * MUST logar WARN/ERROR
-        * MUST consolidar deterministicamente
-        * MUST preservar apenas uma entrada válida
+      - Em caso de duplicidade:
+          * MUST detectar
+          * MUST logar WARN/ERROR
+          * MUST consolidar deterministicamente
+          * MUST preservar apenas uma entrada válida
+
+    - MUST NOT existir múltiplas entradas <game>
+      com o mesmo valor de subtag <name>
+
+      - em caso de duplicidade:
+          * MUST detectar
+          * MUST logar WARN/ERROR
+          * MUST consolidar deterministicamente (aquela com <path> válido)
+          * MUST preservar apenas uma entrada válida
 
   3.6 Direcionalidade
     - PRIMARY:
@@ -477,37 +495,54 @@
         antes da extensão
 
   ============================================================
-  7. NORMALIZAÇÃO DO BASENAME
+  7. NORMALIZAÇÃO DO BASENAME e DESCRI
   ============================================================
   
-  MUST:
-    - remover conteúdos inválidos
-    - aplicar TitleCase invariável
-    - preservar extensão
-    - preservar numerais romanos válidos
-    - numerais romanos MUST ser uppercase
-    - corrigir artigos invertidos
-    - remover tags irrelevantes
-    - preservar localidades válidas
-    - conversão de artigos invertidos MUST NOT ocorrer
-      quando houver hífen estrutural no basename
-    - remover sufixo irrelevante:
-        " - The Videogame" e equivalente (com cautela)
+  [BASENAME]
+    
+    MUST:
+      - remover conteúdos inválidos
+      - aplicar TitleCase invariável
+      - preservar extensão
+      - preservar numerais romanos válidos
+      - numerais romanos MUST ser uppercase
+      - corrigir artigos invertidos
+      - remover tags irrelevantes
+      - preservar localidades válidas
+      - conversão de artigos invertidos MUST NOT ocorrer
+        quando houver hífen estrutural no basename
+      - remover sufixo irrelevante:
+          " - The Videogame" e equivalente (com cautela)
 
-  MUST remover:
-    - Beta
-    - Rev
-    - Build
-    - Proto
-    - Demo
-    - Sample
-    - Rev
-    - versões técnicas (T1.01, Rev 1, ...)
-    - numeração irrelevante
-    - Qualquer outra coisa entre parênteses que não seja idioma
+    MUST remover:
+      - Beta
+      - Rev
+      - Build
+      - Proto
+      - Demo
+      - Sample
+      - Rev
+      - versões técnicas (T1.01, Rev 1, ...)
+      - numeração irrelevante
+      - Qualquer outra coisa entre parênteses que não seja idioma
 
-  Formas:
-    - "(BR-XX)" MUST ser preservado integralmente
+    Formas:
+      - "(BR-XX)" MUST ser preservado integralmente
+
+  [DESCRI]
+
+      A tag <descri> do xml NÃO pode estar todo em uppercase
+      ou lowercase, devendo seguir um padrão adequado de
+      texto:
+
+        - Primeirta letra da uma frase: maiúsla;
+        - Nomes próprios cm a primeira em maiúsculas;
+        - Demais letras em minúsculas.
+
+      A excução e ajuste deve ocorrer idenpendetemente de haver
+      necessidade de traudção, mas apenas após aquela etapa.
+
+      Deve ser segura, sem estragar/quebrar o texto.      
 
   ============================================================
   8. EXTENSÕES
