@@ -5,25 +5,6 @@
     <software>ARRM</software>
     <web>http://jujuvincebros.fr/wiki/arrm/doku.php</web>
   </provider>
-  <game id="283648">
-    <path>./Charlie Murder (BR)/Charlie Murder (BR).pc</path>
-    <name>CHARLIE MURDER (BR)</name>
-    <mode>Multijogador cooperativo</mode>
-    <desc>CHARLIE MURDER É UM BEAT 'EM UP, O JOGADOR CONTROLA CINCO PERSONAGENS DIFERENTES, TODOS MEMBROS DA BANDA DE ROCK CHARLIE MURDER. OS MEMBROS SÃO : SKELEKITTEN, LESTER DETH, TOMMY HOMICIDE, THE REXICUTIONER, E O PRÓPRIO CHARLIE MURDER.
-DEPOIS QUE CHARLIE EXPULSOU PAUL, ELE FORMOU SUA PRÓPRIA BANDA, GORE QUAFFER. PAUL, AGORA COM O NOME DE LORD MORTIMER, COMEÇA A TRABALHAR COM UM DEMÔNIO PARA CRIAR UM EXÉRCITO PARA DESTRUIR O GRUPO CHARLIE MURDER.
-OS CINCO PERSONAGENS JOGÁVEIS ​​TÊM HABILIDADES DIFERENTES, PRINCIPALMENTE DEVIDO À SUA ANAR-CHI, UMA HABILIDADE MÁGICA ESPECIAL. O JOGO APRESENTA MUITOS CHEFES E MINI-CHEFES DIFERENTES, BEM COMO TODOS OS TIPOS DE INIMIGOS PADRÃO COMO ZUMBIS, TUBARÕES, YETIS E BRUXAS.
-O JOGO INCLUI NÍVEIS NORMAIS DE COMBATE, MINI-JOGOS E VÁRIOS NÍVEIS ESPECIAIS (ONDE O JOGADOR PODE DIRIGIR E VOAR).</desc>
-    <releasedate>20170512T000000</releasedate>
-    <developer>SKA STUDIOS</developer>
-    <publisher>SKA STUDIOS</publisher>
-    <genre>BRIGA DE RUA</genre>
-    <genreid>263</genreid>
-    <players>1-4</players>
-    <adult>true</adult>
-    <video>./media/videos/Charlie Murder (BR)-video.mp4</video>
-    <screenshot>./media/screenshots/Charlie Murder (BR)-screenshot.jpg</screenshot>
-    <fanart>./media/fanart/Charlie Murder (BR)-fanart.jpg</fanart>
-  </game>
   <game>
     <path>./Scott Pilgrim EX (BR)/Scott Pilgrim Ex (BR).pc</path>
     <name>SCOTT PILGRIM EX (BR)</name>
@@ -135,6 +116,26 @@ ESTE É UM JOGO DE PLATAFORMA SIDE-SCROLLING EM QUE MICKEY SALTA SOBRE OBSTÁCUL
     <fanart>./media/fanart/Castle Of Illusion (BR)-fanart.jpg</fanart>
     <titleshot>./media/image/Castle Of Illusion (BR)-titleshot.jpg</titleshot>
     <extra1>./media/extras/Castle Of Illusion (BR)-extra1.png</extra1>
+  </game>
+  <game id="283648">
+    <path>./Charlie Murder (BR)/Charlie Murder (BR).pc</path>
+    <name>CHARLIE MURDER (BR)</name>
+    <mode>Multijogador cooperativo</mode>
+    <desc>CHARLIE MURDER É UM BEAT 'EM UP, O JOGADOR CONTROLA CINCO PERSONAGENS DIFERENTES, TODOS MEMBROS DA BANDA DE ROCK CHARLIE MURDER. OS MEMBROS SÃO : SKELEKITTEN, LESTER DETH, TOMMY HOMICIDE, THE REXICUTIONER, E O PRÓPRIO CHARLIE MURDER.
+DEPOIS QUE CHARLIE EXPULSOU PAUL, ELE FORMOU SUA PRÓPRIA BANDA, GORE QUAFFER. PAUL, AGORA COM O NOME DE LORD MORTIMER, COMEÇA A TRABALHAR COM UM DEMÔNIO PARA CRIAR UM EXÉRCITO PARA DESTRUIR O GRUPO CHARLIE MURDER.
+OS CINCO PERSONAGENS JOGÁVEIS ​​TÊM HABILIDADES DIFERENTES, PRINCIPALMENTE DEVIDO À SUA ANAR-CHI, UMA HABILIDADE MÁGICA ESPECIAL. O JOGO APRESENTA MUITOS CHEFES E MINI-CHEFES DIFERENTES, BEM COMO TODOS OS TIPOS DE INIMIGOS PADRÃO COMO ZUMBIS, TUBARÕES, YETIS E BRUXAS.
+O JOGO INCLUI NÍVEIS NORMAIS DE COMBATE, MINI-JOGOS E VÁRIOS NÍVEIS ESPECIAIS (ONDE O JOGADOR PODE DIRIGIR E VOAR).</desc>
+    <releasedate>20170512T000000</releasedate>
+    <developer>SKA STUDIOS</developer>
+    <publisher>SKA STUDIOS</publisher>
+    <genre>BRIGA DE RUA</genre>
+    <genreid>263</genreid>
+    <players>1-4</players>
+    <adult>true</adult>
+    <image>./media/image/Charlie Murder (BR)-image.png</image>
+    <video>./media/videos/Charlie Murder (BR)-video.mp4</video>
+    <screenshot>./media/screenshots/Charlie Murder (BR)-screenshot.jpg</screenshot>
+    <fanart>./media/fanart/Charlie Murder (BR)-fanart.jpg</fanart>
   </game>
   <game id="286680">
     <path>./Crash Bandicoot N Sane Trilogy (BR)/Crash Bandicoot N Sane Trilogy (BR).pc</path>
@@ -308,6 +309,7 @@ LUTE SOZINHO OU AO LADO DOS SEUS AMIGOS NUM MODO DE HISTÓRIA ÚNICO, OU ASSUMA 
     <wheel>./media/image/Phantom Breaker - Battle Grounds Ultimate (BR)-wheel.png</wheel>
     <boxart>./media/image/Phantom Breaker - Battle Grounds Ultimate (BR)-boxart.jpg</boxart>
     <screenshot>./media/screenshots/Phantom Breaker - Battle Grounds Ultimate (BR)-screenshot.jpg</screenshot>
+    <mix>./media/image/Phantom Breaker - Battle Grounds Ultimate (BR)-image.png</mix>
     <fanart>./media/fanart/Phantom Breaker - Battle Grounds Ultimate (BR)-fanart.jpg</fanart>
   </game>
   <game id="330850">
