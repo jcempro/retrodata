@@ -5,22 +5,6 @@
     <software>ARRM</software>
     <web>http://jujuvincebros.fr/wiki/arrm/doku.php</web>
   </provider>
-  <game>
-    <path>./Scott Pilgrim EX (BR)/Scott Pilgrim Ex (BR).pc</path>
-    <name>SCOTT PILGRIM EX (BR)</name>
-    <desc>JUNTE-SE A SCOTT PILGRIM E RAMONA FLOWERS EM UMA NOVA AVENTURA DE LUTA PELO ESPAÇO, TEMPO E PELAS RUAS DE TORONTO!  
-TORONTO, 20XX. A CIDADE FOI TOMADA POR TRÊS GANGUES RIVAIS - OS VEGANOS, OS ROBÔS E OS DEMÔNIOS. MAS QUEM ESTÁ POR TRÁS DESSA LOUCURA? QUANDO OS COMPANHEIROS DE BANDA DE SCOTT PILGRIM SÃO SEQUESTRADOS POR FORÇAS SOMBRIAS, UMA NOVA AVENTURA COMEÇA!
-SCOTT PILGRIM EX É UM JOGO DE AÇÃO E AVENTURA ONDE OS JOGADORES PODEM LUTAR COMO SCOTT PILGRIM, RAMONA FLOWERS E MUITO MAIS ENQUANTO LUTAM NO TEMPO E ESPAÇO FRAGMENTADOS DE TORONTO. A JOGABILIDADE DE COMBATE É IMPULSIONADA PELO INSTINTO E PELA IMPROVISAÇÃO - UM BALÉ FRENÉTICO DE PUNHOS E TALENTO QUE RECOMPENSA A ESTRATÉGIA, A ESPONTANEIDADE E UM POUCO DE CAOS VIOLENTO. COMBINE COMBOS ELEGANTES, EXPERIMENTE ARMAS MALUCAS E LIBERE ATAQUES ESPECIAIS EXAGERADOS. OS PERSONAGENS PODEM SER ATUALIZADOS COM EMBLEMAS ESPECIAIS QUE MELHORAM SUAS ESTATÍSTICAS E CONCEDEM BÔNUS ESPECIAIS. OS JOGADORES IRÃO EXPLORAR UMA CIDADE INTEIRA DE NÍVEIS INTERCONECTADOS PARA CONHECER ROSTOS NOVOS E ANTIGOS, COMPLETAR MISSÕES E DESCOBRIR ÁREAS ESCONDIDAS. O MODO COOPERATIVO MULTIJOGADOR, LOCAL OU ONLINE, PERMITE QUE ATÉ QUATRO JOGADORES PARTICIPEM DA AÇÃO, TORNANDO-A UMA EXPERIÊNCIA DIVERTIDA E DINÂMICA.</desc>
-    <rating>0.80</rating>
-    <developer>TRIBUTE GAMES</developer>
-    <publisher>TRIBUTE GAMES</publisher>
-    <genre>BEAT 'EM UP</genre>
-    <genreid>0</genreid>
-    <players>4</players>
-    <video>./media/videos/Scott Pilgrim Ex (BR)-video.mp4</video>
-    <screenshot>./media/screenshots/Scott Pilgrim Ex (BR)-screenshot.jpg</screenshot>
-    <fanart>./media/fanart/Scott Pilgrim Ex (BR)-fanart.jpg</fanart>
-  </game>
   <game id="251501">
     <path>./Blazing Chrome (BR) v28.09.2019/Blazing Chrome (BR).pc</path>
     <name>BLAZING CHROME (BR)</name>
@@ -135,7 +119,9 @@ O JOGO INCLUI NÍVEIS NORMAIS DE COMBATE, MINI-JOGOS E VÁRIOS NÍVEIS ESPECIAIS
     <image>./media/image/Charlie Murder (BR)-image.png</image>
     <video>./media/videos/Charlie Murder (BR)-video.mp4</video>
     <screenshot>./media/screenshots/Charlie Murder (BR)-screenshot.jpg</screenshot>
+    <mix>./media/image/Charlie Murder (BR)-image.png</mix>
     <fanart>./media/fanart/Charlie Murder (BR)-fanart.jpg</fanart>
+    <extra1>./media/extras/Charlie Murder (BR)-extra1.png</extra1>
   </game>
   <game id="286680">
     <path>./Crash Bandicoot N Sane Trilogy (BR)/Crash Bandicoot N Sane Trilogy (BR).pc</path>
@@ -332,6 +318,24 @@ LUTE SOZINHO OU AO LADO DOS SEUS AMIGOS NUM MODO DE HISTÓRIA ÚNICO, OU ASSUMA 
     <manual>./media/manuals/Rayman Origins (BR)_(us).pdf</manual>
     <extra1>./media/extras/Rayman Origins (BR)-extra1.png</extra1>
   </game>
+  <game>
+    <path>./Scott Pilgrim EX (BR)/Scott Pilgrim Ex (BR).pc</path>
+    <name>SCOTT PILGRIM EX (BR)</name>
+    <desc>JUNTE-SE A SCOTT PILGRIM E RAMONA FLOWERS EM UMA NOVA AVENTURA DE LUTA PELO ESPAÇO, TEMPO E PELAS RUAS DE TORONTO!  
+TORONTO, 20XX. A CIDADE FOI TOMADA POR TRÊS GANGUES RIVAIS - OS VEGANOS, OS ROBÔS E OS DEMÔNIOS. MAS QUEM ESTÁ POR TRÁS DESSA LOUCURA? QUANDO OS COMPANHEIROS DE BANDA DE SCOTT PILGRIM SÃO SEQUESTRADOS POR FORÇAS SOMBRIAS, UMA NOVA AVENTURA COMEÇA!
+SCOTT PILGRIM EX É UM JOGO DE AÇÃO E AVENTURA ONDE OS JOGADORES PODEM LUTAR COMO SCOTT PILGRIM, RAMONA FLOWERS E MUITO MAIS ENQUANTO LUTAM NO TEMPO E ESPAÇO FRAGMENTADOS DE TORONTO. A JOGABILIDADE DE COMBATE É IMPULSIONADA PELO INSTINTO E PELA IMPROVISAÇÃO - UM BALÉ FRENÉTICO DE PUNHOS E TALENTO QUE RECOMPENSA A ESTRATÉGIA, A ESPONTANEIDADE E UM POUCO DE CAOS VIOLENTO. COMBINE COMBOS ELEGANTES, EXPERIMENTE ARMAS MALUCAS E LIBERE ATAQUES ESPECIAIS EXAGERADOS. OS PERSONAGENS PODEM SER ATUALIZADOS COM EMBLEMAS ESPECIAIS QUE MELHORAM SUAS ESTATÍSTICAS E CONCEDEM BÔNUS ESPECIAIS. OS JOGADORES IRÃO EXPLORAR UMA CIDADE INTEIRA DE NÍVEIS INTERCONECTADOS PARA CONHECER ROSTOS NOVOS E ANTIGOS, COMPLETAR MISSÕES E DESCOBRIR ÁREAS ESCONDIDAS. O MODO COOPERATIVO MULTIJOGADOR, LOCAL OU ONLINE, PERMITE QUE ATÉ QUATRO JOGADORES PARTICIPEM DA AÇÃO, TORNANDO-A UMA EXPERIÊNCIA DIVERTIDA E DINÂMICA.</desc>
+    <rating>0.80</rating>
+    <developer>TRIBUTE GAMES</developer>
+    <publisher>TRIBUTE GAMES</publisher>
+    <genre>BEAT 'EM UP</genre>
+    <genreid>0</genreid>
+    <players>4</players>
+    <image>./media/image/Scott Pilgrim Ex (BR)-image.png</image>
+    <video>./media/videos/Scott Pilgrim Ex (BR)-video.mp4</video>
+    <screenshot>./media/screenshots/Scott Pilgrim Ex (BR)-screenshot.jpg</screenshot>
+    <fanart>./media/fanart/Scott Pilgrim Ex (BR)-fanart.jpg</fanart>
+    <extra1>./media/extras/Scott Pilgrim Ex (BR)-extra1.png</extra1>
+  </game>
   <game id="337076">
     <path>./Shank 2 (USA)/Shank 2.pc</path>
     <name>SHANK 2</name>
@@ -466,6 +470,7 @@ TENHA CORAGEM, PEQUENO! - MERGULHE EM COMBATES TÉCNICOS VARIADOS. DESVIE, BLOQU
     <genreid>0</genreid>
     <players>2</players>
     <image>./media/image/Wulverblade (USA)-image.png</image>
+    <video>./media/videos/Wulverblade (USA)-video.mp4</video>
     <marquee>./media/image/Wulverblade (USA)-marquee.png</marquee>
     <wheel>./media/image/Wulverblade (USA)-wheel.png</wheel>
     <screenshot>./media/screenshots/Wulverblade (USA)-screenshot.jpg</screenshot>
