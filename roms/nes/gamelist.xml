@@ -1,2 +1,674 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<gameList />
+<gameList>
+  <provider>
+    <system>nes</system>
+    <software>ARRM</software>
+    <web>http://jujuvincebros.fr/wiki/arrm/doku.php</web>
+  </provider>
+  <game id="1499">
+    <path>./Adventures of Lolo 3 (BR).nes.7z</path>
+    <name>ADVENTURES OF LOLO 3 (BR).NES</name>
+    <desc>DESTA VEZ, LOLO TEM UM AMIGO VERMELHO QUE FARÁ POR ELE PARTE DO TRABALHO. AO CONTRÁRIO DOS DOIS JOGOS LOLO ANTERIORES, AQUI VOCÊ PODE PASSEAR POR UM MAPA DO MUNDO E ENTRAR EM DIFERENTES LOCAIS DE MANEIRA NÃO LINEAR. NO ENTANTO, ALGUNS DOS LOCAIS PERMANECEM BLOQUEADOS ATÉ QUE VOCÊ ENCONTRE UMA CHAVE APÓS CONCLUIR OUTRO NÍVEL.
+A JOGABILIDADE É MUITO PARECIDA COM A DOS DOIS JOGOS ANTERIORES. VOCÊ TEM QUE COLETAR TODOS OS CORAÇÕES EM CADA QUARTO. OS INIMIGOS O IMPEDIRÃO DE FAZER ISSO, E OUTROS APARECERÃO DEPOIS QUE VOCÊ COMER TODOS OS CORAÇÕES E ESTIVER CORRENDO PARA A SAÍDA. OS QUEBRA-CABEÇAS ENVOLVEM PRINCIPALMENTE EMPURRAR COISAS PARA IMPEDIR QUE OS INIMIGOS O PAREM.</desc>
+    <rating>0.60</rating>
+    <releasedate>19920527T000000</releasedate>
+    <developer>HAL LABORATORY</developer>
+    <publisher>HAL LABORATORY</publisher>
+    <genre>QUEBRA-CABEÇAS, ESTRATÉGIA</genre>
+    <genreid>2816</genreid>
+    <players>1</players>
+    <md5>af72b41eabb176bc9d892b2fc224c395</md5>
+    <hash>279445FA</hash>
+    <region>eu</region>
+    <lang>en</lang>
+    <image>./media/image/Adventures of Lolo 3 (BR).nes-image.png</image>
+    <video>./media/videos/Adventures of Lolo 3 (BR).nes-video.mp4</video>
+    <marquee>./media/image/Adventures of Lolo 3 (BR).nes-marquee.png</marquee>
+    <wheel>./media/image/Adventures of Lolo 3 (BR).nes-wheel.png</wheel>
+    <boxart>./media/image/Adventures of Lolo 3 (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/Adventures of Lolo 3 (BR).nes-screenshot.png</screenshot>
+    <cartridge>./media/image/Adventures of Lolo 3 (BR).nes-cartridge.png</cartridge>
+    <fanart>./media/fanart/Adventures of Lolo 3 (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/Adventures of Lolo 3 (BR).nes-titleshot.png</titleshot>
+    <manual>./media/manuals/Adventures of Lolo 3 (BR).nes_(us).pdf</manual>
+    <boxback>./media/image/Adventures of Lolo 3 (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/Adventures of Lolo 3 (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/Adventures of Lolo 3 (BR).nes-bezel.png</bezel>
+  </game>
+  <game id="1287">
+    <path>./Batman - The Video Game (BR).nes.7z</path>
+    <name>BATMAN - THE VIDEO GAME (BR).NES</name>
+    <desc>A VERSÃO NES DE BATMAN: THE VIDEO GAME É VAGAMENTE BASEADA NO FILME DE 1989. É UM JOGO DE SIDE-SCROLLING, COM UM BATMAN AZUL VESTIDO COMBATENDO INIMIGOS COMO ROBÔS, SOLDADOS CHEIOS DE JET, NINJAS E MUTANTES.
+O JOGO CONSISTE EM CINCO NÍVEIS RELACIONADOS AO FILME: GOTHAM CITY (COM KILLER MOTH COMO CHEFE FINAL), AXIS CHEMICAL FACTORY (COM O MACHINE INTELLIGENCE SYSTEM COMO CHEFE), UNDERGROUND CONDUIT (COM O ELECTROCUTIONER COMO CHEFE), O LABORATORY RUINS ( O DUAL-CONTAINER ALARM COMO BOSS) E A GOTHAM'S CATHEDRAL (COM FIREBUG COMO BOSS) ONDE BATMAN FINALMENTE ENFRENTA O CURINGA. ANTES DE CADA NÍVEL, UMA CENA COM CENAS DO FILME É EXIBIDA.
+ALÉM DE SEUS SOCOS SEMPRE CONFIÁVEIS, BATMAN TEM MUITAS ARMAS EM SEU CINTO DE UTILIDADES: O BATARANG, O SPEAR GUN E O DIRK (UMA ARMA DE TRÊS DIREÇÕES). BATMAN TEM UM CONTADOR DE MUNIÇÃO COMPARTILHADO PELAS TRÊS ARMAS. O BATARANG LANÇA UMA MUNIÇÃO POR TIRO, A LANÇA LANÇA DUAS MUNIÇÃO E O DIRK, TRÊS. O BATMAN TAMBÉM TEM UMA BARRA DE VIDA DE OITO GOLPES, QUE PODE SER REABASTECIDA COLETANDO CORAÇÕES DERRUBADOS POR INIMIGOS MORTOS. OS INIMIGOS TAMBÉM DROPAM ITENS DE MUNIÇÃO (10 MUNIÇÃO POR ITEM) E ITENS DE BÔNUS (QUE SOMAM APENAS PONTOS).
+O BATMAN TAMBÉM PODE REALIZAR UM "SALTO NA PAREDE": ELE VAI PEGAR UMA PAREDE AO PULAR EM DIREÇÃO A ELA, PERMITINDO-LHE ESCALAR ALGUMAS PASSAGENS ESTREITAS. BATMAN TEM TRÊS VIDAS E CONTINUA ILIMITADO.</desc>
+    <rating>0.80</rating>
+    <releasedate>19900914T000000</releasedate>
+    <developer>SUNSOFT</developer>
+    <publisher>SUNSOFT</publisher>
+    <genre>PLATAFORMA</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <md5>f35dc5de47d8a3e5a015d52736023032</md5>
+    <hash>A0C72346</hash>
+    <region>eu</region>
+    <image>./media/image/Batman - The Video Game (BR).nes-image.png</image>
+    <video>./media/videos/Batman - The Video Game (BR).nes-video.mp4</video>
+    <boxart>./media/image/Batman - The Video Game (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/Batman - The Video Game (BR).nes-screenshot.png</screenshot>
+    <fanart>./media/fanart/Batman - The Video Game (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/Batman - The Video Game (BR).nes-titleshot.png</titleshot>
+    <manual>./media/manuals/Batman - The Video Game (BR).nes_(us).pdf</manual>
+    <boxback>./media/image/Batman - The Video Game (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/Batman - The Video Game (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/Batman - The Video Game (BR).nes-bezel.png</bezel>
+  </game>
+  <game id="1324">
+    <path>./Bionic Commando (BR).nes.7z</path>
+    <name>BIONIC COMMANDO (BR).NES</name>
+    <desc>POR DOIS ANOS, SEU POVO LUTOU CONTRA O ATAQUE IMPLACÁVEL DAS FORÇAS INVASORAS. COM SEU EXÉRCITO REDUZIDO A UM PUNHADO E SUA ARTILHARIA ESGOTADA, MANTER A RESISTÊNCIA PARECIA IMPOSSÍVEL. MAS EM UM LABORATÓRIO SUBTERRÂNEO OCULTO, UMA EQUIPE DE CIENTISTAS FINALMENTE APERFEIÇOOU UM NOVO TIPO DE MECANISMO DE COMBATE: UM BRAÇO BIÔNICO QUE SE ESTENDE E CONTRAI, FORNECENDO FORÇA E MANOBRABILIDADE SEM PRECEDENTES. COMBINADO COM UM ARSENAL DE ARMAS DE FOGO RÁPIDO, PERFURADORAS DE ARMADURAS E DE BUSCA DE CALOR, ISSO COLOCARÁ O PODER DE UM EXÉRCITO INTEIRO NAS MÃOS DE UM HOMEM ... UM SOLDADO CUIDADOSAMENTE ESCOLHIDO, QUE TEM O QUE É PRECISO PARA SE TORNAR UMA NOVA RAÇA DE COMBATENTE IMPARÁVEL ... UM COMANDO BIÔNICO. E VOCÊ É ESSE SOLDADO! SUA MISSÃO O LEVARÁ ATRAVÉS DO DESERTO FORTEMENTE PATRULHADO EM TORNO DO QUARTEL-GENERAL INIMIGO E ATÉ O CORAÇÃO DA PRÓPRIA FORTALEZA. MESMO PARA O SOLDADO MAIS CORAJOSO, ISSO PARECERIA UM DESAFIO IMPOSSÍVEL. MAS NUNCA HOUVE UM SOLDADO COMO O COMANDO BIÔNICO!</desc>
+    <rating>0.80</rating>
+    <releasedate>19901026T000000</releasedate>
+    <developer>CAPCOM</developer>
+    <publisher>CAPCOM</publisher>
+    <genre>PLATAFORMA / TIRO COM ROLAGEM, PLATAFORMA</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <md5>a804752044fc369fbe8c0ccb60a3f62e</md5>
+    <hash>126DA795</hash>
+    <region>eu</region>
+    <image>./media/image/Bionic Commando (BR).nes-image.png</image>
+    <video>./media/videos/Bionic Commando (BR).nes-video.mp4</video>
+    <marquee>./media/image/Bionic Commando (BR).nes-marquee.png</marquee>
+    <wheel>./media/image/Bionic Commando (BR).nes-wheel.png</wheel>
+    <boxart>./media/image/Bionic Commando (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/Bionic Commando (BR).nes-screenshot.png</screenshot>
+    <cartridge>./media/image/Bionic Commando (BR).nes-cartridge.png</cartridge>
+    <fanart>./media/fanart/Bionic Commando (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/Bionic Commando (BR).nes-titleshot.png</titleshot>
+    <manual>./media/manuals/Bionic Commando (BR).nes_(us).pdf</manual>
+    <boxback>./media/image/Bionic Commando (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/Bionic Commando (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/Bionic Commando (BR).nes-bezel.png</bezel>
+  </game>
+  <game id="1474">
+    <path>./Blaster Master (BR).nes.7z</path>
+    <name>BLASTER MASTER (BR).NES</name>
+    <desc>EM BUSCA DE SEU SAPO FRED QUE FUGIU, CAIU EM UM BURACO NO QUINTAL E SE TORNOU RADIOATIVO, JASON ENCONTRA-SE NO CENTRO DO PLANETA. LÁ ELE ENCONTRA UM TANQUE DE BATALHA TOTALMENTE FUNCIONAL CHAMADO SOPHIA THE 3RD, E VAI SE AVENTURAR PELO SUBSOLO. AGORA SUA MISSÃO É ENCONTRAR NOVAS ARMAS E PARTES ADICIONAIS PARA MELHORAR SOPHIA QUE, POR SUA VEZ, PERMITIRÃO QUE ELE EXPLORE MAIS ÁREAS, DERROTANDO OS MAIS VARIADOS MUTANTES E SEU LÍDER, PLUTONIUM BOSS, ATÉ QUE FINALMENTE ENCONTRE SEU SAPO MUTANTE.</desc>
+    <rating>0.60</rating>
+    <releasedate>19910425T000000</releasedate>
+    <developer>SUNSOFT</developer>
+    <publisher>SUNSOFT</publisher>
+    <genre>PLATAFORMA</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <md5>6a8530ebe9ec7d845445ba6c3471d5bb</md5>
+    <hash>E01025F9</hash>
+    <region>eu</region>
+    <image>./media/image/Blaster Master (BR).nes-image.png</image>
+    <video>./media/videos/Blaster Master (BR).nes-video.mp4</video>
+    <boxart>./media/image/Blaster Master (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/Blaster Master (BR).nes-screenshot.png</screenshot>
+    <cartridge>./media/image/Blaster Master (BR).nes-cartridge.png</cartridge>
+    <fanart>./media/fanart/Blaster Master (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/Blaster Master (BR).nes-titleshot.png</titleshot>
+    <manual>./media/manuals/Blaster Master (BR).nes_(us).pdf</manual>
+    <boxback>./media/image/Blaster Master (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/Blaster Master (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/Blaster Master (BR).nes-bezel.png</bezel>
+  </game>
+  <game id="1510">
+    <path>./Bucky O'Hare (BR).nes.7z</path>
+    <name>BUCKY O'HARE (BR).NES</name>
+    <desc>CAPITÃO BUCKY O'HARE E SUA LEAL TRIPULAÇÃO; BLINKY, DEADEYE, JENNY E WILLY, LUTAM PARA SALVAR O ANIVERSE DO FLAGELO DA ARMADA DE SAPO. ISSO É ATÉ O NAVIO DE BUCKY SER ATACADO E SUA TRIPULAÇÃO FEITA PRISIONEIRA. AGORA UM COELHO SOLITÁRIO EM UMA MISSÃO, BUCKY DEVE LUTAR PARA RESGATAR SEUS CAMARADAS DE QUATRO PLANETAS HOSTIS E DEPOIS CONFRONTAR O AIR MARSHALL EM SUA CAPITÂNIA.
+BUCK O'HARE É UM JOGO DE ROLAGEM LATERAL BASEADO NO DESENHO ANIMADO COM O MESMO NOME. AS PRINCIPAIS HABILIDADES DE BUCKY SÃO UM SALTO E UMA ARMA BLASTER, QUE ELE PODE CARREGAR PARA DAR UM SALTO AINDA MAIS PODEROSO. AS BARRAS LIFE E WEAPON SÃO EXIBIDAS NA PARTE INFERIOR DA TELA. BUCKY PODE OBTER NOVAS ARMAS AO LONGO DO JOGO DOS MEMBROS DE SUA TRIPULAÇÃO.</desc>
+    <rating>0.60</rating>
+    <releasedate>19930218T000000</releasedate>
+    <developer>KONAMI</developer>
+    <publisher>PALCOM</publisher>
+    <genre>PLATAFORMA</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <md5>75fe5b64457716c30b73a00a8173ede3</md5>
+    <hash>9EB5E571</hash>
+    <region>eu</region>
+    <image>./media/image/Bucky O'Hare (BR).nes-image.png</image>
+    <video>./media/videos/Bucky O'Hare (BR).nes-video.mp4</video>
+    <boxart>./media/image/Bucky O'Hare (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/Bucky O'Hare (BR).nes-screenshot.png</screenshot>
+    <cartridge>./media/image/Bucky O'Hare (BR).nes-cartridge.png</cartridge>
+    <fanart>./media/fanart/Bucky O'Hare (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/Bucky O'Hare (BR).nes-titleshot.png</titleshot>
+    <manual>./media/manuals/Bucky O'Hare (BR).nes_(us).pdf</manual>
+    <boxback>./media/image/Bucky O'Hare (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/Bucky O'Hare (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/Bucky O'Hare (BR).nes-bezel.png</bezel>
+  </game>
+  <game id="1268">
+    <path>./Castlevania (BR).nes.7z</path>
+    <name>CASTLEVANIA (BR).NES</name>
+    <desc>A CADA CEM ANOS, O VAMPIRO SOMBRIO CONHECIDO COMO DRÁCULA RESSUSCITA E ATERRORIZA A TERRA. UM CAÇADOR DE VAMPIROS CHAMADO SIMON BELMONT BRAVAMENTE SE AVENTURA NA MANSÃO DO CONDE PARA DERROTÁ-LO. AO LONGO DO CAMINHO ELE TERÁ QUE DERROTAR ESQUELETOS, MORCEGOS, HOMENS-PEIXE, CABEÇAS DE MEDUSA E OUTRAS CRIATURAS DO MAL.
+CASTLEVANIA É UM JOGO DE AÇÃO DE PLATAFORMA DE ROLAGEM LATERAL. O JOGADOR QUE ASSUME O PAPEL DE SIMON BELMONT É CAPAZ DE PULAR E CHICOTEAR. PODERES PODEM SER OBTIDOS DERROTANDO INIMIGOS OU DESTRUINDO VELAS QUE APARECEM NO CASTELO. UM DESSES POWER-UPS AUMENTA O PODER E O COMPRIMENTO DO CHICOTE DE SIMON. DIFERENTES ARMAS PODEM SER COLETADAS, QUE CONSOMEM CORAÇÕES QUANDO USADAS, ESSES CORAÇÕES TAMBÉM PODEM SER COLETADOS DE MONSTROS E VELAS. ALÉM DISSO, ALGUMAS PAREDES ESCONDERÃO SEGREDOS COMO O PERU RESTAURADOR DE SAÚDE OU AS HABILIDADES DE TIRO DUPLO E TRIPLO PARA AS ARMAS QUE SIMON COLETOU. NO FINAL DE CADA SEÇÃO DO CASTELO EXISTE UM CHEFE, QUE DEVE SER DERROTADO. A PROGRESSÃO ATRAVÉS DO CASTELO EVENTUALMENTE LEVA A UM CONFRONTO COM O PRÓPRIO CONDE DRÁCULA.</desc>
+    <rating>0.80</rating>
+    <releasedate>19881219T000000</releasedate>
+    <developer>KONAMI</developer>
+    <publisher>KONAMI</publisher>
+    <genre>PLATAFORMA / CORRE E PULA COM ROLAGEM, PLATAFORMA, AVENTURA</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <md5>aa155f0ed1619bdba73ff9b837ad3b44</md5>
+    <hash>9FA16E6C</hash>
+    <region>eu</region>
+    <image>./media/image/Castlevania (BR).nes-image.png</image>
+    <video>./media/videos/Castlevania (BR).nes-video.mp4</video>
+    <marquee>./media/image/Castlevania (BR).nes-marquee.png</marquee>
+    <wheel>./media/image/Castlevania (BR).nes-wheel.png</wheel>
+    <boxart>./media/image/Castlevania (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/Castlevania (BR).nes-screenshot.png</screenshot>
+    <cartridge>./media/image/Castlevania (BR).nes-cartridge.png</cartridge>
+    <fanart>./media/fanart/Castlevania (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/Castlevania (BR).nes-titleshot.png</titleshot>
+    <manual>./media/manuals/Castlevania (BR).nes_(us).pdf</manual>
+    <boxback>./media/image/Castlevania (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/Castlevania (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/Castlevania (BR).nes-bezel.png</bezel>
+  </game>
+  <game id="1281">
+    <path>./Castlevania II - Simon's Quest (BR).nes.7z</path>
+    <name>CASTLEVANIA II - SIMON'S QUEST (BR).NES</name>
+    <desc>CASTLEVANIA II: SIMON'S QUEST É O SEGUNDO DE TRÊS JOGOS CASTLEVANIA LANÇADOS NO NES. DEPOIS QUE O CAÇADOR DE VAMPIROS SIMON BELMONT DESTRUIU O CONDE DRÁCULA NO CASTLEVANIA ORIGINAL (1987), UMA MALDIÇÃO DO MAL O DOMINOU. A ÚNICA MANEIRA DE SIMON QUEBRAR A MALDIÇÃO DO CONDE É ENCONTRAR CINCO PARTES DO CORPO DE DRÁCULA (QUE ESTÃO MISTERIOSAMENTE ESPALHADAS PELA TRANSILVÂNIA) E QUEIMÁ-LAS.
+AO CONTRÁRIO DA MAIORIA DOS OUTROS JOGOS DE CASTLEVANIA, SIMON'S QUEST NÃO APRESENTA OS ESTÁGIOS TRADICIONAIS, MAS PERMITE QUE VOCÊ VAGUE LIVREMENTE PELA TERRA DA TRANSILVÂNIA NO ESTILO DO METROID DA NINTENDO. EM VÁRIAS CIDADES SIMON PODE CONVERSAR COM NPCS E COMPRAR ITENS EM LOJAS, ADICIONANDO UM TOQUE DE RPG.</desc>
+    <rating>0.80</rating>
+    <releasedate>19900427T000000</releasedate>
+    <developer>KONAMI</developer>
+    <publisher>KONAMI</publisher>
+    <genre>AVENTURA</genre>
+    <genreid>512</genreid>
+    <players>1</players>
+    <md5>4b5e1b7ae0de8b316f8e2d0145276875</md5>
+    <hash>2B3F7CD5</hash>
+    <region>eu</region>
+    <image>./media/image/Castlevania II - Simon's Quest (BR).nes-image.png</image>
+    <video>./media/videos/Castlevania II - Simon's Quest (BR).nes-video.mp4</video>
+    <marquee>./media/image/Castlevania II - Simon's Quest (BR).nes-marquee.png</marquee>
+    <wheel>./media/image/Castlevania II - Simon's Quest (BR).nes-wheel.png</wheel>
+    <boxart>./media/image/Castlevania II - Simon's Quest (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/Castlevania II - Simon's Quest (BR).nes-screenshot.png</screenshot>
+    <cartridge>./media/image/Castlevania II - Simon's Quest (BR).nes-cartridge.png</cartridge>
+    <fanart>./media/fanart/Castlevania II - Simon's Quest (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/Castlevania II - Simon's Quest (BR).nes-titleshot.png</titleshot>
+    <manual>./media/manuals/Castlevania II - Simon's Quest (BR).nes_(us).pdf</manual>
+    <boxback>./media/image/Castlevania II - Simon's Quest (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/Castlevania II - Simon's Quest (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/Castlevania II - Simon's Quest (BR).nes-bezel.png</bezel>
+  </game>
+  <game id="1278">
+    <path>./Castlevania III - Dracula's Curse (BR).nes.7z</path>
+    <name>CASTLEVANIA III - DRACULA'S CURSE (BR).NES</name>
+    <desc>SE PASSANDO 100 ANOS ANTES DOS EVENTOS DE CASTLEVANIA 1 E CASTLEVANIA 2, O VAMPIRO DRACULA SE LEVANTOU PARA AMEAÇAR A PEQUENA VILA DE WARAKIYA. CIDADÃOS QUE BANIRAM A FAMÍLIA BELMONT AGORA IMPLORAM PELA AJUDA DE TREVOR PARA MATAR DRÁCULA. EM SEU ESTRANHO CASTELO, DRÁCULA TEM MONTADO UM ENORME EXÉRCITO DE CRIATURAS MORTAS-VIVAS PARA VARRER A TERRA E TRAZER A ESCURIDÃO ETERNA. TREVOR CONCORDA EM AJUDAR E EQUIPA O CHICOTE HERDADO DE SUA FAMÍLIA, O “CAÇADOR DE VAMPIROS”, PARA DESTRUIR DRÁCULA.</desc>
+    <rating>0.80</rating>
+    <releasedate>19921210T000000</releasedate>
+    <developer>KONAMI</developer>
+    <publisher>KONAMI</publisher>
+    <genre>PLATAFORMA</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <md5>6c11034ecb0664a382307a6b62d4c0d7</md5>
+    <hash>BBA1CDBB</hash>
+    <region>eu</region>
+    <image>./media/image/Castlevania III - Dracula's Curse (BR).nes-image.png</image>
+    <video>./media/videos/Castlevania III - Dracula's Curse (BR).nes-video.mp4</video>
+    <boxart>./media/image/Castlevania III - Dracula's Curse (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/Castlevania III - Dracula's Curse (BR).nes-screenshot.png</screenshot>
+    <fanart>./media/fanart/Castlevania III - Dracula's Curse (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/Castlevania III - Dracula's Curse (BR).nes-titleshot.png</titleshot>
+    <manual>./media/manuals/Castlevania III - Dracula's Curse (BR).nes_(eu).pdf</manual>
+    <boxback>./media/image/Castlevania III - Dracula's Curse (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/Castlevania III - Dracula's Curse (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/Castlevania III - Dracula's Curse (BR).nes-bezel.png</bezel>
+  </game>
+  <game id="1538">
+    <path>./Crystalis (BR).nes.7z</path>
+    <name>CRYSTALIS (BR).NES</name>
+    <desc>CRYSTALIS É UM RPG DE AÇÃO DE CIMA PARA BAIXO. A PARTIR DA CÂMARA CRIOGÊNICA, O JOGADOR ASSUME O PAPEL DE UM HERÓI MISTERIOSO QUE DEVE DESCOBRIR O MISTÉRIO DA TORRE. O PERSONAGEM PODE EQUIPAR ARMAS, ARMADURAS, ESCUDOS E GLOBOS / PULSEIRAS EM SEU CORPO E UM ÚNICO ITEM DE SEU INVENTÁRIO PARA USO EM CAMPO. PARA AJUDAR NO OBJETIVO DO HERÓI. ELE SE ENCONTRARÁ COM AS QUATRO PESSOAS SÁBIAS E APRENDERÁ SUA MAGIA, ALÉM DE OBTER AS QUATRO ESPADAS ELEMENTARES QUE O AJUDARÃO A PROGREDIR. OS JOGADORES GANHAM EXPERIÊNCIA E OURO AO DERROTAR MONSTROS. A EXPERIÊNCIA É USADA PARA OBTER NÍVEIS E MELHORAR ESTATÍSTICAS, NO ENTANTO, É NECESSÁRIO UM NÍVEL MÍNIMO ANTES QUE SE POSSA CAUSAR DANO A CHEFES ESPECÍFICOS. O OURO É USADO PARA COMPRAR ITENS NAS LOJAS.</desc>
+    <rating>0.80</rating>
+    <releasedate>19900701T000000</releasedate>
+    <developer>SNK</developer>
+    <publisher>SNK</publisher>
+    <genre>JOGOS DE RPG</genre>
+    <genreid>768</genreid>
+    <players>1</players>
+    <md5>368c4aef4c24878133e303b2b706ad23</md5>
+    <hash>37CACBDA</hash>
+    <region>us</region>
+    <image>./media/image/Crystalis (BR).nes-image.png</image>
+    <video>./media/videos/Crystalis (BR).nes-video.mp4</video>
+    <marquee>./media/image/Crystalis (BR).nes-marquee.png</marquee>
+    <wheel>./media/image/Crystalis (BR).nes-wheel.png</wheel>
+    <boxart>./media/image/Crystalis (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/Crystalis (BR).nes-screenshot.png</screenshot>
+    <cartridge>./media/image/Crystalis (BR).nes-cartridge.png</cartridge>
+    <fanart>./media/fanart/Crystalis (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/Crystalis (BR).nes-titleshot.png</titleshot>
+    <manual>./media/manuals/Crystalis (BR).nes_(us).pdf</manual>
+    <boxback>./media/image/Crystalis (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/Crystalis (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/Crystalis (BR).nes-bezel.png</bezel>
+  </game>
+  <game id="1277">
+    <path>./Double Dragon II - The Revenge (BR).nes.7z</path>
+    <name>DOUBLE DRAGON II - THE REVENGE (BR).NES</name>
+    <desc>A ADORÁVEL MARIAN FOI RESGATADA DAS GARRAS DA GANGUE BLACK WARRIORS POR BILLY &amp; JIMMY LEE NO PRIMEIRO JOGO DOUBLE DRAGON, MAS AGORA A GANGUE A MATOU EM RETALIAÇÃO À DERROTA PRECOCE. OS DRAGÕES AGORA DEVEM EMBARCAR EM UMA MISSÃO PARA VINGAR SUA MORTE E DERROTAR OS GUERREIROS NEGROS PELA SEGUNDA E ÚLTIMA VEZ.
+A VERSÃO ARCADE ORIGINAL DE "DOUBLE DRAGON II" FOI ESSENCIALMENTE UMA VERSÃO MELHORADA DO PRIMEIRO JOGO. ALÉM DE OFERECER ÁUDIO E RECURSOS VISUAIS RENOVADOS, BEM COMO NOVAS ARMADILHAS, MOVIMENTOS E PERSONAGENS INIMIGOS, "DOUBLE DRAGON II" DESCARTOU OS BOTÕES CONVENCIONAIS DE SOCO E CHUTE EM FAVOR DE UM SISTEMA DE ATAQUE ORIENTADO À DIREÇÃO SEMELHANTE AO BEAT-EM-TECHNO ORIGINAL DA TECHNOS. RENEGADO.</desc>
+    <rating>0.80</rating>
+    <releasedate>19900101T000000</releasedate>
+    <developer>TECHNOS JAPAN</developer>
+    <publisher>ACCLAIM ENTERTAINMENT</publisher>
+    <genre>BRIGA DE RUA</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <md5>0f3c0a5300645a5b09d44d0aa707eae3</md5>
+    <hash>9600F2D8</hash>
+    <region>eu</region>
+    <image>./media/image/Double Dragon II - The Revenge (BR).nes-image.png</image>
+    <video>./media/videos/Double Dragon II - The Revenge (BR).nes-video.mp4</video>
+    <marquee>./media/image/Double Dragon II - The Revenge (BR).nes-marquee.png</marquee>
+    <wheel>./media/image/Double Dragon II - The Revenge (BR).nes-wheel.png</wheel>
+    <boxart>./media/image/Double Dragon II - The Revenge (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/Double Dragon II - The Revenge (BR).nes-screenshot.png</screenshot>
+    <cartridge>./media/image/Double Dragon II - The Revenge (BR).nes-cartridge.png</cartridge>
+    <fanart>./media/fanart/Double Dragon II - The Revenge (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/Double Dragon II - The Revenge (BR).nes-titleshot.png</titleshot>
+    <manual>./media/manuals/Double Dragon II - The Revenge (BR).nes_(us).pdf</manual>
+    <boxback>./media/image/Double Dragon II - The Revenge (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/Double Dragon II - The Revenge (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/Double Dragon II - The Revenge (BR).nes-bezel.png</bezel>
+  </game>
+  <game id="1303">
+    <path>./Faxanadu (BR).nes.7z</path>
+    <name>FAXANADU (BR).NES</name>
+    <desc>VOCÊ É A ÚLTIMA ESPERANÇA DOS ELFOS. FORA DAS MURALHAS DA CIDADE ESPREITAM MONSTROS COM O PODER DE DESTRUIR QUALQUER COISA EM SEU CAMINHO. DENTRO DAS PAREDES, A ÁGUA E O TEMPO ESTÃO ACABANDO. EM BREVE, A ANTIGA CIDADE ELFA DE EOLIS DESAPARECERÁ PARA A ETERNIDADE. SOMENTE VOCÊ PODE SALVAR EOLIS. NINGUÉM MAIS OUSA AVENTURAR-SE ALÉM DOS MUROS, NA ÁRVORE DO MUNDO, ONDE CIDADES E FORTALEZAS AGUARDAM PRECARIAMENTE OS CAPRICHOS DO DESTINO NAS MÃOS DO MAL. VOCÊ ESTÁ PROCURANDO A FONTE DE ÁGUA E UM ANTÍDOTO CONTRA O VENENO QUE TORNA A ÁGUA IMPOSSÍVEL DE BEBER. PARA ENCONTRÁ-LOS, VOCÊ PRECISARÁ DE OURO, COMIDA E MAGIA, EMPUNHE UMA ESPADA ... E SORTE. TODA CIDADE POSSUI UM NOVO MISTÉRIO, TODA FORTALEZA UM NOVO PERIGO. OS COMERCIANTES VENDERÃO FERRAMENTAS MÁGICAS E VALIOSAS, MAS VOCÊ DECIDE O QUE PRECISA. MANTRAS SECRETOS E LONGOS AJUDAM VOCÊ A ESCAPAR DAS BRUMAS, MAS VOCÊ SOBREVIVERÁ AO PRÓXIMO DESAFIO? ESTE É FAXANADU, A LENDA, A AVENTURA - A INCRÍVEL JORNADA NA ÁRVORE DO MUNDO!</desc>
+    <rating>0.60</rating>
+    <releasedate>19901228T000000</releasedate>
+    <developer>HUDSON SOFT</developer>
+    <publisher>NINTENDO</publisher>
+    <genre>JOGOS DE RPG</genre>
+    <genreid>768</genreid>
+    <players>1</players>
+    <md5>e89ef5e1e1136b710f99963e1d4b8284</md5>
+    <hash>87235621</hash>
+    <region>eu</region>
+    <image>./media/image/Faxanadu (BR).nes-image.png</image>
+    <video>./media/videos/Faxanadu (BR).nes-video.mp4</video>
+    <boxart>./media/image/Faxanadu (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/Faxanadu (BR).nes-screenshot.png</screenshot>
+    <cartridge>./media/image/Faxanadu (BR).nes-cartridge.png</cartridge>
+    <fanart>./media/fanart/Faxanadu (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/Faxanadu (BR).nes-titleshot.png</titleshot>
+    <manual>./media/manuals/Faxanadu (BR).nes_(eu).pdf</manual>
+    <boxback>./media/image/Faxanadu (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/Faxanadu (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/Faxanadu (BR).nes-bezel.png</bezel>
+  </game>
+  <game id="1484">
+    <path>./Journey to Silius (BR).7z</path>
+    <name>JOURNEY TO SILIUS (BR)</name>
+    <desc>O ANO É 0373 NO NOVO CALENDÁRIO DA ERA ESPACIAL. A POPULAÇÃO DA TERRA ESTÁ CRESCENDO RAPIDAMENTE E AS PESSOAS AGORA SÃO FORÇADAS A INICIAR COLÔNIAS ESPACIAIS. JAY MCCRAY ESTÁ ENTRE AQUELES QUE DEIXAM A TERRA E SE DIRIGEM PARA A COLÔNIA NO SISTEMA SOLAR SILIUS. INFELIZMENTE, OS TERRORISTAS DESTRUÍRAM UMA COLÔNIA DE PESQUISA LÁ. O PAI DE JAY FOI MORTO NESTE ATAQUE E AGORA JAY PROMETE DESTRUIR OS TERRORISTAS RESPONSÁVEIS ​​E CONTINUAR A PESQUISA EM QUE SEU PAI ESTAVA TRABALHANDO. JOURNEY TO SILIUS É UM JOGO DE PLATAFORMA COM ROLAGEM LATERAL. EM CADA NÍVEL, HÁ UMA GRANDE VARIEDADE DE INIMIGOS-ROBÔS QUE GUARDAM A FORTALEZA DO TERRORISTA, ALÉM DE VÁRIAS ARMAS PARA DESCOBRIR O QUE FACILITA SUA MISSÃO. HÁ UM TOTAL DE SEIS ETAPAS, CADA UMA TERMINANDO COM UM CHEFE MUITO GRANDE.</desc>
+    <rating>0.60</rating>
+    <releasedate>19900101T000000</releasedate>
+    <developer>TOKAI ENGINEERING</developer>
+    <publisher>SUNSOFT</publisher>
+    <genre>PLATAFORMA</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <md5>2d52d1564ad1774d019ea17effe07dcd</md5>
+    <hash>F4F74046</hash>
+    <region>us</region>
+    <lang>sk</lang>
+    <image>./media/image/Journey to Silius (BR)-image.png</image>
+    <video>./media/videos/Journey to Silius (BR)-video.mp4</video>
+    <boxart>./media/image/Journey to Silius (BR)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Journey to Silius (BR)-screenshot.png</screenshot>
+    <cartridge>./media/image/Journey to Silius (BR)-cartridge.png</cartridge>
+    <fanart>./media/fanart/Journey to Silius (BR)-fanart.jpg</fanart>
+    <titleshot>./media/image/Journey to Silius (BR)-titleshot.png</titleshot>
+    <manual>./media/manuals/Journey to Silius (BR)_(us).pdf</manual>
+    <boxback>./media/image/Journey to Silius (BR)-boxback.png</boxback>
+    <extra1>./media/extras/Journey to Silius (BR)-extra1.png</extra1>
+    <bezel>./media/image/Journey to Silius (BR)-bezel.png</bezel>
+  </game>
+  <game id="1250">
+    <path>./Legend of Zelda, The (BR).nes.7z</path>
+    <name>LEGEND OF ZELDA, THE (BR).NES</name>
+    <mode>Jogador individual</mode>
+    <desc>BEM-VINDO À LENDA DE ZELDA. ONDE O ÚNICO SOM QUE VOCÊ OUVIRÁ SERÁ SEU PRÓPRIO CORAÇÃO BATENDO ENQUANTO CORRE ATRAVÉS DE FLORESTAS, LAGOS, MONTANHAS E PERIGOSOS LABIRINTOS NA TENTATIVA DE RESTAURAR A PAZ AO REINO DE HYRULE. AO LONGO DO CAMINHO, VOCÊ SERÁ DESAFIADO POR TEKTITES, WIZZROBES E UM EXÉRCITO INFINDÁVEL DE IMPIEDOSAS CRIATURAS QUE NÃO MEDIRÃO ESFORÇOS PARA IMPEDI-LO DE ENCONTRAR OS FRAGMENTOS PERDIDOS DA TRIFORÇA DA SABEDORIA. MAS NÃO SE DESESPERE. COM UM POUCO DE SORTE E MUITA CORAGEM, VOCÊ VENCERÁ SEUS ADVERSÁRIOS, REUNIRÁ OS FRAGMENTOS DA TRIFORÇA E REVELARÁ O SEGREDO DA LENDA DE ZELDA!</desc>
+    <rating>0.80</rating>
+    <releasedate>19871127T000000</releasedate>
+    <developer>NINTENDO</developer>
+    <publisher>NINTENDO</publisher>
+    <genre>JOGOS DE RPG</genre>
+    <genreid>768</genreid>
+    <players>1</players>
+    <md5>2e5e5e9b1c85e285be3fd1b69bcb0d53</md5>
+    <hash>A4C19846</hash>
+    <region>eu</region>
+    <image>./media/image/Legend of Zelda, The (BR).nes-image.png</image>
+    <video>./media/videos/Legend of Zelda, The (BR).nes-video.mp4</video>
+    <boxart>./media/image/Legend of Zelda, The (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/Legend of Zelda, The (BR).nes-screenshot.png</screenshot>
+    <cartridge>./media/image/Legend of Zelda, The (BR).nes-cartridge.png</cartridge>
+    <fanart>./media/fanart/Legend of Zelda, The (BR).nes-fanart.jpg</fanart>
+    <map>./media/maps/Legend of Zelda, The (BR).nes-map.jpg</map>
+    <titleshot>./media/image/Legend of Zelda, The (BR).nes-titleshot.png</titleshot>
+    <manual>./media/manuals/Legend of Zelda, The (BR).nes_(us).pdf</manual>
+    <boxback>./media/image/Legend of Zelda, The (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/Legend of Zelda, The (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/Legend of Zelda, The (BR).nes-bezel.png</bezel>
+  </game>
+  <game id="1280">
+    <path>./Metal Gear (BR).nes.7z</path>
+    <name>METAL GEAR (BR).NES</name>
+    <desc>PERTO DO FINAL DO SÉCULO 20, UMA PEQUENA NAÇÃO FORTIFICADA CHAMADA OUTER HEAVEN (FUNDADA POR UM MISTERIOSO HERÓI DE GUERRA CUJO NOME E IDENTIDADE ESTÃO ENVOLTOS EM SEGREDO) ESTÁ AMEAÇANDO AS NAÇÕES DO "OCIDENTE" COM O DESENVOLVIMENTO DE UM NOVO PROTÓTIPO DE ARMA CHAMADO METAL GEAR, UM TANQUE AMBULANTE CAPAZ DE LANÇAR OGIVAS NUCLEARES DE QUALQUER LUGAR DO MUNDO. COMO O MAIS NOVO RECRUTA DA FOX-HOUND (UMA UNIDADE DE ELITE DE OPERAÇÕES NEGRAS), USANDO O CODINOME DE SOLID SNAKE, SUA MISSÃO É SE INFILTRAR NO OUTER HEAVEN E RESGATAR SEU CAMARADA DESAPARECIDO, GRAY FOX (QUE FOI CAPTURADO APÓS UMA FALHA NA INFILTRAÇÃO), ENQUANTO OBTÉM INFORMAÇÕES NO METAL GEAR.</desc>
+    <rating>0.60</rating>
+    <releasedate>19891213T000000</releasedate>
+    <developer>KONAMI</developer>
+    <publisher>KONAMI</publisher>
+    <genre>AÇÃO / AVENTURA, AÇÃO</genre>
+    <genreid>256</genreid>
+    <players>1</players>
+    <md5>ccceb2c33d27a4a1f053b1f4ab189b03</md5>
+    <hash>73E5F383</hash>
+    <region>eu</region>
+    <image>./media/image/Metal Gear (BR).nes-image.png</image>
+    <video>./media/videos/Metal Gear (BR).nes-video.mp4</video>
+    <marquee>./media/image/Metal Gear (BR).nes-marquee.png</marquee>
+    <wheel>./media/image/Metal Gear (BR).nes-wheel.png</wheel>
+    <boxart>./media/image/Metal Gear (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/Metal Gear (BR).nes-screenshot.png</screenshot>
+    <cartridge>./media/image/Metal Gear (BR).nes-cartridge.png</cartridge>
+    <fanart>./media/fanart/Metal Gear (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/Metal Gear (BR).nes-titleshot.jpg</titleshot>
+    <manual>./media/manuals/Metal Gear (BR).nes_(us).pdf</manual>
+    <boxback>./media/image/Metal Gear (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/Metal Gear (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/Metal Gear (BR).nes-bezel.png</bezel>
+  </game>
+  <game id="1728">
+    <path>./Nightshade (BR).nes.7z</path>
+    <name>NIGHTSHADE (BR).NES</name>
+    <desc>SUTEKH SE LIVROU DO SUPER-HERÓI LOCAL VORTEX E AGORA METRO CITY ESTÁ NAS MÃOS DO CRIME. VOCÊ É NIGHTSHADE - O SUPER-HERÓI QUE NINGUÉM CONHECE - E SEU OBJETIVO É IMPEDIR OS MALFEITORES, INCLUINDO O PRINCIPAL VILÃO SUTEKH.
+NIGHTSHADE É UM JOGO DE AVENTURA BEM-HUMORADO, COM UM MENU QUE PERMITE AO PROTAGONISTA EXECUTAR VÁRIAS AÇÕES, COMO OLHAR, LEVAR, CONVERSAR ETC. TAMBÉM ESTÃO INCLUÍDAS ALGUMAS CENAS DE LUTA INDIVIDUAIS, QUE DIFEREM DOS CONTROLES PADRÃO E NAS QUAIS NIGHTSHADE É CAPAZ DE PULAR, CHUTAR, SOCAR E PATO.</desc>
+    <rating>0.60</rating>
+    <releasedate>19920102T000000</releasedate>
+    <developer>BEAM SOFTWARE</developer>
+    <publisher>ULTRA GAMES</publisher>
+    <genre>AVENTURA</genre>
+    <genreid>512</genreid>
+    <players>1</players>
+    <md5>5233e49c8b1c4e3080379dd29df7ee4e</md5>
+    <hash>3CBACB2B</hash>
+    <region>us</region>
+    <image>./media/image/Nightshade (BR).nes-image.png</image>
+    <video>./media/videos/Nightshade (BR).nes-video.mp4</video>
+    <marquee>./media/image/Nightshade (BR).nes-marquee.png</marquee>
+    <wheel>./media/image/Nightshade (BR).nes-wheel.png</wheel>
+    <boxart>./media/image/Nightshade (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/Nightshade (BR).nes-screenshot.png</screenshot>
+    <cartridge>./media/image/Nightshade (BR).nes-cartridge.png</cartridge>
+    <titleshot>./media/image/Nightshade (BR).nes-titleshot.png</titleshot>
+    <manual>./media/manuals/Nightshade (BR).nes_(us).pdf</manual>
+    <boxback>./media/image/Nightshade (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/Nightshade (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/Nightshade (BR).nes-bezel.png</bezel>
+  </game>
+  <game id="1451">
+    <path>./Ninja Gaiden II - The Dark Sword of Chaos (BR).nes.7z</path>
+    <name>NINJA GAIDEN II - THE DARK SWORD OF CHAOS (BR).NES</name>
+    <desc>UM ANO APÓS OS EVENTOS DO NINJA GAIDEN ORIGINAL, UM NOVO VILÃO CHAMADO ASHTAR RECEBE A NOTÍCIA DA DERROTA DE JAQUIO. ASHTAR APROVEITA ESTA OPORTUNIDADE PARA CRIAR UM NOVO PLANO PARA MERGULHAR O MUNDO NA ESCURIDÃO. O NINJA, RYU HAYABUSA, SEGUE A TRILHA PARA DESTRUIR TODOS.</desc>
+    <rating>0.80</rating>
+    <releasedate>19941027T000000</releasedate>
+    <developer>TECMO</developer>
+    <publisher>TECMO</publisher>
+    <genre>BRIGA DE RUA</genre>
+    <genreid>263</genreid>
+    <players>1</players>
+    <md5>69ecb951beb114e607d665b67fd21f31</md5>
+    <hash>A96DC1E5</hash>
+    <region>us</region>
+    <image>./media/image/Ninja Gaiden II - The Dark Sword of Chaos (BR).nes-image.png</image>
+    <video>./media/videos/Ninja Gaiden II - The Dark Sword of Chaos (BR).nes-video.mp4</video>
+    <marquee>./media/image/Ninja Gaiden II - The Dark Sword of Chaos (BR).nes-marquee.png</marquee>
+    <wheel>./media/image/Ninja Gaiden II - The Dark Sword of Chaos (BR).nes-wheel.png</wheel>
+    <boxart>./media/image/Ninja Gaiden II - The Dark Sword of Chaos (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/Ninja Gaiden II - The Dark Sword of Chaos (BR).nes-screenshot.png</screenshot>
+    <cartridge>./media/image/Ninja Gaiden II - The Dark Sword of Chaos (BR).nes-cartridge.png</cartridge>
+    <fanart>./media/fanart/Ninja Gaiden II - The Dark Sword of Chaos (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/Ninja Gaiden II - The Dark Sword of Chaos (BR).nes-titleshot.png</titleshot>
+    <manual>./media/manuals/Ninja Gaiden II - The Dark Sword of Chaos (BR).nes_(us).pdf</manual>
+    <boxback>./media/image/Ninja Gaiden II - The Dark Sword of Chaos (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/Ninja Gaiden II - The Dark Sword of Chaos (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/Ninja Gaiden II - The Dark Sword of Chaos (BR).nes-bezel.png</bezel>
+  </game>
+  <game id="1329">
+    <path>./River City Ransom (BR).nes.7z</path>
+    <name>RIVER CITY RANSOM (BR).NES</name>
+    <mode>Multijogador cooperativo</mode>
+    <desc>O MALVADO SLICK SEQUESTROU A NAMORADA DE RYAN E ASSUMIU O ENSINO MÉDIO. O JOGADOR É ESCALADO COMO RYAN OU ALEX (SEGUNDO JOGADOR) E TEM QUE LUTAR CONTRA AS GANGUES IMPIEDOSAS DE RIVER CITY ANTES DE CONFRONTAR SLICK E LIBERTAR SUA GAROTA.
+RIVER CITY RANSOM É UM BEAT-EM-UP SIMILAR AO DOUBLE DRAGON. O JOGADOR, OU JOGADORES, VIAJAM PELOS LOCAIS DE RIVER CITY, ENCONTRANDO VÁRIAS GANGUES AO LONGO DO CAMINHO. OS MEMBROS DE GANGUES PODEM SER DERROTADOS COM SOCOS E PONTAPÉS OU ESPANCADOS COM OBJETOS ESPALHADOS. APÓS A SUA DERROTA, OS MEMBROS DE GANGUES PERDEM DINHEIRO QUE ALEX E RYAN PODEM GASTAR EM SHOPPINGS PARA COMPRAR ITENS QUE RESTAURAM A SAÚDE E MELHORAM SUAS HABILIDADES DE COMBATE. OS PERSONAGENS PRINCIPAIS TÊM ESTATÍSTICAS NUMÉRICAS SEMELHANTES A RPG QUE PODEM SER MELHORADAS DESSA MANEIRA, E TAMBÉM PODEM COMPRAR LIVROS PARA APRENDER MANOBRAS DE COMBATE. PARA TERMINAR O JOGO, O (S) JOGADOR (ES) TEM QUE ENCONTRAR E DERROTAR TODOS OS CHEFES.</desc>
+    <rating>0.80</rating>
+    <releasedate>19910101T000000</releasedate>
+    <developer>TECHNOS JAPAN</developer>
+    <publisher>INFOGRAMES</publisher>
+    <genre>BRIGA DE RUA</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <md5>6a4f4689a593cb798000cff528e0c39a</md5>
+    <hash>BFFC541E</hash>
+    <region>us</region>
+    <image>./media/image/River City Ransom (BR).nes-image.png</image>
+    <video>./media/videos/River City Ransom (BR).nes-video.mp4</video>
+    <marquee>./media/image/River City Ransom (BR).nes-marquee.png</marquee>
+    <wheel>./media/image/River City Ransom (BR).nes-wheel.png</wheel>
+    <boxart>./media/image/River City Ransom (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/River City Ransom (BR).nes-screenshot.png</screenshot>
+    <cartridge>./media/image/River City Ransom (BR).nes-cartridge.png</cartridge>
+    <fanart>./media/fanart/River City Ransom (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/River City Ransom (BR).nes-titleshot.png</titleshot>
+    <manual>./media/manuals/River City Ransom (BR).nes_(us).pdf</manual>
+    <boxback>./media/image/River City Ransom (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/River City Ransom (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/River City Ransom (BR).nes-bezel.png</bezel>
+  </game>
+  <game id="1302">
+    <path>./Shadow of the Ninja (BR).nes.7z</path>
+    <name>SHADOW OF THE NINJA (BR).NES</name>
+    <mode>Multijogador cooperativo</mode>
+    <desc>DEPOIS DE PERDER UM CONFRONTO CONTRA SUPER COMMANDOS MAD DOG E SCORPION, OS SUCOS DE DESTRUIÇÃO ESCORREM DA LÍNGUA CRAVADA DO VIL ALIENÍGENA - RED FALCON. AGORA, ELE ESTÁ VOLTANDO MAIS FORTE DO QUE NUNCA, COM UM PLANO SINISTRO QUE INCLUI FAZER COM QUE SEUS GUERREIROS INTERGALÁCTICOS PENETREM NOS CÉREBROS DO EXÉRCITO DOS EUA. PARA APOIAR SUAS FORÇAS DISFARÇADAS DE DESTRUIÇÃO, ELE RECRUTOU JAGGER FROID, UM ALIENÍGENA DEMENTE DA GALÁXIA DO BURACO NEGRO. ELE TAMBÉM FOI TRANSFERIDO PARA O MECANISMO DESTRUCTOIDE BABULA COM SEU FEIXE DE MORTE. COM UM TERROR TORRENCIAL PRESTES A CHOVER SOBRE A CIVILIZAÇÃO, A ÚNICA ESPERANÇA DA TERRA ESTÁ COM VOCÊ, SCORPION, E SEU AMIGO, O DOGSTER. E SE SUAS ARMAS DE FOGO, LASERS, LANÇA-CHAMAS E MEGA-CONCHAS NÃO CONSEGUIREM DESTRUIR OS OITO NÍVEIS DE TERROR DO RED FALCON, INCLUINDO CAMPOS DE LAVA RADIOATIVOS, TUDO ACABARÁ, EXCETO PELOS GRITOS, GRITOS E GRITOS DE UM MUNDO EM DESINTEGRAÇÃO!</desc>
+    <rating>0.80</rating>
+    <releasedate>19910725T000000</releasedate>
+    <developer>NATSUME</developer>
+    <publisher>TAITO</publisher>
+    <genre>PLATAFORMA</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <md5>a7b44d7b9352ec6cc9f0aa129d2912de</md5>
+    <hash>A5D34514</hash>
+    <region>us</region>
+    <image>./media/image/Shadow of the Ninja (BR).nes-image.png</image>
+    <video>./media/videos/Shadow of the Ninja (BR).nes-video.mp4</video>
+    <marquee>./media/image/Shadow of the Ninja (BR).nes-marquee.png</marquee>
+    <wheel>./media/image/Shadow of the Ninja (BR).nes-wheel.png</wheel>
+    <boxart>./media/image/Shadow of the Ninja (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/Shadow of the Ninja (BR).nes-screenshot.png</screenshot>
+    <cartridge>./media/image/Shadow of the Ninja (BR).nes-cartridge.png</cartridge>
+    <fanart>./media/fanart/Shadow of the Ninja (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/Shadow of the Ninja (BR).nes-titleshot.png</titleshot>
+    <manual>./media/manuals/Shadow of the Ninja (BR).nes_(us).pdf</manual>
+    <boxback>./media/image/Shadow of the Ninja (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/Shadow of the Ninja (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/Shadow of the Ninja (BR).nes-bezel.png</bezel>
+  </game>
+  <game id="1245">
+    <path>./Super Mario Bros (BR).nes.7z</path>
+    <name>SUPER MARIO BROS (BR).NES</name>
+    <desc>VOCÊ TEM O QUE É PRECISO PARA SALVAR A PRINCESA DOS COGUMELOS?
+VOCÊ TERÁ QUE PENSAR RÁPIDO E SE MOVER AINDA MAIS RÁPIDO PARA COMPLETAR ESTA MISSÃO! A PRINCESA COGUMELO ESTÁ SENDO MANTIDA EM CATIVEIRO PELA TRIBO KOOPA MALIGNA DE TARTARUGAS. CABE A VOCÊ RESGATÁ-LA DAS GARRAS DO REI KOOPA ANTES QUE O TEMPO ACABE. MAS NÃO SERÁ FÁCIL. PARA CHEGAR À PRINCESA, VOCÊ TERÁ QUE ESCALAR MONTANHAS, ATRAVESSAR MARES, EVITAR POÇOS SEM FUNDO, COMBATER SOLDADOS TARTARUGAS E UMA SÉRIE DE ARMADILHAS DE MAGIA NEGRA QUE APENAS UM REI KOOPA PODE INVENTAR. É MAIS UMA AVENTURA DO SUPER MARIO BROS.!</desc>
+    <rating>0.80</rating>
+    <releasedate>19870515T000000</releasedate>
+    <developer>NINTENDO</developer>
+    <publisher>NINTENDO</publisher>
+    <genre>PLATAFORMA, PLATAFORMA / CORRE E PULA</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <md5>f9141532567a0e9ac375daadcab99950</md5>
+    <hash>0FD23AF8</hash>
+    <region>wor</region>
+    <image>./media/image/Super Mario Bros (BR).nes-image.png</image>
+    <video>./media/videos/Super Mario Bros (BR).nes-video.mp4</video>
+    <screenshot>./media/screenshots/Super Mario Bros (BR).nes-screenshot.png</screenshot>
+    <cartridge>./media/image/Super Mario Bros (BR).nes-cartridge.png</cartridge>
+    <fanart>./media/fanart/Super Mario Bros (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/Super Mario Bros (BR).nes-titleshot.png</titleshot>
+    <manual>./media/manuals/Super Mario Bros (BR).nes_(us).pdf</manual>
+    <extra1>./media/extras/Super Mario Bros (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/Super Mario Bros (BR).nes-bezel.png</bezel>
+  </game>
+  <game id="1246">
+    <path>./Super Mario Bros 3 (BR).nes.7z</path>
+    <name>SUPER MARIO BROS 3 (BR).NES</name>
+    <desc>BOWSER ESTÁ DE VOLTA E, JUNTO COM OS FILHOS DE BOWSER, QUER ESTRAGAR O DIA DE MARIO MAIS UMA VEZ.
+DESTA VEZ, JUNTO COM A PRENDA DA PRINCESA, A EQUIPE DE BOWSER TAMBÉM PEGOU AS VARINHAS MÁGICAS DOS REIS DE CADA TERRA E AS TRANSFORMOU EM CRIATURAS.
+CABE A MARIO E LUIGI RECUPERAR AS VARINHAS MÁGICAS, DERROTAR BOWSER E SALVAR A PRINCESA ANTES QUE O DIA TERMINE.
+VELHOS E NOVOS POWER-UPS ABUNDAM EM CADA NÍVEL PARA OS MARIO BROTHERS, INCLUINDO O RETORNO DO SUPER MUSHROOM E FIRE FLOWER, ALÉM DOS NOVOS POWER-UPS, INCLUINDO O TRAJE DE SAPO, A FLAUTA DE DOBRA E O MAIS IMPORTANTE DE TUDO, A FOLHA , QUE PERMITE AO JOGADOR VOAR E ATACAR INIMIGOS COM SEU RABO.</desc>
+    <rating>0.80</rating>
+    <releasedate>19910829T000000</releasedate>
+    <developer>NINTENDO</developer>
+    <publisher>NINTENDO</publisher>
+    <genre>PLATAFORMA, PLATAFORMA / CORRE E PULA</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <md5>af8af72448822ccaddc006c4e57f0974</md5>
+    <hash>096ED056</hash>
+    <region>eu</region>
+    <image>./media/image/Super Mario Bros 3 (BR).nes-image.png</image>
+    <video>./media/videos/Super Mario Bros 3 (BR).nes-video.mp4</video>
+    <marquee>./media/image/Super Mario Bros 3 (BR).nes-marquee.png</marquee>
+    <wheel>./media/image/Super Mario Bros 3 (BR).nes-wheel.png</wheel>
+    <boxart>./media/image/Super Mario Bros 3 (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/Super Mario Bros 3 (BR).nes-screenshot.png</screenshot>
+    <cartridge>./media/image/Super Mario Bros 3 (BR).nes-cartridge.png</cartridge>
+    <fanart>./media/fanart/Super Mario Bros 3 (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/Super Mario Bros 3 (BR).nes-titleshot.png</titleshot>
+    <manual>./media/manuals/Super Mario Bros 3 (BR).nes_(us).pdf</manual>
+    <boxback>./media/image/Super Mario Bros 3 (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/Super Mario Bros 3 (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/Super Mario Bros 3 (BR).nes-bezel.png</bezel>
+  </game>
+  <game id="1248">
+    <path>./Super Mario Bros. 2 (BR).nes.7z</path>
+    <name>SUPER MARIO BROS. 2 (BR).NES</name>
+    <desc>UMA NOITE, MARIO TEM UM SONHO ESTRANHO, ONDE ELE ABRE UMA PORTA PARA OUTRO MUNDO CHEIO DE CRIATURAS AINDA MAIS ESTRANHAS E ATERRA ENTÃO AS DE SUA ÚLTIMA AVENTURA CONTRA BOWSER. SURPREENDENTEMENTE, NO DIA SEGUINTE, MARIO, LUIGI, TOAD E A PRINCESA TROPEÇAM EM UMA CAVERNA, O QUE LEVA AO MUNDO QUE ESTAVA NO SONHO DE MARIO.
+SUBCON, A TERRA DOS SONHOS, ESTÁ SOB UM FEITIÇO MALIGNO GRAÇAS A WART, ENTÃO MARIO E SUA TURMA PRECISAM SALVAR O DIA. NOVAS CRIATURAS PARA DERROTAR E MUITAS SURPRESAS DESAGRADÁVEIS ​​AGUARDAM.</desc>
+    <rating>0.80</rating>
+    <releasedate>19890428T000000</releasedate>
+    <developer>NINTENDO</developer>
+    <publisher>NINTENDO</publisher>
+    <genre>PLATAFORMA, PLATAFORMA / CORRE E PULA</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <md5>45532418f6509290c4b16c3bce5fd679</md5>
+    <hash>4AAFBF44</hash>
+    <region>eu</region>
+    <image>./media/image/Super Mario Bros. 2 (BR).nes-image.png</image>
+    <video>./media/videos/Super Mario Bros. 2 (BR).nes-video.mp4</video>
+    <marquee>./media/image/Super Mario Bros. 2 (BR).nes-marquee.png</marquee>
+    <wheel>./media/image/Super Mario Bros. 2 (BR).nes-wheel.png</wheel>
+    <boxart>./media/image/Super Mario Bros. 2 (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/Super Mario Bros. 2 (BR).nes-screenshot.png</screenshot>
+    <cartridge>./media/image/Super Mario Bros. 2 (BR).nes-cartridge.png</cartridge>
+    <fanart>./media/fanart/Super Mario Bros. 2 (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/Super Mario Bros. 2 (BR).nes-titleshot.png</titleshot>
+    <manual>./media/manuals/Super Mario Bros. 2 (BR).nes_(us).pdf</manual>
+    <boxback>./media/image/Super Mario Bros. 2 (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/Super Mario Bros. 2 (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/Super Mario Bros. 2 (BR).nes-bezel.png</bezel>
+  </game>
+  <game id="124553">
+    <path>./Super Mario World (BR).nes.7z</path>
+    <name>SUPER MARIO WORLD (BR).NES</name>
+    <mode>Jogador individual</mode>
+    <desc>SUPER MARIO WORLD É UM PORT BOOTLEG DO TÍTULO DE LANÇAMENTO SNES DE MESMO NOME, DESENVOLVIDO PELA HUMMER TEAM E LANÇADO EM 1995. ESTE É UM DOS EXEMPLOS MAIS CONHECIDOS DE PORTOS PIRATAS PARA O NES, POIS COMPARATIVAMENTE CONSEGUE RETER A MAIORIA DOS ELEMENTOS QUE DEFINIRAM O SNES ORIGINAL SEM SACRIFICAR MUITA QUALIDADE.</desc>
+    <rating>0.60</rating>
+    <developer>HUMMER TEAM</developer>
+    <publisher>J.Y. COMPANY</publisher>
+    <genre>PLATAFORMA</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <md5>9fe01906fdda654a3525b0de3cbd175f</md5>
+    <hash>2CB4AA8D</hash>
+    <region>nl</region>
+    <lang>nl</lang>
+    <image>./media/image/Super Mario World (BR).nes-image.png</image>
+    <video>./media/videos/Super Mario World (BR).nes-video.mp4</video>
+    <screenshot>./media/screenshots/Super Mario World (BR).nes-screenshot.png</screenshot>
+    <fanart>./media/fanart/Super Mario World (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/Super Mario World (BR).nes-titleshot.png</titleshot>
+    <extra1>./media/extras/Super Mario World (BR).nes-extra1.png</extra1>
+  </game>
+  <game id="1993">
+    <path>./Sweet Home (BR).nes.7z</path>
+    <name>SWEET HOME (BR).NES</name>
+    <desc>"SWEET HOME" SEGUE AS FAÇANHAS DE CINCO MEMBROS DE UM GRUPO DE PESQUISA: KAZUO, AKIKO, TARO, ASUKA E EMI. O FAMOSO PINTOR MAMIYA ICHIROU VIVEU MUITOS ANOS EM UMA MANSÃO ISOLADA, E HÁ RUMORES DE QUE HÁ ALGUNS AFRESCOS VALIOSOS PARA ENCONTRAR LÁ DENTRO. NOSSOS PESQUISADORES DECIDEM TIRAR ALGUMAS FOTOS DOS AFRESCOS. NO ENTANTO, AO ENTRAR NA MANSÃO, UMA FIGURA FANTASMAGÓRICA DE MAMIYA APARECE E OS AMEAÇA. DEPOIS DISSO, ELES SE ENCONTRAM PRESOS NA MANSÃO. OS HERÓIS AGORA DEVEM ENCONTRAR UMA SAÍDA, SEM ESQUECER OS FRESCOS PARA OS QUAIS VIERAM E O DESTINO DE UM GRUPO DE PESQUISA ANTERIOR QUE DESAPARECEU EM CIRCUNSTÂNCIAS MISTERIOSAS.
+"SWEET HOME" É TALVEZ O PRIMEIRO EXEMPLO CONHECIDO DE GÊNERO SURVIVAL HORROR, CRIADO PELA MESMA EMPRESA QUE MAIS TARDE FEZ O FAMOSO RESIDENT EVIL. NO ENTANTO, "SWEET HOME" TAMBÉM É UM RPG ESTILO CONSOLE: PERSONAGENS LUTAM CONTRA MONSTROS ALEATÓRIOS EM BATALHAS POR TURNOS, EQUIPAM VÁRIAS ARMAS E SOBEM DE NÍVEL. VOCÊ PODE (E DEVE) FORMAR EQUIPES DIFERENTES DOS CINCO PERSONAGENS DISPONÍVEIS, TANTO PARA BATALHAS QUANTO PARA RESOLVER QUEBRA-CABEÇAS. CADA PERSONAGEM TEM SUA PRÓPRIA HABILIDADE BASEADA EM ITENS: TARO PODE TIRAR FOTOS, EMI PODE DESTRAVAR QUASE QUALQUER PORTA, KAZUO TEM UM ISQUEIRO, AKIKO USA UM ASPIRADOR DE PÓ PARA REMOVER POEIRA E OUTROS OBSTÁCULOS, E ASUKA TEM KITS MÉDICOS.
+O JOGO NUNCA FOI LANÇADO FORA DO JAPÃO.</desc>
+    <rating>0.80</rating>
+    <developer>CAPCOM</developer>
+    <publisher>CAPCOM</publisher>
+    <genre>JOGOS DE RPG</genre>
+    <genreid>768</genreid>
+    <players>1</players>
+    <md5>2b6469d880c05f5453fafe512d1427be</md5>
+    <hash>B78B5FB9</hash>
+    <region>jp</region>
+    <image>./media/image/Sweet Home (BR).nes-image.png</image>
+    <video>./media/videos/Sweet Home (BR).nes-video.mp4</video>
+    <marquee>./media/image/Sweet Home (BR).nes-marquee.png</marquee>
+    <wheel>./media/image/Sweet Home (BR).nes-wheel.png</wheel>
+    <boxart>./media/image/Sweet Home (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/Sweet Home (BR).nes-screenshot.png</screenshot>
+    <cartridge>./media/image/Sweet Home (BR).nes-cartridge.png</cartridge>
+    <fanart>./media/fanart/Sweet Home (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/Sweet Home (BR).nes-titleshot.png</titleshot>
+    <boxback>./media/image/Sweet Home (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/Sweet Home (BR).nes-extra1.png</extra1>
+  </game>
+  <game id="1254">
+    <path>./Zelda II - The Adventure of Link (BR).nes.7z</path>
+    <name>ZELDA II - THE ADVENTURE OF LINK (BR).NES</name>
+    <mode>Jogador individual</mode>
+    <desc>A TERRA DE HYRULE ESTÁ EM CAOS. COMO LINK, VOCÊ SERÁ ENVIADO EM UMA JORNADA TRAIÇOEIRA PARA RETORNAR SEIS PRECIOSOS CRISTAIS ÀS SUAS ORIGENS EM SEIS ESTÁTUAS DE PEDRA. SOMENTE DERROTANDO OS GUARDIÕES DOS SEIS PALÁCIOS VOCÊ GANHARÁ A PASSAGEM PARA O SÉTIMO PALÁCIO, ENFRENTARÁ O DESAFIO FINAL QUE O ESPERA E ACORDARÁ A PRINCESA ZELDA DE SEU FEITIÇO DE DORMIR. NO SEU CAMINHO, OS MORADORES ÚTEIS QUE VOCÊ ENCONTRAR OFERECERÃO PISTAS E MENSAGENS SECRETAS INESTIMÁVEIS ​​EM SUA BUSCA. À MEDIDA QUE VOCÊ GUIA O LINK PELOS NÍVEIS DO HYRULE, OS CLOSE-UPS E AS VISÕES GERAIS APRIMORAM SUA VISÃO EM VÍDEO. VOCÊ ESTÁ PRONTO PARA O DESAFIO?</desc>
+    <rating>0.80</rating>
+    <releasedate>19880926T000000</releasedate>
+    <developer>NINTENDO</developer>
+    <publisher>NINTENDO</publisher>
+    <genre>JOGOS DE RPG</genre>
+    <genreid>768</genreid>
+    <players>1</players>
+    <md5>ed5119c01856643543061e14f04057e4</md5>
+    <hash>8C4E5CD8</hash>
+    <region>eu,us</region>
+    <image>./media/image/Zelda II - The Adventure of Link (BR).nes-image.png</image>
+    <video>./media/videos/Zelda II - The Adventure of Link (BR).nes-video.mp4</video>
+    <marquee>./media/image/Zelda II - The Adventure of Link (BR).nes-marquee.png</marquee>
+    <wheel>./media/image/Zelda II - The Adventure of Link (BR).nes-wheel.png</wheel>
+    <boxart>./media/image/Zelda II - The Adventure of Link (BR).nes-boxart.png</boxart>
+    <screenshot>./media/screenshots/Zelda II - The Adventure of Link (BR).nes-screenshot.png</screenshot>
+    <cartridge>./media/image/Zelda II - The Adventure of Link (BR).nes-cartridge.png</cartridge>
+    <fanart>./media/fanart/Zelda II - The Adventure of Link (BR).nes-fanart.jpg</fanart>
+    <titleshot>./media/image/Zelda II - The Adventure of Link (BR).nes-titleshot.png</titleshot>
+    <manual>./media/manuals/Zelda II - The Adventure of Link (BR).nes_(us).pdf</manual>
+    <boxback>./media/image/Zelda II - The Adventure of Link (BR).nes-boxback.png</boxback>
+    <extra1>./media/extras/Zelda II - The Adventure of Link (BR).nes-extra1.png</extra1>
+    <bezel>./media/image/Zelda II - The Adventure of Link (BR).nes-bezel.png</bezel>
+  </game>
+</gameList>
