@@ -418,6 +418,16 @@
   5. PROCESSAMENTO DE IDIOMA
   ============================================================
 
+  5.0 Identificar se ROM consta como traudção em ./brs.json
+      (formado e regras no item 18.)
+
+      Se o nome da ROM (para um sistema/diretório específico) constar como traduzido:
+
+      - MUST preferir BR
+      - MUST adicionar `br` à tag <lang>, caso já não exista
+      - MUST adicionar `(BR)` ao filename, incluindo arquivo .sha256
+        caso já não esteja presente
+
   5.1 Extração
     - MUST extrair conteúdos "()"
     - tokens MAY conter:
@@ -471,7 +481,7 @@
   ============================================================
   7. NORMALIZAÇÃO DO BASENAME
   ============================================================
-
+  
   MUST:
     - remover conteúdos inválidos
     - aplicar TitleCase invariável
@@ -509,8 +519,7 @@
     - MUST ocorrer da direita para esquerda
 
   Cadeias:
-    - ".sfc.7z" são válidas
-    - ".iso.zip" são válidas
+    - ".sfc.7z", ".iso.zip", etc...,  são válidas
     - conteúdos intermediários inválidos entre extensões
       MUST ser removidos:
           game.sfc.(1).7z → game.sfc.7z
@@ -533,6 +542,7 @@
     - hash MAY ser lowercase na leitura
     - hash MUST ser uppercase na escrita
     - espaço simples ou múltiplo MUST ser aceito
+    - criado se ausente
 
   ============================================================
   10. HASH, ÓRFÃOS E CORRELAÇÃO
@@ -616,6 +626,8 @@
   <lang>:
     - (BR)/(BR-*) → pt-BR
     - (PT)        → pt-PT
+    - busca a partir de ./brs.json (path relativo a partir do script, vid 18.)
+      * apenas se o arquivo existir
 
   ============================================================
   13. OTIMIZAÇÃO
@@ -722,6 +734,36 @@
 
   PROTEÇÃO:
     - falha de log MUST NOT interromper execução
+
+  18. ARQUIVO brs.json
+
+  se existir, identifica ROMs traduzidas, mesmo que não haja tag no xml
+  ou equivalente (BR) no filename.
+
+  Deve-se, usá-lo para buscar pelo nome do JOGO, limidado pelo diretório
+  que identifica o sistema.
+
+  formato:
+
+    - Estrutura do JSON:
+      {
+        "subdir": {
+          "folder": {
+            "arquivos": [
+              "Nome do Jogo"
+            ]
+          }
+        }
+      }
+
+  - Regras:
+      * diretórios => objetos JSON
+      * arquivos => lista "arquivos"
+      * cada item da lista contém:
+          - nome limpo
+          - sem extensão
+          - truncado antes do primeiro:
+              "[" ou "(" ou "."
 
 [REGRAS DE CONTEXTO GLOBAL]
 
@@ -2384,6 +2426,53 @@ $script:__logState = @{
   lastType = ''
 }
 
+function Format-DescriptionText {
+  param([string]$Text)
+
+  if (-not $Text) {
+    return $Text
+  }
+
+  $normalized = $Text
+
+  # FIX-BUG: normaliza whitespace estrutural XML
+  $normalized = [regex]::Replace(
+    $normalized,
+    '\s+',
+    ' '
+  ).Trim()
+
+  if (-not $normalized) {
+    return $normalized
+  }
+
+  $lower = $normalized.ToLowerInvariant()
+
+  $textInfo = [cultureinfo]::InvariantCulture.TextInfo
+
+  $formatted = $textInfo.ToTitleCase($lower)
+
+  # FIX-BUG: palavras conectivas permanecem minúsculas
+  $formatted = [regex]::Replace(
+    $formatted,
+    '\b(De|Da|Do|Das|Dos|E|Em|No|Na|Nos|Nas|Com|Para|Por|A|O|As|Os)\b',
+    {
+      param($m)
+      $m.Value.ToLowerInvariant()
+    }
+  )
+
+  # FIX-BUG: garante primeira letra maiúscula
+  if ($formatted.Length -gt 0) {
+    $formatted = (
+      $formatted.Substring(0, 1).ToUpperInvariant() +
+      $formatted.Substring(1)
+    )
+  }
+
+  return $formatted.Trim()
+}
+
 function Write-InlineLog {
   param(
     [string]$message,
@@ -2596,6 +2685,39 @@ function main {
           -Entry $entry `
           -NewName $newName
 
+        # FIX-BUG: normaliza descrição XML RFC objetivo
+        if ($entry.XmlNode) {
+
+          $descNode = $entry.XmlNode.SelectSingleNode('desc')
+
+          if (
+            $descNode `
+              -and `
+              $descNode.InnerText
+          ) {
+
+            $normalizedDesc = Format-DescriptionText(
+              $descNode.InnerText
+            )
+
+            if (
+              $normalizedDesc `
+                -and `
+                $normalizedDesc -cne $descNode.InnerText
+            ) {
+
+              if (-not $VerifyOnly) {
+
+                $descNode.InnerText = $normalizedDesc
+
+                $script:PipelineState.PendingXmlSave[
+                $Entry.XmlPath
+                ] = $true
+              }
+            }
+          }
+        }
+
         if (-not $VerifyOnly) {
 
           $oldFullPath = $entry.File.FullName
@@ -2672,6 +2794,17 @@ function main {
           $newMapKey = [IO.Path]::GetFullPath(
             $newFullPath
           )
+
+          # FIX-BUG: sincroniza JSON tree pós-rename RFC 2
+          if (Test-IsSpecialJsonPath $oldFullPath) {
+            Remove-JsonTreeEntry $oldFullPath
+          }
+
+          if (Test-IsSpecialJsonPath $newFullPath) {
+            Set-JsonTreeHashEntry `
+              -FilePath $newFullPath `
+              -Hash $srcHash
+          }
 
           $entry.File = Get-Item `
             -LiteralPath $newFullPath `
@@ -2786,13 +2919,74 @@ function main {
 
         $stored = ConvertFrom-Sha256 $shaPath
 
-        if (
-          $stored `
-            -and `
-            $stored.Hash -eq $entry.Hash `
-            -and `
-            $stored.FileName -eq $entry.File.Name
+        $requiresShaSync = $false
+
+        # FIX-BUG: recria .sha256 ausente RFC 0 + RFC 11
+        if (-not (Test-Path -LiteralPath $shaPath)) {
+          $requiresShaSync = $true
+        }
+
+        # FIX-BUG: recria hash inválido/corrompido RFC 0
+        elseif (
+          -not $stored `
+            -or `
+            $stored.Hash -ne $entry.Hash `
+            -or `
+            $stored.FileName -cne $entry.File.Name
         ) {
+          $requiresShaSync = $true
+        }
+
+        # FIX-BUG: valida presença da entrada JSON tree RFC 2
+        if (
+          -not $requiresShaSync `
+            -and `
+          (Test-IsSpecialJsonPath $entry.File.FullName)
+        ) {
+
+          $jsonTreePath = Get-JsonTreePath $entry.File.FullName
+
+          if (
+            $jsonTreePath `
+              -and `
+              $script:PipelineState.JsonTrees.ContainsKey($jsonTreePath)
+          ) {
+
+            $jsonRoot = $script:PipelineState.JsonTrees[$jsonTreePath]
+
+            $treeRoot = Split-Path $jsonTreePath -Parent
+
+            $relative = $entry.File.FullName.Substring(
+              $treeRoot.Length
+            ).TrimStart('\', '/')
+
+            $parts = $relative -split '[\\/]'
+
+            $segments = @()
+
+            if ($parts.Count -gt 2) {
+              $segments = $parts[1..($parts.Count - 2)]
+            }
+
+            $leafName = $parts[-1]
+
+            $target = Get-JsonTreeRoot `
+              -Root $jsonRoot `
+              -Segments $segments
+
+            if (
+              -not $target `
+                -or `
+                -not $target.PSObject.Properties[$leafName] `
+                -or `
+                $target.$leafName -ne $entry.Hash
+            ) {
+              $requiresShaSync = $true
+            }
+          }
+        }
+
+        if (-not $requiresShaSync) {
           continue
         }
 
