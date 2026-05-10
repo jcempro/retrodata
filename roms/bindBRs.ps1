@@ -114,6 +114,7 @@ $JsonPath = Join-Path $ScriptRoot 'brs.json'
 # (normalizadas para lower-case)
 $AllowedExtensions = @(
   '.7z',
+  '.sha256',
   '.zip',
   '.rar',
   '.chd',
@@ -287,6 +288,13 @@ function Get-SafeFiles {
 
     foreach ($item in $items) {
 
+      # PROTECAO: evita processamento de links/reparse remanescentes
+      if (
+        $item.Attributes -band [System.IO.FileAttributes]::ReparsePoint
+      ) {
+        continue
+      }
+
       # Ignora arquivos temporários/sistema
       if (
         $item.Attributes -band [System.IO.FileAttributes]::Temporary
@@ -388,8 +396,16 @@ foreach ($file in (Get-SafeFiles -Root $ScriptRoot)) {
 
     $normalizedBaseName = $file.BaseName
 
+    # FIX-BUG: .sha256 pode encapsular nome regionalizado
+    if ($file.Extension -ieq '.sha256') {
+      $normalizedBaseName = [System.IO.Path]::GetFileNameWithoutExtension(
+        $normalizedBaseName
+      )
+    }
+
+    # FIX-BUG: regex regional tolerante e determinístico
     $IsBrazil = (
-      $normalizedBaseName -match '(?i)(?:^|[\s\[\(._-])(br|pt-br|brazil|brasil|portuguese)(?:[\s\]\)._ -]|$)'
+      $normalizedBaseName -match '(?i)(?:^|[\s\[\(\._-])(br|pt-br|brazil|brasil|portuguese)(?:$|[\s\]\)\._-])'
     )
 
     if (-not $IsBrazil) {
