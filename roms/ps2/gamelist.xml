@@ -18,9 +18,11 @@
     <region>us</region>
     <image>./media/image/X-Men Legends (USA)-image.png</image>
     <video>./media/videos/X-Men Legends (USA)-video.mp4</video>
+    <thumbnail>./media/image/X-Men Legends (USA)-boxart.png</thumbnail>
     <boxart>./media/image/X-Men Legends (USA)-boxart.png</boxart>
     <screenshot>./media/screenshots/X-Men Legends (USA)-screenshot.jpg</screenshot>
     <cartridge>./media/image/X-Men Legends (USA)-cartridge.png</cartridge>
+    <mix>./media/image/X-Men Legends (USA)-image.png</mix>
     <fanart>./media/fanart/X-Men Legends (USA)-fanart.jpg</fanart>
     <titleshot>./media/image/X-Men Legends (USA)-titleshot.jpg</titleshot>
     <manual>./media/manuals/X-Men Legends (USA)_(us).pdf</manual>
@@ -196,6 +198,30 @@ ESTA HISTÓRIA É BASEADA NA HISTÓRIA EM QUADRINHOS THE RED STAR, AMBIENTADA EM
     <boxback>./media/image/Tekken 5 [21964]-boxback.png</boxback>
     <extra1>./media/extras/Tekken 5 [21964]-extra1.png</extra1>
   </game>
+  <game id="127237">
+    <path>./Teenage Mutant Ninja Turtles (USA).chd</path>
+    <name>TEENAGE MUTANT NINJA TURTLES (USA)</name>
+    <desc>SEJA SUA TARTARUGA NINJA ADOLESCENTE MUTANTE FAVORITA E DOMINE SUAS HABILIDADES NINJA EM SEU MUNDO CHEIO DE AÇÃO. PERCORRA AS RUAS DE NOVA YORK, VASCULHE ESGOTOS SUBTERRÂNEOS E ABRA CAMINHO PELOS TELHADOS EM ROTA DE COLISÃO COM O DESTRUIDOR E SEU VIL BANDO DE NINJAS A PÉ. ENCONTRE PERGAMINHOS PARA DESBLOQUEAR MOVIMENTOS E EFEITOS DE ATAQUE ESPECIAIS. INTERAJA COM PERSONAGENS DA SÉRIE ANIMADA DE TELEVISÃO, COMO SPLINTER E CASEY JONES. NÃO SE ESCONDA EM SUA CONCHA – SEJA UM HERÓI.</desc>
+    <rating>0.60</rating>
+    <releasedate>20040416T000000</releasedate>
+    <developer>KCE</developer>
+    <publisher>KONAMI</publisher>
+    <genre>LUTA / 3D, LUTA</genre>
+    <genreid>262</genreid>
+    <players>1-2</players>
+    <region>us</region>
+    <image>./media/image/Teenage Mutant Ninja Turtles (USA)-image.png</image>
+    <video>./media/videos/Teenage Mutant Ninja Turtles (USA)-video.mp4</video>
+    <marquee>./media/image/Teenage Mutant Ninja Turtles (USA)-marquee.png</marquee>
+    <wheel>./media/image/Teenage Mutant Ninja Turtles (USA)-wheel.png</wheel>
+    <boxart>./media/image/Teenage Mutant Ninja Turtles (USA)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Teenage Mutant Ninja Turtles (USA)-screenshot.jpg</screenshot>
+    <cartridge>./media/image/Teenage Mutant Ninja Turtles (USA)-cartridge.png</cartridge>
+    <fanart>./media/fanart/Teenage Mutant Ninja Turtles (USA)-fanart.jpg</fanart>
+    <manual>./media/manuals/Teenage Mutant Ninja Turtles (USA)_(us).pdf</manual>
+    <boxback>./media/image/Teenage Mutant Ninja Turtles (USA)-boxback.png</boxback>
+    <extra1>./media/extras/Teenage Mutant Ninja Turtles (USA)-extra1.png</extra1>
+  </game>
   <game id="22951">
     <path>./SpongeBob SquarePants - Battle for Bikini Bottom (BR).chd</path>
     <name>SPONGEBOB SQUAREPANTS - BATTLE FOR BIKINI BOTTOM (BR)</name>
@@ -211,6 +237,7 @@ ESTA HISTÓRIA É BASEADA NA HISTÓRIA EM QUADRINHOS THE RED STAR, AMBIENTADA EM
     <image>./media/image/SpongeBob SquarePants - Battle for Bikini Bottom (BR)-image.png</image>
     <video>./media/videos/SpongeBob SquarePants - Battle for Bikini Bottom (BR)-video.mp4</video>
     <screenshot>./media/screenshots/SpongeBob SquarePants - Battle for Bikini Bottom (BR)-screenshot.png</screenshot>
+    <mix>./media/image/SpongeBob SquarePants - Battle for Bikini Bottom (BR)-image.png</mix>
     <fanart>./media/fanart/SpongeBob SquarePants - Battle for Bikini Bottom (BR)-fanart.jpg</fanart>
     <manual>./media/manuals/SpongeBob SquarePants - Battle for Bikini Bottom (BR)_(us).pdf</manual>
     <extra1>./media/extras/SpongeBob SquarePants - Battle for Bikini Bottom (BR)-extra1.png</extra1>
@@ -341,6 +368,52 @@ OS MODOS DE JOGO DISPONÍVEIS INCLUEM ARCADE (COM GRÁFICOS APRIMORADOS) E SATUR
     <manual>./media/manuals/Onimusha - Warlords [22049]_(us).pdf</manual>
     <boxback>./media/image/Onimusha - Warlords [22049]-boxback.png</boxback>
     <extra1>./media/extras/Onimusha - Warlords [22049]-extra1.png</extra1>
+  </game>
+  <game id="22897">
+    <path>./Nicktoons - Battle for Volcano Island (USA).chd</path>
+    <name>NICKTOONS - BATTLE FOR VOLCANO ISLAND (USA)</name>
+    <desc>ENCONTRE O HERÓI MAIS ENVOLVENTE EM UMA NOVA AVENTURA COM BOB ESPONJA E SEUS AMIGOS: ATAQUE NA ILHA DO VULCÃO NO PS2. MAWGU, UM EX-DEMÔNIO, AMEAÇA ASSUMIR O CONTROLE DA ILHA DO VULCÃO. NOSSOS HERÓIS FAVORITOS DEVEM EVITAR ISSO A TODO CUSTO! JUNTE-SE A BOB ESPONJA, DANNY PHANTOM, PATRICK, A ESTRELA DO MAR, E TODOS OS SEUS PERSONAGENS FAVORITOS DA NICKELODEON PARA REPELIR MAWGU E SALVAR A ILHA. O TÍTULO PODE SER JOGADO POR 2 PESSOAS EM COOPERAÇÃO!</desc>
+    <rating>0.80</rating>
+    <releasedate>20061024T000000</releasedate>
+    <developer>BLUE TONGUE ENTERTAINMENT</developer>
+    <publisher>THQ</publisher>
+    <genre>PLATAFORMA</genre>
+    <genreid>257</genreid>
+    <players>2</players>
+    <region>us</region>
+    <image>./media/image/Nicktoons - Battle for Volcano Island (USA)-image.png</image>
+    <video>./media/videos/Nicktoons - Battle for Volcano Island (USA)-video.mp4</video>
+    <marquee>./media/image/Nicktoons - Battle for Volcano Island (USA)-marquee.png</marquee>
+    <wheel>./media/image/Nicktoons - Battle for Volcano Island (USA)-wheel.png</wheel>
+    <boxart>./media/image/Nicktoons - Battle for Volcano Island (USA)-boxart.png</boxart>
+    <cartridge>./media/image/Nicktoons - Battle for Volcano Island (USA)-cartridge.png</cartridge>
+    <titleshot>./media/image/Nicktoons - Battle for Volcano Island (USA)-titleshot.jpg</titleshot>
+    <manual>./media/manuals/Nicktoons - Battle for Volcano Island (USA)_(us).pdf</manual>
+    <boxback>./media/image/Nicktoons - Battle for Volcano Island (USA)-boxback.png</boxback>
+    <extra1>./media/extras/Nicktoons - Battle for Volcano Island (USA)-extra1.png</extra1>
+  </game>
+  <game id="22988">
+    <path>./Nicktoons - Attack of the Toybots (USA).chd</path>
+    <name>NICKTOONS - ATTACK OF THE TOYBOTS (USA)</name>
+    <desc>NICKTOONS: ATTACK OF THE TOYBOTS É UM JOGO DE PLATAFORMA DE ROLAGEM LATERAL. ENVOLVE PERSONAGENS POPULARES DE VÁRIAS FRANQUIAS NICKTOONS, COMO BOB ESPONJA CALÇA QUADRADA, TIMMY TURNER, JIMMY NEUTRON, GIR, REN E TAK.  O PROFESSOR CALAMITOUS ALIMENTA SEU EXÉRCITO ALIMENTANDO AS FADAS COM HAMBÚRGUERES DE CARANGUEJO. ISSO FAZ COM QUE ELES EMITAM UM GÁS QUE, QUANDO MISTURADO À ENERGIA FANTASMA, PODE ALIMENTAR ROBÔS. QUANDO PATRICK STAR E BOB ESPONJA CALÇA QUADRADA ENTREGAM UMA GRANDE QUANTIDADE DE HAMBÚRGUERES DE CARANGUEJO EM UMA CASA, TODOS SÃO SUGADOS E ACIDENTALMENTE PATRICK É LEVADO JUNTO. DEPOIS DE SELECIONAR UM PERSONAGEM, OS JOGADORES ATRAVESSAM O INTERIOR DA FÁBRICA DE BRINQUEDOS DO PROFESSOR CALAMITOUS PARA LUTAR CONTRA CÓPIAS MALIGNAS DE ROBÔS DE SI MESMOS.</desc>
+    <rating>0.60</rating>
+    <developer>BLUE TONGUE ENTERTAINMENT</developer>
+    <publisher>THQ</publisher>
+    <genre>PLATAFORMA</genre>
+    <genreid>257</genreid>
+    <players>2</players>
+    <region>us</region>
+    <image>./media/image/Nicktoons - Attack of the Toybots (USA)-image.png</image>
+    <video>./media/videos/Nicktoons - Attack of the Toybots (USA)-video.mp4</video>
+    <marquee>./media/image/Nicktoons - Attack of the Toybots (USA)-marquee.png</marquee>
+    <wheel>./media/image/Nicktoons - Attack of the Toybots (USA)-wheel.png</wheel>
+    <boxart>./media/image/Nicktoons - Attack of the Toybots (USA)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Nicktoons - Attack of the Toybots (USA)-screenshot.png</screenshot>
+    <cartridge>./media/image/Nicktoons - Attack of the Toybots (USA)-cartridge.png</cartridge>
+    <fanart>./media/fanart/Nicktoons - Attack of the Toybots (USA)-fanart.jpg</fanart>
+    <manual>./media/manuals/Nicktoons - Attack of the Toybots (USA)_(us).pdf</manual>
+    <boxback>./media/image/Nicktoons - Attack of the Toybots (USA)-boxback.png</boxback>
+    <extra1>./media/extras/Nicktoons - Attack of the Toybots (USA)-extra1.png</extra1>
   </game>
   <game id="23060">
     <path>./Neo Contra [23060].chd</path>
@@ -628,9 +701,11 @@ O CLÃ MALIGNO MÃO NEGRA, LIDERADO POR VALMONT — UM HOMEM POSSUÍDO POR UM DE
     <lang>it,es,de,fr,en</lang>
     <image>./media/image/Gradius V (BR)-image.png</image>
     <video>./media/videos/Gradius V (BR)-video.mp4</video>
+    <thumbnail>./media/image/Gradius V (BR)-boxart.png</thumbnail>
     <boxart>./media/image/Gradius V (BR)-boxart.png</boxart>
     <screenshot>./media/screenshots/Gradius V (BR)-screenshot.jpg</screenshot>
     <cartridge>./media/image/Gradius V (BR)-cartridge.png</cartridge>
+    <mix>./media/image/Gradius V (BR)-image.png</mix>
     <fanart>./media/fanart/Gradius V (BR)-fanart.jpg</fanart>
     <titleshot>./media/image/Gradius V (BR)-titleshot.jpg</titleshot>
     <manual>./media/manuals/Gradius V (BR)_(us).pdf</manual>
