@@ -1,5 +1,6 @@
 #!/usr/bin/env pwsh
 # shellcheck shell=powershell
+# encoding: utf-8
 
 <#
 .SYNOPSIS
