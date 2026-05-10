@@ -1,0 +1,74 @@
+{
+  "nes": {
+    "arquivos": [
+      "Adventures of Lolo 3",
+      "Batman - The Video Game",
+      "Bionic Commando",
+      "Blaster Master",
+      "Bucky O\u0027Hare",
+      "Castlevania",
+      "Castlevania II - Simon\u0027s Quest",
+      "Castlevania III - Dracula\u0027s Curse",
+      "Crystalis",
+      "Double Dragon II - The Revenge",
+      "Faxanadu",
+      "Journey to Silius",
+      "Legend of Zelda, The",
+      "Metal Gear",
+      "Nightshade",
+      "Ninja Gaiden II - The Dark Sword of Chaos",
+      "River City Ransom",
+      "Shadow of the Ninja",
+      "Super Mario Bros",
+      "Super Mario Bros 3",
+      "Super Mario World",
+      "Sweet Home",
+      "Zelda II - The Adventure of Link"
+    ]
+  },
+  "ps2": {
+    "arquivos": [
+      "Contra - Shattered Soldier",
+      "Gradius V",
+      "SpongeBob SquarePants - Battle for Bikini Bottom",
+      "The Incredibles Rise Of The Underminer"
+    ]
+  },
+  "psx": {
+    "arquivos": [
+      "Alone In The Dark - The New Nightmare",
+      "Castlevania - Symphony Of The Night",
+      "Contra - Legacy Of War",
+      "Crash Bandicoot",
+      "Crash Bandicoot 2 - Cortex Strikes Back",
+      "Crash Bandicoot 3 - Warped",
+      "Crash Team Racing",
+      "Dino Crisis",
+      "Duke Nukem - Time To Kill",
+      "Gekido - Urban Fighters",
+      "Gran Turismo",
+      "Jackie Chan Stuntmaster",
+      "Legacy Of Kain - Soul Reaver",
+      "Mega Man X4",
+      "Mortal Kombat 4",
+      "Panzer Bandit",
+      "Rayman",
+      "Resident Evil 3 - Nemesis",
+      "Silent Hill",
+      "Spider-Man",
+      "Tekken 3",
+      "Tenchu - Stealth Assassins",
+      "Twisted Metal 2",
+      "Vigilante 8 - 2Nd Offense"
+    ]
+  },
+  "snes": {
+    "arquivos": [
+      "Bonkers",
+      "Donkey Kong Country 3",
+      "Ganbare Goemon 2",
+      "Ganbare Goemon Yukihime Kyūshutsu Emaki",
+      "Legend of Zelda, The - A Link to the Past"
+    ]
+  }
+}

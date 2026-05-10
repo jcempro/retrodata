@@ -341,7 +341,7 @@ foreach ($file in (Get-SafeFiles -Root $ScriptRoot)) {
 
   # Ignora qualquer diretório "media"
   if (
-    $file.FullName -match '(?i)[\\\/]media[\\\/]'
+    $file.FullName -match '(?i)[\\\/](media|decorations|overlay|bezels|Recycle[^\\\/]*)[\\\/]'
   ) {
     continue
   }  
