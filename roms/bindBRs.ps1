@@ -339,6 +339,13 @@ Write-Log INFO "Iniciando varredura..."
 
 foreach ($file in (Get-SafeFiles -Root $ScriptRoot)) {
 
+  # Ignora qualquer diretório "media"
+  if (
+    $file.FullName -match '(?i)[\\\/]media[\\\/]'
+  ) {
+    continue
+  }  
+
   # Ignora diretórios temporários/problemáticos
   if (
     $file.FullName -match '(?i)[\\\/](recyclebin~|\.ffs_tmp|temp|tmp)[\\\/]'
