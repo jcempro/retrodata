@@ -13,13 +13,12 @@ roms/bezels_project
 roms/decorations
 roms/overlays_priority
 
-**/media/
-
 roms/
 roms/**/*.*
 !roms/**/gamelist.xml
 !roms/**/.gitkeep
 
+**/media/
 !roms/*/media/**/*.png
 !roms/*/media/**/*.jpg
 !roms/*/media/**/*.mp4
