@@ -17,9 +17,8 @@ roms/overlays_priority
 
 roms/
 roms/**/*.*
-!roms/*/gamelist.xml
 !roms/**/gamelist.xml
-!roms/*/.gitkeep
+!roms/**/.gitkeep
 
 !roms/*/media/**/*.png
 !roms/*/media/**/*.jpg
