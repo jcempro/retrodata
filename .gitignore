@@ -17,6 +17,7 @@ roms/
 roms/**/*.*
 !roms/**/gamelist.xml
 !roms/**/.gitkeep
+!roms/**/*.csv
 
 **/media/
 !roms/*/media/**/*.png
