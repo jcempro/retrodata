@@ -279,6 +279,26 @@ LUTE SOZINHO OU AO LADO DOS SEUS AMIGOS NUM MODO DE HISTÓRIA ÚNICO, OU ASSUMA 
     <titleshot>./media/image/Mother Russia Bleeds (BR)-titleshot.png</titleshot>
     <extra1>./media/extras/Mother Russia Bleeds (BR)-extra1.png</extra1>
   </game>
+  <game id="322492">
+    <path>./Never Alone (BR)/Never Alone (BR).pc</path>
+    <name>NEVER ALONE (BR)</name>
+    <desc>EXPERIMENTE A JORNADA ÉPICA DE NUNA E DA RAPOSA ENQUANTO ELES PROCURAM A FONTE DE UMA NEVASCA ETERNA QUE AMEAÇA A SOBREVIVÊNCIA DE TUDO O QUE JÁ CONHECERAM.
+NEVER ALONE É UM JOGO DE PLATAFORMA E QUEBRA-CABEÇA ATMOSFÉRICO DESENVOLVIDO EM COLABORAÇÃO COM OS IÑUPIAT, UM POVO NATIVO DO ALASCA, BASEADO EM UMA HISTÓRIA TRADICIONAL QUE FOI COMPARTILHADA ATRAVÉS DE GERAÇÕES.
+GUIE OS DOIS PERSONAGENS NO MODO SINGLE-PLAYER OU JOGUE COOPERATIVAMENTE COM UM AMIGO ENQUANTO CAMINHA PELA TUNDRA CONGELADA, SALTA SOBRE BLOCOS DE GELO TRAIÇOEIROS, NADA EM CAVERNAS SUBAQUÁTICAS E ENFRENTA INIMIGOS ESTRANHOS E FAMILIARES.</desc>
+    <rating>0.60</rating>
+    <genre>QUEBRA-CABEÇAS, AÇÃO / AVENTURA, AÇÃO</genre>
+    <genreid>2816</genreid>
+    <players>1-2</players>
+    <image>./media/image/Never Alone (BR)-image.png</image>
+    <video>./media/videos/Never Alone (BR)-video.mp4</video>
+    <thumbnail>./media/image/Never Alone (BR)-thumb.png</thumbnail>
+    <marquee>./media/image/Never Alone (BR)-marquee.png</marquee>
+    <wheel>./media/image/Never Alone (BR)-wheel.png</wheel>
+    <boxart>./media/image/Never Alone (BR)-boxart.png</boxart>
+    <screenshot>./media/screenshots/Never Alone (BR)-screenshot.jpg</screenshot>
+    <fanart>./media/fanart/Never Alone (BR)-fanart.jpg</fanart>
+    <titleshot>./media/image/Never Alone (BR)-titleshot.jpg</titleshot>
+  </game>
   <game id="81459">
     <path>./Phantom Breaker Battle Grounds Ultimate (BR)/Phantom Breaker - Battle Grounds Ultimate (BR).pc</path>
     <name>PHANTOM BREAKER - BATTLE GROUNDS ULTIMATE (BR)</name>
@@ -333,6 +353,7 @@ SCOTT PILGRIM EX É UM JOGO DE AÇÃO E AVENTURA ONDE OS JOGADORES PODEM LUTAR C
     <image>./media/image/Scott Pilgrim Ex (BR)-image.png</image>
     <video>./media/videos/Scott Pilgrim Ex (BR)-video.mp4</video>
     <screenshot>./media/screenshots/Scott Pilgrim Ex (BR)-screenshot.jpg</screenshot>
+    <mix>./media/image/Scott Pilgrim Ex (BR)-image.png</mix>
     <fanart>./media/fanart/Scott Pilgrim Ex (BR)-fanart.jpg</fanart>
     <extra1>./media/extras/Scott Pilgrim Ex (BR)-extra1.png</extra1>
   </game>
@@ -429,6 +450,22 @@ UMA SÉRIE ICÔNICA COMO STREETS OF RAGE CONTA COM PERSONAGENS TAMBÉM ICÔNICOS
     <fanart>./media/fanart/Teenage Mutant Ninja Turtles - Shredders (BR)-fanart.jpg</fanart>
     <titleshot>./media/image/Teenage Mutant Ninja Turtles - Shredders (BR)-titleshot.jpg</titleshot>
     <extra1>./media/extras/Teenage Mutant Ninja Turtles - Shredders (BR)-extra1.png</extra1>
+  </game>
+  <game id="348074">
+    <path>./Towerfall - Ascension/Towerfall - Ascension.pc</path>
+    <name>TOWERFALL - ASCENSION</name>
+    <desc>TOWERFALL ASCENSION É UMA VERSÃO ATUALIZADA DO JOGO DE LUTA EM ARENA DE TELA ÚNICA BASEADO EM FLECHAS TOWERFALL. BASEIA-SE NO JOGO ORIGINAL COM UM NOVO MODO DE MISSÃO COOPERATIVA PARA UM OU DOIS JOGADORES. JOGADO NO MODO DE DIFICULDADE NORMAL OU HARDCORE, OFERECE DIFERENTES NÍVEIS SELECIONADOS EM UM GRANDE MAPA ONDE DIFERENTES TIPOS DE INIMIGOS PRECISAM SER MORTOS EM VÁRIAS RODADAS PARA PROGREDIR.
+PARA AS BATALHAS PADRÃO VERSUS BATALHAS, O JOGO ADICIONA 50 NOVOS MAPAS, TOTALIZANDO 120 MAPAS. DURANTE O JOGO, QUATRO FASES ADICIONAIS PODEM SER DESBLOQUEADAS (ASCENSION, MOONSTONE, SUNKEN CITY E TOWERFORGE). ALÉM DOS QUATRO PERSONAGENS EXISTENTES, QUATRO NOVOS PODEM SER DESBLOQUEADOS: ANCIEN EXILE, FOGOTTEN MASTER, PRANCING PUPPET E VICIOUS VESSEL. EXISTEM TAMBÉM SETE TRIÂNGULOS OCULTOS PARA COLETAR NO MODO TRIAL. A QUANTIDADE DE MODIFICADORES DE PARTIDA FOI AMPLIADA PARA 67 E HÁ NOVOS POWER-UPS, COMO FLECHAS PERFURANTES QUE ATRAVESSAM PAREDES E PODEM ATINGIR OPONENTES DO OUTRO LADO.</desc>
+    <releasedate>20140311T000000</releasedate>
+    <developer>MATT MAKES GAMES</developer>
+    <publisher>MATT MAKES GAMES</publisher>
+    <genre>PLATAFORMA</genre>
+    <genreid>257</genreid>
+    <image>./media/image/Towerfall - Ascension-image.png</image>
+    <video>./media/videos/Towerfall - Ascension-video.mp4</video>
+    <screenshot>./media/screenshots/Towerfall - Ascension-screenshot.jpg</screenshot>
+    <fanart>./media/fanart/Towerfall - Ascension-fanart.jpg</fanart>
+    <extra1>./media/extras/Towerfall - Ascension-extra1.png</extra1>
   </game>
   <game>
     <path>./Tunic (BR)/Tunic (BR).pc</path>
