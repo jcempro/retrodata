@@ -7281,6 +7281,7 @@ Clone Of : exedexes -&gt; Savage Bees</temporary>
     <releasedate>1981/01/01</releasedate>
     <publisher>KONAMI</publisher>
     <genreid>0</genreid>
+    <music>./media/musics/Scobra-music.mp3</music>
   </game>
   <game>
     <path>./Scobrab.zip</path>
@@ -7324,6 +7325,7 @@ Clone Of : scobra -&gt; Super Cobra (bootleg, set 1)</temporary>
     <releasedate>1981/01/01</releasedate>
     <publisher>TAITO AMERICA CORPORATION</publisher>
     <genreid>0</genreid>
+    <music>./media/musics/Sdungeon-music.mp3</music>
   </game>
   <game>
     <path>./Seawolf.zip</path>
@@ -8011,18 +8013,18 @@ Clone Of : xevious -&gt; Super Xevious (Namco)</temporary>
     <hash>3900EDA2</hash>
   </game>
   <game>
-    <path>./U.zip</path>
-    <name>U</name>
-    <genreid>0</genreid>
-    <md5>1a6fbd0313aed73e86cee3e3bff17fc9</md5>
-    <hash>35D3ED11</hash>
-  </game>
-  <game>
     <path>./Vampire - The Night Warriors.zip</path>
     <name>VAMPIRE - THE NIGHT WARRIORS</name>
     <genreid>0</genreid>
     <md5>f69e4dbe4754155d01525dd6965b08dd</md5>
     <hash>36169396</hash>
+  </game>
+  <game>
+    <path>./U.zip</path>
+    <name>U</name>
+    <genreid>0</genreid>
+    <md5>1a6fbd0313aed73e86cee3e3bff17fc9</md5>
+    <hash>35D3ED11</hash>
   </game>
   <game id="64668">
     <path>./Votrax.zip</path>
@@ -11326,10 +11328,12 @@ AS PISTAS EM SI SÃO TODAS VARIAÇÕES DO 'OVAL' BÁSICO, COM PORTÕES, SALTOS, 
     <arcadesystemname>capcom</arcadesystemname>
     <image>./media/image/Sonson-image.png</image>
     <video>./media/videos/Sonson-video.mp4</video>
+    <thumbnail>./media/image/Sonson-boxart.png</thumbnail>
     <marquee>./media/image/Sonson-marquee.png</marquee>
     <wheel>./media/image/Sonson-wheel.png</wheel>
     <boxart>./media/image/Sonson-boxart.png</boxart>
     <screenshot>./media/screenshots/Sonson-screenshot.png</screenshot>
+    <mix>./media/image/Sonson-image.png</mix>
     <fanart>./media/fanart/Sonson-fanart.jpg</fanart>
     <titleshot>./media/image/Sonson-titleshot.png</titleshot>
     <manual>./media/manuals/Sonson_(us).pdf</manual>
@@ -11354,10 +11358,12 @@ TRÊS ANOS APÓS ESSES EVENTOS, SOUL EDGE USA SIEGFRIED COMO ANFITRIÃO, E AGORA
     <arcadesystemname>namco</arcadesystemname>
     <image>./media/image/Soulclbr-image.png</image>
     <video>./media/videos/Soulclbr-video.mp4</video>
+    <thumbnail>./media/image/Soulclbr-boxart.png</thumbnail>
     <marquee>./media/image/Soulclbr-marquee.png</marquee>
     <wheel>./media/image/Soulclbr-wheel.png</wheel>
     <boxart>./media/image/Soulclbr-boxart.png</boxart>
     <screenshot>./media/screenshots/Soulclbr-screenshot.jpg</screenshot>
+    <mix>./media/image/Soulclbr-image.png</mix>
     <fanart>./media/fanart/Soulclbr-fanart.jpg</fanart>
     <titleshot>./media/image/Soulclbr-titleshot.png</titleshot>
     <extra1>./media/extras/Soulclbr-extra1.png</extra1>
@@ -11383,10 +11389,12 @@ A DESCIDA DOS ALIENÍGENAS ACELERA À MEDIDA QUE SÃO ELIMINADOS, TORNANDO-OS MA
     <arcadesystemname>taito</arcadesystemname>
     <image>./media/image/Spaceatt-image.png</image>
     <video>./media/videos/Spaceatt-video.mp4</video>
+    <thumbnail>./media/image/Spaceatt-boxart.png</thumbnail>
     <marquee>./media/image/Spaceatt-marquee.png</marquee>
     <wheel>./media/image/Spaceatt-wheel.png</wheel>
     <boxart>./media/image/Spaceatt-boxart.png</boxart>
     <screenshot>./media/screenshots/Spaceatt-screenshot.png</screenshot>
+    <mix>./media/image/Spaceatt-image.png</mix>
     <fanart>./media/fanart/Spaceatt-fanart.jpg</fanart>
     <titleshot>./media/image/Spaceatt-titleshot.png</titleshot>
     <manual>./media/manuals/Spaceatt_(us).pdf</manual>
@@ -11418,10 +11426,12 @@ SE TODOS OS FIREBIRDS FOREM DESTRUÍDOS, O JOGADOR PASSA PARA UMA NOVA SEQUÊNCI
     <arcadesystemname>nintendo</arcadesystemname>
     <image>./media/image/Spacefb-image.png</image>
     <video>./media/videos/Spacefb-video.mp4</video>
+    <thumbnail>./media/image/Spacefb-boxart.png</thumbnail>
     <marquee>./media/image/Spacefb-marquee.png</marquee>
     <wheel>./media/image/Spacefb-wheel.png</wheel>
     <boxart>./media/image/Spacefb-boxart.png</boxart>
     <screenshot>./media/screenshots/Spacefb-screenshot.png</screenshot>
+    <mix>./media/image/Spacefb-image.png</mix>
     <fanart>./media/fanart/Spacefb-fanart.jpg</fanart>
     <titleshot>./media/image/Spacefb-titleshot.png</titleshot>
     <manual>./media/manuals/Spacefb-manual.pdf</manual>
@@ -11454,10 +11464,12 @@ BOA SORTE.</desc>
     <arcadesystemname>sega</arcadesystemname>
     <image>./media/image/Spaceod-image.png</image>
     <video>./media/videos/Spaceod-video.mp4</video>
+    <thumbnail>./media/image/Spaceod-boxart.png</thumbnail>
     <marquee>./media/image/Spaceod-marquee.png</marquee>
     <wheel>./media/image/Spaceod-wheel.png</wheel>
     <boxart>./media/image/Spaceod-boxart.png</boxart>
     <screenshot>./media/screenshots/Spaceod-screenshot.png</screenshot>
+    <mix>./media/image/Spaceod-image.png</mix>
     <titleshot>./media/image/Spaceod-titleshot.png</titleshot>
     <manual>./media/manuals/Spaceod-manual.pdf</manual>
     <extra1>./media/extras/Spaceod-extra1.png</extra1>
@@ -11481,10 +11493,12 @@ AS GUERRAS OZMA COMEÇARAM, E O JOGADOR CONTROLA UMA NAVE ESPACIAL QUE DEVE AFAS
     <arcadesystemname>snk</arcadesystemname>
     <image>./media/image/Spaceph-image.png</image>
     <video>./media/videos/Spaceph-video.mp4</video>
+    <thumbnail>./media/image/Spaceph-boxart.png</thumbnail>
     <marquee>./media/image/Spaceph-marquee.png</marquee>
     <wheel>./media/image/Spaceph-wheel.png</wheel>
     <boxart>./media/image/Spaceph-boxart.png</boxart>
     <screenshot>./media/screenshots/Spaceph-screenshot.png</screenshot>
+    <mix>./media/image/Spaceph-image.png</mix>
     <titleshot>./media/image/Spaceph-titleshot.png</titleshot>
     <manual>./media/manuals/Spaceph_(wor).pdf</manual>
     <extra1>./media/extras/Spaceph-extra1.png</extra1>
@@ -11509,10 +11523,12 @@ AS GUERRAS OZMA COMEÇARAM, E O JOGADOR CONTROLA UMA NAVE ESPACIAL QUE DEVE AFAS
 Clone Of : timeplt -&gt; Space Pilot (set 1)</temporary>
     <image>./media/image/Spaceplt-image.png</image>
     <video>./media/videos/Spaceplt-video.mp4</video>
+    <thumbnail>./media/image/Spaceplt-boxart.png</thumbnail>
     <marquee>./media/image/Spaceplt-marquee.png</marquee>
     <wheel>./media/image/Spaceplt-wheel.png</wheel>
     <boxart>./media/image/Spaceplt-boxart.png</boxart>
     <screenshot>./media/screenshots/Spaceplt-screenshot.png</screenshot>
+    <mix>./media/image/Spaceplt-image.png</mix>
     <fanart>./media/fanart/Spaceplt-fanart.jpg</fanart>
     <titleshot>./media/image/Spaceplt-titleshot.png</titleshot>
     <manual>./media/manuals/Spaceplt_(us).pdf</manual>
@@ -11537,10 +11553,12 @@ Clone Of : timeplt -&gt; Space Pilot (set 1)</temporary>
     <arcadesystemname>taito</arcadesystemname>
     <image>./media/image/Spaceskr-image.png</image>
     <video>./media/videos/Spaceskr-video.mp4</video>
+    <thumbnail>./media/image/Spaceskr-boxart.png</thumbnail>
     <marquee>./media/image/Spaceskr-marquee.png</marquee>
     <wheel>./media/image/Spaceskr-wheel.png</wheel>
     <boxart>./media/image/Spaceskr-boxart.png</boxart>
     <screenshot>./media/screenshots/Spaceskr-screenshot.png</screenshot>
+    <mix>./media/image/Spaceskr-image.png</mix>
     <titleshot>./media/image/Spaceskr-titleshot.png</titleshot>
     <extra1>./media/extras/Spaceskr-extra1.png</extra1>
   </game>
@@ -11563,10 +11581,12 @@ ACREDITA-SE QUE O SPACE TREK TENHA SIDO UM ANTECESSOR DO SDI: STRATEGIC DEFENSE 
     <arcadesystemname>sega</arcadesystemname>
     <image>./media/image/Spacetrk-image.png</image>
     <video>./media/videos/Spacetrk-video.mp4</video>
+    <thumbnail>./media/image/Spacetrk-boxart.png</thumbnail>
     <marquee>./media/image/Spacetrk-marquee.png</marquee>
     <wheel>./media/image/Spacetrk-wheel.png</wheel>
     <boxart>./media/image/Spacetrk-boxart.png</boxart>
     <screenshot>./media/screenshots/Spacetrk-screenshot.png</screenshot>
+    <mix>./media/image/Spacetrk-image.png</mix>
     <titleshot>./media/image/Spacetrk-titleshot.png</titleshot>
     <extra1>./media/extras/Spacetrk-extra1.png</extra1>
   </game>
@@ -11588,10 +11608,12 @@ A COLÔNIA ESPACIAL ESTÁ EM PERIGO, SUA BASE DE DEFESA ESTÁ SENDO ATACADA POR 
     <arcadesystemname>midway</arcadesystemname>
     <image>./media/image/Spacezap-image.png</image>
     <video>./media/videos/Spacezap-video.mp4</video>
+    <thumbnail>./media/image/Spacezap-boxart.png</thumbnail>
     <marquee>./media/image/Spacezap-marquee.png</marquee>
     <wheel>./media/image/Spacezap-wheel.png</wheel>
     <boxart>./media/image/Spacezap-boxart.png</boxart>
     <screenshot>./media/screenshots/Spacezap-screenshot.png</screenshot>
+    <mix>./media/image/Spacezap-image.png</mix>
     <fanart>./media/fanart/Spacezap-fanart.jpg</fanart>
     <titleshot>./media/image/Spacezap-titleshot.png</titleshot>
     <extra1>./media/extras/Spacezap-extra1.png</extra1>
@@ -11615,10 +11637,12 @@ OS JOGADORES SÓ PODEM DISPARAR AS ARMAS DE ARPÃO VIRTUALMENTE PARA CIMA, MAS P
     <arcadesystemname>mitchell</arcadesystemname>
     <image>./media/image/Spang-image.png</image>
     <video>./media/videos/Spang-video.mp4</video>
+    <thumbnail>./media/image/Spang-boxart.png</thumbnail>
     <marquee>./media/image/Spang-marquee.png</marquee>
     <wheel>./media/image/Spang-wheel.png</wheel>
     <boxart>./media/image/Spang-boxart.png</boxart>
     <screenshot>./media/screenshots/Spang-screenshot.png</screenshot>
+    <mix>./media/image/Spang-image.png</mix>
     <fanart>./media/fanart/Spang-fanart.jpg</fanart>
     <titleshot>./media/image/Spang-titleshot.png</titleshot>
     <boxback>./media/image/Spang-boxback.png</boxback>
@@ -11642,10 +11666,12 @@ OS JOGADORES SÓ PODEM DISPARAR AS ARMAS DE ARPÃO VIRTUALMENTE PARA CIMA, MAS P
     <arcadesystemname>midway</arcadesystemname>
     <image>./media/image/Spcenctr-image.png</image>
     <video>./media/videos/Spcenctr-video.mp4</video>
+    <thumbnail>./media/image/Spcenctr-boxart.png</thumbnail>
     <marquee>./media/image/Spcenctr-marquee.png</marquee>
     <wheel>./media/image/Spcenctr-wheel.png</wheel>
     <boxart>./media/image/Spcenctr-boxart.png</boxart>
     <screenshot>./media/screenshots/Spcenctr-screenshot.png</screenshot>
+    <mix>./media/image/Spcenctr-image.png</mix>
     <fanart>./media/fanart/Spcenctr-fanart.jpg</fanart>
     <titleshot>./media/image/Spcenctr-titleshot.png</titleshot>
     <manual>./media/manuals/Spcenctr-manual.pdf</manual>
@@ -11677,6 +11703,7 @@ OS GRÁFICOS FORAM MUITO MELHORADOS EM COMPARAÇÃO COM SEU ANTECESSOR: O LABIRI
     <wheel>./media/image/Spectar-marquee.png</wheel>
     <boxart>./media/image/Spectar-boxart.png</boxart>
     <screenshot>./media/screenshots/Spectar-screenshot.png</screenshot>
+    <mix>./media/image/Spectar-image.png</mix>
     <titleshot>./media/image/Spectar-titleshot.png</titleshot>
     <manual>./media/manuals/Spectar-manual.pdf</manual>
     <extra1>./media/extras/Spectar-extra1.jpg</extra1>
@@ -11702,6 +11729,7 @@ OS GRÁFICOS FORAM MUITO MELHORADOS EM COMPARAÇÃO COM SEU ANTECESSOR: O LABIRI
     <thumbnail>./media/image/Spelunk2-boxart.png</thumbnail>
     <boxart>./media/image/Spelunk2-boxart.png</boxart>
     <screenshot>./media/screenshots/Spelunk2-screenshot.png</screenshot>
+    <mix>./media/image/Spelunk2-image.png</mix>
     <titleshot>./media/image/Spelunk2-titleshot.png</titleshot>
     <extra1>./media/extras/Spelunk2-extra1.png</extra1>
   </game>
@@ -11729,6 +11757,7 @@ PARA AJUDÁ-LO EM SUA DIFÍCIL MISSÃO, O SPELUNKER CARREGA UMA ARMA E PODE ATIR
     <wheel>./media/image/Spelunkr-marquee.png</wheel>
     <boxart>./media/image/Spelunkr-boxart.png</boxart>
     <screenshot>./media/screenshots/Spelunkr-screenshot.png</screenshot>
+    <mix>./media/image/Spelunkr-image.png</mix>
     <fanart>./media/fanart/Spelunkr-fanart.jpg</fanart>
     <titleshot>./media/image/Spelunkr-titleshot.png</titleshot>
     <boxback>./media/image/Spelunkr-boxback.png</boxback>
@@ -11753,10 +11782,12 @@ PARA AJUDÁ-LO EM SUA DIFÍCIL MISSÃO, O SPELUNKER CARREGA UMA ARMA E PODE ATIR
     <region>wor</region>
     <image>./media/image/Spiders-image.png</image>
     <video>./media/videos/Spiders-video.mp4</video>
+    <thumbnail>./media/image/Spiders-boxart.png</thumbnail>
     <marquee>./media/image/Spiders-marquee.png</marquee>
     <wheel>./media/image/Spiders-wheel.png</wheel>
     <boxart>./media/image/Spiders-boxart.png</boxart>
     <screenshot>./media/screenshots/Spiders-screenshot.png</screenshot>
+    <mix>./media/image/Spiders-image.png</mix>
     <titleshot>./media/image/Spiders-titleshot.png</titleshot>
     <manual>./media/manuals/Spiders-manual.pdf</manual>
     <extra1>./media/extras/Spiders-extra1.png</extra1>
@@ -11782,6 +11813,7 @@ Clone Of : spidman -&gt; Spider-Man The Videogame (US, Rev A)</temporary>
     <image>./media/image/Spidmanu-image.png</image>
     <video>./media/videos/Spidmanu-video.mp4</video>
     <screenshot>./media/screenshots/Spidmanu-screenshot.png</screenshot>
+    <mix>./media/image/Spidmanu-image.png</mix>
     <fanart>./media/fanart/Spidmanu-fanart.jpg</fanart>
     <titleshot>./media/image/Spidmanu-titleshot.png</titleshot>
     <manual>./media/manuals/Spidmanu-manual.pdf</manual>
@@ -11812,6 +11844,7 @@ Clone Of : dorunrun -&gt; Super Pierrot (Japan)</temporary>
     <image>./media/image/Spiero-image.png</image>
     <video>./media/videos/Spiero-video.mp4</video>
     <screenshot>./media/screenshots/Spiero-screenshot.png</screenshot>
+    <mix>./media/image/Spiero-image.png</mix>
     <titleshot>./media/image/Spiero-titleshot.png</titleshot>
     <extra1>./media/extras/Spiero-extra1.png</extra1>
     <bezel>./media/image/Spiero-bezel.png</bezel>
@@ -11837,6 +11870,7 @@ Clone Of : dorunrun -&gt; Super Pierrot (Japan)</temporary>
     <wheel>./media/image/Spiker-marquee.png</wheel>
     <boxart>./media/image/Spiker-boxart.png</boxart>
     <screenshot>./media/screenshots/Spiker-screenshot.png</screenshot>
+    <mix>./media/image/Spiker-image.png</mix>
     <fanart>./media/fanart/Spiker-fanart.jpg</fanart>
     <titleshot>./media/image/Spiker-titleshot.png</titleshot>
     <extra1>./media/extras/Spiker-extra1.jpg</extra1>
@@ -11860,6 +11894,7 @@ Clone Of : dorunrun -&gt; Super Pierrot (Japan)</temporary>
     <image>./media/image/Spin Master-image.png</image>
     <video>./media/videos/Spin Master-video.mp4</video>
     <screenshot>./media/screenshots/Spin Master-screenshot.png</screenshot>
+    <mix>./media/image/Spin Master-image.png</mix>
     <fanart>./media/fanart/Spin Master-fanart.jpg</fanart>
     <titleshot>./media/image/Spin Master-titleshot.png</titleshot>
     <manual>./media/manuals/Spin Master_(us).pdf</manual>
@@ -11889,6 +11924,7 @@ CAPITÃO WAFFLE, UM SOLDADO DO PASSADO QUE ACORDA DO SONO CRIOGÊNICO, DESCOBRE 
     <wheel>./media/image/Spinlbrk-wheel.png</wheel>
     <boxart>./media/image/Spinlbrk-boxart.png</boxart>
     <screenshot>./media/screenshots/Spinlbrk-screenshot.png</screenshot>
+    <mix>./media/image/Spinlbrk-image.png</mix>
     <fanart>./media/fanart/Spinlbrk-fanart.jpg</fanart>
     <titleshot>./media/image/Spinlbrk-titleshot.png</titleshot>
     <extra1>./media/extras/Spinlbrk-extra1.png</extra1>
@@ -11918,6 +11954,7 @@ CAPITÃO WAFFLE, UM SOLDADO DO PASSADO QUE ACORDA DO SONO CRIOGÊNICO, DESCOBRE 
     <boxart>./media/image/Spinmast-boxart.png</boxart>
     <screenshot>./media/screenshots/Spinmast-screenshot.png</screenshot>
     <cartridge>./media/image/Spinmast-cartridge.png</cartridge>
+    <mix>./media/image/Spinmast-image.png</mix>
     <fanart>./media/fanart/Spinmast-fanart.jpg</fanart>
     <titleshot>./media/image/Spinmast-titleshot.png</titleshot>
     <manual>./media/manuals/Spinmast_(us).pdf</manual>
@@ -11941,10 +11978,12 @@ CAPITÃO WAFFLE, UM SOLDADO DO PASSADO QUE ACORDA DO SONO CRIOGÊNICO, DESCOBRE 
     <arcadesystemname>midway</arcadesystemname>
     <image>./media/image/Splat-image.png</image>
     <video>./media/videos/Splat-video.mp4</video>
+    <thumbnail>./media/image/Splat-boxart.png</thumbnail>
     <marquee>./media/image/Splat-marquee.png</marquee>
     <wheel>./media/image/Splat-wheel.png</wheel>
     <boxart>./media/image/Splat-boxart.png</boxart>
     <screenshot>./media/screenshots/Splat-screenshot.png</screenshot>
+    <mix>./media/image/Splat-image.png</mix>
     <fanart>./media/fanart/Splat-fanart.jpg</fanart>
     <titleshot>./media/image/Splat-titleshot.png</titleshot>
     <manual>./media/manuals/Splat_(us).pdf</manual>
@@ -11973,6 +12012,7 @@ CAPITÃO WAFFLE, UM SOLDADO DO PASSADO QUE ACORDA DO SONO CRIOGÊNICO, DESCOBRE 
     <wheel>./media/image/Splatter-marquee.png</wheel>
     <boxart>./media/image/Splatter-boxart.png</boxart>
     <screenshot>./media/screenshots/Splatter-screenshot.png</screenshot>
+    <mix>./media/image/Splatter-image.png</mix>
     <fanart>./media/fanart/Splatter-fanart.jpg</fanart>
     <titleshot>./media/image/Splatter-titleshot.png</titleshot>
     <manual>./media/manuals/Splatter_(us).pdf</manual>
@@ -11999,10 +12039,12 @@ GRAÇAS À LISTA REFINADA DE NOVOS E DISTINTOS LUTADORES INIMIGOS, SUPER PUNCH-O
     <arcadesystemname>nintendo</arcadesystemname>
     <image>./media/image/Spnchout-image.png</image>
     <video>./media/videos/Spnchout-video.mp4</video>
+    <thumbnail>./media/image/Spnchout-boxart.png</thumbnail>
     <marquee>./media/image/Spnchout-marquee.png</marquee>
     <wheel>./media/image/Spnchout-wheel.png</wheel>
     <boxart>./media/image/Spnchout-boxart.png</boxart>
     <screenshot>./media/screenshots/Spnchout-screenshot.png</screenshot>
+    <mix>./media/image/Spnchout-image.png</mix>
     <fanart>./media/fanart/Spnchout-fanart.jpg</fanart>
     <titleshot>./media/image/Spnchout-titleshot.png</titleshot>
     <manual>./media/manuals/Spnchout_(us).pdf</manual>
@@ -12027,10 +12069,12 @@ GRAÇAS À LISTA REFINADA DE NOVOS E DISTINTOS LUTADORES INIMIGOS, SUPER PUNCH-O
     <arcadesystemname>atari</arcadesystemname>
     <image>./media/image/Sprint1-image.png</image>
     <video>./media/videos/Sprint1-video.mp4</video>
+    <thumbnail>./media/image/Sprint1-boxart.png</thumbnail>
     <marquee>./media/image/Sprint1-marquee.png</marquee>
     <wheel>./media/image/Sprint1-wheel.png</wheel>
     <boxart>./media/image/Sprint1-boxart.png</boxart>
     <screenshot>./media/screenshots/Sprint1-screenshot.png</screenshot>
+    <mix>./media/image/Sprint1-image.png</mix>
     <fanart>./media/fanart/Sprint1-fanart.jpg</fanart>
     <titleshot>./media/image/Sprint1-titleshot.png</titleshot>
     <manual>./media/manuals/Sprint1-manual.pdf</manual>
@@ -12054,10 +12098,12 @@ GRAÇAS À LISTA REFINADA DE NOVOS E DISTINTOS LUTADORES INIMIGOS, SUPER PUNCH-O
     <arcadesystemname>atari</arcadesystemname>
     <image>./media/image/Sprint2-image.png</image>
     <video>./media/videos/Sprint2-video.mp4</video>
+    <thumbnail>./media/image/Sprint2-boxart.png</thumbnail>
     <marquee>./media/image/Sprint2-marquee.png</marquee>
     <wheel>./media/image/Sprint2-wheel.png</wheel>
     <boxart>./media/image/Sprint2-boxart.png</boxart>
     <screenshot>./media/screenshots/Sprint2-screenshot.png</screenshot>
+    <mix>./media/image/Sprint2-image.png</mix>
     <fanart>./media/fanart/Sprint2-fanart.jpg</fanart>
     <titleshot>./media/image/Sprint2-titleshot.png</titleshot>
     <manual>./media/manuals/Sprint2-manual.pdf</manual>
@@ -12082,10 +12128,12 @@ GRAÇAS À LISTA REFINADA DE NOVOS E DISTINTOS LUTADORES INIMIGOS, SUPER PUNCH-O
     <arcadesystemname>midway</arcadesystemname>
     <image>./media/image/Spyhunt-image.png</image>
     <video>./media/videos/Spyhunt-video.mp4</video>
+    <thumbnail>./media/image/Spyhunt-boxart.png</thumbnail>
     <marquee>./media/image/Spyhunt-marquee.png</marquee>
     <wheel>./media/image/Spyhunt-wheel.png</wheel>
     <boxart>./media/image/Spyhunt-boxart.png</boxart>
     <screenshot>./media/screenshots/Spyhunt-screenshot.png</screenshot>
+    <mix>./media/image/Spyhunt-image.png</mix>
     <fanart>./media/fanart/Spyhunt-fanart.jpg</fanart>
     <titleshot>./media/image/Spyhunt-titleshot.png</titleshot>
     <manual>./media/manuals/Spyhunt_(us).pdf</manual>
@@ -12112,10 +12160,12 @@ UM CHIP DE SÍNTESE DE VOZ VOTRAX SC-01 É USADO PARA GERAR A FALA INCOERENTE DE
     <region>wor</region>
     <image>./media/image/Sqbert-image.png</image>
     <video>./media/videos/Sqbert-video.mp4</video>
+    <thumbnail>./media/image/Sqbert-boxart.png</thumbnail>
     <marquee>./media/image/Sqbert-marquee.png</marquee>
     <wheel>./media/image/Sqbert-wheel.png</wheel>
     <boxart>./media/image/Sqbert-boxart.png</boxart>
     <screenshot>./media/screenshots/Sqbert-screenshot.png</screenshot>
+    <mix>./media/image/Sqbert-image.png</mix>
     <titleshot>./media/image/Sqbert-titleshot.png</titleshot>
     <extra1>./media/extras/Sqbert-extra1.png</extra1>
   </game>
@@ -12136,10 +12186,12 @@ UM CHIP DE SÍNTESE DE VOZ VOTRAX SC-01 É USADO PARA GERAR A FALA INCOERENTE DE
     <arcadesystemname>sega</arcadesystemname>
     <image>./media/image/Srallyc-image.png</image>
     <video>./media/videos/Srallyc-video.mp4</video>
+    <thumbnail>./media/image/Srallyc-boxart.png</thumbnail>
     <marquee>./media/image/Srallyc-marquee.png</marquee>
     <wheel>./media/image/Srallyc-wheel.png</wheel>
     <boxart>./media/image/Srallyc-boxart.png</boxart>
     <screenshot>./media/screenshots/Srallyc-screenshot.png</screenshot>
+    <mix>./media/image/Srallyc-image.png</mix>
     <fanart>./media/fanart/Srallyc-fanart.jpg</fanart>
     <titleshot>./media/image/Srallyc-titleshot.png</titleshot>
     <manual>./media/manuals/Srallyc-manual.pdf</manual>
@@ -12164,10 +12216,12 @@ UM CHIP DE SÍNTESE DE VOZ VOTRAX SC-01 É USADO PARA GERAR A FALA INCOERENTE DE
     <arcadesystemname>capcom</arcadesystemname>
     <image>./media/image/Srumbler-image.png</image>
     <video>./media/videos/Srumbler-video.mp4</video>
+    <thumbnail>./media/image/Srumbler-boxart.png</thumbnail>
     <marquee>./media/image/Srumbler-marquee.png</marquee>
     <wheel>./media/image/Srumbler-wheel.png</wheel>
     <boxart>./media/image/Srumbler-boxart.png</boxart>
     <screenshot>./media/screenshots/Srumbler-screenshot.png</screenshot>
+    <mix>./media/image/Srumbler-image.png</mix>
     <fanart>./media/fanart/Srumbler-fanart.jpg</fanart>
     <titleshot>./media/image/Srumbler-titleshot.png</titleshot>
     <manual>./media/manuals/Srumbler_(us).pdf</manual>
@@ -12193,10 +12247,12 @@ UM CHIP DE SÍNTESE DE VOZ VOTRAX SC-01 É USADO PARA GERAR A FALA INCOERENTE DE
     <arcadesystemname>capcom</arcadesystemname>
     <image>./media/image/Srumblr2-image.png</image>
     <video>./media/videos/Srumblr2-video.mp4</video>
+    <thumbnail>./media/image/Srumblr2-boxart.png</thumbnail>
     <marquee>./media/image/Srumblr2-marquee.png</marquee>
     <wheel>./media/image/Srumblr2-wheel.png</wheel>
     <boxart>./media/image/Srumblr2-boxart.png</boxart>
     <screenshot>./media/screenshots/Srumblr2-screenshot.png</screenshot>
+    <mix>./media/image/Srumblr2-image.png</mix>
     <fanart>./media/fanart/Srumblr2-fanart.jpg</fanart>
     <titleshot>./media/image/Srumblr2-titleshot.png</titleshot>
     <manual>./media/manuals/Srumblr2_(us).pdf</manual>
@@ -12226,6 +12282,7 @@ Clone Of : ssf2 -&gt; Super Street Fighter II - the new challengers (super stree
     <image>./media/image/Ssf2u-image.png</image>
     <video>./media/videos/Ssf2u-video.mp4</video>
     <screenshot>./media/screenshots/Ssf2u-screenshot.png</screenshot>
+    <mix>./media/image/Ssf2u-image.png</mix>
     <fanart>./media/fanart/Ssf2u-fanart.jpg</fanart>
     <titleshot>./media/image/Ssf2u-titleshot.png</titleshot>
     <manual>./media/manuals/Ssf2u_(wor).pdf</manual>
@@ -12256,6 +12313,7 @@ Clone Of : ssf2t -&gt; Super Street Fighter II X - grand master challenge (super
     <marquee>./media/image/Ssf2xj-marquee.png</marquee>
     <wheel>./media/image/Ssf2xj-wheel.png</wheel>
     <screenshot>./media/screenshots/Ssf2xj-screenshot.png</screenshot>
+    <mix>./media/image/Ssf2xj-image.png</mix>
     <fanart>./media/fanart/Ssf2xj-fanart.jpg</fanart>
     <titleshot>./media/image/Ssf2xj-titleshot.png</titleshot>
     <manual>./media/manuals/Ssf2xj_(wor).pdf</manual>
@@ -12282,11 +12340,13 @@ A COMPETIÇÃO OCORRE NA FORMA DE UM TORNEIO: VOCÊ COMEÇA NA PARTE INFERIOR DA
     <arcadesystemname>snk</arcadesystemname>
     <image>./media/image/Ssideki2-image.png</image>
     <video>./media/videos/Ssideki2-video.mp4</video>
+    <thumbnail>./media/image/Ssideki2-boxart.png</thumbnail>
     <marquee>./media/image/Ssideki2-marquee.png</marquee>
     <wheel>./media/image/Ssideki2-wheel.png</wheel>
     <boxart>./media/image/Ssideki2-boxart.png</boxart>
     <screenshot>./media/screenshots/Ssideki2-screenshot.png</screenshot>
     <cartridge>./media/image/Ssideki2-cartridge.png</cartridge>
+    <mix>./media/image/Ssideki2-image.png</mix>
     <fanart>./media/fanart/Ssideki2-fanart.jpg</fanart>
     <titleshot>./media/image/Ssideki2-titleshot.png</titleshot>
     <manual>./media/manuals/Ssideki2_(wor).pdf</manual>
@@ -12313,11 +12373,13 @@ A COMPETIÇÃO OCORRE NA FORMA DE UM TORNEIO: VOCÊ COMEÇA NA PARTE INFERIOR DA
     <arcadesystemname>snk</arcadesystemname>
     <image>./media/image/Ssideki3-image.png</image>
     <video>./media/videos/Ssideki3-video.mp4</video>
+    <thumbnail>./media/image/Ssideki3-boxart.png</thumbnail>
     <marquee>./media/image/Ssideki3-marquee.png</marquee>
     <wheel>./media/image/Ssideki3-wheel.png</wheel>
     <boxart>./media/image/Ssideki3-boxart.png</boxart>
     <screenshot>./media/screenshots/Ssideki3-screenshot.png</screenshot>
     <cartridge>./media/image/Ssideki3-cartridge.png</cartridge>
+    <mix>./media/image/Ssideki3-image.png</mix>
     <fanart>./media/fanart/Ssideki3-fanart.jpg</fanart>
     <titleshot>./media/image/Ssideki3-titleshot.png</titleshot>
     <manual>./media/manuals/Ssideki3_(wor).pdf</manual>
@@ -12343,6 +12405,7 @@ A COMPETIÇÃO OCORRE NA FORMA DE UM TORNEIO: VOCÊ COMEÇA NA PARTE INFERIOR DA
     <image>./media/image/Ssideki4-image.png</image>
     <video>./media/videos/Ssideki4-video.mp4</video>
     <screenshot>./media/screenshots/Ssideki4-screenshot.png</screenshot>
+    <mix>./media/image/Ssideki4-image.png</mix>
     <fanart>./media/fanart/Ssideki4-fanart.jpg</fanart>
     <titleshot>./media/image/Ssideki4-titleshot.png</titleshot>
     <extra1>./media/extras/Ssideki4-extra1.png</extra1>
@@ -12365,10 +12428,12 @@ A COMPETIÇÃO OCORRE NA FORMA DE UM TORNEIO: VOCÊ COMEÇA NA PARTE INFERIOR DA
     <arcadesystemname>sega</arcadesystemname>
     <image>./media/image/Sspaceat-image.png</image>
     <video>./media/videos/Sspaceat-video.mp4</video>
+    <thumbnail>./media/image/Sspaceat-boxart.png</thumbnail>
     <marquee>./media/image/Sspaceat-marquee.png</marquee>
     <wheel>./media/image/Sspaceat-wheel.png</wheel>
     <boxart>./media/image/Sspaceat-boxart.png</boxart>
     <screenshot>./media/screenshots/Sspaceat-screenshot.png</screenshot>
+    <mix>./media/image/Sspaceat-image.png</mix>
     <titleshot>./media/image/Sspaceat-titleshot.png</titleshot>
     <extra1>./media/extras/Sspaceat-extra1.png</extra1>
     <bezel>./media/image/Sspaceat-bezel.png</bezel>
@@ -12390,8 +12455,10 @@ A COMPETIÇÃO OCORRE NA FORMA DE UM TORNEIO: VOCÊ COMEÇA NA PARTE INFERIOR DA
     <arcadesystemname>atari</arcadesystemname>
     <image>./media/image/Ssprint-image.png</image>
     <video>./media/videos/Ssprint-video.mp4</video>
+    <thumbnail>./media/image/Ssprint-boxart.png</thumbnail>
     <boxart>./media/image/Ssprint-boxart.png</boxart>
     <screenshot>./media/screenshots/Ssprint-screenshot.png</screenshot>
+    <mix>./media/image/Ssprint-image.png</mix>
     <fanart>./media/fanart/Ssprint-fanart.jpg</fanart>
     <titleshot>./media/image/Ssprint-titleshot.png</titleshot>
     <manual>./media/manuals/Ssprint_(us).pdf</manual>
@@ -12418,6 +12485,7 @@ A COMPETIÇÃO OCORRE NA FORMA DE UM TORNEIO: VOCÊ COMEÇA NA PARTE INFERIOR DA
     <thumbnail>./media/image/Stadhero-boxart.png</thumbnail>
     <boxart>./media/image/Stadhero-boxart.png</boxart>
     <screenshot>./media/screenshots/Stadhero-screenshot.png</screenshot>
+    <mix>./media/image/Stadhero-image.png</mix>
     <titleshot>./media/image/Stadhero-titleshot.png</titleshot>
     <extra1>./media/extras/Stadhero-extra1.jpg</extra1>
   </game>
@@ -12443,6 +12511,7 @@ A MÚSICA DE ATRAÇÃO É UM COVER DA MÚSICA DE NÍVEL 1 DE "RAIDEN II".</desc>
     <marquee>./media/image/Stagger1-marquee.png</marquee>
     <wheel>./media/image/Stagger1-wheel.png</wheel>
     <screenshot>./media/screenshots/Stagger1-screenshot.png</screenshot>
+    <mix>./media/image/Stagger1-image.png</mix>
     <fanart>./media/fanart/Stagger1-fanart.jpg</fanart>
     <titleshot>./media/image/Stagger1-titleshot.png</titleshot>
     <extra1>./media/extras/Stagger1-extra1.png</extra1>
@@ -12465,6 +12534,7 @@ A MÚSICA DE ATRAÇÃO É UM COVER DA MÚSICA DE NÍVEL 1 DE "RAIDEN II".</desc>
     <image>./media/image/Stakes Winner 2-image.png</image>
     <video>./media/videos/Stakes Winner 2-video.mp4</video>
     <screenshot>./media/screenshots/Stakes Winner 2-screenshot.png</screenshot>
+    <mix>./media/image/Stakes Winner 2-image.png</mix>
     <fanart>./media/fanart/Stakes Winner 2-fanart.jpg</fanart>
     <titleshot>./media/image/Stakes Winner 2-titleshot.png</titleshot>
     <extra1>./media/extras/Stakes Winner 2-extra1.png</extra1>
@@ -12489,6 +12559,7 @@ A MÚSICA DE ATRAÇÃO É UM COVER DA MÚSICA DE NÍVEL 1 DE "RAIDEN II".</desc>
     <image>./media/image/Stakes Winner-image.png</image>
     <video>./media/videos/Stakes Winner-video.mp4</video>
     <screenshot>./media/screenshots/Stakes Winner-screenshot.png</screenshot>
+    <mix>./media/image/Stakes Winner-image.png</mix>
     <fanart>./media/fanart/Stakes Winner-fanart.jpg</fanart>
     <titleshot>./media/image/Stakes Winner-titleshot.png</titleshot>
     <extra1>./media/extras/Stakes Winner-extra1.png</extra1>
@@ -12511,10 +12582,12 @@ A MÚSICA DE ATRAÇÃO É UM COVER DA MÚSICA DE NÍVEL 1 DE "RAIDEN II".</desc>
     <arcadesystemname>exidy</arcadesystemname>
     <image>./media/image/Starfire-image.png</image>
     <video>./media/videos/Starfire-video.mp4</video>
+    <thumbnail>./media/image/Starfire-boxart.png</thumbnail>
     <marquee>./media/image/Starfire-marquee.png</marquee>
     <wheel>./media/image/Starfire-wheel.png</wheel>
     <boxart>./media/image/Starfire-boxart.png</boxart>
     <screenshot>./media/screenshots/Starfire-screenshot.png</screenshot>
+    <mix>./media/image/Starfire-image.png</mix>
     <titleshot>./media/image/Starfire-titleshot.png</titleshot>
     <manual>./media/manuals/Starfire_(us).pdf</manual>
     <extra1>./media/extras/Starfire-extra1.png</extra1>
@@ -12537,10 +12610,12 @@ A MÚSICA DE ATRAÇÃO É UM COVER DA MÚSICA DE NÍVEL 1 DE "RAIDEN II".</desc>
     <region>wor</region>
     <image>./media/image/Starforc-image.png</image>
     <video>./media/videos/Starforc-video.mp4</video>
+    <thumbnail>./media/image/Starforc-boxart.png</thumbnail>
     <marquee>./media/image/Starforc-marquee.png</marquee>
     <wheel>./media/image/Starforc-wheel.png</wheel>
     <boxart>./media/image/Starforc-boxart.png</boxart>
     <screenshot>./media/screenshots/Starforc-screenshot.png</screenshot>
+    <mix>./media/image/Starforc-image.png</mix>
     <titleshot>./media/image/Starforc-titleshot.png</titleshot>
     <manual>./media/manuals/Starforc_(wor).pdf</manual>
     <extra1>./media/extras/Starforc-extra1.png</extra1>
@@ -12566,10 +12641,12 @@ SE TODOS OS DEZ HUMANÓIDES DE UMA ONDA FOREM ABDUZIDOS, O UNIVERSO EXPLODIRÁ E
     <arcadesystemname>midway</arcadesystemname>
     <image>./media/image/Stargate-image.png</image>
     <video>./media/videos/Stargate-video.mp4</video>
+    <thumbnail>./media/image/Stargate-boxart.png</thumbnail>
     <marquee>./media/image/Stargate-marquee.png</marquee>
     <wheel>./media/image/Stargate-wheel.png</wheel>
     <boxart>./media/image/Stargate-boxart.png</boxart>
     <screenshot>./media/screenshots/Stargate-screenshot.png</screenshot>
+    <mix>./media/image/Stargate-image.png</mix>
     <fanart>./media/fanart/Stargate-fanart.jpg</fanart>
     <titleshot>./media/image/Stargate-titleshot.png</titleshot>
     <manual>./media/manuals/Stargate_(us).pdf</manual>
@@ -12600,6 +12677,7 @@ SE TODOS OS DEZ HUMANÓIDES DE UMA ONDA FOREM ABDUZIDOS, O UNIVERSO EXPLODIRÁ E
     <wheel>./media/image/Stocker-marquee.png</wheel>
     <boxart>./media/image/Stocker-boxart.png</boxart>
     <screenshot>./media/screenshots/Stocker-screenshot.png</screenshot>
+    <mix>./media/image/Stocker-image.png</mix>
     <fanart>./media/fanart/Stocker-fanart.jpg</fanart>
     <titleshot>./media/image/Stocker-titleshot.png</titleshot>
     <extra1>./media/extras/Stocker-extra1.jpg</extra1>
@@ -12629,6 +12707,7 @@ ESTRATÉGIA X. NUNCA HOUVE UM JOGO DE GUERRA COMO ESTE. ISSO EXPLODE MENTES E QU
     <image>./media/image/Stratgyb-image.png</image>
     <video>./media/videos/Stratgyb-video.mp4</video>
     <screenshot>./media/screenshots/Stratgyb-screenshot.png</screenshot>
+    <mix>./media/image/Stratgyb-image.png</mix>
     <titleshot>./media/image/Stratgyb-titleshot.png</titleshot>
     <extra1>./media/extras/Stratgyb-extra1.png</extra1>
     <bezel>./media/image/Stratgyb-bezel.png</bezel>
@@ -12657,10 +12736,12 @@ ESTRATÉGIA X. NUNCA HOUVE UM JOGO DE GUERRA COMO ESTE. ISSO EXPLODE MENTES E QU
     <arcadesystemname>konami</arcadesystemname>
     <image>./media/image/Stratgyx-image.png</image>
     <video>./media/videos/Stratgyx-video.mp4</video>
+    <thumbnail>./media/image/Stratgyx-boxart.png</thumbnail>
     <marquee>./media/image/Stratgyx-marquee.png</marquee>
     <wheel>./media/image/Stratgyx-marquee.png</wheel>
     <boxart>./media/image/Stratgyx-boxart.png</boxart>
     <screenshot>./media/screenshots/Stratgyx-screenshot.png</screenshot>
+    <mix>./media/image/Stratgyx-image.png</mix>
     <titleshot>./media/image/Stratgyx-titleshot.png</titleshot>
     <extra1>./media/extras/Stratgyx-extra1.png</extra1>
     <bezel>./media/image/Stratgyx-bezel.png</bezel>
@@ -12686,10 +12767,12 @@ AS NAVES ALIENÍGENAS CHEGAM AO PLANETA TERRA, A INVASÃO FOI ESTABELECIDA, APRE
 Clone Of : speakres -&gt; Stratovox</temporary>
     <image>./media/image/Stratvox-image.png</image>
     <video>./media/videos/Stratvox-video.mp4</video>
+    <thumbnail>./media/image/Stratvox-boxart.png</thumbnail>
     <marquee>./media/image/Stratvox-marquee.png</marquee>
     <wheel>./media/image/Stratvox-wheel.png</wheel>
     <boxart>./media/image/Stratvox-boxart.png</boxart>
     <screenshot>./media/screenshots/Stratvox-screenshot.png</screenshot>
+    <mix>./media/image/Stratvox-image.png</mix>
     <titleshot>./media/image/Stratvox-titleshot.png</titleshot>
     <extra1>./media/extras/Stratvox-extra1.png</extra1>
     <bezel>./media/image/Stratvox-bezel.png</bezel>
@@ -12715,6 +12798,7 @@ O ENREDO DE STREET FIGHTER ALPHA É SITUADO APÓS O STREET FIGHTER ORIGINAL, MAS
     <marquee>./media/image/Street Fighter Alpha - Warriors' Dreams.Cps2-marquee.png</marquee>
     <wheel>./media/image/Street Fighter Alpha - Warriors' Dreams.Cps2-wheel.png</wheel>
     <screenshot>./media/screenshots/Street Fighter Alpha - Warriors' Dreams.Cps2-screenshot.png</screenshot>
+    <mix>./media/image/Street Fighter Alpha - Warriors' Dreams.Cps2-image.png</mix>
     <fanart>./media/fanart/Street Fighter Alpha - Warriors' Dreams.Cps2-fanart.jpg</fanart>
     <titleshot>./media/image/Street Fighter Alpha - Warriors' Dreams.Cps2-titleshot.png</titleshot>
     <manual>./media/manuals/Street Fighter Alpha - Warriors' Dreams.Cps2-manual.pdf</manual>
@@ -12742,6 +12826,7 @@ O ENREDO DE STREET FIGHTER ALPHA É SITUADO APÓS O STREET FIGHTER ORIGINAL, MAS
     <marquee>./media/image/Street Fighter Alpha - Warriors' Dreams-marquee.png</marquee>
     <wheel>./media/image/Street Fighter Alpha - Warriors' Dreams-wheel.png</wheel>
     <screenshot>./media/screenshots/Street Fighter Alpha - Warriors' Dreams-screenshot.png</screenshot>
+    <mix>./media/image/Street Fighter Alpha - Warriors' Dreams-image.png</mix>
     <fanart>./media/fanart/Street Fighter Alpha - Warriors' Dreams-fanart.jpg</fanart>
     <titleshot>./media/image/Street Fighter Alpha - Warriors' Dreams-titleshot.png</titleshot>
     <manual>./media/manuals/Street Fighter Alpha - Warriors' Dreams-manual.pdf</manual>
@@ -12768,6 +12853,7 @@ O ENREDO DE STREET FIGHTER ALPHA É SITUADO APÓS O STREET FIGHTER ORIGINAL, MAS
     <marquee>./media/image/Street Fighter Alpha 2.Cps2-marquee.png</marquee>
     <wheel>./media/image/Street Fighter Alpha 2.Cps2-wheel.png</wheel>
     <screenshot>./media/screenshots/Street Fighter Alpha 2.Cps2-screenshot.png</screenshot>
+    <mix>./media/image/Street Fighter Alpha 2.Cps2-image.png</mix>
     <fanart>./media/fanart/Street Fighter Alpha 2.Cps2-fanart.jpg</fanart>
     <titleshot>./media/image/Street Fighter Alpha 2.Cps2-titleshot.png</titleshot>
     <manual>./media/manuals/Street Fighter Alpha 2.Cps2_(us).pdf</manual>
@@ -12794,6 +12880,7 @@ O ENREDO DE STREET FIGHTER ALPHA É SITUADO APÓS O STREET FIGHTER ORIGINAL, MAS
     <marquee>./media/image/Street Fighter Alpha 2-marquee.png</marquee>
     <wheel>./media/image/Street Fighter Alpha 2-wheel.png</wheel>
     <screenshot>./media/screenshots/Street Fighter Alpha 2-screenshot.png</screenshot>
+    <mix>./media/image/Street Fighter Alpha 2-image.png</mix>
     <fanart>./media/fanart/Street Fighter Alpha 2-fanart.jpg</fanart>
     <titleshot>./media/image/Street Fighter Alpha 2-titleshot.png</titleshot>
     <manual>./media/manuals/Street Fighter Alpha 2_(us).pdf</manual>
@@ -12818,6 +12905,7 @@ O ENREDO DE STREET FIGHTER ALPHA É SITUADO APÓS O STREET FIGHTER ORIGINAL, MAS
     <image>./media/image/Street Fighter II - Champion Edition-image.png</image>
     <video>./media/videos/Street Fighter II - Champion Edition-video.mp4</video>
     <screenshot>./media/screenshots/Street Fighter II - Champion Edition-screenshot.png</screenshot>
+    <mix>./media/image/Street Fighter II - Champion Edition-image.png</mix>
     <fanart>./media/fanart/Street Fighter II - Champion Edition-fanart.jpg</fanart>
     <titleshot>./media/image/Street Fighter II - Champion Edition-titleshot.png</titleshot>
     <manual>./media/manuals/Street Fighter II - Champion Edition_(us).pdf</manual>
@@ -12842,6 +12930,7 @@ HYPER FIGHTING É O ULTIMO JOGO DA SÉRIE A UTILIZAR O HARDWARE ORIGINAL DO CP S
     <image>./media/image/Street Fighter II - Hyper Fighting-image.png</image>
     <video>./media/videos/Street Fighter II - Hyper Fighting-video.mp4</video>
     <screenshot>./media/screenshots/Street Fighter II - Hyper Fighting-screenshot.png</screenshot>
+    <mix>./media/image/Street Fighter II - Hyper Fighting-image.png</mix>
     <fanart>./media/fanart/Street Fighter II - Hyper Fighting-fanart.jpg</fanart>
     <titleshot>./media/image/Street Fighter II - Hyper Fighting-titleshot.png</titleshot>
     <manual>./media/manuals/Street Fighter II - Hyper Fighting_(us).pdf</manual>
@@ -12866,6 +12955,7 @@ HYPER FIGHTING É O ULTIMO JOGO DA SÉRIE A UTILIZAR O HARDWARE ORIGINAL DO CP S
     <image>./media/image/Street Fighter II - The World Warrior-image.png</image>
     <video>./media/videos/Street Fighter II - The World Warrior-video.mp4</video>
     <screenshot>./media/screenshots/Street Fighter II - The World Warrior-screenshot.png</screenshot>
+    <mix>./media/image/Street Fighter II - The World Warrior-image.png</mix>
     <fanart>./media/fanart/Street Fighter II - The World Warrior-fanart.jpg</fanart>
     <titleshot>./media/image/Street Fighter II - The World Warrior-titleshot.png</titleshot>
     <manual>./media/manuals/Street Fighter II - The World Warrior_(us).pdf</manual>
@@ -12892,6 +12982,7 @@ HYPER FIGHTING É O ULTIMO JOGO DA SÉRIE A UTILIZAR O HARDWARE ORIGINAL DO CP S
     <marquee>./media/image/Street Fighter Zero 2-marquee.png</marquee>
     <wheel>./media/image/Street Fighter Zero 2-wheel.png</wheel>
     <screenshot>./media/screenshots/Street Fighter Zero 2-screenshot.png</screenshot>
+    <mix>./media/image/Street Fighter Zero 2-image.png</mix>
     <fanart>./media/fanart/Street Fighter Zero 2-fanart.jpg</fanart>
     <titleshot>./media/image/Street Fighter Zero 2-titleshot.png</titleshot>
     <manual>./media/manuals/Street Fighter Zero 2_(us).pdf</manual>
@@ -13059,6 +13150,7 @@ TODAVIA, HIRYU, UM VALENTE GUERREIRO STRIDER, ARMADO COM SUA PODEROSA ESPADA CYP
     <image>./media/image/Strikers 1945 Plus-image.png</image>
     <video>./media/videos/Strikers 1945 Plus-video.mp4</video>
     <screenshot>./media/screenshots/Strikers 1945 Plus-screenshot.png</screenshot>
+    <mix>./media/image/Strikers 1945 Plus-image.png</mix>
     <fanart>./media/fanart/Strikers 1945 Plus-fanart.jpg</fanart>
     <titleshot>./media/image/Strikers 1945 Plus-titleshot.png</titleshot>
     <extra1>./media/extras/Strikers 1945 Plus-extra1.png</extra1>
@@ -13083,6 +13175,7 @@ TODAVIA, HIRYU, UM VALENTE GUERREIRO STRIDER, ARMADO COM SUA PODEROSA ESPADA CYP
     <image>./media/image/Super Dodge Ball-image.png</image>
     <video>./media/videos/Super Dodge Ball-video.mp4</video>
     <screenshot>./media/screenshots/Super Dodge Ball-screenshot.png</screenshot>
+    <mix>./media/image/Super Dodge Ball-image.png</mix>
     <fanart>./media/fanart/Super Dodge Ball-fanart.jpg</fanart>
     <titleshot>./media/image/Super Dodge Ball-titleshot.png</titleshot>
     <manual>./media/manuals/Super Dodge Ball_(wor).pdf</manual>
@@ -13109,6 +13202,7 @@ DURANTE UMA LUTA, OS JOGADORES PODERÃO LIBERAR GEMAS COLORIDAS DE ATAQUES BEM-S
     <image>./media/image/Super Gem Fighter Mini Mix-image.png</image>
     <video>./media/videos/Super Gem Fighter Mini Mix-video.mp4</video>
     <screenshot>./media/screenshots/Super Gem Fighter Mini Mix-screenshot.png</screenshot>
+    <mix>./media/image/Super Gem Fighter Mini Mix-image.png</mix>
     <fanart>./media/fanart/Super Gem Fighter Mini Mix-fanart.jpg</fanart>
     <titleshot>./media/image/Super Gem Fighter Mini Mix-titleshot.png</titleshot>
     <manual>./media/manuals/Super Gem Fighter Mini Mix_(us).pdf</manual>
@@ -13133,6 +13227,7 @@ DURANTE UMA LUTA, OS JOGADORES PODERÃO LIBERAR GEMAS COLORIDAS DE ATAQUES BEM-S
     <image>./media/image/Super Puzzle Fighter 2 Turbo-image.png</image>
     <video>./media/videos/Super Puzzle Fighter 2 Turbo-video.mp4</video>
     <screenshot>./media/screenshots/Super Puzzle Fighter 2 Turbo-screenshot.png</screenshot>
+    <mix>./media/image/Super Puzzle Fighter 2 Turbo-image.png</mix>
     <fanart>./media/fanart/Super Puzzle Fighter 2 Turbo-fanart.jpg</fanart>
     <titleshot>./media/image/Super Puzzle Fighter 2 Turbo-titleshot.png</titleshot>
     <manual>./media/manuals/Super Puzzle Fighter 2 Turbo_(us).pdf</manual>
@@ -13157,6 +13252,7 @@ DURANTE UMA LUTA, OS JOGADORES PODERÃO LIBERAR GEMAS COLORIDAS DE ATAQUES BEM-S
     <image>./media/image/Super Spy, The-image.png</image>
     <video>./media/videos/Super Spy, The-video.mp4</video>
     <screenshot>./media/screenshots/Super Spy, The-screenshot.png</screenshot>
+    <mix>./media/image/Super Spy, The-image.png</mix>
     <fanart>./media/fanart/Super Spy, The-fanart.jpg</fanart>
     <titleshot>./media/image/Super Spy, The-titleshot.png</titleshot>
     <manual>./media/manuals/Super Spy, The_(wor).pdf</manual>
@@ -13182,6 +13278,7 @@ ESTE JOGO TAMBÉM É CONHECIDO SOB O NOME DE SUPER STREET FIGHTER II: THE TOURNA
     <image>./media/image/Super Street Fighter II The New Challengers-image.png</image>
     <video>./media/videos/Super Street Fighter II The New Challengers-video.mp4</video>
     <screenshot>./media/screenshots/Super Street Fighter II The New Challengers-screenshot.png</screenshot>
+    <mix>./media/image/Super Street Fighter II The New Challengers-image.png</mix>
     <fanart>./media/fanart/Super Street Fighter II The New Challengers-fanart.jpg</fanart>
     <titleshot>./media/image/Super Street Fighter II The New Challengers-titleshot.png</titleshot>
     <manual>./media/manuals/Super Street Fighter II The New Challengers_(wor).pdf</manual>
@@ -13207,6 +13304,7 @@ O SUPER TURBO INTRODUZIU VÁRIAS NOVAS MECÂNICAS DE JOGO NO SISTEMA DE JOGO A P
     <image>./media/image/Super Street Fighter II Turbo-image.png</image>
     <video>./media/videos/Super Street Fighter II Turbo-video.mp4</video>
     <screenshot>./media/screenshots/Super Street Fighter II Turbo-screenshot.png</screenshot>
+    <mix>./media/image/Super Street Fighter II Turbo-image.png</mix>
     <fanart>./media/fanart/Super Street Fighter II Turbo-fanart.jpg</fanart>
     <titleshot>./media/image/Super Street Fighter II Turbo-titleshot.png</titleshot>
     <manual>./media/manuals/Super Street Fighter II Turbo_(wor).pdf</manual>
@@ -13235,10 +13333,12 @@ O SUPER TURBO INTRODUZIU VÁRIAS NOVAS MECÂNICAS DE JOGO NO SISTEMA DE JOGO A P
 Clone Of : galaxian -&gt; Super Galaxians (galaxiaj hack)</temporary>
     <image>./media/image/Superg-image.png</image>
     <video>./media/videos/Superg-video.mp4</video>
+    <thumbnail>./media/image/Superg-boxart.png</thumbnail>
     <marquee>./media/image/Superg-marquee.png</marquee>
     <wheel>./media/image/Superg-wheel.png</wheel>
     <boxart>./media/image/Superg-boxart.png</boxart>
     <screenshot>./media/screenshots/Superg-screenshot.png</screenshot>
+    <mix>./media/image/Superg-image.png</mix>
     <fanart>./media/fanart/Superg-fanart.jpg</fanart>
     <titleshot>./media/image/Superg-titleshot.png</titleshot>
     <manual>./media/manuals/Superg_(us).pdf</manual>
@@ -13265,10 +13365,12 @@ Clone Of : galaxian -&gt; Super Galaxians (galaxiaj hack)</temporary>
     <arcadesystemname>namco</arcadesystemname>
     <image>./media/image/Superpac-image.png</image>
     <video>./media/videos/Superpac-video.mp4</video>
+    <thumbnail>./media/image/Superpac-boxart.png</thumbnail>
     <marquee>./media/image/Superpac-marquee.png</marquee>
     <wheel>./media/image/Superpac-wheel.png</wheel>
     <boxart>./media/image/Superpac-boxart.png</boxart>
     <screenshot>./media/screenshots/Superpac-screenshot.png</screenshot>
+    <mix>./media/image/Superpac-image.png</mix>
     <fanart>./media/fanart/Superpac-fanart.jpg</fanart>
     <titleshot>./media/image/Superpac-titleshot.png</titleshot>
     <manual>./media/manuals/Superpac_(us).pdf</manual>
@@ -13296,6 +13398,7 @@ Clone Of : galaxian -&gt; Super Galaxians (galaxiaj hack)</temporary>
     <image>./media/image/Superpcn-image.png</image>
     <video>./media/videos/Superpcn-video.mp4</video>
     <screenshot>./media/screenshots/Superpcn-screenshot.png</screenshot>
+    <mix>./media/image/Superpcn-image.png</mix>
     <fanart>./media/fanart/Superpcn-fanart.jpg</fanart>
     <titleshot>./media/image/Superpcn-titleshot.png</titleshot>
     <manual>./media/manuals/Superpcn_(us).pdf</manual>
@@ -13321,10 +13424,12 @@ Clone Of : galaxian -&gt; Super Galaxians (galaxiaj hack)</temporary>
 Clone Of : missile -&gt; Super Missile Attack (for rev 1)</temporary>
     <image>./media/image/Suprmatk-image.png</image>
     <video>./media/videos/Suprmatk-video.mp4</video>
+    <thumbnail>./media/image/Suprmatk-boxart.png</thumbnail>
     <marquee>./media/image/Suprmatk-marquee.png</marquee>
     <wheel>./media/image/Suprmatk-wheel.png</wheel>
     <boxart>./media/image/Suprmatk-boxart.png</boxart>
     <screenshot>./media/screenshots/Suprmatk-screenshot.png</screenshot>
+    <mix>./media/image/Suprmatk-image.png</mix>
     <fanart>./media/fanart/Suprmatk-fanart.jpg</fanart>
     <titleshot>./media/image/Suprmatk-titleshot.png</titleshot>
     <manual>./media/manuals/Suprmatk_(us).pdf</manual>
@@ -13350,6 +13455,7 @@ Clone Of : missile -&gt; Super Missile Attack (for rev 1)</temporary>
     <image>./media/image/Svc Chaos - SNK Vs Capcom-image.png</image>
     <video>./media/videos/Svc Chaos - SNK Vs Capcom-video.mp4</video>
     <screenshot>./media/screenshots/Svc Chaos - SNK Vs Capcom-screenshot.png</screenshot>
+    <mix>./media/image/Svc Chaos - SNK Vs Capcom-image.png</mix>
     <fanart>./media/fanart/Svc Chaos - SNK Vs Capcom-fanart.jpg</fanart>
     <titleshot>./media/image/Svc Chaos - SNK Vs Capcom-titleshot.png</titleshot>
     <extra1>./media/extras/Svc Chaos - SNK Vs Capcom-extra1.png</extra1>
@@ -13368,6 +13474,7 @@ Clone Of : missile -&gt; Super Missile Attack (for rev 1)</temporary>
     <wheel>./media/image/Szaxxon-wheel.png</wheel>
     <boxart>./media/image/Szaxxon-boxart.png</boxart>
     <screenshot>./media/screenshots/Szaxxon-screenshot.png</screenshot>
+    <mix>./media/image/Szaxxon-image.png</mix>
     <fanart>./media/fanart/Szaxxon-fanart.jpg</fanart>
     <titleshot>./media/image/Szaxxon-titleshot.png</titleshot>
     <manual>./media/manuals/Szaxxon-manual.pdf</manual>
@@ -13387,6 +13494,7 @@ Clone Of : missile -&gt; Super Missile Attack (for rev 1)</temporary>
     <wheel>./media/image/Tankbatt-wheel.png</wheel>
     <boxart>./media/image/Tankbatt-boxart.png</boxart>
     <screenshot>./media/screenshots/Tankbatt-screenshot.png</screenshot>
+    <mix>./media/image/Tankbatt-image.png</mix>
     <fanart>./media/fanart/Tankbatt-fanart.jpg</fanart>
     <titleshot>./media/image/Tankbatt-titleshot.png</titleshot>
     <extra1>./media/extras/Tankbatt-extra1.png</extra1>
@@ -13410,10 +13518,12 @@ Clone Of : missile -&gt; Super Missile Attack (for rev 1)</temporary>
     <arcadesystemname>konami</arcadesystemname>
     <image>./media/image/Tazmania-image.png</image>
     <video>./media/videos/Tazmania-video.mp4</video>
+    <thumbnail>./media/image/Tazmania-boxart.png</thumbnail>
     <marquee>./media/image/Tazmania-marquee.png</marquee>
     <wheel>./media/image/Tazmania-wheel.png</wheel>
     <boxart>./media/image/Tazmania-boxart.png</boxart>
     <screenshot>./media/screenshots/Tazmania-screenshot.png</screenshot>
+    <mix>./media/image/Tazmania-image.png</mix>
     <titleshot>./media/image/Tazmania-titleshot.png</titleshot>
     <manual>./media/manuals/Tazmania-manual.pdf</manual>
     <boxback>./media/image/Tazmania-boxback.png</boxback>
@@ -13443,6 +13553,7 @@ COMO NOS JOGOS TWIN BEE ANTERIORES, EXISTEM DOIS TIPOS DE POWER-UPS: POWER-UPS D
     <wheel>./media/image/Tbyahhoo-marquee.png</wheel>
     <boxart>./media/image/Tbyahhoo-boxart.png</boxart>
     <screenshot>./media/screenshots/Tbyahhoo-screenshot.png</screenshot>
+    <mix>./media/image/Tbyahhoo-image.png</mix>
     <titleshot>./media/image/Tbyahhoo-titleshot.png</titleshot>
   </game>
   <game>
@@ -13452,6 +13563,7 @@ COMO NOS JOGOS TWIN BEE ANTERIORES, EXISTEM DOIS TIPOS DE POWER-UPS: POWER-UPS D
     <image>./media/image/Tecmo World Soccer '96-image.png</image>
     <video>./media/videos/Tecmo World Soccer '96-video.mp4</video>
     <screenshot>./media/screenshots/Tecmo World Soccer '96-screenshot.png</screenshot>
+    <mix>./media/image/Tecmo World Soccer '96-image.png</mix>
     <fanart>./media/fanart/Tecmo World Soccer '96-fanart.jpg</fanart>
     <titleshot>./media/image/Tecmo World Soccer '96-titleshot.png</titleshot>
     <extra1>./media/extras/Tecmo World Soccer '96-extra1.png</extra1>
@@ -13475,6 +13587,7 @@ COMO NOS JOGOS TWIN BEE ANTERIORES, EXISTEM DOIS TIPOS DE POWER-UPS: POWER-UPS D
     <image>./media/image/Tecmowcm-image.png</image>
     <video>./media/videos/Tecmowcm-video.mp4</video>
     <screenshot>./media/screenshots/Tecmowcm-screenshot.png</screenshot>
+    <mix>./media/image/Tecmowcm-image.png</mix>
     <titleshot>./media/image/Tecmowcm-titleshot.png</titleshot>
     <extra1>./media/extras/Tecmowcm-extra1.png</extra1>
   </game>
@@ -13500,6 +13613,7 @@ PROGRAMADO POR MICHISHITO ISHIZUKA, FOI LANÇADO PARA FLIPERAMAS EM 1985 PELA TE
     <wheel>./media/image/Tehkanwc-marquee.png</wheel>
     <boxart>./media/image/Tehkanwc-boxart.png</boxart>
     <screenshot>./media/screenshots/Tehkanwc-screenshot.png</screenshot>
+    <mix>./media/image/Tehkanwc-image.png</mix>
     <fanart>./media/fanart/Tehkanwc-fanart.jpg</fanart>
     <titleshot>./media/image/Tehkanwc-titleshot.png</titleshot>
     <manual>./media/manuals/Tehkanwc_(wor).pdf</manual>
@@ -13526,6 +13640,7 @@ PROGRAMADO POR MICHISHITO ISHIZUKA, FOI LANÇADO PARA FLIPERAMAS EM 1985 PELA TE
     <wheel>./media/image/Tekken3-marquee.png</wheel>
     <boxart>./media/image/Tekken3-boxart.png</boxart>
     <screenshot>./media/screenshots/Tekken3-screenshot.jpg</screenshot>
+    <mix>./media/image/Tekken3-image.png</mix>
     <fanart>./media/fanart/Tekken3-fanart.jpg</fanart>
     <titleshot>./media/image/Tekken3-titleshot.png</titleshot>
     <manual>./media/manuals/Tekken3-manual.pdf</manual>
@@ -13554,6 +13669,7 @@ PROGRAMADO POR MICHISHITO ISHIZUKA, FOI LANÇADO PARA FLIPERAMAS EM 1985 PELA TE
     <wheel>./media/image/Tektagt-marquee.png</wheel>
     <boxart>./media/image/Tektagt-boxart.png</boxart>
     <screenshot>./media/screenshots/Tektagt-screenshot.png</screenshot>
+    <mix>./media/image/Tektagt-image.png</mix>
     <fanart>./media/fanart/Tektagt-fanart.jpg</fanart>
     <titleshot>./media/image/Tektagt-titleshot.png</titleshot>
     <manual>./media/manuals/Tektagt-manual.pdf</manual>
@@ -13568,6 +13684,7 @@ PROGRAMADO POR MICHISHITO ISHIZUKA, FOI LANÇADO PARA FLIPERAMAS EM 1985 PELA TE
     <genreid>0</genreid>
     <image>./media/image/Tempest-image.png</image>
     <video>./media/videos/Tempest-video.mp4</video>
+    <mix>./media/image/Tempest-image.png</mix>
     <fanart>./media/fanart/Tempest-fanart.jpg</fanart>
     <manual>./media/manuals/Tempest_(us).pdf</manual>
     <extra1>./media/extras/Tempest-extra1.png</extra1>
@@ -13597,6 +13714,7 @@ ESTE JOGO É CONHECIDO NO JAPÃO COMO "SENGOKU BLADE - SENGOKU ACE EPISÓDIO II"
     <wheel>./media/image/Tengai-marquee.png</wheel>
     <boxart>./media/image/Tengai-boxart.png</boxart>
     <screenshot>./media/screenshots/Tengai-screenshot.png</screenshot>
+    <mix>./media/image/Tengai-image.png</mix>
     <fanart>./media/fanart/Tengai-fanart.jpg</fanart>
     <titleshot>./media/image/Tengai-titleshot.png</titleshot>
     <extra1>./media/image/Tengai-bezel.png</extra1>
@@ -13615,6 +13733,7 @@ ESTE JOGO É CONHECIDO NO JAPÃO COMO "SENGOKU BLADE - SENGOKU ACE EPISÓDIO II"
     <wheel>./media/image/Theend-wheel.png</wheel>
     <boxart>./media/image/Theend-boxart.png</boxart>
     <screenshot>./media/screenshots/Theend-screenshot.png</screenshot>
+    <mix>./media/image/Theend-image.png</mix>
     <titleshot>./media/image/Theend-titleshot.png</titleshot>
     <extra1>./media/extras/Theend-extra1.png</extra1>
   </game>
@@ -13631,6 +13750,7 @@ ESTE JOGO É CONHECIDO NO JAPÃO COMO "SENGOKU BLADE - SENGOKU ACE EPISÓDIO II"
     <wheel>./media/image/Thepit-wheel.png</wheel>
     <boxart>./media/image/Thepit-boxart.png</boxart>
     <screenshot>./media/screenshots/Thepit-screenshot.png</screenshot>
+    <mix>./media/image/Thepit-image.png</mix>
     <titleshot>./media/image/Thepit-titleshot.png</titleshot>
     <manual>./media/manuals/Thepit-manual.pdf</manual>
     <extra1>./media/extras/Thepit-extra1.png</extra1>
@@ -13643,6 +13763,7 @@ ESTE JOGO É CONHECIDO NO JAPÃO COMO "SENGOKU BLADE - SENGOKU ACE EPISÓDIO II"
     <image>./media/image/Thrash Rally-image.png</image>
     <video>./media/videos/Thrash Rally-video.mp4</video>
     <screenshot>./media/screenshots/Thrash Rally-screenshot.png</screenshot>
+    <mix>./media/image/Thrash Rally-image.png</mix>
     <fanart>./media/fanart/Thrash Rally-fanart.jpg</fanart>
     <titleshot>./media/image/Thrash Rally-titleshot.png</titleshot>
     <extra1>./media/extras/Thrash Rally-extra1.png</extra1>
@@ -13656,6 +13777,7 @@ ESTE JOGO É CONHECIDO NO JAPÃO COMO "SENGOKU BLADE - SENGOKU ACE EPISÓDIO II"
     <image>./media/image/Three Wonders-image.png</image>
     <video>./media/videos/Three Wonders-video.mp4</video>
     <screenshot>./media/screenshots/Three Wonders-screenshot.png</screenshot>
+    <mix>./media/image/Three Wonders-image.png</mix>
     <fanart>./media/fanart/Three Wonders-fanart.jpg</fanart>
     <titleshot>./media/image/Three Wonders-titleshot.png</titleshot>
     <manual>./media/manuals/Three Wonders_(us).pdf</manual>
@@ -13684,6 +13806,7 @@ ESTE JOGO É CONHECIDO NO JAPÃO COMO "SENGOKU BLADE - SENGOKU ACE EPISÓDIO II"
     <wheel>./media/image/Thundfox-marquee.png</wheel>
     <boxart>./media/image/Thundfox-boxart.png</boxart>
     <screenshot>./media/screenshots/Thundfox-screenshot.png</screenshot>
+    <mix>./media/image/Thundfox-image.png</mix>
     <fanart>./media/fanart/Thundfox-fanart.jpg</fanart>
     <titleshot>./media/image/Thundfox-titleshot.png</titleshot>
   </game>
@@ -13696,6 +13819,7 @@ ESTE JOGO É CONHECIDO NO JAPÃO COMO "SENGOKU BLADE - SENGOKU ACE EPISÓDIO II"
     <image>./media/image/Tigeroad-image.png</image>
     <video>./media/videos/Tigeroad-video.mp4</video>
     <screenshot>./media/screenshots/Tigeroad-screenshot.png</screenshot>
+    <mix>./media/image/Tigeroad-image.png</mix>
     <fanart>./media/fanart/Tigeroad-fanart.jpg</fanart>
     <titleshot>./media/image/Tigeroad-titleshot.png</titleshot>
     <manual>./media/manuals/Tigeroad_(us).pdf</manual>
@@ -13715,6 +13839,7 @@ ESTE JOGO É CONHECIDO NO JAPÃO COMO "SENGOKU BLADE - SENGOKU ACE EPISÓDIO II"
     <wheel>./media/image/Timber-wheel.png</wheel>
     <boxart>./media/image/Timber-boxart.png</boxart>
     <screenshot>./media/screenshots/Timber-screenshot.png</screenshot>
+    <mix>./media/image/Timber-image.png</mix>
     <fanart>./media/fanart/Timber-fanart.jpg</fanart>
     <titleshot>./media/image/Timber-titleshot.png</titleshot>
     <manual>./media/manuals/Timber_(us).pdf</manual>
@@ -13747,6 +13872,7 @@ TIME ATTACK: O JOGADOR SELECIONA UMA DAS QUATRO FASES E DEVE DERROTAR TODOS OS I
     <wheel>./media/image/Timecrisa-marquee.png</wheel>
     <boxart>./media/image/Timecrisa-boxart.png</boxart>
     <screenshot>./media/screenshots/Timecrisa-screenshot.png</screenshot>
+    <mix>./media/image/Timecrisa-image.png</mix>
     <fanart>./media/fanart/Timecrisa-fanart.jpg</fanart>
     <titleshot>./media/image/Timecrisa-titleshot.png</titleshot>
     <boxback>./media/image/Timecrisa-boxback.png</boxback>
@@ -13764,6 +13890,7 @@ TIME ATTACK: O JOGADOR SELECIONA UMA DAS QUATRO FASES E DEVE DERROTAR TODOS OS I
     <wheel>./media/image/Timeplt-wheel.png</wheel>
     <boxart>./media/image/Timeplt-boxart.png</boxart>
     <screenshot>./media/screenshots/Timeplt-screenshot.png</screenshot>
+    <mix>./media/image/Timeplt-image.png</mix>
     <fanart>./media/fanart/Timeplt-fanart.jpg</fanart>
     <titleshot>./media/image/Timeplt-titleshot.png</titleshot>
     <manual>./media/manuals/Timeplt_(us).pdf</manual>
@@ -13797,6 +13924,7 @@ MUDE HABILMENTE OS PONTOS DA FERROVIA PARA MANOBRAR O TREM, EVITANDO QUAISQUER O
     <wheel>./media/image/Timetunl-marquee.png</wheel>
     <boxart>./media/image/Timetunl-boxart.png</boxart>
     <screenshot>./media/screenshots/Timetunl-screenshot.png</screenshot>
+    <mix>./media/image/Timetunl-image.png</mix>
     <titleshot>./media/image/Timetunl-titleshot.png</titleshot>
   </game>
   <game id="43626">
@@ -13823,6 +13951,7 @@ O TIN STAR É UM JOGO DE TIRO COMPLICADO, ONDE VOCÊ TEM QUE SE ESQUIVAR E ATIRA
     <wheel>./media/image/Tinstar-marquee.png</wheel>
     <boxart>./media/image/Tinstar-boxart.png</boxart>
     <screenshot>./media/screenshots/Tinstar-screenshot.png</screenshot>
+    <mix>./media/image/Tinstar-image.png</mix>
     <titleshot>./media/image/Tinstar-titleshot.png</titleshot>
     <extra1>./media/image/Tinstar-bezel.png</extra1>
     <bezel>./media/image/Tinstar-bezel.png</bezel>
@@ -13843,6 +13972,7 @@ Clone Of : congo -&gt; Tip Top</temporary>
     <wheel>./media/image/Tiptop-wheel.png</wheel>
     <boxart>./media/image/Tiptop-boxart.png</boxart>
     <screenshot>./media/screenshots/Tiptop-screenshot.png</screenshot>
+    <mix>./media/image/Tiptop-image.png</mix>
     <fanart>./media/fanart/Tiptop-fanart.jpg</fanart>
     <titleshot>./media/image/Tiptop-titleshot.png</titleshot>
     <manual>./media/manuals/Tiptop-manual.pdf</manual>
@@ -13861,6 +13991,7 @@ Clone Of : tmnt -&gt; Teenage Mutant Hero Turtles (UK 4 Players, version F)</tem
     <image>./media/image/Tmht-image.png</image>
     <video>./media/videos/Tmht-video.mp4</video>
     <screenshot>./media/screenshots/Tmht-screenshot.png</screenshot>
+    <mix>./media/image/Tmht-image.png</mix>
     <fanart>./media/fanart/Tmht-fanart.jpg</fanart>
     <titleshot>./media/image/Tmht-titleshot.png</titleshot>
     <manual>./media/manuals/Tmht_(us).pdf</manual>
@@ -13890,6 +14021,7 @@ MAIS UMA VEZ, O DOMÍNIO DA KONAMI SOBRE O GÊNERO ESTAVA EM EVIDÊNCIA, POIS A 
     <wheel>./media/image/Tmnt22p-marquee.png</wheel>
     <boxart>./media/image/Tmnt22p-boxart.png</boxart>
     <screenshot>./media/screenshots/Tmnt22p-screenshot.png</screenshot>
+    <mix>./media/image/Tmnt22p-image.png</mix>
     <fanart>./media/fanart/Tmnt22p-fanart.jpg</fanart>
     <titleshot>./media/image/Tmnt22p-titleshot.png</titleshot>
     <manual>./media/manuals/Tmnt22p_(us).pdf</manual>
@@ -13905,6 +14037,7 @@ MAIS UMA VEZ, O DOMÍNIO DA KONAMI SOBRE O GÊNERO ESTAVA EM EVIDÊNCIA, POIS A 
     <marquee>./media/image/Tnzs2-marquee.png</marquee>
     <wheel>./media/image/Tnzs2-wheel.png</wheel>
     <screenshot>./media/screenshots/Tnzs2-screenshot.png</screenshot>
+    <mix>./media/image/Tnzs2-image.png</mix>
     <fanart>./media/fanart/Tnzs2-fanart.jpg</fanart>
     <titleshot>./media/image/Tnzs2-titleshot.png</titleshot>
     <manual>./media/manuals/Tnzs2_(wor).pdf</manual>
@@ -13934,6 +14067,7 @@ AS FASES DO JOGO SÃO COMPOSTAS POR PLATAFORMAS COM UM PÁSSARO KIWI ENJAULADO A
     <wheel>./media/image/Tnzs-marquee.png</wheel>
     <boxart>./media/image/Tnzs-boxart.png</boxart>
     <screenshot>./media/screenshots/Tnzs-screenshot.png</screenshot>
+    <mix>./media/image/Tnzs-image.png</mix>
     <fanart>./media/fanart/Tnzs-fanart.jpg</fanart>
     <titleshot>./media/image/Tnzs-titleshot.png</titleshot>
     <manual>./media/manuals/Tnzs_(wor).pdf</manual>
@@ -13953,6 +14087,7 @@ AS FASES DO JOGO SÃO COMPOSTAS POR PLATAFORMAS COM UM PÁSSARO KIWI ENJAULADO A
     <wheel>./media/image/Todruaga-wheel.png</wheel>
     <boxart>./media/image/Todruaga-boxart.png</boxart>
     <screenshot>./media/screenshots/Todruaga-screenshot.png</screenshot>
+    <mix>./media/image/Todruaga-image.png</mix>
     <fanart>./media/fanart/Todruaga-fanart.jpg</fanart>
     <titleshot>./media/image/Todruaga-titleshot.png</titleshot>
     <extra1>./media/extras/Todruaga-extra1.png</extra1>
@@ -13978,6 +14113,7 @@ AS FASES DO JOGO SÃO COMPOSTAS POR PLATAFORMAS COM UM PÁSSARO KIWI ENJAULADO A
     <wheel>./media/image/Toki-marquee.png</wheel>
     <boxart>./media/image/Toki-boxart.png</boxart>
     <screenshot>./media/screenshots/Toki-screenshot.png</screenshot>
+    <mix>./media/image/Toki-image.png</mix>
     <fanart>./media/fanart/Toki-fanart.jpg</fanart>
     <titleshot>./media/image/Toki-titleshot.png</titleshot>
     <manual>./media/manuals/Toki-manual.pdf</manual>
@@ -13997,6 +14133,7 @@ AS FASES DO JOGO SÃO COMPOSTAS POR PLATAFORMAS COM UM PÁSSARO KIWI ENJAULADO A
     <wheel>./media/image/Toobin-wheel.png</wheel>
     <boxart>./media/image/Toobin-boxart.png</boxart>
     <screenshot>./media/screenshots/Toobin-screenshot.png</screenshot>
+    <mix>./media/image/Toobin-image.png</mix>
     <fanart>./media/fanart/Toobin-fanart.jpg</fanart>
     <titleshot>./media/image/Toobin-titleshot.png</titleshot>
     <manual>./media/manuals/Toobin_(us).pdf</manual>
@@ -14011,6 +14148,7 @@ AS FASES DO JOGO SÃO COMPOSTAS POR PLATAFORMAS COM UM PÁSSARO KIWI ENJAULADO A
     <image>./media/image/Top Player's Golf-image.png</image>
     <video>./media/videos/Top Player's Golf-video.mp4</video>
     <screenshot>./media/screenshots/Top Player's Golf-screenshot.png</screenshot>
+    <mix>./media/image/Top Player's Golf-image.png</mix>
     <fanart>./media/fanart/Top Player's Golf-fanart.jpg</fanart>
     <titleshot>./media/image/Top Player's Golf-titleshot.png</titleshot>
     <manual>./media/manuals/Top Player's Golf_(us).pdf</manual>
@@ -14040,6 +14178,7 @@ AS FASES DO JOGO SÃO COMPOSTAS POR PLATAFORMAS COM UM PÁSSARO KIWI ENJAULADO A
     <wheel>./media/image/Topsecex-marquee.png</wheel>
     <boxart>./media/image/Topsecex-boxart.png</boxart>
     <screenshot>./media/screenshots/Topsecex-screenshot.png</screenshot>
+    <mix>./media/image/Topsecex-image.png</mix>
     <titleshot>./media/image/Topsecex-titleshot.png</titleshot>
     <manual>./media/manuals/Topsecex-manual.pdf</manual>
   </game>
@@ -14054,6 +14193,7 @@ AS FASES DO JOGO SÃO COMPOSTAS POR PLATAFORMAS COM UM PÁSSARO KIWI ENJAULADO A
     <wheel>./media/image/Tornbase-wheel.png</wheel>
     <boxart>./media/image/Tornbase-boxart.png</boxart>
     <screenshot>./media/screenshots/Tornbase-screenshot.png</screenshot>
+    <mix>./media/image/Tornbase-image.png</mix>
     <fanart>./media/fanart/Tornbase-fanart.jpg</fanart>
     <titleshot>./media/image/Tornbase-titleshot.png</titleshot>
     <extra1>./media/extras/Tornbase-extra1.png</extra1>
@@ -14071,6 +14211,7 @@ AS FASES DO JOGO SÃO COMPOSTAS POR PLATAFORMAS COM UM PÁSSARO KIWI ENJAULADO A
     <wheel>./media/image/Totcarn-wheel.png</wheel>
     <boxart>./media/image/Totcarn-boxart.png</boxart>
     <screenshot>./media/screenshots/Totcarn-screenshot.png</screenshot>
+    <mix>./media/image/Totcarn-image.png</mix>
     <fanart>./media/fanart/Totcarn-fanart.jpg</fanart>
     <titleshot>./media/image/Totcarn-titleshot.png</titleshot>
     <manual>./media/manuals/Totcarn_(us).pdf</manual>
@@ -14090,6 +14231,7 @@ AS FASES DO JOGO SÃO COMPOSTAS POR PLATAFORMAS COM UM PÁSSARO KIWI ENJAULADO A
     <wheel>./media/image/Toutrun-wheel.png</wheel>
     <boxart>./media/image/Toutrun-boxart.png</boxart>
     <screenshot>./media/screenshots/Toutrun-screenshot.png</screenshot>
+    <mix>./media/image/Toutrun-image.png</mix>
     <fanart>./media/fanart/Toutrun-fanart.jpg</fanart>
     <titleshot>./media/image/Toutrun-titleshot.png</titleshot>
     <extra1>./media/extras/Toutrun-extra1.png</extra1>
@@ -14108,6 +14250,7 @@ AS FASES DO JOGO SÃO COMPOSTAS POR PLATAFORMAS COM UM PÁSSARO KIWI ENJAULADO A
     <wheel>./media/image/Toypop-marquee.png</wheel>
     <boxart>./media/image/Toypop-boxart.png</boxart>
     <screenshot>./media/screenshots/Toypop-screenshot.png</screenshot>
+    <mix>./media/image/Toypop-image.png</mix>
     <titleshot>./media/image/Toypop-titleshot.png</titleshot>
     <extra1>./media/extras/Toypop-extra1.png</extra1>
   </game>
@@ -14122,6 +14265,7 @@ AS FASES DO JOGO SÃO COMPOSTAS POR PLATAFORMAS COM UM PÁSSARO KIWI ENJAULADO A
     <marquee>./media/image/Tp84-marquee.png</marquee>
     <wheel>./media/image/Tp84-wheel.png</wheel>
     <screenshot>./media/screenshots/Tp84-screenshot.png</screenshot>
+    <mix>./media/image/Tp84-image.png</mix>
     <fanart>./media/fanart/Tp84-fanart.jpg</fanart>
     <titleshot>./media/image/Tp84-titleshot.png</titleshot>
     <extra1>./media/extras/Tp84-extra1.png</extra1>
@@ -14140,6 +14284,7 @@ AS FASES DO JOGO SÃO COMPOSTAS POR PLATAFORMAS COM UM PÁSSARO KIWI ENJAULADO A
     <wheel>./media/image/Trackfld-wheel.png</wheel>
     <boxart>./media/image/Trackfld-boxart.png</boxart>
     <screenshot>./media/screenshots/Trackfld-screenshot.png</screenshot>
+    <mix>./media/image/Trackfld-image.png</mix>
     <fanart>./media/fanart/Trackfld-fanart.jpg</fanart>
     <titleshot>./media/image/Trackfld-titleshot.png</titleshot>
     <manual>./media/manuals/Trackfld_(us).pdf</manual>
@@ -14159,6 +14304,7 @@ AS FASES DO JOGO SÃO COMPOSTAS POR PLATAFORMAS COM UM PÁSSARO KIWI ENJAULADO A
     <wheel>./media/image/Tranqgun-wheel.png</wheel>
     <boxart>./media/image/Tranqgun-boxart.png</boxart>
     <screenshot>./media/screenshots/Tranqgun-screenshot.png</screenshot>
+    <mix>./media/image/Tranqgun-image.png</mix>
     <titleshot>./media/image/Tranqgun-titleshot.png</titleshot>
     <boxback>./media/image/Tranqgun-boxback.png</boxback>
     <extra1>./media/extras/Tranqgun-extra1.png</extra1>
@@ -14172,6 +14318,7 @@ AS FASES DO JOGO SÃO COMPOSTAS POR PLATAFORMAS COM UM PÁSSARO KIWI ENJAULADO A
     <image>./media/image/Travrusa-image.png</image>
     <video>./media/videos/Travrusa-video.mp4</video>
     <screenshot>./media/screenshots/Travrusa-screenshot.png</screenshot>
+    <mix>./media/image/Travrusa-image.png</mix>
     <fanart>./media/fanart/Travrusa-fanart.jpg</fanart>
     <manual>./media/manuals/Travrusa_(us).pdf</manual>
     <extra1>./media/extras/Travrusa-extra1.png</extra1>
@@ -14190,6 +14337,7 @@ AS FASES DO JOGO SÃO COMPOSTAS POR PLATAFORMAS COM UM PÁSSARO KIWI ENJAULADO A
     <wheel>./media/image/Triothep-wheel.png</wheel>
     <boxart>./media/image/Triothep-boxart.png</boxart>
     <screenshot>./media/screenshots/Triothep-screenshot.png</screenshot>
+    <mix>./media/image/Triothep-image.png</mix>
     <titleshot>./media/image/Triothep-titleshot.png</titleshot>
     <extra1>./media/extras/Triothep-extra1.png</extra1>
   </game>
@@ -14206,6 +14354,7 @@ AS FASES DO JOGO SÃO COMPOSTAS POR PLATAFORMAS COM UM PÁSSARO KIWI ENJAULADO A
     <wheel>./media/image/Triplep-wheel.png</wheel>
     <boxart>./media/image/Triplep-boxart.png</boxart>
     <screenshot>./media/screenshots/Triplep-screenshot.png</screenshot>
+    <mix>./media/image/Triplep-image.png</mix>
     <titleshot>./media/image/Triplep-titleshot.png</titleshot>
     <extra1>./media/extras/Triplep-extra1.png</extra1>
   </game>
@@ -14222,6 +14371,7 @@ AS FASES DO JOGO SÃO COMPOSTAS POR PLATAFORMAS COM UM PÁSSARO KIWI ENJAULADO A
     <wheel>./media/image/Troangel-wheel.png</wheel>
     <boxart>./media/image/Troangel-boxart.png</boxart>
     <screenshot>./media/screenshots/Troangel-screenshot.png</screenshot>
+    <mix>./media/image/Troangel-image.png</mix>
     <fanart>./media/fanart/Troangel-fanart.jpg</fanart>
     <titleshot>./media/image/Troangel-titleshot.png</titleshot>
     <boxback>./media/image/Troangel-boxback.png</boxback>
@@ -14240,6 +14390,7 @@ AS FASES DO JOGO SÃO COMPOSTAS POR PLATAFORMAS COM UM PÁSSARO KIWI ENJAULADO A
     <wheel>./media/image/Trog-marquee.png</wheel>
     <boxart>./media/image/Trog-boxart.png</boxart>
     <screenshot>./media/screenshots/Trog-screenshot.png</screenshot>
+    <mix>./media/image/Trog-image.png</mix>
     <fanart>./media/fanart/Trog-fanart.jpg</fanart>
     <titleshot>./media/image/Trog-titleshot.png</titleshot>
     <manual>./media/manuals/Trog-manual.pdf</manual>
@@ -14255,6 +14406,7 @@ AS FASES DO JOGO SÃO COMPOSTAS POR PLATAFORMAS COM UM PÁSSARO KIWI ENJAULADO A
     <image>./media/image/Trojan-image.png</image>
     <video>./media/videos/Trojan-video.mp4</video>
     <screenshot>./media/screenshots/Trojan-screenshot.png</screenshot>
+    <mix>./media/image/Trojan-image.png</mix>
     <fanart>./media/fanart/Trojan-fanart.jpg</fanart>
     <titleshot>./media/image/Trojan-titleshot.png</titleshot>
     <manual>./media/manuals/Trojan_(us).pdf</manual>
