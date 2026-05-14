@@ -1,136 +1,240 @@
 {
-  "nes": {
-    "arquivos": [
-      "Adventures of Lolo 3",
-      "Batman - The Video Game",
-      "Bionic Commando",
-      "Blaster Master",
-      "Bucky O\u0027Hare",
-      "Castlevania",
-      "Castlevania II - Simon\u0027s Quest",
-      "Castlevania III - Dracula\u0027s Curse",
-      "Crystalis",
-      "Double Dragon II - The Revenge",
-      "Faxanadu",
-      "Journey to Silius",
-      "Legend of Zelda, The",
-      "Metal Gear",
-      "Nightshade",
-      "Ninja Gaiden II - The Dark Sword of Chaos",
-      "River City Ransom",
-      "Shadow of the Ninja",
-      "Super Mario Bros",
-      "Super Mario Bros 3",
-      "Super Mario World",
-      "Sweet Home",
-      "Zelda II - The Adventure of Link"
-    ]
-  },
-  "ps2": {
-    "arquivos": [
-      "Contra - Shattered Soldier",
-      "Gradius V",
-      "SpongeBob SquarePants - Battle for Bikini Bottom",
-      "The Incredibles Rise Of The Underminer"
-    ]
-  },
-  "psx": {
-    "arquivos": [
-      "Alone In The Dark - The New Nightmare",
-      "Castlevania - Symphony Of The Night",
-      "Contra - Legacy Of War",
-      "Crash Bandicoot",
-      "Crash Bandicoot 2 - Cortex Strikes Back",
-      "Crash Bandicoot 3 - Warped",
-      "Crash Team Racing",
-      "Dino Crisis",
-      "Duke Nukem - Time To Kill",
-      "Gekido - Urban Fighters",
-      "Gran Turismo",
-      "Jackie Chan Stuntmaster",
-      "Legacy Of Kain - Soul Reaver",
-      "Mega Man X4",
-      "Mortal Kombat 4",
-      "Panzer Bandit",
-      "Rayman",
-      "Resident Evil 3 - Nemesis",
-      "Silent Hill",
-      "Spider-Man",
-      "Tekken 3",
-      "Tenchu - Stealth Assassins",
-      "Twisted Metal 2",
-      "Vigilante 8 - 2Nd Offense"
-    ]
-  },
-  "snes": {
-    "arquivos": [
-      "Bonkers",
-      "Donkey Kong Country 3",
-      "Ganbare Goemon 2",
-      "Ganbare Goemon Yukihime Kyūshutsu Emaki",
-      "Legend of Zelda, The - A Link to the Past"
-    ]
-  },
-  "windows": {
-    "Blazing Chrome (BR) v28.09.2019": {
-      "arquivos": "Blazing Chrome"
-    },
-    "Blur (BR)": {
-      "arquivos": "Blur"
-    },
-    "Broforce (BR)": {
-      "arquivos": "BroforceC"
-    },
-    "Castle of Illusion (BR)": {
-      "arquivos": "Castle Of Illusion"
-    },
-    "Charlie Murder (BR)": {
-      "arquivos": "Charlie Murder"
-    },
-    "Crash Bandicoot N Sane Trilogy (BR)": {
-      "arquivos": "Crash Bandicoot N Sane Trilogy"
-    },
-    "Cuphead The Delicious Last Course (BR)": {
-      "arquivos": "Cuphead The Delicious Last Course"
-    },
-    "FightN Rage (BR)": {
-      "arquivos": "Fight N Rage"
-    },
-    "Guacamelee Super Turbo Championship Edition (BR)": {
-      "arquivos": "Guacamelee Super Turbo Championship Edition"
-    },
-    "Mayhem Brawler (BR)": {
-      "arquivos": "Mayhembrawler"
-    },
-    "Mortal Kombat Complete Edition (BR)": {
-      "arquivos": "Mortal Kombat Complete Edition"
-    },
-    "Mother Russia Bleeds (BR) v2.4.0.6": {
-      "arquivos": "Mother Russia Bleeds"
-    },
-    "Phantom Breaker Battle Grounds Ultimate (BR)": {
-      "arquivos": "Phantom Breaker Battle Grounds Ultimate"
-    },
-    "Rayman Origins (BR)": {
-      "arquivos": "Rayman Origins"
-    },
-    "Scott Pilgrim EX (BR)": {
-      "arquivos": "Scott Pilgrim Ex"
-    },
-    "Skullgirls 2nd Encore (BR)": {
-      "arquivos": "Skullgirls 2Nd Encore"
-    },
-    "Street Fighter X Tekken (BR)": {
-      "arquivos": "Street Fighter X Tekken"
-    },
-    "Streets of Rage 4 (BR)": {
-      "arquivos": "Streets Of Rage 4"
-    },
-    "Teenage Mutant Ninja Turtles - Shredders Revenge (BR)": {
-      "arquivos": "Teenage Mutant Ninja Turtles - Shredders"
-    },
-    "Tunic (BR)": {
-      "arquivos": "Tunic"
-    }
-  }
+    "megadrive":  {
+                      "arquivos":  [
+                                       "Adventures of Batman \u0026 Robin, The",
+                                       "Alien Soldier",
+                                       "Castlevania Bloodlines",
+                                       "Comix Zone",
+                                       "Contra - Hard Corps",
+                                       "Dinosaur\u0027s Tale, A",
+                                       "Elemental Master",
+                                       "Golden Axe",
+                                       "Golden Axe II",
+                                       "Golden Axe III",
+                                       "Haunting Starring Polterguy",
+                                       "Kid Chameleon",
+                                       "Mortal Kombat",
+                                       "MUSHA - Metallic Uniframe Super Hybrid Armor",
+                                       "Pulseman",
+                                       "Revenge of Shinobi, The",
+                                       "Ristar",
+                                       "Road Rash",
+                                       "Road Rash II",
+                                       "Rocket Knight Adventures",
+                                       "Shinobi III - Return of the Ninja Master",
+                                       "Sonic 3D Blast",
+                                       "Sonic the Hedgehog",
+                                       "Streets of Rage",
+                                       "Streets of Rage 2",
+                                       "Streets of Rage 3",
+                                       "Strider",
+                                       "Super Street Fighter II - The New Challengers",
+                                       "Thunder Force II",
+                                       "Thunder Force III",
+                                       "Thunder Force IV",
+                                       "Vectorman 2",
+                                       "World of Illusion Starring Mickey Mouse and Donald Duck"
+                                   ]
+                  },
+    "n64":  {
+                "arquivos":  [
+                                 "Conker\u0027s Bad Fur Day",
+                                 "Diddy Kong Racing",
+                                 "Jet Force Gemini",
+                                 "Mario Kart 64",
+                                 "Star Fox",
+                                 "Wave Race 64"
+                             ]
+            },
+    "nes":  {
+                "arquivos":  [
+                                 "Adventures of Lolo 3",
+                                 "Batman - The Video Game",
+                                 "Bionic Commando",
+                                 "Blaster Master",
+                                 "Bucky O\u0027Hare",
+                                 "Castlevania",
+                                 "Castlevania II - Simon\u0027s Quest",
+                                 "Castlevania III - Dracula\u0027s Curse",
+                                 "Crystalis",
+                                 "Double Dragon II - The Revenge",
+                                 "Faxanadu",
+                                 "Journey to Silius",
+                                 "Legend of Zelda, The",
+                                 "Metal Gear",
+                                 "Nightshade",
+                                 "Ninja Gaiden II - The Dark Sword of Chaos",
+                                 "River City Ransom",
+                                 "Shadow of the Ninja",
+                                 "Super Mario Bros",
+                                 "Super Mario Bros 3",
+                                 "Super Mario World",
+                                 "Sweet Home",
+                                 "Zelda II - The Adventure of Link"
+                             ]
+            },
+    "ps2":  {
+                "arquivos":  [
+                                 "Ben 10 - Protector of Earth",
+                                 "Ben 10 - Ultimate Alien - Cosmic Destruction",
+                                 "Ben 10 - Vilgax Attacks",
+                                 "Black",
+                                 "Contra - Shattered Soldier",
+                                 "Crash of the Titans",
+                                 "God of War",
+                                 "God of War II",
+                                 "Gran Turismo",
+                                 "ICO",
+                                 "LEGO Batman - The Videogame",
+                                 "Maximo vs",
+                                 "Mega Man X8",
+                                 "Mortal Kombat - Shaolin Monks",
+                                 "Need for Speed - Underground 2",
+                                 "Neo Contra",
+                                 "Onimusha - Warlords",
+                                 "Ratatouille",
+                                 "Shadow of the Colossus",
+                                 "Spider-Man – Friend or Foe",
+                                 "Spider-Man 2",
+                                 "The Incredibles Rise Of The Underminer",
+                                 "TimeSplitters - Future Perfect",
+                                 "True Crime New York City",
+                                 "Urban Reign",
+                                 "Warriors, The"
+                             ]
+            },
+    "psx":  {
+                "arquivos":  [
+                                 "Alone In The Dark - The New Nightmare",
+                                 "Castlevania - Symphony Of The Night",
+                                 "Contra - Legacy Of War",
+                                 "Crash Bandicoot",
+                                 "Crash Bandicoot 2",
+                                 "Crash Bandicoot 2 - Cortex Strikes Back",
+                                 "Crash Bandicoot 3 - Warped",
+                                 "Crash Team Racing",
+                                 "Dino Crisis",
+                                 "Duke Nukem - Time To Kill",
+                                 "Gekido - Urban Fighters",
+                                 "Gran Turismo",
+                                 "Jackie Chan Stuntmaster",
+                                 "Legacy Of Kain - Soul Reaver",
+                                 "Mega Man X4",
+                                 "Mortal Kombat 4",
+                                 "Panzer Bandit",
+                                 "Rayman",
+                                 "Resident Evil 2 Dual Shock - Leon e Clairer",
+                                 "Resident Evil 3",
+                                 "Resident Evil 3 - Nemesis",
+                                 "Silent Hill",
+                                 "Spider-Man",
+                                 "Tekken 3",
+                                 "Tenchu - Stealth Assassins",
+                                 "Twisted Metal 2",
+                                 "Vigilante 8 - 2Nd Offense",
+                                 "Vigilante 8 - 2nd Offensive"
+                             ]
+            },
+    "snes":  {
+                 "arquivos":  [
+                                  "Bonkers",
+                                  "Combatribes, The",
+                                  "Contra III - The Alien Wars",
+                                  "Death and Return of Superman, The",
+                                  "Donkey Kong Country",
+                                  "Donkey Kong Country 2",
+                                  "Donkey Kong Country 3",
+                                  "Earthworm Jim 2",
+                                  "Final Fight 2",
+                                  "Final Fight 3",
+                                  "Flashback",
+                                  "Ganbare Goemon 2",
+                                  "Ganbare Goemon Yukihime Kyūshutsu Emaki",
+                                  "Goof Troop",
+                                  "Gradius III",
+                                  "Gundam Wing - Endless Duel",
+                                  "King of Dragons",
+                                  "Knights of the Round",
+                                  "Legend of Zelda, The - A Link to the Past",
+                                  "Magical Quest Starring Mickey Mouse, The",
+                                  "Mega Man X 2",
+                                  "Mega Man X 3",
+                                  "MegaMan X",
+                                  "Mortal Kombat",
+                                  "Prince of Persia",
+                                  "Skyblazer",
+                                  "Sparkster",
+                                  "Star Fox",
+                                  "Sunset Riders",
+                                  "Super Adventure Island",
+                                  "Super Adventure Island II",
+                                  "Super Bomberman 2",
+                                  "Super Castlevania IV",
+                                  "Super R-Type",
+                                  "The Lion King",
+                                  "Worms"
+                              ]
+             },
+    "windows":  {
+                    "Blazing Chrome (BR) v28.09.2019":  {
+                                                            "arquivos":  "Blazing Chrome"
+                                                        },
+                    "Blur (BR)":  {
+                                      "arquivos":  "Blur"
+                                  },
+                    "Broforce (BR)":  {
+                                          "arquivos":  "Broforce"
+                                      },
+                    "Castle of Illusion (BR)":  {
+                                                    "arquivos":  "Castle Of Illusion"
+                                                },
+                    "Charlie Murder (BR)":  {
+                                                "arquivos":  "Charlie Murder"
+                                            },
+                    "Crash Bandicoot N Sane Trilogy (BR)":  {
+                                                                "arquivos":  "Crash Bandicoot N Sane Trilogy"
+                                                            },
+                    "Cuphead The Delicious Last Course (BR)":  {
+                                                                   "arquivos":  "Cuphead The Delicious Last Course"
+                                                               },
+                    "FightN Rage (BR)":  {
+                                             "arquivos":  "Fight N Rage"
+                                         },
+                    "Guacamelee Super Turbo Championship Edition (BR)":  {
+                                                                             "arquivos":  "Guacamelee Super Turbo Championship Edition"
+                                                                         },
+                    "Mayhem Brawler (BR)":  {
+                                                "arquivos":  "Mayhembrawler"
+                                            },
+                    "Mortal Kombat Complete Edition (BR)":  {
+                                                                "arquivos":  "Mortal Kombat Complete Edition"
+                                                            },
+                    "Mother Russia Bleeds (BR) v2.4.0.6":  {
+                                                               "arquivos":  "Mother Russia Bleeds"
+                                                           },
+                    "Phantom Breaker Battle Grounds Ultimate (BR)":  {
+                                                                         "arquivos":  "Phantom Breaker - Battle Grounds Ultimate"
+                                                                     },
+                    "Rayman Origins (BR)":  {
+                                                "arquivos":  "Rayman Origins"
+                                            },
+                    "Scott Pilgrim EX (BR)":  {
+                                                  "arquivos":  "Scott Pilgrim Ex"
+                                              },
+                    "Skullgirls 2nd Encore (BR)":  {
+                                                       "arquivos":  "Skullgirls 2Nd Encore"
+                                                   },
+                    "Street Fighter X Tekken (BR)":  {
+                                                         "arquivos":  "Street Fighter X Tekken"
+                                                     },
+                    "Streets of Rage 4 (BR)":  {
+                                                   "arquivos":  "Streets Of Rage 4"
+                                               },
+                    "Teenage Mutant Ninja Turtles - Shredders Revenge (BR)":  {
+                                                                                  "arquivos":  "Teenage Mutant Ninja Turtles - Shredders"
+                                                                              },
+                    "Tunic (BR)":  {
+                                       "arquivos":  "Tunic"
+                                   }
+                }
 }
