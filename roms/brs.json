@@ -1,51 +1,4 @@
 {
-  "megadrive": {
-    "arquivos": [
-      "Adventures of Batman \u0026 Robin, The",
-      "Alien Soldier",
-      "Castlevania Bloodlines",
-      "Comix Zone",
-      "Contra - Hard Corps",
-      "Dinosaur\u0027s Tale, A",
-      "Elemental Master",
-      "Golden Axe",
-      "Golden Axe II",
-      "Golden Axe III",
-      "Haunting Starring Polterguy",
-      "Kid Chameleon",
-      "Mortal Kombat",
-      "MUSHA - Metallic Uniframe Super Hybrid Armor",
-      "Pulseman",
-      "Revenge of Shinobi, The",
-      "Ristar",
-      "Road Rash",
-      "Road Rash II",
-      "Rocket Knight Adventures",
-      "Shinobi III - Return of the Ninja Master",
-      "Sonic 3D Blast",
-      "Sonic the Hedgehog",
-      "Streets of Rage",
-      "Streets of Rage 2",
-      "Streets of Rage 3",
-      "Strider",
-      "Super Street Fighter II - The New Challengers",
-      "Thunder Force II",
-      "Thunder Force III",
-      "Thunder Force IV",
-      "Vectorman 2",
-      "World of Illusion Starring Mickey Mouse and Donald Duck"
-    ]
-  },
-  "n64": {
-    "arquivos": [
-      "Conker\u0027s Bad Fur Day",
-      "Diddy Kong Racing",
-      "Jet Force Gemini",
-      "Mario Kart 64",
-      "Star Fox",
-      "Wave Race 64"
-    ]
-  },
   "nes": {
     "arquivos": [
       "Adventures of Lolo 3",
@@ -75,32 +28,12 @@
   },
   "ps2": {
     "arquivos": [
-      "Ben 10 - Protector of Earth",
-      "Ben 10 - Ultimate Alien - Cosmic Destruction",
-      "Ben 10 - Vilgax Attacks",
-      "Black",
+      "Burnout Dominator",
       "Contra - Shattered Soldier",
-      "Crash of the Titans",
-      "God of War",
-      "God of War II",
-      "Gran Turismo",
-      "ICO",
-      "LEGO Batman - The Videogame",
-      "Maximo vs",
-      "Mega Man X8",
-      "Mortal Kombat - Shaolin Monks",
-      "Need for Speed - Underground 2",
-      "Neo Contra",
-      "Onimusha - Warlords",
-      "Ratatouille",
-      "Shadow of the Colossus",
-      "Spider-Man – Friend or Foe",
-      "Spider-Man 2",
+      "Gradius V",
+      "SpongeBob SquarePants - Battle for Bikini Bottom",
       "The Incredibles Rise Of The Underminer",
-      "TimeSplitters - Future Perfect",
-      "True Crime New York City",
-      "Urban Reign",
-      "Warriors, The"
+      "The Simpsons Hit \u0026 Run"
     ]
   },
   "psx": {
@@ -109,70 +42,38 @@
       "Castlevania - Symphony Of The Night",
       "Contra - Legacy Of War",
       "Crash Bandicoot",
-      "Crash Bandicoot 2",
       "Crash Bandicoot 2 - Cortex Strikes Back",
       "Crash Bandicoot 3 - Warped",
       "Crash Team Racing",
       "Dino Crisis",
       "Duke Nukem - Time To Kill",
+      "Firebugs",
       "Gekido - Urban Fighters",
       "Gran Turismo",
       "Jackie Chan Stuntmaster",
       "Legacy Of Kain - Soul Reaver",
+      "Looney Tunes Racing",
       "Mega Man X4",
       "Mortal Kombat 4",
       "Panzer Bandit",
       "Rayman",
-      "Resident Evil 2 Dual Shock - Leon e Clairer",
-      "Resident Evil 3",
       "Resident Evil 3 - Nemesis",
       "Silent Hill",
       "Spider-Man",
       "Tekken 3",
       "Tenchu - Stealth Assassins",
+      "The Adventures of Lomax",
       "Twisted Metal 2",
-      "Vigilante 8 - 2Nd Offense",
-      "Vigilante 8 - 2nd Offensive"
+      "Vigilante 8 - 2Nd Offense"
     ]
   },
   "snes": {
     "arquivos": [
       "Bonkers",
-      "Combatribes, The",
-      "Contra III - The Alien Wars",
-      "Death and Return of Superman, The",
-      "Donkey Kong Country",
-      "Donkey Kong Country 2",
       "Donkey Kong Country 3",
-      "Earthworm Jim 2",
-      "Final Fight 2",
-      "Final Fight 3",
-      "Flashback",
       "Ganbare Goemon 2",
       "Ganbare Goemon Yukihime Kyūshutsu Emaki",
-      "Goof Troop",
-      "Gradius III",
-      "Gundam Wing - Endless Duel",
-      "King of Dragons",
-      "Knights of the Round",
-      "Legend of Zelda, The - A Link to the Past",
-      "Magical Quest Starring Mickey Mouse, The",
-      "Mega Man X 2",
-      "Mega Man X 3",
-      "MegaMan X",
-      "Mortal Kombat",
-      "Prince of Persia",
-      "Skyblazer",
-      "Sparkster",
-      "Star Fox",
-      "Sunset Riders",
-      "Super Adventure Island",
-      "Super Adventure Island II",
-      "Super Bomberman 2",
-      "Super Castlevania IV",
-      "Super R-Type",
-      "The Lion King",
-      "Worms"
+      "Legend of Zelda, The - A Link to the Past"
     ]
   },
   "windows": {
@@ -211,6 +112,9 @@
     },
     "Mother Russia Bleeds (BR) v2.4.0.6": {
       "arquivos": "Mother Russia Bleeds"
+    },
+    "Never Alone (BR)": {
+      "arquivos": "Never Alone"
     },
     "Phantom Breaker Battle Grounds Ultimate (BR)": {
       "arquivos": "Phantom Breaker - Battle Grounds Ultimate"
