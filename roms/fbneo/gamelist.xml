@@ -6,200 +6,6 @@
     <web>http://jujuvincebros.fr/wiki/arrm/doku.php</web>
   </provider>
   <game>
-    <path>./Gtmr.zip</path>
-    <name>1000 MIGLIA GREAT 1000 MILES RALLY (TAIWAN 94/07/18)</name>
-    <releasedate>1994/01/01</releasedate>
-    <publisher>KANEKO</publisher>
-    <genreid>0</genreid>
-  </game>
-  <game id="37385">
-    <path>./1944.zip</path>
-    <name>1944</name>
-    <mode>Multijogador cooperativo</mode>
-    <desc>O JOGO SE PASSA NAS ACALORADAS BATALHAS DE 1944, DURANTE A SEGUNDA GUERRA MUNDIAL, QUANDO UM SUPER-PILOTO TENTA DERROTAR UM EXÉRCITO INTEIRO. O JOGO FUNCIONA E JOGA COMO A MAIORIA DOS SHOOTERS. O OBJETIVO DE TODOS OS NÍVEIS É ATIRAR EM AVIÕES INIMIGOS, TANQUES, TRENS, TORRES DE BATALHA E DERROTAR O CHEFE APÓS CADA NÍVEL. AO CONTRÁRIO DE SEU ANTECESSOR, 19XX: THE WAR AGAINST DESTINY, O JOGO É MAIS PARECIDO COM OS PRIMEIROS JOGOS DA SÉRIE.</desc>
-    <rating>0.80</rating>
-    <releasedate>20000620T000000</releasedate>
-    <developer>EIGHTING</developer>
-    <publisher>CAPCOM</publisher>
-    <genre>SHOOT'EM UP / VERTICAL, SHOOT'EM UP</genre>
-    <genreid>260</genreid>
-    <players>1-2</players>
-    <md5>87a6e311d1a37df26f5772adb6cbc02b</md5>
-    <hash>4C73E0F5</hash>
-    <region>us</region>
-    <arcadesystemname>cps2</arcadesystemname>
-  </game>
-  <game>
-    <path>./1944 - The Loop Master.zip</path>
-    <name>1944 - THE LOOP MASTER</name>
-    <genreid>0</genreid>
-  </game>
-  <game id="37386">
-    <path>./19Xx.zip</path>
-    <name>19XX</name>
-    <mode>Multijogador cooperativo</mode>
-    <desc>19XX: A GUERRA CONTRA O DESTINO É UM JOGO DE (ARCADE SCROLLING SHOOTER) VERTICAL FEITO PELA CAPCOM EM 1995 (COM DIREITOS DO AUTOR EM 1996). O JOGO É O QUARTO DE UMA SÉRIE DE SHOOTERS VERTICAIS DA II GUERRA MUNDIAL FEITOS PELA CAPCOM. A HISTÓRIA SE PASSA ANTES DE UMA GUERRA FICTÍCIA (ASSIM, O 19XX) É COMO UM PILOTO SOLITÁRIO QUE TENTA DERROTAR UM EXERCITO INTEIRO ANTES DE OUTRA GUERRA MUNDIAL COMEÇAR, TUDO ISSO LOGO SE AGRAVA A UM APOCALIPSE NUCLEAR.</desc>
-    <rating>0.60</rating>
-    <releasedate>19960101T000000</releasedate>
-    <developer>CAPCOM</developer>
-    <publisher>CAPCOM</publisher>
-    <genre>SHOOT'EM UP / VERTICAL, SHOOT'EM UP</genre>
-    <genreid>260</genreid>
-    <players>1-2</players>
-    <md5>015f5b1b8006da1c7d1b413add99e01c</md5>
-    <hash>7DFAEA2F</hash>
-    <rotation>Right</rotation>
-    <region>us</region>
-    <arcadesystemname>cps2</arcadesystemname>
-  </game>
-  <game>
-    <path>./19Xx - The War Against Destiny.zip</path>
-    <name>19XX - THE WAR AGAINST DESTINY</name>
-    <genreid>0</genreid>
-  </game>
-  <game>
-    <path>./Aero Fighters 2.zip</path>
-    <name>AERO FIGHTERS 2</name>
-    <genreid>0</genreid>
-  </game>
-  <game>
-    <path>./Aeroboto.zip</path>
-    <name>AEROBOTO</name>
-    <desc>CLONE OF : FORMATZ (AEROBOTO)</desc>
-    <releasedate>1984/01/01</releasedate>
-    <publisher>JALECO (WILLIAMS LICENSE)</publisher>
-    <genreid>0</genreid>
-    <temporary>
-Clone Of : formatz -&gt; Aeroboto</temporary>
-  </game>
-  <game id="39948">
-    <path>./Aerofgts.zip</path>
-    <name>AEROFGTS</name>
-    <desc>UM ATIRADOR DE ROLAGEM VERTICAL PARA 1 OU 2 JOGADORES. OS CONTROLES SÃO DIRECIONAIS E 2 BOTÕES. O BOTÃO 1 DISPARA SUA ARMA PRINCIPAL E O BOTÃO 2 DISPARA SUA ARMA ESPECIAL.
-VOCÊ ESCOLHE UMA DAS QUATRO AERONAVES NACIONAIS: EUA, JAPÃO, RÚSSIA, FRANÇA, SUÉCIA OU ONU. UMA VEZ ESCOLHIDO, VOCÊ EMBARCA EM VÁRIAS MISSÕES.
-DURANTE A MISSÃO VOCÊ ATIRA EM VÁRIOS VILÕES E NO FINAL DO NÍVEL VOCÊ LUTA CONTRA UM CHEFE. POWER-UPS ESTÃO DISPONÍVEIS DURANTE A MISSÃO E RECARREGAM SUA ARMA ESPECIAL OU ATUALIZAM SUA ARMA PRINCIPAL. TODAS AS ATUALIZAÇÕES DE ARMAS PRINCIPAIS SÃO PERDIDAS COM A MORTE E SEU ESPECIAL É RESTAURADO PARA O NÚMERO PADRÃO DE USOS.
-AO JOGAR COMO JOGADOR 2, VOCÊ OBTÉM UM TIPO DE AVIÃO DIFERENTE. O MODO PARA 2 JOGADORES É COOPERATIVO.</desc>
-    <rating>0.60</rating>
-    <releasedate>19960101T000000</releasedate>
-    <developer>VIDEO SYSTEM</developer>
-    <publisher>VIDEO SYSTEM</publisher>
-    <genre>SHOOT'EM UP / VERTICAL, SHOOT'EM UP</genre>
-    <genreid>260</genreid>
-    <players>1-2</players>
-    <md5>057c775c9d592455e82337508162f561</md5>
-    <hash>90C60C7D</hash>
-    <rotation>Right</rotation>
-    <region>tw</region>
-    <arcadesystemname>vsc</arcadesystemname>
-  </game>
-  <game id="37318">
-    <path>./Agallet.zip</path>
-    <name>AGALLET</name>
-    <mode>Multijogador cooperativo</mode>
-    <desc>O JOGADOR CONTROLA UM CAÇA A JATO E ATIRA EM INIMIGOS NO AR E NO SOLO, COLETA POWER-UPS E DERROTA CHEFES PARA AVANÇAR DE NÍVEL. O JOGADOR DEVE COLETAR QUATRO POWER-UPS PARA MELHORAR SUA ARMA. EXISTEM QUATRO TIPOS DE ARMAS: L, UMA ARMA LASER, S, UM DRONE DE SUPORTE, M, UM MÍSSIL RASTREADOR, E F, GATLING FIRE, UM TIRO DE BALA VULCANA ESPALHADA.
-QUATRO NÍVEIS DE POWER-UPS ESTÃO DISPONÍVEIS PARA CADA ARMA, NO ENTANTO, CADA NÍVEL REQUER A COLETA DE QUATRO PLUGUES DE POWER-UP. EXISTEM TAMBÉM DUAS ARMAS ESPECIAIS DE “BOMBA” DISPONÍVEIS PARA COLETA – ENERGY SPARK VERDE PARA UM ENXAME DE BOMBAS DE MENOR POTÊNCIA COBRINDO A TELA E THUNDER DRIVE AZUL PARA UM ATAQUE MAIS ESTREITO E FOCADO. O ENERGY SPARK LIMPA TODAS AS BALAS DA TELA, ENQUANTO O THUNDER DRIVE LIMPA APENAS AS BALAS QUE REALMENTE TOCAM A EXPLOSÃO. ESTA EXPLOSÃO COMEÇA MOMENTANEAMENTE NO TOPO DO JOGADOR, MAS AVANÇA RAPIDAMENTE POR UMA CURTA DISTÂNCIA E PERMANECE ESTACIONÁRIA POR ALGUNS SEGUNDOS ANTES DE SE DISSIPAR.</desc>
-    <rating>0.60</rating>
-    <releasedate>19960101T000000</releasedate>
-    <developer>GAZELLE</developer>
-    <publisher>BANPRESTO</publisher>
-    <genre>SHOOT'EM UP / VERTICAL, SHOOT'EM UP</genre>
-    <genreid>260</genreid>
-    <players>1-2</players>
-    <md5>f898ea1c88b84a6ffdbd7a8593467c1c</md5>
-    <hash>B7A38FA2</hash>
-    <rotation>Right</rotation>
-    <region>eu</region>
-    <arcadesystemname>cave</arcadesystemname>
-  </game>
-  <game>
-    <path>./Aggressors Of Dark Kombat.zip</path>
-    <name>AGGRESSORS OF DARK KOMBAT</name>
-    <genreid>0</genreid>
-  </game>
-  <game id="39955">
-    <path>./Airco22b.zip</path>
-    <name>AIRCO22B</name>
-    <desc>AIR COMBAT 22 É A SEQUÊNCIA ARCADE DO PRIMEIRO AIR COMBAT DA LONGA SÉRIE ACE COMBAT. VOCÊ PILOTA UM DOS TRÊS AVIÕES, UM F14 TOMCAT, SU-27 OU O F22 RAPTOR. A SEQUÊNCIA VEM COM GRÁFICOS APRIMORADOS E NOVAMENTE USA FÍSICA SEMI-REALISTA. O OBJETIVO É DESTRUIR AVIÕES INIMIGOS USANDO ARMAS OU MÍSSEIS AO LONGO DE UMA SUCESSÃO DE SURTIDAS E MISSÕES. UM RADAR MOSTRA A LOCALIZAÇÃO DOS AVIÕES INIMIGOS EM RELAÇÃO AOS SEUS E AS SETAS NA TELA APONTAM PARA O INIMIGO MAIS PRÓXIMO. CADA MISSÃO COMEÇA COM UM CONTADOR INIMIGO QUE DIMINUI À MEDIDA QUE OS AVIÕES INIMIGOS SÃO DESPACHADOS. A CONTAGEM DE INIMIGOS DEVE SER REDUZIDA A ZERO ANTES QUE O TEMPO ACABE, CASO CONTRÁRIO, O JOGO TERMINA. UMA FASE DE BÔNUS FAZ COM QUE O JOGADOR POUSE EM UM PORTA-AVIÕES PARA GANHAR PONTOS. AS MISSÕES POSTERIORES ENVOLVEM REABASTECIMENTO AR-AR E ATAQUE A PORTA-AVIÕES E BASES INIMIGAS.</desc>
-    <releasedate>19950101T000000</releasedate>
-    <developer>NAMCO</developer>
-    <publisher>NAMCO</publisher>
-    <genre>TIRO, TIRO / AVIÃO EM 3ª PESSOA</genre>
-    <genreid>256</genreid>
-    <players>1</players>
-    <md5>bd693068dccc61ef457e8cb608dd2dc0</md5>
-    <hash>15B0E20A</hash>
-    <region>jp</region>
-    <arcadesystemname>namco</arcadesystemname>
-  </game>
-  <game id="39957">
-    <path>./Airduel.zip</path>
-    <name>AIRDUEL</name>
-    <desc>O JOGADOR ESCOLHE ENTRE UM CAÇA A JATO OU UM HELICÓPTERO, ATIRA EM INIMIGOS NO AR E NO SOLO, COLETA POWER-UPS E DERROTA CHEFES PARA AVANÇAR DE NÍVEL.
-"AIR DUEL" É UM JOGO DESAFIADOR, E OS NÍVEIS POSTERIORES PODEM SE TORNAR QUASE IMPOSSÍVEIS DE JOGAR SE UMA ÚNICA VIDA FOR PERDIDA.</desc>
-    <rating>0.60</rating>
-    <releasedate>19900704T000000</releasedate>
-    <developer>IREM</developer>
-    <publisher>IREM</publisher>
-    <genre>SHOOT'EM UP / VERTICAL, SHOOT'EM UP</genre>
-    <genreid>260</genreid>
-    <players>1-2</players>
-    <md5>77c1fea3d6bfa18b463eaf1cc143e7bd</md5>
-    <hash>8FDAFF96</hash>
-    <rotation>Right</rotation>
-    <region>wor</region>
-    <arcadesystemname>irem</arcadesystemname>
-  </game>
-  <game id="39961">
-    <path>./Airwolf.zip</path>
-    <name>AIRWOLF</name>
-    <desc>A MÚSICA, OS GRÁFICOS, O AIR WOLF... SIM, A ADAPTAÇÃO DESSA LENDÁRIA SÉRIE, COM AQUELE IMPRESSIONANTE HELICÓPTERO DE COMBATE... INFELIZMENTE, O JOGO EM SI NÃO É NADA IMPRESSIONANTE...
-É UM JOGO DE TIRO HORIZONTAL QUE ENVELHECEU... GRÁFICOS SIMPLES QUE NÃO DESPERTAM NOSTALGIA, AÇÃO MODERADAMENTE INTERESSANTE, A SÍNDROME DA LICENÇA FRACASSADA JÁ HAVIA COMEÇADO? COMO FÃ DE JOGOS DE TIRO, NÃO POSSO RECOMENDÁ-LO EM VEZ DE P-47, POR EXEMPLO, NO MESMO GÊNERO, A MENOS QUE VOCÊ SEJA FÃ DA SÉRIE DE TV!</desc>
-    <rating>0.40</rating>
-    <releasedate>19870101T000000</releasedate>
-    <developer>KYUGO BOUEKI</developer>
-    <publisher>KYUGO BOUEKI</publisher>
-    <genre>SHOOT'EM UP / HORIZONTAL, SHOOT'EM UP</genre>
-    <genreid>260</genreid>
-    <players>1-2</players>
-    <md5>8526fdc47aed2de72afb8d8b269696f6</md5>
-    <hash>4CCEC165</hash>
-    <region>wor</region>
-    <music>./media/musics/Airwolf-music.mp3</music>
-  </game>
-  <game id="39962">
-    <path>./Ajax.zip</path>
-    <name>AJAX</name>
-    <desc>O JOGADOR RECEBEU UMA ORDEM DE EMERGÊNCIA. ELE DEVE SALVAR A TERRA DE SER CONQUISTADA PELAS FORÇAS INIMIGAS. ELE ENTRA EM SEU HELICÓPTERO E SE PREPARA PARA UM INTENSO COMBATE AÉREO. ATIRANDO EM AVIÕES INIMIGOS E BOMBARDEANDO OS INIMIGOS ABAIXO, ELE TENTA PERCORRER OS DIFERENTES ESTÁGIOS PARA ALCANÇAR A BASE INIMIGA. QUANDO ELE TERMINA A PRIMEIRA ETAPA, ELE É TRANSPORTADO PARA SUA PRÓXIMA MISSÃO POR UM PORTA-AVIÕES. ELE PULA EM SEUS CAÇAS, TANQUES, NAVIOS, HELICÓPTEROS E PORTA-AVIÕES. O JOGADOR TAMBÉM DEVE ESTAR CIENTE DE INIMIGOS INVISÍVEIS E ATAQUES SURPRESA.</desc>
-    <rating>0.60</rating>
-    <releasedate>19870101T000000</releasedate>
-    <developer>KONAMI</developer>
-    <publisher>KONAMI</publisher>
-    <genre>SHOOT'EM UP / VERTICAL, SHOOT'EM UP</genre>
-    <genreid>260</genreid>
-    <players>1-2</players>
-    <md5>d1a01fb761f3efdb12e192a83f29ad6f</md5>
-    <hash>5B546898</hash>
-    <rotation>Right</rotation>
-    <region>wor</region>
-    <arcadesystemname>konami</arcadesystemname>
-  </game>
-  <game id="149514">
-    <path>./Aladmdb.zip</path>
-    <name>ALADMDB</name>
-    <desc>VERSÃO ARCADE NÃO OFICIAL DA VERSÃO JAPONESA DO SEGA MEGA DRIVE.</desc>
-    <rating>0.60</rating>
-    <releasedate>19930101T000000</releasedate>
-    <developer>VIRGIN GAMES</developer>
-    <publisher>SEGA</publisher>
-    <genre>PLATAFORMA</genre>
-    <genreid>257</genreid>
-    <players>1</players>
-    <md5>3600eb0503cc39b2f6bf0dfc98607907</md5>
-    <hash>73FEFB2A</hash>
-    <region>jp</region>
-    <arcadesystemname>sega</arcadesystemname>
-  </game>
-  <game>
     <path>./Alien Vs.zip</path>
     <name>ALIEN VS</name>
     <genreid>0</genreid>
@@ -472,80 +278,11 @@ Clone Of : mhavoc -&gt; Major Havoc (rev 2)</temporary>
     <genreid>0</genreid>
   </game>
   <game>
-    <path>./Jedi.zip</path>
-    <name>RETURN OF THE JEDI</name>
-    <releasedate>1984/01/01</releasedate>
-    <publisher>ATARI</publisher>
-    <genreid>0</genreid>
-  </game>
-  <game id="37352">
-    <path>./Sailormn.zip</path>
-    <name>SAILORMN</name>
-    <mode>Multijogador cooperativo</mode>
-    <desc>O JOGO É UM JOGO "BEAT-'EM-UP" DE ROLAGEM LATERAL, UM OU DOIS JOGADORES ESCOLHEM O SENSHI DESEJADO E VIAJAM POR VÁRIOS ESTÁGIOS DERROTANDO INIMIGOS. OS ITENS ÀS VEZES SÃO DERRUBADOS POR INIMIGOS QUE PODEM VARIAR DE ITENS QUE RESTAURAM A SAÚDE, DÃO PONTOS EXTRAS OU CRISTAIS QUE PERMITEM QUE O SENSHI REALIZE ATAQUES ESPECIAIS. ATÉ CINCO CRISTAIS PODEM SER COLETADOS POR JOGADOR PARA FORTALECER OS ATAQUES ESPECIAIS DO SENSHI. DURANTE OS MOMENTOS MAIS DIFÍCEIS DA BATALHA, TUXEDO MASK APARECERÁ E JOGARÁ UMA ROSA, QUE É UM BÔNUS PARA PEGAR E PARTIR.</desc>
-    <rating>0.80</rating>
-    <releasedate>19950322T000000</releasedate>
-    <developer>GAZELLE</developer>
-    <publisher>BANPRESTO</publisher>
-    <genre>LUTA, LUTA / 2.5D, BRIGA DE RUA</genre>
-    <genreid>263</genreid>
-    <players>1-2</players>
-    <md5>1ede05d17b19d0531561bbe216c735ee</md5>
-    <hash>696AF45B</hash>
-    <region>eu</region>
-    <arcadesystemname>banpresto</arcadesystemname>
-    <extra1>./media/image/Sailormn-bezel.png</extra1>
-    <bezel>./media/image/Sailormn-bezel.png</bezel>
-  </game>
-  <game>
-    <path>./Salmndr2.zip</path>
-    <name>SALMNDR2</name>
-    <genreid>0</genreid>
-  </game>
-  <game id="37629">
-    <path>./Samsho.zip</path>
-    <name>SAMSHO</name>
-    <mode>Jogador individual</mode>
-    <desc>NO INÍCIO DO JAPÃO, UM HOMEM CHAMADO SHIRO TOKISADA AMAKUSA PREGA UMA RELIGIÃO HERÉTICA. POUCO SABE ALGUÉM QUE AMAKUSA É REALMENTE UM SERVO DO MAL AMBROSIA, QUE ASSUMIU O CORPO DE AMAKUSA. AMBROSIA DESEJA ENCOBRIR O MUNDO NA ESCURIDÃO.
-AGORA, ESCOLHA ENTRE 12 GUERREIROS (E 3 PERSONAGENS BÔNUS) PARA LUTAR PELA HONRA DE DESTRUIR AMAKUSA E CUMPRIR UMA MISSÃO.</desc>
-    <rating>0.60</rating>
-    <releasedate>19930811T000000</releasedate>
-    <developer>SNK</developer>
-    <publisher>SNK</publisher>
-    <genre>LUTA / VERSUS, LUTA</genre>
-    <genreid>262</genreid>
-    <players>1-2</players>
-    <md5>5c8a337dab922dc47e7a65fa39d81073</md5>
-    <hash>D9652D0D</hash>
-    <region>wor</region>
-    <arcadesystemname>snk</arcadesystemname>
-    <extra1>./media/image/Samsho-bezel.png</extra1>
-    <bezel>./media/image/Samsho-bezel.png</bezel>
-  </game>
-  <game>
-    <path>./Samsho3.zip</path>
-    <name>SAMURAI SHODOWN III / SAMURAI SPIRITS - ZANKUROU MUSOUKEN (NGM-087)</name>
-    <releasedate>1995/01/01</releasedate>
-    <publisher>SNK</publisher>
-    <genreid>0</genreid>
-  </game>
-  <game>
     <path>./Samurai Shodown IV - Amakusa's.zip</path>
     <name>SAMURAI SHODOWN IV - AMAKUSA'S</name>
     <genreid>0</genreid>
     <md5>b9efb01f1555400d7526472c5d552d42</md5>
     <hash>A2FBA7C5</hash>
-  </game>
-  <game>
-    <path>./Samsh5sp.zip</path>
-    <name>SAMURAI SHODOWN V SPECIAL / SAMURAI SPIRITS ZERO SPECIAL (NGM-2720)</name>
-    <releasedate>2004/01/01</releasedate>
-    <publisher>YUKI ENTERPRISE / SNK PLAYMORE</publisher>
-    <genreid>0</genreid>
-    <marquee>./media/image/Samsh5sp-marquee.png</marquee>
-    <wheel>./media/image/Samsh5sp-marquee.png</wheel>
-    <cartridge>./media/image/Samsh5sp-cartridge.png</cartridge>
-    <boxback>./media/image/Samsh5sp-boxback.png</boxback>
   </game>
   <game>
     <path>./Samurai Showdown V.zip</path>
@@ -560,13 +297,6 @@ AGORA, ESCOLHA ENTRE 12 GUERREIROS (E 3 PERSONAGENS BÔNUS) PARA LUTAR PELA HONR
     <genreid>0</genreid>
     <md5>924c82ad3753f815b3abf5d4b3e3e49c</md5>
     <hash>1265B86A</hash>
-  </game>
-  <game>
-    <path>./Shollow.zip</path>
-    <name>SATAN'S HOLLOW (SET 1)</name>
-    <releasedate>1981/01/01</releasedate>
-    <publisher>BALLY MIDWAY</publisher>
-    <genreid>0</genreid>
   </game>
   <game>
     <path>./Shiryu2.zip</path>
@@ -1260,6 +990,42 @@ O JOGADOR PILOTA UM AVIÃO APELIDADO DE "SUPER ACE" (SUA APARÊNCIA É A DE UM L
     <extra1>./media/extras/1942-extra1.png</extra1>
     <bezel>./media/image/1942-bezel.png</bezel>
   </game>
+  <game>
+    <path>./1944 - The Loop Master.zip</path>
+    <name>1944 - THE LOOP MASTER</name>
+    <genreid>0</genreid>
+    <video>./media/videos/1944 - The Loop Master-video.mp4</video>
+    <screenshot>./media/screenshots/1944 - The Loop Master-screenshot.png</screenshot>
+    <fanart>./media/fanart/1944 - The Loop Master-fanart.jpg</fanart>
+    <titleshot>./media/image/1944 - The Loop Master-titleshot.png</titleshot>
+    <manual>./media/manuals/1944 - The Loop Master_(us).pdf</manual>
+    <extra1>./media/extras/1944 - The Loop Master-extra1.png</extra1>
+    <bezel>./media/image/1944 - The Loop Master-bezel.png</bezel>
+  </game>
+  <game id="37385">
+    <path>./1944.zip</path>
+    <name>1944</name>
+    <mode>Multijogador cooperativo</mode>
+    <desc>O JOGO SE PASSA NAS ACALORADAS BATALHAS DE 1944, DURANTE A SEGUNDA GUERRA MUNDIAL, QUANDO UM SUPER-PILOTO TENTA DERROTAR UM EXÉRCITO INTEIRO. O JOGO FUNCIONA E JOGA COMO A MAIORIA DOS SHOOTERS. O OBJETIVO DE TODOS OS NÍVEIS É ATIRAR EM AVIÕES INIMIGOS, TANQUES, TRENS, TORRES DE BATALHA E DERROTAR O CHEFE APÓS CADA NÍVEL. AO CONTRÁRIO DE SEU ANTECESSOR, 19XX: THE WAR AGAINST DESTINY, O JOGO É MAIS PARECIDO COM OS PRIMEIROS JOGOS DA SÉRIE.</desc>
+    <rating>0.80</rating>
+    <releasedate>20000620T000000</releasedate>
+    <developer>EIGHTING</developer>
+    <publisher>CAPCOM</publisher>
+    <genre>SHOOT'EM UP / VERTICAL, SHOOT'EM UP</genre>
+    <genreid>260</genreid>
+    <players>1-2</players>
+    <md5>87a6e311d1a37df26f5772adb6cbc02b</md5>
+    <hash>4C73E0F5</hash>
+    <region>us</region>
+    <arcadesystemname>cps2</arcadesystemname>
+    <video>./media/videos/1944-video.mp4</video>
+    <screenshot>./media/screenshots/1944-screenshot.png</screenshot>
+    <fanart>./media/fanart/1944-fanart.jpg</fanart>
+    <titleshot>./media/image/1944-titleshot.png</titleshot>
+    <manual>./media/manuals/1944_(us).pdf</manual>
+    <extra1>./media/extras/1944-extra1.png</extra1>
+    <bezel>./media/image/1944-bezel.png</bezel>
+  </game>
   <game id="37561">
     <path>./2020 Super Baseball.zip</path>
     <name>2020 SUPER BASEBALL</name>
@@ -1309,6 +1075,54 @@ EM 2020, O SUPER BASEBALL É UM JOGO ACELERADO COM NOVAS REGRAS, ONDE VOCÊ PODE
     <boxback>./media/image/88Games-boxback.png</boxback>
     <extra1>./media/extras/88Games-extra1.png</extra1>
     <bezel>./media/image/88Games-bezel.png</bezel>
+  </game>
+  <game>
+    <path>./Aero Fighters 2.zip</path>
+    <name>AERO FIGHTERS 2</name>
+    <genreid>0</genreid>
+    <video>./media/videos/Aero Fighters 2-video.mp4</video>
+    <screenshot>./media/screenshots/Aero Fighters 2-screenshot.png</screenshot>
+    <fanart>./media/fanart/Aero Fighters 2-fanart.jpg</fanart>
+    <manual>./media/manuals/Aero Fighters 2_(wor).pdf</manual>
+    <extra1>./media/extras/Aero Fighters 2-extra1.png</extra1>
+    <bezel>./media/image/Aero Fighters 2-bezel.png</bezel>
+  </game>
+  <game>
+    <path>./Aeroboto.zip</path>
+    <name>AEROBOTO</name>
+    <desc>CLONE OF : FORMATZ (AEROBOTO)</desc>
+    <releasedate>1984/01/01</releasedate>
+    <publisher>JALECO (WILLIAMS LICENSE)</publisher>
+    <genreid>0</genreid>
+    <temporary>
+Clone Of : formatz -&gt; Aeroboto</temporary>
+    <video>./media/videos/Aeroboto-video.mp4</video>
+    <screenshot>./media/screenshots/Aeroboto-screenshot.png</screenshot>
+    <fanart>./media/fanart/Aeroboto-fanart.jpg</fanart>
+    <titleshot>./media/image/Aeroboto-titleshot.png</titleshot>
+    <manual>./media/manuals/Aeroboto-manual.pdf</manual>
+    <extra1>./media/extras/Aeroboto-extra1.png</extra1>
+  </game>
+  <game id="149514">
+    <path>./Aladmdb.zip</path>
+    <name>ALADMDB</name>
+    <desc>VERSÃO ARCADE NÃO OFICIAL DA VERSÃO JAPONESA DO SEGA MEGA DRIVE.</desc>
+    <rating>0.60</rating>
+    <releasedate>19930101T000000</releasedate>
+    <developer>VIRGIN GAMES</developer>
+    <publisher>SEGA</publisher>
+    <genre>PLATAFORMA</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <md5>3600eb0503cc39b2f6bf0dfc98607907</md5>
+    <hash>73FEFB2A</hash>
+    <region>jp</region>
+    <arcadesystemname>sega</arcadesystemname>
+    <video>./media/videos/Aladmdb-video.mp4</video>
+    <screenshot>./media/screenshots/Aladmdb-screenshot.png</screenshot>
+    <titleshot>./media/image/Aladmdb-titleshot.png</titleshot>
+    <manual>./media/manuals/Aladmdb_(us).pdf</manual>
+    <extra1>./media/extras/Aladmdb-extra1.png</extra1>
   </game>
   <game id="37563">
     <path>./Alpha Mission Ii.zip</path>
@@ -4665,6 +4479,54 @@ OS NÍVEIS DE R?TYPE SÃO PROJETADOS PARA FAZER USO TOTAL DE SEU SISTEMA DE ARMA
     <extra1>./media/image/Rtype-bezel.png</extra1>
     <bezel>./media/image/Rtype-bezel.png</bezel>
   </game>
+  <game id="37352">
+    <path>./Sailormn.zip</path>
+    <name>SAILORMN</name>
+    <mode>Multijogador cooperativo</mode>
+    <desc>O JOGO É UM JOGO "BEAT-'EM-UP" DE ROLAGEM LATERAL, UM OU DOIS JOGADORES ESCOLHEM O SENSHI DESEJADO E VIAJAM POR VÁRIOS ESTÁGIOS DERROTANDO INIMIGOS. OS ITENS ÀS VEZES SÃO DERRUBADOS POR INIMIGOS QUE PODEM VARIAR DE ITENS QUE RESTAURAM A SAÚDE, DÃO PONTOS EXTRAS OU CRISTAIS QUE PERMITEM QUE O SENSHI REALIZE ATAQUES ESPECIAIS. ATÉ CINCO CRISTAIS PODEM SER COLETADOS POR JOGADOR PARA FORTALECER OS ATAQUES ESPECIAIS DO SENSHI. DURANTE OS MOMENTOS MAIS DIFÍCEIS DA BATALHA, TUXEDO MASK APARECERÁ E JOGARÁ UMA ROSA, QUE É UM BÔNUS PARA PEGAR E PARTIR.</desc>
+    <rating>0.80</rating>
+    <releasedate>19950322T000000</releasedate>
+    <developer>GAZELLE</developer>
+    <publisher>BANPRESTO</publisher>
+    <genre>LUTA, LUTA / 2.5D, BRIGA DE RUA</genre>
+    <genreid>263</genreid>
+    <players>1-2</players>
+    <md5>1ede05d17b19d0531561bbe216c735ee</md5>
+    <hash>696AF45B</hash>
+    <region>eu</region>
+    <arcadesystemname>banpresto</arcadesystemname>
+    <video>./media/videos/Sailormn-video.mp4</video>
+    <screenshot>./media/screenshots/Sailormn-screenshot.png</screenshot>
+    <fanart>./media/fanart/Sailormn-fanart.jpg</fanart>
+    <titleshot>./media/image/Sailormn-titleshot.png</titleshot>
+    <extra1>./media/image/Sailormn-bezel.png</extra1>
+    <bezel>./media/image/Sailormn-bezel.png</bezel>
+  </game>
+  <game id="37629">
+    <path>./Samsho.zip</path>
+    <name>SAMSHO</name>
+    <mode>Jogador individual</mode>
+    <desc>NO INÍCIO DO JAPÃO, UM HOMEM CHAMADO SHIRO TOKISADA AMAKUSA PREGA UMA RELIGIÃO HERÉTICA. POUCO SABE ALGUÉM QUE AMAKUSA É REALMENTE UM SERVO DO MAL AMBROSIA, QUE ASSUMIU O CORPO DE AMAKUSA. AMBROSIA DESEJA ENCOBRIR O MUNDO NA ESCURIDÃO.
+AGORA, ESCOLHA ENTRE 12 GUERREIROS (E 3 PERSONAGENS BÔNUS) PARA LUTAR PELA HONRA DE DESTRUIR AMAKUSA E CUMPRIR UMA MISSÃO.</desc>
+    <rating>0.60</rating>
+    <releasedate>19930811T000000</releasedate>
+    <developer>SNK</developer>
+    <publisher>SNK</publisher>
+    <genre>LUTA / VERSUS, LUTA</genre>
+    <genreid>262</genreid>
+    <players>1-2</players>
+    <md5>5c8a337dab922dc47e7a65fa39d81073</md5>
+    <hash>D9652D0D</hash>
+    <region>wor</region>
+    <arcadesystemname>snk</arcadesystemname>
+    <video>./media/videos/Samsho-video.mp4</video>
+    <screenshot>./media/screenshots/Samsho-screenshot.png</screenshot>
+    <fanart>./media/fanart/Samsho-fanart.jpg</fanart>
+    <titleshot>./media/image/Samsho-titleshot.png</titleshot>
+    <manual>./media/manuals/Samsho_(us).pdf</manual>
+    <extra1>./media/image/Samsho-bezel.png</extra1>
+    <bezel>./media/image/Samsho-bezel.png</bezel>
+  </game>
   <game id="37629">
     <path>./Samurai Shodown.zip</path>
     <name>SAMURAI SHODOWN</name>
@@ -5701,6 +5563,45 @@ FOI O PRIMEIRO SHOOT 'EM UP PARA ADICIONAR +1 AO PLACAR QUANDO UM CONTINUE É US
     <extra1>./media/extras/1943Kai-extra1.png</extra1>
     <bezel>./media/image/1943Kai-bezel.png</bezel>
   </game>
+  <game>
+    <path>./19Xx - The War Against Destiny.zip</path>
+    <name>19XX - THE WAR AGAINST DESTINY</name>
+    <genreid>0</genreid>
+    <image>./media/image/19Xx - The War Against Destiny-image.png</image>
+    <video>./media/videos/19Xx - The War Against Destiny-video.mp4</video>
+    <screenshot>./media/screenshots/19Xx - The War Against Destiny-screenshot.png</screenshot>
+    <fanart>./media/fanart/19Xx - The War Against Destiny-fanart.jpg</fanart>
+    <titleshot>./media/image/19Xx - The War Against Destiny-titleshot.png</titleshot>
+    <manual>./media/manuals/19Xx - The War Against Destiny_(us).pdf</manual>
+    <extra1>./media/extras/19Xx - The War Against Destiny-extra1.png</extra1>
+    <bezel>./media/image/19Xx - The War Against Destiny-bezel.png</bezel>
+  </game>
+  <game id="37386">
+    <path>./19Xx.zip</path>
+    <name>19XX</name>
+    <mode>Multijogador cooperativo</mode>
+    <desc>19XX: A GUERRA CONTRA O DESTINO É UM JOGO DE (ARCADE SCROLLING SHOOTER) VERTICAL FEITO PELA CAPCOM EM 1995 (COM DIREITOS DO AUTOR EM 1996). O JOGO É O QUARTO DE UMA SÉRIE DE SHOOTERS VERTICAIS DA II GUERRA MUNDIAL FEITOS PELA CAPCOM. A HISTÓRIA SE PASSA ANTES DE UMA GUERRA FICTÍCIA (ASSIM, O 19XX) É COMO UM PILOTO SOLITÁRIO QUE TENTA DERROTAR UM EXERCITO INTEIRO ANTES DE OUTRA GUERRA MUNDIAL COMEÇAR, TUDO ISSO LOGO SE AGRAVA A UM APOCALIPSE NUCLEAR.</desc>
+    <rating>0.60</rating>
+    <releasedate>19960101T000000</releasedate>
+    <developer>CAPCOM</developer>
+    <publisher>CAPCOM</publisher>
+    <genre>SHOOT'EM UP / VERTICAL, SHOOT'EM UP</genre>
+    <genreid>260</genreid>
+    <players>1-2</players>
+    <md5>015f5b1b8006da1c7d1b413add99e01c</md5>
+    <hash>7DFAEA2F</hash>
+    <rotation>Right</rotation>
+    <region>us</region>
+    <arcadesystemname>cps2</arcadesystemname>
+    <image>./media/image/19Xx-image.png</image>
+    <video>./media/videos/19Xx-video.mp4</video>
+    <screenshot>./media/screenshots/19Xx-screenshot.png</screenshot>
+    <fanart>./media/fanart/19Xx-fanart.jpg</fanart>
+    <titleshot>./media/image/19Xx-titleshot.png</titleshot>
+    <manual>./media/manuals/19Xx_(us).pdf</manual>
+    <extra1>./media/extras/19Xx-extra1.png</extra1>
+    <bezel>./media/image/19Xx-bezel.png</bezel>
+  </game>
   <game id="39884">
     <path>./280Zzzap.zip</path>
     <name>280ZZZAP</name>
@@ -5889,6 +5790,170 @@ OS JOGADORES ASSUMEM O CONTROLE DE UM DOS DOIS PILOTOS DE CAÇA SOBREVIVENTES, '
     <extra1>./media/extras/Actfancr-extra1.png</extra1>
     <bezel>./media/image/Actfancr-bezel.png</bezel>
   </game>
+  <game id="39948">
+    <path>./Aerofgts.zip</path>
+    <name>AEROFGTS</name>
+    <desc>UM ATIRADOR DE ROLAGEM VERTICAL PARA 1 OU 2 JOGADORES. OS CONTROLES SÃO DIRECIONAIS E 2 BOTÕES. O BOTÃO 1 DISPARA SUA ARMA PRINCIPAL E O BOTÃO 2 DISPARA SUA ARMA ESPECIAL.
+VOCÊ ESCOLHE UMA DAS QUATRO AERONAVES NACIONAIS: EUA, JAPÃO, RÚSSIA, FRANÇA, SUÉCIA OU ONU. UMA VEZ ESCOLHIDO, VOCÊ EMBARCA EM VÁRIAS MISSÕES.
+DURANTE A MISSÃO VOCÊ ATIRA EM VÁRIOS VILÕES E NO FINAL DO NÍVEL VOCÊ LUTA CONTRA UM CHEFE. POWER-UPS ESTÃO DISPONÍVEIS DURANTE A MISSÃO E RECARREGAM SUA ARMA ESPECIAL OU ATUALIZAM SUA ARMA PRINCIPAL. TODAS AS ATUALIZAÇÕES DE ARMAS PRINCIPAIS SÃO PERDIDAS COM A MORTE E SEU ESPECIAL É RESTAURADO PARA O NÚMERO PADRÃO DE USOS.
+AO JOGAR COMO JOGADOR 2, VOCÊ OBTÉM UM TIPO DE AVIÃO DIFERENTE. O MODO PARA 2 JOGADORES É COOPERATIVO.</desc>
+    <rating>0.60</rating>
+    <releasedate>19960101T000000</releasedate>
+    <developer>VIDEO SYSTEM</developer>
+    <publisher>VIDEO SYSTEM</publisher>
+    <genre>SHOOT'EM UP / VERTICAL, SHOOT'EM UP</genre>
+    <genreid>260</genreid>
+    <players>1-2</players>
+    <md5>057c775c9d592455e82337508162f561</md5>
+    <hash>90C60C7D</hash>
+    <rotation>Right</rotation>
+    <region>tw</region>
+    <arcadesystemname>vsc</arcadesystemname>
+    <image>./media/image/Aerofgts-image.png</image>
+    <video>./media/videos/Aerofgts-video.mp4</video>
+    <screenshot>./media/screenshots/Aerofgts-screenshot.png</screenshot>
+    <fanart>./media/fanart/Aerofgts-fanart.jpg</fanart>
+    <titleshot>./media/image/Aerofgts-titleshot.png</titleshot>
+    <extra1>./media/extras/Aerofgts-extra1.png</extra1>
+    <bezel>./media/image/Aerofgts-bezel.png</bezel>
+  </game>
+  <game id="37318">
+    <path>./Agallet.zip</path>
+    <name>AGALLET</name>
+    <mode>Multijogador cooperativo</mode>
+    <desc>O JOGADOR CONTROLA UM CAÇA A JATO E ATIRA EM INIMIGOS NO AR E NO SOLO, COLETA POWER-UPS E DERROTA CHEFES PARA AVANÇAR DE NÍVEL. O JOGADOR DEVE COLETAR QUATRO POWER-UPS PARA MELHORAR SUA ARMA. EXISTEM QUATRO TIPOS DE ARMAS: L, UMA ARMA LASER, S, UM DRONE DE SUPORTE, M, UM MÍSSIL RASTREADOR, E F, GATLING FIRE, UM TIRO DE BALA VULCANA ESPALHADA.
+QUATRO NÍVEIS DE POWER-UPS ESTÃO DISPONÍVEIS PARA CADA ARMA, NO ENTANTO, CADA NÍVEL REQUER A COLETA DE QUATRO PLUGUES DE POWER-UP. EXISTEM TAMBÉM DUAS ARMAS ESPECIAIS DE “BOMBA” DISPONÍVEIS PARA COLETA – ENERGY SPARK VERDE PARA UM ENXAME DE BOMBAS DE MENOR POTÊNCIA COBRINDO A TELA E THUNDER DRIVE AZUL PARA UM ATAQUE MAIS ESTREITO E FOCADO. O ENERGY SPARK LIMPA TODAS AS BALAS DA TELA, ENQUANTO O THUNDER DRIVE LIMPA APENAS AS BALAS QUE REALMENTE TOCAM A EXPLOSÃO. ESTA EXPLOSÃO COMEÇA MOMENTANEAMENTE NO TOPO DO JOGADOR, MAS AVANÇA RAPIDAMENTE POR UMA CURTA DISTÂNCIA E PERMANECE ESTACIONÁRIA POR ALGUNS SEGUNDOS ANTES DE SE DISSIPAR.</desc>
+    <rating>0.60</rating>
+    <releasedate>19960101T000000</releasedate>
+    <developer>GAZELLE</developer>
+    <publisher>BANPRESTO</publisher>
+    <genre>SHOOT'EM UP / VERTICAL, SHOOT'EM UP</genre>
+    <genreid>260</genreid>
+    <players>1-2</players>
+    <md5>f898ea1c88b84a6ffdbd7a8593467c1c</md5>
+    <hash>B7A38FA2</hash>
+    <rotation>Right</rotation>
+    <region>eu</region>
+    <arcadesystemname>cave</arcadesystemname>
+    <image>./media/image/Agallet-image.png</image>
+    <video>./media/videos/Agallet-video.mp4</video>
+    <screenshot>./media/screenshots/Agallet-screenshot.png</screenshot>
+    <fanart>./media/fanart/Agallet-fanart.jpg</fanart>
+    <titleshot>./media/image/Agallet-titleshot.png</titleshot>
+    <manual>./media/manuals/Agallet_(wor).pdf</manual>
+    <extra1>./media/extras/Agallet-extra1.png</extra1>
+    <bezel>./media/image/Agallet-bezel.png</bezel>
+  </game>
+  <game>
+    <path>./Aggressors Of Dark Kombat.zip</path>
+    <name>AGGRESSORS OF DARK KOMBAT</name>
+    <genreid>0</genreid>
+    <image>./media/image/Aggressors Of Dark Kombat-image.png</image>
+    <video>./media/videos/Aggressors Of Dark Kombat-video.mp4</video>
+    <screenshot>./media/screenshots/Aggressors Of Dark Kombat-screenshot.png</screenshot>
+    <fanart>./media/fanart/Aggressors Of Dark Kombat-fanart.jpg</fanart>
+    <titleshot>./media/image/Aggressors Of Dark Kombat-titleshot.png</titleshot>
+    <extra1>./media/extras/Aggressors Of Dark Kombat-extra1.png</extra1>
+    <bezel>./media/image/Aggressors Of Dark Kombat-bezel.png</bezel>
+  </game>
+  <game id="39955">
+    <path>./Airco22b.zip</path>
+    <name>AIRCO22B</name>
+    <desc>AIR COMBAT 22 É A SEQUÊNCIA ARCADE DO PRIMEIRO AIR COMBAT DA LONGA SÉRIE ACE COMBAT. VOCÊ PILOTA UM DOS TRÊS AVIÕES, UM F14 TOMCAT, SU-27 OU O F22 RAPTOR. A SEQUÊNCIA VEM COM GRÁFICOS APRIMORADOS E NOVAMENTE USA FÍSICA SEMI-REALISTA. O OBJETIVO É DESTRUIR AVIÕES INIMIGOS USANDO ARMAS OU MÍSSEIS AO LONGO DE UMA SUCESSÃO DE SURTIDAS E MISSÕES. UM RADAR MOSTRA A LOCALIZAÇÃO DOS AVIÕES INIMIGOS EM RELAÇÃO AOS SEUS E AS SETAS NA TELA APONTAM PARA O INIMIGO MAIS PRÓXIMO. CADA MISSÃO COMEÇA COM UM CONTADOR INIMIGO QUE DIMINUI À MEDIDA QUE OS AVIÕES INIMIGOS SÃO DESPACHADOS. A CONTAGEM DE INIMIGOS DEVE SER REDUZIDA A ZERO ANTES QUE O TEMPO ACABE, CASO CONTRÁRIO, O JOGO TERMINA. UMA FASE DE BÔNUS FAZ COM QUE O JOGADOR POUSE EM UM PORTA-AVIÕES PARA GANHAR PONTOS. AS MISSÕES POSTERIORES ENVOLVEM REABASTECIMENTO AR-AR E ATAQUE A PORTA-AVIÕES E BASES INIMIGAS.</desc>
+    <releasedate>19950101T000000</releasedate>
+    <developer>NAMCO</developer>
+    <publisher>NAMCO</publisher>
+    <genre>TIRO, TIRO / AVIÃO EM 3ª PESSOA</genre>
+    <genreid>256</genreid>
+    <players>1</players>
+    <md5>bd693068dccc61ef457e8cb608dd2dc0</md5>
+    <hash>15B0E20A</hash>
+    <region>jp</region>
+    <arcadesystemname>namco</arcadesystemname>
+    <image>./media/image/Airco22b-image.png</image>
+    <video>./media/videos/Airco22b-video.mp4</video>
+    <screenshot>./media/screenshots/Airco22b-screenshot.png</screenshot>
+    <fanart>./media/fanart/Airco22b-fanart.jpg</fanart>
+    <titleshot>./media/image/Airco22b-titleshot.png</titleshot>
+    <manual>./media/manuals/Airco22b-manual.pdf</manual>
+    <extra1>./media/extras/Airco22b-extra1.png</extra1>
+    <bezel>./media/image/Airco22b-bezel.png</bezel>
+  </game>
+  <game id="39957">
+    <path>./Airduel.zip</path>
+    <name>AIRDUEL</name>
+    <desc>O JOGADOR ESCOLHE ENTRE UM CAÇA A JATO OU UM HELICÓPTERO, ATIRA EM INIMIGOS NO AR E NO SOLO, COLETA POWER-UPS E DERROTA CHEFES PARA AVANÇAR DE NÍVEL.
+"AIR DUEL" É UM JOGO DESAFIADOR, E OS NÍVEIS POSTERIORES PODEM SE TORNAR QUASE IMPOSSÍVEIS DE JOGAR SE UMA ÚNICA VIDA FOR PERDIDA.</desc>
+    <rating>0.60</rating>
+    <releasedate>19900704T000000</releasedate>
+    <developer>IREM</developer>
+    <publisher>IREM</publisher>
+    <genre>SHOOT'EM UP / VERTICAL, SHOOT'EM UP</genre>
+    <genreid>260</genreid>
+    <players>1-2</players>
+    <md5>77c1fea3d6bfa18b463eaf1cc143e7bd</md5>
+    <hash>8FDAFF96</hash>
+    <rotation>Right</rotation>
+    <region>wor</region>
+    <arcadesystemname>irem</arcadesystemname>
+    <image>./media/image/Airduel-image.png</image>
+    <video>./media/videos/Airduel-video.mp4</video>
+    <screenshot>./media/screenshots/Airduel-screenshot.png</screenshot>
+    <fanart>./media/fanart/Airduel-fanart.jpg</fanart>
+    <titleshot>./media/image/Airduel-titleshot.png</titleshot>
+    <extra1>./media/extras/Airduel-extra1.png</extra1>
+    <bezel>./media/image/Airduel-bezel.png</bezel>
+  </game>
+  <game id="39961">
+    <path>./Airwolf.zip</path>
+    <name>AIRWOLF</name>
+    <desc>A MÚSICA, OS GRÁFICOS, O AIR WOLF... SIM, A ADAPTAÇÃO DESSA LENDÁRIA SÉRIE, COM AQUELE IMPRESSIONANTE HELICÓPTERO DE COMBATE... INFELIZMENTE, O JOGO EM SI NÃO É NADA IMPRESSIONANTE...
+É UM JOGO DE TIRO HORIZONTAL QUE ENVELHECEU... GRÁFICOS SIMPLES QUE NÃO DESPERTAM NOSTALGIA, AÇÃO MODERADAMENTE INTERESSANTE, A SÍNDROME DA LICENÇA FRACASSADA JÁ HAVIA COMEÇADO? COMO FÃ DE JOGOS DE TIRO, NÃO POSSO RECOMENDÁ-LO EM VEZ DE P-47, POR EXEMPLO, NO MESMO GÊNERO, A MENOS QUE VOCÊ SEJA FÃ DA SÉRIE DE TV!</desc>
+    <rating>0.40</rating>
+    <releasedate>19870101T000000</releasedate>
+    <developer>KYUGO BOUEKI</developer>
+    <publisher>KYUGO BOUEKI</publisher>
+    <genre>SHOOT'EM UP / HORIZONTAL, SHOOT'EM UP</genre>
+    <genreid>260</genreid>
+    <players>1-2</players>
+    <md5>8526fdc47aed2de72afb8d8b269696f6</md5>
+    <hash>4CCEC165</hash>
+    <region>wor</region>
+    <image>./media/image/Airwolf-image.png</image>
+    <video>./media/videos/Airwolf-video.mp4</video>
+    <screenshot>./media/screenshots/Airwolf-screenshot.png</screenshot>
+    <fanart>./media/fanart/Airwolf-fanart.jpg</fanart>
+    <titleshot>./media/image/Airwolf-titleshot.png</titleshot>
+    <manual>./media/manuals/Airwolf-manual.pdf</manual>
+    <extra1>./media/extras/Airwolf-extra1.png</extra1>
+    <music>./media/musics/Airwolf-music.mp3</music>
+    <bezel>./media/image/Airwolf-bezel.png</bezel>
+  </game>
+  <game id="39962">
+    <path>./Ajax.zip</path>
+    <name>AJAX</name>
+    <desc>O JOGADOR RECEBEU UMA ORDEM DE EMERGÊNCIA. ELE DEVE SALVAR A TERRA DE SER CONQUISTADA PELAS FORÇAS INIMIGAS. ELE ENTRA EM SEU HELICÓPTERO E SE PREPARA PARA UM INTENSO COMBATE AÉREO. ATIRANDO EM AVIÕES INIMIGOS E BOMBARDEANDO OS INIMIGOS ABAIXO, ELE TENTA PERCORRER OS DIFERENTES ESTÁGIOS PARA ALCANÇAR A BASE INIMIGA. QUANDO ELE TERMINA A PRIMEIRA ETAPA, ELE É TRANSPORTADO PARA SUA PRÓXIMA MISSÃO POR UM PORTA-AVIÕES. ELE PULA EM SEUS CAÇAS, TANQUES, NAVIOS, HELICÓPTEROS E PORTA-AVIÕES. O JOGADOR TAMBÉM DEVE ESTAR CIENTE DE INIMIGOS INVISÍVEIS E ATAQUES SURPRESA.</desc>
+    <rating>0.60</rating>
+    <releasedate>19870101T000000</releasedate>
+    <developer>KONAMI</developer>
+    <publisher>KONAMI</publisher>
+    <genre>SHOOT'EM UP / VERTICAL, SHOOT'EM UP</genre>
+    <genreid>260</genreid>
+    <players>1-2</players>
+    <md5>d1a01fb761f3efdb12e192a83f29ad6f</md5>
+    <hash>5B546898</hash>
+    <rotation>Right</rotation>
+    <region>wor</region>
+    <arcadesystemname>konami</arcadesystemname>
+    <image>./media/image/Ajax-image.png</image>
+    <video>./media/videos/Ajax-video.mp4</video>
+    <screenshot>./media/screenshots/Ajax-screenshot.png</screenshot>
+    <fanart>./media/fanart/Ajax-fanart.jpg</fanart>
+    <titleshot>./media/image/Ajax-titleshot.png</titleshot>
+    <manual>./media/manuals/Ajax_(us).pdf</manual>
+    <extra1>./media/extras/Ajax-extra1.png</extra1>
+    <bezel>./media/image/Ajax-bezel.png</bezel>
+  </game>
   <game id="39977">
     <path>./Aliens.zip</path>
     <name>ALIENS</name>
@@ -5907,6 +5972,7 @@ OS JOGADORES ASSUMEM O CONTROLE DE UM DOS DOIS PILOTOS DE CAÇA SOBREVIVENTES, '
     <image>./media/image/Aliens-image.png</image>
     <video>./media/videos/Aliens-video.mp4</video>
     <screenshot>./media/screenshots/Aliens-screenshot.png</screenshot>
+    <mix>./media/image/Aliens-image.png</mix>
     <fanart>./media/fanart/Aliens-fanart.jpg</fanart>
     <titleshot>./media/image/Aliens-titleshot.png</titleshot>
     <manual>./media/manuals/Aliens_(wor).pdf</manual>
@@ -5935,6 +6001,7 @@ NAS FASES SEGUINTES, VOE COMO O HOMEM-DRAGÃO E ENCARE OS DESAFIOS DE CAVERNAS C
     <image>./media/image/Altbeast-image.png</image>
     <video>./media/videos/Altbeast-video.mp4</video>
     <screenshot>./media/screenshots/Altbeast-screenshot.png</screenshot>
+    <mix>./media/image/Altbeast-image.png</mix>
     <fanart>./media/fanart/Altbeast-fanart.jpg</fanart>
     <titleshot>./media/image/Altbeast-titleshot.png</titleshot>
     <manual>./media/manuals/Altbeast_(wor).pdf</manual>
@@ -5961,10 +6028,12 @@ EM NÍVEIS ÍMPARES, O PERSONAGEM DO JOGADOR É UM GORILA COMENDO COCOS; EM NÍV
     <arcadesystemname>konami</arcadesystemname>
     <image>./media/image/Amidar-image.png</image>
     <video>./media/videos/Amidar-video.mp4</video>
+    <thumbnail>./media/image/Amidar-boxart.png</thumbnail>
     <marquee>./media/image/Amidar-marquee.png</marquee>
     <wheel>./media/image/Amidar-wheel.png</wheel>
     <boxart>./media/image/Amidar-boxart.png</boxart>
     <screenshot>./media/screenshots/Amidar-screenshot.png</screenshot>
+    <mix>./media/image/Amidar-image.png</mix>
     <fanart>./media/fanart/Amidar-fanart.jpg</fanart>
     <titleshot>./media/image/Amidar-titleshot.png</titleshot>
     <manual>./media/manuals/Amidar_(us).pdf</manual>
@@ -5992,6 +6061,7 @@ EM NÍVEIS ÍMPARES, O PERSONAGEM DO JOGADOR É UM GORILA COMENDO COCOS; EM NÍV
     <image>./media/image/Amidarjp-image.png</image>
     <video>./media/videos/Amidarjp-video.mp4</video>
     <screenshot>./media/screenshots/Amidarjp-screenshot.png</screenshot>
+    <mix>./media/image/Amidarjp-image.png</mix>
     <fanart>./media/fanart/Amidarjp-fanart.jpg</fanart>
     <titleshot>./media/image/Amidarjp-titleshot.png</titleshot>
     <manual>./media/manuals/Amidarjp_(us).pdf</manual>
@@ -6020,10 +6090,12 @@ EM NÍVEIS ÍMPARES, O PERSONAGEM DO JOGADOR É UM GORILA COMENDO COCOS; EM NÍV
 Clone Of : amidar -&gt; Amidar (Scramble hardware)</temporary>
     <image>./media/image/Amidars-image.png</image>
     <video>./media/videos/Amidars-video.mp4</video>
+    <thumbnail>./media/image/Amidars-boxart.png</thumbnail>
     <marquee>./media/image/Amidars-marquee.png</marquee>
     <wheel>./media/image/Amidars-wheel.png</wheel>
     <boxart>./media/image/Amidars-boxart.png</boxart>
     <screenshot>./media/screenshots/Amidars-screenshot.png</screenshot>
+    <mix>./media/image/Amidars-image.png</mix>
     <fanart>./media/fanart/Amidars-fanart.jpg</fanart>
     <titleshot>./media/image/Amidars-titleshot.png</titleshot>
     <manual>./media/manuals/Amidars_(us).pdf</manual>
@@ -6052,10 +6124,12 @@ EM NÍVEIS ÍMPARES, O PERSONAGEM DO JOGADOR É UM GORILA COMENDO COCOS; EM NÍV
 Clone Of : amidar -&gt; Amigo</temporary>
     <image>./media/image/Amigo-image.png</image>
     <video>./media/videos/Amigo-video.mp4</video>
+    <thumbnail>./media/image/Amigo-boxart.png</thumbnail>
     <marquee>./media/image/Amigo-marquee.png</marquee>
     <wheel>./media/image/Amigo-wheel.png</wheel>
     <boxart>./media/image/Amigo-boxart.png</boxart>
     <screenshot>./media/screenshots/Amigo-screenshot.png</screenshot>
+    <mix>./media/image/Amigo-image.png</mix>
     <fanart>./media/fanart/Amigo-fanart.jpg</fanart>
     <titleshot>./media/image/Amigo-titleshot.png</titleshot>
     <manual>./media/manuals/Amigo_(us).pdf</manual>
@@ -6083,10 +6157,12 @@ O TAMANDUÁ TEM UM CICLO CURTO DE DIA E NOITE REPRESENTADO POR UM SOL EM MOVIMEN
     <arcadesystemname>konami</arcadesystemname>
     <image>./media/image/Anteater-image.png</image>
     <video>./media/videos/Anteater-video.mp4</video>
+    <thumbnail>./media/image/Anteater-boxart.png</thumbnail>
     <marquee>./media/image/Anteater-marquee.png</marquee>
     <wheel>./media/image/Anteater-wheel.png</wheel>
     <boxart>./media/image/Anteater-boxart.png</boxart>
     <screenshot>./media/screenshots/Anteater-screenshot.png</screenshot>
+    <mix>./media/image/Anteater-image.png</mix>
     <fanart>./media/fanart/Anteater-fanart.jpg</fanart>
     <titleshot>./media/image/Anteater-titleshot.png</titleshot>
     <extra1>./media/extras/Anteater-extra1.png</extra1>
@@ -6114,6 +6190,7 @@ AGGRESSORS OF DARK KOMBAT É ÚNICO POIS COMBINA VÁRIOS ELEMENTOS TRADICIONAIS 
     <image>./media/image/Aodk-image.png</image>
     <video>./media/videos/Aodk-video.mp4</video>
     <screenshot>./media/screenshots/Aodk-screenshot.png</screenshot>
+    <mix>./media/image/Aodk-image.png</mix>
     <fanart>./media/fanart/Aodk-fanart.jpg</fanart>
     <titleshot>./media/image/Aodk-titleshot.png</titleshot>
     <extra1>./media/extras/Aodk-extra1.png</extra1>
@@ -6138,6 +6215,7 @@ ART OF FIGHTING 3: THE PATH OF THE WARRIOR (O CAMINHO DO GUERREIRO) POSSUI DEZ P
     <image>./media/image/Aof3-image.png</image>
     <video>./media/videos/Aof3-video.mp4</video>
     <screenshot>./media/screenshots/Aof3-screenshot.png</screenshot>
+    <mix>./media/image/Aof3-image.png</mix>
     <fanart>./media/fanart/Aof3-fanart.jpg</fanart>
     <extra1>./media/extras/Aof3-extra1.png</extra1>
     <bezel>./media/image/Aof3-bezel.png</bezel>
@@ -6160,6 +6238,7 @@ ART OF FIGHTING 3: THE PATH OF THE WARRIOR (O CAMINHO DO GUERREIRO) POSSUI DEZ P
     <image>./media/image/Aoh-image.png</image>
     <video>./media/videos/Aoh-video.mp4</video>
     <screenshot>./media/screenshots/Aoh-screenshot.png</screenshot>
+    <mix>./media/image/Aoh-image.png</mix>
     <titleshot>./media/image/Aoh-titleshot.png</titleshot>
     <extra1>./media/extras/Aoh-extra1.png</extra1>
   </game>
@@ -6184,10 +6263,12 @@ O PRÍNCIPE DEVE COMPLETAR COM SUCESSO 4 NÍVEIS PARA RESGATAR A PRINCESA (4 NÍ
     <arcadesystemname>atari</arcadesystemname>
     <image>./media/image/Arabian-image.png</image>
     <video>./media/videos/Arabian-video.mp4</video>
+    <thumbnail>./media/image/Arabian-boxart.png</thumbnail>
     <marquee>./media/image/Arabian-marquee.png</marquee>
     <wheel>./media/image/Arabian-wheel.png</wheel>
     <boxart>./media/image/Arabian-boxart.png</boxart>
     <screenshot>./media/screenshots/Arabian-screenshot.png</screenshot>
+    <mix>./media/image/Arabian-image.png</mix>
     <fanart>./media/fanart/Arabian-fanart.jpg</fanart>
     <titleshot>./media/image/Arabian-titleshot.png</titleshot>
     <manual>./media/manuals/Arabian-manual.pdf</manual>
@@ -6217,6 +6298,7 @@ O JOGO É NOTÁVEL PELO USO DE VÍDEO DIGITALIZADO ARMAZENADO EM UM DISCO RÍGID
     <marquee>./media/image/Area51-marquee.png</marquee>
     <wheel>./media/image/Area51-marquee.png</wheel>
     <screenshot>./media/screenshots/Area51-screenshot.png</screenshot>
+    <mix>./media/image/Area51-image.png</mix>
     <fanart>./media/fanart/Area51-fanart.jpg</fanart>
     <titleshot>./media/image/Area51-titleshot.png</titleshot>
     <manual>./media/manuals/Area51_(us).pdf</manual>
@@ -6243,10 +6325,12 @@ A TRAMA DO JOGO REDEFINE O BASTÃO COMO UMA NAVE ESPACIAL VAUS, A BOLA COMO UM R
     <arcadesystemname>taito</arcadesystemname>
     <image>./media/image/Arkanoid-image.png</image>
     <video>./media/videos/Arkanoid-video.mp4</video>
+    <thumbnail>./media/image/Arkanoid-boxart.png</thumbnail>
     <marquee>./media/image/Arkanoid-marquee.png</marquee>
     <wheel>./media/image/Arkanoid-wheel.png</wheel>
     <boxart>./media/image/Arkanoid-boxart.png</boxart>
     <screenshot>./media/screenshots/Arkanoid-screenshot.png</screenshot>
+    <mix>./media/image/Arkanoid-image.png</mix>
     <fanart>./media/fanart/Arkanoid-fanart.jpg</fanart>
     <titleshot>./media/image/Arkanoid-titleshot.png</titleshot>
     <manual>./media/manuals/Arkanoid-manual.pdf</manual>
@@ -6274,10 +6358,12 @@ A TRAMA DO JOGO REDEFINE O BASTÃO COMO UMA NAVE ESPACIAL VAUS, A BOLA COMO UM R
 Clone Of : arkanoid -&gt; Arkanoid (Tayto bootleg)</temporary>
     <image>./media/image/Arkatayt-image.png</image>
     <video>./media/videos/Arkatayt-video.mp4</video>
+    <thumbnail>./media/image/Arkatayt-boxart.png</thumbnail>
     <marquee>./media/image/Arkatayt-marquee.png</marquee>
     <wheel>./media/image/Arkatayt-wheel.png</wheel>
     <boxart>./media/image/Arkatayt-boxart.png</boxart>
     <screenshot>./media/screenshots/Arkatayt-screenshot.png</screenshot>
+    <mix>./media/image/Arkatayt-image.png</mix>
     <fanart>./media/fanart/Arkatayt-fanart.jpg</fanart>
     <titleshot>./media/image/Arkatayt-titleshot.png</titleshot>
     <manual>./media/manuals/Arkatayt-manual.pdf</manual>
@@ -6304,6 +6390,7 @@ A TRAMA DO JOGO REDEFINE O BASTÃO COMO UMA NAVE ESPACIAL VAUS, A BOLA COMO UM R
     <image>./media/image/Arkbl2-image.png</image>
     <video>./media/videos/Arkbl2-video.mp4</video>
     <screenshot>./media/screenshots/Arkbl2-screenshot.png</screenshot>
+    <mix>./media/image/Arkbl2-image.png</mix>
     <fanart>./media/fanart/Arkbl2-fanart.jpg</fanart>
     <titleshot>./media/image/Arkbl2-titleshot.png</titleshot>
     <manual>./media/manuals/Arkbl2-manual.pdf</manual>
@@ -6330,6 +6417,7 @@ A TRAMA DO JOGO REDEFINE O BASTÃO COMO UMA NAVE ESPACIAL VAUS, A BOLA COMO UM R
     <image>./media/image/Arknoidu-image.png</image>
     <video>./media/videos/Arknoidu-video.mp4</video>
     <screenshot>./media/screenshots/Arknoidu-screenshot.png</screenshot>
+    <mix>./media/image/Arknoidu-image.png</mix>
     <fanart>./media/fanart/Arknoidu-fanart.jpg</fanart>
     <titleshot>./media/image/Arknoidu-titleshot.png</titleshot>
     <manual>./media/manuals/Arknoidu-manual.pdf</manual>
@@ -6354,10 +6442,12 @@ A TRAMA DO JOGO REDEFINE O BASTÃO COMO UMA NAVE ESPACIAL VAUS, A BOLA COMO UM R
     <arcadesystemname>konami</arcadesystemname>
     <image>./media/image/Armorcar-image.png</image>
     <video>./media/videos/Armorcar-video.mp4</video>
+    <thumbnail>./media/image/Armorcar-boxart.png</thumbnail>
     <marquee>./media/image/Armorcar-marquee.png</marquee>
     <wheel>./media/image/Armorcar-wheel.png</wheel>
     <boxart>./media/image/Armorcar-boxart.png</boxart>
     <screenshot>./media/screenshots/Armorcar-screenshot.png</screenshot>
+    <mix>./media/image/Armorcar-image.png</mix>
     <fanart>./media/fanart/Armorcar-fanart.jpg</fanart>
     <titleshot>./media/image/Armorcar-titleshot.png</titleshot>
     <manual>./media/manuals/Armorcar-manual.pdf</manual>
@@ -6386,6 +6476,7 @@ A BATALHA MAIS INTENSA NA HISTÓRIA DA HUMANIDADE ESTÁ PRESTES A COMEÇAR ...</
     <image>./media/image/Armored Warriors-image.png</image>
     <video>./media/videos/Armored Warriors-video.mp4</video>
     <screenshot>./media/screenshots/Armored Warriors-screenshot.png</screenshot>
+    <mix>./media/image/Armored Warriors-image.png</mix>
     <fanart>./media/fanart/Armored Warriors-fanart.jpg</fanart>
     <titleshot>./media/image/Armored Warriors-titleshot.png</titleshot>
     <manual>./media/manuals/Armored Warriors_(wor).pdf</manual>
@@ -6415,6 +6506,7 @@ A BATALHA MAIS INTENSA NA HISTÓRIA DA HUMANIDADE ESTÁ PRESTES A COMEÇAR ...</
     <image>./media/image/Armwar-image.png</image>
     <video>./media/videos/Armwar-video.mp4</video>
     <screenshot>./media/screenshots/Armwar-screenshot.png</screenshot>
+    <mix>./media/image/Armwar-image.png</mix>
     <fanart>./media/fanart/Armwar-fanart.jpg</fanart>
     <titleshot>./media/image/Armwar-titleshot.png</titleshot>
     <manual>./media/manuals/Armwar_(wor).pdf</manual>
@@ -6446,6 +6538,7 @@ Clone Of : armwar -&gt; Armored Warriors (941024 USA)</temporary>
     <image>./media/image/Armwaru-image.png</image>
     <video>./media/videos/Armwaru-video.mp4</video>
     <screenshot>./media/screenshots/Armwaru-screenshot.png</screenshot>
+    <mix>./media/image/Armwaru-image.png</mix>
     <fanart>./media/fanart/Armwaru-fanart.jpg</fanart>
     <titleshot>./media/image/Armwaru-titleshot.png</titleshot>
     <manual>./media/manuals/Armwaru_(wor).pdf</manual>
@@ -6471,6 +6564,7 @@ ART OF FIGHTING 3: THE PATH OF THE WARRIOR (O CAMINHO DO GUERREIRO) POSSUI DEZ P
     <image>./media/image/Art Of Fighting 3 - The Path Of The Warrior-image.png</image>
     <video>./media/videos/Art Of Fighting 3 - The Path Of The Warrior-video.mp4</video>
     <screenshot>./media/screenshots/Art Of Fighting 3 - The Path Of The Warrior-screenshot.png</screenshot>
+    <mix>./media/image/Art Of Fighting 3 - The Path Of The Warrior-image.png</mix>
     <fanart>./media/fanart/Art Of Fighting 3 - The Path Of The Warrior-fanart.jpg</fanart>
     <extra1>./media/extras/Art Of Fighting 3 - The Path Of The Warrior-extra1.png</extra1>
     <bezel>./media/image/Art Of Fighting 3 - The Path Of The Warrior-bezel.png</bezel>
@@ -6497,6 +6591,7 @@ Clone Of : asterix -&gt; Asterix (ver EAC)</temporary>
     <image>./media/image/Asterixeac-image.png</image>
     <video>./media/videos/Asterixeac-video.mp4</video>
     <screenshot>./media/screenshots/Asterixeac-screenshot.png</screenshot>
+    <mix>./media/image/Asterixeac-image.png</mix>
     <fanart>./media/fanart/Asterixeac-fanart.jpg</fanart>
     <titleshot>./media/image/Asterixeac-titleshot.png</titleshot>
     <manual>./media/manuals/Asterixeac_(wor).pdf</manual>
@@ -6522,10 +6617,12 @@ KAMIKAZE É UM DOS JOGOS SEGUINTES QUE APROVEITOU A ONDA DA MANIA DE “SPACE IN
     <arcadesystemname>konami</arcadesystemname>
     <image>./media/image/Astinvad-image.png</image>
     <video>./media/videos/Astinvad-video.mp4</video>
+    <thumbnail>./media/image/Astinvad-boxart.png</thumbnail>
     <marquee>./media/image/Astinvad-marquee.png</marquee>
     <wheel>./media/image/Astinvad-wheel.png</wheel>
     <boxart>./media/image/Astinvad-boxart.png</boxart>
     <screenshot>./media/screenshots/Astinvad-screenshot.png</screenshot>
+    <mix>./media/image/Astinvad-image.png</mix>
     <fanart>./media/fanart/Astinvad-fanart.jpg</fanart>
     <titleshot>./media/image/Astinvad-titleshot.png</titleshot>
     <extra1>./media/extras/Astinvad-extra1.png</extra1>
@@ -6549,6 +6646,7 @@ KAMIKAZE É UM DOS JOGOS SEGUINTES QUE APROVEITOU A ONDA DA MANIA DE “SPACE IN
     <image>./media/image/Astorm-image.png</image>
     <video>./media/videos/Astorm-video.mp4</video>
     <screenshot>./media/screenshots/Astorm-screenshot.png</screenshot>
+    <mix>./media/image/Astorm-image.png</mix>
     <fanart>./media/fanart/Astorm-fanart.jpg</fanart>
     <titleshot>./media/image/Astorm-titleshot.png</titleshot>
     <manual>./media/manuals/Astorm_(us).pdf</manual>
@@ -6573,10 +6671,12 @@ KAMIKAZE É UM DOS JOGOS SEGUINTES QUE APROVEITOU A ONDA DA MANIA DE “SPACE IN
     <arcadesystemname>sega</arcadesystemname>
     <image>./media/image/Astrob1-image.png</image>
     <video>./media/videos/Astrob1-video.mp4</video>
+    <thumbnail>./media/image/Astrob1-boxart.png</thumbnail>
     <marquee>./media/image/Astrob1-marquee.png</marquee>
     <wheel>./media/image/Astrob1-wheel.png</wheel>
     <boxart>./media/image/Astrob1-boxart.png</boxart>
     <screenshot>./media/screenshots/Astrob1-screenshot.png</screenshot>
+    <mix>./media/image/Astrob1-image.png</mix>
     <titleshot>./media/image/Astrob1-titleshot.png</titleshot>
     <manual>./media/manuals/Astrob1_(wor).pdf</manual>
     <extra1>./media/extras/Astrob1-extra1.png</extra1>
@@ -6600,10 +6700,12 @@ KAMIKAZE É UM DOS JOGOS SEGUINTES QUE APROVEITOU A ONDA DA MANIA DE “SPACE IN
     <arcadesystemname>sega</arcadesystemname>
     <image>./media/image/Astrob-image.png</image>
     <video>./media/videos/Astrob-video.mp4</video>
+    <thumbnail>./media/image/Astrob-boxart.png</thumbnail>
     <marquee>./media/image/Astrob-marquee.png</marquee>
     <wheel>./media/image/Astrob-wheel.png</wheel>
     <boxart>./media/image/Astrob-boxart.png</boxart>
     <screenshot>./media/screenshots/Astrob-screenshot.png</screenshot>
+    <mix>./media/image/Astrob-image.png</mix>
     <titleshot>./media/image/Astrob-titleshot.png</titleshot>
     <manual>./media/manuals/Astrob_(wor).pdf</manual>
     <extra1>./media/extras/Astrob-extra1.png</extra1>
@@ -6627,10 +6729,12 @@ KAMIKAZE É UM DOS JOGOS SEGUINTES QUE APROVEITOU A ONDA DA MANIA DE “SPACE IN
     <arcadesystemname>dataeast</arcadesystemname>
     <image>./media/image/Astrof2-image.png</image>
     <video>./media/videos/Astrof2-video.mp4</video>
+    <thumbnail>./media/image/Astrof2-boxart.png</thumbnail>
     <marquee>./media/image/Astrof2-marquee.png</marquee>
     <wheel>./media/image/Astrof2-wheel.png</wheel>
     <boxart>./media/image/Astrof2-boxart.png</boxart>
     <screenshot>./media/screenshots/Astrof2-screenshot.png</screenshot>
+    <mix>./media/image/Astrof2-image.png</mix>
     <titleshot>./media/image/Astrof2-titleshot.png</titleshot>
     <manual>./media/manuals/Astrof2-manual.pdf</manual>
     <boxback>./media/image/Astrof2-boxback.png</boxback>
@@ -6655,10 +6759,12 @@ KAMIKAZE É UM DOS JOGOS SEGUINTES QUE APROVEITOU A ONDA DA MANIA DE “SPACE IN
     <arcadesystemname>dataeast</arcadesystemname>
     <image>./media/image/Astrof-image.png</image>
     <video>./media/videos/Astrof-video.mp4</video>
+    <thumbnail>./media/image/Astrof-boxart.png</thumbnail>
     <marquee>./media/image/Astrof-marquee.png</marquee>
     <wheel>./media/image/Astrof-wheel.png</wheel>
     <boxart>./media/image/Astrof-boxart.png</boxart>
     <screenshot>./media/screenshots/Astrof-screenshot.png</screenshot>
+    <mix>./media/image/Astrof-image.png</mix>
     <titleshot>./media/image/Astrof-titleshot.png</titleshot>
     <manual>./media/manuals/Astrof-manual.pdf</manual>
     <boxback>./media/image/Astrof-boxback.png</boxback>
@@ -6684,6 +6790,7 @@ O JOGO FOI PROJETADO POR TOKUHIRO TAKEMORI, QUE TRABALHOU ANTERIORMENTE NO LEGEN
     <image>./media/image/Astyanax-image.png</image>
     <video>./media/videos/Astyanax-video.mp4</video>
     <screenshot>./media/screenshots/Astyanax-screenshot.png</screenshot>
+    <mix>./media/image/Astyanax-image.png</mix>
     <fanart>./media/fanart/Astyanax-fanart.jpg</fanart>
     <titleshot>./media/image/Astyanax-titleshot.png</titleshot>
     <manual>./media/manuals/Astyanax_(us).pdf</manual>
@@ -6707,6 +6814,7 @@ O JOGO FOI PROJETADO POR TOKUHIRO TAKEMORI, QUE TRABALHOU ANTERIORMENTE NO LEGEN
     <image>./media/image/Asurabld-image.png</image>
     <video>./media/videos/Asurabld-video.mp4</video>
     <screenshot>./media/screenshots/Asurabld-screenshot.png</screenshot>
+    <mix>./media/image/Asurabld-image.png</mix>
     <fanart>./media/fanart/Asurabld-fanart.jpg</fanart>
     <titleshot>./media/image/Asurabld-titleshot.png</titleshot>
     <extra1>./media/extras/Asurabld-extra1.png</extra1>
@@ -6730,6 +6838,7 @@ O JOGO FOI PROJETADO POR TOKUHIRO TAKEMORI, QUE TRABALHOU ANTERIORMENTE NO LEGEN
     <image>./media/image/Ataxx-image.png</image>
     <video>./media/videos/Ataxx-video.mp4</video>
     <screenshot>./media/screenshots/Ataxx-screenshot.png</screenshot>
+    <mix>./media/image/Ataxx-image.png</mix>
     <fanart>./media/fanart/Ataxx-fanart.jpg</fanart>
     <titleshot>./media/image/Ataxx-titleshot.png</titleshot>
     <manual>./media/manuals/Ataxx-manual.pdf</manual>
@@ -6753,10 +6862,12 @@ O JOGO FOI PROJETADO POR TOKUHIRO TAKEMORI, QUE TRABALHOU ANTERIORMENTE NO LEGEN
     <arcadesystemname>atari</arcadesystemname>
     <image>./media/image/Atetcktl-image.png</image>
     <video>./media/videos/Atetcktl-video.mp4</video>
+    <thumbnail>./media/image/Atetcktl-boxart.png</thumbnail>
     <marquee>./media/image/Atetcktl-marquee.png</marquee>
     <wheel>./media/image/Atetcktl-wheel.png</wheel>
     <boxart>./media/image/Atetcktl-boxart.png</boxart>
     <screenshot>./media/screenshots/Atetcktl-screenshot.png</screenshot>
+    <mix>./media/image/Atetcktl-image.png</mix>
     <fanart>./media/fanart/Atetcktl-fanart.jpg</fanart>
     <titleshot>./media/image/Atetcktl-titleshot.png</titleshot>
     <extra1>./media/extras/Atetcktl-extra1.png</extra1>
@@ -6783,6 +6894,7 @@ AINDA QUE TENHAM O MESMO NOME, A ATHENA DESTE JOGO NÃO É A MESMA DO JOGO PSYCH
     <image>./media/image/Athena-image.png</image>
     <video>./media/videos/Athena-video.mp4</video>
     <screenshot>./media/screenshots/Athena-screenshot.png</screenshot>
+    <mix>./media/image/Athena-image.png</mix>
     <fanart>./media/fanart/Athena-fanart.jpg</fanart>
     <titleshot>./media/image/Athena-titleshot.png</titleshot>
     <extra1>./media/extras/Athena-extra1.png</extra1>
@@ -6813,10 +6925,12 @@ MESA 6: VOCÊ RETORNA À MESA 1 EM VERSÃO ACELERADA, MAS DEVE ENFRENTAR TODOS O
     <arcadesystemname>konami</arcadesystemname>
     <image>./media/image/Atlantis-image.png</image>
     <video>./media/videos/Atlantis-video.mp4</video>
+    <thumbnail>./media/image/Atlantis-boxart.png</thumbnail>
     <marquee>./media/image/Atlantis-marquee.png</marquee>
     <wheel>./media/image/Atlantis-wheel.png</wheel>
     <boxart>./media/image/Atlantis-boxart.png</boxart>
     <screenshot>./media/screenshots/Atlantis-screenshot.png</screenshot>
+    <mix>./media/image/Atlantis-image.png</mix>
     <fanart>./media/fanart/Atlantis-fanart.jpg</fanart>
     <titleshot>./media/image/Atlantis-titleshot.png</titleshot>
     <extra1>./media/extras/Atlantis-extra1.png</extra1>
@@ -6840,6 +6954,7 @@ MESA 6: VOCÊ RETORNA À MESA 1 EM VERSÃO ACELERADA, MAS DEVE ENFRENTAR TODOS O
     <image>./media/image/Avalnche-image.png</image>
     <video>./media/videos/Avalnche-video.mp4</video>
     <screenshot>./media/screenshots/Avalnche-screenshot.png</screenshot>
+    <mix>./media/image/Avalnche-image.png</mix>
     <fanart>./media/fanart/Avalnche-fanart.jpg</fanart>
     <titleshot>./media/image/Avalnche-titleshot.png</titleshot>
     <manual>./media/manuals/Avalnche_(us).pdf</manual>
@@ -6865,6 +6980,7 @@ O PERSONAGEM DO JOGADOR 'HABITA' UM CORPO PARA COMBATER OS INIMIGOS DO JOGO. QUA
     <image>./media/image/Avspirit-image.png</image>
     <video>./media/videos/Avspirit-video.mp4</video>
     <screenshot>./media/screenshots/Avspirit-screenshot.png</screenshot>
+    <mix>./media/image/Avspirit-image.png</mix>
     <fanart>./media/fanart/Avspirit-fanart.jpg</fanart>
     <titleshot>./media/image/Avspirit-titleshot.png</titleshot>
     <extra1>./media/extras/Avspirit-extra1.png</extra1>
@@ -6891,6 +7007,7 @@ Clone Of : avsp -&gt; Alien vs Predator (940520 USA)</temporary>
     <image>./media/image/Avspu-image.png</image>
     <video>./media/videos/Avspu-video.mp4</video>
     <screenshot>./media/screenshots/Avspu-screenshot.png</screenshot>
+    <mix>./media/image/Avspu-image.png</mix>
     <fanart>./media/fanart/Avspu-fanart.jpg</fanart>
     <titleshot>./media/image/Avspu-titleshot.png</titleshot>
     <manual>./media/manuals/Avspu_(us).pdf</manual>
@@ -6916,6 +7033,7 @@ AO OUVIREM ISTO, OS BAD DUDES PERSEGUEM O DRAGONNINJA PELAS RUAS DA CIDADE, AUTO
     <image>./media/image/Baddudes-image.png</image>
     <video>./media/videos/Baddudes-video.mp4</video>
     <screenshot>./media/screenshots/Baddudes-screenshot.png</screenshot>
+    <mix>./media/image/Baddudes-image.png</mix>
     <fanart>./media/fanart/Baddudes-fanart.jpg</fanart>
     <titleshot>./media/image/Baddudes-titleshot.png</titleshot>
     <manual>./media/manuals/Baddudes_(us).pdf</manual>
@@ -6942,6 +7060,7 @@ CADA PISTA POSSUI ALVOS DE CAMPO DE JOGO QUE PODEM SER DISPARADOS POR PONTOS EXT
     <image>./media/image/Badlands-image.png</image>
     <video>./media/videos/Badlands-video.mp4</video>
     <screenshot>./media/screenshots/Badlands-screenshot.png</screenshot>
+    <mix>./media/image/Badlands-image.png</mix>
     <fanart>./media/fanart/Badlands-fanart.jpg</fanart>
     <titleshot>./media/image/Badlands-titleshot.png</titleshot>
     <manual>./media/manuals/Badlands_(us).pdf</manual>
@@ -6967,10 +7086,12 @@ CADA PISTA POSSUI ALVOS DE CAMPO DE JOGO QUE PODEM SER DISPARADOS POR PONTOS EXT
     <arcadesystemname>taito</arcadesystemname>
     <image>./media/image/Bagman-image.png</image>
     <video>./media/videos/Bagman-video.mp4</video>
+    <thumbnail>./media/image/Bagman-boxart.png</thumbnail>
     <marquee>./media/image/Bagman-marquee.png</marquee>
     <wheel>./media/image/Bagman-wheel.png</wheel>
     <boxart>./media/image/Bagman-boxart.png</boxart>
     <screenshot>./media/screenshots/Bagman-screenshot.png</screenshot>
+    <mix>./media/image/Bagman-image.png</mix>
     <fanart>./media/fanart/Bagman-fanart.jpg</fanart>
     <titleshot>./media/image/Bagman-titleshot.png</titleshot>
     <manual>./media/manuals/Bagman-manual.pdf</manual>
@@ -6996,6 +7117,7 @@ CADA PISTA POSSUI ALVOS DE CAMPO DE JOGO QUE PODEM SER DISPARADOS POR PONTOS EXT
     <image>./media/image/Balonfgt-image.png</image>
     <video>./media/videos/Balonfgt-video.mp4</video>
     <screenshot>./media/screenshots/Balonfgt-screenshot.png</screenshot>
+    <mix>./media/image/Balonfgt-image.png</mix>
     <fanart>./media/fanart/Balonfgt-fanart.jpg</fanart>
     <titleshot>./media/image/Balonfgt-titleshot.png</titleshot>
     <extra1>./media/extras/Balonfgt-extra1.png</extra1>
@@ -7018,10 +7140,12 @@ CADA PISTA POSSUI ALVOS DE CAMPO DE JOGO QUE PODEM SER DISPARADOS POR PONTOS EXT
     <arcadesystemname>nintendo</arcadesystemname>
     <image>./media/image/Bandido-image.png</image>
     <video>./media/videos/Bandido-video.mp4</video>
+    <thumbnail>./media/image/Bandido-boxart.png</thumbnail>
     <marquee>./media/image/Bandido-marquee.png</marquee>
     <wheel>./media/image/Bandido-wheel.png</wheel>
     <boxart>./media/image/Bandido-boxart.png</boxart>
     <screenshot>./media/screenshots/Bandido-screenshot.png</screenshot>
+    <mix>./media/image/Bandido-image.png</mix>
     <fanart>./media/fanart/Bandido-fanart.jpg</fanart>
     <titleshot>./media/image/Bandido-titleshot.png</titleshot>
     <manual>./media/manuals/Bandido_(wor).pdf</manual>
@@ -7049,6 +7173,7 @@ CADA PISTA POSSUI ALVOS DE CAMPO DE JOGO QUE PODEM SER DISPARADOS POR PONTOS EXT
     <marquee>./media/image/Bang-marquee.png</marquee>
     <wheel>./media/image/Bang-marquee.png</wheel>
     <screenshot>./media/screenshots/Bang-screenshot.png</screenshot>
+    <mix>./media/image/Bang-image.png</mix>
     <fanart>./media/fanart/Bang-fanart.jpg</fanart>
     <titleshot>./media/image/Bang-titleshot.png</titleshot>
     <extra1>./media/extras/Bang-extra1.png</extra1>
@@ -7072,6 +7197,7 @@ CADA PISTA POSSUI ALVOS DE CAMPO DE JOGO QUE PODEM SER DISPARADOS POR PONTOS EXT
     <image>./media/image/Bankp-image.png</image>
     <video>./media/videos/Bankp-video.mp4</video>
     <screenshot>./media/screenshots/Bankp-screenshot.png</screenshot>
+    <mix>./media/image/Bankp-image.png</mix>
     <fanart>./media/fanart/Bankp-fanart.jpg</fanart>
     <titleshot>./media/image/Bankp-titleshot.png</titleshot>
     <extra1>./media/extras/Bankp-extra1.png</extra1>
@@ -7098,6 +7224,7 @@ Clone Of : aliensec -&gt; Baraduke</temporary>
     <image>./media/image/Baraduke-image.png</image>
     <video>./media/videos/Baraduke-video.mp4</video>
     <screenshot>./media/screenshots/Baraduke-screenshot.png</screenshot>
+    <mix>./media/image/Baraduke-image.png</mix>
     <fanart>./media/fanart/Baraduke-fanart.jpg</fanart>
     <titleshot>./media/image/Baraduke-titleshot.png</titleshot>
     <extra1>./media/extras/Baraduke-extra1.png</extra1>
@@ -7121,6 +7248,7 @@ Clone Of : aliensec -&gt; Baraduke</temporary>
     <image>./media/image/Baseball Stars Professional-image.png</image>
     <video>./media/videos/Baseball Stars Professional-video.mp4</video>
     <screenshot>./media/screenshots/Baseball Stars Professional-screenshot.png</screenshot>
+    <mix>./media/image/Baseball Stars Professional-image.png</mix>
     <fanart>./media/fanart/Baseball Stars Professional-fanart.jpg</fanart>
     <titleshot>./media/image/Baseball Stars Professional-titleshot.png</titleshot>
     <manual>./media/manuals/Baseball Stars Professional_(wor).pdf</manual>
@@ -7147,6 +7275,7 @@ NUMEROSAS ARMAS PODEM SER USADAS AO LONGO DO JOGO PARA AJUDAR BATMAN EM SUA BUSC
     <image>./media/image/Batmanfr-image.png</image>
     <video>./media/videos/Batmanfr-video.mp4</video>
     <screenshot>./media/screenshots/Batmanfr-screenshot.png</screenshot>
+    <mix>./media/image/Batmanfr-image.png</mix>
     <fanart>./media/fanart/Batmanfr-fanart.jpg</fanart>
     <titleshot>./media/image/Batmanfr-titleshot.png</titleshot>
     <manual>./media/manuals/Batmanfr_(us).pdf</manual>
@@ -7173,6 +7302,7 @@ NUMEROSAS ARMAS PODEM SER USADAS AO LONGO DO JOGO PARA AJUDAR BATMAN EM SUA BUSC
     <marquee>./media/image/Batman-marquee.png</marquee>
     <wheel>./media/image/Batman-marquee.png</wheel>
     <screenshot>./media/screenshots/Batman-screenshot.png</screenshot>
+    <mix>./media/image/Batman-image.png</mix>
     <fanart>./media/fanart/Batman-fanart.jpg</fanart>
     <titleshot>./media/image/Batman-titleshot.png</titleshot>
     <manual>./media/manuals/Batman_(wor).pdf</manual>
@@ -7198,6 +7328,7 @@ NUMEROSAS ARMAS PODEM SER USADAS AO LONGO DO JOGO PARA AJUDAR BATMAN EM SUA BUSC
     <image>./media/image/Bayroute-image.png</image>
     <video>./media/videos/Bayroute-video.mp4</video>
     <screenshot>./media/screenshots/Bayroute-screenshot.png</screenshot>
+    <mix>./media/image/Bayroute-image.png</mix>
     <titleshot>./media/image/Bayroute-titleshot.png</titleshot>
     <extra1>./media/extras/Bayroute-extra1.png</extra1>
     <bezel>./media/image/Bayroute-bezel.png</bezel>
@@ -7220,6 +7351,7 @@ NUMEROSAS ARMAS PODEM SER USADAS AO LONGO DO JOGO PARA AJUDAR BATMAN EM SUA BUSC
     <image>./media/image/Bbbxing-image.png</image>
     <video>./media/videos/Bbbxing-video.mp4</video>
     <screenshot>./media/screenshots/Bbbxing-screenshot.png</screenshot>
+    <mix>./media/image/Bbbxing-image.png</mix>
     <fanart>./media/fanart/Bbbxing-fanart.jpg</fanart>
     <titleshot>./media/image/Bbbxing-titleshot.png</titleshot>
     <extra1>./media/extras/Bbbxing-extra1.png</extra1>
@@ -7247,6 +7379,7 @@ BRAVOMAN FEZ UMA PEQUENA APARIÇÃO EM NAMCO X CAPCOM LANÇADO PARA SONY PS2 EM 
     <image>./media/image/Berabohm-image.png</image>
     <video>./media/videos/Berabohm-video.mp4</video>
     <screenshot>./media/screenshots/Berabohm-screenshot.png</screenshot>
+    <mix>./media/image/Berabohm-image.png</mix>
     <fanart>./media/fanart/Berabohm-fanart.jpg</fanart>
     <titleshot>./media/image/Berabohm-titleshot.png</titleshot>
     <extra1>./media/extras/Berabohm-extra1.png</extra1>
@@ -7269,6 +7402,7 @@ BRAVOMAN FEZ UMA PEQUENA APARIÇÃO EM NAMCO X CAPCOM LANÇADO PARA SONY PS2 EM 
     <image>./media/image/Berlwall-image.png</image>
     <video>./media/videos/Berlwall-video.mp4</video>
     <screenshot>./media/screenshots/Berlwall-screenshot.png</screenshot>
+    <mix>./media/image/Berlwall-image.png</mix>
     <titleshot>./media/image/Berlwall-titleshot.png</titleshot>
     <extra1>./media/extras/Berlwall-extra1.png</extra1>
   </game>
@@ -7290,10 +7424,12 @@ PARA AVANÇAR NO JOGO, OS JOGADORES DEVEM ABRIR CAMINHO ATRAVÉS DE CADA SALA AT
     <region>wor</region>
     <image>./media/image/Berzerk1-image.png</image>
     <video>./media/videos/Berzerk1-video.mp4</video>
+    <thumbnail>./media/image/Berzerk1-boxart.png</thumbnail>
     <marquee>./media/image/Berzerk1-marquee.png</marquee>
     <wheel>./media/image/Berzerk1-wheel.png</wheel>
     <boxart>./media/image/Berzerk1-boxart.png</boxart>
     <screenshot>./media/screenshots/Berzerk1-screenshot.png</screenshot>
+    <mix>./media/image/Berzerk1-image.png</mix>
     <fanart>./media/fanart/Berzerk1-fanart.jpg</fanart>
     <titleshot>./media/image/Berzerk1-titleshot.png</titleshot>
     <manual>./media/manuals/Berzerk1_(us).pdf</manual>
@@ -7320,6 +7456,7 @@ PARA AVANÇAR NO JOGO, OS JOGADORES DEVEM ABRIR CAMINHO ATRAVÉS DE CADA SALA AT
     <image>./media/image/Berzerk-image.png</image>
     <video>./media/videos/Berzerk-video.mp4</video>
     <screenshot>./media/screenshots/Berzerk-screenshot.png</screenshot>
+    <mix>./media/image/Berzerk-image.png</mix>
     <fanart>./media/fanart/Berzerk-fanart.jpg</fanart>
     <titleshot>./media/image/Berzerk-titleshot.png</titleshot>
     <manual>./media/manuals/Berzerk_(us).pdf</manual>
@@ -7345,6 +7482,7 @@ PARA AVANÇAR NO JOGO, OS JOGADORES DEVEM ABRIR CAMINHO ATRAVÉS DE CADA SALA AT
     <image>./media/image/Bigkarnk-image.png</image>
     <video>./media/videos/Bigkarnk-video.mp4</video>
     <screenshot>./media/screenshots/Bigkarnk-screenshot.png</screenshot>
+    <mix>./media/image/Bigkarnk-image.png</mix>
     <fanart>./media/fanart/Bigkarnk-fanart.jpg</fanart>
     <titleshot>./media/image/Bigkarnk-titleshot.png</titleshot>
     <manual>./media/manuals/Bigkarnk_(eu).pdf</manual>
@@ -7368,6 +7506,7 @@ PARA AVANÇAR NO JOGO, OS JOGADORES DEVEM ABRIR CAMINHO ATRAVÉS DE CADA SALA AT
     <image>./media/image/Bigstrik-image.png</image>
     <video>./media/videos/Bigstrik-video.mp4</video>
     <screenshot>./media/screenshots/Bigstrik-screenshot.png</screenshot>
+    <mix>./media/image/Bigstrik-image.png</mix>
     <fanart>./media/fanart/Bigstrik-fanart.jpg</fanart>
     <titleshot>./media/image/Bigstrik-titleshot.png</titleshot>
     <manual>./media/manuals/Bigstrik-manual.pdf</manual>
@@ -7396,6 +7535,7 @@ UM ROSTO ABSTRATO DE APARÊNCIA ORIENTAL OCASIONALMENTE FAZ PARTE DA PLATAFORMA 
     <image>./media/image/Biomtoy-image.png</image>
     <video>./media/videos/Biomtoy-video.mp4</video>
     <screenshot>./media/screenshots/Biomtoy-screenshot.png</screenshot>
+    <mix>./media/image/Biomtoy-image.png</mix>
     <fanart>./media/fanart/Biomtoy-fanart.jpg</fanart>
     <titleshot>./media/image/Biomtoy-titleshot.png</titleshot>
     <extra1>./media/extras/Biomtoy-extra1.png</extra1>
@@ -7423,6 +7563,7 @@ Clone Of : bionicc -&gt; Bionic Commando (US set 2)</temporary>
     <image>./media/image/Bionicc2-image.png</image>
     <video>./media/videos/Bionicc2-video.mp4</video>
     <screenshot>./media/screenshots/Bionicc2-screenshot.png</screenshot>
+    <mix>./media/image/Bionicc2-image.png</mix>
     <fanart>./media/fanart/Bionicc2-fanart.jpg</fanart>
     <titleshot>./media/image/Bionicc2-titleshot.png</titleshot>
     <manual>./media/manuals/Bionicc2_(us).pdf</manual>
@@ -7447,6 +7588,7 @@ Clone Of : bionicc -&gt; Bionic Commando (US set 2)</temporary>
     <image>./media/image/Bioship-image.png</image>
     <video>./media/videos/Bioship-video.mp4</video>
     <screenshot>./media/screenshots/Bioship-screenshot.png</screenshot>
+    <mix>./media/image/Bioship-image.png</mix>
     <fanart>./media/fanart/Bioship-fanart.jpg</fanart>
     <titleshot>./media/image/Bioship-titleshot.png</titleshot>
     <manual>./media/manuals/Bioship-manual.pdf</manual>
@@ -7473,10 +7615,12 @@ APESAR DA PRESENÇA DE UM MEDIDOR DE ENERGIA, O JOGADOR PODE RECEBER EXATAMENTE 
     <arcadesystemname>midway</arcadesystemname>
     <image>./media/image/Blaster-image.png</image>
     <video>./media/videos/Blaster-video.mp4</video>
+    <thumbnail>./media/image/Blaster-boxart.png</thumbnail>
     <marquee>./media/image/Blaster-marquee.png</marquee>
     <wheel>./media/image/Blaster-wheel.png</wheel>
     <boxart>./media/image/Blaster-boxart.png</boxart>
     <screenshot>./media/screenshots/Blaster-screenshot.png</screenshot>
+    <mix>./media/image/Blaster-image.png</mix>
     <fanart>./media/fanart/Blaster-fanart.jpg</fanart>
     <titleshot>./media/image/Blaster-titleshot.png</titleshot>
     <manual>./media/manuals/Blaster_(us).pdf</manual>
@@ -7503,6 +7647,7 @@ APESAR DA PRESENÇA DE UM MEDIDOR DE ENERGIA, O JOGADOR PODE RECEBER EXATAMENTE 
     <image>./media/image/Blazing Star-image.png</image>
     <video>./media/videos/Blazing Star-video.mp4</video>
     <screenshot>./media/screenshots/Blazing Star-screenshot.png</screenshot>
+    <mix>./media/image/Blazing Star-image.png</mix>
     <fanart>./media/fanart/Blazing Star-fanart.jpg</fanart>
     <titleshot>./media/image/Blazing Star-titleshot.png</titleshot>
     <manual>./media/manuals/Blazing Star_(us).pdf</manual>
@@ -7529,6 +7674,7 @@ O "QUÊ" DA SÉRIE BLOODY ROAR É A CAPACIDADE DE SEUS COMBATENTES SE TRANSFORMA
     <image>./media/image/Bldyror2-image.png</image>
     <video>./media/videos/Bldyror2-video.mp4</video>
     <screenshot>./media/screenshots/Bldyror2-screenshot.png</screenshot>
+    <mix>./media/image/Bldyror2-image.png</mix>
     <fanart>./media/fanart/Bldyror2-fanart.jpg</fanart>
     <titleshot>./media/image/Bldyror2-titleshot.png</titleshot>
     <extra1>./media/extras/Bldyror2-extra1.png</extra1>
@@ -7554,6 +7700,7 @@ TAMBÉM ESTÃO INCLUÍDAS NOVAS CHAMADAS AUDÍVEIS E NARRAÇÕES, ANIMAÇÕES MA
     <image>./media/image/Blitz2k-image.png</image>
     <video>./media/videos/Blitz2k-video.mp4</video>
     <screenshot>./media/screenshots/Blitz2k-screenshot.png</screenshot>
+    <mix>./media/image/Blitz2k-image.png</mix>
     <fanart>./media/fanart/Blitz2k-fanart.jpg</fanart>
     <titleshot>./media/image/Blitz2k-titleshot.png</titleshot>
     <manual>./media/manuals/Blitz2k-manual.pdf</manual>
@@ -7578,10 +7725,12 @@ TAMBÉM ESTÃO INCLUÍDAS NOVAS CHAMADAS AUDÍVEIS E NARRAÇÕES, ANIMAÇÕES MA
 Clone Of : blktiger -&gt; Black Dragon (Japan)</temporary>
     <image>./media/image/Blkdrgon-image.png</image>
     <video>./media/videos/Blkdrgon-video.mp4</video>
+    <thumbnail>./media/image/Blkdrgon-boxart.png</thumbnail>
     <marquee>./media/image/Blkdrgon-marquee.png</marquee>
     <wheel>./media/image/Blkdrgon-wheel.png</wheel>
     <boxart>./media/image/Blkdrgon-boxart.png</boxart>
     <screenshot>./media/screenshots/Blkdrgon-screenshot.png</screenshot>
+    <mix>./media/image/Blkdrgon-image.png</mix>
     <fanart>./media/fanart/Blkdrgon-fanart.jpg</fanart>
     <titleshot>./media/image/Blkdrgon-titleshot.png</titleshot>
     <manual>./media/manuals/Blkdrgon_(us).pdf</manual>
@@ -7605,10 +7754,12 @@ Clone Of : blktiger -&gt; Black Dragon (Japan)</temporary>
     <arcadesystemname>capcom</arcadesystemname>
     <image>./media/image/Blktiger-image.png</image>
     <video>./media/videos/Blktiger-video.mp4</video>
+    <thumbnail>./media/image/Blktiger-boxart.png</thumbnail>
     <marquee>./media/image/Blktiger-marquee.png</marquee>
     <wheel>./media/image/Blktiger-wheel.png</wheel>
     <boxart>./media/image/Blktiger-boxart.png</boxart>
     <screenshot>./media/screenshots/Blktiger-screenshot.png</screenshot>
+    <mix>./media/image/Blktiger-image.png</mix>
     <fanart>./media/fanart/Blktiger-fanart.jpg</fanart>
     <titleshot>./media/image/Blktiger-titleshot.png</titleshot>
     <manual>./media/manuals/Blktiger_(us).pdf</manual>
@@ -7631,10 +7782,12 @@ Clone Of : blktiger -&gt; Black Dragon (Japan)</temporary>
     <region>wor</region>
     <image>./media/image/Blockade-image.png</image>
     <video>./media/videos/Blockade-video.mp4</video>
+    <thumbnail>./media/image/Blockade-boxart.png</thumbnail>
     <marquee>./media/image/Blockade-marquee.png</marquee>
     <wheel>./media/image/Blockade-wheel.png</wheel>
     <boxart>./media/image/Blockade-boxart.png</boxart>
     <screenshot>./media/screenshots/Blockade-screenshot.png</screenshot>
+    <mix>./media/image/Blockade-image.png</mix>
     <titleshot>./media/image/Blockade-titleshot.png</titleshot>
     <manual>./media/manuals/Blockade-manual.pdf</manual>
     <extra1>./media/extras/Blockade-extra1.png</extra1>
@@ -7664,6 +7817,7 @@ OU
     <image>./media/image/Blockout-image.png</image>
     <video>./media/videos/Blockout-video.mp4</video>
     <screenshot>./media/screenshots/Blockout-screenshot.png</screenshot>
+    <mix>./media/image/Blockout-image.png</mix>
     <fanart>./media/fanart/Blockout-fanart.jpg</fanart>
     <titleshot>./media/image/Blockout-titleshot.png</titleshot>
     <manual>./media/manuals/Blockout-manual.pdf</manual>
@@ -7687,6 +7841,7 @@ OU
     <image>./media/image/Bloodbro-image.png</image>
     <video>./media/videos/Bloodbro-video.mp4</video>
     <screenshot>./media/screenshots/Bloodbro-screenshot.png</screenshot>
+    <mix>./media/image/Bloodbro-image.png</mix>
     <fanart>./media/fanart/Bloodbro-fanart.jpg</fanart>
     <titleshot>./media/image/Bloodbro-titleshot.png</titleshot>
     <manual>./media/manuals/Bloodbro_(wor).pdf</manual>
@@ -7713,6 +7868,7 @@ TAL COMO ACONTECE COM O SEU ANTECESSOR TIME KILLERS, BLOODSTORM APRESENTA MUITOS
     <image>./media/image/Bloodstm-image.png</image>
     <video>./media/videos/Bloodstm-video.mp4</video>
     <screenshot>./media/screenshots/Bloodstm-screenshot.png</screenshot>
+    <mix>./media/image/Bloodstm-image.png</mix>
     <titleshot>./media/image/Bloodstm-titleshot.png</titleshot>
     <manual>./media/manuals/Bloodstm_(wor).pdf</manual>
     <extra1>./media/extras/Bloodstm-extra1.png</extra1>
@@ -7736,6 +7892,7 @@ TAL COMO ACONTECE COM O SEU ANTECESSOR TIME KILLERS, BLOODSTORM APRESENTA MUITOS
     <image>./media/image/Bloxeed-image.png</image>
     <video>./media/videos/Bloxeed-video.mp4</video>
     <screenshot>./media/screenshots/Bloxeed-screenshot.png</screenshot>
+    <mix>./media/image/Bloxeed-image.png</mix>
     <titleshot>./media/image/Bloxeed-titleshot.png</titleshot>
     <extra1>./media/extras/Bloxeed-extra1.png</extra1>
     <bezel>./media/image/Bloxeed-bezel.png</bezel>
@@ -7760,6 +7917,7 @@ AO CONTRÁRIO DE "ASTEROIDES", A NAVE DEVE SE REABASTECER DE COMBUSTÍVEL COLETA
     <image>./media/image/Blstroid-image.png</image>
     <video>./media/videos/Blstroid-video.mp4</video>
     <screenshot>./media/screenshots/Blstroid-screenshot.png</screenshot>
+    <mix>./media/image/Blstroid-image.png</mix>
     <fanart>./media/fanart/Blstroid-fanart.jpg</fanart>
     <titleshot>./media/image/Blstroid-titleshot.png</titleshot>
     <manual>./media/manuals/Blstroid-manual.pdf</manual>
@@ -7784,6 +7942,7 @@ AO CONTRÁRIO DE "ASTEROIDES", A NAVE DEVE SE REABASTECER DE COMBUSTÍVEL COLETA
     <image>./media/image/Bluehawk-image.png</image>
     <video>./media/videos/Bluehawk-video.mp4</video>
     <screenshot>./media/screenshots/Bluehawk-screenshot.png</screenshot>
+    <mix>./media/image/Bluehawk-image.png</mix>
     <fanart>./media/fanart/Bluehawk-fanart.jpg</fanart>
     <titleshot>./media/image/Bluehawk-titleshot.png</titleshot>
     <extra1>./media/extras/Bluehawk-extra1.png</extra1>
@@ -7807,6 +7966,7 @@ AO CONTRÁRIO DE "ASTEROIDES", A NAVE DEVE SE REABASTECER DE COMBUSTÍVEL COLETA
     <image>./media/image/Bmaster-image.png</image>
     <video>./media/videos/Bmaster-video.mp4</video>
     <screenshot>./media/screenshots/Bmaster-screenshot.png</screenshot>
+    <mix>./media/image/Bmaster-image.png</mix>
     <fanart>./media/fanart/Bmaster-fanart.jpg</fanart>
     <titleshot>./media/image/Bmaster-titleshot.png</titleshot>
     <extra1>./media/extras/Bmaster-extra1.png</extra1>
@@ -7832,10 +7992,12 @@ AO CONTRÁRIO DE "ASTEROIDES", A NAVE DEVE SE REABASTECER DE COMBUSTÍVEL COLETA
 Clone Of : brubber -&gt; Bump 'n' Jump</temporary>
     <image>./media/image/Bnj-image.png</image>
     <video>./media/videos/Bnj-video.mp4</video>
+    <thumbnail>./media/image/Bnj-boxart.png</thumbnail>
     <marquee>./media/image/Bnj-marquee.png</marquee>
     <wheel>./media/image/Bnj-wheel.png</wheel>
     <boxart>./media/image/Bnj-boxart.png</boxart>
     <screenshot>./media/screenshots/Bnj-screenshot.png</screenshot>
+    <mix>./media/image/Bnj-image.png</mix>
     <fanart>./media/fanart/Bnj-fanart.jpg</fanart>
     <titleshot>./media/image/Bnj-titleshot.png</titleshot>
     <manual>./media/manuals/Bnj_(us).pdf</manual>
@@ -7863,6 +8025,7 @@ PORTANTO, É NECESSÁRIO COLETAR TODOS OS TESOUROS ANTES DE DEIXAR OS PRÉDIOS E
     <image>./media/image/Bnzabros-image.png</image>
     <video>./media/videos/Bnzabros-video.mp4</video>
     <screenshot>./media/screenshots/Bnzabros-screenshot.png</screenshot>
+    <mix>./media/image/Bnzabros-image.png</mix>
     <fanart>./media/fanart/Bnzabros-fanart.jpg</fanart>
     <titleshot>./media/image/Bnzabros-titleshot.png</titleshot>
     <extra1>./media/extras/Bnzabros-extra1.png</extra1>
@@ -7888,10 +8051,12 @@ BUBBLE BOBBLE É UM JOGO DE PLATAFORMA, COM CADA NÍVEL SENDO UMA ÚNICA TELA. O
 Clone Of : bublbobl -&gt; Bobble Bobble (bootleg of Bubble Bobble)</temporary>
     <image>./media/image/Boblbobl-image.png</image>
     <video>./media/videos/Boblbobl-video.mp4</video>
+    <thumbnail>./media/image/Boblbobl-boxart.png</thumbnail>
     <marquee>./media/image/Boblbobl-marquee.png</marquee>
     <wheel>./media/image/Boblbobl-wheel.png</wheel>
     <boxart>./media/image/Boblbobl-boxart.png</boxart>
     <screenshot>./media/screenshots/Boblbobl-screenshot.png</screenshot>
+    <mix>./media/image/Boblbobl-image.png</mix>
     <fanart>./media/fanart/Boblbobl-fanart.jpg</fanart>
     <titleshot>./media/image/Boblbobl-titleshot.png</titleshot>
     <manual>./media/manuals/Boblbobl_(us).pdf</manual>
@@ -7917,6 +8082,7 @@ Clone Of : bublbobl -&gt; Bobble Bobble (bootleg of Bubble Bobble)</temporary>
     <image>./media/image/Bodyslam-image.png</image>
     <video>./media/videos/Bodyslam-video.mp4</video>
     <screenshot>./media/screenshots/Bodyslam-screenshot.png</screenshot>
+    <mix>./media/image/Bodyslam-image.png</mix>
     <titleshot>./media/image/Bodyslam-titleshot.png</titleshot>
     <extra1>./media/extras/Bodyslam-extra1.png</extra1>
     <bezel>./media/image/Bodyslam-bezel.png</bezel>
@@ -7939,6 +8105,7 @@ Clone Of : bublbobl -&gt; Bobble Bobble (bootleg of Bubble Bobble)</temporary>
     <image>./media/image/Bonzeadv-image.png</image>
     <video>./media/videos/Bonzeadv-video.mp4</video>
     <screenshot>./media/screenshots/Bonzeadv-screenshot.png</screenshot>
+    <mix>./media/image/Bonzeadv-image.png</mix>
     <fanart>./media/fanart/Bonzeadv-fanart.jpg</fanart>
     <titleshot>./media/image/Bonzeadv-titleshot.png</titleshot>
     <extra1>./media/extras/Bonzeadv-extra1.png</extra1>
@@ -7963,6 +8130,7 @@ BOOGIE WINGS APRESENTA CENÁRIOS ALTAMENTE DETALHADOS E COMPLETAMENTE DESTRUTÍV
     <image>./media/image/Boogwing-image.png</image>
     <video>./media/videos/Boogwing-video.mp4</video>
     <screenshot>./media/screenshots/Boogwing-screenshot.png</screenshot>
+    <mix>./media/image/Boogwing-image.png</mix>
     <fanart>./media/fanart/Boogwing-fanart.jpg</fanart>
     <titleshot>./media/image/Boogwing-titleshot.png</titleshot>
     <extra1>./media/extras/Boogwing-extra1.png</extra1>
@@ -7987,6 +8155,7 @@ POR CONSEGUINTE, ESTÁ INSCRITO NO EXÉRCITO, O QUE LHE IMPÕE TESTES MAIS OU ME
     <image>./media/image/Bootcamp-image.png</image>
     <video>./media/videos/Bootcamp-video.mp4</video>
     <screenshot>./media/screenshots/Bootcamp-screenshot.png</screenshot>
+    <mix>./media/image/Bootcamp-image.png</mix>
     <fanart>./media/fanart/Bootcamp-fanart.jpg</fanart>
     <titleshot>./media/image/Bootcamp-titleshot.png</titleshot>
     <extra1>./media/extras/Bootcamp-extra1.png</extra1>
@@ -8010,6 +8179,7 @@ BOOT HILL É BASEADO EM TEMPO E NÃO EM VIDA, COM O PADRÃO DE FÁBRICA DEFINIDO
     <image>./media/image/Boothill-image.png</image>
     <video>./media/videos/Boothill-video.mp4</video>
     <screenshot>./media/screenshots/Boothill-screenshot.png</screenshot>
+    <mix>./media/image/Boothill-image.png</mix>
     <fanart>./media/fanart/Boothill-fanart.jpg</fanart>
     <titleshot>./media/image/Boothill-titleshot.png</titleshot>
     <extra1>./media/extras/Boothill-extra1.png</extra1>
@@ -8033,6 +8203,7 @@ BOOT HILL É BASEADO EM TEMPO E NÃO EM VIDA, COM O PADRÃO DE FÁBRICA DEFINIDO
     <image>./media/image/Bosco-image.png</image>
     <video>./media/videos/Bosco-video.mp4</video>
     <screenshot>./media/screenshots/Bosco-screenshot.png</screenshot>
+    <mix>./media/image/Bosco-image.png</mix>
     <fanart>./media/fanart/Bosco-fanart.jpg</fanart>
     <titleshot>./media/image/Bosco-titleshot.png</titleshot>
     <manual>./media/manuals/Bosco_(wor).pdf</manual>
@@ -8056,10 +8227,12 @@ BOOT HILL É BASEADO EM TEMPO E NÃO EM VIDA, COM O PADRÃO DE FÁBRICA DEFINIDO
     <arcadesystemname>namco</arcadesystemname>
     <image>./media/image/Bosconm-image.png</image>
     <video>./media/videos/Bosconm-video.mp4</video>
+    <thumbnail>./media/image/Bosconm-boxart.png</thumbnail>
     <marquee>./media/image/Bosconm-marquee.png</marquee>
     <wheel>./media/image/Bosconm-wheel.png</wheel>
     <boxart>./media/image/Bosconm-boxart.png</boxart>
     <screenshot>./media/screenshots/Bosconm-screenshot.png</screenshot>
+    <mix>./media/image/Bosconm-image.png</mix>
     <fanart>./media/fanart/Bosconm-fanart.jpg</fanart>
     <titleshot>./media/image/Bosconm-titleshot.png</titleshot>
     <manual>./media/manuals/Bosconm_(wor).pdf</manual>
@@ -8085,6 +8258,7 @@ BOOT HILL É BASEADO EM TEMPO E NÃO EM VIDA, COM O PADRÃO DE FÁBRICA DEFINIDO
     <image>./media/image/Bottom9-image.png</image>
     <video>./media/videos/Bottom9-video.mp4</video>
     <screenshot>./media/screenshots/Bottom9-screenshot.png</screenshot>
+    <mix>./media/image/Bottom9-image.png</mix>
     <fanart>./media/fanart/Bottom9-fanart.jpg</fanart>
     <titleshot>./media/image/Bottom9-titleshot.png</titleshot>
     <manual>./media/manuals/Bottom9-manual.pdf</manual>
@@ -8108,6 +8282,7 @@ BOOT HILL É BASEADO EM TEMPO E NÃO EM VIDA, COM O PADRÃO DE FÁBRICA DEFINIDO
     <image>./media/image/Bouldash-image.png</image>
     <video>./media/videos/Bouldash-video.mp4</video>
     <screenshot>./media/screenshots/Bouldash-screenshot.png</screenshot>
+    <mix>./media/image/Bouldash-image.png</mix>
     <fanart>./media/fanart/Bouldash-fanart.jpg</fanart>
     <titleshot>./media/image/Bouldash-titleshot.png</titleshot>
     <extra1>./media/extras/Bouldash-extra1.png</extra1>
@@ -8131,11 +8306,13 @@ BOOT HILL É BASEADO EM TEMPO E NÃO EM VIDA, COM O PADRÃO DE FÁBRICA DEFINIDO
     <arcadesystemname>snk</arcadesystemname>
     <image>./media/image/Breaker's (2)-image.png</image>
     <video>./media/videos/Breaker's (2)-video.mp4</video>
+    <thumbnail>./media/image/Breaker's (2)-boxart.png</thumbnail>
     <marquee>./media/image/Breaker's (2)-marquee.png</marquee>
     <wheel>./media/image/Breaker's (2)-wheel.png</wheel>
     <boxart>./media/image/Breaker's (2)-boxart.png</boxart>
     <screenshot>./media/screenshots/Breaker's (2)-screenshot.png</screenshot>
     <cartridge>./media/image/Breaker's (2)-cartridge.png</cartridge>
+    <mix>./media/image/Breaker's (2)-image.png</mix>
     <fanart>./media/fanart/Breaker's (2)-fanart.jpg</fanart>
     <titleshot>./media/image/Breaker's (2)-titleshot.png</titleshot>
     <manual>./media/manuals/Breaker's (2)-manual.pdf</manual>
@@ -8161,10 +8338,12 @@ BOOT HILL É BASEADO EM TEMPO E NÃO EM VIDA, COM O PADRÃO DE FÁBRICA DEFINIDO
     <arcadesystemname>dataeast</arcadesystemname>
     <image>./media/image/Brubber-image.png</image>
     <video>./media/videos/Brubber-video.mp4</video>
+    <thumbnail>./media/image/Brubber-boxart.png</thumbnail>
     <marquee>./media/image/Brubber-marquee.png</marquee>
     <wheel>./media/image/Brubber-wheel.png</wheel>
     <boxart>./media/image/Brubber-boxart.png</boxart>
     <screenshot>./media/screenshots/Brubber-screenshot.png</screenshot>
+    <mix>./media/image/Brubber-image.png</mix>
     <fanart>./media/fanart/Brubber-fanart.jpg</fanart>
     <titleshot>./media/image/Brubber-titleshot.png</titleshot>
     <manual>./media/manuals/Brubber_(us).pdf</manual>
@@ -8188,10 +8367,12 @@ BOOT HILL É BASEADO EM TEMPO E NÃO EM VIDA, COM O PADRÃO DE FÁBRICA DEFINIDO
     <region>wor</region>
     <image>./media/image/Brutforc-image.png</image>
     <video>./media/videos/Brutforc-video.mp4</video>
+    <thumbnail>./media/image/Brutforc-boxart.png</thumbnail>
     <marquee>./media/image/Brutforc-marquee.png</marquee>
     <wheel>./media/image/Brutforc-wheel.png</wheel>
     <boxart>./media/image/Brutforc-boxart.png</boxart>
     <screenshot>./media/screenshots/Brutforc-screenshot.png</screenshot>
+    <mix>./media/image/Brutforc-image.png</mix>
     <titleshot>./media/image/Brutforc-titleshot.png</titleshot>
     <extra1>./media/extras/Brutforc-extra1.png</extra1>
   </game>
@@ -8215,10 +8396,12 @@ OS ESFORÇOS DO CHEF SÃO PREJUDICADOS PELOS INGREDIENTES NOCIVOS QUE O PERSEGUE
     <arcadesystemname>dataeast</arcadesystemname>
     <image>./media/image/Btimea-image.png</image>
     <video>./media/videos/Btimea-video.mp4</video>
+    <thumbnail>./media/image/Btimea-boxart.png</thumbnail>
     <marquee>./media/image/Btimea-marquee.png</marquee>
     <wheel>./media/image/Btimea-wheel.png</wheel>
     <boxart>./media/image/Btimea-boxart.png</boxart>
     <screenshot>./media/screenshots/Btimea-screenshot.png</screenshot>
+    <mix>./media/image/Btimea-image.png</mix>
     <fanart>./media/fanart/Btimea-fanart.jpg</fanart>
     <titleshot>./media/image/Btimea-titleshot.png</titleshot>
     <manual>./media/manuals/Btimea_(us).pdf</manual>
@@ -8246,10 +8429,12 @@ OS ESFORÇOS DO CHEF SÃO PREJUDICADOS PELOS INGREDIENTES NOCIVOS QUE O PERSEGUE
     <arcadesystemname>dataeast</arcadesystemname>
     <image>./media/image/Btime-image.png</image>
     <video>./media/videos/Btime-video.mp4</video>
+    <thumbnail>./media/image/Btime-boxart.png</thumbnail>
     <marquee>./media/image/Btime-marquee.png</marquee>
     <wheel>./media/image/Btime-wheel.png</wheel>
     <boxart>./media/image/Btime-boxart.png</boxart>
     <screenshot>./media/screenshots/Btime-screenshot.png</screenshot>
+    <mix>./media/image/Btime-image.png</mix>
     <fanart>./media/fanart/Btime-fanart.jpg</fanart>
     <titleshot>./media/image/Btime-titleshot.png</titleshot>
     <manual>./media/manuals/Btime_(us).pdf</manual>
@@ -8273,10 +8458,12 @@ OS ESFORÇOS DO CHEF SÃO PREJUDICADOS PELOS INGREDIENTES NOCIVOS QUE O PERSEGUE
     <region>wor</region>
     <image>./media/image/Btoads-image.png</image>
     <video>./media/videos/Btoads-video.mp4</video>
+    <thumbnail>./media/image/Btoads-boxart.png</thumbnail>
     <marquee>./media/image/Btoads-marquee.png</marquee>
     <wheel>./media/image/Btoads-wheel.png</wheel>
     <boxart>./media/image/Btoads-boxart.png</boxart>
     <screenshot>./media/screenshots/Btoads-screenshot.png</screenshot>
+    <mix>./media/image/Btoads-image.png</mix>
     <fanart>./media/fanart/Btoads-fanart.jpg</fanart>
     <titleshot>./media/image/Btoads-titleshot.png</titleshot>
     <manual>./media/manuals/Btoads_(wor).pdf</manual>
@@ -8300,10 +8487,12 @@ OS ESFORÇOS DO CHEF SÃO PREJUDICADOS PELOS INGREDIENTES NOCIVOS QUE O PERSEGUE
     <arcadesystemname>midway</arcadesystemname>
     <image>./media/image/Bubbles-image.png</image>
     <video>./media/videos/Bubbles-video.mp4</video>
+    <thumbnail>./media/image/Bubbles-boxart.png</thumbnail>
     <marquee>./media/image/Bubbles-marquee.png</marquee>
     <wheel>./media/image/Bubbles-wheel.png</wheel>
     <boxart>./media/image/Bubbles-boxart.png</boxart>
     <screenshot>./media/screenshots/Bubbles-screenshot.png</screenshot>
+    <mix>./media/image/Bubbles-image.png</mix>
     <fanart>./media/fanart/Bubbles-fanart.jpg</fanart>
     <titleshot>./media/image/Bubbles-titleshot.png</titleshot>
     <manual>./media/manuals/Bubbles_(us).pdf</manual>
@@ -8329,10 +8518,12 @@ OS ESFORÇOS DO CHEF SÃO PREJUDICADOS PELOS INGREDIENTES NOCIVOS QUE O PERSEGUE
 Clone Of : bubbles -&gt; Bubbles (Solid Red label)</temporary>
     <image>./media/image/Bubblesr-image.png</image>
     <video>./media/videos/Bubblesr-video.mp4</video>
+    <thumbnail>./media/image/Bubblesr-boxart.png</thumbnail>
     <marquee>./media/image/Bubblesr-marquee.png</marquee>
     <wheel>./media/image/Bubblesr-wheel.png</wheel>
     <boxart>./media/image/Bubblesr-boxart.png</boxart>
     <screenshot>./media/screenshots/Bubblesr-screenshot.png</screenshot>
+    <mix>./media/image/Bubblesr-image.png</mix>
     <fanart>./media/fanart/Bubblesr-fanart.jpg</fanart>
     <titleshot>./media/image/Bubblesr-titleshot.png</titleshot>
     <manual>./media/manuals/Bubblesr_(us).pdf</manual>
@@ -8358,6 +8549,7 @@ BUBBLE BOBBLE É UM JOGO DE PLATAFORMA, COM CADA NÍVEL SENDO UMA ÚNICA TELA. O
     <image>./media/image/Bublbobl (2)-image.png</image>
     <video>./media/videos/Bublbobl (2)-video.mp4</video>
     <screenshot>./media/screenshots/Bublbobl (2)-screenshot.png</screenshot>
+    <mix>./media/image/Bublbobl (2)-image.png</mix>
     <fanart>./media/fanart/Bublbobl (2)-fanart.jpg</fanart>
     <titleshot>./media/image/Bublbobl (2)-titleshot.png</titleshot>
     <manual>./media/manuals/Bublbobl (2)_(us).pdf</manual>
@@ -8383,6 +8575,7 @@ BUBBLE BOBBLE É UM JOGO DE PLATAFORMA, COM CADA NÍVEL SENDO UMA ÚNICA TELA. O
     <image>./media/image/Bublbobl-image.png</image>
     <video>./media/videos/Bublbobl-video.mp4</video>
     <screenshot>./media/screenshots/Bublbobl-screenshot.png</screenshot>
+    <mix>./media/image/Bublbobl-image.png</mix>
     <fanart>./media/fanart/Bublbobl-fanart.jpg</fanart>
     <titleshot>./media/image/Bublbobl-titleshot.png</titleshot>
     <manual>./media/manuals/Bublbobl_(us).pdf</manual>
@@ -8406,10 +8599,12 @@ BUBBLE BOBBLE É UM JOGO DE PLATAFORMA, COM CADA NÍVEL SENDO UMA ÚNICA TELA. O
     <arcadesystemname>taito</arcadesystemname>
     <image>./media/image/Bubsymph-image.png</image>
     <video>./media/videos/Bubsymph-video.mp4</video>
+    <thumbnail>./media/image/Bubsymph-boxart.png</thumbnail>
     <marquee>./media/image/Bubsymph-marquee.png</marquee>
     <wheel>./media/image/Bubsymph-wheel.png</wheel>
     <boxart>./media/image/Bubsymph-boxart.png</boxart>
     <screenshot>./media/screenshots/Bubsymph-screenshot.png</screenshot>
+    <mix>./media/image/Bubsymph-image.png</mix>
     <fanart>./media/fanart/Bubsymph-fanart.jpg</fanart>
     <titleshot>./media/image/Bubsymph-titleshot.png</titleshot>
     <extra1>./media/extras/Bubsymph-extra1.png</extra1>
@@ -8432,10 +8627,12 @@ BUBBLE BOBBLE É UM JOGO DE PLATAFORMA, COM CADA NÍVEL SENDO UMA ÚNICA TELA. O
     <arcadesystemname>sega</arcadesystemname>
     <image>./media/image/Buckrog-image.png</image>
     <video>./media/videos/Buckrog-video.mp4</video>
+    <thumbnail>./media/image/Buckrog-boxart.png</thumbnail>
     <marquee>./media/image/Buckrog-marquee.png</marquee>
     <wheel>./media/image/Buckrog-wheel.png</wheel>
     <boxart>./media/image/Buckrog-boxart.png</boxart>
     <screenshot>./media/screenshots/Buckrog-screenshot.png</screenshot>
+    <mix>./media/image/Buckrog-image.png</mix>
     <fanart>./media/fanart/Buckrog-fanart.jpg</fanart>
     <titleshot>./media/image/Buckrog-titleshot.png</titleshot>
     <manual>./media/manuals/Buckrog-manual.pdf</manual>
@@ -8461,10 +8658,12 @@ OS JOGADORES ESCOLHEM JOGAR COMO BLINKY (UM ANDRÓIDE DE UM OLHO), BUCKY (O HERO
     <arcadesystemname>konami</arcadesystemname>
     <image>./media/image/Bucky-image.png</image>
     <video>./media/videos/Bucky-video.mp4</video>
+    <thumbnail>./media/image/Bucky-boxart.png</thumbnail>
     <marquee>./media/image/Bucky-marquee.png</marquee>
     <wheel>./media/image/Bucky-wheel.png</wheel>
     <boxart>./media/image/Bucky-boxart.png</boxart>
     <screenshot>./media/screenshots/Bucky-screenshot.png</screenshot>
+    <mix>./media/image/Bucky-image.png</mix>
     <fanart>./media/fanart/Bucky-fanart.jpg</fanart>
     <titleshot>./media/image/Bucky-titleshot.png</titleshot>
     <manual>./media/manuals/Bucky_(wor).pdf</manual>
@@ -8490,6 +8689,7 @@ A JOGABILIDADE É SEMELHANTE À DO SPACE HARRIER DA SEGA, MAS OS MUNDOS ESTÃO D
     <image>./media/image/Burnforc-image.png</image>
     <video>./media/videos/Burnforc-video.mp4</video>
     <screenshot>./media/screenshots/Burnforc-screenshot.png</screenshot>
+    <mix>./media/image/Burnforc-image.png</mix>
     <fanart>./media/fanart/Burnforc-fanart.jpg</fanart>
     <titleshot>./media/image/Burnforc-titleshot.png</titleshot>
     <manual>./media/manuals/Burnforc_(wor).pdf</manual>
@@ -8515,6 +8715,7 @@ BURNING FIGHT É UM JOGO DE BRIGA DE RUA LATERAL SEMELHANTE A FINAL FIGHT. COMO 
     <image>./media/image/Burning Fight-image.png</image>
     <video>./media/videos/Burning Fight-video.mp4</video>
     <screenshot>./media/screenshots/Burning Fight-screenshot.png</screenshot>
+    <mix>./media/image/Burning Fight-image.png</mix>
     <fanart>./media/fanart/Burning Fight-fanart.jpg</fanart>
     <titleshot>./media/image/Burning Fight-titleshot.png</titleshot>
     <manual>./media/manuals/Burning Fight_(us).pdf</manual>
@@ -8540,6 +8741,7 @@ APÓS INÚMEROS DESASTRES NATURAIS CAUSADOS PELA POLUIÇÃO, A HUMANIDADE ENTRA 
     <image>./media/image/Cadillacs And Dinosaurs-image.png</image>
     <video>./media/videos/Cadillacs And Dinosaurs-video.mp4</video>
     <screenshot>./media/screenshots/Cadillacs And Dinosaurs-screenshot.png</screenshot>
+    <mix>./media/image/Cadillacs And Dinosaurs-image.png</mix>
     <fanart>./media/fanart/Cadillacs And Dinosaurs-fanart.jpg</fanart>
     <titleshot>./media/image/Cadillacs And Dinosaurs-titleshot.png</titleshot>
     <manual>./media/manuals/Cadillacs And Dinosaurs_(us).pdf</manual>
@@ -8563,10 +8765,12 @@ APÓS INÚMEROS DESASTRES NATURAIS CAUSADOS PELA POLUIÇÃO, A HUMANIDADE ENTRA 
     <arcadesystemname>atari</arcadesystemname>
     <image>./media/image/Calspeed-image.png</image>
     <video>./media/videos/Calspeed-video.mp4</video>
+    <thumbnail>./media/image/Calspeed-boxart.png</thumbnail>
     <marquee>./media/image/Calspeed-marquee.png</marquee>
     <wheel>./media/image/Calspeed-wheel.png</wheel>
     <boxart>./media/image/Calspeed-boxart.png</boxart>
     <screenshot>./media/screenshots/Calspeed-screenshot.png</screenshot>
+    <mix>./media/image/Calspeed-image.png</mix>
     <fanart>./media/fanart/Calspeed-fanart.jpg</fanart>
     <titleshot>./media/image/Calspeed-titleshot.png</titleshot>
     <manual>./media/manuals/Calspeed-manual.pdf</manual>
@@ -8590,10 +8794,12 @@ APÓS INÚMEROS DESASTRES NATURAIS CAUSADOS PELA POLUIÇÃO, A HUMANIDADE ENTRA 
     <arcadesystemname>atari</arcadesystemname>
     <image>./media/image/Canyon-image.png</image>
     <video>./media/videos/Canyon-video.mp4</video>
+    <thumbnail>./media/image/Canyon-boxart.png</thumbnail>
     <marquee>./media/image/Canyon-marquee.png</marquee>
     <wheel>./media/image/Canyon-wheel.png</wheel>
     <boxart>./media/image/Canyon-boxart.png</boxart>
     <screenshot>./media/screenshots/Canyon-screenshot.png</screenshot>
+    <mix>./media/image/Canyon-image.png</mix>
     <fanart>./media/fanart/Canyon-fanart.jpg</fanart>
     <titleshot>./media/image/Canyon-titleshot.png</titleshot>
     <manual>./media/manuals/Canyon_(us).pdf</manual>
@@ -8618,10 +8824,12 @@ APÓS INÚMEROS DESASTRES NATURAIS CAUSADOS PELA POLUIÇÃO, A HUMANIDADE ENTRA 
     <arcadesystemname>capcom</arcadesystemname>
     <image>./media/image/Capbowl-image.png</image>
     <video>./media/videos/Capbowl-video.mp4</video>
+    <thumbnail>./media/image/Capbowl-boxart.png</thumbnail>
     <marquee>./media/image/Capbowl-marquee.png</marquee>
     <wheel>./media/image/Capbowl-wheel.png</wheel>
     <boxart>./media/image/Capbowl-boxart.png</boxart>
     <screenshot>./media/screenshots/Capbowl-screenshot.png</screenshot>
+    <mix>./media/image/Capbowl-image.png</mix>
     <fanart>./media/fanart/Capbowl-fanart.jpg</fanart>
     <titleshot>./media/image/Capbowl-titleshot.png</titleshot>
     <manual>./media/manuals/Capbowl_(wor).pdf</manual>
@@ -8647,6 +8855,7 @@ APÓS INÚMEROS DESASTRES NATURAIS CAUSADOS PELA POLUIÇÃO, A HUMANIDADE ENTRA 
     <image>./media/image/Capcom Sports Club-image.png</image>
     <video>./media/videos/Capcom Sports Club-video.mp4</video>
     <screenshot>./media/screenshots/Capcom Sports Club-screenshot.png</screenshot>
+    <mix>./media/image/Capcom Sports Club-image.png</mix>
     <fanart>./media/fanart/Capcom Sports Club-fanart.jpg</fanart>
     <titleshot>./media/image/Capcom Sports Club-titleshot.png</titleshot>
     <extra1>./media/extras/Capcom Sports Club-extra1.png</extra1>
@@ -8669,10 +8878,12 @@ APÓS INÚMEROS DESASTRES NATURAIS CAUSADOS PELA POLUIÇÃO, A HUMANIDADE ENTRA 
     <arcadesystemname>naomi</arcadesystemname>
     <image>./media/image/Capsnka-image.png</image>
     <video>./media/videos/Capsnka-video.mp4</video>
+    <thumbnail>./media/image/Capsnka-boxart.png</thumbnail>
     <marquee>./media/image/Capsnka-marquee.png</marquee>
     <wheel>./media/image/Capsnka-wheel.png</wheel>
     <boxart>./media/image/Capsnka-boxart.png</boxart>
     <screenshot>./media/screenshots/Capsnka-screenshot.png</screenshot>
+    <mix>./media/image/Capsnka-image.png</mix>
     <fanart>./media/fanart/Capsnka-fanart.jpg</fanart>
     <titleshot>./media/image/Capsnka-titleshot.png</titleshot>
     <manual>./media/manuals/Capsnka-manual.pdf</manual>
@@ -8695,6 +8906,7 @@ APÓS INÚMEROS DESASTRES NATURAIS CAUSADOS PELA POLUIÇÃO, A HUMANIDADE ENTRA 
     <image>./media/image/Captain Commando-image.png</image>
     <video>./media/videos/Captain Commando-video.mp4</video>
     <screenshot>./media/screenshots/Captain Commando-screenshot.png</screenshot>
+    <mix>./media/image/Captain Commando-image.png</mix>
     <fanart>./media/fanart/Captain Commando-fanart.jpg</fanart>
     <titleshot>./media/image/Captain Commando-titleshot.png</titleshot>
     <manual>./media/manuals/Captain Commando_(wor).pdf</manual>
@@ -8720,6 +8932,7 @@ APÓS INÚMEROS DESASTRES NATURAIS CAUSADOS PELA POLUIÇÃO, A HUMANIDADE ENTRA 
     <image>./media/image/Captain Tomaday-image.png</image>
     <video>./media/videos/Captain Tomaday-video.mp4</video>
     <screenshot>./media/screenshots/Captain Tomaday-screenshot.png</screenshot>
+    <mix>./media/image/Captain Tomaday-image.png</mix>
     <fanart>./media/fanart/Captain Tomaday-fanart.jpg</fanart>
     <titleshot>./media/image/Captain Tomaday-titleshot.png</titleshot>
     <manual>./media/manuals/Captain Tomaday_(wor).pdf</manual>
@@ -8745,6 +8958,7 @@ APÓS INÚMEROS DESASTRES NATURAIS CAUSADOS PELA POLUIÇÃO, A HUMANIDADE ENTRA 
     <image>./media/image/Captaven-image.png</image>
     <video>./media/videos/Captaven-video.mp4</video>
     <screenshot>./media/screenshots/Captaven-screenshot.png</screenshot>
+    <mix>./media/image/Captaven-image.png</mix>
     <fanart>./media/fanart/Captaven-fanart.jpg</fanart>
     <titleshot>./media/image/Captaven-titleshot.png</titleshot>
     <manual>./media/manuals/Captaven_(wor).pdf</manual>
@@ -8768,10 +8982,12 @@ APÓS INÚMEROS DESASTRES NATURAIS CAUSADOS PELA POLUIÇÃO, A HUMANIDADE ENTRA 
     <arcadesystemname>cps1</arcadesystemname>
     <image>./media/image/Captcomm-image.png</image>
     <video>./media/videos/Captcomm-video.mp4</video>
+    <thumbnail>./media/image/Captcomm-boxart.png</thumbnail>
     <marquee>./media/image/Captcomm-marquee.png</marquee>
     <wheel>./media/image/Captcomm-wheel.png</wheel>
     <boxart>./media/image/Captcomm-boxart.png</boxart>
     <screenshot>./media/screenshots/Captcomm-screenshot.png</screenshot>
+    <mix>./media/image/Captcomm-image.png</mix>
     <fanart>./media/fanart/Captcomm-fanart.jpg</fanart>
     <titleshot>./media/image/Captcomm-titleshot.png</titleshot>
     <manual>./media/manuals/Captcomm_(wor).pdf</manual>
@@ -8797,10 +9013,12 @@ APÓS INÚMEROS DESASTRES NATURAIS CAUSADOS PELA POLUIÇÃO, A HUMANIDADE ENTRA 
     <arcadesystemname>dataeast</arcadesystemname>
     <image>./media/image/Caractn-image.png</image>
     <video>./media/videos/Caractn-video.mp4</video>
+    <thumbnail>./media/image/Caractn-boxart.png</thumbnail>
     <marquee>./media/image/Caractn-marquee.png</marquee>
     <wheel>./media/image/Caractn-wheel.png</wheel>
     <boxart>./media/image/Caractn-boxart.png</boxart>
     <screenshot>./media/screenshots/Caractn-screenshot.png</screenshot>
+    <mix>./media/image/Caractn-image.png</mix>
     <fanart>./media/fanart/Caractn-fanart.jpg</fanart>
     <titleshot>./media/image/Caractn-titleshot.png</titleshot>
     <manual>./media/manuals/Caractn_(us).pdf</manual>
@@ -9315,6 +9533,7 @@ Clone Of : chelnov -&gt; Chelnov - Atomic Runner (Japan)</temporary>
     <image>./media/image/Chelnovj-image.png</image>
     <video>./media/videos/Chelnovj-video.mp4</video>
     <screenshot>./media/screenshots/Chelnovj-screenshot.png</screenshot>
+    <mix>./media/image/Chelnovj-image.png</mix>
     <fanart>./media/fanart/Chelnovj-fanart.jpg</fanart>
     <titleshot>./media/image/Chelnovj-titleshot.png</titleshot>
     <extra1>./media/extras/Chelnovj-extra1.png</extra1>
@@ -9493,10 +9712,12 @@ TRAPÉZIO.</desc>
 Clone Of : circusc -&gt; Circus Charlie (level select, set 2)</temporary>
     <image>./media/image/Circusc2-image.png</image>
     <video>./media/videos/Circusc2-video.mp4</video>
+    <thumbnail>./media/image/Circusc2-boxart.png</thumbnail>
     <marquee>./media/image/Circusc2-marquee.png</marquee>
     <wheel>./media/image/Circusc2-wheel.png</wheel>
     <boxart>./media/image/Circusc2-boxart.png</boxart>
     <screenshot>./media/screenshots/Circusc2-screenshot.png</screenshot>
+    <mix>./media/image/Circusc2-image.png</mix>
     <fanart>./media/fanart/Circusc2-fanart.jpg</fanart>
     <titleshot>./media/image/Circusc2-titleshot.png</titleshot>
     <manual>./media/manuals/Circusc2_(us).pdf</manual>
@@ -9721,10 +9942,12 @@ TRAPÉZIO.</desc>
 Clone Of : ckong -&gt; Crazy Kong (bootleg on Scramble hardware)</temporary>
     <image>./media/image/Ckongs-image.png</image>
     <video>./media/videos/Ckongs-video.mp4</video>
+    <thumbnail>./media/image/Ckongs-boxart.png</thumbnail>
     <marquee>./media/image/Ckongs-marquee.png</marquee>
     <wheel>./media/image/Ckongs-wheel.png</wheel>
     <boxart>./media/image/Ckongs-boxart.png</boxart>
     <screenshot>./media/screenshots/Ckongs-screenshot.png</screenshot>
+    <mix>./media/image/Ckongs-image.png</mix>
     <titleshot>./media/image/Ckongs-titleshot.png</titleshot>
     <extra1>./media/extras/Ckongs-extra1.png</extra1>
     <bezel>./media/image/Ckongs-bezel.png</bezel>
@@ -9749,10 +9972,12 @@ Clone Of : ckong -&gt; Crazy Kong (bootleg on Scramble hardware)</temporary>
 Clone Of : capbowl -&gt; Coors Light Bowling</temporary>
     <image>./media/image/Clbowl-image.png</image>
     <video>./media/videos/Clbowl-video.mp4</video>
+    <thumbnail>./media/image/Clbowl-boxart.png</thumbnail>
     <marquee>./media/image/Clbowl-marquee.png</marquee>
     <wheel>./media/image/Clbowl-wheel.png</wheel>
     <boxart>./media/image/Clbowl-boxart.png</boxart>
     <screenshot>./media/screenshots/Clbowl-screenshot.png</screenshot>
+    <mix>./media/image/Clbowl-image.png</mix>
     <fanart>./media/fanart/Clbowl-fanart.jpg</fanart>
     <titleshot>./media/image/Clbowl-titleshot.png</titleshot>
     <manual>./media/manuals/Clbowl_(wor).pdf</manual>
@@ -9897,10 +10122,12 @@ COLONY 7 É, EM MUITOS ASPECTOS, UMA COMBINAÇÃO DE DOIS DOS JOGOS DE TIRO MAIS
 Clone Of : colony7 -&gt; Colony 7 (set 2)</temporary>
     <image>./media/image/Colony7a-image.png</image>
     <video>./media/videos/Colony7a-video.mp4</video>
+    <thumbnail>./media/image/Colony7a-boxart.png</thumbnail>
     <marquee>./media/image/Colony7a-marquee.png</marquee>
     <wheel>./media/image/Colony7a-wheel.png</wheel>
     <boxart>./media/image/Colony7a-boxart.png</boxart>
     <screenshot>./media/screenshots/Colony7a-screenshot.png</screenshot>
+    <mix>./media/image/Colony7a-image.png</mix>
     <titleshot>./media/image/Colony7a-titleshot.png</titleshot>
     <manual>./media/manuals/Colony7a_(us).pdf</manual>
     <boxback>./media/image/Colony7a-boxback.png</boxback>
@@ -10613,6 +10840,7 @@ Clone Of : csilver -&gt; Captain Silver (Japan revision 3)</temporary>
     <image>./media/image/Csilverj-image.png</image>
     <video>./media/videos/Csilverj-video.mp4</video>
     <screenshot>./media/screenshots/Csilverj-screenshot.png</screenshot>
+    <mix>./media/image/Csilverj-image.png</mix>
     <fanart>./media/fanart/Csilverj-fanart.jpg</fanart>
     <titleshot>./media/image/Csilverj-titleshot.png</titleshot>
     <extra1>./media/extras/Csilverj-extra1.png</extra1>
@@ -10665,10 +10893,12 @@ AS PISTAS EM SI SÃO TODAS VARIAÇÕES DO 'OVAL' BÁSICO, COM PORTÕES, SALTOS, 
     <arcadesystemname>konami</arcadesystemname>
     <image>./media/image/Cstlevna-image.png</image>
     <video>./media/videos/Cstlevna-video.mp4</video>
+    <thumbnail>./media/image/Cstlevna-boxart.png</thumbnail>
     <marquee>./media/image/Cstlevna-marquee.png</marquee>
     <wheel>./media/image/Cstlevna-wheel.png</wheel>
     <boxart>./media/image/Cstlevna-boxart.png</boxart>
     <screenshot>./media/screenshots/Cstlevna-screenshot.png</screenshot>
+    <mix>./media/image/Cstlevna-image.png</mix>
     <titleshot>./media/image/Cstlevna-titleshot.png</titleshot>
     <manual>./media/manuals/Cstlevna-manual.pdf</manual>
     <extra1>./media/extras/Cstlevna-extra1.png</extra1>
@@ -10692,10 +10922,12 @@ EM CONTRASTE AO PRIMEIRO CAPCOM VS. SNK, OS PERSONAGENS NÃO TINHAM MAIS UM "RAT
     <arcadesystemname>naomi</arcadesystemname>
     <image>./media/image/Cvs2gd-image.png</image>
     <video>./media/videos/Cvs2gd-video.mp4</video>
+    <thumbnail>./media/image/Cvs2gd-boxart.png</thumbnail>
     <marquee>./media/image/Cvs2gd-marquee.png</marquee>
     <wheel>./media/image/Cvs2gd-wheel.png</wheel>
     <boxart>./media/image/Cvs2gd-boxart.png</boxart>
     <screenshot>./media/screenshots/Cvs2gd-screenshot.png</screenshot>
+    <mix>./media/image/Cvs2gd-image.png</mix>
     <fanart>./media/fanart/Cvs2gd-fanart.jpg</fanart>
     <titleshot>./media/image/Cvs2gd-titleshot.png</titleshot>
     <manual>./media/manuals/Cvs2gd_(wor).pdf</manual>
@@ -10720,6 +10952,7 @@ EM CONTRASTE AO PRIMEIRO CAPCOM VS. SNK, OS PERSONAGENS NÃO TINHAM MAIS UM "RAT
     <image>./media/image/Cyberbots Fullmetal Madness-image.png</image>
     <video>./media/videos/Cyberbots Fullmetal Madness-video.mp4</video>
     <screenshot>./media/screenshots/Cyberbots Fullmetal Madness-screenshot.png</screenshot>
+    <mix>./media/image/Cyberbots Fullmetal Madness-image.png</mix>
     <fanart>./media/fanart/Cyberbots Fullmetal Madness-fanart.jpg</fanart>
     <manual>./media/manuals/Cyberbots Fullmetal Madness_(us).pdf</manual>
     <extra1>./media/extras/Cyberbots Fullmetal Madness-extra1.png</extra1>
@@ -10744,11 +10977,13 @@ EM CONTRASTE AO PRIMEIRO CAPCOM VS. SNK, OS PERSONAGENS NÃO TINHAM MAIS UM "RAT
     <arcadesystemname>snk</arcadesystemname>
     <image>./media/image/Cyber-Lip-image.png</image>
     <video>./media/videos/Cyber-Lip-video.mp4</video>
+    <thumbnail>./media/image/Cyber-Lip-boxart.png</thumbnail>
     <marquee>./media/image/Cyber-Lip-marquee.png</marquee>
     <wheel>./media/image/Cyber-Lip-wheel.png</wheel>
     <boxart>./media/image/Cyber-Lip-boxart.png</boxart>
     <screenshot>./media/screenshots/Cyber-Lip-screenshot.png</screenshot>
     <cartridge>./media/image/Cyber-Lip-cartridge.png</cartridge>
+    <mix>./media/image/Cyber-Lip-image.png</mix>
     <fanart>./media/fanart/Cyber-Lip-fanart.jpg</fanart>
     <titleshot>./media/image/Cyber-Lip-titleshot.png</titleshot>
     <manual>./media/manuals/Cyber-Lip_(us).pdf</manual>
@@ -10775,6 +11010,7 @@ EM CONTRASTE AO PRIMEIRO CAPCOM VS. SNK, OS PERSONAGENS NÃO TINHAM MAIS UM "RAT
     <image>./media/image/Czykong-image.png</image>
     <video>./media/videos/Czykong-video.mp4</video>
     <screenshot>./media/screenshots/Czykong-screenshot.png</screenshot>
+    <mix>./media/image/Czykong-image.png</mix>
     <titleshot>./media/image/Czykong-titleshot.png</titleshot>
     <extra1>./media/extras/Czykong-extra1.png</extra1>
     <bezel>./media/image/Czykong-bezel.png</bezel>
@@ -11569,10 +11805,12 @@ APÓS INÚMEROS DESASTRES NATURAIS CAUSADOS PELA POLUIÇÃO, A HUMANIDADE ENTRA 
 Clone Of : dino -&gt; Cadillacs Kyouryuu-Shinseiki (930201 Japan)</temporary>
     <image>./media/image/Dinoj-image.png</image>
     <video>./media/videos/Dinoj-video.mp4</video>
+    <thumbnail>./media/image/Dinoj-boxart.png</thumbnail>
     <marquee>./media/image/Dinoj-marquee.png</marquee>
     <wheel>./media/image/Dinoj-wheel.png</wheel>
     <boxart>./media/image/Dinoj-boxart.png</boxart>
     <screenshot>./media/screenshots/Dinoj-screenshot.png</screenshot>
+    <mix>./media/image/Dinoj-image.png</mix>
     <fanart>./media/fanart/Dinoj-fanart.jpg</fanart>
     <titleshot>./media/image/Dinoj-titleshot.png</titleshot>
     <manual>./media/manuals/Dinoj_(us).pdf</manual>
@@ -15858,6 +16096,22 @@ EMBORA OS GRÁFICOS SEJAM BIDIMENSIONAIS, A ALTURA DA BOLA PODE SER DETERMINADA 
     <extra1>./media/extras/Growl-extra1.png</extra1>
     <bezel>./media/image/Growl-bezel.png</bezel>
   </game>
+  <game>
+    <path>./Gtmr.zip</path>
+    <name>1000 MIGLIA GREAT 1000 MILES RALLY (TAIWAN 94/07/18)</name>
+    <releasedate>1994/01/01</releasedate>
+    <publisher>KANEKO</publisher>
+    <genreid>0</genreid>
+    <image>./media/image/Gtmr-image.png</image>
+    <video>./media/videos/Gtmr-video.mp4</video>
+    <thumbnail>./media/image/Gtmr-boxart.png</thumbnail>
+    <boxart>./media/image/Gtmr-boxart.png</boxart>
+    <screenshot>./media/screenshots/Gtmr-screenshot.png</screenshot>
+    <fanart>./media/fanart/Gtmr-fanart.jpg</fanart>
+    <titleshot>./media/image/Gtmr-titleshot.png</titleshot>
+    <extra1>./media/extras/Gtmr-extra1.png</extra1>
+    <bezel>./media/image/Gtmr-bezel.png</bezel>
+  </game>
   <game id="41570">
     <path>./Gulfstrm.zip</path>
     <name>GULFSTRM</name>
@@ -17329,6 +17583,24 @@ JOGABILIDADE: O JOGADOR CONTROLA UM CARRO PULANDO CONSTANTEMENTE ENQUANTO DIRIGE
     <titleshot>./media/image/Jbugsega-titleshot.png</titleshot>
     <extra1>./media/extras/Jbugsega-extra1.png</extra1>
     <bezel>./media/image/Jbugsega-bezel.png</bezel>
+  </game>
+  <game>
+    <path>./Jedi.zip</path>
+    <name>RETURN OF THE JEDI</name>
+    <releasedate>1984/01/01</releasedate>
+    <publisher>ATARI</publisher>
+    <genreid>0</genreid>
+    <image>./media/image/Jedi-image.png</image>
+    <video>./media/videos/Jedi-video.mp4</video>
+    <thumbnail>./media/image/Jedi-boxart.png</thumbnail>
+    <marquee>./media/image/Jedi-marquee.png</marquee>
+    <wheel>./media/image/Jedi-wheel.png</wheel>
+    <boxart>./media/image/Jedi-boxart.png</boxart>
+    <screenshot>./media/screenshots/Jedi-screenshot.png</screenshot>
+    <fanart>./media/fanart/Jedi-fanart.jpg</fanart>
+    <titleshot>./media/image/Jedi-titleshot.png</titleshot>
+    <manual>./media/manuals/Jedi_(us).pdf</manual>
+    <extra1>./media/extras/Jedi-extra1.png</extra1>
   </game>
   <game id="41883">
     <path>./Jjack.zip</path>
@@ -25965,6 +26237,65 @@ Clone Of : sailormn -&gt; Pretty Soldier Sailor Moon (ver. 95/03/21, Japan)</tem
     <extra1>./media/extras/Sailormnoj-extra1.png</extra1>
     <bezel>./media/image/Sailormnoj-bezel.png</bezel>
   </game>
+  <game>
+    <path>./Salmndr2.zip</path>
+    <name>SALMNDR2</name>
+    <genreid>0</genreid>
+    <image>./media/image/Salmndr2-image.png</image>
+    <video>./media/videos/Salmndr2-video.mp4</video>
+    <thumbnail>./media/image/Salmndr2-boxart.png</thumbnail>
+    <marquee>./media/image/Salmndr2-marquee.png</marquee>
+    <wheel>./media/image/Salmndr2-wheel.png</wheel>
+    <boxart>./media/image/Salmndr2-boxart.png</boxart>
+    <screenshot>./media/screenshots/Salmndr2-screenshot.png</screenshot>
+    <fanart>./media/fanart/Salmndr2-fanart.jpg</fanart>
+    <titleshot>./media/image/Salmndr2-titleshot.png</titleshot>
+    <manual>./media/manuals/Salmndr2-manual.pdf</manual>
+    <extra1>./media/extras/Salmndr2-extra1.png</extra1>
+    <bezel>./media/image/Salmndr2-bezel.png</bezel>
+  </game>
+  <game>
+    <path>./Samsh5sp.zip</path>
+    <name>SAMURAI SHODOWN V SPECIAL / SAMURAI SPIRITS ZERO SPECIAL (NGM-2720)</name>
+    <releasedate>2004/01/01</releasedate>
+    <publisher>YUKI ENTERPRISE / SNK PLAYMORE</publisher>
+    <genreid>0</genreid>
+    <image>./media/image/Samsh5sp-image.png</image>
+    <video>./media/videos/Samsh5sp-video.mp4</video>
+    <thumbnail>./media/image/Samsh5sp-boxart.png</thumbnail>
+    <marquee>./media/image/Samsh5sp-marquee.png</marquee>
+    <wheel>./media/image/Samsh5sp-marquee.png</wheel>
+    <boxart>./media/image/Samsh5sp-boxart.png</boxart>
+    <screenshot>./media/screenshots/Samsh5sp-screenshot.png</screenshot>
+    <cartridge>./media/image/Samsh5sp-cartridge.png</cartridge>
+    <fanart>./media/fanart/Samsh5sp-fanart.jpg</fanart>
+    <titleshot>./media/image/Samsh5sp-titleshot.png</titleshot>
+    <manual>./media/manuals/Samsh5sp_(us).pdf</manual>
+    <boxback>./media/image/Samsh5sp-boxback.png</boxback>
+    <extra1>./media/extras/Samsh5sp-extra1.png</extra1>
+    <bezel>./media/image/Samsh5sp-bezel.png</bezel>
+  </game>
+  <game>
+    <path>./Samsho3.zip</path>
+    <name>SAMURAI SHODOWN III / SAMURAI SPIRITS - ZANKUROU MUSOUKEN (NGM-087)</name>
+    <releasedate>1995/01/01</releasedate>
+    <publisher>SNK</publisher>
+    <genreid>0</genreid>
+    <image>./media/image/Samsho3-image.png</image>
+    <video>./media/videos/Samsho3-video.mp4</video>
+    <thumbnail>./media/image/Samsho3-boxart.png</thumbnail>
+    <marquee>./media/image/Samsho3-marquee.png</marquee>
+    <wheel>./media/image/Samsho3-wheel.png</wheel>
+    <boxart>./media/image/Samsho3-boxart.png</boxart>
+    <screenshot>./media/screenshots/Samsho3-screenshot.png</screenshot>
+    <cartridge>./media/image/Samsho3-cartridge.png</cartridge>
+    <fanart>./media/fanart/Samsho3-fanart.jpg</fanart>
+    <titleshot>./media/image/Samsho3-titleshot.png</titleshot>
+    <manual>./media/manuals/Samsho3_(wor).pdf</manual>
+    <boxback>./media/image/Samsho3-boxback.png</boxback>
+    <extra1>./media/extras/Samsho3-extra1.png</extra1>
+    <bezel>./media/image/Samsho3-bezel.png</bezel>
+  </game>
   <game id="37632">
     <path>./Samsho4.zip</path>
     <name>SAMSHO4</name>
@@ -27359,6 +27690,25 @@ SHINOBI FOI UM GRANDE SUCESSO PARA A SEGA, E MERECIDAMENTE. É UMA MISTURA PERFE
     <manual>./media/manuals/Shinobi_(us).pdf</manual>
     <extra1>./media/extras/Shinobi-extra1.png</extra1>
     <bezel>./media/image/Shinobi-bezel.png</bezel>
+  </game>
+  <game>
+    <path>./Shollow.zip</path>
+    <name>SATAN'S HOLLOW (SET 1)</name>
+    <releasedate>1981/01/01</releasedate>
+    <publisher>BALLY MIDWAY</publisher>
+    <genreid>0</genreid>
+    <image>./media/image/Shollow-image.png</image>
+    <video>./media/videos/Shollow-video.mp4</video>
+    <thumbnail>./media/image/Shollow-boxart.png</thumbnail>
+    <marquee>./media/image/Shollow-marquee.png</marquee>
+    <wheel>./media/image/Shollow-wheel.png</wheel>
+    <boxart>./media/image/Shollow-boxart.png</boxart>
+    <screenshot>./media/screenshots/Shollow-screenshot.png</screenshot>
+    <fanart>./media/fanart/Shollow-fanart.jpg</fanart>
+    <titleshot>./media/image/Shollow-titleshot.png</titleshot>
+    <manual>./media/manuals/Shollow_(us).pdf</manual>
+    <extra1>./media/extras/Shollow-extra1.png</extra1>
+    <bezel>./media/image/Shollow-bezel.png</bezel>
   </game>
   <game id="43179">
     <path>./Sonson.zip</path>
