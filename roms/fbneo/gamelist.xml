@@ -276,6 +276,8 @@ Clone Of : mhavoc -&gt; Major Havoc (rev 2)</temporary>
     <path>./Quantum2.zip</path>
     <name>QUANTUM2</name>
     <genreid>0</genreid>
+    <md5>0c695aee9be43c4b295e22645ba62d29</md5>
+    <hash>107F5E5A</hash>
   </game>
   <game>
     <path>./Samurai Shodown IV - Amakusa's.zip</path>
@@ -297,40 +299,6 @@ Clone Of : mhavoc -&gt; Major Havoc (rev 2)</temporary>
     <genreid>0</genreid>
     <md5>924c82ad3753f815b3abf5d4b3e3e49c</md5>
     <hash>1265B86A</hash>
-  </game>
-  <game>
-    <path>./Shiryu2.zip</path>
-    <name>SHIRYU2</name>
-    <genreid>0</genreid>
-  </game>
-  <game>
-    <path>./Shock Troopers.zip</path>
-    <name>SHOCK TROOPERS</name>
-    <genreid>0</genreid>
-  </game>
-  <game>
-    <path>./Shock Troopers 2Nd Squad.zip</path>
-    <name>SHOCK TROOPERS 2ND SQUAD</name>
-    <genreid>0</genreid>
-  </game>
-  <game>
-    <path>./Shootout.zip</path>
-    <name>SHOOT OUT (US)</name>
-    <releasedate>1985/01/01</releasedate>
-    <publisher>DATA EAST USA</publisher>
-    <genreid>0</genreid>
-  </game>
-  <game>
-    <path>./Showdown.zip</path>
-    <name>SHOWDOWN</name>
-    <genreid>0</genreid>
-  </game>
-  <game>
-    <path>./Shuuz.zip</path>
-    <name>SHUUZ (VERSION 8.0)</name>
-    <releasedate>1990/01/01</releasedate>
-    <publisher>ATARI GAMES</publisher>
-    <genreid>0</genreid>
   </game>
   <game>
     <path>./Sidearjp.zip</path>
@@ -5570,6 +5538,7 @@ FOI O PRIMEIRO SHOOT 'EM UP PARA ADICIONAR +1 AO PLACAR QUANDO UM CONTINUE É US
     <image>./media/image/19Xx - The War Against Destiny-image.png</image>
     <video>./media/videos/19Xx - The War Against Destiny-video.mp4</video>
     <screenshot>./media/screenshots/19Xx - The War Against Destiny-screenshot.png</screenshot>
+    <mix>./media/image/19Xx - The War Against Destiny-image.png</mix>
     <fanart>./media/fanart/19Xx - The War Against Destiny-fanart.jpg</fanart>
     <titleshot>./media/image/19Xx - The War Against Destiny-titleshot.png</titleshot>
     <manual>./media/manuals/19Xx - The War Against Destiny_(us).pdf</manual>
@@ -5596,6 +5565,7 @@ FOI O PRIMEIRO SHOOT 'EM UP PARA ADICIONAR +1 AO PLACAR QUANDO UM CONTINUE É US
     <image>./media/image/19Xx-image.png</image>
     <video>./media/videos/19Xx-video.mp4</video>
     <screenshot>./media/screenshots/19Xx-screenshot.png</screenshot>
+    <mix>./media/image/19Xx-image.png</mix>
     <fanart>./media/fanart/19Xx-fanart.jpg</fanart>
     <titleshot>./media/image/19Xx-titleshot.png</titleshot>
     <manual>./media/manuals/19Xx_(us).pdf</manual>
@@ -5812,6 +5782,7 @@ AO JOGAR COMO JOGADOR 2, VOCÊ OBTÉM UM TIPO DE AVIÃO DIFERENTE. O MODO PARA 2
     <image>./media/image/Aerofgts-image.png</image>
     <video>./media/videos/Aerofgts-video.mp4</video>
     <screenshot>./media/screenshots/Aerofgts-screenshot.png</screenshot>
+    <mix>./media/image/Aerofgts-image.png</mix>
     <fanart>./media/fanart/Aerofgts-fanart.jpg</fanart>
     <titleshot>./media/image/Aerofgts-titleshot.png</titleshot>
     <extra1>./media/extras/Aerofgts-extra1.png</extra1>
@@ -5838,6 +5809,7 @@ QUATRO NÍVEIS DE POWER-UPS ESTÃO DISPONÍVEIS PARA CADA ARMA, NO ENTANTO, CADA
     <image>./media/image/Agallet-image.png</image>
     <video>./media/videos/Agallet-video.mp4</video>
     <screenshot>./media/screenshots/Agallet-screenshot.png</screenshot>
+    <mix>./media/image/Agallet-image.png</mix>
     <fanart>./media/fanart/Agallet-fanart.jpg</fanart>
     <titleshot>./media/image/Agallet-titleshot.png</titleshot>
     <manual>./media/manuals/Agallet_(wor).pdf</manual>
@@ -5851,6 +5823,7 @@ QUATRO NÍVEIS DE POWER-UPS ESTÃO DISPONÍVEIS PARA CADA ARMA, NO ENTANTO, CADA
     <image>./media/image/Aggressors Of Dark Kombat-image.png</image>
     <video>./media/videos/Aggressors Of Dark Kombat-video.mp4</video>
     <screenshot>./media/screenshots/Aggressors Of Dark Kombat-screenshot.png</screenshot>
+    <mix>./media/image/Aggressors Of Dark Kombat-image.png</mix>
     <fanart>./media/fanart/Aggressors Of Dark Kombat-fanart.jpg</fanart>
     <titleshot>./media/image/Aggressors Of Dark Kombat-titleshot.png</titleshot>
     <extra1>./media/extras/Aggressors Of Dark Kombat-extra1.png</extra1>
@@ -5873,6 +5846,7 @@ QUATRO NÍVEIS DE POWER-UPS ESTÃO DISPONÍVEIS PARA CADA ARMA, NO ENTANTO, CADA
     <image>./media/image/Airco22b-image.png</image>
     <video>./media/videos/Airco22b-video.mp4</video>
     <screenshot>./media/screenshots/Airco22b-screenshot.png</screenshot>
+    <mix>./media/image/Airco22b-image.png</mix>
     <fanart>./media/fanart/Airco22b-fanart.jpg</fanart>
     <titleshot>./media/image/Airco22b-titleshot.png</titleshot>
     <manual>./media/manuals/Airco22b-manual.pdf</manual>
@@ -5899,6 +5873,7 @@ QUATRO NÍVEIS DE POWER-UPS ESTÃO DISPONÍVEIS PARA CADA ARMA, NO ENTANTO, CADA
     <image>./media/image/Airduel-image.png</image>
     <video>./media/videos/Airduel-video.mp4</video>
     <screenshot>./media/screenshots/Airduel-screenshot.png</screenshot>
+    <mix>./media/image/Airduel-image.png</mix>
     <fanart>./media/fanart/Airduel-fanart.jpg</fanart>
     <titleshot>./media/image/Airduel-titleshot.png</titleshot>
     <extra1>./media/extras/Airduel-extra1.png</extra1>
@@ -5922,6 +5897,7 @@ QUATRO NÍVEIS DE POWER-UPS ESTÃO DISPONÍVEIS PARA CADA ARMA, NO ENTANTO, CADA
     <image>./media/image/Airwolf-image.png</image>
     <video>./media/videos/Airwolf-video.mp4</video>
     <screenshot>./media/screenshots/Airwolf-screenshot.png</screenshot>
+    <mix>./media/image/Airwolf-image.png</mix>
     <fanart>./media/fanart/Airwolf-fanart.jpg</fanart>
     <titleshot>./media/image/Airwolf-titleshot.png</titleshot>
     <manual>./media/manuals/Airwolf-manual.pdf</manual>
@@ -5948,6 +5924,7 @@ QUATRO NÍVEIS DE POWER-UPS ESTÃO DISPONÍVEIS PARA CADA ARMA, NO ENTANTO, CADA
     <image>./media/image/Ajax-image.png</image>
     <video>./media/videos/Ajax-video.mp4</video>
     <screenshot>./media/screenshots/Ajax-screenshot.png</screenshot>
+    <mix>./media/image/Ajax-image.png</mix>
     <fanart>./media/fanart/Ajax-fanart.jpg</fanart>
     <titleshot>./media/image/Ajax-titleshot.png</titleshot>
     <manual>./media/manuals/Ajax_(us).pdf</manual>
@@ -16107,6 +16084,7 @@ EMBORA OS GRÁFICOS SEJAM BIDIMENSIONAIS, A ALTURA DA BOLA PODE SER DETERMINADA 
     <thumbnail>./media/image/Gtmr-boxart.png</thumbnail>
     <boxart>./media/image/Gtmr-boxart.png</boxart>
     <screenshot>./media/screenshots/Gtmr-screenshot.png</screenshot>
+    <mix>./media/image/Gtmr-image.png</mix>
     <fanart>./media/fanart/Gtmr-fanart.jpg</fanart>
     <titleshot>./media/image/Gtmr-titleshot.png</titleshot>
     <extra1>./media/extras/Gtmr-extra1.png</extra1>
@@ -17597,6 +17575,7 @@ JOGABILIDADE: O JOGADOR CONTROLA UM CARRO PULANDO CONSTANTEMENTE ENQUANTO DIRIGE
     <wheel>./media/image/Jedi-wheel.png</wheel>
     <boxart>./media/image/Jedi-boxart.png</boxart>
     <screenshot>./media/screenshots/Jedi-screenshot.png</screenshot>
+    <mix>./media/image/Jedi-image.png</mix>
     <fanart>./media/fanart/Jedi-fanart.jpg</fanart>
     <titleshot>./media/image/Jedi-titleshot.png</titleshot>
     <manual>./media/manuals/Jedi_(us).pdf</manual>
@@ -26248,6 +26227,7 @@ Clone Of : sailormn -&gt; Pretty Soldier Sailor Moon (ver. 95/03/21, Japan)</tem
     <wheel>./media/image/Salmndr2-wheel.png</wheel>
     <boxart>./media/image/Salmndr2-boxart.png</boxart>
     <screenshot>./media/screenshots/Salmndr2-screenshot.png</screenshot>
+    <mix>./media/image/Salmndr2-image.png</mix>
     <fanart>./media/fanart/Salmndr2-fanart.jpg</fanart>
     <titleshot>./media/image/Salmndr2-titleshot.png</titleshot>
     <manual>./media/manuals/Salmndr2-manual.pdf</manual>
@@ -26268,6 +26248,7 @@ Clone Of : sailormn -&gt; Pretty Soldier Sailor Moon (ver. 95/03/21, Japan)</tem
     <boxart>./media/image/Samsh5sp-boxart.png</boxart>
     <screenshot>./media/screenshots/Samsh5sp-screenshot.png</screenshot>
     <cartridge>./media/image/Samsh5sp-cartridge.png</cartridge>
+    <mix>./media/image/Samsh5sp-image.png</mix>
     <fanart>./media/fanart/Samsh5sp-fanart.jpg</fanart>
     <titleshot>./media/image/Samsh5sp-titleshot.png</titleshot>
     <manual>./media/manuals/Samsh5sp_(us).pdf</manual>
@@ -26289,6 +26270,7 @@ Clone Of : sailormn -&gt; Pretty Soldier Sailor Moon (ver. 95/03/21, Japan)</tem
     <boxart>./media/image/Samsho3-boxart.png</boxart>
     <screenshot>./media/screenshots/Samsho3-screenshot.png</screenshot>
     <cartridge>./media/image/Samsho3-cartridge.png</cartridge>
+    <mix>./media/image/Samsho3-image.png</mix>
     <fanart>./media/fanart/Samsho3-fanart.jpg</fanart>
     <titleshot>./media/image/Samsho3-titleshot.png</titleshot>
     <manual>./media/manuals/Samsho3_(wor).pdf</manual>
@@ -27691,6 +27673,81 @@ SHINOBI FOI UM GRANDE SUCESSO PARA A SEGA, E MERECIDAMENTE. É UMA MISTURA PERFE
     <extra1>./media/extras/Shinobi-extra1.png</extra1>
     <bezel>./media/image/Shinobi-bezel.png</bezel>
   </game>
+  <game id="43396">
+    <path>./Shiryu2.zip</path>
+    <name>SHIRYU2</name>
+    <desc>STRIDER HIRYU 2 É UMA SEQUÊNCIA DIRETA DO SOBERBO ORIGINAL DE 1989, O JOGADOR MAIS UMA VEZ ASSUME O PAPEL DE STRIDER HIRYU, UM NINJA QUE USA UMA CIFRA MORTAL DE EJEÇÃO DE PLASMA CHAMADA "FALCHION". OS JOGADORES COMEÇAM O JOGO SELECIONANDO UMA DAS TRÊS MISSÕES DIFÍCEIS, COM UMA QUARTA FICANDO DISPONÍVEL QUANDO AS TRÊS INICIAIS ESTIVEREM COMPLETAS. COMPLETANDO A QUARTA MISSÃO VOCÊ DESBLOQUEARÁ A MISSÃO FINAL DE "CHEFE", NA QUAL O JOGADOR DEVE LUTAR CONTRA UM NÚMERO DE CHEFES QUE INCLUI O DESONESTO "STRIDER HIEN" DO PRIMEIRO JOGO STRIDER. UMA VEZ QUE TODAS AS MISSÕES SÃO COMPLETADAS, O PERSONAGEM DE STRIDER HIEN - QUE USA DOIS CIFRAS DE DISTÂNCIA - É DESBLOQUEADO.</desc>
+    <releasedate>19990101T000000</releasedate>
+    <developer>CAPCOM</developer>
+    <publisher>CAPCOM</publisher>
+    <genre>PLATAFORMA, PLATAFORMA / COMBATE COM ROLAGEM</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <md5>5b892224ef677244dc8563b22dad9576</md5>
+    <hash>A3E8E5D3</hash>
+    <region>jp</region>
+    <arcadesystemname>capcom</arcadesystemname>
+    <image>./media/image/Shiryu2-image.png</image>
+    <video>./media/videos/Shiryu2-video.mp4</video>
+    <marquee>./media/image/Shiryu2-marquee.png</marquee>
+    <wheel>./media/image/Shiryu2-wheel.png</wheel>
+    <boxart>./media/image/Shiryu2-boxart.png</boxart>
+    <screenshot>./media/screenshots/Shiryu2-screenshot.png</screenshot>
+    <fanart>./media/fanart/Shiryu2-fanart.jpg</fanart>
+    <titleshot>./media/image/Shiryu2-titleshot.png</titleshot>
+    <manual>./media/manuals/Shiryu2-manual.pdf</manual>
+    <extra1>./media/extras/Shiryu2-extra1.png</extra1>
+    <bezel>./media/image/Shiryu2-bezel.png</bezel>
+  </game>
+  <game id="37638">
+    <path>./Shock Troopers 2Nd Squad.zip</path>
+    <name>SHOCK TROOPERS 2ND SQUAD</name>
+    <mode>Jogador individual</mode>
+    <desc>SHOCK TROOPERS 2ND SQUAD OFERECE MAIS UMA VEZ UMA SÉRIE DE NÍVEIS NOS QUAIS VOCÊ DEVE, SOZINHO OU EM PARES, DERROTAR OS PLANOS SINISTROS DO DITADOR LOCAL. DESTA VEZ, A EQUIPE DE COMANDO DEVE INTERVIR EM BILLBERK, UMA NAÇÃO AMEAÇADA POR UM MISTERIOSO CONGLOMERADO QUE PRODUZ ARMAS DE DESTRUIÇÃO EM MASSA, O D.I.C.</desc>
+    <rating>0.60</rating>
+    <releasedate>19990624T000000</releasedate>
+    <developer>SAURUS</developer>
+    <publisher>SNK</publisher>
+    <genre>TIRO / RUN AND GUN, TIRO</genre>
+    <genreid>256</genreid>
+    <players>1-2</players>
+    <md5>9a9d284c9730db35f0e9ada9a98fc926</md5>
+    <hash>AC676388</hash>
+    <arcadesystemname>snk</arcadesystemname>
+    <image>./media/image/Shock Troopers 2Nd Squad-image.png</image>
+    <video>./media/videos/Shock Troopers 2Nd Squad-video.mp4</video>
+    <screenshot>./media/screenshots/Shock Troopers 2Nd Squad-screenshot.png</screenshot>
+    <fanart>./media/fanart/Shock Troopers 2Nd Squad-fanart.jpg</fanart>
+    <titleshot>./media/image/Shock Troopers 2Nd Squad-titleshot.png</titleshot>
+    <extra1>./media/extras/Shock Troopers 2Nd Squad-extra1.png</extra1>
+    <music>./media/musics/Shock Troopers 2Nd Squad-music.mp3</music>
+    <bezel>./media/image/Shock Troopers 2Nd Squad-bezel.png</bezel>
+  </game>
+  <game id="37639">
+    <path>./Shock Troopers.zip</path>
+    <name>SHOCK TROOPERS</name>
+    <mode>Jogador individual</mode>
+    <desc>SHOCK TROOPERS É UM JOGO DE AÇÃO COMPLETO. SOZINHOS OU EM PARES, COMANDE GUERREIROS PRONTOS PARA QUALQUER COISA E LUTE CONTRA A AMEAÇA TERRORISTA. O JOGO OFERECE TRÊS CAMINHOS DISTINTOS PARA CHEGAR AO QUARTEL-GENERAL INIMIGO. MUNIDO DE UMA SUBMETRALHADORA, BAZUCA OU OUTRAS ARMAS SEMELHANTES, VOCÊ PODE ESCOLHER ATRAVESSAR A SELVA, O VALE OU PASSAR PELAS CORDILHEIRAS.</desc>
+    <rating>0.80</rating>
+    <releasedate>19971111T000000</releasedate>
+    <developer>SAURUS</developer>
+    <publisher>SNK</publisher>
+    <genre>TIRO / RUN AND GUN, TIRO</genre>
+    <genreid>256</genreid>
+    <players>1-2</players>
+    <md5>ebb2ae78e14581f893e197fa8c49e1f4</md5>
+    <hash>C3FD3BCC</hash>
+    <arcadesystemname>snk</arcadesystemname>
+    <image>./media/image/Shock Troopers-image.png</image>
+    <video>./media/videos/Shock Troopers-video.mp4</video>
+    <screenshot>./media/screenshots/Shock Troopers-screenshot.png</screenshot>
+    <fanart>./media/fanart/Shock Troopers-fanart.jpg</fanart>
+    <titleshot>./media/image/Shock Troopers-titleshot.png</titleshot>
+    <manual>./media/manuals/Shock Troopers_(wor).pdf</manual>
+    <extra1>./media/extras/Shock Troopers-extra1.png</extra1>
+    <music>./media/musics/Shock Troopers-music.mp3</music>
+    <bezel>./media/image/Shock Troopers-bezel.png</bezel>
+  </game>
   <game>
     <path>./Shollow.zip</path>
     <name>SATAN'S HOLLOW (SET 1)</name>
@@ -27704,11 +27761,86 @@ SHINOBI FOI UM GRANDE SUCESSO PARA A SEGA, E MERECIDAMENTE. É UMA MISTURA PERFE
     <wheel>./media/image/Shollow-wheel.png</wheel>
     <boxart>./media/image/Shollow-boxart.png</boxart>
     <screenshot>./media/screenshots/Shollow-screenshot.png</screenshot>
+    <mix>./media/image/Shollow-image.png</mix>
     <fanart>./media/fanart/Shollow-fanart.jpg</fanart>
     <titleshot>./media/image/Shollow-titleshot.png</titleshot>
     <manual>./media/manuals/Shollow_(us).pdf</manual>
     <extra1>./media/extras/Shollow-extra1.png</extra1>
     <bezel>./media/image/Shollow-bezel.png</bezel>
+  </game>
+  <game id="43056">
+    <path>./Shootout.zip</path>
+    <name>SHOOTOUT</name>
+    <desc>SHOOTOUT É UM JOGO ARCADE ESTILO GALERIA DE TIRO COM TEMA DE MÁFIA. O JOGADOR DEVE PASSAR POR OITO FASES ANTES DE ENFRENTAR O CHEFE. AO DERRUBAR MULTIDÕES DE BANDIDOS, DEVE-SE TER CAUTELA PARA NÃO ATINGIR ESPECTADORES INOCENTES. O MOVIMENTO E A MIRA SÃO CONTROLADOS PELO JOYSTICK DE 8 DIREÇÕES. E AO CONTRÁRIO DE JOGOS COMO OPERATION WOLF DA TAITO, VOCÊ CONTROLA DIRETAMENTE O SEU JOGADOR EM VEZ DE APENAS UM RETÍCULO DE MIRA. O BOTÃO UM É USADO PARA ATIRAR, ENQUANTO O SEGUNDO BOTÃO É USADO PARA REALIZAR UMA JOGADA EVASIVA PARA EVITAR O FOGO INIMIGO E OUTROS PERIGOS. UM MODO ALTERNADO PARA 2 JOGADORES TAMBÉM ESTÁ DISPONÍVEL.</desc>
+    <rating>0.40</rating>
+    <releasedate>19850101T000000</releasedate>
+    <developer>DATA EAST</developer>
+    <publisher>DATA EAST</publisher>
+    <genre>TIRO, TIRO / TIRO EM 3ª PESSOA</genre>
+    <genreid>256</genreid>
+    <players>1-2</players>
+    <md5>c9dfd1e268f318b2944c5a22563d2f08</md5>
+    <hash>E30B8698</hash>
+    <region>us</region>
+    <arcadesystemname>dataeast</arcadesystemname>
+    <image>./media/image/Shootout-image.png</image>
+    <video>./media/videos/Shootout-video.mp4</video>
+    <screenshot>./media/screenshots/Shootout-screenshot.png</screenshot>
+    <titleshot>./media/image/Shootout-titleshot.png</titleshot>
+    <manual>./media/manuals/Shootout_(us).pdf</manual>
+    <extra1>./media/extras/Shootout-extra1.png</extra1>
+    <bezel>./media/image/Shootout-bezel.png</bezel>
+  </game>
+  <game id="43060">
+    <path>./Showdown.zip</path>
+    <name>SHOWDOWN</name>
+    <desc>UM JOGO DE DISCO LASER OCIDENTAL DE AÇÃO AO VIVO DA AMERICAN LASER GAMES FEITO EM 1994 QUE ACABOU SENDO RELANÇADO PELA DIGITAL LEISURE NO PC EM 2004, NO WIIWARE DA NINTENDO EM 2010 E NA PLAYSTATION NETWORK EM JULHO DE 2011.</desc>
+    <releasedate>19880101T000000</releasedate>
+    <developer>EXIDY</developer>
+    <publisher>EXIDY</publisher>
+    <genre>CASSINO, CASSINO / CARTAS</genre>
+    <genreid>3584</genreid>
+    <players>1</players>
+    <md5>881f55a35aa304c0207660812bfe6215</md5>
+    <hash>67CEEF8D</hash>
+    <region>wor</region>
+    <arcadesystemname>exidy</arcadesystemname>
+    <image>./media/image/Showdown-image.png</image>
+    <video>./media/videos/Showdown-video.mp4</video>
+    <marquee>./media/image/Showdown-marquee.png</marquee>
+    <wheel>./media/image/Showdown-wheel.png</wheel>
+    <boxart>./media/image/Showdown-boxart.png</boxart>
+    <screenshot>./media/screenshots/Showdown-screenshot.png</screenshot>
+    <titleshot>./media/image/Showdown-titleshot.png</titleshot>
+    <extra1>./media/extras/Showdown-extra1.png</extra1>
+    <bezel>./media/image/Showdown-bezel.png</bezel>
+  </game>
+  <game id="43073">
+    <path>./Shuuz.zip</path>
+    <name>SHUUZ</name>
+    <desc>UM JOGO DE FERRADURAS.</desc>
+    <rating>0.60</rating>
+    <releasedate>19900101T000000</releasedate>
+    <developer>ATARI</developer>
+    <publisher>ATARI</publisher>
+    <genre>ESPORTE</genre>
+    <genreid>1536</genreid>
+    <players>1-4</players>
+    <md5>750c8f0a8c0642124891269b746cad57</md5>
+    <hash>EBC7784B</hash>
+    <region>wor</region>
+    <arcadesystemname>atari</arcadesystemname>
+    <image>./media/image/Shuuz-image.png</image>
+    <video>./media/videos/Shuuz-video.mp4</video>
+    <marquee>./media/image/Shuuz-marquee.png</marquee>
+    <wheel>./media/image/Shuuz-wheel.png</wheel>
+    <boxart>./media/image/Shuuz-boxart.png</boxart>
+    <screenshot>./media/screenshots/Shuuz-screenshot.png</screenshot>
+    <fanart>./media/fanart/Shuuz-fanart.jpg</fanart>
+    <titleshot>./media/image/Shuuz-titleshot.png</titleshot>
+    <manual>./media/manuals/Shuuz-manual.pdf</manual>
+    <extra1>./media/extras/Shuuz-extra1.png</extra1>
+    <bezel>./media/image/Shuuz-bezel.png</bezel>
   </game>
   <game id="43179">
     <path>./Sonson.zip</path>
