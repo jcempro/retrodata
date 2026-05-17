@@ -1,0 +1,1120 @@
+collection: ps2
+game: BEN 10 - ALIEN FORCE, VILGAX ATTACKS [22823]
+file: ./Ben 10 - Alien Force, Vilgax Attacks [22823].chd
+developer: PAPAYA
+publisher: D3 PUBLISHER
+genre: AVENTURA
+favorite: false
+description: 
+	OS JOGADORES ASSUMEM O PAPEL DE BEN TENNYSON, DA SÉRIE DE TELEVISÃO BEN 10: FORÇA ALIENÍGENA. VILGAX ESTÁ MAIS UMA VEZ TENTANDO INVADIR A TERRA, E BEN É O ÚNICO HERÓI CAPAZ DE IMPEDI-LO DE USAR O RECÉM-DESCOBERTO CANHÃO DO VAZIO NULO.
+OS JOGADORES PODEM SE TRANSFORMAR EM OITO FORMAS ALIENÍGENAS PARA LUTAR CONTRA OS LACAIOS DE VILGAX E RESOLVER DIVERSOS QUEBRA-CABEÇAS PELO CAMINHO. A AÇÃO SE PASSA NOS PLANETAS NATAIS DAS FORMAS ALIENÍGENAS DE BEN, ENQUANTO OS JOGADORES EXPLORAM PLATAFORMAS ATRAVÉS DOS POÇOS DE LAVA DE VULPIN E DESTROEM TEMPLOS EM TERRADINO. O COMBATE UTILIZA UM SISTEMA DE ATAQUE BASEADO EM COMBOS, COM FOCO EM GRANDES ATAQUES ESPECIAIS QUE ELIMINAM VÁRIOS INIMIGOS DE UMA SÓ VEZ. OS INIMIGOS SURGEM EM ONDAS, CRIANDO ENXAMES DE ATACANTES.
+ALÉM DE VILGAX, VÁRIOS OUTROS VILÕES MEMORÁVEIS ​​DA SÉRIE APARECEM AO LONGO DO JOGO EM BATALHAS ÉPICAS CONTRA CHEFES.
+release: 2010-03-12
+players: 1
+x-id: 22823
+assets.boxFront: ./media/image/Ben 10 - Alien Force, Vilgax Attacks [22823]-boxart.png
+assets.boxBack: ./media/image/Ben 10 - Alien Force, Vilgax Attacks [22823]-boxback.png
+assets.cartridge: ./media/image/Ben 10 - Alien Force, Vilgax Attacks [22823]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Ben 10 - Alien Force, Vilgax Attacks [22823]-screenshot.png
+assets.video: ./media/videos/Ben 10 - Alien Force, Vilgax Attacks [22823]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Ben 10 - Alien Force, Vilgax Attacks [22823]-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.60
+
+collection: ps2
+game: BEN 10 - PROTECTOR OF EARTH [22717]
+file: ./Ben 10 - Protector Of Earth [22717].chd
+developer: HIGH VOLTAGE
+publisher: D3 PUBLISHER
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	BEN 10: PROTECTOR OF THE EARTH É UM JOGO DE AÇÃO BASEADO NA SÉRIE DE DESENHOS ANIMADOS BEN 10. A HISTÓRIA SEGUE AS AVENTURAS DE BEN TENNYSON, QUE UM DIA ENCONTRA UM DISPOSITIVO SEMELHANTE A UM RELÓGIO CHAMADO OMINITRIX, QUE LHE DÁ A CAPACIDADE DE SE TRANSFORMAR EM DIFERENTES ALIENÍGENAS, CADA UM COM SUA HABILIDADE ESPECIAL.
+OS ALIENÍGENAS NOS QUAIS BEN PODE SE TRANSFORMAR SÃO: FOURARMS, UM GRANDE BRUTO QUE SE DESTACA NO COMBATE CORPO A CORPO, FIREBLAST, QUE PODE INCENDIAR SEUS INIMIGOS COM BOLAS DE FOGO, XLR8, UM VELOCISTA SUPER RÁPIDO, CANNONBALL, QUE PODE SE TRANSFORMAR EM UMA BOLA DE METAL E POR ÚLTIMO WILDVINE, QUE PODE ESTICAR SEUS MEMBROS PARA ALCANÇAR NOVOS LUGARES.
+O JOGADOR POSSUI TRÊS TIPOS DE ATAQUES: LEVES, PESADOS ​​E MOVIMENTOS ESPECIAIS, ALÉM DE UM GRANDE NÚMERO DE COMBOS. O JOGO APRESENTA MAIS DE 14 NÍVEIS, VISITANDO LOCAIS COMO GRAND CANYON, SÃO FRANCISCO, SEATTLE OU MONTE RUSHMORE.
+release: 2007-11-16
+players: 1-2
+x-id: 22717
+assets.boxFront: ./media/image/Ben 10 - Protector Of Earth [22717]-boxart.png
+assets.boxBack: ./media/image/Ben 10 - Protector Of Earth [22717]-boxback.png
+assets.cartridge: ./media/image/Ben 10 - Protector Of Earth [22717]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Ben 10 - Protector Of Earth [22717]-screenshot.png
+assets.video: ./media/videos/Ben 10 - Protector Of Earth [22717]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Ben 10 - Protector Of Earth [22717]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Ben 10 - Protector Of Earth [22717]-titleshot.png
+assets.bezel: 
+rating: 0.60
+
+collection: ps2
+game: BEN 10 - ULTIMATE ALIEN, COSMIC DESTRUCTION [22869]
+file: ./Ben 10 - Ultimate Alien, Cosmic Destruction [22869].chd
+developer: PAPAYA
+publisher: D3 PUBLISHER
+genre: AVENTURA
+favorite: false
+description: 
+	BEN 10 ULTIMATE ALIEN: COSMIC DESTRUCTION É UM JOGO DE AÇÃO E AVENTURA EM 3D BASEADO NA SÉRIE DE TV BEN 10: ULTIMATE ALIEN. AGORA NÃO É MAIS SEGREDO PARA O MUNDO QUE BEN É UM SUPER-HERÓI E AGORA ESTÁ NO CONTROLE DO SUPEROMNITRIX. A TERRA ESTÁ AMEAÇADA POR UMA ESTRANHA TEMPESTADE GALÁCTICA QUE ABRIGA UM MAL PODEROSO E O PODER DO SUPEROMNITRIX PODE NÃO SER SUFICIENTE. AGORA BEN PRECISA ENCONTRAR VÁRIOS ARTEFATOS GALVAN ESPALHADOS PELO PLANETA PARA AUMENTAR OS PODERES DO SUPEROMNITRIX.
+O JOGADOR ASSUME O CONTROLE DE BEN E PODE SE TRANSFORMAR EM UMA INFINIDADE DE ALIENÍGENAS QUE VARIAM EM TAMANHO E HABILIDADES. A JOGABILIDADE INCLUI DERROTAR INIMIGOS, CHEFES E RESOLVER QUEBRA-CABEÇAS. NO JOGO, VÁRIOS LOCAIS TERRESTRES SÃO VISITADOS, COMO CHINA, PARIS, TÓQUIO E ROMA. AS VERSÕES PS3 E XBOX POSSUEM UM ALIENÍGENA EXCLUSIVO DE PLATAFORMA EXTRA. OS PERSONAGENS DO JOGO SÃO DUBLADOS PELOS DUBLADORES ORIGINAIS DA TV.
+release: 2011-02-11
+players: 1
+x-id: 22869
+assets.boxFront: ./media/image/Ben 10 - Ultimate Alien, Cosmic Destruction [22869]-boxart.png
+assets.boxBack: ./media/image/Ben 10 - Ultimate Alien, Cosmic Destruction [22869]-boxback.png
+assets.cartridge: ./media/image/Ben 10 - Ultimate Alien, Cosmic Destruction [22869]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Ben 10 - Ultimate Alien, Cosmic Destruction [22869]-screenshot.png
+assets.video: ./media/videos/Ben 10 - Ultimate Alien, Cosmic Destruction [22869]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Ben 10 - Ultimate Alien, Cosmic Destruction [22869]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Ben 10 - Ultimate Alien, Cosmic Destruction [22869]-titleshot.png
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: BLACK [22022]
+file: ./Black [22022].chd
+developer: CRITERION GAMES
+publisher: EA GAMES
+genre: TIRO / TIRO EM 1ª PESSOA, TIRO
+favorite: false
+description: 
+	BLACK É UM JOGO DE TIRO EM PRIMEIRA PESSOA DA EQUIPE POR TRÁS DA FRANQUIA BURNOUT. OS JOGADORES ASSUMEM O PAPEL DE JACK KELAR, MEMBRO DE UMA EQUIPE TÁTICA DE ELITE ENVIADA À EUROPA ORIENTAL PARA CAPTURAR UM TRAIDOR AMERICANO. EM VEZ DE ATAQUES FURTIVOS, O JOGO APRESENTA UM ASSALTO COMPLETO EM NOVE NÍVEIS DE AÇÃO EXPLOSIVA.
+SÃO 13 ARMAS DE ÚLTIMA GERAÇÃO DISPONÍVEIS, E O DESTAQUE É O MOTOR FÍSICO QUE PERMITE AMBIENTES TOTALMENTE DESTRUÍVEIS. JOGADORES PODEM MIRAR EM VEÍCULOS, BARRIS, JANELAS E VARANDAS PARA CAUSAR EXPLOSÕES E DESTRUIÇÃO. ENQUANTO KELAR AVANÇA POR CIDADES SITIADA E REGIÕES COBERTAS DE NEVE, CASCAS DE PROJÉTEIS, VIDRO, POEIRA, FUMAÇA E INCÊNDIOS PREENCHEM A TELA, CRIANDO CENÁRIOS DE GUERRA INTENSOS.
+release: 2006-02-24
+players: 1
+x-id: 22022
+assets.boxFront: ./media/image/Black [22022]-boxart.png
+assets.boxBack: ./media/image/Black [22022]-boxback.png
+assets.cartridge: ./media/image/Black [22022]-cartridge.png
+assets.marquee: ./media/image/Black [22022]-marquee.png
+assets.screenshot: ./media/screenshots/Black [22022]-screenshot.jpg
+assets.video: ./media/videos/Black [22022]-video.mp4
+assets.logo: ./media/image/Black [22022]-wheel.png
+assets.background: ./media/fanart/Black [22022]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Black [22022]-titleshot.jpg
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: Burnout Dominator (BR)
+file: ./Burnout Dominator (BR).chd
+developer: Criterion Games
+publisher: Electronic Arts
+genre: Corrida, Pilotagem
+favorite: false
+description: 
+	Burnout Dominator é um jogo de corrida desenvolvido e publicado pela Electronic Arts para PlayStation 2 e PlayStation Portable. Burnout Dominator é o segundo jogo spin-off da série Burnout e o sexto no geral. Ele mantém a jogabilidade central da série, enquanto os jogadores correm em alta velocidade através de dezenas de eventos do World Tour testando técnicas de direção "imprudentes baseadas em habilidades". As versões de cada plataforma não interagem entre si.	Este é o único jogo Burnout que não foi desenvolvido pela Criterion Games, e o primeiro jogo Burnout da série desde Burnout 2: Point of Impact a não apresentar o "Modo Crash". Na época em que Dominator estava sendo desenvolvido, a Criterion estava ocupada trabalhando em Burnout Paradise e esperando para reintroduzir o modo em uma nova forma para o último título. No entanto, a Criterion Games está listada como "os criadores deste jogo" no manual do jogo e creditada como desenvolvedora no site oficial da Electronic Arts.
+release: 2007-03-23
+players: 1-4
+x-id: 22384
+assets.boxFront: ./media/image/Burnout Dominator (BR)-boxart.png
+assets.boxBack: ./media/image/Burnout Dominator (BR)-boxback.png
+assets.cartridge: ./media/image/Burnout Dominator (BR)-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Burnout Dominator (BR)-screenshot.png
+assets.video: ./media/videos/Burnout Dominator (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Burnout Dominator (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Burnout Dominator (BR)-titleshot.png
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: CONTRA - SHATTERED SOLDIER (BR) [22596]
+file: ./Contra - Shattered Soldier (BR) [22596].chd
+developer: KONAMI
+publisher: KONAMI
+genre: PLATAFORMA / TIRO COM ROLAGEM, SHOOT'EM UP / HORIZONTAL, SHOOT'EM UP, PLATAFORMA
+favorite: false
+description: 
+	FAZENDO SUA ESTREIA NOS FLIPERAMAS EM 1987 E, DE FORMA MAIS DIFUNDIDA, NO NES EM 1988, A LONGA SÉRIE CONTRA CONTINUA COM CONTRA: SHATTERED SOLDIER PARA PLAYSTATION 2. O JOGO MANTÉM SUAS RAÍZES DE PLATAFORMA 2D DA VELHA ESCOLA, MAS É APRIMORADO COM MODELOS POLIGONAIS 3D E FINAIS E NÍVEIS DESBLOQUEÁVEIS ​​COM BASE NO DESEMPENHO DO JOGADOR (COMO PORCENTAGEM DE INIMIGOS MORTOS).
+release: 2003-02-14
+players: 2
+x-id: 22596
+assets.boxFront: ./media/image/Contra - Shattered Soldier [22596]-boxart.png
+assets.boxBack: ./media/image/Contra - Shattered Soldier [22596]-boxback.png
+assets.cartridge: ./media/image/Contra - Shattered Soldier [22596]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Contra - Shattered Soldier [22596]-screenshot.png
+assets.video: ./media/videos/Contra - Shattered Soldier [22596]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Contra - Shattered Soldier [22596]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Contra - Shattered Soldier [22596]-titleshot.jpg
+assets.bezel: 
+rating: 0.60
+
+collection: ps2
+game: CRASH OF THE TITANS [22310]
+file: ./Crash Of The Titans [22310].chd
+developer: RADICAL ENTERTAINMENT
+publisher: SIERRA
+genre: PLATAFORMA
+favorite: false
+description: 
+	ESTE EPISÓDIO DE CRASH BANDICOOT APRESENTA UMA ENORME MUDANÇA NA ESTÉTICA E NA JOGABILIDADE. OS PERSONAGENS PASSARAM POR SUA MAIOR TRANSFORMAÇÃO ATÉ O MOMENTO. A JOGABILIDADE, EMBORA AINDA CENTRADA NA PLATAFORMA, APRESENTA MAIS COMBATE, PERMITINDO QUE CRASH DÊ SOCOS E CHUTES NOS INIMIGOS, ... A JOGABILIDADE TAMBÉM SE CONCENTRA NO CONTROLE DE TITÃS, MUTANTES GIGANTES MUITO MAIS PODEROSOS DO QUE O PRÓPRIO CRASH. ELES PODEM SER CONTROLADOS POR CRASH MONTANDO-OS.
+A HISTÓRIA DO JOGO FOCA NA DESCOBERTA DE UMA SUBSTÂNCIA CHAMADA MOJO, QUE O DOUTOR NEO CORTEX PRETENDE USAR PARA TRANSFORMAR OS HABITANTES DA ILHA WUMPA EM UM EXÉRCITO DE MUTANTES LEAIS, CONHECIDOS COMO "TITÃS". CRASH DEVE IMPEDIR CORTEX DE USAR A TÉCNICA DE “SOBREPOSIÇÃO” PARA ASSUMIR O CONTROLE DOS MUTANTES E DESTRUIR OS TITÃS DE CORTEX ENQUANTO COLETA O MOJO.
+release: 2007-10-12
+players: 1-2
+x-id: 22310
+assets.boxFront: ./media/image/Crash Of The Titans [22310]-boxart.png
+assets.boxBack: ./media/image/Crash Of The Titans [22310]-boxback.png
+assets.cartridge: ./media/image/Crash Of The Titans [22310]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Crash Of The Titans [22310]-screenshot.png
+assets.video: ./media/videos/Crash Of The Titans [22310]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Crash Of The Titans [22310]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Crash Of The Titans [22310]-titleshot.png
+assets.bezel: 
+rating: 0.60
+
+collection: ps2
+game: CRASH TWINSANITY [22065]
+file: ./Crash Twinsanity [22065].chd
+developer: TRAVELLER'S TALES
+publisher: SIERRA
+genre: PLATAFORMA
+favorite: false
+description: 
+	OS EVENTOS DE CRASH TWINSANITY SE PASSAM TRÊS ANOS DEPOIS DOS OCORRIDOS DO JOGO CRASH BANDICOOT: THE WRATH OF CORTEX. NESTE JOGO CRASH E SEU INIMIGO DE LONGA DATA, DR. CORTEX, FAZEM UMA TRÉGUA TEMPORÁRIA PARA DERROTAR DOIS PAPAGAIOS MALVADOS DA 10ª DIMENSÃO CHAMADOS VICTOR E MORITZ. PORÉM NÃO SERÁ FÁCIL, JÁ QUE A MAIORIA DOS ALIADOS DE CRASH E DR CORTEX (QUE NÃO SABEM O QUE ESTÁ ACONTECENDO) SE VOLTARÃO CONTRA ELES, E ACABARÃO SENDO OBSTÁCULOS.
+release: 2004-10-08
+players: 1
+x-id: 22065
+assets.boxFront: ./media/image/Crash Twinsanity [22065]-boxart.png
+assets.boxBack: ./media/image/Crash Twinsanity [22065]-boxback.png
+assets.cartridge: ./media/image/Crash Twinsanity [22065]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Crash Twinsanity [22065]-screenshot.png
+assets.video: ./media/videos/Crash Twinsanity [22065]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Crash Twinsanity [22065]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Crash Twinsanity [22065]-titleshot.png
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: DISNEY PIXAR RATATOUILLE [22255]
+file: ./Disney Pixar Ratatouille [22255].chd
+developer: ASOBO
+publisher: THQ
+genre: PLATAFORMA
+favorite: false
+description: 
+	NA AVENTURA ANIMADA DA DISNEY/PIXAR, UM RATO CHAMADO REMY SONHA EM SE TORNAR UM GRANDE CHEF FRANCÊS, APESAR DOS DESEJOS DE SUA FAMÍLIA E DO PROBLEMA ÓBVIO DE SER UM RATO EM UMA PROFISSÃO DECIDIDAMENTE COM FOBIA DE ROEDORES. QUANDO O DESTINO COLOCA REMY NOS ESGOTOS DE PARIS, ELE SE ENCONTRA IDEALMENTE SITUADO SOB UM RESTAURANTE QUE FICOU FAMOSO POR SEU HERÓI CULINÁRIO, AUGUSTE GUSTEAU.
+NO JOGO, OS JOGADORES ASSUMIRÃO O PAPEL DE REMY E REVIVERÃO ALGUNS DOS MOMENTOS MAIS EMOCIONANTES DO FILME. OS JOGADORES RECONHECERÃO INSTANTANEAMENTE O ENREDO, OS PERSONAGENS E OS PRINCIPAIS LOCAIS DE RATATOUILLE, À MEDIDA QUE SE ENVOLVEM EM UMA SÉRIE DE MINIJOGOS EXCLUSIVOS, DESAFIOS CULINÁRIOS E MULTIJOGADOR FRENTE A FRENTE. RATATOUILLE PERMITIRÁ AOS JOGADORES CRIAR OBRAS-PRIMAS CULINÁRIAS, EVITAR A DETECÇÃO DE INIMIGOS PERIGOSOS E MUITAS VEZES FAMINTOS E ENFRENTAR OS PERIGOS DA CORRERIA DO JANTAR NESTA JORNADA AVASSALADORA PARA REALIZAR O SONHO DE REMY DE SE TORNAR UM GRANDE CHEF.
+release: 2007-09-28
+players: 1-4
+x-id: 22255
+assets.boxFront: ./media/image/Disney Pixar Ratatouille [22255]-boxart.png
+assets.boxBack: ./media/image/Disney Pixar Ratatouille [22255]-boxback.png
+assets.cartridge: ./media/image/Disney Pixar Ratatouille [22255]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Disney Pixar Ratatouille [22255]-screenshot.png
+assets.video: ./media/videos/Disney Pixar Ratatouille [22255]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Disney Pixar Ratatouille [22255]-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.60
+
+collection: ps2
+game: GOD OF WAR [21899]
+file: ./God Of War [21899].chd
+developer: SCE SANTA MONICA
+publisher: SONY COMPUTER ENTERTAINMENT
+genre: AVENTURA
+favorite: false
+description: 
+	GOD OF WAR É UM JOGO DE AÇÃO MITOLÓGICO PARA PS2. JOGUE COMO KRATOS, UM ANTI-HERÓI BANIDO E ODIADO PELOS DEUSES DA GRÉCIA ANTIGA. PARA SALVAR SUA ALMA, OBEDEÇA ÀS ORDENS DIVINAS E VÁ LUTAR CONTRA CRIATURAS E MONSTROS LENDÁRIOS EM BATALHAS DE INCRÍVEL VIOLÊNCIA, MAS SEMPRE LINDAMENTE ORQUESTRADAS.
+release: 2005-07-08
+players: 1
+x-id: 21899
+assets.boxFront: ./media/image/God Of War [21899]-boxart.png
+assets.boxBack: ./media/image/God Of War [21899]-boxback.png
+assets.cartridge: ./media/image/God Of War [21899]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/God Of War [21899]-screenshot.png
+assets.video: ./media/videos/God Of War [21899]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/God Of War [21899]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/God Of War [21899]-titleshot.png
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: GOD OF WAR II [128570]
+file: ./God Of War II [128570].chd
+developer: SCE SANTA MONICA
+publisher: SONY COMPUTER ENTERTAINMENT
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	GOD OF WAR II É UM JOGO ELETRÔNICO DE AÇÃO-AVENTURA HACK AND SLASH DESENVOLVIDO PELA SANTA MONICA STUDIO E PUBLICADO PELA SONY COMPUTER ENTERTAINMENT (SCE). LANÇADO PELA PRIMEIRA VEZ PARA O PLAYSTATION 2 EM 13 DE MARÇO DE 2007, É O SEGUNDO JOGO DA FRANQUIA GOD OF WAR E O SEXTO EM ORDEM CRONOLÓGICA, SENDO A CONTINUAÇÃO DE GOD OF WAR (2005). O JOGO É VAGAMENTE BASEADO NA MITOLOGIA GREGA E SITUADO NA GRÉCIA ANTIGA, COM A VINGANÇA SENDO O MOTIVO CENTRAL. O PERSONAGEM DO JOGADOR É O PROTAGONISTA KRATOS, O NOVO DEUS DA GUERRA QUE TOMOU O LUGAR DE ARES DEPOIS DE TER O MATADO. KRATOS É TRAÍDO POR ZEUS, O REI DOS DEUSES DO OLIMPO, QUE TIRA DELE SUA DIVINDADE E O MATA. LENTAMENTE ARRASTADO PARA O SUBMUNDO, ELE É SALVO PELA TITÃ GAIA, QUE O INSTRUI A ENCONTRAR AS IRMÃS DO DESTINO, POIS ELAS PODEM PERMITIR QUE ELE VIAJE DE VOLTA NO TEMPO, EVITE SUA TRAIÇÃO E SE VINGUE DE ZEUS.
+release: 2007-04-27
+players: 1
+x-id: 128570
+assets.boxFront: ./media/image/God Of War II [128570]-boxart.png
+assets.boxBack: ./media/image/God Of War II [128570]-boxback.png
+assets.cartridge: ./media/image/God Of War II [128570]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/God Of War II [128570]-screenshot.png
+assets.video: ./media/videos/God Of War II [128570]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/God Of War II [128570]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/God Of War II [128570]-titleshot.png
+assets.bezel: ./media/image/God Of War II [128570]-bezel.png
+rating: 0.80
+
+collection: ps2
+game: GRADIUS V (BR)
+file: ./Gradius V (BR).chd
+developer: TREASURE
+publisher: KONAMI
+genre: SHOOT'EM UP
+favorite: false
+description: 
+	GRADIUS V É UM VIDEOGAME SHOOT 'EM UP DESENVOLVIDO NO JAPÃO E PUBLICADO PELA KONAMI PARA O CONSOLE DE VIDEOGAME SONY PLAYSTATION 2 EM 2004. GRADIUS V FOI AMPLAMENTE DESENVOLVIDO SOB CONTRATO PELA TREASURE, QUE JÁ HAVIA TRABALHADO EM RADIANT SILVERGUN E IKARUGA.
+ O JOGO SE PASSA PREDOMINANTEMENTE NO ESPAÇO SIDERAL, ONDE OS JOGADORES CONTROLAM UMA ESPAÇONAVE FICTÍCIA CHAMADA VIC VIPER ATRAVÉS DE UM FUNDO DE ROLAGEM CONTÍNUA REPRESENTANDO OS TERRITÓRIOS DE BACTERIAN - UM IMPÉRIO DO MAL QUE SERVE COMO INIMIGO DO JOGADOR.
+ A TRILHA SONORA FOI COMPOSTA PELO COMPOSITOR DO BASISCAPE HITOSHI SAKIMOTO, CUJO TRABALHO ANTERIOR EM VIDEOGAME INCLUI A TRILHA SONORA DO RPG TÁTICO FINAL FANTASY TACTICS, DO SHOOT'EM UP RADIANT SILVERGUN E DO HÍBRIDO DE AÇÃO/RPG VAGRANT STORY.
+release: 2004-10-08
+players: 1-2
+x-id: 22764
+assets.boxFront: ./media/image/Gradius V (BR)-boxart.png
+assets.boxBack: ./media/image/Gradius V (BR)-boxback.png
+assets.cartridge: ./media/image/Gradius V (BR)-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Gradius V (BR)-screenshot.jpg
+assets.video: ./media/videos/Gradius V (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Gradius V (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Gradius V (BR)-titleshot.jpg
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: ICO [21945]
+file: ./Ico [21945].chd
+developer: SCE JAPAN
+publisher: SONY COMPUTER ENTERTAINMENT
+genre: AVENTURA, PLATAFORMA
+favorite: false
+description: 
+	UM JOVEM GAROTO EM UM MUNDO MÁGICO NASCEU COM UMA ESTRANHA DEFORMIDADE: GRANDES CHIFRES QUE SE PROJETAM DE AMBOS OS LADOS DE SUA CABEÇA. O POVO DE SUA ALDEIA, TEMEROSO DA RETRIBUIÇÃO VINDA DE CIMA, SENTE QUE NÃO TEM ESCOLHA A NÃO SER SACRIFICAR ESSA CRIANÇA MUTANTE PARA APAZIGUAR SEUS DEUSES. PARA ISSO, ELES LEVARAM ESSE GAROTO, CHAMADO ICO, PARA UM ENORME CASTELO SUPOSTAMENTE DESERTO E O DEIXARAM EM UMA URNA GIGANTE. MAS QUANDO A URNA SE QUEBRA, DERRAMANDO ICO NAS ENTRANHAS DA FORTALEZA, ELE LOGO DESCOBRIRÁ QUE SUA AVENTURA ESTÁ APENAS COMEÇANDO. AO LONGO DO CAMINHO, ELE ENCONTRARÁ UMA PRINCESA MISTERIOSA QUE FOI MANTIDA EM CATIVEIRO NO CASTELO POR ANOS INCONTÁVEIS.
+release: 2002-03-22
+players: 1-2
+x-id: 21945
+assets.boxFront: ./media/image/Ico [21945]-boxart.png
+assets.boxBack: ./media/image/Ico [21945]-boxback.png
+assets.cartridge: ./media/image/Ico [21945]-cartridge.png
+assets.marquee: ./media/image/Ico [21945]-marquee.png
+assets.screenshot: ./media/screenshots/Ico [21945]-screenshot.png
+assets.video: ./media/videos/Ico [21945]-video.mp4
+assets.logo: ./media/image/Ico [21945]-wheel.png
+assets.background: ./media/fanart/Ico [21945]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Ico [21945]-titleshot.png
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: JACKIE CHAN ADVENTURES [22383]
+file: ./Jackie Chan Adventures [22383].chd
+developer: ATOMIC PLANET ENTERTAINMENT
+publisher: SONY COMPUTER ENTERTAINMENT
+genre: AVENTURA
+favorite: false
+description: 
+	BASEADO NA SÉRIE ANIMADA DO ASTRO DOS FILMES DE LUTA DE HONG KONG, ESTE JOGO DE AÇÃO EM TERCEIRA PESSOA ACOMPANHA JACKIE CHAN EM UMA JORNADA AO REDOR DO MUNDO — E ATÉ MESMO ATÉ A LUA — EM BUSCA DOS 12 TALISMÃS MÁGICOS, TENTANDO MANTÊ-LOS LONGE DE SHENDU, DA MÃO NEGRA (DARK HAND) E DE QUALQUER OUTRO VILÃO QUE DESEJE USÁ-LOS PARA O MAL.
+ASSIM COMO NA SÉRIE DE TV, JACKIE CONTA COM A AJUDA DO TIO (UNCLE), DE SUA SOBRINHA JADE, DO EX-VILÃO TOHRU, ALÉM DE OUTROS ALIADOS INTERNACIONAIS.
+O CLÃ MALIGNO MÃO NEGRA, LIDERADO POR VALMONT — UM HOMEM POSSUÍDO POR UM DEMÔNIO CHINÊS CHAMADO SHENDU —, TEM UM PLANO SINISTRO: LIBERTAR DEMÔNIOS ANTIGOS QUE ESTÃO APRISIONADOS, UTILIZANDO UMA CAIXA DE QUEBRA-CABEÇA PAN KU. QUANDO ESSA CAIXA É RESOLVIDA EM LOCAIS ESPECÍFICOS DO PLANETA, UM DEMÔNIO É LIBERADO E VOLTA A CAUSAR DESTRUIÇÃO. CABE A JACKIE CHAN VIAJAR PELO MUNDO E IMPEDIR VALMONT ANTES QUE ELE COMPLETE SUA MISSÃO.
+release: 2004-10-01
+players: 1
+x-id: 22383
+assets.boxFront: ./media/image/Jackie Chan Adventures [22383]-boxart.png
+assets.boxBack: ./media/image/Jackie Chan Adventures [22383]-boxback.png
+assets.cartridge: ./media/image/Jackie Chan Adventures [22383]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Jackie Chan Adventures [22383]-screenshot.png
+assets.video: ./media/videos/Jackie Chan Adventures [22383]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Jackie Chan Adventures [22383]-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.60
+
+collection: ps2
+game: Justice League Heroes (BR)
+file: ./Justice League Heroes (BR).chd
+developer: Snowblind
+publisher: Warner Bros. Games
+genre: Briga de rua
+favorite: false
+description: 
+	Robôs militares causam estragos em um centro de pesquisa de alta tecnologia em Metrópolis. Na Finlândia, criaturas geneticamente modificadas assumem o controle do ultrassecreto Deep Space Communications Array. Uma equipe de criminosos superpoderosos, que nunca haviam trabalhado juntos antes, toma uma base de mísseis em Nevada. E nas profundezas da superfície de Marte, dezenas de guerreiros alienígenas são libertados da sua longa prisão. Esses eventos aparentemente não relacionados provam ser peças de um plano sinistro, e serão necessários os maiores super-heróis da Terra para detê-lo: A Liga da Justiça!	 Desde a fundação da Liga da Justiça no final dos anos 50, muitos se juntaram às fileiras destes benfeitores globais para combater o mal em todas as formas. Agora, esses heróis da Liga da Justiça devem salvar o dia novamente, mobilizando personalidades como Mulher Maravilha, Batman, Aquaman, Lanterna Verde, Superman e muito mais contra inimigos, incluindo guerrilheiros gigantes, marcianos e robôs de assalto. Assuma o controle de cada personagem e suas habilidades especiais em ação cooperativa solo ou multijogador que depende fortemente do trabalho em equipe.
+release: 2006-11-24
+players: 1-2
+x-id: 128451
+assets.boxFront: ./media/image/Justice League Heroes (BR)-boxart.png
+assets.boxBack: ./media/image/Justice League Heroes (BR)-boxback.png
+assets.cartridge: ./media/image/Justice League Heroes (BR)-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Justice League Heroes (BR)-screenshot.png
+assets.video: ./media/videos/Justice League Heroes (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Justice League Heroes (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.60
+
+collection: ps2
+game: KLONOA 2 - LUNATEA'S VEIL [22356]
+file: ./Klonoa 2 - Lunatea's Veil [22356].chd
+developer: NAMCO
+publisher: NAMCO
+genre: PLATAFORMA
+favorite: false
+description: 
+	OS FÃS DO KLONOA ORIGINAL PARA PS PODEM EMBARCAR EM UMA NOVA AVENTURA EM UM NOVO SISTEMA COM ESTE LANÇAMENTO DE KLONOA 2: LUNATEA'S VEIL. O CATIVANTE HERÓI FELINO ORELHUDO E O ESTILO DE JOGO INTRODUZIDO EM SUA PRIMEIRA AVENTURA FORAM ATUALIZADOS PARA FAZER USO DO PODER DE PROCESSAMENTO APRIMORADO E DOS RECURSOS GRÁFICOS DO CONSOLE PLAYSTATION 2 DE 128 BITS DA SONY. ANUNCIADO COMO UM JOGO DE "AÇÃO DRAMÁTICA EM 3D", ESTE SEGUNDO LANÇAMENTO SEGUE O EXEMPLO DO ORIGINAL, OFERECENDO UMA JOGABILIDADE ORIENTADA PARA A AÇÃO ACENTUADA COM CUTSCENES E INTERLÚDIOS QUE ADICIONAM ATMOSFERA E AVANÇAM O ENREDO.
+release: 2001-11-09
+players: 1
+x-id: 22356
+assets.boxFront: ./media/image/Klonoa 2 - Lunatea's Veil [22356]-boxart.png
+assets.boxBack: ./media/image/Klonoa 2 - Lunatea's Veil [22356]-boxback.png
+assets.cartridge: ./media/image/Klonoa 2 - Lunatea's Veil [22356]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Klonoa 2 - Lunatea's Veil [22356]-screenshot.png
+assets.video: ./media/videos/Klonoa 2 - Lunatea's Veil [22356]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Klonoa 2 - Lunatea's Veil [22356]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Klonoa 2 - Lunatea's Veil [22356]-titleshot.png
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: LEGO BATMAN [22024]
+file: ./Lego Batman [22024].chd
+developer: TRAVELLER'S TALES
+publisher: WARNER BROS. GAMES
+genre: BRIGA DE RUA, PLATAFORMA
+favorite: false
+description: 
+	DANDO CONTINUIDADE À TRADIÇÃO DE ADAPTAR FRANQUIAS CONHECIDAS COMO *STAR WARS* E *INDIANA JONES* COM VISUAIS BASEADOS EM LEGO, ESTE JOGO MERGULHA NO UNIVERSO DO BATMAN. O CONCEITO BÁSICO PERMANECE O MESMO: PERSONAGENS E OBJETOS SÃO CONSTRUÍDOS COM BLOCOS DE LEGO, MAS AGORA AMBIENTADOS EM CENÁRIOS DESENHADOS DE FORMA MAIS TRADICIONAL. A MAIORIA DOS AMBIENTES APRESENTA PROGRESSÃO LATERAL COM CÂMERA FIXA, PORÉM EM 3D E COM BOA PROFUNDIDADE.
+A DUPLA DINÂMICA ENTRA EM AÇÃO EM *LEGO BATMAN: THE VIDEOGAME*. NA CAMPANHA PRINCIPAL, OS JOGADORES ASSUMEM O CONTROLE DE BATMAN E ROBIN EM UMA AVENTURA REPLETA DE AÇÃO E QUEBRA-CABEÇAS POR MAIS DE UMA DÚZIA DE FASES AMBIENTADAS EM GOTHAM CITY — TODAS RECRIADAS INTEIRAMENTE COM BLOCOS DE MONTAR DA MARCA LEGO.
+release: 2008-10-10
+players: 1-2
+x-id: 22024
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Lego Batman [22024]-screenshot.png
+assets.video: ./media/videos/Lego Batman [22024]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Lego Batman [22024]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Lego Batman [22024]-titleshot.png
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: MAXIMO VS ARMY OF ZIN [22328]
+file: ./Maximo Vs Army Of Zin [22328].chd
+developer: CAPCOM
+publisher: CAPCOM
+genre: PLATAFORMA
+favorite: false
+description: 
+	A SEQUÊNCIA DE MAXIMO: FROM GHOSTS TO GLORY, QUE FOI VAGAMENTE BASEADA NA CLÁSSICA SÉRIE GHOSTS 'N GOBLINS, MAXIMO VS ARMY OF ZIN COLOCA OS JOGADORES NO PAPEL DE MAXIMO, UM MESTRE ESPADACHIM COM UMA PROPENSÃO PARA LUTAR CONTRA CRIATURAS MORTAS-VIVAS. A AÇÃO CONTINUA DE ONDE GHOSTS TO GLORY PAROU, JÁ QUE O HERÓI DO TÍTULO DEVE ABANDONAR SEU REINO PARA PROCURAR SUA NAMORADA DESAPARECIDA. OS DESENVOLVEDORES DA CAPCOM PROMETEM UMA HISTÓRIA MAIS ENVOLVENTE DESTA VEZ E REMOVERAM A TELA CENTRAL, O QUE SIGNIFICA QUE CADA NÍVEL FLUI PARA O PRÓXIMO. SÃO 26 FASES AO TODO, ESPALHADAS POR SEIS AMBIENTES DIFERENTES.
+ COMO NOS JOGOS ANTERIORES DA SÉRIE, MAXIMO USA CUECA BOXER POR BAIXO DA ARMADURA. NO ENTANTO, A ROUPA ÍNTIMA NESTE JOGO NA VERDADE SERVE A UM PROPÓSITO FUNCIONAL QUE VAI ALÉM DO ALÍVIO CÔMICO.
+release: 2004-02-13
+players: 1
+x-id: 22328
+assets.boxFront: ./media/image/Maximo Vs Army Of Zin [22328]-boxart.png
+assets.boxBack: ./media/image/Maximo Vs Army Of Zin [22328]-boxback.png
+assets.cartridge: ./media/image/Maximo Vs Army Of Zin [22328]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Maximo Vs Army Of Zin [22328]-screenshot.png
+assets.video: ./media/videos/Maximo Vs Army Of Zin [22328]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Maximo Vs Army Of Zin [22328]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Maximo Vs Army Of Zin [22328]-titleshot.png
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: MEGA MAN X8 [22378]
+file: ./Mega Man X8 [22378].chd
+developer: VALUEWAVE
+publisher: CAPCOM
+genre: PLATAFORMA / TIRO COM ROLAGEM, PLATAFORMA
+favorite: false
+description: 
+	TAL COMO O SEU ANTECESSOR IMEDIATO, MEGAMAN X8 APRESENTA A SUA ACÇÃO DE TIRO EM PLATAFORMA AO ESTILO 2D NUM MUNDO DE JOGO 3D. MEGA MAN X É ACOMPANHADO NESTA AVENTURA POR DOIS ASSOCIADOS PRÓXIMOS, ZERO E AXLE, E CADA PERSONAGEM TEM DIFERENTES PONTOS FORTES E HABILIDADES. OS JOGADORES PODEM ALTERNAR ENTRE DOIS PERSONAGENS NO CALOR DA BATALHA, PARA RESOLVER UM QUEBRA-CABEÇA DE PLATAFORMA OU DEFENDER UM TIPO ESPECÍFICO DE INIMIGO, E OS DOIS PERSONAGENS NÃO CONTROLADOS PELO JOGADOR TENTARÃO AJUDAR NO COMBATE SE O PERSONAGEM PRINCIPAL FICAR SOBRECARREGADO.
+ PERSONAGENS NÃO CONTROLADOS PELO JOGADOR SE RECUPERAM MAIS RAPIDAMENTE QUANDO O HERÓI NA TELA TEM UM BOM DESEMPENHO. COMO NA MAIORIA DOS JOGOS DA LONGA SÉRIE MEGA MAN, DERROTAR UM CHEFE GANHA A HABILIDADE DE USAR SUA ARMA ESPECIAL. OUTROS INIMIGOS DERROTADOS PODEM DEIXAR PEDAÇOS DE METAL, QUE PODEM SER COLETADOS E USADOS ​​PARA CRIAR POWER-UPS PERSONALIZADOS. ALÉM DOS NÍVEIS DE PLATAFORMA DE ROLAGEM LATERAL, ALGUMAS LUTAS CONTRA CHEFES E OUTROS EVENTOS SÃO JOGADOS A PARTIR DE PERSPECTIVAS ALTERNATIVAS.
+release: 2005-02-11
+players: 1
+x-id: 22378
+assets.boxFront: ./media/image/Mega Man X8 [22378]-boxart.png
+assets.boxBack: ./media/image/Mega Man X8 [22378]-boxback.png
+assets.cartridge: ./media/image/Mega Man X8 [22378]-cartridge.png
+assets.marquee: ./media/image/Mega Man X8 [22378]-marquee.png
+assets.screenshot: ./media/screenshots/Mega Man X8 [22378]-screenshot.png
+assets.video: ./media/videos/Mega Man X8 [22378]-video.mp4
+assets.logo: ./media/image/Mega Man X8 [22378]-wheel.png
+assets.background: ./media/fanart/Mega Man X8 [22378]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Mega Man X8 [22378]-titleshot.png
+assets.bezel: 
+rating: 0.60
+
+collection: ps2
+game: METAL SLUG ANTHOLOGY [22507]
+file: ./Metal Slug Anthology [22507].chd
+developer: TERMINAL REALITY
+publisher: SNK
+genre: TIRO / RUN AND GUN, TIRO
+favorite: false
+description: 
+	A ANTOLOGIA METAL SLUG TRAZ SETE JOGOS LANÇADOS ANTERIORMENTE EM UM ÚNICO PACOTE. O CONJUNTO INCLUI METAL SLUG, METAL SLUG 2, METAL SLUG X, METAL SLUG 3, METAL SLUG 4, METAL SLUG 5 E METAL SLUG 6.
+AÇÃO COOPERATIVA PARA DOIS JOGADORES ESTÁ DISPONÍVEL, E O JOGO TAMBÉM OFERECE DIVERSOS CONTEÚDOS DESBLOQUEÁVEIS E UMA GALERIA BÔNUS COM PÔSTERES E ARTES CLÁSSICAS DOS PERSONAGENS.
+release: 2007-07-06
+players: 1-2
+x-id: 22507
+assets.boxFront: ./media/image/Metal Slug Anthology [22507]-boxart.png
+assets.boxBack: ./media/image/Metal Slug Anthology [22507]-boxback.png
+assets.cartridge: ./media/image/Metal Slug Anthology [22507]-cartridge.png
+assets.marquee: ./media/image/Metal Slug Anthology [22507]-marquee.png
+assets.screenshot: ./media/screenshots/Metal Slug Anthology [22507]-screenshot.png
+assets.video: ./media/videos/Metal Slug Anthology [22507]-video.mp4
+assets.logo: ./media/image/Metal Slug Anthology [22507]-wheel.png
+assets.background: ./media/fanart/Metal Slug Anthology [22507]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Metal Slug Anthology [22507]-titleshot.png
+assets.bezel: 
+rating: 0.60
+
+collection: ps2
+game: MORTAL KOMBAT - SHAOLIN MONKS [22119]
+file: ./Mortal Kombat - Shaolin Monks [22119].chd
+developer: MIDWAY
+publisher: MIDWAY
+genre: LUTA
+favorite: false
+description: 
+	MORTAL KOMBAT: SHAOLIN MONKS É UM JOGO DE AÇÃO E AVENTURA BASEADO NOS EVENTOS DE MORTAL KOMBAT II, COMEÇANDO COM AS CONSEQUÊNCIAS DO PRIMEIRO MORTAL KOMBAT. É O DÉCIMO QUINTO JOGO, MAS É A TERCEIRA PARCELA DO GÊNERO AVENTURA DA SAGA, FOI LANÇADO EM 16 DE SETEMBRO DE 2005 PARA OS CONSOLES PLAYSTATION 2 E XBOX.
+O JOGO GIRA EM TORNO DE DOIS MEMBROS DO TEMPLO SHAOLIN: LIU KANG E KUNG LAO, ENQUANTO VIAJAM PELOS REINOS NA TENTATIVA DE IMPEDIR OS PLANOS DE SHANG TSUNG DE DOMINAR O REINO DA TERRA.
+release: 2005-09-30
+players: 1-2
+x-id: 22119
+assets.boxFront: ./media/image/Mortal Kombat - Shaolin Monks [22119]-boxart.png
+assets.boxBack: ./media/image/Mortal Kombat - Shaolin Monks [22119]-boxback.png
+assets.cartridge: ./media/image/Mortal Kombat - Shaolin Monks [22119]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Mortal Kombat - Shaolin Monks [22119]-screenshot.png
+assets.video: ./media/videos/Mortal Kombat - Shaolin Monks [22119]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Mortal Kombat - Shaolin Monks [22119]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Mortal Kombat - Shaolin Monks [22119]-titleshot.png
+assets.bezel: ./media/image/Mortal Kombat - Shaolin Monks [22119]-bezel.png
+rating: 0.80
+
+collection: ps2
+game: NEED FOR SPEED - UNDERGROUND 2 [21908]
+file: ./Need For Speed - Underground 2 [21908].chd
+developer: ELECTRONIC ARTS
+publisher: EA GAMES
+genre: CORRIDA, PILOTAGEM
+favorite: false
+description: 
+	O POPULAR JOGO NEED FOR SPEED UNDERGROUND FOI ADAPTADO PARA DIFERENTES SISTEMAS COM DISTINTAS CAPACIDADES. NELE, VOCÊ DIRIGE EM UMA CIDADE DIVIDIDA EM 5 ÁREAS DISTINTAS. COMO NAS OUTRAS VERSÕES, O OBJETIVO É DIRIGIR BEM O SUFICIENTE PARA AUMENTAR A SUA REPUTAÇÃO. NESTA VERSÃO, O TRAJETO É PRÉ-DEFINIDO, SEM A EXPLORAÇÃO LIVRE DE OUTRAS VERSÕES. OS CARROS DISPONÍVEIS INCLUEM MÁQUINAS DA VOLKSWAGEN, MITSUBISHI E TOYOTA. HÁ MENOS OPÇÕES DE UPGRADES NESTA VERSÃO, EMBORA A APARÊNCIA E A DIRIGIBILIDADE DO SEU CARRO AINDA POSSAM SER ALTERADAS. A HISTÓRIA NESTA VERSÃO SEGUE UM CAMINHO PREDETERMINADO.
+release: 2004-11-19
+players: 
+x-id: 21908
+assets.boxFront: ./media/image/Need For Speed - Underground 2 [21908]-boxart.png
+assets.boxBack: ./media/image/Need For Speed - Underground 2 [21908]-boxback.png
+assets.cartridge: ./media/image/Need For Speed - Underground 2 [21908]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Need For Speed - Underground 2 [21908]-screenshot.png
+assets.video: ./media/videos/Need For Speed - Underground 2 [21908]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Need For Speed - Underground 2 [21908]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Need For Speed - Underground 2 [21908]-titleshot.png
+assets.bezel: ./media/image/Need For Speed - Underground 2 [21908]-bezel.png
+rating: 0.80
+
+collection: ps2
+game: NEO CONTRA [23060]
+file: ./Neo Contra [23060].chd
+developer: KONAMI
+publisher: KONAMI
+genre: PLATAFORMA / TIRO COM ROLAGEM, PLATAFORMA
+favorite: false
+description: 
+	NEO CONTRA É O DÉCIMO VIDEOGAME DA SÉRIE CONTRA DA KONAMI. FOI DESENVOLVIDO PELA TEAM NEO KIJIRUSHI, UM GRUPO DE MEMBROS DA EQUIPE DA KONAMI COMPUTER ENTERTAINMENT TOKYO, E LANÇADO PARA O PLAYSTATION 2 EM 2004. O JOGO É UMA CONTINUAÇÃO DIRETA DE CONTRA: SHATTERED SOLDIER E É UM DESVIO DA FÓRMULA TRADICIONAL DE SCROLLING SHOOTER DOS JOGOS ANTERIORES.
+release: 2005-02-25
+players: 1-2
+x-id: 23060
+assets.boxFront: ./media/image/Neo Contra [23060]-boxart.png
+assets.boxBack: ./media/image/Neo Contra [23060]-boxback.png
+assets.cartridge: ./media/image/Neo Contra [23060]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Neo Contra [23060]-screenshot.png
+assets.video: ./media/videos/Neo Contra [23060]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Neo Contra [23060]-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.60
+
+collection: ps2
+game: NICKTOONS - ATTACK OF THE TOYBOTS (USA)
+file: ./Nicktoons - Attack of the Toybots (USA).chd
+developer: BLUE TONGUE ENTERTAINMENT
+publisher: THQ
+genre: PLATAFORMA
+favorite: false
+description: 
+	NICKTOONS: ATTACK OF THE TOYBOTS É UM JOGO DE PLATAFORMA DE ROLAGEM LATERAL. ENVOLVE PERSONAGENS POPULARES DE VÁRIAS FRANQUIAS NICKTOONS, COMO BOB ESPONJA CALÇA QUADRADA, TIMMY TURNER, JIMMY NEUTRON, GIR, REN E TAK.  O PROFESSOR CALAMITOUS ALIMENTA SEU EXÉRCITO ALIMENTANDO AS FADAS COM HAMBÚRGUERES DE CARANGUEJO. ISSO FAZ COM QUE ELES EMITAM UM GÁS QUE, QUANDO MISTURADO À ENERGIA FANTASMA, PODE ALIMENTAR ROBÔS. QUANDO PATRICK STAR E BOB ESPONJA CALÇA QUADRADA ENTREGAM UMA GRANDE QUANTIDADE DE HAMBÚRGUERES DE CARANGUEJO EM UMA CASA, TODOS SÃO SUGADOS E ACIDENTALMENTE PATRICK É LEVADO JUNTO. DEPOIS DE SELECIONAR UM PERSONAGEM, OS JOGADORES ATRAVESSAM O INTERIOR DA FÁBRICA DE BRINQUEDOS DO PROFESSOR CALAMITOUS PARA LUTAR CONTRA CÓPIAS MALIGNAS DE ROBÔS DE SI MESMOS.
+players: 2
+x-id: 22988
+assets.boxFront: ./media/image/Nicktoons - Attack of the Toybots (USA)-boxart.png
+assets.boxBack: ./media/image/Nicktoons - Attack of the Toybots (USA)-boxback.png
+assets.cartridge: ./media/image/Nicktoons - Attack of the Toybots (USA)-cartridge.png
+assets.marquee: ./media/image/Nicktoons - Attack of the Toybots (USA)-marquee.png
+assets.screenshot: ./media/screenshots/Nicktoons - Attack of the Toybots (USA)-screenshot.png
+assets.video: ./media/videos/Nicktoons - Attack of the Toybots (USA)-video.mp4
+assets.logo: ./media/image/Nicktoons - Attack of the Toybots (USA)-wheel.png
+assets.background: ./media/fanart/Nicktoons - Attack of the Toybots (USA)-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.60
+
+collection: ps2
+game: NICKTOONS - BATTLE FOR VOLCANO ISLAND (USA)
+file: ./Nicktoons - Battle for Volcano Island (USA).chd
+developer: BLUE TONGUE ENTERTAINMENT
+publisher: THQ
+genre: PLATAFORMA
+favorite: false
+description: 
+	ENCONTRE O HERÓI MAIS ENVOLVENTE EM UMA NOVA AVENTURA COM BOB ESPONJA E SEUS AMIGOS: ATAQUE NA ILHA DO VULCÃO NO PS2. MAWGU, UM EX-DEMÔNIO, AMEAÇA ASSUMIR O CONTROLE DA ILHA DO VULCÃO. NOSSOS HERÓIS FAVORITOS DEVEM EVITAR ISSO A TODO CUSTO! JUNTE-SE A BOB ESPONJA, DANNY PHANTOM, PATRICK, A ESTRELA DO MAR, E TODOS OS SEUS PERSONAGENS FAVORITOS DA NICKELODEON PARA REPELIR MAWGU E SALVAR A ILHA. O TÍTULO PODE SER JOGADO POR 2 PESSOAS EM COOPERAÇÃO!
+release: 2006-10-24
+players: 2
+x-id: 22897
+assets.boxFront: ./media/image/Nicktoons - Battle for Volcano Island (USA)-boxart.png
+assets.boxBack: ./media/image/Nicktoons - Battle for Volcano Island (USA)-boxback.png
+assets.cartridge: ./media/image/Nicktoons - Battle for Volcano Island (USA)-cartridge.png
+assets.marquee: ./media/image/Nicktoons - Battle for Volcano Island (USA)-marquee.png
+assets.screenshot: 
+assets.video: ./media/videos/Nicktoons - Battle for Volcano Island (USA)-video.mp4
+assets.logo: ./media/image/Nicktoons - Battle for Volcano Island (USA)-wheel.png
+assets.background: 
+assets.music: 
+assets.titlescreen: ./media/image/Nicktoons - Battle for Volcano Island (USA)-titleshot.jpg
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: ONIMUSHA - WARLORDS [22049]
+file: ./Onimusha - Warlords [22049].chd
+developer: CAPCOM
+publisher: CAPCOM
+genre: AVENTURA, BRIGA DE RUA
+favorite: false
+description: 
+	EM UM MUNDO REPLETO DE TREVAS E MAGIA, SENHORES DA GUERRA SEDENTOS POR PODER LUTAM PELA SUPREMACIA NO JAPÃO FEUDAL. EM MEIO AO CAOS, A NOBRE PRINCESA YUKIHIME É SEQUESTRADA. UM GUERREIRO SOLITÁRIO, O VALENTE SAMANOSUKE, SE OFERECE PARA RESGATAR E VINGAR A PRINCESA. MAS NESSES TEMPOS SOMBRIOS E MISTERIOSOS, NEM MESMO SAMANOSUKE PERCEBE O QUÃO DESESPERADORA É SUA MISSÃO. UMA LEGIÃO DE GUERREIROS DEMONÍACOS SE COLOCA ENTRE ELE, A PRINCESA E A VITÓRIA FINAL.
+release: 2001-07-06
+players: 1
+x-id: 22049
+assets.boxFront: ./media/image/Onimusha - Warlords [22049]-boxart.png
+assets.boxBack: ./media/image/Onimusha - Warlords [22049]-boxback.png
+assets.cartridge: ./media/image/Onimusha - Warlords [22049]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Onimusha - Warlords [22049]-screenshot.png
+assets.video: ./media/videos/Onimusha - Warlords [22049]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Onimusha - Warlords [22049]-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: SEGA AGES 2500 SERIES VOL. 26 - DYNAMITE DEKA [135258]
+file: ./Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258].chd
+developer: AM1
+publisher: SEGA
+genre: 
+favorite: false
+description: 
+	VERSÕES EMULADAS DAS VERSÕES ARCADE E SATURN DO JOGO DE LUTA 3D DIE HARD ARCADE, NO QUAL ATÉ 2 JOGADORES ASSUMEM O PAPEL DE POLICIAIS DE OPERAÇÕES ESPECIAIS ENCARREGADOS DE LIMPAR UM ARRANHA-CÉU DE TERRORISTAS E RESGATAR A FILHA DO PRESIDENTE QUE ESTÁ DETIDA LÁ.
+OS MODOS DE JOGO DISPONÍVEIS INCLUEM ARCADE (COM GRÁFICOS APRIMORADOS) E SATURNO, BEM COMO UM MODO FÁCIL QUE PODE SER CONCLUÍDO EM POUCOS MINUTOS. MODOS DE JOGO E TRAJES ADICIONAIS PODEM SER DESBLOQUEADOS E, COMO BÔNUS COMPLETAMENTE NÃO RELACIONADO, VOCÊ RECEBE UMA VERSÃO EMULADA DO PRIMEIRO JOGO DA SEGA: PERISCOPE, BEM COMO UMA GALERIA DE IMAGENS COMPLETA COM DESIGNS CONCEITUAIS E ARTE PROMOCIONAL.
+players: 1-2
+x-id: 135258
+assets.boxFront: ./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-boxart.png
+assets.boxBack: ./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-boxback.png
+assets.cartridge: ./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-cartridge.png
+assets.marquee: ./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-marquee.png
+assets.screenshot: ./media/screenshots/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-screenshot.png
+assets.video: ./media/videos/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-video.mp4
+assets.logo: ./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-wheel.png
+assets.background: ./media/fanart/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-titleshot.png
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: SHADOW OF THE COLOSSUS [21887]
+file: ./Shadow Of The Colossus [21887].chd
+developer: SONY COMPUTER ENTERTAINMENT
+publisher: SONY COMPUTER ENTERTAINMENT
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	CHEFES SÃO COMUNS EM JOGOS DE VÍDEO, MAS OS CHEFES SÃO OS PRÓPRIOS NÍVEIS NESTA AVENTURA INCOMUM. DESENVOLVIDO PELO ESTÚDIO QUE CRIOU O ACLAMADO ICO PARA PS2, SHADOW OF THE COLOSSUS É OUTRA AVENTURA DE QUEBRA-CABEÇA TEMÁTICA DE FANTASIA QUE VALORIZA AMBIENTES EXPRESSIVOS E DIÁLOGOS MÍNIMOS. OS JOGADORES ASSUMEM O PAPEL DE UM JOVEM CAVALEIRO QUE PARTE PARA RESGATAR SUA PRINCESA ADORMECIDA DE UM ESTADO DE ANIMAÇÃO SUSPENSA INDUZIDO POR MAGIA. PARA ISSO, ELE PRECISARÁ DERROTAR OS 16 COLOSSOS DO TAMANHO DE PAISAGENS TÃO ENORMES QUE SÓ PODEM SER CONQUISTADOS AO EXPLORÁ-LOS NO ESTILO DE JOGO DE PLATAFORMA, DESCOBRINDO SUAS FRAQUEZAS. CONTRA ALGUNS COLOSSOS, O HERÓI PODE CAVALGAR AO LADO DO MONSTRO EM SEU CAVALO, GALOPANDO A TODA VELOCIDADE APENAS PARA ACOMPANHAR SUAS PASSADAS DE QUILÔMETROS DE EXTENSÃO. OUTROS COLOSSOS EXIGEM QUE O JOGADOR REALMENTE SUBA, RASTEJE, CORRA E SALTE ATRAVÉS DE SEUS CORPOS MACIÇOS PARA ENCONTRAR A VULNERABILIDADE OCULTA QUE PODE SER USADA PARA DERRUBÁ-LOS.
+release: 2006-02-17
+players: 1
+x-id: 21887
+assets.boxFront: ./media/image/Shadow Of The Colossus [21887]-boxart.png
+assets.boxBack: ./media/image/Shadow Of The Colossus [21887]-boxback.png
+assets.cartridge: ./media/image/Shadow Of The Colossus [21887]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Shadow Of The Colossus [21887]-screenshot.png
+assets.video: ./media/videos/Shadow Of The Colossus [21887]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Shadow Of The Colossus [21887]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Shadow Of The Colossus [21887]-titleshot.png
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: Sly 3 - Honour Among Thieves (BR)
+file: ./Sly 3 - Honour Among Thieves (BR).chd
+developer: Sucker Punch Productions
+publisher: Sony Computer Entertainment
+genre: Plataforma
+favorite: false
+description: 
+	Sly e sua turma estão de volta nesta terceira edição da série Sly Raccoon. Desta vez, a história leva os meninos (Sly, Bentley e Murray) à fortaleza que abriga os tesouros da família de Sly. Embora ainda estejam cansados ​​das aventuras do jogo anterior, eles precisam se levantar e enfrentar a nova ameaça que pode significar o fim do negócio de Sly e a perda de sua herança familiar. O jogo em si é muito parecido com os jogos anteriores: Sly foge, pula e balança pelas fases, coletando vários itens, derrotando bandidos e, finalmente, enfrentando o chefe. Os outros membros da gangue entram em ação de vez em quando, mas as seções centradas em Sly são o foco principal do jogo.
+release: 2005-09-26
+players: 1-2
+x-id: 127608
+assets.boxFront: ./media/image/Sly 3 - Honour Among Thieves (BR)-boxart.png
+assets.boxBack: ./media/image/Sly 3 - Honour Among Thieves (BR)-boxback.png
+assets.cartridge: ./media/image/Sly 3 - Honour Among Thieves (BR)-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Sly 3 - Honour Among Thieves (BR)-screenshot.jpg
+assets.video: ./media/videos/Sly 3 - Honour Among Thieves (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Sly 3 - Honour Among Thieves (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sly 3 - Honour Among Thieves (BR)-titleshot.jpg
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: Sonic Riders Zero Gravity (BR)
+file: ./Sonic Riders Zero Gravity (BR).chd
+developer: Sonic Team
+publisher: SEGA
+genre: Corrida, Pilotagem
+favorite: false
+description: 
+	Sonic Riders: Zero Gravity é um jogo de corridas de pranchas anti-gravidade no universo Sonic e é a sequela de Sonic Riders. Quando quatro misteriosos meteoritos caem no planeta, eles acidentalmente ativam os robôs da MeteorTech em todo o mundo que esta em um tumulto. Cabe ao Equipe Sonic descobrir o mistério por trás da MeteorTech e por que os robôs estão indo atrás dos meteoritos.		Em comparação com o jogo anterior, esta edição apresenta algumas novas habilidades. Ao realizar manobras e completar desafios, os pontos de gravidade podem ser ganhos. Isso permite que o Gravity Dive abra um buraco negro, sugando o jogador e, assim, proporcionando maior velocidade e Gravity Control. Ao alterar a gravidade, caminhos alternativos podem ser usados ??através de paredes e outras superfícies. Um terceiro é chamado Gravity Drift. Assim como o movimento Grip no jogo anterior, os personagens podem usá-lo para fazer curvas fechadas nos cantos. Existem vários itens, obstáculos no percurso e diferentes veículos, como pranchas; tapetes; nuvens, motos; patins e outros veículos. Todos podem ser aprimorados, mesmo durante as corridas.		Os três novos modos de jogo são o Survival Mode (esmagar adversários em certas partes de uma pista), Survival Relay (campos de revezamento com vários jogadores) e Survival Ball (jogo de futebol). Há dezesseis percursos com duas pistas cada, sessenta veículos diferentes e dezoito personagens jogáveis, dos quais a maioria precisa ser desbloqueada. Eles são divididos em três categorias (Speed, Fly e Power) e possuem equipamentos personalizados que permitem a utilização de atalhos específicos.
+release: 2008-01-08
+players: 2-4
+x-id: 22573
+assets.boxFront: ./media/image/Sonic Riders Zero Gravity (BR)-boxart.png
+assets.boxBack: ./media/image/Sonic Riders Zero Gravity (BR)-boxback.png
+assets.cartridge: ./media/image/Sonic Riders Zero Gravity (BR)-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Sonic Riders Zero Gravity (BR)-screenshot.jpg
+assets.video: ./media/videos/Sonic Riders Zero Gravity (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Sonic Riders Zero Gravity (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.60
+
+collection: ps2
+game: Speed Racer (BR)
+file: ./Speed Racer (BR).chd
+developer: Sidhe Interactive
+publisher: Warner Bros. Games
+genre: Corrida, Pilotagem
+favorite: false
+description: 
+	Speed ​​Racer é baseado no filme de mesmo nome dos irmãos Wachowski, que por sua vez é baseado em uma série de anime japonesa da década de 1960. O enredo principal é baseado na vitória da Copa da Liga Mundial de Corrida. Esta adaptação de videogame concentra-se no aspecto de corrida do filme e é o primeiro jogo de terceiros para Wii a oferecer suporte ao Wii Wheel. Mais de 15 personagens do filme são representados como pilotos jogáveis ​​no jogo e os veículos do filme podem ser selecionados no menu do jogo. As velocidades máximas durante as corridas podem exceder 350 MPH.		As pistas de corrida apresentam loops, saltos, saca-rolhas e muitas voltas e mais voltas. Todos eles têm um visual de alta tecnologia com cores brilhantes. O jogo oferece multijogador em tela dividida, além de corridas para um jogador. Os motoristas podem entrar em combate durante as corridas empregando manobras "car-fu", como "arremesso de cauda", "boost bash", "smack down", "round house" e "torpedo", entre outras.
+release: 2008-09-16
+players: 2
+x-id: 22901
+assets.boxFront: ./media/image/Speed Racer (BR)-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Speed Racer (BR)-screenshot.jpg
+assets.video: ./media/videos/Speed Racer (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Speed Racer (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.60
+
+collection: ps2
+game: SPIDER-MAN - FRIEND OR FOE [22411]
+file: ./Spider-Man - Friend Or Foe [22411].chd
+developer: NEXT LEVEL GAMES
+publisher: ACTIVISION
+genre: PLATAFORMA / COMBATE COM ROLAGEM, PLATAFORMA
+favorite: false
+description: 
+	O HOMEM-ARANHA SE VÊ ASSOLADO PELOS VILÕES DO FILME. ELE GANHA A AJUDA DO NOVO DUENDE ENQUANTO COMBATE O DUENDE VERDE, O DOUTOR OCTOPUS, O HOMEM-AREIA E O VENOM. TODOS OS SEIS PERSONAGENS DE REPENTE SÃO ALVO DE UMA FORÇA INIMIGA E, UM POR UM, OS VILÕES COMEÇAM A DESAPARECER. ENQUANTO ISSO, O HOMEM-ARANHA É RESGATADO POR NICK FURY DA S.H.I.E.L.D., QUE O INFORMA QUE O METEORO QUE TROUXE O SIMBIONTE VENOM PARA A TERRA SE QUEBROU NA ATMOSFERA TERRESTRE E MAIS CINCO PEDAÇOS POUSARAM EM VÁRIOS LOCAIS DO GLOBO. FURY ENVIA O HOMEM-ARANHA PARA RECUPERAR OS FRAGMENTOS DE METEOROS. O HOMEM-ARANHA RAPIDAMENTE DESCOBRE QUE OS VILÕES QUE O ATACARAM E VÁRIOS OUTROS INIMIGOS, INCLUINDO RHINO E SCORPION, FORAM COLOCADOS SOB O CONTROLE MENTAL DE UM VILÃO MISTERIOSO. O VILÃO TAMBÉM CRIA E CONTROLA SOLDADOS DE INFANTARIA COMBINADOS HOLOGRÁFICOS/SIMBIONTES CHAMADOS P.H.A.N.T.O.M.S (ABREVIAÇÃO DE PERPETUAL HOLOGRAPHIC AVATAR NANO-TECH OFFENSIVE MONSTERS). ENQUANTO O HOMEM-ARANHA LUTA CONTRA SEUS INIMIGOS UM POR UM E OS RESGATA DO CONTROLE MENTAL, ELES PROMETEM AJUDÁ-LO A ENCONTRAR O VILÃO RESPONSÁVEL. CONFORME O HOMEM-ARANHA AVANÇA, ELE OBTÉM MAIS ALIADOS, COMO GATO PRETO, PUNHO DE FERRO, LAGARTO (NÃO RETRATADO COMO VILÃO) E BLADE. ELE DESCOBRE QUE O GÊNIO DO MAL É MYSTERIO, QUE PRETENDE USAR SEU EXÉRCITO PARA DOMINAR O MUNDO, UTILIZANDO CADA FRAGMENTO DO METEORO PARA TORNÁ-LOS MAIS FORTES. O HOMEM-ARANHA DECIDE VESTIR TEMPORARIAMENTE O TRAJE PRETO PARA A BATALHA FINAL.
+release: 2007-10-02
+players: 2
+x-id: 22411
+assets.boxFront: ./media/image/Spider-Man - Friend Or Foe [22411]-boxart.png
+assets.boxBack: ./media/image/Spider-Man - Friend Or Foe [22411]-boxback.png
+assets.cartridge: ./media/image/Spider-Man - Friend Or Foe [22411]-cartridge.png
+assets.marquee: ./media/image/Spider-Man - Friend Or Foe [22411]-marquee.png
+assets.screenshot: 
+assets.video: ./media/videos/Spider-Man - Friend Or Foe [22411]-video.mp4
+assets.logo: ./media/image/Spider-Man - Friend Or Foe [22411]-wheel.png
+assets.background: ./media/fanart/Spider-Man - Friend Or Foe [22411]-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.60
+
+collection: ps2
+game: SPIDER-MAN 2 [22100]
+file: ./Spider-Man 2 [22100].chd
+developer: TREYARCH
+publisher: ACTIVISION
+genre: AÇÃO / AVENTURA, AÇÃO
+favorite: false
+description: 
+	JÁ SE PASSARAM DOIS ANOS APÓS OS EVENTOS DO PRIMEIRO JOGO. O HOMEM-ARANHA ESTÁ TENTANDO EQUILIBRAR SUA VIDA CIVIL E DE SUPER-HERÓI, FREQUENTEMENTE ATRASADO OU AUSENTE DA ESCOLA, DO TRABALHO E DO LAZER COM SEUS AMIGOS. APÓS O JANTAR COM MARY JANE WATSON, PETER FRUSTRA UM SAQUE ARMADO A UM MUSEU DE ARTE E RASTREIA UM LADRÃO FUGITIVO, O GATO PRETO. LOGO DEPOIS DISSO, ELE FRUSTRA UM ATAQUE DO THE RHINO NAS RUAS DE MANHATTAN. ENQUANTO ISSO, O DOUTOR OTTO OCTAVIUS ​​TENTA RECRIAR A FUSÃO NUCLEAR VISTA NO SOL PARA FORNECER UMA FONTE DE ENERGIA PARA MANHATTAN. PARA CONTROLAR ESTA FUSÃO, ELE CRIA QUATRO BRAÇOS DE METAL QUE PODE CONTROLAR MENTALMENTE. SUA FUSÃO CRIA UM FORTE CAMPO MAGNÉTICO, DESTRUINDO O LABORATÓRIO, MATANDO SUA ESPOSA ROSIE E ENXERTANDO SEUS BRAÇOS DE METAL EM SUA COLUNA E DANDO A SEUS BRAÇOS O CONTROLE SOBRE ELE. ELE CULPA O HOMEM-ARANHA PELO INCIDENTE, APESAR DO FATO DE O HOMEM-ARANHA NÃO ESTAR NO LABORATÓRIO ATÉ O MEIO DO INCIDENTE.
+release: 2004-07-09
+players: 1
+x-id: 22100
+assets.boxFront: ./media/image/Spider-Man 2 [22100]-boxart.png
+assets.boxBack: ./media/image/Spider-Man 2 [22100]-boxback.png
+assets.cartridge: ./media/image/Spider-Man 2 [22100]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Spider-Man 2 [22100]-screenshot.jpg
+assets.video: ./media/videos/Spider-Man 2 [22100]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Spider-Man 2 [22100]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Spider-Man 2 [22100]-titleshot.jpg
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: SPONGEBOB SQUAREPANTS - BATTLE FOR BIKINI BOTTOM (BR)
+file: ./SpongeBob SquarePants - Battle for Bikini Bottom (BR).chd
+developer: HEAVY IRON
+publisher: THQ
+genre: PLATAFORMA
+favorite: false
+description: 
+	O MAIS RECENTE ESQUEMA DIABÓLICO DE PLANKTON PARA ROUBAR A FÓRMULA DO KRABBY PATTY DEPENDE DA CRIAÇÃO DE UM EXÉRCITO DE ROBÔS MALVADOS, QUE CUMPRIRÃO SUAS ORDENS. MAS COMO PLANKTON SE ESQUECEU DE ACIONAR O BOTÃO "OBEDEÇA PLANKTON", O EXÉRCITO DE ROBÔS ENLOUQUECEU E ESTÁ ATERRORIZANDO A FENDA DO BIQUÍNI. AJUDE BOB ESPONJA, PATRICK E SANDY A SALVAR A FENDA DO BIQUÍNI!
+ BOB ESPONJA CALÇA QUADRADA RETORNA AO PS2 NESTE JOGO DE PLATAFORMA 3D ESTRELADO PELOS PERSONAGENS DO PROGRAMA INFANTIL DE MAIOR AUDIÊNCIA DA NICKELODEON. PARA SUA SEGUNDA AVENTURA, BOB ESPONJA DEVE MAIS UMA VEZ SALVAR O MUNDO SUBAQUÁTICO DA FENDA DO BIQUÍNI – DESTA VEZ DO PODER DO PLÂNCTON CONSPIRADOR. NO ENTANTO, BOB ESPONJA NÃO FICARÁ DESANIMADO EM SUA BUSCA. JUNTANDO-SE À CAUSA ESTÃO OS AMIGOS ÍNTIMOS PATRICK STARFISH E SANDY CHEEKS, CADA UM DOS QUAIS É JOGÁVEL E OFERECE MOVIMENTOS E HABILIDADES DISTINTAS. À MEDIDA QUE OS JOGADORES PERSEGUEM PLANKTON, ELES SERÃO CAPAZES DE REALIZAR ATOS HERÓICOS COMO DESLIZAR A LÍNGUA MONTANHA ABAIXO, FAZER BUNGEE JUMPING DE PENHASCOS OU CAVALGAR PELAS PROFUNDEZAS DA ÁGUA DENTRO DE UMA BOLHA DE CRUZEIRO.
+release: 2003-11-28
+players: 1
+x-id: 22951
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/SpongeBob SquarePants - Battle for Bikini Bottom (BR)-screenshot.png
+assets.video: ./media/videos/SpongeBob SquarePants - Battle for Bikini Bottom (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/SpongeBob SquarePants - Battle for Bikini Bottom (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.60
+
+collection: ps2
+game: TEENAGE MUTANT NINJA TURTLES (USA)
+file: ./Teenage Mutant Ninja Turtles (USA).chd
+developer: KCE
+publisher: KONAMI
+genre: LUTA / 3D, LUTA
+favorite: false
+description: 
+	SEJA SUA TARTARUGA NINJA ADOLESCENTE MUTANTE FAVORITA E DOMINE SUAS HABILIDADES NINJA EM SEU MUNDO CHEIO DE AÇÃO. PERCORRA AS RUAS DE NOVA YORK, VASCULHE ESGOTOS SUBTERRÂNEOS E ABRA CAMINHO PELOS TELHADOS EM ROTA DE COLISÃO COM O DESTRUIDOR E SEU VIL BANDO DE NINJAS A PÉ. ENCONTRE PERGAMINHOS PARA DESBLOQUEAR MOVIMENTOS E EFEITOS DE ATAQUE ESPECIAIS. INTERAJA COM PERSONAGENS DA SÉRIE ANIMADA DE TELEVISÃO, COMO SPLINTER E CASEY JONES. NÃO SE ESCONDA EM SUA CONCHA – SEJA UM HERÓI.
+release: 2004-04-16
+players: 1-2
+x-id: 127237
+assets.boxFront: ./media/image/Teenage Mutant Ninja Turtles (USA)-boxart.png
+assets.boxBack: ./media/image/Teenage Mutant Ninja Turtles (USA)-boxback.png
+assets.cartridge: ./media/image/Teenage Mutant Ninja Turtles (USA)-cartridge.png
+assets.marquee: ./media/image/Teenage Mutant Ninja Turtles (USA)-marquee.png
+assets.screenshot: ./media/screenshots/Teenage Mutant Ninja Turtles (USA)-screenshot.jpg
+assets.video: ./media/videos/Teenage Mutant Ninja Turtles (USA)-video.mp4
+assets.logo: ./media/image/Teenage Mutant Ninja Turtles (USA)-wheel.png
+assets.background: ./media/fanart/Teenage Mutant Ninja Turtles (USA)-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.60
+
+collection: ps2
+game: TEKKEN 5 [21964]
+file: ./Tekken 5 [21964].chd
+developer: NAMCO
+publisher: NAMCO
+genre: LUTA / VERSUS, LUTA / 2.5D, LUTA
+favorite: false
+description: 
+	EM TEKKEN 5, JIN KAZAMA LIDERA UM TORNEIO PARA DETERMINAR O FUTURO DA MISHIMA ZAIBATSU. DOMINE UM SISTEMA DE COMBATE REFINADO COM SEIS BOTÕES, EXECUTE COMBOS DEVASTADORES E LUTE CONTRA MAIS DE 30 PERSONAGENS ICÔNICOS COMO XIAOYU, STEVE FOX E NOVOS LUTADORES COMO LILI E FENG WEI. EXPLORE DIVERSOS MODOS DE JOGO, PERSONALIZE SEU PERSONAGEM E VIVA BATALHAS ÉPICAS EM ALTA DEFINIÇÃO. TEKKEN 5 OFERECE JOGABILIDADE VICIANTE, GRÁFICOS IMPRESSIONANTES E UMA EXPERIÊNCIA DE LUTA INESQUECÍVEL!
+release: 2005-02-24
+players: 1-2
+x-id: 21964
+assets.boxFront: ./media/image/Tekken 5 [21964]-boxart.png
+assets.boxBack: ./media/image/Tekken 5 [21964]-boxback.png
+assets.cartridge: ./media/image/Tekken 5 [21964]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Tekken 5 [21964]-screenshot.png
+assets.video: ./media/videos/Tekken 5 [21964]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Tekken 5 [21964]-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: THE INCREDIBLES RISE OF THE UNDERMINER (BR)
+file: ./The Incredibles Rise Of The Underminer (BR).chd
+developer: HEAVY IRON
+publisher: THQ
+genre: PLATAFORMA
+favorite: false
+description: 
+	APÓS A DERROTA DE SÍNDROME PELOS INCRÍVEIS NA APRESENTAÇÃO DA WALT DISNEY PICTURES DO FILME DA PIXAR ANIMATION STUDIOS, UMA NOVA AMEAÇA EMERGE SOB O SOLO COM UMA TRAMA DIABÓLICA PARA POLUIR AS PRINCIPAIS CIDADES DO MUNDO E GOVERNAR A HUMANIDADE DE BAIXO PARA CIMA. OS FÃS PODERÃO CONTINUAR DE ONDE O FILME PAROU E REVIVER OS DIAS DE GLÓRIA COMO MR. INCREDIBLE E FROZONE, MELHORES AMIGOS SUPER-HERÓIS QUE SE UNEM PARA ENFRENTAR UM NOVO VILÃO, O ESCAVADOR
+release: 2005-11-11
+players: 1-2
+x-id: 22769
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/The Incredibles Rise Of The Underminer (BR)-screenshot.png
+assets.video: ./media/videos/The Incredibles Rise Of The Underminer (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/The Incredibles Rise Of The Underminer (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.60
+
+collection: ps2
+game: THE RED STAR [23326]
+file: ./The Red Star [23326].chd
+developer: XS GAMES
+publisher: TAKE 2 INTERACTIVE
+genre: BRIGA DE RUA, SHOOT'EM UP
+favorite: false
+description: 
+	ESTE JOGO É UMA MISTURA DE DIFERENTES TIPOS DE JOGOS. FOI DESCRITO COMO UM JOGO DE LUTA, AÇÃO E TIRO REUNIDOS EM UM SÓ. OS ELEMENTOS DE RPG TAMBÉM SÃO APARENTES, POIS OS JOGADORES TÊM A OPÇÃO DE ATUALIZAR CERTOS ATRIBUTOS DE UM PERSONAGEM, DEPENDENDO DE QUÃO BEM OS NÍVEIS SÃO CONCLUÍDOS.
+ESTA HISTÓRIA É BASEADA NA HISTÓRIA EM QUADRINHOS THE RED STAR, AMBIENTADA EM UMA UNIÃO SOVIÉTICA FUTURÍSTICA QUE USA MAGIA, QUE USA SKYFURNACES FLUTUANTES (NAVIOS MÁGICOS GIGANTESCOS, QUE LEMBRAM DIRIGÍVEIS TOTALMENTE METÁLICOS) E WARKASTERS (FEITICEIROS) PARA CONQUISTAR SEUS INIMIGOS.
+release: 2007-04-20
+players: 2
+x-id: 23326
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/The Red Star [23326]-screenshot.jpg
+assets.video: ./media/videos/The Red Star [23326]-video.mp4
+assets.logo: 
+assets.background: 
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.60
+
+collection: ps2
+game: The Simpsons Hit & Run (BR)
+file: ./The Simpsons Hit & Run (BR).chd
+developer: Radical Entertainment
+publisher: Sierra
+genre: Corrida, Pilotagem
+favorite: false
+description: 
+	Explore Springfield como seus personagens favoritos dos Simpsons enquanto desvenda a trama que ameaça a própria existência da cidade. Jogue como Homer, Bart, Marge, Lisa e Apu em mais de 56 missões de direção e a pé em sete níveis desafiadores. Dirija em 40 dos melhores veículos de Springfield, incluindo o Sr. Plough e o Canyonero. Desbloqueie o modo multijogador para jogar contra outros três jogadores. O mundo dos Simpsons tem muitas piadas e surpresas reservadas para você.
+release: 2003-11-21
+players: 1-4
+x-id: 22052
+assets.boxFront: ./media/image/The Simpsons Hit & Run (BR)-boxart.png
+assets.boxBack: ./media/image/The Simpsons Hit & Run (BR)-boxback.png
+assets.cartridge: ./media/image/The Simpsons Hit & Run (BR)-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/The Simpsons Hit & Run (BR)-screenshot.jpg
+assets.video: ./media/videos/The Simpsons Hit & Run (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/The Simpsons Hit & Run (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/The Simpsons Hit & Run (BR)-titleshot.jpg
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: THE WARRIORS [22047]
+file: ./The Warriors [22047].chd
+developer: ROCKSTAR GAMES
+publisher: TAKE 2 INTERACTIVE
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	THE WARRIORS É UM JOGO DE AÇÃO NO PLAYSTATION 2. VOCÊ JOGA COMO VÁRIOS MEMBROS DA GANGUE WARRIORS INJUSTAMENTE ACUSADOS ​​DE MATAR UM MEMBRO DO GENG RIVAL.  CABE A VOCÊ FAZER CUMPRIR SUA LEI, A DAS ARMAS E DA FORÇA.
+release: 2005-10-17
+players: 1-2
+x-id: 22047
+assets.boxFront: ./media/image/The Warriors [22047]-boxart.png
+assets.boxBack: ./media/image/The Warriors [22047]-boxback.png
+assets.cartridge: ./media/image/The Warriors [22047]-cartridge.png
+assets.marquee: ./media/image/The Warriors [22047]-marquee.png
+assets.screenshot: ./media/screenshots/The Warriors [22047]-screenshot.png
+assets.video: ./media/videos/The Warriors [22047]-video.mp4
+assets.logo: ./media/image/The Warriors [22047]-wheel.png
+assets.background: ./media/fanart/The Warriors [22047]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/The Warriors [22047]-titleshot.jpg
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: TIMESPLITTERS - FUTURE PERFECT [22041]
+file: ./Timesplitters - Future Perfect [22041].chd
+developer: FREE RADICAL DESIGN
+publisher: EA GAMES
+genre: TIRO / TIRO EM 1ª PESSOA, TIRO
+favorite: false
+description: 
+	EM TIMESPLITTERS: FUTURE PERFECT, A HUMANIDADE ESTÁ À BEIRA DA DESTRUIÇÃO PELOS MALVADOS TIMESPLITTERS. COM A AJUDA DE ALGUNS ROSTOS FAMILIARES, CORTEZ – O HERÓI DURÃO DOS EPISÓDIOS ANTERIORES – DEVE PERSEGUIR UM INIMIGO MISTERIOSO EM DIFERENTES PERÍODOS DE TEMPO PARA RASTREAR AS ORIGENS DOS TIMESPLITTERS.NNNNCOMO CORTEZ, VOCÊ TERÁ ACESSO A ARMAS, DISPOSITIVOS, PERSONAGENS E AMBIENTES QUE SÃO ÚNICOS PARA CADA PERÍODO DE TEMPO. VOCÊ TAMBÉM PODE CORRIGIR OS ERROS COMETIDOS NO PASSADO OU FORMAR EQUIPES COM VERSÕES PASSADAS E FUTURAS DE VOCÊ MESMO EM BATALHAS.
+release: 2005-03-24
+players: 
+x-id: 22041
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: ./media/image/Timesplitters - Future Perfect [22041]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Timesplitters - Future Perfect [22041]-screenshot.jpg
+assets.video: ./media/videos/Timesplitters - Future Perfect [22041]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Timesplitters - Future Perfect [22041]-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Timesplitters - Future Perfect [22041]-titleshot.png
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: TRUE CRIME - NEW YORK CITY [22030]
+file: ./True Crime - New York City [22030].chd
+developer: LUXOFLUX
+publisher: ACTIVISION
+genre: CORRIDA, PILOTAGEM
+favorite: false
+description: 
+	SEJA UM POLICIAL BOM OU UM POLICIAL MAU NO JOGO DE AÇÃO DE RUA TRUE CRIME: NEW YORK CITY. VOCÊ PODE EXPLORAR AS RUAS AUTENTICAMENTE MODELADAS DA CIDADE DE NOVA YORK COMO UM POLICIAL RASTREANDO CRIMINOSOS E ADMINISTRANDO JUSTIÇA. O JOGO APRESENTA UM CONJUNTO DIVERSIFICADO DE ARMAS, BEM COMO UMA OFERTA MISTA DE ESTILOS DE LUTA QUE VOCÊ PODE USAR PARA ELIMINAR AQUELES QUE ESTÃO EM SEU CAMINHO. ALÉM DO COMBATE A PÉ, O JOGO TRAZ SEQUÊNCIAS DE CONDUÇÃO E TIROTEIOS. LAURENCE FISHBURNE, CHRISTOPHER WALKEN E MICKEY ROURKE TAMBÉM CONTRIBUEM COM SEU TALENTO VOCAL PARA O JOGO.
+release: 2005-11-25
+players: 1
+x-id: 22030
+assets.boxFront: ./media/image/True Crime - New York City [22030]-boxart.png
+assets.boxBack: ./media/image/True Crime - New York City [22030]-boxback.png
+assets.cartridge: ./media/image/True Crime - New York City [22030]-cartridge.png
+assets.marquee: 
+assets.screenshot: 
+assets.video: ./media/videos/True Crime - New York City [22030]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/True Crime - New York City [22030]-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: URBAN REIGN [22586]
+file: ./Urban Reign [22586].chd
+developer: NAMCO
+publisher: NAMCO
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	URBAN REIGN É UM JOGO DE LUTA EM 3D PRODUZIDO PELA NAMCO, FEITO NO ESTILO DE DOUBLE DRAGON E FINAL FIGHT. A HISTÓRIA ACOMPANHA BRAD HAWK, UM CAPANGA CONTRATADO QUE TENTA ENCONTRAR UM MEMBRO DE GANGUE CAPTURADO POR UM GRUPO RIVAL.
+EM CADA FASE, VOCÊ ENFRENTA VÁRIOS BRUTAMONTES DAS MUITAS GANGUES DE GREEN HARBOR EM BUSCA DE PISTAS. É POSSÍVEL CONTAR COM DIFERENTES ALIADOS, QUE PODEM RECEBER COMANDOS E POSSUEM HABILIDADES EM DIVERSAS TÉCNICAS DE LUTA, AJUDANDO A CUMPRIR SEUS OBJETIVOS ENQUANTO VOCÊ AVANÇA POR 100 FASES.
+HÁ VÁRIOS TIPOS DE COMBOS E GOLPES ESPECIAIS, ALÉM DE OBJETOS QUE PODEM SER USADOS COMO ARMAS, E TAMBÉM É POSSÍVEL DESVIAR DOS ATAQUES INIMIGOS COM MOVIMENTOS DE ESQUIVA.
+release: 2005-09-13
+players: 1-4
+x-id: 22586
+assets.boxFront: ./media/image/Urban Reign [22586]-boxart.png
+assets.boxBack: ./media/image/Urban Reign [22586]-boxback.png
+assets.cartridge: ./media/image/Urban Reign [22586]-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Urban Reign [22586]-screenshot.png
+assets.video: ./media/videos/Urban Reign [22586]-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Urban Reign [22586]-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.80
+
+collection: ps2
+game: X-MEN LEGENDS (USA)
+file: ./X-Men Legends (USA).chd
+developer: RAVEN SOFTWARE
+publisher: ACTIVISION
+genre: JOGOS DE RPG
+favorite: false
+description: 
+	X-MEN ENTRA NO REINO DOS JOGOS DE RPG COM UMA HISTÓRIA INTENSA, AÇÃO DE SUPER-HERÓIS E MODOS MULTIJOGADOR. A HISTÓRIA DE X-MEN LEGENDS COMEÇA QUANDO OS X-MEN DESCOBREM QUE MAGNETO ELABOROU UM PLANO PARA DAR AOS MUTANTES O PODER DE REINAR SUPREMO SOBRE OS HUMANOS. PARA SALVAR A RAÇA HUMANA DA PRISÃO, VOCÊ FORMA UMA EQUIPE DE QUATRO PESSOAS DE UMA LISTA DE PERSONAGENS DOS X-MEN, INCLUINDO STORM, GAMBIT E WOLVERINE. COMPLETE CADA MISSÃO PARA FORTALECER SUA EQUIPE E DESBLOQUEAR MAIS PERSONAGENS, FANTASIAS E TESOUROS.
+release: 2004-10-22
+players: 
+x-id: 22598
+assets.boxFront: ./media/image/X-Men Legends (USA)-boxart.png
+assets.boxBack: ./media/image/X-Men Legends (USA)-boxback.png
+assets.cartridge: ./media/image/X-Men Legends (USA)-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/X-Men Legends (USA)-screenshot.jpg
+assets.video: ./media/videos/X-Men Legends (USA)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/X-Men Legends (USA)-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/X-Men Legends (USA)-titleshot.jpg
+assets.bezel: 
+rating: 0.80
+

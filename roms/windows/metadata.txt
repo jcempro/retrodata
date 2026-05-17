@@ -1,0 +1,667 @@
+collection: windows
+game: BLAZING CHROME (BR)
+file: ./Blazing Chrome (BR) v28.09.2019/Blazing Chrome (BR).pc
+developer: ALLONE WORKS
+publisher: ARCADE CREW, THE
+genre: TIRO / RUN AND GUN, TIRO
+favorite: false
+description: 
+	AVANCE POR 5 AMBIENTES APOCALÍPTICOS COM CENTENAS DE ROBÔS-INIMIGOS PARA EXPLODIR EM PEDAÇOS. ABRA CAMINHO ATRAVÉS DAS LINHAS INIMIGAS E TENTE DERROTAR UM BANDO DE CHEFES MECÂNICOS USANDO HOVERBIKES, ENORMES ARMADURAS E TODO UM ARSENAL DE ARMAS INCRÍVEIS.
+release: 2019-07-11
+players: 1-2
+x-id: 251501
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Blazing Chrome (BR)-screenshot.jpg
+assets.video: ./media/videos/Blazing Chrome (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Blazing Chrome (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.60
+
+collection: windows
+game: BLUR (BR)
+file: ./Blur (BR)/Blur (BR).pc
+developer: BIZARRE CREATIONS
+publisher: ACTIVISION
+genre: CORRIDA, PILOTAGEM
+favorite: false
+description: 
+	BLUR MISTURA CORRIDAS E COMBATE MOTORIZADO. O JOGO PERMITE-TE CONTROLAR MODELOS DE CARROS REAIS MODIFICADOS PARA O SISTEMA DE CORRIDAS. CADA MODELO É CARACTERIZADO POR CINCO CRITÉRIOS: VELOCIDADE MÁXIMA, ACELERAÇÃO, ADERÊNCIA, CONTROLO E SAÚDE (RESISTÊNCIA AO CHOQUE). AS CORRIDAS DESENROLAM-SE EM VÁRIOS AMBIENTES URBANOS OU SEMI-URBANOS (CIDADE, DOCAS, PISTAS DE AEROPORTO, ETC.).
+DEPENDENDO DO MODO DE JOGO, PODES CORRER SOZINHO OU EM ESTAFETAS. UTILIZANDO BÓNUS, FAZENDO ACROBACIAS E DOMINANDO, PODES GANHAR "PONTOS DE FÃ", QUE TE DÃO ACESSO A NOVOS MODELOS E AJUDAM A TUA CARREIRA.
+release: 2010-05-25
+players: 1-4
+x-id: 280340
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Blur (BR)-screenshot.jpg
+assets.video: ./media/videos/Blur (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Blur (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 
+
+collection: windows
+game: BROFORCE (BR)
+file: ./Broforce (BR)/Broforce (BR).pc
+developer: FREE LIVES
+publisher: DEVOLVER DIGITAL
+genre: TIRO / RUN AND GUN, TIRO
+favorite: false
+description: 
+	BROFORCE É UM JOGO 2D QUE PARODIA OS HERÓIS E MUNDOS DOS FILMES DE AÇÃO DOS ANOS 80 E 90.
+BROFORCE CONSISTE EM NAVEGAR POR NÍVEIS AMPLAMENTE DESTRUTÍVEIS PARA CHEGAR A UM HELICÓPTERO, GERALMENTE DEPOIS DE MATAR UM CHEFE OU UM DEMÔNIO VESTIDO DE HOMEM DE NEGÓCIOS. O JOGADOR CONTROLA UM PERSONAGEM SELECIONADO ALEATORIAMENTE ENTRE OS DISPONÍVEIS. AO LONGO DO NÍVEL, O JOGADOR PODE LIBERTAR PRISIONEIROS, O QUE LHE PERMITE RESSUSCITAR UM ALIADO OU, SE NECESSÁRIO, RECUPERAR UMA VIDA E MUDAR O PERSONAGEM QUE ESTÁ CONTROLANDO. CADA PERSONAGEM É JOGADO À SUA MANEIRA, COM VARIAÇÕES DE VELOCIDADE DE MOVIMENTO, SALTO, FOGO PRINCIPAL, FOGO SECUNDÁRIO E ATAQUE CORPO A CORPO.
+release: 2014-04-07
+players: 1-4
+x-id: 281416
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Broforce (BR)-screenshot.jpg
+assets.video: ./media/videos/Broforce (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Broforce (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Broforce (BR)-titleshot.jpg
+assets.bezel: 
+rating: 
+
+collection: windows
+game: CASTLE CRASHERS (PT)
+file: ./Castle Crashers (PT) 3.1/Castle Crashers (PT).pc
+developer: THE BEHEMOTH
+publisher: THE BEHEMOTH
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	CASTLE CRASHERS É UM BEAT-EM-UP DE ROLAGEM LATERAL ENVOLVENDO CAVALEIROS QUE PRECISAM RECUPERAR UMA JOIA ROUBADA E MUITAS PRINCESAS PARA SEU REI. USANDO UM ESTILO DESENHADO À MÃO COMO VISTO EM ALIEN HOMINID, OS JOGADORES PODEM INICIALMENTE ESCOLHER ENTRE QUATRO CAVALEIROS DIFERENTES COM ESTILOS DE LUTA SEPARADOS, JUNTO COM O ALIENÍGENA DE ALIEN HOMINID. OUTROS PERSONAGENS (20 NO TOTAL) SÃO DESBLOQUEADOS OU DESCOBERTOS POSTERIORMENTE NO DECORRER DO JOGO. EMBORA O JOGO POSSA SER JOGADO POR UM ÚNICO JOGADOR, ATÉ QUATRO JOGADORES PODEM LUTAR JUNTOS NA MESMA TELA NOS MODOS DE JOGO COOPERATIVOS, TANTO OFFLINE QUANTO ONLINE. ALGUNS ELEMENTOS NOS NÍVEIS SÓ PODEM SER ATIVADOS OU INTERAGIDOS POR PERSONAGENS ESPECÍFICOS.
+release: 2012-09-26
+players: 1-4
+x-id: 282982
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Castle Crashers (PT)-screenshot.jpg
+assets.video: ./media/videos/Castle Crashers (PT)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Castle Crashers (PT)-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Castle Crashers (PT)-titleshot.jpg
+assets.bezel: 
+rating: 
+
+collection: windows
+game: CASTLE OF ILLUSION (BR)
+file: ./Castle of Illusion (BR)/Castle Of Illusion (BR).pc
+developer: SEGA
+publisher: SEGA
+genre: AÇÃO, PLATAFORMA / CORRE E PULA COM ROLAGEM, PLATAFORMA
+favorite: false
+description: 
+	CASTLE OF ILLUSION STARRING MICKEY MOUSE, É UM REMAKE DO JOGO GENESIS DE MESMO NOME. MICKEY E MINNIE ESTÃO FORA PARA UM PIQUENIQUE QUANDO MINNIE É SEQUESTRADA PELA BRUXA MIZRABEL. AGORA MICKEY TEM QUE VIAJAR POR CINCO MUNDOS PARA RESGATÁ-LA.
+ESTE É UM JOGO DE PLATAFORMA SIDE-SCROLLING EM QUE MICKEY SALTA SOBRE OBSTÁCULOS E EVITA INIMIGOS PARA PERMANECER VIVO. EMBORA A MAIOR PARTE DO JOGO SEJA PASSADA EM UMA VISÃO 2D TRADICIONAL, PARA ALGUMAS SEÇÕES (POR EXEMPLO, CHEFES OU CERTOS QUEBRA-CABEÇAS) ELE MUDA PARA UM AMBIENTE 3D. MICKEY PODE DERROTAR INIMIGOS SALTANDO SOBRE ELES OU USANDO PROJÉTEIS QUE PEGA NO CAMINHO. OS NÍVEIS SÃO VAGAMENTE BASEADOS NOS ANTIGOS, MAS APRESENTAM VÁRIAS DIFERENÇAS DE DESIGN DE NÍVEL, NOVOS SETPIECES E LUTAS DE CHEFE APRIMORADAS. ALÉM DE VENCER O JOGO, OS JOGADORES PODEM EXPLORAR OS NÍVEIS EM BUSCA DE SEGREDOS (DESBLOQUEAR ROUPAS ADICIONAIS) OU ENFRENTAR OS NÍVEIS NO MODO DE ATAQUE TEMPORAL.
+release: 2013-09-04
+players: 1
+x-id: 251497
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Castle Of Illusion (BR)-screenshot.jpg
+assets.video: ./media/videos/Castle Of Illusion (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Castle Of Illusion (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Castle Of Illusion (BR)-titleshot.jpg
+assets.bezel: 
+rating: 0.80
+
+collection: windows
+game: CHARLIE MURDER (BR)
+file: ./Charlie Murder (BR)/Charlie Murder (BR).pc
+developer: SKA STUDIOS
+publisher: SKA STUDIOS
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	CHARLIE MURDER É UM BEAT 'EM UP, O JOGADOR CONTROLA CINCO PERSONAGENS DIFERENTES, TODOS MEMBROS DA BANDA DE ROCK CHARLIE MURDER. OS MEMBROS SÃO : SKELEKITTEN, LESTER DETH, TOMMY HOMICIDE, THE REXICUTIONER, E O PRÓPRIO CHARLIE MURDER.
+DEPOIS QUE CHARLIE EXPULSOU PAUL, ELE FORMOU SUA PRÓPRIA BANDA, GORE QUAFFER. PAUL, AGORA COM O NOME DE LORD MORTIMER, COMEÇA A TRABALHAR COM UM DEMÔNIO PARA CRIAR UM EXÉRCITO PARA DESTRUIR O GRUPO CHARLIE MURDER.
+OS CINCO PERSONAGENS JOGÁVEIS ​​TÊM HABILIDADES DIFERENTES, PRINCIPALMENTE DEVIDO À SUA ANAR-CHI, UMA HABILIDADE MÁGICA ESPECIAL. O JOGO APRESENTA MUITOS CHEFES E MINI-CHEFES DIFERENTES, BEM COMO TODOS OS TIPOS DE INIMIGOS PADRÃO COMO ZUMBIS, TUBARÕES, YETIS E BRUXAS.
+O JOGO INCLUI NÍVEIS NORMAIS DE COMBATE, MINI-JOGOS E VÁRIOS NÍVEIS ESPECIAIS (ONDE O JOGADOR PODE DIRIGIR E VOAR).
+release: 2017-05-12
+players: 1-4
+x-id: 283648
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Charlie Murder (BR)-screenshot.jpg
+assets.video: ./media/videos/Charlie Murder (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Charlie Murder (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 
+
+collection: windows
+game: CRASH BANDICOOT N SANE TRILOGY (BR)
+file: ./Crash Bandicoot N Sane Trilogy (BR)/Crash Bandicoot N Sane Trilogy (BR).pc
+developer: NAUGHTY DOG
+publisher: ACTIVISION
+genre: PLATAFORMA / CORRE E PULA, PLATAFORMA
+favorite: false
+description: 
+	SEU MARSUPIAL FAVORITO, CRASH BANDICOOT™, ESTÁ DE VOLTA! ELE ESTÁ APRIMORADO, ENCANTADO E PRONTO PARA DANÇAR COM A COLEÇÃO DE JOGOS N. SANE TRILOGY. AGORA VOCÊ PODE EXPERIMENTAR CRASH BANDICOOT™ COMO NUNCA ANTES. GIRE, PULE, BATA E REPITA ENQUANTO ENFRENTA DESAFIOS E AVENTURAS ÉPICAS NOS TRÊS JOGOS QUE DERAM INÍCIO A TUDO, CRASH BANDICOOT™, CRASH BANDICOOT™ 2: CORTEX STRIKES BACK E CRASH BANDICOOT™: WARPED. REVIVA TODOS OS SEUS MOMENTOS FAVORITOS DO CRASH EM SUA GLÓRIA GRÁFICA TOTALMENTE REMASTERIZADA E PREPARE-SE PARA COLOCAR UM POUCO DE UMPH NO SEU WUMP!
+release: 2018-06-29
+players: 1
+x-id: 286680
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Crash Bandicoot N Sane Trilogy (BR)-screenshot.png
+assets.video: ./media/videos/Crash Bandicoot N Sane Trilogy (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Crash Bandicoot N Sane Trilogy (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Crash Bandicoot N Sane Trilogy (BR)-titleshot.jpg
+assets.bezel: 
+rating: 
+
+collection: windows
+game: CUPHEAD THE DELICIOUS LAST COURSE (BR)
+file: ./Cuphead The Delicious Last Course (BR)/Cuphead The Delicious Last Course (BR).pc
+developer: STUDIOMDHR
+publisher: STUDIOMDHR
+genre: AÇÃO, TIRO / RUN AND GUN, TIRO
+favorite: false
+description: 
+	CUPHEAD É UM JOGO CLÁSSICO DE CORRIDA E TIRO FORTEMENTE FOCADO EM BATALHAS CONTRA CHEFES. INSPIRADO NOS DESENHOS ANIMADOS DA DÉCADA DE 1930, O VISUAL E O ÁUDIO SÃO CUIDADOSAMENTE CRIADOS COM AS MESMAS TÉCNICAS DA ÉPOCA, OU SEJA, ANIMAÇÃO CELULÓSICA TRADICIONAL DESENHADA À MÃO, FUNDOS EM AQUARELA E GRAVAÇÕES ORIGINAIS DE JAZZ.
+JOGUE COMO CUPHEAD OU MUGMAN (NO MODO SINGLE PLAYER OU LOCAL CO-OP) ENQUANTO ATRAVESSA MUNDOS ESTRANHOS, ADQUIRE NOVAS ARMAS, APRENDE SUPER-MOVIMENTOS PODEROSOS E DESCOBRE SEGREDOS ESCONDIDOS ENQUANTO TENTA PAGAR SUA DÍVIDA COM O DIABO!
+release: 2017-09-29
+players: 1-2
+x-id: 251507
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Cuphead The Delicious Last Course (BR)-screenshot.jpg
+assets.video: ./media/videos/Cuphead The Delicious Last Course (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Cuphead The Delicious Last Course (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Cuphead The Delicious Last Course (BR)-titleshot.jpg
+assets.bezel: 
+rating: 0.80
+
+collection: windows
+game: FIGHT N RAGE (BR)
+file: ./FightN Rage (BR)/Fight N Rage (BR).pc
+developer: SEBA GAMES
+publisher: SEBA GAMES
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	DESCRIÇÃO DA LOJA STEAM (DO AD BLURBS)DESCRIÇÃO
+FIGHT’N RAGE É UM NOVO BEAT’EM UP DE ROLAGEM LATERAL DA VELHA ESCOLA. INSPIRADO NOS CLÁSSICOS DA “ERA DE OURO” E COM UM ESTILO DE ARTE QUE IMITA A ESTÉTICA DAS JOIAS DOS FLIPERAMAS DOS ANOS 90, ESTE JOGO HOMENAGEIA TODOS OS RECURSOS CLÁSSICOS DE JOGABILIDADE QUE FAZEM DESTE GÊNERO UM DOS MELHORES DE SUA ÉPOCA!DETALHES
+GÊNERO: BEAT'EM UP / BRAWLER DE ROLAGEM LATERAL 2D CLÁSSICO.
+NÚMERO DE JOGADORES: DE UM A TRÊS JOGADORES NO MODO COOPERATIVO LOCAL.
+release: 2017-09-19
+players: 1-3
+x-id: 298318
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Fight N Rage (BR)-screenshot.jpg
+assets.video: ./media/videos/Fight N Rage (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Fight N Rage (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Fight N Rage (BR)-titleshot.jpg
+assets.bezel: 
+rating: 
+
+collection: windows
+game: GUACAMELEE SUPER TURBO CHAMPIONSHIP EDITION (BR)
+file: ./Guacamelee Super Turbo Championship Edition (BR)/Guacamelee Super Turbo Championship Edition (BR).pc
+developer: DRINKBOX STUDIOS
+publisher: DRINKBOX STUDIOS
+genre: PLATAFORMA / COMBATE COM ROLAGEM, PLATAFORMA
+favorite: false
+description: 
+	GUACAMELEE! STCE É UM JOGO DE PLATAFORMA DE AÇÃO NA TRADIÇÃO DE METROIDVANIA, AMBIENTADO NUM MUNDO MÁGICO INSPIRADO NO FOLCLORE TRADICIONAL MEXICANO.
+PREPARA-TE PARA...
+- AÇÃO E COMBATE: MAIS MOVIMENTOS, INCLUINDO O INTENSO E O PONTAPÉ DE GALO.
+- JOGO DE PLATAFORMAS ENTRE O MUNDO DOS VIVOS E O MUNDO DOS MORTOS.
+- MOVIMENTOS QUE TAMBÉM PODEM SER USADOS PARA SE DESLOCAR
+- CIDADES ANIMADAS, FLORESTAS SOMBRIAS E VULCÕES ARDENTES
+- INÚMEROS BOSSES, UMA SÉRIE DE INIMIGOS E NOVOS INIMIGOS DE ELITE
+- TRAJES EXTRAVAGANTES QUE MUDAM NÃO SÓ A APARÊNCIA DO JOGADOR, MAS TAMBÉM AS SUAS CARACTERÍSTICAS.
+release: 2014-08-21
+players: 1-4
+x-id: 303608
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Guacamelee Super Turbo Championship Edition (BR)-screenshot.jpg
+assets.video: ./media/videos/Guacamelee Super Turbo Championship Edition (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Guacamelee Super Turbo Championship Edition (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 
+
+collection: windows
+game: MAYHEMBRAWLER (BR)
+file: ./Mayhem Brawler (BR)/Mayhembrawler (BR).pc
+developer: HERO CONCEPT
+publisher: HERO CONCEPT
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	PARA PROTEGER E SERVIR ENQUANTO ATENDEM A UMA CHAMADA DE ROTINA DE UMA PATRULHA, DOLPHIN, STAR E TROUBLE – OS POLICIAIS MAIS POPULARES DA SUPERPODEROSA AGÊNCIA DE APLICAÇÃO DA LEI, STRONGHOLD – SE ENCONTRAM EM UMA SEQUÊNCIA DE EVENTOS QUE ALTERARÃO O DESTINO DE TODA A CIDADE. 
+FORÇA EXCESSIVA VAMOS DEIXAR UMA COISA BEM CLARA; SE VOCÊ JÁ PENSOU QUE UM DIA NA VIDA DE UM POLICIAL SUPERPODEROSO É FÁCIL, VOCÊ NÃO PODERIA ESTAR MAIS ERRADO, POIS HÁ AMEAÇAS MAIORES DO QUE GANGUES DE RUA EM MAYHEM BRAWLER, COM TEMA DE FANTASIA URBANA. USANDO SEU ARSENAL DE COMBOS E HABILIDADES ESPECIAIS, VOCÊ E SEUS COMPANHEIROS DE EQUIPE COOPERATIVA DEVEM TORNAR A VIDA DAQUELES CRIMINOSOS SUPERPODEROSOS, DEFENDER-SE DA FÚRIA DOS LOBISOMENS, RESISTIR AOS FEITIÇOS DOS BRUXOS DE RUA E ENFRENTAR A MEGACORPORAÇÃO LIDERADA POR CASAS DE VAMPIROS QUE FORÇAM SEUS CAPANGAS A COMETEREM SEUS ATOS SUJOS.
+release: 2021-08-19
+players: 1-4
+x-id: 317418
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Mayhembrawler (BR)-screenshot.jpg
+assets.video: ./media/videos/Mayhembrawler (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Mayhembrawler (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Mayhembrawler (BR)-titleshot.jpg
+assets.bezel: 
+rating: 
+
+collection: windows
+game: MORTAL KOMBAT COMPLETE EDITION (BR)
+file: ./Mortal Kombat Complete Edition (BR)/Mortal Kombat Complete Edition (BR).pc
+developer: NETHERREALM
+publisher: WARNER BROS. GAMES
+genre: COMPILAÇÃO, LUTA / VERSUS, LUTA
+favorite: false
+description: 
+	ESTA EDIÇÃO KOMPLETE É UM RELANÇAMENTO DO JOGO ORIGINAL COM TODO O CONTEÚDO PARA DOWNLOAD. INCLUI:
+MORTAL KOMBAT (JOGO BÁSICO)
+MORTAL KOMBAT (CÓDIGO PARA BAIXAR O FILME DE 1995 – APENAS XBOX 360/PS3 DOS EUA)
+MORTAL KOMBAT: SONGS INSPIRED BY THE WARRIORS (CÓDIGO PARA BAIXAR UM ÁLBUM DE TRILHA SONORA – APENAS XBOX 360/PS3 DOS EUA)
+MORTAL KOMBAT: COMPATIBILITY PACK 1 COM SEKTOR E CYRAX KLASSIC SKINS (DLC COM 2 SKINS E UMA ATUALIZAÇÃO DE COMPATIBILIDADE)
+MORTAL KOMBAT: COMPATIBILITY PACK 2 COM SKINS KLASSIC DE SMOKE E NOOB SAIBOT (DLC COM 2 SKINS E UMA ATUALIZAÇÃO DE COMPATIBILIDADE)
+MORTAL KOMBAT: COMPATIBILITY PACK 3 COM KLASSIC SKINS (DLC COM 2 SKINS E UMA ATUALIZAÇÃO DE COMPATIBILIDADE)
+MORTAL KOMBAT: COMPATIBILITY PACK 4 COM SUB ZERO KLASSIC SKINS (DLC COM 2 SKINS E UMA ATUALIZAÇÃO DE COMPATIBILIDADE)
+MORTAL KOMBAT: FREDDY KRUEGER (DLC COM NOVO PERSONAGEM)
+MORTAL KOMBAT: KLASSIC SKINS PACK #1 (DLC COM 7 SKINS E 3 FATALITIES)
+MORTAL KOMBAT: RAIN (DLC COM NOVO PERSONAGEM)
+MORTAL KOMBAT: SKARLET (DLC COM UM NOVO PERSONAGEM)
+MORTAL KOMBAT: WARRIOR KENSHI (DLC COM UM NOVO PERSONAGEM)
+release: 2013-07-03
+players: 1-2
+x-id: 319968
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Mortal Kombat Complete Edition (BR)-screenshot.jpg
+assets.video: ./media/videos/Mortal Kombat Complete Edition (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Mortal Kombat Complete Edition (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Mortal Kombat Complete Edition (BR)-titleshot.jpg
+assets.bezel: 
+rating: 0.80
+
+collection: windows
+game: MOTHER RUSSIA BLEEDS (BR)
+file: ./Mother Russia Bleeds (BR) v2.4.0.6/Mother Russia Bleeds (BR).pc
+developer: LE CARTEL
+publisher: DEVOLVER DIGITAL
+genre: BRIGA DE RUA, AÇÃO
+favorite: false
+description: 
+	MOTHER RUSSIA BLEEDS É UM BEAT'EM UP ULTRA VIOLENTO, COM UM ESTILO GRÁFICO ÚNICO E UMA BRUTALIDADE INCRÍVEL, JOGÁVEL ATÉ 4 JOGADORES EM COOPERAÇÃO.
+SITUADO NUMA URSS ALTERNATIVA, SEGUIMOS A HISTÓRIA DE COMBATENTES SUBTERRÂNEOS PRESOS PELOS BRATVA, E USADOS COMO COBAIAS EM EXPERIÊNCIAS COM NOVAS DROGAS. SOFRENDO OS EFEITOS DO VÍCIO, DEVEM SUPERAR O SEU CATIVEIRO E ENFRENTAR A OPRESSÃO DE UM GOVERNO CORRUPTO.
+LUTE SOZINHO OU AO LADO DOS SEUS AMIGOS NUM MODO DE HISTÓRIA ÚNICO, OU ASSUMA A ARENA NUM MODO DE SOBREVIVÊNCIA IMPIEDOSO.
+release: 2016-09-05
+players: 1-4
+x-id: 320062
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Mother Russia Bleeds (BR)-screenshot.jpg
+assets.video: ./media/videos/Mother Russia Bleeds (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Mother Russia Bleeds (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Mother Russia Bleeds (BR)-titleshot.png
+assets.bezel: 
+rating: 
+
+collection: windows
+game: Never Alone (BR)
+file: ./Never Alone (BR)/Never Alone (BR).pc
+developer: 
+publisher: 
+genre: Quebra-Cabeças, Ação / Aventura, Ação
+favorite: false
+description: 
+	Experimente a jornada épica de Nuna e da raposa enquanto eles procuram a fonte de uma nevasca eterna que ameaça a sobrevivência de tudo o que já conheceram.		Never Alone é um jogo de plataforma e quebra-cabeça atmosférico desenvolvido em colaboração com os Iñupiat, um povo nativo do Alasca, baseado em uma história tradicional que foi compartilhada através de gerações.		Guie os dois personagens no modo single-player ou jogue cooperativamente com um amigo enquanto caminha pela tundra congelada, salta sobre blocos de gelo traiçoeiros, nada em cavernas subaquáticas e enfrenta inimigos estranhos e familiares.
+players: 1-2
+x-id: 322492
+assets.boxFront: ./media/image/Never Alone (BR)-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Never Alone (BR)-marquee.png
+assets.screenshot: ./media/screenshots/Never Alone (BR)-screenshot.jpg
+assets.video: ./media/videos/Never Alone (BR)-video.mp4
+assets.logo: ./media/image/Never Alone (BR)-wheel.png
+assets.background: ./media/fanart/Never Alone (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Never Alone (BR)-titleshot.jpg
+assets.bezel: 
+rating: 0.60
+
+collection: windows
+game: PHANTOM BREAKER - BATTLE GROUNDS ULTIMATE (BR)
+file: ./Phantom Breaker Battle Grounds Ultimate (BR)/Phantom Breaker - Battle Grounds Ultimate (BR).pc
+developer: ROCKET PANDA GAMES JAPAN
+publisher: ROCKET PANDA GAMES
+genre: AÇÃO
+favorite: false
+description: 
+	"PHANTOM BREAKER: BATTLE GROUNDS ULTIMATE" É UM BEAT-'EM-UP DE ROLAGEM LATERAL COM O CORAÇÃO DE UM JOGO DE LUTA, APRESENTANDO PIXEL ART NOSTÁLGICO E O MAIS RECENTE MULTIJOGADOR ONLINE MULTIPLATAFORMA. EXPERIMENTE A MAIOR E MAIS EXPANSIVA ENTRADA DA SÉRIE "PHANTOM BREAKER: BATTLE GROUNDS" ATÉ HOJE!
+release: 0000-00-00
+players: 
+x-id: 81459
+assets.boxFront: ./media/image/Phantom Breaker - Battle Grounds Ultimate (BR)-boxart.jpg
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Phantom Breaker - Battle Grounds Ultimate (BR)-marquee.png
+assets.screenshot: ./media/screenshots/Phantom Breaker - Battle Grounds Ultimate (BR)-screenshot.jpg
+assets.video: ./media/videos/Phantom Breaker - Battle Grounds Ultimate (BR)-video.mp4
+assets.logo: ./media/image/Phantom Breaker - Battle Grounds Ultimate (BR)-wheel.png
+assets.background: ./media/fanart/Phantom Breaker - Battle Grounds Ultimate (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 
+
+collection: windows
+game: RAYMAN ORIGINS (BR)
+file: ./Rayman Origins (BR)/Rayman Origins (BR).pc
+developer: UBISOFT
+publisher: UBISOFT
+genre: PLATAFORMA, AÇÃO
+favorite: false
+description: 
+	DURANTE O QUE PARECE SER UM DIA NORMAL, RAYMAN E SEUS AMIGOS ESTÃO RELAXANDO EM UMA ÁRVORE GIGANTE EM SUA TERRA NATAL, A CLAREIRA DOS SONHOS. SEU RONCO CONSTANTE, ENTRETANTO, PERTURBA UMA VELHA VOVÓ DE UMA TERRA LOCALIZADA NAS PROFUNDEZAS, A TERRA DOS MORTOS LÍVIDOS. DETERMINADA A PÔR FIM AOS RUÍDOS INTERMINÁVEIS, ELA ENVIA UM EXÉRCITO DE CRIATURAS MALIGNAS POR TODA A TERRA, CAPTURANDO TODOS OS ELECTOONS E NINFAS QUE POVOAM O MUNDO NO PROCESSO. À MEDIDA QUE RAYMAN E SEUS AMIGOS SÃO CAPTURADOS DAS CRIATURAS, ELES DEVEM FUGIR DA PRISÃO E TENTAR TRAZER A ORDEM DE VOLTA À CLAREIRA DOS SONHOS ANTES QUE SEJA TARDE DEMAIS.
+release: 2012-03-29
+players: 1-4
+x-id: 330850
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Rayman Origins (BR)-screenshot.jpg
+assets.video: ./media/videos/Rayman Origins (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Rayman Origins (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Rayman Origins (BR)-titleshot.png
+assets.bezel: 
+rating: 0.80
+
+collection: windows
+game: SCOTT PILGRIM EX (BR)
+file: ./Scott Pilgrim EX (BR)/Scott Pilgrim Ex (BR).pc
+developer: TRIBUTE GAMES
+publisher: TRIBUTE GAMES
+genre: BEAT 'EM UP
+favorite: false
+description: 
+	JUNTE-SE A SCOTT PILGRIM E RAMONA FLOWERS EM UMA NOVA AVENTURA DE LUTA PELO ESPAÇO, TEMPO E PELAS RUAS DE TORONTO!  
+TORONTO, 20XX. A CIDADE FOI TOMADA POR TRÊS GANGUES RIVAIS - OS VEGANOS, OS ROBÔS E OS DEMÔNIOS. MAS QUEM ESTÁ POR TRÁS DESSA LOUCURA? QUANDO OS COMPANHEIROS DE BANDA DE SCOTT PILGRIM SÃO SEQUESTRADOS POR FORÇAS SOMBRIAS, UMA NOVA AVENTURA COMEÇA!
+SCOTT PILGRIM EX É UM JOGO DE AÇÃO E AVENTURA ONDE OS JOGADORES PODEM LUTAR COMO SCOTT PILGRIM, RAMONA FLOWERS E MUITO MAIS ENQUANTO LUTAM NO TEMPO E ESPAÇO FRAGMENTADOS DE TORONTO. A JOGABILIDADE DE COMBATE É IMPULSIONADA PELO INSTINTO E PELA IMPROVISAÇÃO - UM BALÉ FRENÉTICO DE PUNHOS E TALENTO QUE RECOMPENSA A ESTRATÉGIA, A ESPONTANEIDADE E UM POUCO DE CAOS VIOLENTO. COMBINE COMBOS ELEGANTES, EXPERIMENTE ARMAS MALUCAS E LIBERE ATAQUES ESPECIAIS EXAGERADOS. OS PERSONAGENS PODEM SER ATUALIZADOS COM EMBLEMAS ESPECIAIS QUE MELHORAM SUAS ESTATÍSTICAS E CONCEDEM BÔNUS ESPECIAIS. OS JOGADORES IRÃO EXPLORAR UMA CIDADE INTEIRA DE NÍVEIS INTERCONECTADOS PARA CONHECER ROSTOS NOVOS E ANTIGOS, COMPLETAR MISSÕES E DESCOBRIR ÁREAS ESCONDIDAS. O MODO COOPERATIVO MULTIJOGADOR, LOCAL OU ONLINE, PERMITE QUE ATÉ QUATRO JOGADORES PARTICIPEM DA AÇÃO, TORNANDO-A UMA EXPERIÊNCIA DIVERTIDA E DINÂMICA.
+players: 4
+x-id: 
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Scott Pilgrim Ex (BR)-screenshot.jpg
+assets.video: ./media/videos/Scott Pilgrim Ex (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Scott Pilgrim Ex (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.80
+
+collection: windows
+game: SHANK 2
+file: ./Shank 2 (USA)/Shank 2.pc
+developer: KLEI ENTERTAINMENT
+publisher: ELECTRONIC ARTS
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	SHANK 2 É A SEQUÊNCIA DE SHANK E, ASSIM COMO O PRIMEIRO JOGO, É UM JOGO DE PLATAFORMA 2D DE ROLAGEM LATERAL BASEADO NA LUTA CONTRA VÁRIOS INIMIGOS AO MESMO TEMPO, COMBINADO COM ELEMENTOS DE PLATAFORMA DE SALTO E ESCALADA. APÓS OS ACONTECIMENTOS DO PRIMEIRO JOGO, SHANK VIAJA PARA UM PAÍS COM CENÁRIO SUL-AMERICANO EM BUSCA DE LINDA, A MULHER QUE O CRIOU NO ORFANATO. O PAÍS É GOVERNADO POR MAGNUS, ELEITO APÓS PROMETER LIDAR COM OS CARTÉIS ILEGAIS. ELE TEM UM CORAÇÃO FRACO E LINDA PARECE SER A ÚNICA QUE PODE LHE PROPORCIONAR UM TRANSPLANTE VIÁVEL, ENTÃO ELE A SEQUESTRA. OS EVENTOS COMEÇAM QUANDO O ÔNIBUS DE SHANK É PARADO E DEVIDO ÀS SUAS LUTAS CONTRA OS ASSECLAS DE MAGNUS, OS MORADORES LOCAIS PENSAM QUE ELE SE JUNTA À REBELIÃO.
+release: 2012-02-07
+players: 1-2
+x-id: 337076
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Shank 2-screenshot.jpg
+assets.video: ./media/videos/Shank 2-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Shank 2-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Shank 2-titleshot.jpg
+assets.bezel: 
+rating: 
+
+collection: windows
+game: SKULLGIRLS 2ND ENCORE (BR)
+file: ./Skullgirls 2nd Encore (BR)/Skullgirls 2Nd Encore (BR).pc
+developer: LAB ZERO GAMES
+publisher: AUTUMN GAMES
+genre: LUTA / VERSUS, AÇÃO, LUTA
+favorite: false
+description: 
+	SKULLGIRLS É UM JOGO DE LUTA 2D COM UM ELENCO DE OITO LUTADORAS JOGÁVEIS. ALÉM DO MODO ARCADE ALEATÓRIO E DOS MODOS DE HISTÓRIA, O JOGO TAMBÉM INCLUI JOGO LOCAL, JOGO DE TORNEIO, JOGO RÁPIDO DE PARTIDA CLASSIFICADA E JOGO DE LOBBY, O ÚLTIMO DOS DOIS OCORRENDO NO MODO MULTIJOGADOR ONLINE.
+NO JOGO ARCADE OU MULTIJOGADOR, O JOGADOR PODE SELECIONAR SE DESEJA UMA EQUIPE DE DOIS LUTADORES COM A SAÚDE DIVIDIDA AO MEIO, UMA EQUIPE DE TRÊS LUTADORES COM A SAÚDE DIVIDIDA EM UM TERCEIRO OU UM ÚNICO LUTADOR PODEROSO.
+release: 2016-04-13
+players: 
+x-id: 338618
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Skullgirls 2Nd Encore (BR)-screenshot.jpg
+assets.video: ./media/videos/Skullgirls 2Nd Encore (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Skullgirls 2Nd Encore (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 
+
+collection: windows
+game: STREET FIGHTER X TEKKEN (BR)
+file: ./Street Fighter X Tekken (BR)/Street Fighter X Tekken (BR).pc
+developer: CAPCOM
+publisher: CAPCOM
+genre: LUTA / 2D, LUTA / VERSUS, LUTA
+favorite: false
+description: 
+	A COMBINAÇÃO DEFINITIVA QUE VOCÊ NUNCA IMAGINOU SER POSSÍVEL ESTÁ AQUI! STREET FIGHTER E TEKKEN, AS MAIORES MARCAS DO COMBATE, FINALMENTE SE ENFRENTAM NA DERRADEIRA BATALHA DE DUPLAS! APRESENTANDO SEUS GUERREIROS FAVORITOS DE CADA FRANQUIA E UMA JOGABILIDADE E SISTEMA DE CONTROLE TOTALMENTE NOVOS PROJETADOS PARA FÃS DE AMBAS AS SÉRIES, JOGADORES CASUAIS E VETERANOS PODEM DESFRUTAR DO MAIOR EVENTO QUE JÁ ACONTECEU EM JOGOS DE LUTA. O INIMAGINÁVEL COMEÇOU – STREET FIGHTER X TEKKEN!
+release: 2012-05-11
+players: 1-4
+x-id: 342904
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Street Fighter X Tekken (BR)-screenshot.jpg
+assets.video: ./media/videos/Street Fighter X Tekken (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Street Fighter X Tekken (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Street Fighter X Tekken (BR)-titleshot.jpg
+assets.bezel: 
+rating: 0.60
+
+collection: windows
+game: STREETS OF RAGE 4 (BR)
+file: ./Streets of Rage 4 (BR)/Streets Of Rage 4 (BR).pc
+developer: DOTEMU
+publisher: DOTEMU
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	O CLÁSSICO STREETS OF RAGE É UMA TRILOGIA NO GÊNERO BEAT 'EM UP QUE FICOU FAMOSA POR SUA JOGABILIDADE ATEMPORAL E MÚSICAS ELETRÔNICAS DANÇANTES. STREETS OF RAGE 4 APROVEITA A JOGABILIDADE DA TRILOGIA CLÁSSICA E INCORPORA NOVAS MECÂNICAS, GRÁFICOS DESENHADOS À MÃO E UMA TRILHA SONORA MÍTICA.
+UMA SÉRIE ICÔNICA COMO STREETS OF RAGE CONTA COM PERSONAGENS TAMBÉM ICÔNICOS: AXEL, BLAZE, ADAM E OUTROS VETERANOS SE REUNIRAM PARA FAZER UMA VERDADEIRA FAXINA NAS RUAS. COM GOLPES INÉDITOS E MÚSICAS IRADAS, NOSSOS HERÓIS ESTÃO PRONTÍSSIMOS PARA DISTRIBUIR SURRAS A GRUPOS DE BANDIDOS INCAUTOS.
+release: 2020-04-30
+players: 1-4
+x-id: 250132
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Streets Of Rage 4 (BR)-screenshot.jpg
+assets.video: ./media/videos/Streets Of Rage 4 (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Streets Of Rage 4 (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Streets Of Rage 4 (BR)-titleshot.jpg
+assets.bezel: 
+rating: 0.80
+
+collection: windows
+game: TEENAGE MUTANT NINJA TURTLES - SHREDDERS (BR)
+file: ./Teenage Mutant Ninja Turtles - Shredders Revenge (BR)/Teenage Mutant Ninja Turtles - Shredders (BR).pc
+developer: TRIBUTE GAMES
+publisher: DOTEMU SAS
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	SHREDDER'S REVENGE É UM JOGO DE AÇÃO DE ROLAGEM LATERAL COM UM ESTILO DE ARTE PIXELADO. O JOGADOR ASSUME O CONTROLE DE LEONARDO, DONATELLO, RAPHAEL, MICHELANGELO, APRIL O'NEIL, MASTER SPLINTER E O PERSONAGEM DESBLOQUEÁVEL CASEY JONES ENQUANTO ELES LUTAM CONTRA OPONENTES, INCLUINDO FOOT CLAN, BEBOP E ROCKSTEADY, KRANG E SHREDDER EM LOCAIS QUE VÃO DESDE OS ESGOTOS DA CIDADE DE NOVA YORK ATÉ A DIMENSÃO X. CADA PERSONAGEM TEM SEUS PRÓPRIOS ATRIBUTOS (ALCANCE, VELOCIDADE E POTÊNCIA) E JOGA DE FORMA DIFERENTE. ELES TÊM SUPER MOVIMENTOS E PROVOCAÇÕES ÚNICOS. AO LONGO DE CADA FASE, OS JOGADORES PODEM ENCONTRAR CAIXAS DE PIZZA, QUE PODEM SER USADAS PARA CURÁ-LOS, E OUTRAS TORTAS QUE CONCEDEM AOS JOGADORES FORÇA EXTRA E SUPERS INFINITOS POR UM BREVE PERÍODO DE TEMPO.
+release: 2022-06-16
+players: 1-6
+x-id: 502175
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Teenage Mutant Ninja Turtles - Shredders (BR)-screenshot.jpg
+assets.video: ./media/videos/Teenage Mutant Ninja Turtles - Shredders (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Teenage Mutant Ninja Turtles - Shredders (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Teenage Mutant Ninja Turtles - Shredders (BR)-titleshot.jpg
+assets.bezel: 
+rating: 0.80
+
+collection: windows
+game: Towerfall - Ascension
+file: ./Towerfall - Ascension/Towerfall - Ascension.pc
+developer: Matt Makes Games
+publisher: Matt Makes Games
+genre: Plataforma
+favorite: false
+description: 
+	TowerFall Ascension é uma versão atualizada do jogo de luta em arena de tela única baseado em flechas TowerFall. Baseia-se no jogo original com um novo modo de missão cooperativa para um ou dois jogadores. Jogado no modo de dificuldade normal ou hardcore, oferece diferentes níveis selecionados em um grande mapa onde diferentes tipos de inimigos precisam ser mortos em várias rodadas para progredir.		Para as batalhas padrão versus batalhas, o jogo adiciona 50 novos mapas, totalizando 120 mapas. Durante o jogo, quatro fases adicionais podem ser desbloqueadas (Ascension, Moonstone, Sunken City e Towerforge). Além dos quatro personagens existentes, quatro novos podem ser desbloqueados: Ancien Exile, Fogotten Master, Prancing Puppet e Vicious Vessel. Existem também sete triângulos ocultos para coletar no modo Trial. A quantidade de modificadores de partida foi ampliada para 67 e há novos power-ups, como flechas perfurantes que atravessam paredes e podem atingir oponentes do outro lado.
+release: 2014-03-11
+players: 
+x-id: 348074
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Towerfall - Ascension-screenshot.jpg
+assets.video: ./media/videos/Towerfall - Ascension-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Towerfall - Ascension-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 
+
+collection: windows
+game: TUNIC (BR)
+file: ./Tunic (BR)/Tunic (BR).pc
+developer: TUNIC TEAM
+publisher: FINJI
+genre: ACTION, ADVENTURE
+favorite: false
+description: 
+	EXPLORE UMA TERRA REPLETA DE LENDAS PERDIDAS, PODERES ANTIGOS E MONSTROS FEROZES EM TUNIC, UM JOGO DE AÇÃO ISOMÉTRICA SOBRE UMA PEQUENA RAPOSA EM UMA GRANDE AVENTURA. PRESO EM UMA TERRA EM RUÍNAS E ARMADO APENAS COM SUA PRÓPRIA CURIOSIDADE, VOCÊ ENFRENTARÁ FERAS COLOSSAIS, COLETARÁ ITENS ESTRANHOS E PODEROSOS E DESVENDARÁ SEGREDOS HÁ MUITO PERDIDOS.
+TORNE-SE UMA LENDA - AS HISTÓRIAS DIZEM QUE UM GRANDE TESOURO ESTÁ ESCONDIDO EM ALGUM LUGAR DESTA TERRA. TALVEZ ESTEJA ALÉM DA PORTA DOURADA? OU EM ALGUM LUGAR NAS PROFUNDEZAS DA TERRA? ALGUMAS HISTÓRIAS FALAM DE UM PALÁCIO BEM ACIMA DAS NUVENS E DE SERES ANTIGOS COM UM PODER INCRÍVEL. O QUE VOCÊ ENCONTRARÁ?
+RECONSTRUA UM LIVRO SAGRADO - DURANTE SUAS VIAGENS, VOCÊ RECONSTRUIRÁ O MANUAL DE INSTRUÇÕES DO JOGO. PÁGINA POR PÁGINA, VOCÊ REVELARÁ MAPAS, DICAS, TÉCNICAS ESPECIAIS E OS SEGREDOS MAIS PROFUNDOS. SE VOCÊ ENCONTRAR ATÉ O ÚLTIMO, TALVEZ ALGO DE BOM ACONTEÇA...
+TENHA CORAGEM, PEQUENO! - MERGULHE EM COMBATES TÉCNICOS VARIADOS. DESVIE, BLOQUEIE, DESVIE E ATAQUE! APRENDA COMO CONQUISTAR UM GRANDE ELENCO DE MONSTROS, GRANDES E PEQUENOS — E DESCUBRA NOVOS ITENS ÚTEIS PARA AJUDÁ-LO EM SEU CAMINHO.
+• EXPLORE UM MUNDO HOSTIL E INTRINSECAMENTE CONECTADO DE FLORESTAS SOMBRIAS, RUÍNAS EXTENSAS E CATACUMBAS LABIRÍNTICAS
+• LUTE CONTRA CHEFES PODEROSOS NAS PROFUNDEZAS DA TERRA, BEM ACIMA DAS NUVENS E EM LUGARES AINDA MAIS ESTRANHOS
+• RECOLHA AS PÁGINAS DE MANUAL QUE FALTAM, REPLETAS DE DICAS E ILUSTRAÇÕES COLORIDAS ORIGINAIS
+• DESCUBRA TESOUROS ESCONDIDOS PARA AJUDÁ-LO EM SEU CAMINHO
+• DESENTERRE RELÍQUIAS SECRETAS, TÉCNICAS SECRETAS, QUEBRA-CABEÇAS SECRETOS E... OUÇA, HÁ MUITOS SEGREDOS!
+• APRESENTANDO DESIGN DE SOM DA POWER UP AUDIO
+• E UMA TRILHA SONORA ORIGINAL DE LIFEFORMED (TERENCE LEE E JANICE KWAN)
+players: 1
+x-id: 
+assets.boxFront: ./media/image/Tunic (BR)-boxart.png
+assets.boxBack: 
+assets.cartridge: ./media/image/Tunic (BR)-cartridge.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Tunic (BR)-screenshot.jpg
+assets.video: ./media/videos/Tunic (BR)-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Tunic (BR)-fanart.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.87
+
+collection: windows
+game: WULVERBLADE (USA)
+file: ./Wulverblade (USA)/Wulverblade (USA).pc
+developer: DARKWIND MEDIA
+publisher: DARKWIND MEDIA
+genre: ACTION, ADVENTURE, BEAT 'EM UP
+favorite: false
+description: 
+	DERROTE A NONA LEGIÃO DO EXÉRCITO ROMANO NESTE BEAT 'EM UP DE ROLAGEM LATERAL E INSPIRADO EM ARCADE, AMBIENTADO NA GRÃ-BRETANHA DA ERA ROMANA.
+players: 2
+x-id: 355028
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Wulverblade (USA)-marquee.png
+assets.screenshot: ./media/screenshots/Wulverblade (USA)-screenshot.jpg
+assets.video: ./media/videos/Wulverblade (USA)-video.mp4
+assets.logo: ./media/image/Wulverblade (USA)-wheel.png
+assets.background: 
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 0.82
+
