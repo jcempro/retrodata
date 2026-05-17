@@ -527,6 +527,31 @@ assets.bezel:
 rating: 
 
 collection: fbneo
+game: Lastblad
+file: ./Lastblad.zip
+developer: 
+publisher: SNK
+genre: 
+favorite: false
+description: 
+	
+release: 1997-/0-1/
+players: 
+x-id: 
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: 
+assets.video: 
+assets.logo: 
+assets.background: 
+assets.music: 
+assets.titlescreen: 
+assets.bezel: 
+rating: 
+
+collection: fbneo
 game: LRUNNER
 file: ./Lrunner.zip
 developer: 
@@ -887,7 +912,7 @@ assets.bezel:
 rating: 
 
 collection: fbneo
-game: Quantum2
+game: QUANTUM2
 file: ./Quantum2.zip
 developer: 
 publisher: 
@@ -983,724 +1008,7 @@ assets.bezel:
 rating: 
 
 collection: fbneo
-game: SIDEARJP
-file: ./Sidearjp.zip
-developer: 
-publisher: 
-genre: 
-favorite: false
-description: 
-	
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: SIDEARMS
-file: ./Sidearms.zip
-developer: CAPCOM
-publisher: CAPCOM
-genre: SHOOTER
-favorite: false
-description: 
-	O JOGO É PRINCIPALMENTE UM SHOOT-EM-UP DE ROLAGEM HORIZONTAL, EMBORA ALGUMAS CENAS TAMBÉM ROLEM VERTICALMENTE. ATIRAR NOS INIMIGOS REVELARÁ POWER-UPS E ATIRAR NELES CONTINUAMENTE MUDARÁ SEU TIPO OU REVELARÁ UMA ARMA ESPECIAL. DIFERENTES ARMAS SÃO MAIS EFICAZES QUE OUTRAS AO LUTAR CONTRA OS CHEFES FINAIS.
-ORIGINÁRIO DOS FLIPERAMAS, SIDE ARMS É UM JOGO DE TIRO COM ROLAGEM HORIZONTAL NO QUAL VOCÊ CONTROLA O TENENTE HENRY (UM SEGUNDO JOGADOR PODE CONTROLAR O SARGENTO SANDERS EM ALGUMAS VERSÕES), ARMADO COM ARMAMENTO RUDIMENTAR E MACACÕES DE PROTEÇÃO. ELES DEVEM SALVAR A TERRA DOS INVASORES MERCENÁRIOS DE BOZON. VOCÊ DEVE PRIMEIRO CHEGAR AOS TERRITÓRIOS DE BOZON, DEPOIS EXTERMINAR SUAS FORÇAS ESCONDIDAS EM CAVERNAS E À ESPREITA EM MARES SUBTERRÂNEOS, ANTES DE DESTRUIR O PRINCIPAL NAVIO DE INVASÃO. MUITAS ARMAS EXTRAS PODEM SER ADQUIRIDAS, MUITAS VEZES COM TOKENS SEMELHANTES AOS DE 1943 E ALGUNS OUTROS TÍTULOS DA CAPCOM. A MAIORIA DAS ARMAS PODE SER DISPARADA PARA A ESQUERDA OU PARA A DIREITA, PROPORCIONANDO MAIS ALCANCE PARA LANÇAR ATAQUES.
-release: 1986-01-01
-players: 2
-x-id: 
-assets.boxFront: ./media/image/Sidearms-boxart.png
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: ./media/image/Sidearms-marquee.png
-assets.screenshot: ./media/screenshots/Sidearms-screenshot.png
-assets.video: 
-assets.logo: ./media/image/Sidearms-marquee.png
-assets.background: ./media/fanart/Sidearms-fanart.jpg
-assets.music: 
-assets.titlescreen: ./media/image/Sidearms-titleshot.jpg
-assets.bezel: 
-rating: 0.69
-
-collection: fbneo
-game: SIDEARMS (2)
-file: ./Sidearms (2).zip
-developer: 
-publisher: 
-genre: 
-favorite: false
-description: 
-	
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: SIDEPCKT
-file: ./Sidepckt.zip
-developer: NIHON BUSSAN
-publisher: DATA EAST
-genre: SPORTS
-favorite: false
-description: 
-	O MODO DE JOGO PRINCIPAL, DENOMINADO "POCKET GAME", É UM JOGO DE SINUCA DIRETO COM UM NÚMERO LIMITADO DE VIDAS; O JOGADOR DEVE ATINGIR UMA PONTUAÇÃO PRÉ-DETERMINADA PARA AVANÇAR ATRAVÉS DE QUATRO OU CINCO NÍVEIS, CADA UM COM UM NÚMERO CRESCENTE DE BOLAS. O JOGADOR GANHA PONTOS ENCAÇAPANDO BOLAS, ENCAÇAPANDO BOLAS EM TACADAS CONSECUTIVAS E ENCAÇAPANDO BOLAS EM ORDEM NUMÉRICA. OCASIONALMENTE, UMA ESTRELA PISCANTE APARECE EM UMA CAÇAPA, E SE O JOGADOR ENCAÇAPAR UMA BOLA NESSA CAÇAPA NA MESMA TACADA, UM BÔNUS SERÁ CONCEDIDO NA FORMA DE PONTOS, VIDAS EXTRAS OU UMA RODADA DE BÔNUS. UMA VIDA É PERDIDA SE O JOGADOR ARRANHAR OU NÃO CONSEGUIR ENCAÇAPAR A BOLA EM DUAS TACADAS CONSECUTIVAS.
-NO MODO PARA DOIS JOGADORES, O JOGADOR PODE ESCOLHER ENTRE POCKET GAME OU 9-BALL GAME. NO POCKET GAME PARA DOIS JOGADORES, O JOGO É SEMELHANTE, EXCETO QUE OS DOIS JOGADORES SE REVEZAM E NÃO HÁ VIDAS; SE UM JOGADOR ERRA OU ARRANHA, O CONTROLE DA BOLA SIMPLESMENTE PASSA PARA O OUTRO JOGADOR. NO JOGO 9-BALL, CADA JOGADOR TEM TRÊS VIDAS E UMA VIDA É PERDIDA SE UMA FALTA FOR COMETIDA. NO ENTANTO, AS VIDAS SERÃO RESTAURADAS SE O JOGADOR ENCAÇAPAR UMA BOLA NO PRÓXIMO TURNO.
-release: 1986-01-01
-players: 2
-x-id: 
-assets.boxFront: ./media/image/Sidepckt-boxart.png
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: ./media/screenshots/Sidepckt-screenshot.png
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: ./media/musics/Sidepckt-music.mp3
-assets.titlescreen: 
-assets.bezel: 
-rating: 0.61
-
-collection: fbneo
-game: SIDETRAC
-file: ./Sidetrac.zip
-developer: 
-publisher: 
-genre: 
-favorite: false
-description: 
-	
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: SILENTD
-file: ./Silentd.zip
-developer: TAITO
-publisher: TAITO
-genre: BEAT 'EM UP
-favorite: false
-description: 
-	NA DÉCADA DE 1990, UMA FORÇA OBSCURA APARECE EM NOSSO PLANETA. É O MALVADO DR. BIO, O GÊNIO DISTORCIDO POR TRÁS DE "BIO-ROID". AO USAR BIOTECNOLOGIA AVANÇADA, ELE CRIA FORMAS DE VIDA MUTANTES COM FORÇA SOBRE-HUMANA, ATERRORIZANDO A POPULAÇÃO HUMANA. PARA DETER O MALVADO MÉDICO, QUATRO HOMENS, CADA UM COM CORAGEM E FIRMEZA, SÃO ESCOLHIDOS PARA TRAVAR UMA GUERRA JUSTA CONTRA ESTAS CRIATURAS. E AGORA, ESSA BATALHA COMEÇOU!
-release: 1992-/0-1/
-players: 2
-x-id: 
-assets.boxFront: ./media/image/Silentd-boxart.png
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: ./media/screenshots/Silentd-screenshot.png
-assets.video: 
-assets.logo: 
-assets.background: ./media/fanart/Silentd-fanart.jpg
-assets.music: 
-assets.titlescreen: ./media/image/Silentd-titleshot.png
-assets.bezel: 
-rating: 0.66
-
-collection: fbneo
-game: SILK WORM (WORLD)
-file: ./Silkworm.zip
-developer: 
-publisher: TECMO
-genre: 
-favorite: false
-description: 
-	
-release: 1988-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: SIMPSONS
-file: ./Simpsons.zip
-developer: KONAMI
-publisher: KONAMI
-genre: BEAT 'EM UP
-favorite: false
-description: 
-	UM ROUBO DE JOIAS QUE DEU ERRADO MOSTRA O COMPANHEIRO DO SR. BURNS, SMITHERS, SEQUESTRANDO MAGGIE E ESCAPANDO. ENTRE UM E QUATRO JOGADORES ASSUMEM O PAPEL DE HOMER, MARGE, LISA OU BART NESTE COLORIDO BEAT-EM-UP DE ROLAGEM HORIZONTAL DA KONAMI. CADA PERSONAGEM DOS SIMPSONS POSSUI UM MOVIMENTO DE ATAQUE ESPECÍFICO PARA ELES; MARGE ESTÁ ARMADA COM UM ASPIRADOR DE PÓ, LISA TEM UMA CORDA DE PULAR, BART ESTÁ COM SEU SKATE E HOMER LUTA COM OS PUNHOS. OS JOGADORES DEVEM ABRIR CAMINHO ATRAVÉS DE UMA VARIEDADE DE NÍVEIS TEMÁTICOS DOS SIMPSONS - COMO SPRINGFIELD E KRUSTYLAND - LUTANDO CONTRA CAPANGAS, BANDIDOS, ZUMBIS, BÊBADOS, BOMBEIROS E VÁRIOS FREQUENTADORES REGULARES DOS SIMPSONS. MUITOS PERSONAGENS DOS SIMPSONS QUE NÃO APARECEM COMO INIMIGOS TÊM CENAS DE 'PARTICIPAÇÃO ESPECIAL' NO JOGO (OTTO TRABALHANDO EM UMA LANCHONETE EM KRUSTYLAND, POR EXEMPLO). O ARQUÉTIPO DO PERSONAGEM 'CHEFE' AGUARDA OS JOGADORES NO FINAL DE CADA FASE. O JOGO TERMINA COM UM CONFRONTO FINAL COM O MALVADO SR. BURNS EM SUA LUXUOSA MANSÃO.
-release: 1991-/0-1/
-players: 4
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: ./media/image/Simpsons-marquee.png
-assets.screenshot: ./media/screenshots/Simpsons-screenshot.png
-assets.video: 
-assets.logo: ./media/image/Simpsons-marquee.png
-assets.background: ./media/fanart/Simpsons-fanart.png
-assets.music: 
-assets.titlescreen: ./media/image/Simpsons-titleshot.png
-assets.bezel: 
-rating: 0.89
-
-collection: fbneo
-game: SINISTAR (REVISION 3)
-file: ./Sinistar.zip
-developer: 
-publisher: WILLIAMS
-genre: 
-favorite: false
-description: 
-	
-release: 1982-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: SKULLFNG
-file: ./Skullfng.zip
-developer: DATA EAST
-publisher: DATA EAST
-genre: SHOOTER
-favorite: false
-description: 
-	SKULL FANG FOI PRODUZIDO PELA DATA EAST JAPAN EM 1996.
-UM JOGO DE TIRO DE COMBATE AÉREO COM TEMA DE PERSEGUIÇÃO.
-DESPERDICE A COMPETIÇÃO!
-O SKULL FANG DA DATA EAST SURPREENDE OUTROS ATIRADORES COM UM ARSENAL DE ÓTIMOS RECURSOS:
-*4 AVIÕES DIFERENTES - CADA UM COM DIFERENTES NÍVEIS DE ATAQUE, DEFESA, VELOCIDADE E MANOBRABILIDADE!
-*2 MODOS DE JOGO EXCLUSIVOS - ESCOLHA ENTRE O MODO DE ROLAGEM AUTOMÁTICA OU O MODO DE PERSEGUIÇÃO AVANÇADO E COM ACELERAÇÃO VARIÁVEL!
-8 POWER-UPS - AUMENTE SUAS ARMAS, POTÊNCIA E MANOBRABILIDADE DE CAÇA OU BOMBARDEIRO!
-*TÉCNICAS DE VÔO OCULTAS - ATAQUE DE CIMA, USE FREIOS A AR, IMPULSO LATERAL E ESCUDOS DE ÍONS ELEVADOS!
-release: 1996-/0-1/
-players: 2
-x-id: 
-assets.boxFront: ./media/image/Skullfng-boxart.png
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: ./media/screenshots/Skullfng-screenshot.png
-assets.video: 
-assets.logo: 
-assets.background: ./media/fanart/Skullfng-fanart.jpg
-assets.music: 
-assets.titlescreen: ./media/image/Skullfng-titleshot.png
-assets.bezel: 
-rating: 0.78
-
-collection: fbneo
-game: SKULLXBO
-file: ./Skullxbo.zip
-developer: ATARI GAMES
-publisher: ATARI GAMES
-genre: BEAT 'EM UP
-favorite: false
-description: 
-	LUTE COMO RED BEARD OU ONE EYE ATRAVÉS DE VÁRIOS NÍVEIS TEMÁTICOS DE PIRATAS, COMO NAVIOS E FORTES, E ATÉ MESMO ALGUNS NÍVEIS NÃO TEMÁTICOS DE PIRATAS, LUTANDO CONTRA NINJAS, ESQUELETOS E OUTROS EM UMA MISSÃO PARA RECUPERAR SEU DINHEIRO ARDUAMENTE GANHO DE UM MAGO MALVADO. VOCÊ TAMBÉM PODE LUTAR LADO A LADO COM UM AMIGO (QUE CONTROLA O PIRATA QUE VOCÊ NÃO ESCOLHEU).
-A LUTA FUNCIONA COMO UMA ESGRIMA, COM ALGUNS MOVIMENTOS DIFERENTES PARA USAR, INCLUINDO APARAR. OS NÍVEIS PASSAM COM UM CHEFE NO FINAL DE CADA UM. VOCÊ GANHA DINHEIRO DERROTANDO INIMIGOS E CAVANDO EM BUSCA DE TESOUROS ONDE X MARCA O LOCAL.
-release: 1989-01-01
-players: 2
-x-id: 
-assets.boxFront: ./media/image/Skullxbo-boxart.png
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: ./media/image/Skullxbo-marquee.png
-assets.screenshot: ./media/screenshots/Skullxbo-screenshot.png
-assets.video: 
-assets.logo: ./media/image/Skullxbo-marquee.png
-assets.background: ./media/fanart/Skullxbo-fanart.jpg
-assets.music: ./media/musics/Skullxbo-music.mp3
-assets.titlescreen: ./media/image/Skullxbo-titleshot.png
-assets.bezel: 
-rating: 0.62
-
-collection: fbneo
-game: SKYADVNT
-file: ./Skyadvnt.zip
-developer: ALPHA DENSHI KŌGYŌ
-publisher: SNK OF AMERICA
-genre: SHOOTER
-favorite: false
-description: 
-	SKY ADVENTURE FOI PRODUZIDO PELA SNK EM 1989.
-ESCOLHA ENTRE QUATRO PLANOS PARA REPELIR O ATAQUE DO CORONEL CLAUD. VOANDO SOBRE VÁRIOS TERRENOS, VOCÊ É ATACADO DO AR E DO SOLO POR UMA VARIEDADE DE MÁQUINAS VOADORAS, ANIMAIS, PLANTAS E PEDRAS ENORMES. A PONTUAÇÃO É MANTIDA COM BASE NO "ATO", E UMA PONTUAÇÃO MAIS ALTA NO FINAL DE CADA ATO LHE RENDERÁ UM BÔNUS MAIOR, COMO UMA NAVE EXTRA OU MAIS PODER DE FOGO.
-EMBORA VOCÊ SEJA OBRIGADO A ESCOLHER SEU AVIÃO NO INÍCIO DE CADA ACT, VOCÊ PODE TROCÁ-LO NA HORA!
-release: 1989-01-01
-players: 2
-x-id: 
-assets.boxFront: ./media/image/Skyadvnt-boxart.png
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: ./media/screenshots/Skyadvnt-screenshot.png
-assets.video: 
-assets.logo: 
-assets.background: ./media/fanart/Skyadvnt-fanart.jpg
-assets.music: 
-assets.titlescreen: ./media/image/Skyadvnt-titleshot.png
-assets.bezel: 
-rating: 0.74
-
-collection: fbneo
-game: SLY SPY (US REVISION 4)
-file: ./Slyspy.zip
-developer: 
-publisher: DATA EAST USA
-genre: 
-favorite: false
-description: 
-	CLONE OF : SECRETAG (SLY SPY (US REVISION 4))
-release: 1989-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: SMASHTV
-file: ./Smashtv.zip
-developer: WILLIAMS ELECTRONICS GAMES
-publisher: WILLIAMS ELECTRONICS GAMES
-genre: SHOOTER
-favorite: false
-description: 
-	SMASH TV FOI PRODUZIDO PELA WILLIAMS ELECTRONIC GAMES, INC. (WMS, 1985-2000) EM 1990.
-O ANO É 1999. O PROGRAMA DE TELEVISÃO MAIS POPULAR DO MUNDO É SMASH TV, UMA COMPETIÇÃO ULTRAVIOLENTA ENTRE DOIS COMBATENTES ARMADOS ATÉ OS DENTES, DESENCADEADA EM UMA SÉRIE DE ARENAS MORTAIS QUE ESTÃO REPLETAS DE HORDAS DE FERAS ESTÚPIDAS E ROBÔS ASSASSINOS. O OBJETIVO DO JOGO É EXPLODIR TUDO QUE ESTIVER À VISTA E TENTAR GANHAR MAIS DINHEIRO E PRÊMIOS DO QUE O OUTRO CARA. TORRADEIRAS, VIDEOCASSETES, CARROS SOFISTICADOS E FÉRIAS LUXUOSAS ESTÃO À SUA DISPOSIÇÃO... PARA QUALQUER UM QUE CONSIGA SOBREVIVER O TEMPO SUFICIENTE PARA APROVEITÁ-LOS.
-SMASH TV É UM JOGO DE TIRO INSANO DO CÉREBRO DE EUGENE JARVIS, CRIADOR DE ROBOTRON: 2084. ELE MANTÉM O ESTILO DE JOGO FRENÉTICO E O MÉTODO DE CONTROLE DE DOIS JOYSTICKS, MAS ADICIONA MUITO SANGUE, VIOLÊNCIA, UMA PITADA DE SÁTIRA E AQUELE IMPORTANTE MODO PARA DOIS JOGADORES.
-release: 1990-01-01
-players: 2
-x-id: 
-assets.boxFront: ./media/image/Smashtv-boxart.png
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: ./media/image/Smashtv-marquee.png
-assets.screenshot: ./media/screenshots/Smashtv-screenshot.png
-assets.video: 
-assets.logo: ./media/image/Smashtv-marquee.png
-assets.background: ./media/fanart/Smashtv-fanart.jpg
-assets.music: 
-assets.titlescreen: ./media/image/Smashtv-titleshot.png
-assets.bezel: 
-rating: 0.88
-
-collection: fbneo
-game: SNAKEPIT
-file: ./Snakepit.zip
-developer: 
-publisher: 
-genre: 
-favorite: false
-description: 
-	
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: SNAKJACK
-file: ./Snakjack.zip
-developer: 
-publisher: 
-genre: 
-favorite: false
-description: 
-	
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: SNAPJACK
-file: ./Snapjack.zip
-developer: UNIVERSAL
-publisher: UNIVERSAL
-genre: PLATFORM
-favorite: false
-description: 
-	SNAP JACK FOI PRODUZIDO PELA UNIVERSAL EM 1982.
-GUIE UM PERSONAGEM DE PERNAS ESTICADAS E MASTIGANDO PONTOS ATRAVÉS DE CENAS DE PAISAGENS E TÚNEIS QUE ROLAM DA DIREITA PARA A ESQUERDA. EVITE, ENTRE OUTRAS COISAS, ÁGUAS-VIVAS E, CLARO, AS CHALEIRAS E BOTAS NA ESTEIRA TRANSPORTADORA.
-ESTE JOGO É UM CRUZAMENTO ENTRE PAC-MAN E SCRAMBLE.
-release: 1982-01-01
-players: 2
-x-id: 
-assets.boxFront: ./media/image/Snapjack-boxart.png
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: ./media/image/Snapjack-marquee.png
-assets.screenshot: ./media/screenshots/Snapjack-screenshot.png
-assets.video: 
-assets.logo: ./media/image/Snapjack-marquee.png
-assets.background: 
-assets.music: 
-assets.titlescreen: ./media/image/Snapjack-titleshot.png
-assets.bezel: 
-rating: 0.49
-
-collection: fbneo
-game: SNCWGLTD
-file: ./Sncwgltd.zip
-developer: 
-publisher: 
-genre: 
-favorite: false
-description: 
-	
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: SNOWBROS
-file: ./Snowbros.zip
-developer: TOAPLAN
-publisher: ROMSTAR
-genre: PLATFORM
-favorite: false
-description: 
-	DOIS BONECOS DE NEVE, NICK E TOM, LUTAM CONTRA LINDAS CRIATURAS JAPONESAS EM 50 TELAS BASEADAS EM PLATAFORMA. TRANSFORME AS CRIATURAS INIMIGAS EM BOLAS DE NEVE E DEPOIS CHUTE-AS PELAS PLATAFORMAS, DERRUBANDO TUDO EM SEU CAMINHO. COMPRE SUSHI PARA GANHAR PONTOS EXTRAS. QUANDO UMA TELA FICA SEM MONSTROS, VOCÊ PASSA PARA O PRÓXIMO NÍVEL.
-ATIRE NEVE NOS MONSTROS PARA TRANSFORMÁ-LOS EM BOLAS DE NEVE. PRESSIONE O BOTÃO DE DISPARO PRÓXIMO A UMA BOLA DE NEVE PARA CHUTÁ-LA PELA TELA. QUAISQUER MONSTROS ATINGIDOS POR UMA BOLA DE NEVE SÃO MORTOS. SE OUTRA BOLA DE NEVE FOR ATINGIDA, ELA TAMBÉM SALTARÁ PELA TELA. COLETE POÇÕES PARA POWER-UPS.
-AMARELO = TIRO LONGO
-VERMELHO = ACELERAR
-AZUL = NEVE "GRANDE" ENVOLVE MONSTROS MAIS RÁPIDO
-VERDE = INFLA VOCÊ COMO UM BALÃO E PERMITE QUE VOCÊ VOE PELA TELA MATANDO QUALQUER MONSTRO QUE TOCAR. PODE APARECER APENAS EM DETERMINADOS MOMENTOS.
-MATAR TODOS OS MONSTROS DE UM NÍVEL COM UMA ÚNICA BOLA DE NEVE FAZ COM QUE BÔNUS EM DINHEIRO, NO VALOR DE 10.000 PONTOS, CAIAM, MAS ÀS VEZES UM BÔNUS DE BOLO BRILHANTE APARECERÁ EM SEU LUGAR. QUANDO O BOLO É COLETADO, O JOGO PARA E QUATRO CRIATURAS AZUIS DO TIPO BOLA DE NEVE APARECEM POR UM CURTO PERÍODO DE TEMPO. SE ESSES INIMIGOS FOREM MORTOS, CADA UM DELES FORNECERÁ UMA LETRA: "S","N","O" OU "W". COLETE TODAS ESSAS QUATRO CARTAS PARA GANHAR UMA VIDA EXTRA. O BOLO BRILHANTE TAMBÉM PODE APARECER EM OUTROS MOMENTOS DO JOGO.
-PERSONAGENS E ANIMAÇÕES MUITO FOFOS, SEMELHANTES A DESENHOS ANIMADOS, E UMA BELA TRILHA SONORA. EMBORA SEJA UM JOGO DE 1990, ELE REALMENTE TEM UMA SENSAÇÃO DOS JOGOS ABSTRATOS ANTERIORES, COMO MR. DO!, ETC.. MUITO SEMELHANTE EM ESTILO AO BUBBLE BOBBLE.
-release: 1990-01-01
-players: 2
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: ./media/screenshots/Snowbros-screenshot.png
-assets.video: 
-assets.logo: 
-assets.background: ./media/fanart/Snowbros-fanart.jpg
-assets.music: 
-assets.titlescreen: ./media/image/Snowbros-titleshot.png
-assets.bezel: 
-rating: 0.81
-
-collection: fbneo
-game: SOCCER
-file: ./Soccer.zip
-developer: 
-publisher: 
-genre: 
-favorite: false
-description: 
-	
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: SOCCER BRAWL
-file: ./Soccer Brawl.zip
-developer: 
-publisher: 
-genre: 
-favorite: false
-description: 
-	
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: SOLAR FOX (UPRIGHT)
-file: ./Solarfox.zip
-developer: 
-publisher: BALLY MIDWAY
-genre: 
-favorite: false
-description: 
-	
-release: 1981-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: SOLARWAR
-file: ./Solarwar.zip
-developer: 
-publisher: 
-genre: 
-favorite: false
-description: 
-	
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: SOLDAM (JAPAN)
-file: ./Soldamj.zip
-developer: 
-publisher: JALECO
-genre: 
-favorite: false
-description: 
-	CLONE OF : SOLDAM (SOLDAM (JAPAN))
-release: 1992-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: SOLOMON
-file: ./Solomon.zip
-developer: TECMO
-publisher: TECMO
-genre: ACTION, PLATFORM, PUZZLE
-favorite: false
-description: 
-	A CHAVE DE SALOMÃO FOI PRODUZIDA PELA TECMO EM 1986.
-USANDO A VARINHA MÁGICA PARA CRIAR E DESTRUIR BLOCOS, PEGUE A CHAVE E SAIA DA SALA. FICA CADA VEZ MAIS DIFÍCIL DESCOBRIR COMO CONSEGUIR A CHAVE E SAIR.
-SOLOMON'S KEY É UM JOGO DE PLATAFORMA COM ELEMENTOS DE AÇÃO E ESTRATÉGIA. EM CADA NÍVEL, SEU OBJETIVO É RECUPERAR UMA CHAVE QUE PODE SER USADA PARA DESBLOQUEAR A SAÍDA. PARA AJUDAR, VOCÊ TEM UMA VARINHA MÁGICA QUE PODE SER USADA PARA CRIAR E DESTRUIR BLOCOS (EMBORA ALGUNS BLOCOS NÃO POSSAM SER DESTRUÍDOS). PARA CHEGAR À CHAVE, VOCÊ PRECISARÁ ORGANIZAR CUIDADOSAMENTE OS BLOCOS NA TELA PARA PODER PULAR COM SEGURANÇA. VAGANDO POR CADA NÍVEL HÁ UMA VARIEDADE DE INIMIGOS QUE FARÃO COM QUE VOCÊ PERCA UMA VIDA SE FOR PEGO. ALGUMAS CRIATURAS PODEM SER MORTAS DESTRUINDO O BLOCO EM QUE ESTÃO, OUTRAS DEVEM SER EVITADAS. BÔNUS E MAGIA OCULTOS PODEM SER ENCONTRADOS EM MUITOS NÍVEIS, ÀS VEZES ATÉ ESCONDIDOS EM BLOCOS. ALGUNS TESOUROS DÃO PONTOS DE BÔNUS, OUTROS PODEM FORMAR FEITIÇOS PARA AJUDAR A LIDAR COM OS INIMIGOS. PARA TORNAR O JOGO MAIS DIFÍCIL, CADA NÍVEL TEM UM LIMITE DE TEMPO PARA SER CONCLUÍDO.
-release: 1986-01-01
-players: 2
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: ./media/image/Solomon-marquee.png
-assets.screenshot: ./media/screenshots/Solomon-screenshot.png
-assets.video: 
-assets.logo: ./media/image/Solomon-marquee.png
-assets.background: ./media/fanart/Solomon-fanart.jpg
-assets.music: ./media/musics/Solomon-music.mp3
-assets.titlescreen: ./media/image/Solomon-titleshot.png
-assets.bezel: 
-rating: 0.74
-
-collection: fbneo
-game: SONIC
-file: ./Sonic .zip
-developer: SONIC TEAM
-publisher: SEGA
-genre: PLATFORM
-favorite: false
-description: 
-	AQUELE MALVADO E ROTUNDO DR. ROBOTNIK ESTÁ DE VOLTA! DESTA VEZ, ELE CONSTRUIU UMA NOVA BASE INSULAR CHAMADA ILHA EGGMAN E PRETENDE USÁ-LA PARA CONQUISTAR O MUNDO. INEVITAVELMENTE, SONIC THE HEDGEHOG, A MAIOR PENA AO SEU LADO DESDE A FACULDADE, ESTÁ NO ENCALÇO DE EGGMAN, MAS NOSSO HERÓI MAL SABE QUE ROBOTNIK ESTÁ PREPARADO PARA SUA CHEGADA. AGORA, SONIC E DOIS DE SEUS AMIGOS, RAY, O ESQUILO VOADOR, E MIGHTY, O TATU, ESTÃO PRESOS NA ILHA EGGMAN! NOSSOS HERÓIS CONSEGUIRÃO ESCAPAR E FRUSTRAR MAIS UMA VEZ OS PLANOS DE EGGMAN?
-SEGASONIC THE HEDGEHOG É UM JOGO DE PLATAFORMA ISOMÉTRICO NO QUAL ATÉ TRÊS JOGADORES (CONTROLANDO SONIC, RAY OU MIGHTY) DEVEM ABRIR CAMINHO PELA ILHA EGGMAN E ESCAPAR COM VIDA. MAS ROBOTNIK NÃO FACILITARÁ AS COISAS – EM CADA SALA, HÁ UMA SÉRIE DE ARMADILHAS MORTAIS QUE PODEM SIGNIFICAR A MORTE SE SONIC E COMPANHIA NÃO FOREM RÁPIDOS, BEM COMO INIMIGOS CUJO ÚNICO PROPÓSITO É VER SONIC MORTO. MUITOS DESLIZES E SONIC É UM OURIÇO MORTO. ESPALHADOS PELOS CURSOS, NO ENTANTO, ESTÃO ANÉIS QUE AUMENTAM A SAÚDE E TAMBÉM AUMENTAM A PONTUAÇÃO DOS JOGADORES.
-release: 1992-/0-1/
-players: 3
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: ./media/screenshots/Sonic -screenshot.png
-assets.video: 
-assets.logo: 
-assets.background: ./media/fanart/Sonic -fanart.jpg
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 0.80
-
-collection: fbneo
-game: SPACE INVADERS / SPACE INVADERS M
-file: ./Invaders.zip
-developer: 
-publisher: TAITO / MIDWAY
-genre: 
-favorite: false
-description: 
-	
-release: 1978-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: SPACE INVADERS GALACTICA (GALAXIAJ HACK)
-file: ./Galap1.zip
-developer: 
-publisher: HACK
-genre: 
-favorite: false
-description: 
-	CLONE OF : GALAXIAN (SPACE INVADERS GALACTICA (GALAXIAJ HACK))
-release: 1979-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: STREET FIGHTER ALPHA
+game: Street Fighter Alpha
 file: ./Street Fighter Alpha.zip
 developer: 
 publisher: 
@@ -1724,82 +1032,7 @@ assets.bezel:
 rating: 
 
 collection: fbneo
-game: STRIKERS 1945 (WORLD)
-file: ./S1945.zip
-developer: 
-publisher: PSIKYO
-genre: 
-favorite: false
-description: 
-	
-release: 1995-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: STRIKERS 1945 III (WORLD) / STRIKERS 1999 (JAPAN)
-file: ./S1945iii.zip
-developer: 
-publisher: PSIKYO
-genre: 
-favorite: false
-description: 
-	
-release: 1999-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: STRIKERS 1945 PLUS
-file: ./S1945p.zip
-developer: 
-publisher: PSIKYO
-genre: 
-favorite: false
-description: 
-	
-release: 1999-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: SUPER MUSCLE BOMBER - THE INTERNATIONAL BLOWOUT
+game: Super Muscle Bomber - The International Blowout
 file: ./Super Muscle Bomber - The International Blowout.zip
 developer: 
 publisher: 
@@ -1823,7 +1056,7 @@ assets.bezel:
 rating: 
 
 collection: fbneo
-game: SUPER SIDEKICKS 2
+game: Super Sidekicks 2
 file: ./Super Sidekicks 2.zip
 developer: 
 publisher: 
@@ -1847,7 +1080,7 @@ assets.bezel:
 rating: 
 
 collection: fbneo
-game: SVC CHAOS - SNK VS CAPCOM PLUS
+game: Svc Chaos - SNK Vs Capcom Plus
 file: ./Svc Chaos - SNK Vs Capcom Plus.zip
 developer: 
 publisher: 
@@ -1871,15 +1104,14 @@ assets.bezel:
 rating: 
 
 collection: fbneo
-game: SXEVIOUS
+game: Sxevious
 file: ./Sxevious.zip
-developer: NAMCO
-publisher: NAMCO
-genre: SHOOT'EM UP / VERTICAL, SHOOT'EM UP
+developer: Namco
+publisher: Namco
+genre: Shoot'em Up / Vertical, Shoot'em Up
 favorite: false
 description: 
-	SUPER XEVIOUS É UM JOGO DE TIRO COM ROLAGEM VERTICAL DESENVOLVIDO E LANÇADO COMO UM VIDEOGAME ARCADE PELA NAMCO NO JAPÃO EM 1984. É UMA VERSÃO ATUALIZADA DE XEVIOUS (1983), CRIADO COMO UMA RESPOSTA AO ENORME SUCESSO DO ORIGINAL NO JAPÃO. FOI VENDIDO COMO UM KIT DE CONVERSÃO PARA GABINETES XEVIOUS EXISTENTES.
-COMO NO JOGO ORIGINAL, O JOGADOR CONTROLA UMA NAVE CONHECIDA COMO SOLVALOU, EQUIPADA COM DUAS ARMAS: UM "AIR ZAPPER" PARA DERROTAR INIMIGOS VOADORES E UMA "BOMBA BLASTER" PARA DESTRUIR INIMIGOS TERRESTRES. ELE RODA NO TABULEIRO DE ARCADE NAMCO GALAGA. NOVOS TIPOS DE INIMIGOS INCLUEM NAVES EMBLEMÁTICAS GALÁCTICAS METÁLICAS. ALGUNS DELES REVERTEM A PONTUAÇÃO DO JOGADOR PARA ZERO SE FOREM DESTRUÍDOS.
+	Super Xevious é um jogo de tiro com rolagem vertical desenvolvido e lançado como um videogame arcade pela Namco no Japão em 1984. É uma versão atualizada de Xevious (1983), criado como uma resposta ao enorme sucesso do original no Japão. Foi vendido como um kit de conversão para gabinetes Xevious existentes.		Como no jogo original, o jogador controla uma nave conhecida como Solvalou, equipada com duas armas: um "air zapper" para derrotar inimigos voadores e uma "bomba blaster" para destruir inimigos terrestres. Ele roda no tabuleiro de arcade Namco Galaga. Novos tipos de inimigos incluem naves emblemáticas galácticas metálicas. Alguns deles revertem a pontuação do jogador para zero se forem destruídos.
 release: 1984-01-01
 players: 1-2
 x-id: 507532
@@ -1895,381 +1127,6 @@ assets.music:
 assets.titlescreen: ./media/image/Sxevious-titleshot.png
 assets.bezel: 
 rating: 0.60
-
-collection: fbneo
-game: TAISEN HOT GIMMICK (JAPAN)
-file: ./Hotgmck.zip
-developer: 
-publisher: PSIKYO
-genre: 
-favorite: false
-description: 
-	
-release: 1997-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: TETRIS (BOOTLEG SET 1)
-file: ./Atetrisb.zip
-developer: 
-publisher: BOOTLEG
-genre: 
-favorite: false
-description: 
-	CLONE OF : ATETRIS (TETRIS (BOOTLEG SET 1))
-release: 1988-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: TETRIS (SET 1)
-file: ./Atetris.zip
-developer: 
-publisher: ATARI GAMES
-genre: 
-favorite: false
-description: 
-	
-release: 1988-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: TETRIS (SET 2)
-file: ./Atetrisa.zip
-developer: 
-publisher: ATARI GAMES
-genre: 
-favorite: false
-description: 
-	CLONE OF : ATETRIS (TETRIS (SET 2))
-release: 1988-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: THE CLIFFHANGER - EDWARD RANDY (WORLD VER 3)
-file: ./Edrandy.zip
-developer: 
-publisher: DATA EAST CORPORATION
-genre: 
-favorite: false
-description: 
-	
-release: 1990-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: THE COMBATRIBES (US, REV 2, SET 1)
-file: ./Ctribe.zip
-developer: 
-publisher: TECHNOS JAPAN
-genre: 
-favorite: false
-description: 
-	
-release: 1990-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: THE FINAL ROUND (VER. M)
-file: ./Fround.zip
-developer: 
-publisher: KONAMI
-genre: 
-favorite: false
-description: 
-	
-release: 1988-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: THE KING OF DRAGONS (US 910910)
-file: ./Kodu.zip
-developer: 
-publisher: CAPCOM
-genre: 
-favorite: false
-description: 
-	CLONE OF : KOD (THE KING OF DRAGONS (US 910910))
-release: 1991-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: THE KING OF FIGHTERS 2002 (NGM-2650)(NGH-2650)
-file: ./Kof2002.zip
-developer: 
-publisher: EOLITH / PLAYMORE
-genre: 
-favorite: false
-description: 
-	
-release: 2002-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: THE KING OF FIGHTERS 2003 (NGM-2710)
-file: ./Kof2003.zip
-developer: 
-publisher: SNK PLAYMORE
-genre: 
-favorite: false
-description: 
-	
-release: 2003-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: THE KING OF FIGHTERS '95 (NGM-084)
-file: ./Kof95.zip
-developer: 
-publisher: SNK
-genre: 
-favorite: false
-description: 
-	
-release: 1995-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: THE KING OF FIGHTERS '96 (NGM-214)
-file: ./Kof96.zip
-developer: 
-publisher: SNK
-genre: 
-favorite: false
-description: 
-	
-release: 1996-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: THE KING OF FIGHTERS '97 (NGM-2320)
-file: ./Kof97.zip
-developer: 
-publisher: SNK
-genre: 
-favorite: false
-description: 
-	
-release: 1997-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: THE KING OF FIGHTERS '98 - THE SLUGFEST / KING OF FIGHTERS '98 - DREAM MATCH NEVER ENDS (NGH-2420)
-file: ./Kof98h.zip
-developer: 
-publisher: SNK
-genre: 
-favorite: false
-description: 
-	CLONE OF : KOF98 (THE KING OF FIGHTERS '98 - THE SLUGFEST / KING OF FIGHTERS '98 - DREAM MATCH NEVER ENDS (NGH-2420))
-release: 1998-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
-
-collection: fbneo
-game: THE LAST BLADE / BAKUMATSU ROMAN - GEKKA NO KENSHI (NGM-2340)
-file: ./Lastblad.zip
-developer: 
-publisher: SNK
-genre: 
-favorite: false
-description: 
-	
-release: 1997-/0-1/
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: 
-assets.video: 
-assets.logo: 
-assets.background: 
-assets.music: 
-assets.titlescreen: 
-assets.bezel: 
-rating: 
 
 collection: fbneo
 game: THE LEGEND OF KAGE
@@ -6817,6 +5674,56 @@ assets.bezel:
 rating: 0.40
 
 collection: fbneo
+game: Soccer
+file: ./Soccer.zip
+developer: Atari
+publisher: Atari
+genre: Esporte, Esporte / Futebol
+favorite: false
+description: 
+	Um antigo jogo de futebol preto e branco.
+release: 1980-01-01
+players: 1-4
+x-id: 43164
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Soccer-marquee.png
+assets.screenshot: ./media/screenshots/Soccer-screenshot.png
+assets.video: ./media/videos/Soccer-video.mp4
+assets.logo: ./media/image/Soccer-wheel.png
+assets.background: ./media/fanart/Soccer-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Soccer-titleshot.png
+assets.bezel: 
+rating: 0.40
+
+collection: fbneo
+game: Solarwar
+file: ./Solarwar.zip
+developer: Atari
+publisher: Atari
+genre: Pinball
+favorite: false
+description: 
+	Solar War é uma simulação de pinball de um a quatro jogadores. Você começa o jogo com três bolas e precisa marcar o máximo de pontos possível acertando os vários bumpers, spinners e rollovers na mesa de pinball. O layout da mesa é baseado na mesa de pinball real do Superman, também da Atari.
+release: 1979-01-01
+players: 1-4
+x-id: 145728
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Solarwar-marquee.png
+assets.screenshot: ./media/screenshots/Solarwar-screenshot.png
+assets.video: ./media/videos/Solarwar-video.mp4
+assets.logo: ./media/image/Solarwar-wheel.png
+assets.background: 
+assets.music: 
+assets.titlescreen: ./media/image/Solarwar-titleshot.png
+assets.bezel: 
+rating: 0.20
+
+collection: fbneo
 game: SONIC WINGS 3
 file: ./Sonic Wings 3.zip
 developer: VIDEO SYSTEM
@@ -9079,6 +7986,81 @@ assets.background: ./media/fanart/Atetcktl-fanart.jpg
 assets.music: 
 assets.titlescreen: ./media/image/Atetcktl-titleshot.png
 assets.bezel: ./media/image/Atetcktl-bezel.png
+rating: 0.80
+
+collection: fbneo
+game: Atetrisa
+file: ./Atetrisa.zip
+developer: bootleg
+publisher: Atari
+genre: Quebra-cabeças, Quebra-cabeças / Queda
+favorite: false
+description: 
+	Este quebra-cabeça russo baseado em formas preparou o cenário para inúmeros jogos de quebra-cabeça que viriam
+release: 1989-01-01
+players: 1
+x-id: 40094
+assets.boxFront: ./media/image/Atetrisa-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Atetrisa-marquee.png
+assets.screenshot: ./media/screenshots/Atetrisa-screenshot.png
+assets.video: ./media/videos/Atetrisa-video.mp4
+assets.logo: ./media/image/Atetrisa-wheel.png
+assets.background: ./media/fanart/Atetrisa-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Atetrisa-titleshot.png
+assets.bezel: ./media/image/Atetrisa-bezel.png
+rating: 0.80
+
+collection: fbneo
+game: Atetrisb
+file: ./Atetrisb.zip
+developer: bootleg
+publisher: Atari
+genre: Quebra-Cabeças, Quebra-Cabeças / Queda
+favorite: false
+description: 
+	Este quebra-cabeça russo baseado em formas preparou o cenário para inúmeros jogos de quebra-cabeça que viriam
+release: 1989-01-01
+players: 1
+x-id: 40094
+assets.boxFront: ./media/image/Atetrisb-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Atetrisb-marquee.png
+assets.screenshot: ./media/screenshots/Atetrisb-screenshot.png
+assets.video: ./media/videos/Atetrisb-video.mp4
+assets.logo: ./media/image/Atetrisb-wheel.png
+assets.background: ./media/fanart/Atetrisb-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Atetrisb-titleshot.png
+assets.bezel: ./media/image/Atetrisb-bezel.png
+rating: 0.80
+
+collection: fbneo
+game: Atetris
+file: ./Atetris.zip
+developer: bootleg
+publisher: Atari
+genre: Quebra-cabeças, Quebra-cabeças / Queda
+favorite: false
+description: 
+	Este quebra-cabeça russo baseado em formas preparou o cenário para inúmeros jogos de quebra-cabeça que viriam
+release: 1989-01-01
+players: 1
+x-id: 40094
+assets.boxFront: ./media/image/Atetris-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Atetris-marquee.png
+assets.screenshot: ./media/screenshots/Atetris-screenshot.png
+assets.video: ./media/videos/Atetris-video.mp4
+assets.logo: ./media/image/Atetris-wheel.png
+assets.background: ./media/fanart/Atetris-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Atetris-titleshot.png
+assets.bezel: ./media/image/Atetris-bezel.png
 rating: 0.80
 
 collection: fbneo
@@ -12783,6 +11765,31 @@ assets.bezel: ./media/image/Cstlevna-bezel.png
 rating: 0.40
 
 collection: fbneo
+game: Ctribe
+file: ./Ctribe.zip
+developer: Technos Japan
+publisher: Tecmo
+genre: Briga de rua
+favorite: false
+description: 
+	Batalha corpo a corpo simultânea de três jogadores, na qual lutadores gigantescos lutam contra membros de gangues rivais. Além de poder pegar objetos como motocicletas, etc. e jogá-los nos inimigos, os jogadores também têm uma série de movimentos de luta interessantes que podem ser desencadeados contra seus oponentes. Isso inclui pegar inimigos inconscientes e acertar OUTROS inimigos com eles, bem como bater as cabeças de dois inimigos e esmagar as cabeças dos inimigos deitados no chão para acabar com eles.
+release: 1990-01-01
+players: 1-3
+x-id: 40766
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Ctribe-screenshot.png
+assets.video: ./media/videos/Ctribe-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Ctribe-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Ctribe-titleshot.png
+assets.bezel: ./media/image/Ctribe-bezel.png
+rating: 0.40
+
+collection: fbneo
 game: CVS2GD
 file: ./Cvs2gd.zip
 developer: CAPCOM
@@ -14483,6 +13490,31 @@ assets.bezel: ./media/image/Edf-bezel.png
 rating: 0.40
 
 collection: fbneo
+game: Edrandy
+file: ./Edrandy.zip
+developer: Data East
+publisher: Data East
+genre: Plataforma / Combate Com Rolagem, Plataforma
+favorite: false
+description: 
+	Um jogo de plataforma rápido em que o jogador controla o estilo Indiana Jones e infelizmente chamado de 'Edward Randy'. Os níveis são uma mistura inventiva de ação de plataforma padrão e níveis de rolagem 3D; este último geralmente faz com que o jogador dirija um jipe ​​​​e repela os ataques inimigos. O jogo é baseado no arquétipo do blockbuster de ação de Hollywood e apresenta uma trilha sonora cinematográfica para apoiar a ação na tela. A única arma do jogador é um chicote - outra homenagem ao personagem Indiana Jones - que pode ser usado tanto para atacar inimigos quanto como 'corda', para permitir ao jogador alcançar plataformas distantes.
+release: 1990-01-01
+players: 1-2
+x-id: 41085
+assets.boxFront: ./media/image/Edrandy-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Edrandy-marquee.png
+assets.screenshot: ./media/screenshots/Edrandy-screenshot.png
+assets.video: ./media/videos/Edrandy-video.mp4
+assets.logo: ./media/image/Edrandy-wheel.png
+assets.background: ./media/fanart/Edrandy-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Edrandy-titleshot.png
+assets.bezel: ./media/image/Edrandy-bezel.png
+rating: 0.60
+
+collection: fbneo
 game: EIGHTMAN
 file: ./Eightman.zip
 developer: SNK
@@ -15993,6 +15025,31 @@ assets.bezel: ./media/image/Frogsega-bezel.png
 rating: 0.80
 
 collection: fbneo
+game: Fround
+file: ./Fround.zip
+developer: Konami
+publisher: Konami
+genre: Esporte, Esporte / Boxe
+favorite: false
+description: 
+	Jogo de boxe. Você interpreta o papel de Jabbin Jim, que luta contra diferentes oponentes, cada um mais difícil que o anterior. Alguns dos adversários são reconhecíveis nos filmes de Rocky. Seu boxeador possui três atributos: força, velocidade e estaminia, e todos esses fatores contribuem para a sua classificação geral de potência. Os atributos podem ser aprimorados participando de minijogos entre as rodadas.
+release: 1988-01-01
+players: 1-2
+x-id: 41287
+assets.boxFront: ./media/image/Fround-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Fround-marquee.png
+assets.screenshot: ./media/screenshots/Fround-screenshot.png
+assets.video: ./media/videos/Fround-video.mp4
+assets.logo: ./media/image/Fround-wheel.png
+assets.background: ./media/fanart/Fround-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Fround-titleshot.png
+assets.bezel: 
+rating: 0.60
+
+collection: fbneo
 game: FUNKYJET
 file: ./Funkyjet.zip
 developer: DATA EAST
@@ -16143,6 +15200,31 @@ assets.background: ./media/fanart/Galaga-fanart.jpg
 assets.music: 
 assets.titlescreen: ./media/image/Galaga-titleshot.png
 assets.bezel: ./media/image/Galaga-bezel.png
+rating: 0.80
+
+collection: fbneo
+game: Galap1
+file: ./Galap1.zip
+developer: Namco
+publisher: Namco
+genre: Tiro / Estilo Space Invader, Tiro
+favorite: false
+description: 
+	Galaxian é um lendário jogo de tiro em tela única que pegou tudo o que tornou o inovador “Space Invaders” da Taito tão bom e o melhorou em todos os níveis. Cada tela começa com uma onda de alienígenas multicoloridos se movendo para a esquerda e para a direita na parte superior da tela; os alienígenas rapidamente quebram as fileiras e começam a bombardear o Galaxip (a nave do jogador) - seja em unidades individuais ou em grupos de 3 - lançando vários mísseis enquanto descem. Todos os alienígenas precisam ser destruídos antes que o jogador possa avançar para a próxima onda.
+release: 1979-01-01
+players: 1-2
+x-id: 41336
+assets.boxFront: ./media/image/Galap1-boxart.png
+assets.boxBack: ./media/image/Galap1-boxback.png
+assets.cartridge: 
+assets.marquee: ./media/image/Galap1-marquee.png
+assets.screenshot: ./media/screenshots/Galap1-screenshot.png
+assets.video: ./media/videos/Galap1-video.mp4
+assets.logo: ./media/image/Galap1-wheel.png
+assets.background: ./media/fanart/Galap1-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Galap1-titleshot.png
+assets.bezel: ./media/image/Galap1-bezel.png
 rating: 0.80
 
 collection: fbneo
@@ -18247,6 +17329,31 @@ assets.bezel: ./media/image/Hook-bezel.png
 rating: 0.60
 
 collection: fbneo
+game: Hotgmck
+file: ./Hotgmck.zip
+developer: 
+publisher: Psikyo
+genre: Jogo de tabuleiro Asiático, Mahjong
+favorite: false
+description: 
+	Taisen Hot Gimmick é um jogo de mahjong strip com oito oponentes (mais três oponentes bônus). 		Depois de ganhar três rodadas contra um adversário ou esgotar todos os seus créditos, é dada a opção de 'punir' o adversário. Cada garota apresenta duas ou três cenas de punição, das quais o jogador pode escolher apenas uma para ver. Quando mostrado, o jogador deve pressionar repetidamente o botão A para avançar a sequência animada para revelar mais nudez. 		Depois de derrotar um adversário (ou depois de continuar), o jogador pode comprar itens de trapaça para usar contra o próximo oponente. 		O jogo termina quando todos os créditos do jogador estiverem esgotados.
+release: 1997-01-01
+players: 1-2
+x-id: 41722
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Hotgmck-screenshot.png
+assets.video: ./media/videos/Hotgmck-video.mp4
+assets.logo: 
+assets.background: 
+assets.music: 
+assets.titlescreen: ./media/image/Hotgmck-titleshot.png
+assets.bezel: 
+rating: 
+
+collection: fbneo
 game: HUSTLE
 file: ./Hustle.zip
 developer: GREMLIN INDUSTRIES
@@ -18512,6 +17619,31 @@ assets.background: ./media/fanart/Inthunt-fanart.jpg
 assets.music: 
 assets.titlescreen: ./media/image/Inthunt-titleshot.png
 assets.bezel: ./media/image/Inthunt-bezel.png
+rating: 0.80
+
+collection: fbneo
+game: Invaders
+file: ./Invaders.zip
+developer: Taito
+publisher: Taito
+genre: Tiro / Estilo Space Invader, Tiro
+favorite: false
+description: 
+	O videogame mais influente de todos os tempos. Um único jogador move uma 'base' armada para a esquerda ou para a direita ao longo da parte inferior da tela e atira nas intermináveis ​​ondas de alienígenas que desfilam incansavelmente pela tela em direção à Terra.	Existem 4 edifícios (escudos) na parte inferior da tela atrás dos quais o jogador pode se esconder, mas estes acabarão sendo destruídos por mísseis inimigos ou contato direto com os próprios invasores. Os tiros dos jogadores também destruirão os escudos.	A descida dos alienígenas acelera à medida que são eliminados, tornando-os mais difíceis de acertar. Um disco voador voará pela parte superior da tela em intervalos regulares e pode ser disparado para ganhar pontos extras.
+release: 1979-01-01
+players: 1-2
+x-id: 145321
+assets.boxFront: ./media/image/Invaders-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Invaders-marquee.png
+assets.screenshot: ./media/screenshots/Invaders-screenshot.png
+assets.video: ./media/videos/Invaders-video.mp4
+assets.logo: ./media/image/Invaders-wheel.png
+assets.background: ./media/fanart/Invaders-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Invaders-titleshot.png
+assets.bezel: ./media/image/Invaders-bezel.png
 rating: 0.80
 
 collection: fbneo
@@ -19943,6 +19075,185 @@ assets.music:
 assets.titlescreen: ./media/image/Knightsu-titleshot.png
 assets.bezel: ./media/image/Knightsu-bezel.png
 rating: 0.60
+
+collection: fbneo
+game: Kodu
+file: ./Kodu.zip
+developer: Capcom
+publisher: Capcom
+genre: Briga De Rua, Luta / 2.5D, Luta
+favorite: false
+description: 
+	The King of Dragons é um jogo de 1991, que permite aos jogadores escolher entre cinco personagens (Elfo, Mago, Lutador, Clérigo e Anão) para viajar pelo reino de Malus e derrotar os monstros que assumiram, assim como seu líder, o dragão vermelho Gildiss. Como os Cavaleiros da Távola da Capcom, ele possui um sistema de avanço de nível, permitindo que os atributos de caráter sejam atualizados à medida que os jogadores progridem no jogo. A configuração é muito parecida com Dungeons & Dragons e outros mundos de fantasia medieval, com monstros familiares como Orcs, Gnolls, Harpies, Wyverns, Cyclopes e Minotaurs.	O jogo foi portado para o Super NES e lançado em 1994. Uma versão emulada do jogo foi lançada como parte da Capcom Classics Collection Vol. 2 e Capcom Classics Coleção: Reloaded.
+release: 1991-01-01
+players: 1-3
+x-id: 37366
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Kodu-screenshot.png
+assets.video: ./media/videos/Kodu-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Kodu-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Kodu-titleshot.png
+assets.bezel: ./media/image/Kodu-bezel.png
+rating: 0.60
+
+collection: fbneo
+game: Kof2002
+file: ./Kof2002.zip
+developer: SNK
+publisher: SNK
+genre: Luta / Versus, Luta
+favorite: false
+description: 
+	O segundo "dream match" sem trama da série King of Fighters, este jogo apresenta 39 personagens normais e 5 personagens secretos, alguns dos quais não aparecem desde o KOF98.
+
+O sistema de jogabilidade também mudou. O sistema de atacantes e as equipes de quatro personagens encontradas nos últimos três lançamentos de KOF foram totalmente removidos. Em seu lugar estão as equipes de três personagens da velha guarda e o sistema "Advance" do The King of Fighters '97 e The King of Fighters '98.
+release: 2002-01-01
+players: 1-2
+x-id: 13857
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Kof2002-screenshot.png
+assets.video: ./media/videos/Kof2002-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Kof2002-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Kof2002-titleshot.png
+assets.bezel: ./media/image/Kof2002-bezel.png
+rating: 0.80
+
+collection: fbneo
+game: Kof2003
+file: ./Kof2003.zip
+developer: SNK
+publisher: SNK
+genre: Luta, Luta / Versus
+favorite: false
+description: 
+	Como The King of Fighters 2002, este jogo volta ao antigo formato 3-para-3 usado do KOF '94 ao KOF '98. Um novo recurso para este jogo que os fãs do KOF da velha guarda podem ter dificuldade em se acostumar é o novo sistema de equipe intercambiável. Você ainda escolhe três personagens e decide a ordem dos seus personagens antes de uma partida, mas agora você tem a opção de mudar para outro personagem durante uma partida. Você pode mudar a qualquer momento durante uma partida, mas você não pode quando dois de seus companheiros de equipe foram retirados, e apenas um personagem é deixado em reserva.
+release: 2004-01-01
+players: 1-2
+x-id: 13878
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Kof2003-screenshot.png
+assets.video: ./media/videos/Kof2003-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Kof2003-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Kof2003-titleshot.png
+assets.bezel: ./media/image/Kof2003-bezel.png
+rating: 0.60
+
+collection: fbneo
+game: Kof95
+file: ./Kof95.zip
+developer: SNK
+publisher: SNK
+genre: Luta, Luta / Versus
+favorite: false
+description: 
+	A primeira sequência da série King of Fighters começa um ano após o final do primeiro torneio. Mais uma vez, lutadores de todo o mundo recebem um misterioso convite para um torneio de luta em equipe. E assim como no ano passado, parece que o notório criminoso Rugal Bernstein está por trás disso, aparentemente retornando do mundo dos mortos para se erguer mais uma vez ...
+
+King of Fighters '95 apresenta o rival de Kyo Kusanagi, Iori Yagami, e coloca Kyo como personagem principal para o resto da série. A jogabilidade de The King of Fighters '95 está essencialmente inalterada em relação ao título anterior, embora introduza o conceito de "edição de equipe", que permaneceria como um recurso padrão da série. Usando o recurso "editar equipe", é possível criar uma equipe totalmente personalizada usando qualquer um dos lutadores disponíveis ou usar uma das equipes padrão, se desejar.
+release: 1995-01-01
+players: 1-2
+x-id: 37592
+assets.boxFront: ./media/image/Kof95-boxart.png
+assets.boxBack: ./media/image/Kof95-boxback.png
+assets.cartridge: ./media/image/Kof95-cartridge.png
+assets.marquee: ./media/image/Kof95-marquee.png
+assets.screenshot: ./media/screenshots/Kof95-screenshot.png
+assets.video: ./media/videos/Kof95-video.mp4
+assets.logo: ./media/image/Kof95-wheel.png
+assets.background: ./media/fanart/Kof95-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Kof95-titleshot.png
+assets.bezel: ./media/image/Kof95-bezel.png
+rating: 0.60
+
+collection: fbneo
+game: Kof96
+file: ./Kof96.zip
+developer: SNK
+publisher: SNK
+genre: Luta, Luta / Versus
+favorite: false
+description: 
+	A principal série da SNK retorna para mais um ano. Muitas das mudanças no lançamento do KOF deste ano vêm na forma de gráficos aprimorados, efeitos sonoros, música e sprites de personagens totalmente refeitos. A jogabilidade do sistema foi alterada com a adição de combos multi-hit "Rush" e novos movimentos para praticamente todos os personagens. O enredo da série recebe grande foco nesta versão com a Saga Orochi girando em alta velocidade. Outras características do ano anterior incluem a capacidade de escolher entre o modo "Team Fighting" padrão ou o tradicional estilo de jogo "Single Fighter", além dos modos de jogo "Versus" e "Survival".
+release: 1996-01-01
+players: 1-2
+x-id: 37593
+assets.boxFront: ./media/image/Kof96-boxart.png
+assets.boxBack: ./media/image/Kof96-boxback.png
+assets.cartridge: ./media/image/Kof96-cartridge.png
+assets.marquee: ./media/image/Kof96-marquee.png
+assets.screenshot: ./media/screenshots/Kof96-screenshot.png
+assets.video: ./media/videos/Kof96-video.mp4
+assets.logo: ./media/image/Kof96-wheel.png
+assets.background: ./media/fanart/Kof96-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Kof96-titleshot.png
+assets.bezel: ./media/image/Kof96-bezel.png
+rating: 0.80
+
+collection: fbneo
+game: Kof97
+file: ./Kof97.zip
+developer: SNK
+publisher: SNK
+genre: Luta, Luta / Versus
+favorite: false
+description: 
+	Mais um ano, outro KOF. As adições este ano vêm na forma de gráficos e sons ligeiramente melhorados, novos movimentos e um novo modo de jogo. A jogabilidade é muito mais orientada pelo enredo, já que você tem chefes intermediários que podem mudar dependendo de qual time você selecionar. Além disso, existem vários finais especiais que são mostrados apenas quando certas combinações "Edit Team" são selecionadas. Novos personagens incluem o New Face Team, o Fatal Fury Outlaw Team (com a estréia em KOF de "Blue" Mary Ryan e Ryuji Yamazaki, e o retorno de Billy Kane), e o aluno de Kyo, Shingo Yabuki. No total, The King of Fighters '97 tem 29 personagens diferentes.
+release: 1997-01-01
+players: 1-2
+x-id: 37594
+assets.boxFront: ./media/image/Kof97-boxart.png
+assets.boxBack: ./media/image/Kof97-boxback.png
+assets.cartridge: ./media/image/Kof97-cartridge.png
+assets.marquee: ./media/image/Kof97-marquee.png
+assets.screenshot: ./media/screenshots/Kof97-screenshot.png
+assets.video: ./media/videos/Kof97-video.mp4
+assets.logo: ./media/image/Kof97-wheel.png
+assets.background: ./media/fanart/Kof97-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Kof97-titleshot.png
+assets.bezel: ./media/image/Kof97-bezel.png
+rating: 0.80
+
+collection: fbneo
+game: Kof98h
+file: ./Kof98h.zip
+developer: SNK
+publisher: SNK
+genre: Luta, Luta / Versus
+favorite: false
+description: 
+	King of Fighters '98 faz uma pausa na saga Orochi e, em vez disso, é apresentado como um "Dream Match" (semelhante ao Mortal Kombat Trilogy, mas sem o componente de história). A maioria dos personagens dos últimos quatro anos retorna, fornecendo ao jogador uma lista muito grande contendo 38 psersonagens. Muitos dos personagens foram alterados na tentativa de equilibrar o jogo, independentemente da escolha do lutador pelo jogador. Rugal Bernstein é fornecido como um personagem não-secreto pela primeira vez no KOF '98, e vários personagens regulares ocultam versões "alternativas" que também podem ser usadas no jogo.
+release: 1998-09-23
+players: 1-2
+x-id: 37595
+assets.boxFront: ./media/image/Kof98h-boxart.png
+assets.boxBack: ./media/image/Kof98h-boxback.png
+assets.cartridge: ./media/image/Kof98h-cartridge.png
+assets.marquee: ./media/image/Kof98h-marquee.png
+assets.screenshot: ./media/screenshots/Kof98h-screenshot.png
+assets.video: ./media/videos/Kof98h-video.mp4
+assets.logo: ./media/image/Kof98h-wheel.png
+assets.background: ./media/fanart/Kof98h-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Kof98h-titleshot.png
+assets.bezel: ./media/image/Kof98h-bezel.png
+rating: 0.80
 
 collection: fbneo
 game: KONAMIGT
@@ -27102,6 +26413,81 @@ assets.bezel:
 rating: 0.60
 
 collection: fbneo
+game: S1945iii
+file: ./S1945iii.zip
+developer: Psikyo
+publisher: Psikyo
+genre: Shoot'em Up / Vertical, Shoot'em Up
+favorite: false
+description: 
+	Ano de 1999, outono. O incontável grupo de máquinas superninimais "nano-machine", que veio sobrevoando, invadiu a principal arma e terminais militares de cada país do espaço exterior e começou a multiplicação. Este grupo de armas que é automatizado com o ataque repetido das "nano-machines" de forma Indiscriminada as metrópoles de cada país estavam em um estado devastador. O medo da extensa guerra nuclear com os misseis nucleares estratégicos atingiu o mundo !!! Mal a unidade de cada país que impede a invasão da "nano-machine" é convocada por causa das manobras de erradicação de armas não tripuladas. Então, lutar com as armas do mundo inteiro não foi suficiente. Os combatentes começam o ataque ao núcleo inimigo! Passados meio século de tempo, a nova lenda da força especial STRIKERS começa agora!
+release: 1999-01-01
+players: 1-2
+x-id: 42860
+assets.boxFront: ./media/image/S1945iii-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/S1945iii-marquee.png
+assets.screenshot: ./media/screenshots/S1945iii-screenshot.png
+assets.video: ./media/videos/S1945iii-video.mp4
+assets.logo: ./media/image/S1945iii-wheel.png
+assets.background: ./media/fanart/S1945iii-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/S1945iii-titleshot.png
+assets.bezel: ./media/image/S1945iii-bezel.png
+rating: 0.80
+
+collection: fbneo
+game: S1945
+file: ./S1945.zip
+developer: Psikyo
+publisher: Psikyo
+genre: Shoot'em Up / Vertical, Shoot'em Up
+favorite: false
+description: 
+	Em 1945, a segunda guerra mundial terminou. Logo, houve paz, mas uma organização de oficiais militares de alta patente de todo o mundo forma um exército global conhecido como CANY. Sua missão é conquistar o mundo. Atividades da CANY foram encontradas em áreas como a União Soviética, a América, o Japão e até a Alemanha. É revelado que CANY tinha armas nunca antes, de foguetes a robôs gigantes. O mundo rapidamente formou um grupo de pilotos e aviões chamados Strikers, cuja missão é livrar CANY do mundo.
+release: 1995-01-01
+players: 1-2
+x-id: 42858
+assets.boxFront: ./media/image/S1945-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/S1945-marquee.png
+assets.screenshot: ./media/screenshots/S1945-screenshot.png
+assets.video: ./media/videos/S1945-video.mp4
+assets.logo: ./media/image/S1945-wheel.png
+assets.background: ./media/fanart/S1945-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/S1945-titleshot.png
+assets.bezel: ./media/image/S1945-bezel.png
+rating: 0.80
+
+collection: fbneo
+game: S1945p
+file: ./S1945p.zip
+developer: Psikyo
+publisher: SNK
+genre: Shoot'em Up / Vertical, Shoot'em Up
+favorite: false
+description: 
+	O jogador escolhe um dos seis aviões ou pode optar por uma escolha aleatória. Os quatro primeiros estágios estão em ordem aleatória, enquanto os quatro últimos são seqüenciais. Os jogadores coletam reforços de armas, bombas e barras de ouro para ganhar pontos. Cada avião tem um "super tiro" único, que é carregado causando dano em inimigos e disparado mantendo pressionado e soltando o botão de disparo. Super tiros podem ser armazenados, embora o número varie de avião para avião. O uso de uma bomba resulta em um grande e amigável avião mergulhando na tela e bloqueando tiros enquanto devolve o fogo por alguns segundos. Depois que o jogador vence o chefe final, o jogo começa novamente desde o início, embora em um nível de dificuldade muito maior. Todos os níveis são semelhantes aos de Strikers 1945 II. Apenas um dos quatro chefes escolhidos aleatoriamente e o sexto chefe são alterados.
+release: 1999-12-24
+players: 1-2
+x-id: 37627
+assets.boxFront: ./media/image/S1945p-boxart.png
+assets.boxBack: ./media/image/S1945p-boxback.png
+assets.cartridge: ./media/image/S1945p-cartridge.png
+assets.marquee: ./media/image/S1945p-marquee.png
+assets.screenshot: ./media/screenshots/S1945p-screenshot.png
+assets.video: ./media/videos/S1945p-video.mp4
+assets.logo: ./media/image/S1945p-wheel.png
+assets.background: ./media/fanart/S1945p-fanart.jpg
+assets.music: ./media/musics/S1945p-music.mp3
+assets.titlescreen: ./media/image/S1945p-titleshot.png
+assets.bezel: ./media/image/S1945p-bezel.png
+rating: 0.60
+
+collection: fbneo
 game: SAILORMNOJ
 file: ./Sailormnoj.zip
 developer: GAZELLE
@@ -28443,14 +27829,14 @@ assets.bezel: ./media/image/Shinobi-bezel.png
 rating: 0.60
 
 collection: fbneo
-game: Shiryu2
+game: SHIRYU2
 file: ./Shiryu2.zip
-developer: Capcom
-publisher: Capcom
-genre: Plataforma, Plataforma / Combate Com Rolagem
+developer: CAPCOM
+publisher: CAPCOM
+genre: PLATAFORMA, PLATAFORMA / COMBATE COM ROLAGEM
 favorite: false
 description: 
-	Strider Hiryu 2 é uma sequência direta do soberbo original de 1989, o jogador mais uma vez assume o papel de Strider Hiryu, um ninja que usa uma cifra mortal de ejeção de plasma chamada "Falchion". Os jogadores começam o jogo selecionando uma das três missões difíceis, com uma quarta ficando disponível quando as três iniciais estiverem completas. Completando a quarta missão você desbloqueará a missão final de "chefe", na qual o jogador deve lutar contra um número de chefes que inclui o desonesto "Strider Hien" do primeiro jogo Strider. Uma vez que todas as missões são completadas, o personagem de Strider Hien - que usa dois cifras de distância - é desbloqueado.
+	STRIDER HIRYU 2 É UMA SEQUÊNCIA DIRETA DO SOBERBO ORIGINAL DE 1989, O JOGADOR MAIS UMA VEZ ASSUME O PAPEL DE STRIDER HIRYU, UM NINJA QUE USA UMA CIFRA MORTAL DE EJEÇÃO DE PLASMA CHAMADA "FALCHION". OS JOGADORES COMEÇAM O JOGO SELECIONANDO UMA DAS TRÊS MISSÕES DIFÍCEIS, COM UMA QUARTA FICANDO DISPONÍVEL QUANDO AS TRÊS INICIAIS ESTIVEREM COMPLETAS. COMPLETANDO A QUARTA MISSÃO VOCÊ DESBLOQUEARÁ A MISSÃO FINAL DE "CHEFE", NA QUAL O JOGADOR DEVE LUTAR CONTRA UM NÚMERO DE CHEFES QUE INCLUI O DESONESTO "STRIDER HIEN" DO PRIMEIRO JOGO STRIDER. UMA VEZ QUE TODAS AS MISSÕES SÃO COMPLETADAS, O PERSONAGEM DE STRIDER HIEN - QUE USA DOIS CIFRAS DE DISTÂNCIA - É DESBLOQUEADO.
 release: 1999-01-01
 players: 1
 x-id: 43396
@@ -28468,14 +27854,14 @@ assets.bezel: ./media/image/Shiryu2-bezel.png
 rating: 
 
 collection: fbneo
-game: Shock Troopers 2Nd Squad
+game: SHOCK TROOPERS 2ND SQUAD
 file: ./Shock Troopers 2Nd Squad.zip
-developer: Saurus
+developer: SAURUS
 publisher: SNK
-genre: Tiro / Run and Gun, Tiro
+genre: TIRO / RUN AND GUN, TIRO
 favorite: false
 description: 
-	Shock Troopers 2nd Squad oferece mais uma vez uma série de níveis nos quais você deve, sozinho ou em pares, derrotar os planos sinistros do ditador local. Desta vez, a equipe de comando deve intervir em Billberk, uma nação ameaçada por um misterioso conglomerado que produz armas de destruição em massa, o D.I.C.
+	SHOCK TROOPERS 2ND SQUAD OFERECE MAIS UMA VEZ UMA SÉRIE DE NÍVEIS NOS QUAIS VOCÊ DEVE, SOZINHO OU EM PARES, DERROTAR OS PLANOS SINISTROS DO DITADOR LOCAL. DESTA VEZ, A EQUIPE DE COMANDO DEVE INTERVIR EM BILLBERK, UMA NAÇÃO AMEAÇADA POR UM MISTERIOSO CONGLOMERADO QUE PRODUZ ARMAS DE DESTRUIÇÃO EM MASSA, O D.I.C.
 release: 1999-06-24
 players: 1-2
 x-id: 37638
@@ -28493,14 +27879,14 @@ assets.bezel: ./media/image/Shock Troopers 2Nd Squad-bezel.png
 rating: 0.60
 
 collection: fbneo
-game: Shock Troopers
+game: SHOCK TROOPERS
 file: ./Shock Troopers.zip
-developer: Saurus
+developer: SAURUS
 publisher: SNK
-genre: Tiro / Run And Gun, Tiro
+genre: TIRO / RUN AND GUN, TIRO
 favorite: false
 description: 
-	Shock Troopers é um jogo de ação completo. Sozinhos ou em pares, comande guerreiros prontos para qualquer coisa e lute contra a ameaça terrorista. O jogo oferece três caminhos distintos para chegar ao quartel-general inimigo. Munido de uma submetralhadora, bazuca ou outras armas semelhantes, você pode escolher atravessar a selva, o vale ou passar pelas cordilheiras.
+	SHOCK TROOPERS É UM JOGO DE AÇÃO COMPLETO. SOZINHOS OU EM PARES, COMANDE GUERREIROS PRONTOS PARA QUALQUER COISA E LUTE CONTRA A AMEAÇA TERRORISTA. O JOGO OFERECE TRÊS CAMINHOS DISTINTOS PARA CHEGAR AO QUARTEL-GENERAL INIMIGO. MUNIDO DE UMA SUBMETRALHADORA, BAZUCA OU OUTRAS ARMAS SEMELHANTES, VOCÊ PODE ESCOLHER ATRAVESSAR A SELVA, O VALE OU PASSAR PELAS CORDILHEIRAS.
 release: 1997-11-11
 players: 1-2
 x-id: 37639
@@ -28543,14 +27929,14 @@ assets.bezel: ./media/image/Shollow-bezel.png
 rating: 
 
 collection: fbneo
-game: Shootout
+game: SHOOTOUT
 file: ./Shootout.zip
-developer: Data East
-publisher: Data East
-genre: Tiro, Tiro / Tiro Em 3ª Pessoa
+developer: DATA EAST
+publisher: DATA EAST
+genre: TIRO, TIRO / TIRO EM 3ª PESSOA
 favorite: false
 description: 
-	Shootout é um jogo arcade estilo galeria de tiro com tema de máfia. O jogador deve passar por oito fases antes de enfrentar o chefe. Ao derrubar multidões de bandidos, deve-se ter cautela para não atingir espectadores inocentes. O movimento e a mira são controlados pelo joystick de 8 direções. E ao contrário de jogos como Operation Wolf da Taito, você controla diretamente o seu jogador em vez de apenas um retículo de mira. O botão um é usado para atirar, enquanto o segundo botão é usado para realizar uma jogada evasiva para evitar o fogo inimigo e outros perigos. Um modo alternado para 2 jogadores também está disponível.
+	SHOOTOUT É UM JOGO ARCADE ESTILO GALERIA DE TIRO COM TEMA DE MÁFIA. O JOGADOR DEVE PASSAR POR OITO FASES ANTES DE ENFRENTAR O CHEFE. AO DERRUBAR MULTIDÕES DE BANDIDOS, DEVE-SE TER CAUTELA PARA NÃO ATINGIR ESPECTADORES INOCENTES. O MOVIMENTO E A MIRA SÃO CONTROLADOS PELO JOYSTICK DE 8 DIREÇÕES. E AO CONTRÁRIO DE JOGOS COMO OPERATION WOLF DA TAITO, VOCÊ CONTROLA DIRETAMENTE O SEU JOGADOR EM VEZ DE APENAS UM RETÍCULO DE MIRA. O BOTÃO UM É USADO PARA ATIRAR, ENQUANTO O SEGUNDO BOTÃO É USADO PARA REALIZAR UMA JOGADA EVASIVA PARA EVITAR O FOGO INIMIGO E OUTROS PERIGOS. UM MODO ALTERNADO PARA 2 JOGADORES TAMBÉM ESTÁ DISPONÍVEL.
 release: 1985-01-01
 players: 1-2
 x-id: 43056
@@ -28568,14 +27954,14 @@ assets.bezel: ./media/image/Shootout-bezel.png
 rating: 0.40
 
 collection: fbneo
-game: Showdown
+game: SHOWDOWN
 file: ./Showdown.zip
-developer: Exidy
-publisher: Exidy
-genre: Cassino, Cassino / Cartas
+developer: EXIDY
+publisher: EXIDY
+genre: CASSINO, CASSINO / CARTAS
 favorite: false
 description: 
-	Um jogo de disco laser ocidental de ação ao vivo da American Laser Games feito em 1994 que acabou sendo relançado pela Digital Leisure no PC em 2004, no Wiiware da Nintendo em 2010 e na PlayStation Network em julho de 2011.
+	UM JOGO DE DISCO LASER OCIDENTAL DE AÇÃO AO VIVO DA AMERICAN LASER GAMES FEITO EM 1994 QUE ACABOU SENDO RELANÇADO PELA DIGITAL LEISURE NO PC EM 2004, NO WIIWARE DA NINTENDO EM 2010 E NA PLAYSTATION NETWORK EM JULHO DE 2011.
 release: 1988-01-01
 players: 1
 x-id: 43060
@@ -28593,14 +27979,14 @@ assets.bezel: ./media/image/Showdown-bezel.png
 rating: 
 
 collection: fbneo
-game: Shuuz
+game: SHUUZ
 file: ./Shuuz.zip
-developer: Atari
-publisher: Atari
-genre: Esporte
+developer: ATARI
+publisher: ATARI
+genre: ESPORTE
 favorite: false
 description: 
-	Um jogo de ferraduras.
+	UM JOGO DE FERRADURAS.
 release: 1990-01-01
 players: 1-4
 x-id: 43073
@@ -28616,6 +28002,614 @@ assets.music:
 assets.titlescreen: ./media/image/Shuuz-titleshot.png
 assets.bezel: ./media/image/Shuuz-bezel.png
 rating: 0.60
+
+collection: fbneo
+game: Sidearjp
+file: ./Sidearjp.zip
+developer: Capcom
+publisher: Capcom
+genre: Shoot'em Up / Horizontal, Shoot'em Up
+favorite: false
+description: 
+	Uma raça alienígena maligna chamada "Bozon" está a tentar exterminar a Humanidade, e o Tenente Henry e o Sargento Sanders têm a responsabilidade de salvar a Raça Humana. Cada um deles veste um fato Mobilsuit - um fato de combate com motor a jacto e fortemente blindado - e empreende a sua missão. 
+
+nSide Arms é um Shoot-em-up de deslocamento horizontal e ocasionalmente vertical para um ou dois jogadores. Cada jogador tem dois botões de disparo, um para disparar à frente e outro para disparar atrás; crucial para um jogo em que os inimigos atacam de todas as direcções. Disparar sobre certos inimigos revelará os power-ups - apresentados como ícones "POW" - e disparar sobre os ícones mudará o seu tipo ou revelará uma arma especial.
+release: 1989-01-01
+players: 1-2
+x-id: 43076
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Sidearjp-screenshot.png
+assets.video: ./media/videos/Sidearjp-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Sidearjp-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sidearjp-titleshot.png
+assets.bezel: ./media/image/Sidearjp-bezel.png
+rating: 0.60
+
+collection: fbneo
+game: Sidearms (2)
+file: ./Sidearms (2).zip
+developer: Capcom
+publisher: Capcom
+genre: Shoot'em Up / Horizontal, Shoot'em Up
+favorite: false
+description: 
+	Uma raça alienígena maligna chamada "Bozon" está a tentar exterminar a Humanidade, e o Tenente Henry e o Sargento Sanders têm a responsabilidade de salvar a Raça Humana. Cada um deles veste um fato Mobilsuit - um fato de combate com motor a jacto e fortemente blindado - e empreende a sua missão. 
+
+nSide Arms é um Shoot-em-up de deslocamento horizontal e ocasionalmente vertical para um ou dois jogadores. Cada jogador tem dois botões de disparo, um para disparar à frente e outro para disparar atrás; crucial para um jogo em que os inimigos atacam de todas as direcções. Disparar sobre certos inimigos revelará os power-ups - apresentados como ícones "POW" - e disparar sobre os ícones mudará o seu tipo ou revelará uma arma especial.
+release: 1989-01-01
+players: 1-2
+x-id: 43076
+assets.boxFront: ./media/image/Sidearms (2)-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Sidearms (2)-marquee.png
+assets.screenshot: ./media/screenshots/Sidearms (2)-screenshot.png
+assets.video: ./media/videos/Sidearms (2)-video.mp4
+assets.logo: ./media/image/Sidearms (2)-wheel.png
+assets.background: ./media/fanart/Sidearms (2)-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sidearms (2)-titleshot.png
+assets.bezel: ./media/image/Sidearms (2)-bezel.png
+rating: 0.60
+
+collection: fbneo
+game: Sidearms
+file: ./Sidearms.zip
+developer: Capcom
+publisher: Capcom
+genre: Shoot'em Up / Horizontal, Shoot'em Up
+favorite: false
+description: 
+	Uma raça alienígena maligna chamada "Bozon" está a tentar exterminar a Humanidade, e o Tenente Henry e o Sargento Sanders têm a responsabilidade de salvar a Raça Humana. Cada um deles veste um fato Mobilsuit - um fato de combate com motor a jacto e fortemente blindado - e empreende a sua missão. 
+
+nSide Arms é um Shoot-em-up de deslocamento horizontal e ocasionalmente vertical para um ou dois jogadores. Cada jogador tem dois botões de disparo, um para disparar à frente e outro para disparar atrás; crucial para um jogo em que os inimigos atacam de todas as direcções. Disparar sobre certos inimigos revelará os power-ups - apresentados como ícones "POW" - e disparar sobre os ícones mudará o seu tipo ou revelará uma arma especial.
+release: 1989-01-01
+players: 1-2
+x-id: 43076
+assets.boxFront: ./media/image/Sidearms-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Sidearms-marquee.png
+assets.screenshot: ./media/screenshots/Sidearms-screenshot.png
+assets.video: ./media/videos/Sidearms-video.mp4
+assets.logo: ./media/image/Sidearms-marquee.png
+assets.background: ./media/fanart/Sidearms-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sidearms-titleshot.jpg
+assets.bezel: ./media/image/Sidearms-bezel.png
+rating: 0.60
+
+collection: fbneo
+game: Sidepckt
+file: ./Sidepckt.zip
+developer: Data East
+publisher: Data East
+genre: Esporte / Sinuca, Esporte
+favorite: false
+description: 
+	Videogame simulador de bilhar de bolso multiplataforma (sinuca).
+release: 1986-01-01
+players: 1-2
+x-id: 43079
+assets.boxFront: ./media/image/Sidepckt-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Sidepckt-marquee.png
+assets.screenshot: ./media/screenshots/Sidepckt-screenshot.png
+assets.video: ./media/videos/Sidepckt-video.mp4
+assets.logo: ./media/image/Sidepckt-wheel.png
+assets.background: ./media/fanart/Sidepckt-fanart.jpg
+assets.music: ./media/musics/Sidepckt-music.mp3
+assets.titlescreen: ./media/image/Sidepckt-titleshot.png
+assets.bezel: 
+rating: 0.60
+
+collection: fbneo
+game: Sidetrac
+file: ./Sidetrac.zip
+developer: Exidy
+publisher: Exidy
+genre: 
+favorite: false
+description: 
+	Side Trak é um jogo homem-contra-máquina em preto e branco, onde o objetivo é pegar todos os passageiros que esperam com seu trem, evitando o 'motor assassino' do motorista do computador, que visa derrubá-lo em uma colisão frontal. Você pode controlar seu trem através do botão 'rápido' que permite aumentar temporariamente sua velocidade nos trilhos. Você também pode usar o joystick para alternar entre diversas faixas em vários pontos de junção.		Cada vez que você faz um circuito completo ao redor da pista e passa o marcador de largada na pista externa, outro vagão é adicionado ao seu trem.
+release: 1979-01-01
+players: 1-2
+x-id: 149685
+assets.boxFront: ./media/image/Sidetrac-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Sidetrac-marquee.png
+assets.screenshot: ./media/screenshots/Sidetrac-screenshot.png
+assets.video: ./media/videos/Sidetrac-video.mp4
+assets.logo: ./media/image/Sidetrac-wheel.png
+assets.background: ./media/fanart/Sidetrac-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sidetrac-titleshot.png
+assets.bezel: ./media/image/Sidetrac-bezel.png
+rating: 0.40
+
+collection: fbneo
+game: Silentd
+file: ./Silentd.zip
+developer: Taito
+publisher: Taito
+genre: Luta, Luta / 2.5D, Briga De Rua
+favorite: false
+description: 
+	Na década de 1990, uma força obscura aparece em nosso planeta. é o malvado Dr. Bio, o gênio distorcido por trás de "Bio-Roid". Ao usar biotecnologia avançada, ele cria formas de vida mutantes com força sobre-humana, aterrorizando a população humana. Para deter o malvado médico, quatro homens, cada um com coragem e firmeza, são escolhidos para travar uma guerra justa contra estas criaturas. E agora, essa batalha começou!
+release: 1992-01-01
+players: 1-4
+x-id: 43084
+assets.boxFront: ./media/image/Silentd-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Silentd-marquee.png
+assets.screenshot: ./media/screenshots/Silentd-screenshot.png
+assets.video: ./media/videos/Silentd-video.mp4
+assets.logo: ./media/image/Silentd-wheel.png
+assets.background: ./media/fanart/Silentd-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Silentd-titleshot.png
+assets.bezel: ./media/image/Silentd-bezel.png
+rating: 0.40
+
+collection: fbneo
+game: Silkworm
+file: ./Silkworm.zip
+developer: Tecmo
+publisher: Tecmo
+genre: Shoot'em Up / Horizontal, Tiro, Tiro / Horizontal, Shoot'em Up
+favorite: false
+description: 
+	O jogo coloca-o no comando de um helicóptero cuja missão é derrotar ondas de inimigos antes de enfrentar um de dois chefes recorrentes que se alternam no final de cada etapa. 	Os inimigos chegam ao ecrã, na sua maioria pela direita, e destrói-os. Não há variação no fluxo dos níveis: o cenário nunca é um obstáculo, a rolagem não muda e os adversários são sempre mais ou menos os mesmos.	O principal interesse do jogo é o jogo dos dois jogadores. O segundo jogador tem um jipe. O segundo jogador tem um jipe, que está no chão, pelo que terá de jogar de forma diferente do primeiro jogador, e os adversários são literalmente dezenas deles, pelo que o objectivo do jogo multijogador será elaborar estratégias para tirar o máximo partido dos pontos fortes e fracos de cada unidade.
+release: 1988-01-01
+players: 1-2
+x-id: 43086
+assets.boxFront: ./media/image/Silkworm-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Silkworm-marquee.png
+assets.screenshot: ./media/screenshots/Silkworm-screenshot.png
+assets.video: ./media/videos/Silkworm-video.mp4
+assets.logo: ./media/image/Silkworm-wheel.png
+assets.background: ./media/fanart/Silkworm-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Silkworm-titleshot.png
+assets.bezel: ./media/image/Silkworm-bezel.png
+rating: 0.40
+
+collection: fbneo
+game: Simpsons
+file: ./Simpsons.zip
+developer: Konami
+publisher: Konami
+genre: Briga De Rua, Luta / 2.5D, Luta
+favorite: false
+description: 
+	Waylon Smithers acaba de roubar um diamante de Springfield Jewellers para o Sr. Burns. Enquanto tenta fugir, ele se choca com Homer, que bate o diamante na mão. Maggie pega na boca, levando Smithers a agarrá-la e fugir. Os Simpsons decidem ir atrás dele, mas Burns tem muitos capangas, que querem impedir a família de recuperar a filha.
+release: 1991-04-03
+players: 1-4
+x-id: 149954
+assets.boxFront: ./media/image/Simpsons-boxart.png
+assets.boxBack: ./media/image/Simpsons-boxback.png
+assets.cartridge: 
+assets.marquee: ./media/image/Simpsons-marquee.png
+assets.screenshot: ./media/screenshots/Simpsons-screenshot.png
+assets.video: ./media/videos/Simpsons-video.mp4
+assets.logo: ./media/image/Simpsons-marquee.png
+assets.background: ./media/fanart/Simpsons-fanart.png
+assets.music: 
+assets.titlescreen: ./media/image/Simpsons-titleshot.png
+assets.bezel: ./media/image/Simpsons-bezel.png
+rating: 0.80
+
+collection: fbneo
+game: Sinistar
+file: ./Sinistar.zip
+developer: Williams
+publisher: Williams
+genre: Shoot'em Up, Tiro
+favorite: false
+description: 
+	Sua missão intergaláctica de mineração de cristais leva você aos antípodas do universo conhecido. Mas o seu scanner paramétrico DeepSpace exibe fielmente o setor da galáxia que você ocupa atualmente (incluindo uma área com três parsecs de diâmetro, nada menos)! 		Mantenha a galáxia segura para todos os seus sinizens! Naves de Trabalhadores Fiendish do planeta Sporg tentarão fabricar uma Sinistar a partir dos restos de planetóides abandonados em seu setor. Você não deve deixá-los fazer isso por dois motivos: 	1) Esses planetóides contêm os cristais que sustentam a vida que sua civilização necessita para suas tecnologias vitais. 	2) Com o Sinistar eminentemente instável em sua posse, os Sprogites podem devastar qualquer civilização em seu setor. Só você está no caminho deles. 		Você deve extrair os cristais de sinisita. A Williams equipou você com a mais recente tecnologia de canhão de eletreto heurístico. Tudo que você precisa fazer é mirar em um planetóide e atirar. Agora colete seu filão! 		Na verdade, somente com sinisita você pode fabricar sinibombs para erradicar o Sinistar. Mas você também deve repelir os Trabalhadores e desintegrar seus companheiros de armas ainda mais agressivos, os malvados Guerreiros Esquelomórficos! Seres inteligentes em todos os lugares dependem da sua coragem, da sua dedicação, da sua reserva, do seu astuto domínio da invenção tática! Depende de você, cadete espacial!
+release: 1982-01-01
+players: 1-2
+x-id: 43097
+assets.boxFront: ./media/image/Sinistar-boxart.png
+assets.boxBack: ./media/image/Sinistar-boxback.png
+assets.cartridge: 
+assets.marquee: ./media/image/Sinistar-marquee.png
+assets.screenshot: ./media/screenshots/Sinistar-screenshot.png
+assets.video: ./media/videos/Sinistar-video.mp4
+assets.logo: ./media/image/Sinistar-wheel.png
+assets.background: ./media/fanart/Sinistar-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sinistar-titleshot.png
+assets.bezel: ./media/image/Sinistar-bezel.png
+rating: 0.80
+
+collection: fbneo
+game: Skullfng
+file: ./Skullfng.zip
+developer: Data East
+publisher: Data East
+genre: Shoot'em Up / Vertical, Shoot'em Up
+favorite: false
+description: 
+	Modo Especial (somente batalha contra chefe): na tela de seleção de rolagem, segure UP e pressione B3(x5), B2(x3).	Muito Difícil: na tela de seleção de rolagem, segure a tecla Direita e pressione B2(x4), B3, B2, B3, B2(x2).	Modo mais difícil: na tela de seleção de rolagem, segure Esquerda e pressione B2, B3(x2), B2, B3(x2), B2, B3(x3).	Impulso: se você selecionar um piloto do tipo 'Fighter', você pode usar o Impulso por 'entrada de código' durante a ação no jogo.	1) Impulso para trás: Cima, Esquerda ou Direita, Baixo + B3 - Ataque pelas costas.	2) Impulso Lateral: Direita ou Esquerda, Baixo + B3 - Ataque lateral.	3) Freio a Ar: Down(x2) + B3 - Invencibilidade temporária.	4) Hi-Ion Shield: Esquerda, Direita + B3 ou Direita, Esquerda + B3 - B.Roll Power-Up.	5) SEGREDO: Baixo (x4), Cima (x2), Baixo + B3 - Ataque rolante habilitado.
+release: 1996-01-01
+players: 1-2
+x-id: 43107
+assets.boxFront: ./media/image/Skullfng-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Skullfng-marquee.png
+assets.screenshot: ./media/screenshots/Skullfng-screenshot.png
+assets.video: ./media/videos/Skullfng-video.mp4
+assets.logo: ./media/image/Skullfng-wheel.png
+assets.background: ./media/fanart/Skullfng-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Skullfng-titleshot.png
+assets.bezel: ./media/image/Skullfng-bezel.png
+rating: 0.80
+
+collection: fbneo
+game: Skullxbo
+file: ./Skullxbo.zip
+developer: Atari
+publisher: Atari
+genre: Luta, Luta / 2.5D, Briga De Rua
+favorite: false
+description: 
+	Jogue como um pirata (você pode escolher entre dois) em uma variedade de níveis com tema de pirata, como navios e fortalezas, ou lutando contra ninjas, esqueletos e outras criaturas para recuperar seu dinheiro suado de um feiticeiro do mal. Você também pode lutar lado a lado com um amigo.nnAs lutas funcionam como uma esgrima, com alguns movimentos diferentes, incluindo a defesa. As fases passam correndo, com um chefe no final de cada uma. Você ganha dinheiro derrotando seus inimigos e procurando tesouros no local marcado com um X.
+release: 1989-01-01
+players: 1-2
+x-id: 43108
+assets.boxFront: ./media/image/Skullxbo-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Skullxbo-marquee.png
+assets.screenshot: ./media/screenshots/Skullxbo-screenshot.png
+assets.video: ./media/videos/Skullxbo-video.mp4
+assets.logo: ./media/image/Skullxbo-marquee.png
+assets.background: ./media/fanart/Skullxbo-fanart.jpg
+assets.music: ./media/musics/Skullxbo-music.mp3
+assets.titlescreen: ./media/image/Skullxbo-titleshot.png
+assets.bezel: 
+rating: 0.60
+
+collection: fbneo
+game: Skyadvnt
+file: ./Skyadvnt.zip
+developer: ADK
+publisher: SNK
+genre: Shoot'em Up / Vertical, Shoot'em Up
+favorite: false
+description: 
+	A Sky Adventure foi produzida pela SNK em 1989. SNK lançou 156 máquinas diferentes em nosso banco de dados sob este nome comercial, começando em 1979. Outras máquinas feitas pela SNK durante o período de tempo Sky Adventure foi produzido incluem Prehistoric Isle In 1930, Super Champion Baseball, Next Space, The, Ikari III: The Rescue, Genshi-Tou 1930's, Touchdown Fever II, P.O.W. - Prisioneiros de Guerra, Fighting Soccer, Paddle Mania, e Lee Trevino's Fighting Golf. Escolha entre quatro planos para repelir o ataque do Coronel Claud. Voando sobre vários terrenos você é atacado do ar e do solo a partir de uma variedade de máquinas voadoras, animais, plantas e pedras enormes. A pontuação é mantida numa base de "Act" e uma pontuação mais alta no final de cada acto dar-te-á um bónus maior, como numa nave extra ou em mais potência de fogo. Enquanto você é obrigado a escolher o seu avião no início de cada ACT você pode trocá-lo na mosca!
+release: 1989-05-03
+players: 1-2
+x-id: 43109
+assets.boxFront: ./media/image/Skyadvnt-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Skyadvnt-marquee.png
+assets.screenshot: ./media/screenshots/Skyadvnt-screenshot.png
+assets.video: ./media/videos/Skyadvnt-video.mp4
+assets.logo: ./media/image/Skyadvnt-wheel.png
+assets.background: ./media/fanart/Skyadvnt-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Skyadvnt-titleshot.png
+assets.bezel: ./media/image/Skyadvnt-bezel.png
+rating: 0.80
+
+collection: fbneo
+game: Slyspy
+file: ./Slyspy.zip
+developer: Data East
+publisher: Data East
+genre: Tiro / Run And Gun, Tiro
+favorite: false
+description: 
+	No papel de um agente secreto inspirado em James Bond, sua missão é parar a todo custo uma organização terrorista chamada Council for World Domination. Depois de receber as instruções, você é transportado de avião para o local onde a ação começa. Ele salta do avião e cai em queda livre até a área de pouso. Vários bandidos se juntam à sua posição e tentam eliminá-lo. Uma aterrissagem bem-sucedida leva a oito níveis de aviso que incluem cenas como locais de construção, fábricas, ação subaquática e uma perseguição de motocicleta.
+release: 1989-01-01
+players: 1-2
+x-id: 61361
+assets.boxFront: ./media/image/Slyspy-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Slyspy-screenshot.png
+assets.video: ./media/videos/Slyspy-video.mp4
+assets.logo: 
+assets.background: 
+assets.music: 
+assets.titlescreen: ./media/image/Slyspy-titleshot.png
+assets.bezel: 
+rating: 0.80
+
+collection: fbneo
+game: Smashtv
+file: ./Smashtv.zip
+developer: Williams
+publisher: Williams
+genre: Tiro / Run and Gun, Shoot'em Up, Tiro
+favorite: false
+description: 
+	Em Super Smash T.V., estamos no futuro, em 1999 (o jogo foi lançado em 1992) e a violência em programas de TV acabou se tornando o meio mais lucrativo de entreter os telespectadores. A missão do jogador é encarar uma horda de ciborgues mutantes pela sua vida. Serão seis armas à sua disposição e muitas telas até o final. Você poderá atirar em diversas direções ao pressionar os botões do controle. É possível ainda controlar um personagem com dois controles: o direcional do controle 1 garante a movimentação e o direcional do controle 2 atira em 8 direções, um verdadeiro trabalho em equipe para sobreviver nesse caos.
+release: 1990-01-01
+players: 1-2
+x-id: 43147
+assets.boxFront: ./media/image/Smashtv-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Smashtv-marquee.png
+assets.screenshot: ./media/screenshots/Smashtv-screenshot.png
+assets.video: ./media/videos/Smashtv-video.mp4
+assets.logo: ./media/image/Smashtv-marquee.png
+assets.background: ./media/fanart/Smashtv-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Smashtv-titleshot.png
+assets.bezel: ./media/image/Smashtv-bezel.png
+rating: 0.60
+
+collection: fbneo
+game: Snakepit
+file: ./Snakepit.zip
+developer: Bally Sente
+publisher: Bally Sente
+genre: Luta, Tiro
+favorite: false
+description: 
+	O jogador controla um aventureiro estilo Indiana Jones chamado Outback Jack, que procura tesouros em um antigo templo enquanto luta contra cobras, escorpiões e outras criaturas atacantes.
+release: 1984-01-01
+players: 1-2
+x-id: 43154
+assets.boxFront: ./media/image/Snakepit-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Snakepit-marquee.png
+assets.screenshot: ./media/screenshots/Snakepit-screenshot.png
+assets.video: ./media/videos/Snakepit-video.mp4
+assets.logo: ./media/image/Snakepit-wheel.png
+assets.background: ./media/fanart/Snakepit-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Snakepit-titleshot.png
+assets.bezel: 
+rating: 0.80
+
+collection: fbneo
+game: Snakjack
+file: ./Snakjack.zip
+developer: Bally Sente
+publisher: Bally Sente
+genre: Ação
+favorite: false
+description: 
+	SNACKS'N JAXSON é um jogo único construído em torno de um palhaço que tenta sobreviver sem deixar seu nariz quebrar nenhuma janela. O jogador move a cabeça do palhaço pela tela para perseguir e devorar comida. No início de cada onda, o palhaço espirra e o jogador deve mover o rosto para evitar que o nariz caia na janela. Os controles do jogo consistem em um trackball, para mover a cabeça do palhaço, e um botão de espirro. O botão de espirro é usado para soprar pimenta e sabão colocados no caminho do palhaço por seu arquiinimigo. Os gráficos do jogo são impressionantes. Snacks'n Jaxson também oferece seleção de nível.
+release: 1984-01-01
+players: 1-2
+x-id: 43155
+assets.boxFront: ./media/image/Snakjack-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Snakjack-marquee.png
+assets.screenshot: ./media/screenshots/Snakjack-screenshot.png
+assets.video: ./media/videos/Snakjack-video.mp4
+assets.logo: ./media/image/Snakjack-wheel.png
+assets.background: ./media/fanart/Snakjack-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Snakjack-titleshot.png
+assets.bezel: 
+rating: 0.80
+
+collection: fbneo
+game: Snapjack
+file: ./Snapjack.zip
+developer: Universal
+publisher: Universal
+genre: Plataforma, Plataforma / Corre E Pula Com Rolagem
+favorite: false
+description: 
+	Guie um personagem que mastiga pontos, salta em distância e estica as pernas através de cenas de colinas e túneis que rolam da direita para a esquerda. Evite coisas do tipo lula, peixes gigantes e chaleiras e botas na esteira transportadora. Este jogo é um cruzamento entre "Pac-Man" e "Scramble".
+release: 1982-01-01
+players: 1-2
+x-id: 43156
+assets.boxFront: ./media/image/Snapjack-boxart.png
+assets.boxBack: ./media/image/Snapjack-boxback.png
+assets.cartridge: 
+assets.marquee: ./media/image/Snapjack-marquee.png
+assets.screenshot: ./media/screenshots/Snapjack-screenshot.png
+assets.video: ./media/videos/Snapjack-video.mp4
+assets.logo: ./media/image/Snapjack-marquee.png
+assets.background: 
+assets.music: 
+assets.titlescreen: ./media/image/Snapjack-titleshot.png
+assets.bezel: 
+rating: 0.60
+
+collection: fbneo
+game: Sncwgltd
+file: ./Sncwgltd.zip
+developer: Video System
+publisher: Video System
+genre: Shoot'em Up / Vertical, Shoot'em Up
+favorite: false
+description: 
+	Um atirador de rolagem vertical para 1 ou 2 jogadores. Os controles são direcionais e 2 botões. O botão 1 dispara sua arma principal e o botão 2 dispara sua arma especial.		Você escolhe uma das quatro aeronaves nacionais: EUA, Japão, Rússia, França, Suécia ou ONU. Uma vez escolhido, você embarca em várias missões.		Durante a missão você atira em vários vilões e no final do nível você luta contra um chefe. Power-ups estão disponíveis durante a missão e recarregam sua arma especial ou atualizam sua arma principal. Todas as atualizações de armas principais são perdidas com a morte e seu especial é restaurado para o número padrão de usos.		Ao jogar como jogador 2, você obtém um tipo de avião diferente. O modo para 2 jogadores é cooperativo.
+release: 1996-01-01
+players: 1-2
+x-id: 39948
+assets.boxFront: ./media/image/Sncwgltd-boxart.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Sncwgltd-marquee.png
+assets.screenshot: ./media/screenshots/Sncwgltd-screenshot.png
+assets.video: ./media/videos/Sncwgltd-video.mp4
+assets.logo: ./media/image/Sncwgltd-wheel.png
+assets.background: ./media/fanart/Sncwgltd-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sncwgltd-titleshot.png
+assets.bezel: ./media/image/Sncwgltd-bezel.png
+rating: 0.60
+
+collection: fbneo
+game: Snowbros
+file: ./Snowbros.zip
+developer: Toaplan
+publisher: Toaplan
+genre: Plataforma, Plataforma / Corre E Pula
+favorite: false
+description: 
+	Um ou dois jogadores assumem o papel de bonecos de neve Nick e Tom enquanto lutam contra uma variedade de monstros em mais de cinquenta níveis de tela única baseados em plataforma.		Os bonecos de neve podem jogar bolas de neve nos inimigos com o objetivo de envolvê-los completamente na neve. Os inimigos encerrados podem ser chutados para destruí-los, e isso é conseguido ao lado da bola de neve e pressionando o botão "chutar". Isso faz com que a bola de neve gigante voe pela tela, matando todos os inimigos que estiverem no caminho.		Se os jogadores demorarem muito tempo para completar um estágio, uma cabeça de abóbora maligna aparecerá e tentará matá-los. A abóbora é invencível, mas pode ser atordoada com bolas de neve. Depois de um curto período de tempo, a abóbora do mal gerará fantasmas que podem viajar livremente pelo palco enquanto procuram Nick e Tom. Esses fantasmas não podem ser mortos ou atordoados, então a única esperança do jogador é evitá-los enquanto elimina os inimigos padrão restantes, para passar para a próxima tela o mais rápido possível.
+release: 1990-01-01
+players: 1-2
+x-id: 43162
+assets.boxFront: ./media/image/Snowbros-boxart.png
+assets.boxBack: ./media/image/Snowbros-boxback.png
+assets.cartridge: 
+assets.marquee: ./media/image/Snowbros-marquee.png
+assets.screenshot: ./media/screenshots/Snowbros-screenshot.png
+assets.video: ./media/videos/Snowbros-video.mp4
+assets.logo: ./media/image/Snowbros-wheel.png
+assets.background: ./media/fanart/Snowbros-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Snowbros-titleshot.png
+assets.bezel: ./media/image/Snowbros-bezel.png
+rating: 0.80
+
+collection: fbneo
+game: Soccer Brawl
+file: ./Soccer Brawl.zip
+developer: SNK
+publisher: SNK
+genre: Esporte, Esporte / Futebol
+favorite: false
+description: 
+	Soccer Brawl no Neo Geo é um jogo de futebol futurista. A única regra nesse esporte é marcar mais gols que seu oponente. Todos os tiros são permitidos: é possível eletrocutar o adversário e atirar nele para recuperar a bola. Na fase de posse, o jogador deve carregar uma barra de energia antes de desferir um chute imparável ao gol.
+release: 1991-01-01
+players: 1-2
+x-id: 37640
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Soccer Brawl-screenshot.png
+assets.video: ./media/videos/Soccer Brawl-video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Soccer Brawl-fanart.jpg
+assets.music: ./media/musics/Soccer Brawl-music.mp3
+assets.titlescreen: ./media/image/Soccer Brawl-titleshot.png
+assets.bezel: ./media/image/Soccer Brawl-bezel.png
+rating: 0.80
+
+collection: fbneo
+game: Solarfox
+file: ./Solarfox.zip
+developer: Bally Midway
+publisher: Bally Midway
+genre: Ação / Labirinto, Ação
+favorite: false
+description: 
+	Solar Fox é um jogo de tiro espacial e um jogo do tipo Pac-Man, tudo em um. O campo de jogo é quadrado e só possui paredes externas. Cada parede tem um canhão móvel montado que disparará torpedos de formatos estranhos em sua nave. Espalhados por dentro, haverá um monte de bolinhas em vários padrões simples. Para completar cada nível você tem que dirigir ou atirar em todas as bolinhas. Se feito com rapidez suficiente, o jogo pulará um nível (passando de 1 a 3, etc.) e concederá pontos pelo nível ignorado.		Se você selecionar a dificuldade Iniciante no início, a velocidade normal do Solar Fox será lenta e pressionar o botão de velocidade irá acelerá-lo. Se você selecionar a dificuldade Expert, sua velocidade normal será mais rápida e pressionar o botão Speed ​​irá desacelerá-lo. Cada quarto rack também é um rack de bônus e, se você morrer em um, não lhe custará uma vida. Depois de limpar dez racks, o jogador se torna membro do "10-Rack Club" e o jogo continuará normalmente.
+release: 1981-01-01
+players: 1-2
+x-id: 43169
+assets.boxFront: ./media/image/Solarfox-boxart.png
+assets.boxBack: ./media/image/Solarfox-boxback.png
+assets.cartridge: 
+assets.marquee: ./media/image/Solarfox-marquee.png
+assets.screenshot: ./media/screenshots/Solarfox-screenshot.png
+assets.video: ./media/videos/Solarfox-video.mp4
+assets.logo: ./media/image/Solarfox-wheel.png
+assets.background: ./media/fanart/Solarfox-fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Solarfox-titleshot.png
+assets.bezel: ./media/image/Solarfox-bezel.png
+rating: 0.60
+
+collection: fbneo
+game: Soldamj
+file: ./Soldamj.zip
+developer: Jaleco
+publisher: Jaleco
+genre: Quebra-Cabeças, Quebra-Cabeças / Queda
+favorite: false
+description: 
+	Soldam é um jogo de quebra-cabeça em que o objetivo é combinar as frutas soldadas ao longo de uma linha inteira. As frutas caem do topo em um quadrado 2x2 que pode ser girado. Se as bordas corresponderem à cor, todas as frutas na direção das bordas correspondentes mudarão de cor para corresponder. As bordas correspondentes podem ser feitas na horizontal, vertical ou diagonal.		As combinações podem ser feitas se a cor de mais de duas das mesmas peças de borda corresponderem. Quando uma linha inteira de frutas corresponder, ela será limpa e as frutas que não corresponderem cairão. No entanto, à medida que o tempo jogado em cada estágio avança, o topo do tabuleiro começará a cair. Se uma fruta chegar ao topo do tabuleiro, o jogo terminará.
+release: 1992-01-01
+players: 1-2
+x-id: 43170
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Soldamj-screenshot.png
+assets.video: ./media/videos/Soldamj-video.mp4
+assets.logo: 
+assets.background: 
+assets.music: 
+assets.titlescreen: ./media/image/Soldamj-titleshot.png
+assets.bezel: 
+rating: 
+
+collection: fbneo
+game: Solomon
+file: ./Solomon.zip
+developer: Tecmo
+publisher: Tecmo
+genre: Quebra-Cabeças, Ação / Labirinto, Ação
+favorite: false
+description: 
+	Solomon's Key é um jogo de plataforma/quebra-cabeça para um jogador no qual o mago Dana está em uma missão para recuperar a chave de Solomon e derrotar as hordas de demônios que invadiram seu mundo. Para conseguir isso, Dana deve avançar pelas cinquenta salas do 'Espaço Constelação', antes de finalmente alcançar a chave mágica.		Dana está armada com uma varinha mágica que pode ser usada para destruir e criar blocos de granito, enquanto os blocos situados diretamente acima da cabeça de Dana podem ser destruídos saltando repetidamente sobre eles até que se quebrem. Os blocos funcionam como plataformas, bem como barreiras para defender Dana dos numerosos inimigos patrulhadores. Cada sala contém uma chave de ouro, recuperá-la abre automaticamente a porta de saída da sala e os jogadores devem então tentar encontrar/criar uma rota segura passando pelos demônios que aparecem constantemente para chegar à saída e avançar para a próxima sala. 		Itens bônus – alguns escondidos dentro de blocos de granito pré-existentes – estão espalhados por cada sala. Coletá-los dá ao jogador pontos extras. Também podem ser encontrados power-ups, que aparecem como frascos de poções com uma chama estampada e no máximo três podem ser carregados ao mesmo tempo. Quando uma poção é usada, Dana atira uma bola de fogo que se moverá pelas paredes e plataformas até atingir e matar o primeiro demônio com quem entrar em contato.		Além de itens bônus e power-ups, cada sala também contém um sino de mão. Quando coletado, isso desencadeia a liberação de uma fada presa, a fada voará lentamente pela sala e poderá ser resgatada para ganhar pontos extras. Uma vida extra é concedida para cada dez fadas resgatadas.		Os níveis do jogo são baseados nas constelações de estrelas do Zodíaco. Os níveis principais estão divididos em grupos de quatro - perfazendo um total de quarenta e oito quartos standard - com cada grupo representando uma constelação separada. Além dos quartos standard, cada constelação também possui uma sala secreta de bônus que só pode ser acessada encontrando o 'Selo' da constelação em questão, que está localizado na última sala de cada grupo. Existem mais três salas secretas - 'Página do Tempo', 'A Página do Espaço' e a 'Sala da Princesa' - que só são acessíveis se o jogador encontrar os 'Selos Ocultos de Salomão'.		Os quatro grupos de salas são:	1-4 Áries 5-8 Touro 9-12 Gêmeos	13-16 Câncer 17-20 Leão 21-24 Escorpião	25-28 Libra 29-32 Virgem 33-36 Sagitário	37-40 Capricórnio 41-44 Aquário 45-48 Peixes
+release: 1986-01-01
+players: 1-2
+x-id: 43173
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Solomon-marquee.png
+assets.screenshot: ./media/screenshots/Solomon-screenshot.png
+assets.video: ./media/videos/Solomon-video.mp4
+assets.logo: ./media/image/Solomon-marquee.png
+assets.background: ./media/fanart/Solomon-fanart.jpg
+assets.music: ./media/musics/Solomon-music.mp3
+assets.titlescreen: ./media/image/Solomon-titleshot.png
+assets.bezel: 
+rating: 0.80
+
+collection: fbneo
+game: Sonic
+file: ./Sonic .zip
+developer: SEGA
+publisher: SEGA
+genre: Plataforma, Plataforma / Corre E Pula Com Rolagem
+favorite: false
+description: 
+	Aquele malvado e gorducho Dr. Eggman está nisso de novo! Desta vez, ele construiu uma nova ilha chamada Eggman Island e pretende usá-la para conquistar o mundo. Inevitavelmente, Sonic the Hedgehog, seu maior adversário está atrás dele, mas pouco sabia o nosso herói que Eggman se preparou para sua chegada. Agora, Sonic e dois de seus amigos, Ray the Flying Squirrel e Mighty the Armadillo estão presos dentro da Eggman Island! Podem nossos heróis escaparem e mais uma vez estragar os planos de Eggman?
+
+SegaSonic the Hedgehog é um jogo de plataforma isométrico no qual até três jogadores (controlando Sonic, Ray ou Mighty) devem lutar através da Eggman Island e escapar vivos. Mas Eggman não tornará fácil - em cada quarto, há uma série de armadilhas mortais que podem soletrar morte se Sonic e companhia não forem rápidos o bastante, assim como inimigos cujo único objetivo é ver Sonic morto. Um simples deslize e Sonic é um ouriço morto. Dispersos ao longo das fases, no entanto, estão anéis que aumentam a saúde, bem como a pontuação dos jogadores.
+release: 1992-01-01
+players: 1-3
+x-id: 43175
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Sonic -screenshot.png
+assets.video: ./media/videos/Sonic -video.mp4
+assets.logo: 
+assets.background: ./media/fanart/Sonic -fanart.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sonic -titleshot.png
+assets.bezel: ./media/image/Sonic -bezel.png
+rating: 0.80
 
 collection: fbneo
 game: SONSON
