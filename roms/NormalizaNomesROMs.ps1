@@ -1438,7 +1438,11 @@
 #>
 
 [CmdletBinding(SupportsShouldProcess = $true)]
-param()
+# FIX-BUG: expõe switches aceitos por main via PSBoundParameters
+param(
+  [switch]$VerifyOnly,
+  [switch]$Fix
+)
 
 # ================= CONFIG =================
 
