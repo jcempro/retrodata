@@ -1539,7 +1539,7 @@ function Load-BrsIndexes {
       ConvertFrom-Json -Depth 100
 
       $script:PipelineState.BrsIndexes[
-      [IO.Path]::GetFullPath($_.FullName)
+      (Get-FullPathSafe -PathValue $_.FullName)
       ] = $json
     }
     catch {
@@ -1876,6 +1876,38 @@ function Get-PathExtensionSafe {
   }
 }
 
+function Get-FullPathSafe {
+  param([string]$PathValue)
+
+  if (-not $PathValue) {
+    return $PathValue
+  }
+
+  try {
+    return [IO.Path]::GetFullPath($PathValue)
+  }
+  catch {
+
+    # FIX-BUG: impede fatal por path longo ou textual inválido
+    $text = $PathValue.Trim()
+
+    if (-not $text) {
+      return $PathValue
+    }
+
+    try {
+      if ([IO.Path]::IsPathRooted($text)) {
+        return $text
+      }
+
+      return Join-Path (Get-Location).Path $text
+    }
+    catch {
+      return $text
+    }
+  }
+}
+
 function Remove-InvalidFileNameChars {
   param([string]$name)
 
@@ -2160,7 +2192,7 @@ function Write-AtomicTextFile {
 function Get-FileHashCached {
   param([string]$Path)
 
-  $key = [IO.Path]::GetFullPath($Path)
+  $key = Get-FullPathSafe -PathValue $Path
 
   if ($script:PipelineState.HashCache.ContainsKey($key)) {
     return $script:PipelineState.HashCache[$key]
@@ -2286,8 +2318,8 @@ function Test-IsSpecialJsonPath {
 
     $root = Join-Path (Get-Location) $dir
 
-    $normalizedRoot = [IO.Path]::GetFullPath($root).TrimEnd('\', '/') + [IO.Path]::DirectorySeparatorChar
-    $normalizedPath = [IO.Path]::GetFullPath($Path)
+    $normalizedRoot = (Get-FullPathSafe -PathValue $root).TrimEnd('\', '/') + [IO.Path]::DirectorySeparatorChar
+    $normalizedPath = Get-FullPathSafe -PathValue $Path
 
     # FIX-BUG: evita falso positivo estrutural
     if (
@@ -2310,8 +2342,8 @@ function Get-JsonTreePath {
 
     $root = Join-Path (Get-Location) $dir
 
-    $normalizedRoot = [IO.Path]::GetFullPath($root).TrimEnd('\', '/') + [IO.Path]::DirectorySeparatorChar
-    $normalizedPath = [IO.Path]::GetFullPath($FilePath)
+    $normalizedRoot = (Get-FullPathSafe -PathValue $root).TrimEnd('\', '/') + [IO.Path]::DirectorySeparatorChar
+    $normalizedPath = Get-FullPathSafe -PathValue $FilePath
 
     # FIX-BUG: evita colisão parcial de path
     if (
@@ -2549,7 +2581,7 @@ function Invoke-JsonTreeIntegrityAudit {
 
           $relativeParts = @($virtualRootName) + $Segments + @($prop.Name)
 
-          $filePath = [IO.Path]::GetFullPath(
+          $filePath = Get-FullPathSafe -PathValue (
             (Join-Path $treeRoot ($relativeParts -join [IO.Path]::DirectorySeparatorChar))
           )
 
@@ -2842,7 +2874,7 @@ function Initialize-SharedFileIndex {
 
     # FIX-BUG: preserva case-sensitive estrutural RFC 3.2
     $script:PipelineState.FileMap[
-    [IO.Path]::GetFullPath($_.FullName)
+    (Get-FullPathSafe -PathValue $_.FullName)
     ] = $entry
   }
 }
@@ -2870,7 +2902,7 @@ function Resolve-XmlCorrelation {
       $full = Join-Path $systemRoot $relative
 
       # FIX-BUG: preserva correlação case-sensitive RFC 3.2
-      $key = [IO.Path]::GetFullPath($full)
+      $key = Get-FullPathSafe -PathValue $full
 
       if ($script:PipelineState.FileMap.ContainsKey($key)) {
 
@@ -3398,13 +3430,11 @@ function Get-DedupXmlCoherenceScore {
   $relative = $relative -replace '^[.][\\/]', ''
 
   $systemRoot = Split-Path $Entry.XmlPath -Parent
-  $xmlFull = [IO.Path]::GetFullPath(
+  $xmlFull = Get-FullPathSafe -PathValue (
     (Join-Path $systemRoot $relative)
   )
 
-  $entryFull = [IO.Path]::GetFullPath(
-    $Entry.File.FullName
-  )
+  $entryFull = Get-FullPathSafe -PathValue $Entry.File.FullName
 
   if (
     $xmlFull.Equals(
@@ -3711,9 +3741,7 @@ function Invoke-GlobalDeduplication {
 
         $entry.Removed = $true
 
-        $mapKey = [IO.Path]::GetFullPath(
-          $entry.File.FullName
-        )
+        $mapKey = Get-FullPathSafe -PathValue $entry.File.FullName
 
         [void]$script:PipelineState.FileMap.Remove($mapKey)
 
@@ -3820,8 +3848,8 @@ function Test-IsPathUnderRoot {
     return $false
   }
 
-  $rootFull = [IO.Path]::GetFullPath($RootPath).TrimEnd('\', '/')
-  $targetFull = [IO.Path]::GetFullPath($TargetPath)
+  $rootFull = (Get-FullPathSafe -PathValue $RootPath).TrimEnd('\', '/')
+  $targetFull = Get-FullPathSafe -PathValue $TargetPath
 
   $rootPrefix = $rootFull + [IO.Path]::DirectorySeparatorChar
 
@@ -3853,10 +3881,10 @@ function Resolve-GamelistMediaPath {
   $pathPart = $raw -replace '^[.][\\/]', ''
 
   if ([IO.Path]::IsPathRooted($pathPart)) {
-    $full = [IO.Path]::GetFullPath($pathPart)
+    $full = Get-FullPathSafe -PathValue $pathPart
   }
   else {
-    $full = [IO.Path]::GetFullPath(
+    $full = Get-FullPathSafe -PathValue (
       (Join-Path $systemRoot $pathPart)
     )
   }
@@ -3869,7 +3897,7 @@ function Resolve-GamelistMediaPath {
     return $null
   }
 
-  $rootFull = [IO.Path]::GetFullPath($systemRoot).TrimEnd('\', '/')
+  $rootFull = (Get-FullPathSafe -PathValue $systemRoot).TrimEnd('\', '/')
 
   $relative = $full.Substring(
     $rootFull.Length
@@ -3909,8 +3937,8 @@ function ConvertTo-GamelistMediaPath {
     return $null
   }
 
-  $rootFull = [IO.Path]::GetFullPath($systemRoot).TrimEnd('\', '/')
-  $full = [IO.Path]::GetFullPath($FilePath)
+  $rootFull = (Get-FullPathSafe -PathValue $systemRoot).TrimEnd('\', '/')
+  $full = Get-FullPathSafe -PathValue $FilePath
 
   $relative = $full.Substring(
     $rootFull.Length
@@ -4186,7 +4214,7 @@ function Get-GamelistMediaReferences {
           continue
         }
 
-        $fullKey = [IO.Path]::GetFullPath($resolved.FullName)
+        $fullKey = Get-FullPathSafe -PathValue $resolved.FullName
 
         if (-not $result.ByPath.ContainsKey($fullKey)) {
 
@@ -4399,7 +4427,7 @@ function Invoke-MediaMaintenance {
         continue
       }
 
-      $targetPath = [IO.Path]::GetFullPath(
+      $targetPath = Get-FullPathSafe -PathValue (
         (Join-Path (Split-Path $media.FullName -Parent) $canonicalName)
       )
 
@@ -4672,7 +4700,7 @@ function Invoke-MediaMaintenance {
 
       foreach ($file in $files) {
 
-        $full = [IO.Path]::GetFullPath($file.FullName)
+        $full = Get-FullPathSafe -PathValue $file.FullName
         $extension = Get-PathExtensionSafe -PathValue $file.Name
 
         if (-not $MediaExtensionSet.Contains($extension)) {
@@ -5192,13 +5220,9 @@ function main {
             throw "Falha pós-rename"
           }
 
-          $oldMapKey = [IO.Path]::GetFullPath(
-            $oldFullPath
-          )
+          $oldMapKey = Get-FullPathSafe -PathValue $oldFullPath
 
-          $newMapKey = [IO.Path]::GetFullPath(
-            $newFullPath
-          )
+          $newMapKey = Get-FullPathSafe -PathValue $newFullPath
 
           # FIX-BUG: garante hash estrutural disponível RFC 2/RFC 11
           if (-not $srcHash) {
