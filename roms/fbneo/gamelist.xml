@@ -165,15 +165,6 @@
     <md5>2603a463730129a60d8bec2e168ebb45</md5>
     <hash>83598110</hash>
   </game>
-  <game>
-    <path>./Lastblad.zip</path>
-    <name>LASTBLAD</name>
-    <releasedate>1997/01/01</releasedate>
-    <publisher>SNK</publisher>
-    <genreid>0</genreid>
-    <md5>b95fa29b880cf2fafef5c242b69bef11</md5>
-    <hash>81B13E2D</hash>
-  </game>
   <game id="248871">
     <path>./Lrunner.zip</path>
     <name>LRUNNER</name>
@@ -365,20 +356,6 @@ Clone Of : xevious -&gt; Super Xevious (Namco)</temporary>
     <extra1>./media/extras/Sxevious-extra1.png</extra1>
   </game>
   <game>
-    <path>./Lkage.zip</path>
-    <name>THE LEGEND OF KAGE</name>
-    <releasedate>1984/01/01</releasedate>
-    <publisher>TAITO CORPORATION</publisher>
-    <genreid>0</genreid>
-  </game>
-  <game>
-    <path>./Ghostb.zip</path>
-    <name>THE REAL GHOSTBUSTERS (US 2 PLAYERS, REVISION 2)</name>
-    <releasedate>1987/01/01</releasedate>
-    <publisher>DATA EAST USA</publisher>
-    <genreid>0</genreid>
-  </game>
-  <game>
     <path>./Top Golf.zip</path>
     <name>TOP GOLF</name>
     <genreid>0</genreid>
@@ -405,13 +382,6 @@ Clone Of : xevious -&gt; Super Xevious (Namco)</temporary>
     <genreid>0</genreid>
     <md5>f69e4dbe4754155d01525dd6965b08dd</md5>
     <hash>36169396</hash>
-  </game>
-  <game>
-    <path>./Hustler.zip</path>
-    <name>VIDEO HUSTLER</name>
-    <releasedate>1981/01/01</releasedate>
-    <publisher>KONAMI</publisher>
-    <genreid>0</genreid>
   </game>
   <game id="64668">
     <path>./Votrax.zip</path>
@@ -6414,10 +6384,12 @@ O JOGO FOI PROJETADO POR TOKUHIRO TAKEMORI, QUE TRABALHOU ANTERIORMENTE NO LEGEN
 Clone Of : atetris -&gt; Tetris (set 2)</temporary>
     <image>./media/image/Atetrisa-image.png</image>
     <video>./media/videos/Atetrisa-video.mp4</video>
+    <thumbnail>./media/image/Atetrisa-boxart.png</thumbnail>
     <marquee>./media/image/Atetrisa-marquee.png</marquee>
     <wheel>./media/image/Atetrisa-wheel.png</wheel>
     <boxart>./media/image/Atetrisa-boxart.png</boxart>
     <screenshot>./media/screenshots/Atetrisa-screenshot.png</screenshot>
+    <mix>./media/image/Atetrisa-image.png</mix>
     <fanart>./media/fanart/Atetrisa-fanart.jpg</fanart>
     <titleshot>./media/image/Atetrisa-titleshot.png</titleshot>
     <extra1>./media/extras/Atetrisa-extra1.png</extra1>
@@ -6442,10 +6414,12 @@ Clone Of : atetris -&gt; Tetris (set 2)</temporary>
 Clone Of : atetris -&gt; Tetris (bootleg set 1)</temporary>
     <image>./media/image/Atetrisb-image.png</image>
     <video>./media/videos/Atetrisb-video.mp4</video>
+    <thumbnail>./media/image/Atetrisb-boxart.png</thumbnail>
     <marquee>./media/image/Atetrisb-marquee.png</marquee>
     <wheel>./media/image/Atetrisb-wheel.png</wheel>
     <boxart>./media/image/Atetrisb-boxart.png</boxart>
     <screenshot>./media/screenshots/Atetrisb-screenshot.png</screenshot>
+    <mix>./media/image/Atetrisb-image.png</mix>
     <fanart>./media/fanart/Atetrisb-fanart.jpg</fanart>
     <titleshot>./media/image/Atetrisb-titleshot.png</titleshot>
     <extra1>./media/extras/Atetrisb-extra1.png</extra1>
@@ -6468,10 +6442,12 @@ Clone Of : atetris -&gt; Tetris (bootleg set 1)</temporary>
     <arcadesystemname>atari</arcadesystemname>
     <image>./media/image/Atetris-image.png</image>
     <video>./media/videos/Atetris-video.mp4</video>
+    <thumbnail>./media/image/Atetris-boxart.png</thumbnail>
     <marquee>./media/image/Atetris-marquee.png</marquee>
     <wheel>./media/image/Atetris-wheel.png</wheel>
     <boxart>./media/image/Atetris-boxart.png</boxart>
     <screenshot>./media/screenshots/Atetris-screenshot.png</screenshot>
+    <mix>./media/image/Atetris-image.png</mix>
     <fanart>./media/fanart/Atetris-fanart.jpg</fanart>
     <titleshot>./media/image/Atetris-titleshot.png</titleshot>
     <extra1>./media/extras/Atetris-extra1.png</extra1>
@@ -10526,6 +10502,7 @@ AS PISTAS EM SI SÃO TODAS VARIAÇÕES DO 'OVAL' BÁSICO, COM PORTÕES, SALTOS, 
     <image>./media/image/Ctribe-image.png</image>
     <video>./media/videos/Ctribe-video.mp4</video>
     <screenshot>./media/screenshots/Ctribe-screenshot.png</screenshot>
+    <mix>./media/image/Ctribe-image.png</mix>
     <fanart>./media/fanart/Ctribe-fanart.jpg</fanart>
     <titleshot>./media/image/Ctribe-titleshot.png</titleshot>
     <manual>./media/manuals/Ctribe-manual.pdf</manual>
@@ -12442,10 +12419,12 @@ O JOGO É UM SHOOT 'EM UP DE ROLAGEM LATERAL COM 6 NÍVEIS E UM TOTAL DE 8 ARMAS
     <arcadesystemname>dataeast</arcadesystemname>
     <image>./media/image/Edrandy-image.png</image>
     <video>./media/videos/Edrandy-video.mp4</video>
+    <thumbnail>./media/image/Edrandy-boxart.png</thumbnail>
     <marquee>./media/image/Edrandy-marquee.png</marquee>
     <wheel>./media/image/Edrandy-wheel.png</wheel>
     <boxart>./media/image/Edrandy-boxart.png</boxart>
     <screenshot>./media/screenshots/Edrandy-screenshot.png</screenshot>
+    <mix>./media/image/Edrandy-image.png</mix>
     <fanart>./media/fanart/Edrandy-fanart.jpg</fanart>
     <titleshot>./media/image/Edrandy-titleshot.png</titleshot>
     <extra1>./media/extras/Edrandy-extra1.png</extra1>
@@ -14144,10 +14123,12 @@ A METADE INFERIOR DA TELA CONSISTE EM UM FLUXO BIDIRECIONAL DE TRÁFEGO, MOVENDO
     <arcadesystemname>konami</arcadesystemname>
     <image>./media/image/Fround-image.png</image>
     <video>./media/videos/Fround-video.mp4</video>
+    <thumbnail>./media/image/Fround-boxart.png</thumbnail>
     <marquee>./media/image/Fround-marquee.png</marquee>
     <wheel>./media/image/Fround-wheel.png</wheel>
     <boxart>./media/image/Fround-boxart.png</boxart>
     <screenshot>./media/screenshots/Fround-screenshot.png</screenshot>
+    <mix>./media/image/Fround-image.png</mix>
     <fanart>./media/fanart/Fround-fanart.jpg</fanart>
     <titleshot>./media/image/Fround-titleshot.png</titleshot>
     <manual>./media/manuals/Fround-manual.pdf</manual>
@@ -14355,10 +14336,12 @@ GALAGANS VOAM PARA A TELA EM UMA VARIEDADE DE FORMAÇÕES ANTES DE FORMAR LINHAS
 Clone Of : galaxian -&gt; Space Invaders Galactica (galaxiaj hack)</temporary>
     <image>./media/image/Galap1-image.png</image>
     <video>./media/videos/Galap1-video.mp4</video>
+    <thumbnail>./media/image/Galap1-boxart.png</thumbnail>
     <marquee>./media/image/Galap1-marquee.png</marquee>
     <wheel>./media/image/Galap1-wheel.png</wheel>
     <boxart>./media/image/Galap1-boxart.png</boxart>
     <screenshot>./media/screenshots/Galap1-screenshot.png</screenshot>
+    <mix>./media/image/Galap1-image.png</mix>
     <fanart>./media/fanart/Galap1-fanart.jpg</fanart>
     <titleshot>./media/image/Galap1-titleshot.png</titleshot>
     <manual>./media/manuals/Galap1_(us).pdf</manual>
@@ -15143,6 +15126,30 @@ OUTRAS MUDANÇAS INCLUEM CANCELAMENTOS DE MOVIMENTOS AÉREOS PARA CORRIDA AÉREA
     <extra1>./media/extras/Ghost Pilots-extra1.png</extra1>
     <music>./media/musics/Ghost Pilots-music.mp3</music>
     <bezel>./media/image/Ghost Pilots-bezel.png</bezel>
+  </game>
+  <game id="41438">
+    <path>./Ghostb.zip</path>
+    <name>GHOSTB</name>
+    <desc>ADAPTADO DO DESENHO ANIMADO DE MESMO NOME. ATÉ TRÊS JOGADORES, CADA UM CONTROLANDO UM CAÇA-FANTASMAS, DEVEM CORRER POR UM TERRENO DE ROLAGEM UNIVERSAL DE CIMA PARA BAIXO, ATIRAR EM CRIATURAS E DEPOIS TENTAR SUGAR FANTASMAS COM SUAS ARMAS DE PLASMA. OS JOGADORES PODEM ATIRAR E COLETAR VÁRIOS POWER-UPS, INCLUINDO UMA AURA PROTETORA, REFORÇOS DE TIRO E FEIXE E UM SATÉLITE DE ESCUDO SLIMER "GREEN GHOST". POSSUI EFEITOS INTERESSANTES DE TRANSIÇÃO DE TELA E UMA VERSÃO BEM ORQUESTRADA DA POPULAR MÚSICA TEMA DO FILME.</desc>
+    <rating>0.60</rating>
+    <releasedate>19870101T000000</releasedate>
+    <developer>DATA EAST</developer>
+    <publisher>ACTIVISION</publisher>
+    <genre>TIRO, TIRO / RUN AND GUN</genre>
+    <genreid>256</genreid>
+    <players>1-3</players>
+    <md5>4ba6e5d2df9cdf89e82ef105da49f894</md5>
+    <hash>4E23028C</hash>
+    <region>us</region>
+    <arcadesystemname>dataeast</arcadesystemname>
+    <image>./media/image/Ghostb-image.png</image>
+    <video>./media/videos/Ghostb-video.mp4</video>
+    <screenshot>./media/screenshots/Ghostb-screenshot.png</screenshot>
+    <fanart>./media/fanart/Ghostb-fanart.jpg</fanart>
+    <titleshot>./media/image/Ghostb-titleshot.png</titleshot>
+    <manual>./media/manuals/Ghostb_(us).pdf</manual>
+    <extra1>./media/extras/Ghostb-extra1.png</extra1>
+    <bezel>./media/image/Ghostb-bezel.png</bezel>
   </game>
   <game id="37582">
     <path>./Ghostlop.zip</path>
@@ -16735,6 +16742,7 @@ O JOGO TERMINA QUANDO TODOS OS CRÉDITOS DO JOGADOR ESTIVEREM ESGOTADOS.</desc>
     <image>./media/image/Hotgmck-image.png</image>
     <video>./media/videos/Hotgmck-video.mp4</video>
     <screenshot>./media/screenshots/Hotgmck-screenshot.png</screenshot>
+    <mix>./media/image/Hotgmck-image.png</mix>
     <titleshot>./media/image/Hotgmck-titleshot.png</titleshot>
     <extra1>./media/extras/Hotgmck-extra1.png</extra1>
   </game>
@@ -16765,6 +16773,32 @@ PARA AUMENTAR A IMPREVISIBILIDADE, ALGUNS ALVOS APARECEM COM O VALOR ???. ESTES 
     <titleshot>./media/image/Hustle-titleshot.png</titleshot>
     <manual>./media/manuals/Hustle-manual.pdf</manual>
     <extra1>./media/extras/Hustle-extra1.png</extra1>
+  </game>
+  <game id="41749">
+    <path>./Hustler.zip</path>
+    <name>HUSTLER</name>
+    <desc>JOGO DE SINUCA LANÇADO PELA KONAMI EM 1981 PARA ARCADE</desc>
+    <rating>0.40</rating>
+    <releasedate>19810101T000000</releasedate>
+    <developer>KONAMI</developer>
+    <publisher>KONAMI</publisher>
+    <genre>ESPORTE / SINUCA, ESPORTE, ESPORTE / NATAÇÃO</genre>
+    <genreid>1538</genreid>
+    <players>1-2</players>
+    <md5>83b073cc8ebfe11a9f05618a517a5be6</md5>
+    <hash>9B62DDCA</hash>
+    <rotation>Right</rotation>
+    <region>wor</region>
+    <arcadesystemname>konami</arcadesystemname>
+    <image>./media/image/Hustler-image.png</image>
+    <video>./media/videos/Hustler-video.mp4</video>
+    <marquee>./media/image/Hustler-marquee.png</marquee>
+    <wheel>./media/image/Hustler-wheel.png</wheel>
+    <boxart>./media/image/Hustler-boxart.png</boxart>
+    <screenshot>./media/screenshots/Hustler-screenshot.png</screenshot>
+    <titleshot>./media/image/Hustler-titleshot.png</titleshot>
+    <extra1>./media/extras/Hustler-extra1.png</extra1>
+    <music>./media/musics/Hustler-music.mp3</music>
   </game>
   <game id="41755">
     <path>./Hwchamp.zip</path>
@@ -17054,10 +17088,12 @@ A DESCIDA DOS ALIENÍGENAS ACELERA À MEDIDA QUE SÃO ELIMINADOS, TORNANDO-OS MA
     <arcadesystemname>taito</arcadesystemname>
     <image>./media/image/Invaders-image.png</image>
     <video>./media/videos/Invaders-video.mp4</video>
+    <thumbnail>./media/image/Invaders-boxart.png</thumbnail>
     <marquee>./media/image/Invaders-marquee.png</marquee>
     <wheel>./media/image/Invaders-wheel.png</wheel>
     <boxart>./media/image/Invaders-boxart.png</boxart>
     <screenshot>./media/screenshots/Invaders-screenshot.png</screenshot>
+    <mix>./media/image/Invaders-image.png</mix>
     <fanart>./media/fanart/Invaders-fanart.jpg</fanart>
     <titleshot>./media/image/Invaders-titleshot.png</titleshot>
     <manual>./media/manuals/Invaders_(us).pdf</manual>
@@ -18645,6 +18681,7 @@ Clone Of : kod -&gt; The King of Dragons (US 910910)</temporary>
     <image>./media/image/Kodu-image.png</image>
     <video>./media/videos/Kodu-video.mp4</video>
     <screenshot>./media/screenshots/Kodu-screenshot.png</screenshot>
+    <mix>./media/image/Kodu-image.png</mix>
     <fanart>./media/fanart/Kodu-fanart.jpg</fanart>
     <titleshot>./media/image/Kodu-titleshot.png</titleshot>
     <manual>./media/manuals/Kodu_(us).pdf</manual>
@@ -18670,6 +18707,7 @@ O SISTEMA DE JOGABILIDADE TAMBÉM MUDOU. O SISTEMA DE ATACANTES E AS EQUIPES DE 
     <image>./media/image/Kof2002-image.png</image>
     <video>./media/videos/Kof2002-video.mp4</video>
     <screenshot>./media/screenshots/Kof2002-screenshot.png</screenshot>
+    <mix>./media/image/Kof2002-image.png</mix>
     <fanart>./media/fanart/Kof2002-fanart.jpg</fanart>
     <titleshot>./media/image/Kof2002-titleshot.png</titleshot>
     <extra1>./media/extras/Kof2002-extra1.png</extra1>
@@ -18693,6 +18731,7 @@ O SISTEMA DE JOGABILIDADE TAMBÉM MUDOU. O SISTEMA DE ATACANTES E AS EQUIPES DE 
     <image>./media/image/Kof2003-image.png</image>
     <video>./media/videos/Kof2003-video.mp4</video>
     <screenshot>./media/screenshots/Kof2003-screenshot.png</screenshot>
+    <mix>./media/image/Kof2003-image.png</mix>
     <fanart>./media/fanart/Kof2003-fanart.jpg</fanart>
     <titleshot>./media/image/Kof2003-titleshot.png</titleshot>
     <extra1>./media/extras/Kof2003-extra1.png</extra1>
@@ -18717,11 +18756,13 @@ KING OF FIGHTERS '95 APRESENTA O RIVAL DE KYO KUSANAGI, IORI YAGAMI, E COLOCA KY
     <arcadesystemname>snk</arcadesystemname>
     <image>./media/image/Kof95-image.png</image>
     <video>./media/videos/Kof95-video.mp4</video>
+    <thumbnail>./media/image/Kof95-boxart.png</thumbnail>
     <marquee>./media/image/Kof95-marquee.png</marquee>
     <wheel>./media/image/Kof95-wheel.png</wheel>
     <boxart>./media/image/Kof95-boxart.png</boxart>
     <screenshot>./media/screenshots/Kof95-screenshot.png</screenshot>
     <cartridge>./media/image/Kof95-cartridge.png</cartridge>
+    <mix>./media/image/Kof95-image.png</mix>
     <fanart>./media/fanart/Kof95-fanart.jpg</fanart>
     <titleshot>./media/image/Kof95-titleshot.png</titleshot>
     <boxback>./media/image/Kof95-boxback.png</boxback>
@@ -18746,11 +18787,13 @@ KING OF FIGHTERS '95 APRESENTA O RIVAL DE KYO KUSANAGI, IORI YAGAMI, E COLOCA KY
     <arcadesystemname>snk</arcadesystemname>
     <image>./media/image/Kof96-image.png</image>
     <video>./media/videos/Kof96-video.mp4</video>
+    <thumbnail>./media/image/Kof96-boxart.png</thumbnail>
     <marquee>./media/image/Kof96-marquee.png</marquee>
     <wheel>./media/image/Kof96-wheel.png</wheel>
     <boxart>./media/image/Kof96-boxart.png</boxart>
     <screenshot>./media/screenshots/Kof96-screenshot.png</screenshot>
     <cartridge>./media/image/Kof96-cartridge.png</cartridge>
+    <mix>./media/image/Kof96-image.png</mix>
     <fanart>./media/fanart/Kof96-fanart.jpg</fanart>
     <titleshot>./media/image/Kof96-titleshot.png</titleshot>
     <manual>./media/manuals/Kof96-manual.pdf</manual>
@@ -18776,11 +18819,13 @@ KING OF FIGHTERS '95 APRESENTA O RIVAL DE KYO KUSANAGI, IORI YAGAMI, E COLOCA KY
     <arcadesystemname>snk</arcadesystemname>
     <image>./media/image/Kof97-image.png</image>
     <video>./media/videos/Kof97-video.mp4</video>
+    <thumbnail>./media/image/Kof97-boxart.png</thumbnail>
     <marquee>./media/image/Kof97-marquee.png</marquee>
     <wheel>./media/image/Kof97-wheel.png</wheel>
     <boxart>./media/image/Kof97-boxart.png</boxart>
     <screenshot>./media/screenshots/Kof97-screenshot.png</screenshot>
     <cartridge>./media/image/Kof97-cartridge.png</cartridge>
+    <mix>./media/image/Kof97-image.png</mix>
     <fanart>./media/fanart/Kof97-fanart.jpg</fanart>
     <titleshot>./media/image/Kof97-titleshot.png</titleshot>
     <boxback>./media/image/Kof97-boxback.png</boxback>
@@ -18808,11 +18853,13 @@ KING OF FIGHTERS '95 APRESENTA O RIVAL DE KYO KUSANAGI, IORI YAGAMI, E COLOCA KY
 Clone Of : kof98 -&gt; The King of Fighters '98 - The Slugfest / King of Fighters '98 - dream match never ends (NGH-2420)</temporary>
     <image>./media/image/Kof98h-image.png</image>
     <video>./media/videos/Kof98h-video.mp4</video>
+    <thumbnail>./media/image/Kof98h-boxart.png</thumbnail>
     <marquee>./media/image/Kof98h-marquee.png</marquee>
     <wheel>./media/image/Kof98h-wheel.png</wheel>
     <boxart>./media/image/Kof98h-boxart.png</boxart>
     <screenshot>./media/screenshots/Kof98h-screenshot.png</screenshot>
     <cartridge>./media/image/Kof98h-cartridge.png</cartridge>
+    <mix>./media/image/Kof98h-image.png</mix>
     <fanart>./media/fanart/Kof98h-fanart.jpg</fanart>
     <titleshot>./media/image/Kof98h-titleshot.png</titleshot>
     <boxback>./media/image/Kof98h-boxback.png</boxback>
@@ -19154,6 +19201,38 @@ THE LAST BLADE É UM JOGO ELETRÔNICO DE LUTA EM 2D, LANÇADO PELA DESENVOLVEDOR
     <music>./media/musics/Last Resort-music.mp3</music>
     <bezel>./media/image/Last Resort-bezel.png</bezel>
   </game>
+  <game id="37599">
+    <path>./Lastblad.zip</path>
+    <name>LASTBLAD</name>
+    <mode>Jogador individual</mode>
+    <desc>DURANTE O PERÍODO DA HISTÓRIA JAPONESA CONHECIDO COMO BAKUMATSU, SHINNOSUKE KAGAMI, CANSADO DE NÃO VER NENHUM OPONENTE A SUA ALTURA, DECIDE ABRIR O PORTÃO DO INFERNO PARA QUE ELE PUDESSE TER O SUBLIME PODER SOBRE A TERRA. PORÉM A HISTORIA COMEÇA ANTES DISSO.
+KAEDE ERA UM JOVEM FELIZ QUE VIVIA A TREINAR COM SEU MESTRE E PAI ADOTIVO GAISEI E SEUS DOIS IRMÃOS ADOTIVOS: MINAKATA MORIYA E YUKI. CERTA TARDE KAEDE E YUKI DECIDEM TREINAR, AO VOLTAR ENCONTRAM SEU MESTRE MORTO AO CHÃO COM MORIYA AO LADO SEM DIZER NADA, LOGO KAEDE PARTE PARA CIMA DE MORIYA E LHE DESFERE UM SOCO NO ROSTO, POREM MORIYA SE LEVANTAVA E SAI DE LÁ SEM DIZER NADA. ANOS DEPOIS, KAEDE (AGORA COM SEUS 17 ANOS) E YUKI (COM SEUS 18 ANOS), PARTEM EM BUSCA DE RESPOSTAS ACERCA DO ASSASSINATO DE SEU MESTRE. EM SUA JORNADA KAEDE DESCOBRE QUE É A REENCARNAÇÃO DO DEUS SEIRYU, O DRAGÃO AZUL DO TROVÃO. JUNTAMENTE COM AS OUTRAS REENCARNAÇÕES DE DEUSES: GENBU NO OKINA, QUE REPRESENTA GENBU A TARTARUGA NEGRA DA TERRA, NAOE SHIGEN, QUE REPRESENTA BYAKKU O TIGRE BRANCO DO VENTO, E SHINNOSUKE KAGAMI, QUE REPRESENTAVA A SUZAKU A FÊNIX VERMELHA DO FOGO.
+YUKI E KAEDE DESCOBREM QUE O VERDADEIRO ASSASSINO DE SEU MESTRE ERA KAGAMI E NÃO MORIYA. APÓS ENFRENTAR E DERROTAR O DEMÔNIO DAS ESPADAS AKATSUKI MUSASHI, QUE HAVIA CHEGADO À TERRA ATRAVÉS DO PORTÃO ABERTO POR KAGAMI, KAEDE MANIFESTA SEU VERDADEIRO PODER E A FORÇA DE SEIRYU NO CONFRONTO CONTRA KAGAMI. KAEDE DERROTA KAGAMI, PORÉM O PORTÃO DO INFERNO PERMANECE ABERTO.
+THE LAST BLADE É UM JOGO ELETRÔNICO DE LUTA EM 2D, LANÇADO PELA DESENVOLVEDORA DE JOGOS ELETRÔNICOS JAPONESA SNK EM 1997.</desc>
+    <rating>0.60</rating>
+    <releasedate>19980129T000000</releasedate>
+    <developer>SNK</developer>
+    <publisher>SNK</publisher>
+    <genre>LUTA, LUTA / VERSUS</genre>
+    <genreid>262</genreid>
+    <players>1-2</players>
+    <md5>b95fa29b880cf2fafef5c242b69bef11</md5>
+    <hash>81B13E2D</hash>
+    <region>wor</region>
+    <arcadesystemname>snk</arcadesystemname>
+    <image>./media/image/Lastblad-image.png</image>
+    <video>./media/videos/Lastblad-video.mp4</video>
+    <marquee>./media/image/Lastblad-marquee.png</marquee>
+    <wheel>./media/image/Lastblad-wheel.png</wheel>
+    <boxart>./media/image/Lastblad-boxart.png</boxart>
+    <screenshot>./media/screenshots/Lastblad-screenshot.png</screenshot>
+    <cartridge>./media/image/Lastblad-cartridge.png</cartridge>
+    <fanart>./media/fanart/Lastblad-fanart.jpg</fanart>
+    <titleshot>./media/image/Lastblad-titleshot.png</titleshot>
+    <boxback>./media/image/Lastblad-boxback.png</boxback>
+    <extra1>./media/extras/Lastblad-extra1.png</extra1>
+    <bezel>./media/image/Lastblad-bezel.png</bezel>
+  </game>
   <game id="42115">
     <path>./Lazercmd.zip</path>
     <name>LAZERCMD</name>
@@ -19464,6 +19543,32 @@ APÓS ESTA ETAPA, O JOGADOR É LEVADO À VISÃO DE UM PLANETA EM ROTAÇÃO. OS I
     <boxback>./media/image/Liberatr-boxback.png</boxback>
     <extra1>./media/extras/Liberatr-extra1.png</extra1>
     <bezel>./media/image/Liberatr-bezel.png</bezel>
+  </game>
+  <game id="42156">
+    <path>./Lkage.zip</path>
+    <name>LKAGE</name>
+    <desc>VOCÊ INTERPRETA KAGE, UM NINJA HABILIDOSO EM BUSCA DE RESGATAR A PRINCESA KIRI DAS MÃOS DO SENHOR DA GUERRA YOSHI. ARMADO APENAS COM UMA ESPADA E 'FACAS ESTELARES', VOCÊ DEVE ABRIR CAMINHO ATRAVÉS DE INCONTÁVEIS CAPANGAS E CHEFES OCASIONAIS PARA CONCLUIR SUA TAREFA. OS NÍVEIS INCLUEM A FLORESTA, O FOSSO, DENTRO E FORA DO CASTELO. ESSES NÍVEIS SE REPETEM À MEDIDA QUE AS ESTAÇÕES MUDAM. A JOGABILIDADE É DE ROLAGEM LATERAL. OS MOVIMENTOS DE KAGE INCLUEM A HABILIDADE DE PULAR EXTREMAMENTE ALTO NO AR, AGARRAR E ESCALAR ÁRVORES, BLOQUEAR E ATACAR COM SUA ESPADA E LANÇAR SHURIKEN. O JOGO PODE SER UM DESAFIO ÀS VEZES, PORQUE O JOGADOR MORRE EM UM GOLPE. 2 JOGADORES SÃO SUPORTADOS, MAS DEVEM SE REVEZAR.</desc>
+    <rating>0.60</rating>
+    <releasedate>19840101T000000</releasedate>
+    <developer>TAITO</developer>
+    <publisher>TAITO</publisher>
+    <genre>PLATAFORMA / COMBATE COM ROLAGEM, LUTA, LUTA / 2D, PLATAFORMA</genre>
+    <genreid>257</genreid>
+    <players>1-2</players>
+    <md5>3685de74fbe9c4565ef78ce3cab969ca</md5>
+    <hash>2F6C105E</hash>
+    <region>wor</region>
+    <arcadesystemname>taito</arcadesystemname>
+    <image>./media/image/Lkage-image.png</image>
+    <video>./media/videos/Lkage-video.mp4</video>
+    <marquee>./media/image/Lkage-marquee.png</marquee>
+    <wheel>./media/image/Lkage-wheel.png</wheel>
+    <boxart>./media/image/Lkage-boxart.png</boxart>
+    <screenshot>./media/screenshots/Lkage-screenshot.png</screenshot>
+    <fanart>./media/fanart/Lkage-fanart.jpg</fanart>
+    <titleshot>./media/image/Lkage-titleshot.png</titleshot>
+    <manual>./media/manuals/Lkage_(us).pdf</manual>
+    <extra1>./media/extras/Lkage-extra1.png</extra1>
   </game>
   <game id="42161">
     <path>./Locomotn.zip</path>
@@ -26186,10 +26291,12 @@ PHALCYON (ROXO) – ATAQUE DE ONDA</desc>
     <arcadesystemname>psikyo</arcadesystemname>
     <image>./media/image/S1945iii-image.png</image>
     <video>./media/videos/S1945iii-video.mp4</video>
+    <thumbnail>./media/image/S1945iii-boxart.png</thumbnail>
     <marquee>./media/image/S1945iii-marquee.png</marquee>
     <wheel>./media/image/S1945iii-wheel.png</wheel>
     <boxart>./media/image/S1945iii-boxart.png</boxart>
     <screenshot>./media/screenshots/S1945iii-screenshot.png</screenshot>
+    <mix>./media/image/S1945iii-image.png</mix>
     <fanart>./media/fanart/S1945iii-fanart.jpg</fanart>
     <titleshot>./media/image/S1945iii-titleshot.png</titleshot>
     <manual>./media/manuals/S1945iii_(us).pdf</manual>
@@ -26214,10 +26321,12 @@ PHALCYON (ROXO) – ATAQUE DE ONDA</desc>
     <arcadesystemname>psikyo</arcadesystemname>
     <image>./media/image/S1945-image.png</image>
     <video>./media/videos/S1945-video.mp4</video>
+    <thumbnail>./media/image/S1945-boxart.png</thumbnail>
     <marquee>./media/image/S1945-marquee.png</marquee>
     <wheel>./media/image/S1945-wheel.png</wheel>
     <boxart>./media/image/S1945-boxart.png</boxart>
     <screenshot>./media/screenshots/S1945-screenshot.png</screenshot>
+    <mix>./media/image/S1945-image.png</mix>
     <fanart>./media/fanart/S1945-fanart.jpg</fanart>
     <titleshot>./media/image/S1945-titleshot.png</titleshot>
     <manual>./media/manuals/S1945_(wor).pdf</manual>
@@ -26243,11 +26352,13 @@ PHALCYON (ROXO) – ATAQUE DE ONDA</desc>
     <arcadesystemname>snk</arcadesystemname>
     <image>./media/image/S1945p-image.png</image>
     <video>./media/videos/S1945p-video.mp4</video>
+    <thumbnail>./media/image/S1945p-boxart.png</thumbnail>
     <marquee>./media/image/S1945p-marquee.png</marquee>
     <wheel>./media/image/S1945p-wheel.png</wheel>
     <boxart>./media/image/S1945p-boxart.png</boxart>
     <screenshot>./media/screenshots/S1945p-screenshot.png</screenshot>
     <cartridge>./media/image/S1945p-cartridge.png</cartridge>
+    <mix>./media/image/S1945p-image.png</mix>
     <fanart>./media/fanart/S1945p-fanart.jpg</fanart>
     <titleshot>./media/image/S1945p-titleshot.png</titleshot>
     <boxback>./media/image/S1945p-boxback.png</boxback>
@@ -27940,6 +28051,7 @@ NSIDE ARMS É UM SHOOT-EM-UP DE DESLOCAMENTO HORIZONTAL E OCASIONALMENTE VERTICA
     <image>./media/image/Sidearjp-image.png</image>
     <video>./media/videos/Sidearjp-video.mp4</video>
     <screenshot>./media/screenshots/Sidearjp-screenshot.png</screenshot>
+    <mix>./media/image/Sidearjp-image.png</mix>
     <fanart>./media/fanart/Sidearjp-fanart.jpg</fanart>
     <titleshot>./media/image/Sidearjp-titleshot.png</titleshot>
     <manual>./media/manuals/Sidearjp_(us).pdf</manual>
@@ -27964,10 +28076,12 @@ NSIDE ARMS É UM SHOOT-EM-UP DE DESLOCAMENTO HORIZONTAL E OCASIONALMENTE VERTICA
     <arcadesystemname>capcom</arcadesystemname>
     <image>./media/image/Sidearms (2)-image.png</image>
     <video>./media/videos/Sidearms (2)-video.mp4</video>
+    <thumbnail>./media/image/Sidearms (2)-boxart.png</thumbnail>
     <marquee>./media/image/Sidearms (2)-marquee.png</marquee>
     <wheel>./media/image/Sidearms (2)-wheel.png</wheel>
     <boxart>./media/image/Sidearms (2)-boxart.png</boxart>
     <screenshot>./media/screenshots/Sidearms (2)-screenshot.png</screenshot>
+    <mix>./media/image/Sidearms (2)-image.png</mix>
     <fanart>./media/fanart/Sidearms (2)-fanart.jpg</fanart>
     <titleshot>./media/image/Sidearms (2)-titleshot.png</titleshot>
     <manual>./media/manuals/Sidearms (2)_(us).pdf</manual>
@@ -27997,6 +28111,7 @@ NSIDE ARMS É UM SHOOT-EM-UP DE DESLOCAMENTO HORIZONTAL E OCASIONALMENTE VERTICA
     <wheel>./media/image/Sidearms-marquee.png</wheel>
     <boxart>./media/image/Sidearms-boxart.png</boxart>
     <screenshot>./media/screenshots/Sidearms-screenshot.png</screenshot>
+    <mix>./media/image/Sidearms-image.png</mix>
     <fanart>./media/fanart/Sidearms-fanart.jpg</fanart>
     <titleshot>./media/image/Sidearms-titleshot.jpg</titleshot>
     <manual>./media/manuals/Sidearms_(us).pdf</manual>
@@ -28026,6 +28141,7 @@ NSIDE ARMS É UM SHOOT-EM-UP DE DESLOCAMENTO HORIZONTAL E OCASIONALMENTE VERTICA
     <wheel>./media/image/Sidepckt-wheel.png</wheel>
     <boxart>./media/image/Sidepckt-boxart.png</boxart>
     <screenshot>./media/screenshots/Sidepckt-screenshot.png</screenshot>
+    <mix>./media/image/Sidepckt-image.png</mix>
     <fanart>./media/fanart/Sidepckt-fanart.jpg</fanart>
     <titleshot>./media/image/Sidepckt-titleshot.png</titleshot>
     <extra1>./media/extras/Sidepckt-extra1.jpg</extra1>
@@ -28048,10 +28164,12 @@ CADA VEZ QUE VOCÊ FAZ UM CIRCUITO COMPLETO AO REDOR DA PISTA E PASSA O MARCADOR
     <arcadesystemname>exidy</arcadesystemname>
     <image>./media/image/Sidetrac-image.png</image>
     <video>./media/videos/Sidetrac-video.mp4</video>
+    <thumbnail>./media/image/Sidetrac-boxart.png</thumbnail>
     <marquee>./media/image/Sidetrac-marquee.png</marquee>
     <wheel>./media/image/Sidetrac-wheel.png</wheel>
     <boxart>./media/image/Sidetrac-boxart.png</boxart>
     <screenshot>./media/screenshots/Sidetrac-screenshot.png</screenshot>
+    <mix>./media/image/Sidetrac-image.png</mix>
     <fanart>./media/fanart/Sidetrac-fanart.jpg</fanart>
     <titleshot>./media/image/Sidetrac-titleshot.png</titleshot>
     <manual>./media/manuals/Sidetrac_(us).pdf</manual>
@@ -28080,6 +28198,7 @@ CADA VEZ QUE VOCÊ FAZ UM CIRCUITO COMPLETO AO REDOR DA PISTA E PASSA O MARCADOR
     <wheel>./media/image/Silentd-wheel.png</wheel>
     <boxart>./media/image/Silentd-boxart.png</boxart>
     <screenshot>./media/screenshots/Silentd-screenshot.png</screenshot>
+    <mix>./media/image/Silentd-image.png</mix>
     <fanart>./media/fanart/Silentd-fanart.jpg</fanart>
     <titleshot>./media/image/Silentd-titleshot.png</titleshot>
     <manual>./media/manuals/Silentd-manual.pdf</manual>
@@ -28105,10 +28224,12 @@ O PRINCIPAL INTERESSE DO JOGO É O JOGO DOS DOIS JOGADORES. O SEGUNDO JOGADOR TE
     <arcadesystemname>tecmo</arcadesystemname>
     <image>./media/image/Silkworm-image.png</image>
     <video>./media/videos/Silkworm-video.mp4</video>
+    <thumbnail>./media/image/Silkworm-boxart.png</thumbnail>
     <marquee>./media/image/Silkworm-marquee.png</marquee>
     <wheel>./media/image/Silkworm-wheel.png</wheel>
     <boxart>./media/image/Silkworm-boxart.png</boxart>
     <screenshot>./media/screenshots/Silkworm-screenshot.png</screenshot>
+    <mix>./media/image/Silkworm-image.png</mix>
     <fanart>./media/fanart/Silkworm-fanart.jpg</fanart>
     <titleshot>./media/image/Silkworm-titleshot.png</titleshot>
     <manual>./media/manuals/Silkworm-manual.pdf</manual>
@@ -28132,10 +28253,12 @@ O PRINCIPAL INTERESSE DO JOGO É O JOGO DOS DOIS JOGADORES. O SEGUNDO JOGADOR TE
     <arcadesystemname>konami</arcadesystemname>
     <image>./media/image/Simpsons-image.png</image>
     <video>./media/videos/Simpsons-video.mp4</video>
+    <thumbnail>./media/image/Simpsons-boxart.png</thumbnail>
     <marquee>./media/image/Simpsons-marquee.png</marquee>
     <wheel>./media/image/Simpsons-marquee.png</wheel>
     <boxart>./media/image/Simpsons-boxart.png</boxart>
     <screenshot>./media/screenshots/Simpsons-screenshot.png</screenshot>
+    <mix>./media/image/Simpsons-image.png</mix>
     <fanart>./media/fanart/Simpsons-fanart.png</fanart>
     <titleshot>./media/image/Simpsons-titleshot.png</titleshot>
     <manual>./media/manuals/Simpsons-manual.pdf</manual>
@@ -28166,10 +28289,12 @@ NA VERDADE, SOMENTE COM SINISITA VOCÊ PODE FABRICAR SINIBOMBS PARA ERRADICAR O 
     <arcadesystemname>midway</arcadesystemname>
     <image>./media/image/Sinistar-image.png</image>
     <video>./media/videos/Sinistar-video.mp4</video>
+    <thumbnail>./media/image/Sinistar-boxart.png</thumbnail>
     <marquee>./media/image/Sinistar-marquee.png</marquee>
     <wheel>./media/image/Sinistar-wheel.png</wheel>
     <boxart>./media/image/Sinistar-boxart.png</boxart>
     <screenshot>./media/screenshots/Sinistar-screenshot.png</screenshot>
+    <mix>./media/image/Sinistar-image.png</mix>
     <fanart>./media/fanart/Sinistar-fanart.jpg</fanart>
     <titleshot>./media/image/Sinistar-titleshot.png</titleshot>
     <manual>./media/manuals/Sinistar_(us).pdf</manual>
@@ -28208,6 +28333,7 @@ IMPULSO: SE VOCÊ SELECIONAR UM PILOTO DO TIPO 'FIGHTER', VOCÊ PODE USAR O IMPU
     <wheel>./media/image/Skullfng-wheel.png</wheel>
     <boxart>./media/image/Skullfng-boxart.png</boxart>
     <screenshot>./media/screenshots/Skullfng-screenshot.png</screenshot>
+    <mix>./media/image/Skullfng-image.png</mix>
     <fanart>./media/fanart/Skullfng-fanart.jpg</fanart>
     <titleshot>./media/image/Skullfng-titleshot.png</titleshot>
     <extra1>./media/extras/Skullfng-extra1.jpg</extra1>
@@ -28235,6 +28361,7 @@ IMPULSO: SE VOCÊ SELECIONAR UM PILOTO DO TIPO 'FIGHTER', VOCÊ PODE USAR O IMPU
     <wheel>./media/image/Skullxbo-marquee.png</wheel>
     <boxart>./media/image/Skullxbo-boxart.png</boxart>
     <screenshot>./media/screenshots/Skullxbo-screenshot.png</screenshot>
+    <mix>./media/image/Skullxbo-image.png</mix>
     <fanart>./media/fanart/Skullxbo-fanart.jpg</fanart>
     <titleshot>./media/image/Skullxbo-titleshot.png</titleshot>
     <manual>./media/manuals/Skullxbo-manual.pdf</manual>
@@ -28265,6 +28392,7 @@ IMPULSO: SE VOCÊ SELECIONAR UM PILOTO DO TIPO 'FIGHTER', VOCÊ PODE USAR O IMPU
     <wheel>./media/image/Skyadvnt-wheel.png</wheel>
     <boxart>./media/image/Skyadvnt-boxart.png</boxart>
     <screenshot>./media/screenshots/Skyadvnt-screenshot.png</screenshot>
+    <mix>./media/image/Skyadvnt-image.png</mix>
     <fanart>./media/fanart/Skyadvnt-fanart.jpg</fanart>
     <titleshot>./media/image/Skyadvnt-titleshot.png</titleshot>
     <extra1>./media/extras/Skyadvnt-extra1.jpg</extra1>
@@ -28290,8 +28418,10 @@ IMPULSO: SE VOCÊ SELECIONAR UM PILOTO DO TIPO 'FIGHTER', VOCÊ PODE USAR O IMPU
 Clone Of : secretag -&gt; Sly Spy (US revision 4)</temporary>
     <image>./media/image/Slyspy-image.png</image>
     <video>./media/videos/Slyspy-video.mp4</video>
+    <thumbnail>./media/image/Slyspy-boxart.png</thumbnail>
     <boxart>./media/image/Slyspy-boxart.png</boxart>
     <screenshot>./media/screenshots/Slyspy-screenshot.png</screenshot>
+    <mix>./media/image/Slyspy-image.png</mix>
     <titleshot>./media/image/Slyspy-titleshot.png</titleshot>
     <manual>./media/manuals/Slyspy_(us).pdf</manual>
     <extra1>./media/extras/Slyspy-extra1.png</extra1>
@@ -28318,6 +28448,7 @@ Clone Of : secretag -&gt; Sly Spy (US revision 4)</temporary>
     <wheel>./media/image/Smashtv-marquee.png</wheel>
     <boxart>./media/image/Smashtv-boxart.png</boxart>
     <screenshot>./media/screenshots/Smashtv-screenshot.png</screenshot>
+    <mix>./media/image/Smashtv-image.png</mix>
     <fanart>./media/fanart/Smashtv-fanart.jpg</fanart>
     <titleshot>./media/image/Smashtv-titleshot.png</titleshot>
     <manual>./media/manuals/Smashtv_(us).pdf</manual>
@@ -28341,10 +28472,12 @@ Clone Of : secretag -&gt; Sly Spy (US revision 4)</temporary>
     <arcadesystemname>midway</arcadesystemname>
     <image>./media/image/Snakepit-image.png</image>
     <video>./media/videos/Snakepit-video.mp4</video>
+    <thumbnail>./media/image/Snakepit-boxart.png</thumbnail>
     <marquee>./media/image/Snakepit-marquee.png</marquee>
     <wheel>./media/image/Snakepit-wheel.png</wheel>
     <boxart>./media/image/Snakepit-boxart.png</boxart>
     <screenshot>./media/screenshots/Snakepit-screenshot.png</screenshot>
+    <mix>./media/image/Snakepit-image.png</mix>
     <fanart>./media/fanart/Snakepit-fanart.jpg</fanart>
     <titleshot>./media/image/Snakepit-titleshot.png</titleshot>
     <extra1>./media/extras/Snakepit-extra1.png</extra1>
@@ -28366,10 +28499,12 @@ Clone Of : secretag -&gt; Sly Spy (US revision 4)</temporary>
     <arcadesystemname>midway</arcadesystemname>
     <image>./media/image/Snakjack-image.png</image>
     <video>./media/videos/Snakjack-video.mp4</video>
+    <thumbnail>./media/image/Snakjack-boxart.png</thumbnail>
     <marquee>./media/image/Snakjack-marquee.png</marquee>
     <wheel>./media/image/Snakjack-wheel.png</wheel>
     <boxart>./media/image/Snakjack-boxart.png</boxart>
     <screenshot>./media/screenshots/Snakjack-screenshot.png</screenshot>
+    <mix>./media/image/Snakjack-image.png</mix>
     <fanart>./media/fanart/Snakjack-fanart.jpg</fanart>
     <titleshot>./media/image/Snakjack-titleshot.png</titleshot>
     <extra1>./media/extras/Snakjack-extra1.png</extra1>
@@ -28396,6 +28531,7 @@ Clone Of : secretag -&gt; Sly Spy (US revision 4)</temporary>
     <wheel>./media/image/Snapjack-marquee.png</wheel>
     <boxart>./media/image/Snapjack-boxart.png</boxart>
     <screenshot>./media/screenshots/Snapjack-screenshot.png</screenshot>
+    <mix>./media/image/Snapjack-image.png</mix>
     <titleshot>./media/image/Snapjack-titleshot.png</titleshot>
     <boxback>./media/image/Snapjack-boxback.png</boxback>
     <extra1>./media/extras/Snapjack-extra1.jpg</extra1>
@@ -28421,10 +28557,12 @@ AO JOGAR COMO JOGADOR 2, VOCÊ OBTÉM UM TIPO DE AVIÃO DIFERENTE. O MODO PARA 2
     <arcadesystemname>vsc</arcadesystemname>
     <image>./media/image/Sncwgltd-image.png</image>
     <video>./media/videos/Sncwgltd-video.mp4</video>
+    <thumbnail>./media/image/Sncwgltd-boxart.png</thumbnail>
     <marquee>./media/image/Sncwgltd-marquee.png</marquee>
     <wheel>./media/image/Sncwgltd-wheel.png</wheel>
     <boxart>./media/image/Sncwgltd-boxart.png</boxart>
     <screenshot>./media/screenshots/Sncwgltd-screenshot.png</screenshot>
+    <mix>./media/image/Sncwgltd-image.png</mix>
     <fanart>./media/fanart/Sncwgltd-fanart.jpg</fanart>
     <titleshot>./media/image/Sncwgltd-titleshot.png</titleshot>
     <extra1>./media/extras/Sncwgltd-extra1.png</extra1>
@@ -28450,10 +28588,12 @@ SE OS JOGADORES DEMORAREM MUITO TEMPO PARA COMPLETAR UM ESTÁGIO, UMA CABEÇA DE
     <arcadesystemname>toaplan</arcadesystemname>
     <image>./media/image/Snowbros-image.png</image>
     <video>./media/videos/Snowbros-video.mp4</video>
+    <thumbnail>./media/image/Snowbros-boxart.png</thumbnail>
     <marquee>./media/image/Snowbros-marquee.png</marquee>
     <wheel>./media/image/Snowbros-wheel.png</wheel>
     <boxart>./media/image/Snowbros-boxart.png</boxart>
     <screenshot>./media/screenshots/Snowbros-screenshot.png</screenshot>
+    <mix>./media/image/Snowbros-image.png</mix>
     <fanart>./media/fanart/Snowbros-fanart.jpg</fanart>
     <titleshot>./media/image/Snowbros-titleshot.png</titleshot>
     <manual>./media/manuals/Snowbros-manual.pdf</manual>
@@ -28479,6 +28619,7 @@ SE OS JOGADORES DEMORAREM MUITO TEMPO PARA COMPLETAR UM ESTÁGIO, UMA CABEÇA DE
     <image>./media/image/Soccer Brawl-image.png</image>
     <video>./media/videos/Soccer Brawl-video.mp4</video>
     <screenshot>./media/screenshots/Soccer Brawl-screenshot.png</screenshot>
+    <mix>./media/image/Soccer Brawl-image.png</mix>
     <fanart>./media/fanart/Soccer Brawl-fanart.jpg</fanart>
     <titleshot>./media/image/Soccer Brawl-titleshot.png</titleshot>
     <manual>./media/manuals/Soccer Brawl_(us).pdf</manual>
@@ -28505,10 +28646,12 @@ SE VOCÊ SELECIONAR A DIFICULDADE INICIANTE NO INÍCIO, A VELOCIDADE NORMAL DO S
     <arcadesystemname>midway</arcadesystemname>
     <image>./media/image/Solarfox-image.png</image>
     <video>./media/videos/Solarfox-video.mp4</video>
+    <thumbnail>./media/image/Solarfox-boxart.png</thumbnail>
     <marquee>./media/image/Solarfox-marquee.png</marquee>
     <wheel>./media/image/Solarfox-wheel.png</wheel>
     <boxart>./media/image/Solarfox-boxart.png</boxart>
     <screenshot>./media/screenshots/Solarfox-screenshot.png</screenshot>
+    <mix>./media/image/Solarfox-image.png</mix>
     <fanart>./media/fanart/Solarfox-fanart.jpg</fanart>
     <titleshot>./media/image/Solarfox-titleshot.png</titleshot>
     <boxback>./media/image/Solarfox-boxback.png</boxback>
@@ -28535,6 +28678,7 @@ Clone Of : soldam -&gt; Soldam (Japan)</temporary>
     <image>./media/image/Soldamj-image.png</image>
     <video>./media/videos/Soldamj-video.mp4</video>
     <screenshot>./media/screenshots/Soldamj-screenshot.png</screenshot>
+    <mix>./media/image/Soldamj-image.png</mix>
     <titleshot>./media/image/Soldamj-titleshot.png</titleshot>
     <extra1>./media/extras/Soldamj-extra1.png</extra1>
   </game>
@@ -28568,6 +28712,7 @@ OS QUATRO GRUPOS DE SALAS SÃO:
     <marquee>./media/image/Solomon-marquee.png</marquee>
     <wheel>./media/image/Solomon-marquee.png</wheel>
     <screenshot>./media/screenshots/Solomon-screenshot.png</screenshot>
+    <mix>./media/image/Solomon-image.png</mix>
     <fanart>./media/fanart/Solomon-fanart.jpg</fanart>
     <titleshot>./media/image/Solomon-titleshot.png</titleshot>
     <manual>./media/manuals/Solomon_(wor).pdf</manual>
@@ -28593,6 +28738,7 @@ SEGASONIC THE HEDGEHOG É UM JOGO DE PLATAFORMA ISOMÉTRICO NO QUAL ATÉ TRÊS J
     <image>./media/image/Sonic -image.png</image>
     <video>./media/videos/Sonic -video.mp4</video>
     <screenshot>./media/screenshots/Sonic -screenshot.png</screenshot>
+    <mix>./media/image/Sonic -image.png</mix>
     <fanart>./media/fanart/Sonic -fanart.jpg</fanart>
     <titleshot>./media/image/Sonic -titleshot.png</titleshot>
     <extra1>./media/extras/Sonic -extra1.png</extra1>
