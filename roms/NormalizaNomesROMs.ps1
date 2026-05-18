@@ -893,33 +893,271 @@
   - Estrutura XML preservada.
   - Script idempotente e fail-safe.
 
-  19. DEDUPLICAÇÃO DOS ARQUIVOS DE MÍDIA e 
-      ELIMINAÇÃO DE ARQUIVOS DE MÍDIA ÓRFÃOS
-      (NÃO VINCULADOS EM SUBTAs)
+19. DEDUPLICAÇÃO DE ARQUIVOS DE MÍDIA E
+    ELIMINAÇÃO DE MÍDIA ÓRFÃ
+    (NÃO REFERENCIADA POR SUBTAGS DE <game>)
 
-    - Funcional apenas se -Fix fornecido.
-    - Emite WARN SE NÃO FUNCIONAL
+  Escopo:
+    - aplica-se exclusivamente a arquivos de mídia
+      referenciados por subtags válidas de `<game>`
+      em `gamelist.xml`;
+    - aplica-se tipicamente ao subtree:
+        `<sistema>/media/`
+      sem depender rigidamente deste path;
+    - apenas mídias efetivamente correlacionadas
+      ao XML participam do pipeline.
 
-    - MUST renomear cada arquivo de media para:
-      `{nome-canonico}-{last-8-sha256}.<originalext>`
-      
-      onde:
-      `{nome-canonico}`: nome do jogo, conforme subtage <title>, normalizado,
-                         e tratado para compatibilidade com nomes de arquivos;
-      `{last-8-sha256}`: é os últimos 8 digitos ASCII uppercase
-                         do SHA256 do conteúdo do arquivo
-      `<originalext>`  : é a extensão original do arquivo
+  Disponibilidade:
+    - funcional apenas quando `-Fix` fornecido;
+    - sem `-Fix`:
+        * MUST operar apenas em modo análise;
+        * MUST emitir `WARN`;
+        * MUST NOT:
+            - renomear;
+            - remover;
+            - sincronizar;
+            - alterar XML.
 
-    - se um arquivo com o nome destino já existir, então, o arquivo
-      é removido (se trata de duplicação)
-    - todos os path correspondentes são ajustados no XML, 
-      globalmente (replace all), mesmo em outros <game>
-      de forma fail-safe
-    - MUST preservar estrutura de diretórios original e
-      localização original dos arquivos de mídia
-      tanto quanto possível
-      * Nunca mover arquivos
-      * Nunca renomerar pastas      
+  Objetivos:
+    - deduplicar assets de mídia;
+    - eliminar arquivos órfãos;
+    - estabilizar nomenclatura;
+    - preservar compatibilidade Batocera;
+    - reduzir redundância estrutural.
+
+  ============================================================
+  19.1 SUBTAGS DE MÍDIA SUPORTADAS
+  ============================================================
+
+  O pipeline MUST detectar referências de mídia
+  exclusivamente dentro de subtags válidas de `<game>`.
+
+  Inclui:
+    - <image>
+    - <thumbnail>
+    - <marquee>
+    - <video>
+    - <manual>
+    - <fanart>
+    - <titleshot>
+    - <miximage>
+    - equivalentes semanticamente compatíveis
+
+  Regras:
+    - subtags desconhecidas MUST ser ignoradas;
+    - tags fora de `<game>` MUST NOT ser alteradas;
+    - paths MUST preservar case original;
+    - correlação MUST ser determinística.
+
+  ============================================================
+  19.2 DEFINIÇÃO DE MÍDIA ÓRFÃ
+  ============================================================
+
+  Arquivo órfão é qualquer arquivo de mídia que:
+
+    - exista fisicamente no filesystem;
+    - esteja localizado em diretório monitorado;
+    - não possua referência válida
+      em nenhuma subtag suportada de `<game>`.
+
+  Em `-Fix`:
+    - arquivos órfãos MUST ser removidos.
+
+  Fora de `-Fix`:
+    - MUST apenas reportar.
+
+  Antes da remoção:
+    - MUST validar:
+        * path;
+        * acessibilidade;
+        * unicidade;
+        * inexistência de referência XML indireta;
+        * inexistência de correlação pós-normalização.
+
+  ============================================================
+  19.3 NORMALIZAÇÃO CANÔNICA DE MÍDIA
+  ============================================================
+
+  Cada arquivo de mídia válido MUST ser renomeado para:
+
+    `{nome-canonico}-{last12sha256}.{originalext}`
+
+  Onde:
+
+    `{nome-canonico}`
+      = nome derivado prioritariamente da subtag:
+          `<title>`
+        do `<game>` proprietário.
+
+      Fallbacks determinísticos MAY utilizar:
+        - <name>
+        - basename correlacionado da ROM
+
+      apenas se `<title>` inexistente.
+
+    `{nome-canonico}` MUST:
+      - ser normalizado;
+      - ser filesystem-safe;
+      - remover caracteres inválidos;
+      - remover trailing spaces/dots;
+      - colapsar whitespace;
+      - preservar legibilidade;
+      - preservar semântica relevante;
+      - possuir tamanho seguro para path final.
+
+    `{last12sha256}`
+      = últimos 12 caracteres HEXADECIMAIS UPPERCASE
+        do SHA256 binário bruto do conteúdo do arquivo.
+
+    `{originalext}`
+      = extensão original preservada.
+
+  Regras:
+    - hash MUST ser calculado sobre conteúdo bruto;
+    - hashing MUST ser determinístico;
+    - metadados/timestamps MUST NOT influenciar;
+    - extensão MUST NOT ser alterada;
+    - casing da extensão SHOULD ser preservado.
+
+  ============================================================
+  19.4 DEDUPLICAÇÃO
+  ============================================================
+
+  Critério definitivo:
+    - SHA256 do conteúdo binário.
+
+  Quando o filename destino já existir:
+
+    - se o conteúdo for equivalente:
+        * MUST considerar duplicação legítima;
+        * MUST remover o arquivo redundante;
+        * MUST preservar apenas uma mídia física;
+        * MUST consolidar referências XML.
+
+    - se o conteúdo divergir:
+        * MUST abortar operação específica;
+        * MUST emitir ERROR;
+        * MUST NOT sobrescrever arquivos.
+
+  Garantias:
+    - ao menos um asset MUST sobreviver;
+    - MUST NOT criar "__dup";
+    - MUST NOT gerar nomes ambíguos;
+    - MUST NOT destruir referências válidas.
+
+  ============================================================
+  19.5 SINCRONIZAÇÃO XML
+  ============================================================
+
+  Toda alteração de mídia MUST refletir no XML.
+
+  O pipeline MUST:
+
+    - atualizar TODAS as referências correlacionadas;
+    - atualizar referências cruzadas entre múltiplos `<game>`;
+    - consolidar referências duplicadas;
+    - preservar estrutura XML;
+    - preservar encoding XML;
+    - preservar indentação compatível com Batocera.
+
+  Atualização MUST ser:
+    - estrutural;
+    - baseada em parsing XML;
+    - determinística;
+    - fail-safe.
+
+  MUST NOT utilizar:
+    - replace textual cego;
+    - replace global inseguro;
+    - mutação fora de `<game>`.
+
+  Em falha:
+    - MUST preservar estado anterior válido;
+    - MUST abortar operação parcial inconsistente.
+
+  ============================================================
+  19.6 PRESERVAÇÃO ESTRUTURAL
+  ============================================================
+
+  O pipeline MUST preservar a estrutura original
+  de diretórios tanto quanto possível.
+
+  Regras:
+    - arquivos MUST permanecer no mesmo diretório;
+    - MUST NOT mover arquivos entre subpastas;
+    - MUST NOT achatar hierarquia;
+    - MUST NOT renomear diretórios;
+    - MUST NOT criar estrutura paralela artificial.
+
+  Apenas o basename do arquivo MAY ser alterado.
+
+  ============================================================
+  19.7 CORRELAÇÃO ESTRUTURAL
+  ============================================================
+
+  A mídia MUST permanecer correlacionada ao `<game>`
+  proprietário após normalização e deduplicação.
+
+  MUST preservar:
+    - integridade relacional;
+    - compatibilidade Batocera;
+    - consistência ROM ↔ mídia ↔ XML.
+
+  Quando múltiplos `<game>` compartilharem
+  o mesmo asset legítimo:
+
+    - apenas um arquivo físico SHOULD sobreviver;
+    - múltiplas referências XML MAY apontar
+      para o mesmo asset final.
+
+  ============================================================
+  19.8 RESILIÊNCIA E SEGURANÇA
+  ============================================================
+
+  MUST:
+    - validar existência física pós-operação;
+    - validar XML pós-sincronização;
+    - utilizar escrita atômica quando aplicável;
+    - impedir perda total por falha parcial;
+    - preservar rastreabilidade completa.
+
+  MUST NOT:
+    - sobrescrever mídia arbitrariamente;
+    - modificar conteúdo binário;
+    - alterar extensões;
+    - remover assets sem validação;
+    - operar fora do escopo correlacionado.
+
+  ============================================================
+  19.9 IDEMPOTÊNCIA
+  ============================================================
+
+  O processo MUST ser idempotente.
+
+  Após convergência:
+    - execuções subsequentes MUST NOT produzir
+      alterações adicionais;
+    - nomes finais MUST permanecer estáveis;
+    - referências XML MUST permanecer estáveis.
+
+  ============================================================
+  19.10 LOG E AUDITORIA
+  ============================================================
+
+  MUST registrar:
+    - mídia renomeada;
+    - mídia deduplicada;
+    - mídia órfã removida;
+    - referências XML atualizadas;
+    - colisões detectadas;
+    - falhas de correlação;
+    - operações abortadas.
+
+  Logs SHOULD:
+    - utilizar paths relativos;
+    - preservar rastreabilidade;
+    - ser determinísticos;
+    - ser legíveis por máquina.
 #>
 
 [CmdletBinding(SupportsShouldProcess = $true)]
