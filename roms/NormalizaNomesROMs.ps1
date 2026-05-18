@@ -2782,7 +2782,7 @@ function Load-Gamelists {
 
 function Save-PendingXml {
 
-  foreach ($xmlPath in $script:PipelineState.PendingXmlSave.Keys) {
+  foreach ($xmlPath in @($script:PipelineState.PendingXmlSave.Keys)) {
 
     $xml = $script:PipelineState.XmlMap[$xmlPath]
 
@@ -2828,6 +2828,21 @@ function Save-PendingXml {
       "✔ XML-SYNC :: $(Get-RelativePathSafe $xmlPath)" `
       DarkGreen `
       -forceNewLine
+
+    [void]$script:PipelineState.PendingXmlSave.Remove($xmlPath)
+  }
+}
+
+function Save-PendingXmlRealtime {
+
+  if (
+    $script:FixMode `
+      -and `
+      -not $script:VerifyOnlyMode
+  ) {
+
+    # FIX-BUG: persiste mutações XML confirmadas entre etapas
+    Save-PendingXml
   }
 }
 
@@ -3831,6 +3846,8 @@ function Remove-XmlNode {
     $script:PipelineState.PendingXmlSave[
     $Entry.XmlPath
     ] = $true
+
+    Save-PendingXmlRealtime
   }
 }
 
@@ -4310,6 +4327,8 @@ function Set-MediaXmlReference {
   $script:PipelineState.PendingXmlSave[
   $Reference.XmlPath
   ] = $true
+
+  Save-PendingXmlRealtime
 }
 
 function Select-MediaSurvivor {
@@ -4372,10 +4391,48 @@ function Select-MediaSurvivor {
   )
 }
 
+function Test-MediaOrphanRemovalCandidate {
+  param([string]$FilePath)
+
+  if (-not $FilePath) {
+    return $false
+  }
+
+  $name = [IO.Path]::GetFileNameWithoutExtension($FilePath)
+
+  if (-not $name) {
+    return $false
+  }
+
+  $normalized = (
+    $name `
+      -replace '\s{2,}', ' '
+  ).Trim().ToLowerInvariant()
+
+  if (
+    -not $normalized `
+      -or `
+      $normalized -eq 'copia'
+  ) {
+    return $false
+  }
+
+  # PROTECAO: remove órfão de mídia apenas com marcador nominal de duplicata
+  $copyPattern = (
+    '(^|[\s._-])copy(\s+of)?($|[\s._-])' +
+    '|(^|[\s._-])(copia|copie)($|[\s._-])' +
+    '|[\s._-]\([2-9][0-9]*\)$' +
+    '|\([2-9][0-9]*\)$'
+  )
+
+  return ($normalized -match $copyPattern)
+}
+
 function Invoke-MediaMaintenance {
   param(
     [switch]$Fix,
-    [switch]$VerifyOnly
+    [switch]$VerifyOnly,
+    [switch]$RemoveOrphans
   )
 
   $canMutate = (
@@ -4689,6 +4746,36 @@ function Invoke-MediaMaintenance {
     }
   }
 
+  if (-not $RemoveOrphans) {
+    return
+  }
+
+  $referencedMediaHashes = @{}
+
+  foreach ($media in @($state.ByPath.Values | Sort-Object FullName)) {
+
+    if (
+      -not $media.FullName `
+        -or `
+      -not (Test-Path -LiteralPath $media.FullName -PathType Leaf)
+    ) {
+      continue
+    }
+
+    try {
+
+      $mediaHash = Get-FileHashCached $media.FullName
+      $referencedMediaHashes[$mediaHash] = $true
+    }
+    catch {
+
+      Write-InlineLog `
+        "❌ MEDIA_REF_HASH_FAIL :: $($_.Exception.Message)" `
+        Red `
+        -forceNewLine
+    }
+  }
+
   foreach ($dir in @($state.MonitoredDirs.Keys | Sort-Object)) {
 
     try {
@@ -4712,6 +4799,28 @@ function Invoke-MediaMaintenance {
         }
 
         if (-not (Test-Path -LiteralPath $full -PathType Leaf)) {
+          continue
+        }
+
+        if (-not (Test-MediaOrphanRemovalCandidate $full)) {
+
+          Write-InlineLog `
+            "⚠️ MEDIA_ORPHAN_PRESERVED :: $(Get-RelativePathSafe $full)" `
+            Yellow `
+            -forceNewLine
+
+          continue
+        }
+
+        $orphanHash = Get-FileHashCached $full
+
+        if (-not $referencedMediaHashes.ContainsKey($orphanHash)) {
+
+          Write-InlineLog `
+            "⚠️ MEDIA_ORPHAN_PRESERVED_NO_EQUIV :: $(Get-RelativePathSafe $full)" `
+            Yellow `
+            -forceNewLine
+
           continue
         }
 
@@ -5261,6 +5370,8 @@ function main {
           $script:PipelineState.FileMap[
           $newMapKey
           ] = $entry
+
+          Save-PendingXmlRealtime
         }
       }
       catch {
@@ -5496,6 +5607,12 @@ function main {
           -ErrorAction Stop
       }
     }
+
+    # FIX-BUG: remove órfãos de mídia somente após convergência XML/hash
+    Invoke-MediaMaintenance `
+      -Fix:$Fix `
+      -VerifyOnly:$VerifyOnly `
+      -RemoveOrphans
 
     # ==========================================================
     # SAVE FINAL
