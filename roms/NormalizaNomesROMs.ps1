@@ -1829,6 +1829,53 @@ function Format-RomanAwareTitle {
   return ($words -join ' ')
 }
 
+function Get-PathExtensionSafe {
+  param([string]$PathValue)
+
+  if (-not $PathValue) {
+    return ''
+  }
+
+  try {
+    return [IO.Path]::GetExtension($PathValue)
+  }
+  catch {
+
+    # FIX-BUG: impede fatal por path textual inválido
+    $text = $PathValue.Trim()
+
+    if (-not $text) {
+      return ''
+    }
+
+    $leaf = @(
+      $text -split '[\\/]'
+    )[-1]
+
+    if (-not $leaf) {
+      return ''
+    }
+
+    $dotIndex = $leaf.LastIndexOf('.')
+
+    if (
+      $dotIndex -lt 0 `
+        -or `
+        $dotIndex -eq ($leaf.Length - 1)
+    ) {
+      return ''
+    }
+
+    $extension = $leaf.Substring($dotIndex)
+
+    if ($extension -match '^[.][A-Za-z0-9]{1,16}$') {
+      return $extension
+    }
+
+    return ''
+  }
+}
+
 function Remove-InvalidFileNameChars {
   param([string]$name)
 
@@ -1843,7 +1890,7 @@ function Remove-InvalidFileNameChars {
 
   # PROTECAO: nomes reservados Windows (RFC 11.2)
   $base = [IO.Path]::GetFileNameWithoutExtension($name)
-  $ext = [IO.Path]::GetExtension($name)
+  $ext = Get-PathExtensionSafe -PathValue $name
 
 
 
@@ -2764,7 +2811,7 @@ function Initialize-SharedFileIndex {
     -File `
     -ErrorAction SilentlyContinue | ForEach-Object {
 
-    $extLower = [IO.Path]::GetExtension($_.Name).ToLowerInvariant()
+    $extLower = (Get-PathExtensionSafe -PathValue $_.Name).ToLowerInvariant()
 
     if (
       $blocked -contains $extLower `
@@ -4013,7 +4060,7 @@ function Get-MediaCanonicalFileName {
     return $null
   }
 
-  $extension = [IO.Path]::GetExtension($FilePath)
+  $extension = Get-PathExtensionSafe -PathValue $FilePath
 
   if (-not $extension) {
     return $null
@@ -4094,7 +4141,7 @@ function Get-GamelistMediaReferences {
         }
 
         # PROTECAO: tags desconhecidas com path impedem remoção órfã
-        if ([IO.Path]::GetExtension($rawPath.Trim())) {
+        if (Get-PathExtensionSafe -PathValue ($rawPath.Trim())) {
 
           $anyResolved = Resolve-GamelistMediaPath `
             -XmlPath $xmlPath `
@@ -4626,7 +4673,7 @@ function Invoke-MediaMaintenance {
       foreach ($file in $files) {
 
         $full = [IO.Path]::GetFullPath($file.FullName)
-        $extension = [IO.Path]::GetExtension($file.Name)
+        $extension = Get-PathExtensionSafe -PathValue $file.Name
 
         if (-not $MediaExtensionSet.Contains($extension)) {
           continue
