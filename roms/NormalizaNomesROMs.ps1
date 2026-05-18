@@ -1245,6 +1245,22 @@ $blocked = @(
   '.md5', '.mp3', '.png', '.jpg', '.jpeg', '.mp4', '.avi', '.mkv'
 )
 
+$MediaSubtagSet = [System.Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
+@(
+  'image', 'thumbnail', 'marquee', 'video', 'manual', 'fanart',
+  'titleshot', 'titlescreen', 'miximage', 'screenshot', 'cover',
+  'backcover', 'boxart', 'boxback', 'wheel', 'logo', 'bezel',
+  'cartridge', 'physicalmedia', 'map', 'music'
+) | ForEach-Object { [void]$MediaSubtagSet.Add($_) }
+
+$MediaExtensionSet = [System.Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
+@(
+  '.png', '.jpg', '.jpeg', '.bmp', '.gif', '.webp', '.svg',
+  '.mp4', '.m4v', '.avi', '.mkv', '.mov', '.webm',
+  '.pdf', '.txt', '.cbz', '.cbr',
+  '.mp3', '.ogg', '.wav', '.flac'
+) | ForEach-Object { [void]$MediaExtensionSet.Add($_) }
+
 $reserved = @(
   'CON', 'PRN', 'AUX', 'NUL',
   'COM1', 'COM2', 'COM3', 'COM4', 'COM5', 'COM6', 'COM7', 'COM8', 'COM9',
@@ -2972,6 +2988,918 @@ function Remove-XmlNode {
   }
 }
 
+function Test-IsPathUnderRoot {
+  param(
+    [string]$RootPath,
+    [string]$TargetPath
+  )
+
+  if (
+    -not $RootPath `
+      -or `
+      -not $TargetPath
+  ) {
+    return $false
+  }
+
+  $rootFull = [IO.Path]::GetFullPath($RootPath).TrimEnd('\', '/')
+  $targetFull = [IO.Path]::GetFullPath($TargetPath)
+
+  $rootPrefix = $rootFull + [IO.Path]::DirectorySeparatorChar
+
+  return $targetFull.StartsWith(
+    $rootPrefix,
+    [StringComparison]::OrdinalIgnoreCase
+  )
+}
+
+function Resolve-GamelistMediaPath {
+  param(
+    [string]$XmlPath,
+    [string]$PathValue
+  )
+
+  if (
+    -not $XmlPath `
+      -or `
+      -not $PathValue `
+      -or `
+      -not $PathValue.Trim()
+  ) {
+    return $null
+  }
+
+  $systemRoot = Split-Path $XmlPath -Parent
+  $raw = $PathValue.Trim()
+
+  $pathPart = $raw -replace '^[.][\\/]', ''
+
+  if ([IO.Path]::IsPathRooted($pathPart)) {
+    $full = [IO.Path]::GetFullPath($pathPart)
+  }
+  else {
+    $full = [IO.Path]::GetFullPath(
+      (Join-Path $systemRoot $pathPart)
+    )
+  }
+
+  if (
+    -not (Test-IsPathUnderRoot `
+        -RootPath $systemRoot `
+        -TargetPath $full)
+  ) {
+    return $null
+  }
+
+  $rootFull = [IO.Path]::GetFullPath($systemRoot).TrimEnd('\', '/')
+
+  $relative = $full.Substring(
+    $rootFull.Length
+  ).TrimStart('\', '/')
+
+  if (-not $relative) {
+    return $null
+  }
+
+  return [pscustomobject]@{
+    FullName = $full
+    Relative = $relative
+  }
+}
+
+function ConvertTo-GamelistMediaPath {
+  param(
+    [string]$XmlPath,
+    [string]$FilePath
+  )
+
+  if (
+    -not $XmlPath `
+      -or `
+      -not $FilePath
+  ) {
+    return $null
+  }
+
+  $systemRoot = Split-Path $XmlPath -Parent
+
+  if (
+    -not (Test-IsPathUnderRoot `
+        -RootPath $systemRoot `
+        -TargetPath $FilePath)
+  ) {
+    return $null
+  }
+
+  $rootFull = [IO.Path]::GetFullPath($systemRoot).TrimEnd('\', '/')
+  $full = [IO.Path]::GetFullPath($FilePath)
+
+  $relative = $full.Substring(
+    $rootFull.Length
+  ).TrimStart('\', '/')
+
+  if (-not $relative) {
+    return $null
+  }
+
+  return "./$($relative.Replace('\', '/'))"
+}
+
+function Format-MediaCanonicalBase {
+  param([string]$Text)
+
+  if (
+    -not $Text `
+      -or `
+      -not $Text.Trim()
+  ) {
+    return $null
+  }
+
+  $base = Format-NomeCanonico $Text
+
+  if (-not $base) {
+    return $null
+  }
+
+  $base = Remove-InvalidFileNameChars $base
+
+  if (-not $base) {
+    return $null
+  }
+
+  $base = (
+    $base `
+      -replace '\s{2,}', ' '
+  ).Trim(' ', '.', '-', '_')
+
+  if (-not $base) {
+    return $null
+  }
+
+  if ($base.Length -gt 120) {
+    $base = $base.Substring(0, 120).Trim(' ', '.', '-', '_')
+  }
+
+  if (-not $base) {
+    return $null
+  }
+
+  return $base
+}
+
+function Get-MediaOwnerBase {
+  param([object]$GameNode)
+
+  if (-not $GameNode) {
+    return $null
+  }
+
+  $candidates = @()
+
+  $titleNode = $GameNode.SelectSingleNode('title')
+
+  if (
+    $titleNode `
+      -and `
+      $titleNode.InnerText `
+      -and `
+      $titleNode.InnerText.Trim()
+  ) {
+    $candidates += $titleNode.InnerText.Trim()
+  }
+
+  $nameNode = $GameNode.SelectSingleNode('name')
+
+  if (
+    $nameNode `
+      -and `
+      $nameNode.InnerText `
+      -and `
+      $nameNode.InnerText.Trim()
+  ) {
+    $candidates += $nameNode.InnerText.Trim()
+  }
+
+  $pathNode = $GameNode.SelectSingleNode('path')
+
+  if (
+    $pathNode `
+      -and `
+      $pathNode.InnerText `
+      -and `
+      $pathNode.InnerText.Trim()
+  ) {
+
+    $romFileName = [IO.Path]::GetFileName(
+      $pathNode.InnerText.Trim().Replace(
+        '/',
+        [IO.Path]::DirectorySeparatorChar
+      )
+    )
+
+    if ($romFileName) {
+
+      $parsedRom = Extract-Extensions $romFileName
+
+      if ($parsedRom) {
+        $candidates += $parsedRom.Base
+      }
+      else {
+        $candidates += [IO.Path]::GetFileNameWithoutExtension($romFileName)
+      }
+    }
+  }
+
+  foreach ($candidate in $candidates) {
+
+    $base = Format-MediaCanonicalBase $candidate
+
+    if ($base) {
+      return $base
+    }
+  }
+
+  return $null
+}
+
+function Get-MediaCanonicalFileName {
+  param(
+    [object]$Reference,
+    [string]$FilePath,
+    [string]$Hash
+  )
+
+  if (
+    -not $Reference `
+      -or `
+      -not $FilePath `
+      -or `
+      -not $Hash `
+      -or `
+      $Hash.Length -lt 12
+  ) {
+    return $null
+  }
+
+  $extension = [IO.Path]::GetExtension($FilePath)
+
+  if (-not $extension) {
+    return $null
+  }
+
+  $base = Get-MediaOwnerBase $Reference.GameNode
+
+  if (-not $base) {
+    return $null
+  }
+
+  $shortHash = $Hash.Substring(
+    $Hash.Length - 12,
+    12
+  ).ToUpperInvariant()
+
+  $maxNameLength = 180
+  $availableBaseLength = (
+    $maxNameLength -
+    $shortHash.Length -
+    $extension.Length -
+    1
+  )
+
+  if ($availableBaseLength -lt 1) {
+    return $null
+  }
+
+  if ($base.Length -gt $availableBaseLength) {
+    $base = $base.Substring(
+      0,
+      $availableBaseLength
+    ).Trim(' ', '.', '-', '_')
+  }
+
+  if (-not $base) {
+    return $null
+  }
+
+  $name = "$base-$shortHash$extension"
+
+  return Remove-InvalidFileNameChars $name
+}
+
+function Get-GamelistMediaReferences {
+
+  $result = [pscustomobject]@{
+    ByPath         = @{}
+    AllXmlRefs     = @{}
+    MonitoredDirs  = @{}
+    ReferenceCount = 0
+  }
+
+  foreach ($xmlPath in @($script:PipelineState.XmlMap.Keys | Sort-Object)) {
+
+    $xml = $script:PipelineState.XmlMap[$xmlPath]
+
+    $gameNodes = @($xml.SelectNodes("//game"))
+
+    for ($gameIndex = 0; $gameIndex -lt $gameNodes.Count; $gameIndex++) {
+
+      $game = $gameNodes[$gameIndex]
+
+      foreach ($child in @($game.ChildNodes)) {
+
+        if ($child.NodeType -ne [System.Xml.XmlNodeType]::Element) {
+          continue
+        }
+
+        $rawPath = $child.InnerText
+
+        if (
+          -not $rawPath `
+            -or `
+            -not $rawPath.Trim()
+        ) {
+          continue
+        }
+
+        # PROTECAO: tags desconhecidas com path impedem remoção órfã
+        if ([IO.Path]::GetExtension($rawPath.Trim())) {
+
+          $anyResolved = Resolve-GamelistMediaPath `
+            -XmlPath $xmlPath `
+            -PathValue $rawPath
+
+          if ($anyResolved) {
+            $result.AllXmlRefs[$anyResolved.FullName] = $true
+          }
+        }
+
+        $tagName = $child.LocalName
+
+        if (-not $MediaSubtagSet.Contains($tagName)) {
+          continue
+        }
+
+        $resolved = Resolve-GamelistMediaPath `
+          -XmlPath $xmlPath `
+          -PathValue $rawPath
+
+        if (-not $resolved) {
+
+          Write-InlineLog `
+            "❌ MEDIA_PATH_INVALID :: $xmlPath :: <$tagName>" `
+            Red `
+            -forceNewLine
+
+          continue
+        }
+
+        if (
+          -not (Test-Path `
+              -LiteralPath $resolved.FullName `
+              -PathType Leaf)
+        ) {
+
+          Write-InlineLog `
+            "⚠️ MEDIA_MISSING :: $(Get-RelativePathSafe $resolved.FullName)" `
+            Yellow `
+            -forceNewLine
+
+          continue
+        }
+
+        $fullKey = [IO.Path]::GetFullPath($resolved.FullName)
+
+        if (-not $result.ByPath.ContainsKey($fullKey)) {
+
+          $result.ByPath[$fullKey] = [pscustomobject]@{
+            FullName = $fullKey
+            Refs     = @()
+          }
+        }
+
+        $reference = [pscustomobject]@{
+          XmlPath   = $xmlPath
+          XmlNode   = $child
+          GameNode  = $game
+          GameIndex = $gameIndex
+          TagName   = $tagName
+          RawPath   = $rawPath.Trim()
+          FullName  = $fullKey
+          SortKey   = "{0}|{1:D8}|{2}|{3}" -f `
+            $xmlPath,
+            $gameIndex,
+            $tagName,
+            $rawPath.Trim()
+        }
+
+        $result.ByPath[$fullKey].Refs += $reference
+        $result.ReferenceCount++
+
+        $mediaDir = Split-Path $fullKey -Parent
+
+        if ($mediaDir) {
+          $result.MonitoredDirs[$mediaDir] = $true
+        }
+      }
+    }
+  }
+
+  return $result
+}
+
+function Set-MediaXmlReference {
+  param(
+    [object]$Reference,
+    [string]$NewFullPath,
+    [switch]$CanMutate
+  )
+
+  if (
+    -not $Reference `
+      -or `
+      -not $Reference.XmlNode `
+      -or `
+      -not $NewFullPath
+  ) {
+    return
+  }
+
+  $newValue = ConvertTo-GamelistMediaPath `
+    -XmlPath $Reference.XmlPath `
+    -FilePath $NewFullPath
+
+  if (-not $newValue) {
+
+    Write-InlineLog `
+      "❌ MEDIA_XML_PATH_FAIL :: $(Get-RelativePathSafe $NewFullPath)" `
+      Red `
+      -forceNewLine
+
+    return
+  }
+
+  if ($Reference.XmlNode.InnerText -eq $newValue) {
+    return
+  }
+
+  $eventName = if ($CanMutate) {
+    'MEDIA_XML'
+  }
+  else {
+    'MEDIA_XML_PENDING'
+  }
+
+  Write-InlineLog `
+    "✏️ $eventName :: $($Reference.RawPath) -> $newValue" `
+    DarkGreen `
+    -forceNewLine
+
+  if (-not $CanMutate) {
+    return
+  }
+
+  $Reference.XmlNode.InnerText = $newValue
+
+  $script:PipelineState.PendingXmlSave[
+  $Reference.XmlPath
+  ] = $true
+}
+
+function Select-MediaSurvivor {
+  param([object[]]$Entries)
+
+  $ordered = $Entries | Sort-Object `
+  @{ Expression   = {
+
+      if (
+        $_.TargetExists `
+          -and `
+          $_.TargetHash `
+          -and `
+          $_.TargetHash.Equals(
+            $_.Hash,
+            [StringComparison]::OrdinalIgnoreCase
+          )
+      ) {
+        return 0
+      }
+
+      return 1
+    } ; Ascending = $true
+  },
+  @{ Expression   = {
+
+      if ($_.TargetIsSource) {
+        return 0
+      }
+
+      return 1
+    } ; Ascending = $true
+  },
+  @{ Expression   = {
+
+      if ($_.TargetRelative) {
+        return $_.TargetRelative.Length
+      }
+
+      return 999999
+    } ; Ascending = $true
+  },
+  @{ Expression   = {
+
+      if ($_.TargetRelative) {
+        return $_.TargetRelative
+      }
+
+      return $_.FullName
+    } ; Ascending = $true
+  },
+  @{ Expression   = {
+      return $_.FullName
+    } ; Ascending = $true
+  }
+
+  return (
+    $ordered |
+    Select-Object -First 1
+  )
+}
+
+function Invoke-MediaMaintenance {
+  param(
+    [switch]$Fix,
+    [switch]$VerifyOnly
+  )
+
+  $canMutate = (
+    $Fix `
+      -and `
+      -not $VerifyOnly
+  )
+
+  if (-not $canMutate) {
+
+    Write-InlineLog `
+      "⚠️ MEDIA_RFC19_ANALYSIS_ONLY :: -Fix ausente ou VerifyOnly ativo" `
+      Yellow `
+      -forceNewLine
+  }
+
+  $state = Get-GamelistMediaReferences
+
+  if ($state.ReferenceCount -eq 0) {
+    return
+  }
+
+  $mediaEntries = @()
+
+  foreach ($media in @($state.ByPath.Values | Sort-Object FullName)) {
+
+    try {
+
+      $hash = Get-FileHashCached $media.FullName
+
+      $ownerRef = @(
+        $media.Refs |
+        Sort-Object SortKey |
+        Select-Object -First 1
+      )[0]
+
+      $canonicalName = Get-MediaCanonicalFileName `
+        -Reference $ownerRef `
+        -FilePath $media.FullName `
+        -Hash $hash
+
+      if (-not $canonicalName) {
+
+        Write-InlineLog `
+          "❌ MEDIA_CANONICAL_FAIL :: $(Get-RelativePathSafe $media.FullName)" `
+          Red `
+          -forceNewLine
+
+        continue
+      }
+
+      $targetPath = [IO.Path]::GetFullPath(
+        (Join-Path (Split-Path $media.FullName -Parent) $canonicalName)
+      )
+
+      $targetExists = Test-Path `
+        -LiteralPath $targetPath `
+        -PathType Leaf
+
+      $targetHash = $null
+
+      if ($targetExists) {
+
+        $targetHash = Get-FileHashCached $targetPath
+
+        if (
+          -not $targetHash.Equals(
+            $hash,
+            [StringComparison]::OrdinalIgnoreCase
+          )
+        ) {
+
+          Write-InlineLog `
+            "❌ MEDIA_COLLISION :: $(Get-RelativePathSafe $targetPath)" `
+            Red `
+            -forceNewLine
+
+          continue
+        }
+      }
+
+      $targetRelative = ConvertTo-GamelistMediaPath `
+        -XmlPath $ownerRef.XmlPath `
+        -FilePath $targetPath
+
+      $mediaEntries += [pscustomobject]@{
+        FullName       = $media.FullName
+        Refs           = $media.Refs
+        Hash           = $hash
+        TargetPath     = $targetPath
+        TargetRelative = $targetRelative
+        TargetExists   = $targetExists
+        TargetHash     = $targetHash
+        TargetIsSource = $media.FullName.Equals(
+          $targetPath,
+          [StringComparison]::Ordinal
+        )
+      }
+    }
+    catch {
+
+      Write-InlineLog `
+        "❌ MEDIA_FAIL :: $($_.Exception.Message)" `
+        Red `
+        -forceNewLine
+    }
+  }
+
+  foreach ($group in @($mediaEntries | Group-Object Hash)) {
+
+    $entries = @($group.Group)
+
+    if ($entries.Count -eq 0) {
+      continue
+    }
+
+    $survivor = Select-MediaSurvivor $entries
+
+    if (-not $survivor) {
+      continue
+    }
+
+    $finalPath = $survivor.TargetPath
+    $finalExists = Test-Path `
+      -LiteralPath $finalPath `
+      -PathType Leaf
+
+    if ($finalExists) {
+
+      $finalHash = Get-FileHashCached $finalPath
+
+      if (
+        -not $finalHash.Equals(
+          $survivor.Hash,
+          [StringComparison]::OrdinalIgnoreCase
+        )
+      ) {
+
+        Write-InlineLog `
+          "❌ MEDIA_ABORT_COLLISION :: $(Get-RelativePathSafe $finalPath)" `
+          Red `
+          -forceNewLine
+
+        continue
+      }
+    }
+
+    $samePhysical = $survivor.FullName.Equals(
+      $finalPath,
+      [StringComparison]::OrdinalIgnoreCase
+    )
+
+    $sameExactPath = $survivor.FullName.Equals(
+      $finalPath,
+      [StringComparison]::Ordinal
+    )
+
+    if (-not $sameExactPath) {
+
+      $eventName = if ($canMutate) {
+        'MEDIA_RENAME'
+      }
+      else {
+        'MEDIA_RENAME_PENDING'
+      }
+
+      Write-InlineLog `
+        "✏️ $eventName :: $(Get-RelativePathSafe $survivor.FullName) -> $(Get-RelativePathSafe $finalPath)" `
+        DarkGreen `
+        -forceNewLine
+
+      if ($canMutate) {
+
+        try {
+
+          if ($finalExists -and -not $samePhysical) {
+            # PROTECAO: destino equivalente preservado contra sobrescrita
+          }
+          else {
+
+            $targetName = [IO.Path]::GetFileName($finalPath)
+            $sourceName = [IO.Path]::GetFileName($survivor.FullName)
+
+            $requiresCaseFix = (
+              $sourceName -ieq $targetName `
+                -and `
+                $sourceName -cne $targetName
+            )
+
+            if ($requiresCaseFix) {
+
+              $tempName = "$targetName.__media_rename_tmp__"
+              $tempPath = Join-Path `
+                (Split-Path $survivor.FullName -Parent) `
+                $tempName
+
+              if (Test-Path -LiteralPath $tempPath) {
+                throw "Colisão temporária de mídia"
+              }
+
+              Rename-Item `
+                -LiteralPath $survivor.FullName `
+                -NewName $tempName `
+                -ErrorAction Stop
+
+              Rename-Item `
+                -LiteralPath $tempPath `
+                -NewName $targetName `
+                -ErrorAction Stop
+            }
+            else {
+
+              Rename-Item `
+                -LiteralPath $survivor.FullName `
+                -NewName $targetName `
+                -ErrorAction Stop
+            }
+
+            if (-not (Test-Path -LiteralPath $finalPath -PathType Leaf)) {
+              throw "Falha pós-rename de mídia"
+            }
+
+            $script:PipelineState.HashCache[$finalPath] = $survivor.Hash
+          }
+        }
+        catch {
+
+          Write-InlineLog `
+            "❌ MEDIA_RENAME_FAIL :: $($_.Exception.Message)" `
+            Red `
+            -forceNewLine
+
+          continue
+        }
+      }
+    }
+
+    $state.AllXmlRefs[$finalPath] = $true
+
+    foreach ($entry in $entries) {
+
+      foreach ($ref in @($entry.Refs | Sort-Object SortKey)) {
+
+        Set-MediaXmlReference `
+          -Reference $ref `
+          -NewFullPath $finalPath `
+          -CanMutate:$canMutate
+      }
+
+      if (
+        $entry.FullName.Equals(
+          $survivor.FullName,
+          [StringComparison]::OrdinalIgnoreCase
+        ) `
+          -and `
+          -not (
+            $finalExists `
+              -and `
+              -not $samePhysical
+          )
+      ) {
+        continue
+      }
+
+      if (
+        $entry.FullName.Equals(
+          $finalPath,
+          [StringComparison]::OrdinalIgnoreCase
+        )
+      ) {
+        continue
+      }
+
+      if (
+        -not (Test-Path `
+            -LiteralPath $entry.FullName `
+            -PathType Leaf)
+      ) {
+        continue
+      }
+
+      $eventName = if ($canMutate) {
+        'MEDIA_DEDUP'
+      }
+      else {
+        'MEDIA_DEDUP_PENDING'
+      }
+
+      Write-InlineLog `
+        "🗑️ $eventName :: $(Get-RelativePathSafe $entry.FullName)" `
+        Yellow `
+        -forceNewLine
+
+      if ($canMutate) {
+
+        try {
+
+          Remove-Item `
+            -LiteralPath $entry.FullName `
+            -Force `
+            -ErrorAction Stop
+        }
+        catch {
+
+          Write-InlineLog `
+            "❌ MEDIA_DEDUP_FAIL :: $($_.Exception.Message)" `
+            Red `
+            -forceNewLine
+        }
+      }
+    }
+  }
+
+  foreach ($dir in @($state.MonitoredDirs.Keys | Sort-Object)) {
+
+    try {
+
+      $files = Get-ChildItem `
+        -LiteralPath $dir `
+        -File `
+        -ErrorAction Stop
+
+      foreach ($file in $files) {
+
+        $full = [IO.Path]::GetFullPath($file.FullName)
+        $extension = [IO.Path]::GetExtension($file.Name)
+
+        if (-not $MediaExtensionSet.Contains($extension)) {
+          continue
+        }
+
+        if ($state.AllXmlRefs.ContainsKey($full)) {
+          continue
+        }
+
+        if (-not (Test-Path -LiteralPath $full -PathType Leaf)) {
+          continue
+        }
+
+        $eventName = if ($canMutate) {
+          'MEDIA_ORPHAN_REMOVE'
+        }
+        else {
+          'MEDIA_ORPHAN_PENDING'
+        }
+
+        Write-InlineLog `
+          "⚠️ $eventName :: $(Get-RelativePathSafe $full)" `
+          Yellow `
+          -forceNewLine
+
+        if ($canMutate) {
+
+          Remove-Item `
+            -LiteralPath $full `
+            -Force `
+            -ErrorAction Stop
+        }
+      }
+    }
+    catch {
+
+      Write-InlineLog `
+        "❌ MEDIA_ORPHAN_SCAN_FAIL :: $($_.Exception.Message)" `
+        Red `
+        -forceNewLine
+    }
+  }
+}
+
 function Invoke-TranslateBatch {
   param([string[]]$texts)
 
@@ -3500,6 +4428,11 @@ function main {
           -forceNewLine
       }
     }
+
+    # FIX-BUG: integra deduplicação e órfãos de mídia RFC 19
+    Invoke-MediaMaintenance `
+      -Fix:$Fix `
+      -VerifyOnly:$VerifyOnly
 
     # ==========================================================
     # HASH
