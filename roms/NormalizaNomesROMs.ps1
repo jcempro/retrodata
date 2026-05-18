@@ -5333,6 +5333,11 @@ function main {
       }
     }
 
+    # FIX-BUG: audita órfãos e divergências JSON Tree RFC 11.8
+    Invoke-JsonTreeIntegrityAudit `
+      -Fix:$Fix `
+      -VerifyOnly:$VerifyOnly
+
     # ==========================================================
     # HASH ÓRFÃO
     # ==========================================================
