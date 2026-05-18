@@ -4,7 +4,7 @@
 <#
 .SYNOPSIS
   Normalizador determinístico de ROMs com sincronização bidirecional
-  de gamelist.xml, deduplicação SHA256 e suporte a JSON tree virtual.
+  de gamelist.xml, deduplicação SHA256 e suporte a JSON Tree virtual.
 
 .DESCRIPTION
   Este script percorre recursivamente o diretório atual executando,
@@ -15,7 +15,7 @@
     - Deduplicação segura baseada em SHA256
     - Gerenciamento de integridade .sha256 e JSON Tree
     - Tradução e coerência de metadados
-    - Validação estrutural via JSON tree virtual
+    - Validação estrutural via JSON Tree virtual
 
   O pipeline MUST compartilhar:
     - enumeração do filesystem
@@ -36,10 +36,18 @@
     - deduplicação
     - integridade
 
-  NÃO são processados, exceto dentro das pastas contidas em
-  $specialJsonDirs e, tpdps os quesitos SHA256:
-    .xml, .json, .ini, .exe, .sh, .ps1, .bat, .md5
-    .mp3, .png, .jpg, .jpeg, .mp4, .avi, .mkv
+  NÃO participam do pipeline principal de:
+    - normalização ROM
+    - deduplicação ROM
+    - correlação estrutural ROM
+
+  exceto:
+    - gamelist.xml
+    - arquivos .sha256
+    - .sha256.json
+    - brs.json
+    - operações explícitas de integridade/SHA256
+    - conteúdo contido em $specialJsonDirs    
 
 .RFC
   Especificação Integrada de Normalização, Integridade e JSON Tree
@@ -64,9 +72,9 @@
     - Todo comportamento MUST ser determinístico e idempotente
     - O filesystem real é a origem primária de verdade física
     - XML MAY atuar como fonte auxiliar de reconstrução nominal
-    - JSON tree MUST operar como banco estrutural virtual de .sha256
+    - JSON Tree MUST operar como banco estrutural virtual de .sha256
       (Pasta de arquivos virtual)
-    - JSON tree NÃO possui hash próprio e MUST NOT ser hasheado
+    - JSON Tree NÃO possui hash próprio e MUST NOT ser hasheado
     - Deduplicação SHA256 ocorre em TODOS os modos operacionais
     - Normalização de ROM ocorre em TODOS os modos operacionais
     - Case-sensitive MUST ser preservado quando semanticamente
@@ -79,7 +87,7 @@
     - ROM física
     - hash SHA256
     - entrada XML
-    - entrada JSON tree
+    - entrada JSON Tree
     - nome canônico esperado
 
   ============================================================
@@ -115,7 +123,7 @@
           * renomear
           * sincronizar
           * alterar XML
-          * alterar JSON tree
+          * alterar JSON Tree
           * alterar hashes
         - deduplicação MUST continuar sendo:
             - calculada
@@ -124,6 +132,16 @@
             - reportada
 
           * e MUST NOT alterar arquivos.
+      - toda operação normativa de:
+          * consolidação
+          * sincronização
+          * remoção
+          * correção
+          * rename
+
+        MUST ser interpretada apenas como
+        validação/auditoria lógica sem mutação física.      
+        - avisos e logs exibidos normlamente    
 
     [-Fix]:
       - remove .sha256 órfãos
@@ -140,18 +158,18 @@
     1. Filesystem real
     2. SHA256 validado
     3. gamelist.xml
-    4. JSON tree derivada de integridade
+    4. JSON Tree derivada de integridade
     5. Metadados derivados
 
   ============================================================
-  2. JSON TREE VIRTUAL ($specialJsonDirs)
+  2. JSON Tree VIRTUAL ($specialJsonDirs)
   ============================================================
 
-  JSON tree MUST operar como representação hierárquica virtual
+  JSON Tree MUST operar como representação hierárquica virtual
   equivalente a um conjunto expandido de arquivos .sha256
   convencionais.
 
-  Cada entrada hash do JSON tree MUST ser tratada como
+  Cada entrada hash do JSON Tree MUST ser tratada como
   equivalente operacional de:
 
     <arquivo>.sha256
@@ -167,16 +185,16 @@
       - evitar excesso de arquivos .sha256 físicos
 
   IMPORTANTE:
-    - JSON tree NÃO possui hash próprio
-    - JSON tree MUST NOT ser hasheado
-    - JSON tree MUST NOT participar da deduplicação
+    - JSON Tree NÃO possui hash próprio
+    - JSON Tree MUST NOT ser hasheado
+    - JSON Tree MUST NOT participar da deduplicação
     - Apenas arquivos reais participam da deduplicação
 
   Cada entrada string do JSON representa semanticamente um
   arquivo .sha256 convencional.
 
   A única diferença entre:
-    - entrada JSON tree
+    - entrada JSON Tree
     - arquivo .sha256 convencional
 
     é a forma de armazenamento.
@@ -207,7 +225,7 @@
   modelo estrutural híbrido:
 
     - filesystem real
-    - JSON tree virtual derivada
+    - JSON Tree virtual derivada
 
   Toda operação de:
     - rename
@@ -219,15 +237,17 @@
 
   MUST refletir simultaneamente:
     - filesystem
-    - JSON tree correspondente
+    - JSON Tree correspondente
 
     preservando consistência lógica bidirecional.
 
-  JSON tree NÃO altera a hierarquia lógica do root ROM.
+  JSON Tree NÃO altera a hierarquia lógica do root ROM.
     Ela representa apenas mecanismo virtual de consolidação
     estrutural de hashes.
 
-  JSON tree MUST ser tratada como estrutura derivada.
+  JSON Tree MUST ser tratada como estrutura derivada
+  sincronizada bidirecionalmente com o estado de integridade
+  do filesystem.
     O filesystem real permanece a autoridade física primária.
 
   ============================================================
@@ -288,8 +308,14 @@
 
     Regras:
       - o subdiretório aninhado representa o próprio jogo
-      - o nome da ROM MAY divergir parcialmente do diretório pai
+      - o nome da ROM MAY divergir parcialmente do diretório pai      
       - múltiplos níveis arbitrários NÃO são suportados
+        na hierarquia lógica ROM correlacionada ao gamelist.xml      
+        * exções enquadradas, como:
+          - pastas contidos em $specialJsonDirs, como `roms/<sistema>/<nomejogo>/`,
+            que contem apenas mais um único nivem de diretório;
+          - JSON Tree reflete F.S., com objetivo principal de unificar múltiplos sha256
+            contexto lógico não é o mesmo que ROM/<sistema>
       - gamelist.xml MUST permanecer:
             roms/<sistema>/gamelist.xml
 
@@ -318,8 +344,17 @@
     MUST utilizar caminho relativo ao root roms/<sistema>/
     lógico.
 
+    O root relativo MUST permanecer consistente
+    por tipo estrutural:
+
+      - XML:
+          relativo a roms/<sistema>/
+
+      - JSON Tree, logs e hashes:
+          relativo a roms/
+
     Todo path armazenado em:
-      - JSON tree
+      - JSON Tree
       - logs
       - hashes derivados
 
@@ -339,13 +374,25 @@
           - ROM → XML
           - XML → ROM
           - filename → .sha256
-          - JSON tree → filesystem
+          - JSON Tree → filesystem
 
   3.3 Influência normativa do XML
     - Quando gamelist.xml existir:
         * ele MUST influenciar o nome final da ROM
         * IDs MUST ser extraídos EXCLUSIVAMENTE dele
         * XML torna-se autoridade normativa auxiliar
+
+    Em caso de divergência entre:
+      - basename do filename
+      - metadado XML correlacionado
+
+    o XML MUST possuir precedência nominal auxiliar
+    apenas sobre componentes semanticamente equivalentes
+    ao nome do jogo.
+
+    Idioma, extensões, integridade estrutural e
+    correlação física MUST continuar derivados
+    primariamente do filesystem real.        
 
   3.4 IDs
     Se gamelist.xml existir e a entrada equivalente a
@@ -409,12 +456,17 @@
 
   Enumeração compartilhada significa:
 
+    Comparações textuais SHOULD utilizar
+    normalização Unicode canônica estável
+    (NFC) antes de operações semânticas,
+    sem alterar o conteúdo persistido final.  
+
     - um único ciclo estrutural de descoberta
     - reutilizado por:
         * normalização
         * XML
         * hashing
-        * JSON tree
+        * JSON Tree
         * deduplicação
         * tradução
 
@@ -476,7 +528,7 @@
 
   Origem:
     - PREFERÊNCIA 1: gamelist.xml
-    - PREFERÊNCIA 2: pré-existência FS: [id]
+    - PREFERÊNCIA 2: basename original do filename contendo [id]
 
   Regras:
     - apenas um ID final
@@ -586,7 +638,7 @@
     1. localizar filename original (mesmo diretório)
     2. localizar arquivo com hash correspondente
     3. correlacionar rename legítimo
-    4. correlacionar XML/JSON tree
+    4. correlacionar XML/JSON Tree
 
   Somente após falha total:
     - hash MAY ser removido
@@ -617,7 +669,7 @@
 
   MUST refletir:
     - .sha256
-    - JSON tree
+    - JSON Tree
     - gamelist.xml
 
   MUST detectar:
@@ -647,8 +699,9 @@
       de cada subtag de <game>,
       conforme item 19.
 
-  Aplicado a:
-    - Qualquer arquivo tratado
+  Aplicado a:    
+    - qualquer arquivo participante do pipeline
+      de integridade/correlação
 
   ============================================================
   12. TRADUÇÃO E METADADOS
@@ -694,6 +747,10 @@
   14. RESILIÊNCIA E SEGURANÇA
   ============================================================
 
+- operações de rename MUST possuir
+  validação pós-operação e rollback lógico
+  determinístico em caso de falha parcial.  
+
   PROIBIÇÕES:
     - catch vazio
     - supressão silenciosa
@@ -707,7 +764,7 @@
     - validação pós-operação
     - fallback determinístico
     - fail-safe de deduplicação
-    - isolamento de $specialJsonDirs
+    - isolamento de $specialJsonDirs    
 
   ============================================================
   15. GARANTIAS
@@ -724,7 +781,7 @@
   - Estrutura JSON preservada
   - Compatibilidade Batocera
   - Deduplicação segura
-  - JSON tree consistente com filesystem
+  - JSON Tree consistente com filesystem
   - Zero perda total em deduplicação
 
   ============================================================
@@ -861,7 +918,7 @@
   2. Garantia de instância única.
   3. Validação estrutural do ambiente.
   4. Enumeração compartilhada.
-  5. Correlação filesystem/XML/JSON tree/hash.
+  5. Correlação filesystem/XML/JSON Tree/hash.
   6. Deduplicação determinística.
   7. Normalização estrutural.
   8. Sincronização XML/JSON/hash.
@@ -874,7 +931,7 @@
 
   [CONTRATO DE I/O]
   Entrada:
-    ROMs, gamelist.xml, .sha256 e JSON tree.
+    ROMs, gamelist.xml, .sha256 e JSON Tree.
 
   Saída:
     Estrutura consistente, determinística,
@@ -887,7 +944,7 @@
   - IDs preservam case-sensitive.
   - Idiomas permanecem uppercase.
   - Numerais romanos permanecem uppercase.
-  - JSON tree consistente.
+  - JSON Tree consistente.
   - .sha256 consistente.
   - Sem falhas silenciosas.
   - Estrutura XML preservada.
@@ -973,6 +1030,10 @@
         * unicidade;
         * inexistência de referência XML indireta;
         * inexistência de correlação pós-normalização.
+
+  A enumeração de mídia órfã MUST limitar-se
+  a diretórios previamente correlacionados
+  por referências válidas do XML.        
 
   ============================================================
   19.3 NORMALIZAÇÃO CANÔNICA DE MÍDIA
@@ -2062,7 +2123,7 @@ function Set-JsonTreeHashEntry {
     -Segments $segments `
     -Create
 
-  # PROTECAO: VerifyOnly não altera JSON tree RFC 0
+  # PROTECAO: VerifyOnly não altera JSON Tree RFC 0
   if ($script:VerifyOnlyMode) {
     return
   }
@@ -2132,7 +2193,7 @@ function Remove-JsonTreeEntry {
 
   if ($target -and $target.PSObject.Properties[$leafName]) {
 
-    # PROTECAO: VerifyOnly não altera JSON tree RFC 0
+    # PROTECAO: VerifyOnly não altera JSON Tree RFC 0
     if ($script:VerifyOnlyMode) {
       return
     }
@@ -2172,7 +2233,7 @@ function Load-JsonTrees {
       continue
     }
 
-    # FIX-BUG: cria JSON tree ausente RFC 2
+    # FIX-BUG: cria JSON Tree ausente RFC 2
     Get-ChildItem `
       -LiteralPath $root `
       -Directory `
@@ -3397,7 +3458,7 @@ function main {
             $srcHash = Get-FileHashCached $newFullPath
           }          
 
-          # FIX-BUG: sincroniza JSON tree pós-rename RFC 2
+          # FIX-BUG: sincroniza JSON Tree pós-rename RFC 2
           if (Test-IsSpecialJsonPath $oldFullPath) {
             Remove-JsonTreeEntry $oldFullPath
           }
@@ -3545,7 +3606,7 @@ function main {
           $requiresShaSync = $true
         }
 
-        # FIX-BUG: valida presença da entrada JSON tree RFC 2
+        # FIX-BUG: valida presença da entrada JSON Tree RFC 2
         if (
           -not $requiresShaSync `
             -and `
