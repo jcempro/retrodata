@@ -642,6 +642,10 @@
 
     - referências redundantes MUST ser removidas
     - apenas a referência canônica MUST sobreviver
+    - desdublicar arquivos de midias contidos em 
+      `<sistema>/media`, com base no path 
+      de cada subtag de <game>,
+      conforme item 19.
 
   Aplicado a:
     - Qualquer arquivo tratado
@@ -888,6 +892,26 @@
   - Sem falhas silenciosas.
   - Estrutura XML preservada.
   - Script idempotente e fail-safe.
+
+  19. DESDUPLICAÇÃO DOS ARQUIVOS DE MÍDIA e 
+      ELIMINAÇÃO DE ARQUIVOS DE MÍDIA ÓRFÃOS
+      (NÃO VINCULADOS EM SUBTAG)
+
+    - MUST renomear cada arquivo de media para:
+      `{nome-canonico}-{last-8-sha256}.<originalext>`
+      
+      onde:
+      `{nome-canonico}`: nome do jogo, conforme subtage <name>, normalizado,
+                         e tratado para compatibilidade com nomes de arquivos;
+      `{last-8-sha256}`: é os últimos 8 digitos ASCII uppercase
+                         do SHA256 do conteúdo do arquivo
+      `<originalext>`  : é a extensão original do arquivo
+
+    - se um arquivo com o nome destino já existir, então, o arquivo
+      é removido (se trata de duplicação)
+    - todos os path correspondentes são ajustados no XML, 
+      globalmente (replace all), mesmo em outros <game>
+      de forma fail-safe
 #>
 
 [CmdletBinding(SupportsShouldProcess = $true)]
