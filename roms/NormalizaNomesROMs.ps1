@@ -893,15 +893,18 @@
   - Estrutura XML preservada.
   - Script idempotente e fail-safe.
 
-  19. DESDUPLICAÇÃO DOS ARQUIVOS DE MÍDIA e 
+  19. DEDUPLICAÇÃO DOS ARQUIVOS DE MÍDIA e 
       ELIMINAÇÃO DE ARQUIVOS DE MÍDIA ÓRFÃOS
-      (NÃO VINCULADOS EM SUBTAG)
+      (NÃO VINCULADOS EM SUBTAs)
+
+    - Funcional apenas se -Fix fornecido.
+    - Emite WARN SE NÃO FUNCIONAL
 
     - MUST renomear cada arquivo de media para:
       `{nome-canonico}-{last-8-sha256}.<originalext>`
       
       onde:
-      `{nome-canonico}`: nome do jogo, conforme subtage <name>, normalizado,
+      `{nome-canonico}`: nome do jogo, conforme subtage <title>, normalizado,
                          e tratado para compatibilidade com nomes de arquivos;
       `{last-8-sha256}`: é os últimos 8 digitos ASCII uppercase
                          do SHA256 do conteúdo do arquivo
@@ -912,6 +915,11 @@
     - todos os path correspondentes são ajustados no XML, 
       globalmente (replace all), mesmo em outros <game>
       de forma fail-safe
+    - MUST preservar estrutura de diretórios original e
+      localização original dos arquivos de mídia
+      tanto quanto possível
+      * Nunca mover arquivos
+      * Nunca renomerar pastas      
 #>
 
 [CmdletBinding(SupportsShouldProcess = $true)]
