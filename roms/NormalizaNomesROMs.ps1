@@ -2455,6 +2455,130 @@ function Remove-JsonTreeEntry {
   }
 }
 
+function Invoke-JsonTreeIntegrityAudit {
+  param(
+    [switch]$Fix,
+    [switch]$VerifyOnly
+  )
+
+  $canMutate = (
+    $Fix `
+      -and `
+      -not $VerifyOnly
+  )
+
+  foreach ($jsonPath in @($script:PipelineState.JsonTrees.Keys | Sort-Object)) {
+
+    $root = $script:PipelineState.JsonTrees[$jsonPath]
+
+    if (-not $root) {
+      continue
+    }
+
+    $treeRoot = Split-Path $jsonPath -Parent
+
+    $jsonFile = [IO.Path]::GetFileNameWithoutExtension($jsonPath)
+    $virtualRootName = [IO.Path]::GetFileNameWithoutExtension($jsonFile)
+
+    if (-not $virtualRootName) {
+      continue
+    }
+
+    function __WalkJsonTreeIntegrity {
+      param(
+        [object]$Node,
+        [string[]]$Segments
+      )
+
+      foreach ($prop in @($Node.PSObject.Properties)) {
+
+        $value = $prop.Value
+
+        if ($value -is [string]) {
+
+          $relativeParts = @($virtualRootName) + $Segments + @($prop.Name)
+
+          $filePath = [IO.Path]::GetFullPath(
+            (Join-Path $treeRoot ($relativeParts -join [IO.Path]::DirectorySeparatorChar))
+          )
+
+          if ($value -notmatch '^[A-Fa-f0-9]{64}$') {
+
+            Write-InlineLog `
+              "⚠️ JSON_HASH_INVALID :: $(Get-RelativePathSafe $filePath)" `
+              Yellow `
+              -forceNewLine
+
+            if ($canMutate) {
+              # FIX-BUG: remove entrada JSON Tree sem hash válido RFC 11.8
+              Remove-JsonTreeEntry $filePath
+            }
+
+            continue
+          }
+
+          if (-not (Test-Path -LiteralPath $filePath -PathType Leaf)) {
+
+            Write-InlineLog `
+              "⚠️ JSON_ORPHAN_ENTRY :: $(Get-RelativePathSafe $filePath)" `
+              Yellow `
+              -forceNewLine
+
+            if ($canMutate) {
+              # FIX-BUG: remove entrada JSON Tree órfã RFC 11.8
+              Remove-JsonTreeEntry $filePath
+            }
+
+            continue
+          }
+
+          $actualHash = Get-FileHashCached $filePath
+
+          if (
+            -not $actualHash.Equals(
+              $value,
+              [StringComparison]::OrdinalIgnoreCase
+            )
+          ) {
+
+            Write-InlineLog `
+              "⚠️ JSON_HASH_MISMATCH :: $(Get-RelativePathSafe $filePath)" `
+              Yellow `
+              -forceNewLine
+
+            if ($canMutate) {
+              # FIX-BUG: corrige hash divergente em JSON Tree RFC 11.8
+              Set-JsonTreeHashEntry `
+                -FilePath $filePath `
+                -Hash $actualHash
+            }
+          }
+
+          continue
+        }
+
+        if ($value -and $value.PSObject) {
+
+          __WalkJsonTreeIntegrity `
+            -Node $value `
+            -Segments (@($Segments) + @($prop.Name))
+        }
+        else {
+
+          Write-InlineLog `
+            "⚠️ JSON_NODE_INVALID :: $jsonPath :: $($prop.Name)" `
+            Yellow `
+            -forceNewLine
+        }
+      }
+    }
+
+    __WalkJsonTreeIntegrity `
+      -Node $root `
+      -Segments @()
+  }
+}
+
 function Load-JsonTrees {
 
   foreach ($dir in $specialJsonDirs) {
@@ -2703,12 +2827,49 @@ function Resolve-XmlCorrelation {
 
         if ($entry.XmlNode) {
 
-          # FIX-BUG: aborta ambiguidade estrutural XML RFC 3.5
-          throw "XML duplicado para path correlacionado: $relative"
+          Write-InlineLog `
+            "⚠️ XML_DUPLICATE_PATH :: $relative" `
+            Yellow `
+            -forceNewLine
+
+          # FIX-BUG: remove referência XML redundante somente em modo corretivo
+          if (
+            $script:FixMode `
+              -and `
+              -not $script:VerifyOnlyMode
+          ) {
+
+            Remove-XmlNode ([pscustomobject]@{
+                XmlNode = $game
+                XmlPath = $xmlPath
+              })
+          }
+
+          continue
         }
 
         $entry.XmlNode = $game
         $entry.XmlPath = $xmlPath
+      }
+      else {
+
+        Write-InlineLog `
+          "⚠️ XML_ORPHAN_PATH :: $relative" `
+          Yellow `
+          -forceNewLine
+
+        # FIX-BUG: remove referência XML órfã somente em modo corretivo
+        if (
+          $script:FixMode `
+            -and `
+            -not $script:VerifyOnlyMode
+        ) {
+
+          Remove-XmlNode ([pscustomobject]@{
+              XmlNode = $game
+              XmlPath = $xmlPath
+            })
+        }
       }
     }
   }
@@ -3078,32 +3239,247 @@ function Build-SharedHashIndex {
   }
 }
 
+function Get-DedupNominalCopyScore {
+  param([object]$Entry)
+
+  if (
+    -not $Entry `
+      -or `
+      -not $Entry.Parsed `
+      -or `
+      -not $Entry.Parsed.Base
+  ) {
+    return 0
+  }
+
+  $base = (
+    $Entry.Parsed.Base `
+      -replace '\s{2,}', ' '
+  ).Trim()
+
+  if (-not $base) {
+    return 0
+  }
+
+  $normalized = $base.ToLowerInvariant()
+
+  if ($normalized -eq 'copia') {
+    return 0
+  }
+
+  # PROTECAO: heurística só reordena candidatos com SHA256 idêntico
+  $copyPattern = (
+    '(^|[\s._-])copy(\s+of)?($|[\s._-])' +
+    '|(^|[\s._-])(copia|copie)($|[\s._-])' +
+    '|[\s._-]\(\d+\)$'
+  )
+
+  if ($normalized -match $copyPattern) {
+    return 1
+  }
+
+  return 0
+}
+
+function Get-DedupCanonicalNameScore {
+  param([object]$Entry)
+
+  if (
+    -not $Entry `
+      -or `
+      -not $Entry.File
+  ) {
+    return 999999
+  }
+
+  if (-not $Entry.Canonical) {
+    return 999999
+  }
+
+  if (
+    $Entry.File.Name.Equals(
+      $Entry.Canonical,
+      [StringComparison]::Ordinal
+    )
+  ) {
+    return 0
+  }
+
+  if (
+    $Entry.File.Name.Equals(
+      $Entry.Canonical,
+      [StringComparison]::OrdinalIgnoreCase
+    )
+  ) {
+    return 1
+  }
+
+  return (
+    100 +
+    [Math]::Abs($Entry.File.Name.Length - $Entry.Canonical.Length)
+  )
+}
+
+function Get-DedupXmlCoherenceScore {
+  param([object]$Entry)
+
+  if (
+    -not $Entry `
+      -or `
+      -not $Entry.XmlNode `
+      -or `
+      -not $Entry.XmlPath
+  ) {
+    return 2
+  }
+
+  $pathNode = $Entry.XmlNode.SelectSingleNode('path')
+
+  if (
+    -not $pathNode `
+      -or `
+      -not $pathNode.InnerText
+  ) {
+    return 1
+  }
+
+  $relative = $pathNode.InnerText.Trim()
+  $relative = $relative -replace '^[.][\\/]', ''
+
+  $systemRoot = Split-Path $Entry.XmlPath -Parent
+  $xmlFull = [IO.Path]::GetFullPath(
+    (Join-Path $systemRoot $relative)
+  )
+
+  $entryFull = [IO.Path]::GetFullPath(
+    $Entry.File.FullName
+  )
+
+  if (
+    $xmlFull.Equals(
+      $entryFull,
+      [StringComparison]::OrdinalIgnoreCase
+    )
+  ) {
+    return 0
+  }
+
+  return 1
+}
+
+function Get-DedupStructuralDistance {
+  param([object]$Entry)
+
+  if (
+    -not $Entry `
+      -or `
+      -not $Entry.Relative
+  ) {
+    return 999999
+  }
+
+  return (
+    ($Entry.Relative -split '[\\/]').Count
+  )
+}
+
+function Get-DedupMutationScore {
+  param([object]$Entry)
+
+  if (
+    -not $Entry `
+      -or `
+      -not $Entry.File
+  ) {
+    return 999999
+  }
+
+  $score = 0
+
+  if (
+    $Entry.Canonical `
+      -and `
+      -not $Entry.File.Name.Equals(
+        $Entry.Canonical,
+        [StringComparison]::Ordinal
+      )
+  ) {
+    $score++
+  }
+
+  $shaPath = "$($Entry.File.FullName).sha256"
+
+  if (Test-Path -LiteralPath $shaPath) {
+
+    $stored = ConvertFrom-Sha256 $shaPath
+
+    if (
+      -not $stored `
+        -or `
+        -not $Entry.Hash `
+        -or `
+        -not $stored.Hash.Equals(
+          $Entry.Hash,
+          [StringComparison]::OrdinalIgnoreCase
+        ) `
+        -or `
+        $stored.FileName -cne $Entry.File.Name
+    ) {
+      $score++
+    }
+  }
+  else {
+    $score++
+  }
+
+  if (Test-IsSpecialJsonPath $Entry.File.FullName) {
+
+    $jsonPath = Get-JsonTreePath $Entry.File.FullName
+
+    if (
+      -not $jsonPath `
+        -or `
+        -not $script:PipelineState.JsonTrees.ContainsKey($jsonPath)
+    ) {
+      $score++
+    }
+  }
+
+  return $score
+}
+
 function Select-CanonicalDuplicate {
   param([object[]]$Entries)
 
   $ordered = $Entries | Sort-Object `
   @{ Expression   = {
 
-      $relative = $_.Relative
-
-      if (-not $relative) {
-        return 999999
-      }
-
-      # FIX-BUG: menor profundidade estrutural RFC 11
-      return (
-        ($relative -split '[\\/]').Count
-      )
+      # FIX-BUG: penaliza cópias nominais apenas em grupo SHA256 idêntico
+      return Get-DedupNominalCopyScore $_
     } ; Ascending = $true
   },
   @{ Expression   = {
 
       # FIX-BUG: nome mais canônico RFC 11
-      if ($_.Canonical) {
-        return $_.Canonical.Length
-      }
+      return Get-DedupCanonicalNameScore $_
+    } ; Ascending = $true
+  },
+  @{ Expression   = {
 
-      return 999999
+      # FIX-BUG: preserva coerência ROM XML RFC 11.4/11.6
+      return Get-DedupXmlCoherenceScore $_
+    } ; Ascending = $true
+  },
+  @{ Expression   = {
+
+      # FIX-BUG: menor distância estrutural RFC 11.4
+      return Get-DedupStructuralDistance $_
+    } ; Ascending = $true
+  },
+  @{ Expression   = {
+
+      # FIX-BUG: menor mutação corretiva RFC 11.4
+      return Get-DedupMutationScore $_
     } ; Ascending = $true
   },
   @{ Expression   = {
@@ -3127,6 +3503,181 @@ function Select-CanonicalDuplicate {
     $ordered |
     Select-Object -First 1
   )
+}
+
+function Invoke-GlobalDeduplication {
+  param([switch]$VerifyOnly)
+
+  foreach ($hash in @($script:PipelineState.DuplicateIndex.Keys | Sort-Object)) {
+
+    $entries = @(
+      $script:PipelineState.DuplicateIndex[$hash] |
+      Where-Object { -not $_.Removed } |
+      Sort-Object Relative
+    )
+
+    if ($entries.Count -le 1) {
+      continue
+    }
+
+    foreach ($e in $entries) {
+      if (-not $e.Canonical) {
+        $e.Canonical = Get-CanonicalName $e
+      }
+    }
+
+    foreach ($e in $entries) {
+
+      if ((Get-DedupNominalCopyScore $e) -gt 0) {
+
+        Write-InlineLog `
+          "⚠️ DEDUP_COPY_HEURISTIC :: $(Get-RelativePathSafe $e.File.FullName)" `
+          Yellow `
+          -forceNewLine
+      }
+    }
+
+    $keep = Select-CanonicalDuplicate $entries
+
+    if (
+      -not $keep `
+        -or `
+        -not (Test-Path -LiteralPath $keep.File.FullName -PathType Leaf)
+    ) {
+
+      Write-InlineLog `
+        "❌ DEDUP_ABORT_NO_SURVIVOR :: $hash" `
+        Red `
+        -forceNewLine
+
+      continue
+    }
+
+    $keepHash = Get-FileHashCached $keep.File.FullName
+
+    if (
+      -not $keepHash.Equals(
+        $hash,
+        [StringComparison]::OrdinalIgnoreCase
+      )
+    ) {
+
+      Write-InlineLog `
+        "❌ DEDUP_ABORT_HASH_DRIFT :: $(Get-RelativePathSafe $keep.File.FullName)" `
+        Red `
+        -forceNewLine
+
+      continue
+    }
+
+    $remove = @(
+      $entries | Where-Object {
+        -not $_.File.FullName.Equals(
+          $keep.File.FullName,
+          [StringComparison]::OrdinalIgnoreCase
+        )
+      }
+    )
+
+    if (
+      $remove.Count -eq 0 `
+        -or `
+        $remove.Count -ge $entries.Count
+    ) {
+
+      Write-InlineLog `
+        "❌ DEDUP_ABORT_LOSS_GUARD :: $hash" `
+        Red `
+        -forceNewLine
+
+      continue
+    }
+
+    foreach ($entry in $remove) {
+
+      if (
+        -not (Test-Path `
+            -LiteralPath $entry.File.FullName `
+            -PathType Leaf)
+      ) {
+        continue
+      }
+
+      $entryHash = Get-FileHashCached $entry.File.FullName
+
+      if (
+        -not $entryHash.Equals(
+          $keepHash,
+          [StringComparison]::OrdinalIgnoreCase
+        )
+      ) {
+
+        Write-InlineLog `
+          "❌ DEDUP_SKIP_HASH_DRIFT :: $(Get-RelativePathSafe $entry.File.FullName)" `
+          Red `
+          -forceNewLine
+
+        continue
+      }
+
+      $eventName = if ($VerifyOnly) {
+        'DEDUP_PENDING'
+      }
+      else {
+        'DEDUP'
+      }
+
+      Write-InlineLog `
+        "🗑️ $eventName :: $(Get-RelativePathSafe $entry.File.FullName)" `
+        Yellow `
+        -forceNewLine
+
+      if ($VerifyOnly) {
+        continue
+      }
+
+      $sha = "$($entry.File.FullName).sha256"
+
+      try {
+
+        if (Test-Path -LiteralPath $sha) {
+
+          # FIX-BUG: remove hash pareado antes do arquivo deduplicado
+          Remove-Item `
+            -LiteralPath $sha `
+            -Force `
+            -ErrorAction Stop
+        }
+
+        Remove-Item `
+          -LiteralPath $entry.File.FullName `
+          -Force `
+          -ErrorAction Stop
+
+        if (Test-Path -LiteralPath $entry.File.FullName -PathType Leaf) {
+          throw "Arquivo redundante permaneceu após remoção"
+        }
+
+        $entry.Removed = $true
+
+        $mapKey = [IO.Path]::GetFullPath(
+          $entry.File.FullName
+        )
+
+        [void]$script:PipelineState.FileMap.Remove($mapKey)
+
+        Remove-XmlNode $entry
+        Remove-JsonTreeEntry $entry.File.FullName
+      }
+      catch {
+
+        Write-InlineLog `
+          "❌ DEDUP_FAIL :: $($_.Exception.Message)" `
+          Red `
+          -forceNewLine
+      }
+    }
+  }
 }
 function Update-XmlPath {
   param(
@@ -4329,6 +4880,7 @@ function main {
     }
 
     $script:VerifyOnlyMode = $VerifyOnly
+    $script:FixMode = $Fix
 
     Write-InlineLog "ℹ️ PIPELINE :: INITIALIZE" Cyan -forceNewLine
 
@@ -4664,62 +5216,8 @@ function main {
     # DEDUP SOBRE SNAPSHOT FINAL CONVERGIDO
     # ==========================================================
 
-    foreach ($hash in $script:PipelineState.DuplicateIndex.Keys) {
-
-      $entries = @(
-        $script:PipelineState.DuplicateIndex[$hash] |
-        Where-Object { -not $_.Removed }
-      )
-
-      if ($entries.Count -le 1) {
-        continue
-      }
-
-      foreach ($e in $entries) {
-        if (-not $e.Canonical) {
-          $e.Canonical = Get-CanonicalName $e
-        }
-      }
-
-      $keep = Select-CanonicalDuplicate $entries
-
-      $remove = @(
-        $entries | Where-Object {
-          $_.File.FullName -ne $keep.File.FullName
-        }
-      )
-
-      foreach ($entry in $remove) {
-
-        Write-InlineLog `
-          "🗑️ DEDUP :: $(Get-RelativePathSafe $entry.File.FullName)" `
-          Yellow `
-          -forceNewLine
-
-        Remove-XmlNode $entry
-        Remove-JsonTreeEntry $entry.File.FullName
-
-        if (-not $VerifyOnly) {
-
-          Remove-Item `
-            -LiteralPath $entry.File.FullName `
-            -Force `
-            -ErrorAction Stop          
-          
-          $entry.Removed = $true
-
-          $sha = "$($entry.File.FullName).sha256"
-
-          if (Test-Path -LiteralPath $sha) {
-
-            Remove-Item `
-              -LiteralPath $sha `
-              -Force `
-              -ErrorAction SilentlyContinue
-          }
-        }
-      }
-    }
+    Invoke-GlobalDeduplication `
+      -VerifyOnly:$VerifyOnly
 
     # ==========================================================
     # SHA256
