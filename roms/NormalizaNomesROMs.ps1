@@ -647,61 +647,277 @@
   11. DEDUPLICAÇÃO
   ============================================================
 
-  A análise de deduplicação SHA256 MUST ocorrer:
-    - em TODOS os modos
-    - inclusive VerifyOnly
+  A análise de deduplicação MUST ocorrer:
+    - em TODOS os modos operacionais;
+    - inclusive `-VerifyOnly`.
 
   A aplicação física da deduplicação:
-    - MUST NOT ocorrer em VerifyOnly
+    - MUST NOT ocorrer em `-VerifyOnly`.
 
-  Critério definitivo:
-    - SHA256
+  A deduplicação MUST operar de forma:
+    - determinística;
+    - idempotente;
+    - fail-safe;
+    - estruturalmente correlacionada.
+
+  ============================================================
+  11.1 CRITÉRIO DEFINITIVO
+  ============================================================
+
+  O critério definitivo de equivalência MUST ser:
+
+    - SHA256 do conteúdo binário bruto.
 
   Regras:
-    - apenas um arquivo MUST sobreviver
-    - seleção MUST ser determinística:
-        1. nome mais canônico
-        2. menor distância estrutural
-        3. ordem ordinal estável
-    - timestamps, atributos e metadados do filesystem
-      SHOULD NOT ser utilizados como critério
-      de equivalência estrutural
+    - nome;
+    - path;
+    - timestamps;
+    - atributos do filesystem;
+    - metadata externa;
 
-  MUST refletir:
-    - .sha256
-    - JSON Tree
-    - gamelist.xml
+    MUST NOT possuir precedência sobre o hash
+    na definição de equivalência física.
+
+  Apenas arquivos reais participam da deduplicação.
+
+  JSON Tree:
+    - MUST refletir deduplicação;
+    - MUST NOT participar como entidade física.
+
+  ============================================================
+  11.2 ESCOPO
+  ============================================================
+
+  A deduplicação aplica-se a:
+
+    - ROMs;
+    - arquivos correlacionados ao pipeline;
+    - assets participantes de integridade;
+    - mídias correlacionadas via XML;
+    - conteúdo localizado em $specialJsonDirs.
+
+  MUST refletir consistentemente em:
+    - filesystem;
+    - .sha256;
+    - JSON Tree;
+    - gamelist.xml.
+
+  ============================================================
+  11.3 GARANTIAS ESTRUTURAIS
+  ============================================================
+
+  MUST:
+    - preservar ao menos um arquivo válido;
+    - preservar consistência estrutural;
+    - preservar integridade XML;
+    - preservar integridade JSON Tree;
+    - preservar rastreabilidade.
+
+  MUST NOT:
+    - remover todos os equivalentes;
+    - criar backups artificiais;
+    - criar "__dup";
+    - criar nomes ambíguos;
+    - sobrescrever arquivos arbitrariamente;
+    - produzir referências órfãs deliberadamente.
+
+  ============================================================
+  11.4 SELEÇÃO CANÔNICA
+  ============================================================
+
+  Quando múltiplos arquivos forem equivalentes
+  por SHA256:
+
+    - apenas um MUST sobreviver fisicamente.
+
+  A seleção MUST ser determinística.
+
+  Ordem normativa de prioridade:
+
+    1. nome estruturalmente mais canônico;
+    2. maior coerência ROM ↔ XML;
+    3. menor distância estrutural;
+    4. menor necessidade de mutação corretiva;
+    5. ordem ordinal estável de enumeração.
+
+  SHOULD priorizar:
+    - paths válidos;
+    - estrutura compatível com Batocera;
+    - correlação XML íntegra;
+    - nomenclatura convergente.
+
+  ============================================================
+  11.5 DETECÇÃO HEURÍSTICA DE CÓPIAS NOMINAIS
+  ============================================================
+
+  O pipeline MUST detectar arquivos cuja nomenclatura
+  indique claramente cópia redundante/manual.
+
+  Aplica-se a:
+    - ROMs convencionais;
+    - ROMs baseadas em diretório;
+    - conteúdo em $specialJsonDirs;
+    - assets correlacionados;
+    - entradas XML correspondentes.
+
+  Indicadores heurísticos MAY incluir:
+
+    - "copy"
+    - "copia"
+    - "copie"
+    - "(2)"
+    - "(3)"
+    - "(4)"
+    - "_copy"
+    - "- Copy"
+    - "copy of"
+
+  Regras:
+    - detecção SHOULD ser case-insensitive;
+    - detecção MUST considerar contexto semântico;
+    - detecção MUST evitar falso positivo parcial.
+
+  Exemplos que MUST NOT gerar remoção automática:
+    - "Copycat"
+    - "Copyright"
+    - "Copia"
+    - nomes semanticamente legítimos.
+
+  Remoção heurística automática MUST ocorrer apenas se:
+
+    - existir correlação estrutural válida;
+    - existir equivalente principal coerente;
+    - o arquivo não for representante único;
+    - não existir ambiguidade estrutural crítica.
+
+  Em caso de ambiguidade:
+    - MUST emitir WARN;
+    - MUST NOT remover automaticamente.
+
+  ============================================================
+  11.6 DEDUPLICAÇÃO XML
+  ============================================================
 
   MUST detectar:
-    - hashes órfãos
-    - entradas JSON órfãs
-    - referências XML inválidas
+    - múltiplas entradas `<game>`
+      apontando para o mesmo `<path>`;
+    - múltiplas entradas semanticamente equivalentes;
+    - referências XML inválidas;
+    - referências XML órfãs.
 
-  Em modo [-Fix]:
-    - MUST remover hashes órfãos
-    - MUST remover entradas JSON órfãs
-    - MUST remover referências XML inválidas
+  Quando múltiplas entradas XML referenciarem
+  arquivos equivalentes:
 
-  Garantias:
-    - MUST preservar ao menos um arquivo
-    - MUST NOT criar backups artificiais
-    - MUST NOT usar "__dup" ou equivalente
-    - Em nenhuma circunstância todos os arquivos
-      equivalentes MAY ser removidos
+    - referências redundantes MUST ser removidas;
+    - apenas a referência canônica MUST sobreviver;
+    - XML MUST permanecer consistente;
+    - paths MUST permanecer válidos.
 
-  Quando múltiplas entradas XML referenciarem arquivos
-  deduplicados equivalentes:
+  MUST preservar:
+    - encoding XML;
+    - estrutura XML;
+    - compatibilidade Batocera;
+    - indentação consistente.
 
-    - referências redundantes MUST ser removidas
-    - apenas a referência canônica MUST sobreviver
-    - desdublicar arquivos de midias contidos em 
-      `<sistema>/media`, com base no path 
-      de cada subtag de <game>,
-      conforme item 19.
+  MUST NOT:
+    - utilizar replace textual inseguro;
+    - alterar conteúdo fora de `<game>`;
+    - corromper estrutura semântica XML.
 
-  Aplicado a:    
-    - qualquer arquivo participante do pipeline
-      de integridade/correlação
+  ============================================================
+  11.7 DEDUPLICAÇÃO DE MÍDIA
+  ============================================================
+
+  Assets de mídia correlacionados via subtags de `<game>`
+  MUST participar da deduplicação conforme item 19.
+
+  MUST:
+    - remover redundâncias;
+    - consolidar referências XML;
+    - remover mídias órfãs;
+    - preservar asset canônico final.
+
+  Múltiplos `<game>` MAY compartilhar
+  o mesmo asset final legítimo.
+
+  ============================================================
+  11.8 HASHES E JSON TREE
+  ============================================================
+
+  A deduplicação MUST sincronizar:
+    - arquivos `.sha256`;
+    - JSON Tree;
+    - referências derivadas.
+
+  MUST detectar:
+    - hashes órfãos;
+    - hashes inconsistentes;
+    - entradas JSON órfãs;
+    - entradas JSON inconsistentes.
+
+  Em `-Fix`:
+    - hashes órfãos MUST ser removidos;
+    - entradas JSON órfãs MUST ser removidas;
+    - inconsistências MUST ser corrigidas.
+
+  Fora de `-Fix`:
+    - MUST apenas reportar.
+
+  ============================================================
+  11.9 COMPORTAMENTO POR MODO OPERACIONAL
+  ============================================================
+
+  Em `-VerifyOnly`:
+
+    - MUST:
+        * calcular;
+        * validar;
+        * correlacionar;
+        * auditar;
+        * reportar.
+
+    - MUST NOT:
+        * remover;
+        * renomear;
+        * sincronizar;
+        * alterar XML;
+        * alterar JSON Tree;
+        * alterar hashes;
+        * alterar mídia;
+        * alterar ROMs.
+
+  Em `-Fix`:
+    - correções MUST ser aplicadas fisicamente.
+
+  ============================================================
+  11.10 RESILIÊNCIA E SEGURANÇA
+  ============================================================
+
+  O pipeline MUST:
+    - validar estado pós-operação;
+    - validar integridade estrutural final;
+    - impedir perda total;
+    - operar com rollback lógico determinístico;
+    - preservar rastreabilidade completa.
+
+  MUST NOT:
+    - depender apenas de ExitCode;
+    - assumir rename bem-sucedido sem validação;
+    - produzir estado parcialmente inconsistente.
+
+  ============================================================
+  11.11 IDEMPOTÊNCIA
+  ============================================================
+
+  Após convergência:
+
+    - execuções subsequentes MUST NOT produzir
+      alterações adicionais;
+
+    - a seleção canônica MUST permanecer estável;
+
+    - XML, JSON Tree, hashes e filesystem
+      MUST permanecer sincronizados.    
 
   ============================================================
   12. TRADUÇÃO E METADADOS
@@ -3388,9 +3604,9 @@ function Get-GamelistMediaReferences {
           FullName  = $fullKey
           SortKey   = "{0}|{1:D8}|{2}|{3}" -f `
             $xmlPath,
-            $gameIndex,
-            $tagName,
-            $rawPath.Trim()
+          $gameIndex,
+          $tagName,
+          $rawPath.Trim()
         }
 
         $result.ByPath[$fullKey].Refs += $reference
@@ -3478,9 +3694,9 @@ function Select-MediaSurvivor {
           $_.TargetHash `
           -and `
           $_.TargetHash.Equals(
-            $_.Hash,
-            [StringComparison]::OrdinalIgnoreCase
-          )
+          $_.Hash,
+          [StringComparison]::OrdinalIgnoreCase
+        )
       ) {
         return 0
       }
@@ -3723,7 +3939,7 @@ function Invoke-MediaMaintenance {
 
               $tempName = "$targetName.__media_rename_tmp__"
               $tempPath = Join-Path `
-                (Split-Path $survivor.FullName -Parent) `
+              (Split-Path $survivor.FullName -Parent) `
                 $tempName
 
               if (Test-Path -LiteralPath $tempPath) {
@@ -3786,10 +4002,10 @@ function Invoke-MediaMaintenance {
         ) `
           -and `
           -not (
-            $finalExists `
-              -and `
-              -not $samePhysical
-          )
+          $finalExists `
+            -and `
+            -not $samePhysical
+        )
       ) {
         continue
       }
