@@ -1538,7 +1538,7 @@ function Load-BrsIndexes {
         -LiteralPath $brsFilePath `
         -Raw `
         -Encoding UTF8 |
-      ConvertFrom-Json -Depth 100
+      ConvertFrom-Json -ErrorAction Stop
 
       $script:PipelineState.BrsIndexes[
       (Get-FullPathSafe -PathValue $brsFilePath)
@@ -2923,10 +2923,11 @@ function Save-PendingXml {
       $xml = $script:PipelineState.XmlMap[$xmlPath]
 
       # FIX-BUG: preserva declaração XML e estrutura RFC 3.7
+      $utf8NoBom = [System.Text.UTF8Encoding]::new($false)
       $settings = New-Object System.Xml.XmlWriterSettings
       $settings.Indent = $true
       $settings.OmitXmlDeclaration = $false
-      $settings.Encoding = [System.Text.Encoding]::UTF8
+      $settings.Encoding = $utf8NoBom
 
       # FIX-BUG: StringWriter padrão gera UTF-16 incompatível com RFC XML
       $memoryStream = New-Object System.IO.MemoryStream
@@ -2945,7 +2946,7 @@ function Save-PendingXml {
 
         $content = [System.Text.Encoding]::UTF8.GetString(
           $memoryStream.ToArray()
-        )
+        ).TrimStart([char]0xFEFF)
       }
       finally {
 
@@ -2964,7 +2965,7 @@ function Save-PendingXml {
       Write-AtomicTextFile `
         -Path $xmlPath `
         -Content $content `
-        -Encoding ([System.Text.Encoding]::UTF8)
+        -Encoding $utf8NoBom
 
       Write-InlineLog `
         "✔ XML-SYNC :: $(Get-RelativePathSafe $xmlPath)" `
