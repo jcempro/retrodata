@@ -1530,22 +1530,24 @@ function Load-BrsIndexes {
     -Filter brs.json `
     -ErrorAction SilentlyContinue | ForEach-Object {
 
+    $brsFilePath = $_.FullName
+
     try {
 
       $json = Get-Content `
-        -LiteralPath $_.FullName `
+        -LiteralPath $brsFilePath `
         -Raw `
         -Encoding UTF8 |
       ConvertFrom-Json -Depth 100
 
       $script:PipelineState.BrsIndexes[
-      (Get-FullPathSafe -PathValue $_.FullName)
+      (Get-FullPathSafe -PathValue $brsFilePath)
       ] = $json
     }
     catch {
 
       Write-InlineLog `
-        "⚠️ BRS_LOAD_FAIL :: $($_.FullName)" `
+        "⚠️ BRS_LOAD_FAIL :: $(Format-ExceptionCause $_ 'LOAD_BRS_FILE' $brsFilePath)" `
         Yellow `
         -forceNewLine
     }
@@ -2038,7 +2040,7 @@ function Initialize-BrsIndex {
       -PathStack @()
   }
   catch {
-    throw "brs.json inválido: $brsPath"
+    throw (Format-ExceptionCause $_ 'LOAD_BRS_INDEX' $brsPath)
   }
 }
 
@@ -2148,6 +2150,112 @@ function Get-RelativePathSafe {
   }
 }
 
+function Format-ExceptionCause {
+  param(
+    [object]$ErrorRecord,
+    [string]$Operation,
+    [string]$Path
+  )
+
+  $ex = $null
+
+  if ($ErrorRecord -is [System.Management.Automation.ErrorRecord]) {
+    $ex = $ErrorRecord.Exception
+  }
+  elseif ($ErrorRecord -is [System.Exception]) {
+    $ex = $ErrorRecord
+  }
+
+  $parts = @("OP=$Operation")
+
+  if ($Path) {
+    $parts += "PATH=[$Path]"
+  }
+
+  if (-not $ex) {
+    $parts += "CAUSE=Exceção ausente"
+    return ($parts -join ' ')
+  }
+
+  $parts += "TYPE=$($ex.GetType().FullName)"
+
+  if ($ex -is [System.Xml.XmlException]) {
+    $parts += "LINE=$($ex.LineNumber)"
+    $parts += "POSITION=$($ex.LinePosition)"
+  }
+
+  if ($ex.InnerException) {
+    $innerMessage = (
+      $ex.InnerException.Message -replace '\s+', ' '
+    ).Trim()
+
+    $parts += "INNER=[$innerMessage]"
+  }
+
+  $message = (
+    $ex.Message -replace '\s+', ' '
+  ).Trim()
+
+  if ($message) {
+    $parts += "CAUSE=[$message]"
+  }
+
+  return ($parts -join ' ')
+}
+
+function Read-GamelistXml {
+  param([string]$XmlPath)
+
+  $settings = New-Object System.Xml.XmlReaderSettings
+  $settings.DtdProcessing = [System.Xml.DtdProcessing]::Ignore
+  $settings.CheckCharacters = $true
+  $settings.IgnoreWhitespace = $false
+
+  $reader = $null
+  $stringReader = $null
+
+  try {
+
+    $xml = New-Object System.Xml.XmlDocument
+    $xml.PreserveWhitespace = $true
+
+    # FIX-BUG: remove BOM textual duplicado antes do parse XML
+    $content = [System.IO.File]::ReadAllText(
+      $XmlPath,
+      [System.Text.UTF8Encoding]::new($false, $true)
+    ).TrimStart([char]0xFEFF)
+
+    $stringReader = New-Object System.IO.StringReader($content)
+
+    $reader = [System.Xml.XmlReader]::Create(
+      $stringReader,
+      $settings
+    )
+
+    $xml.Load($reader)
+
+    if (
+      -not $xml.DocumentElement `
+        -or `
+        $xml.DocumentElement.Name -ne 'gameList'
+    ) {
+      throw "Raiz XML inválida: esperado gameList"
+    }
+
+    return $xml
+  }
+  finally {
+
+    if ($reader) {
+      $reader.Dispose()
+    }
+
+    if ($stringReader) {
+      $stringReader.Dispose()
+    }
+  }
+}
+
 function Write-AtomicTextFile {
   param(
     [string]$Path,
@@ -2162,14 +2270,14 @@ function Write-AtomicTextFile {
 
     # PROTECAO: valida escrita antes da substituição
     if (-not (Test-Path -LiteralPath $tmp)) {
-      throw "TMP não criado"
+      throw "OP=WRITE_ATOMIC PATH=[$Path] CAUSE=TMP não criado"
     }
 
     $tmpInfo = Get-Item -LiteralPath $tmp -ErrorAction Stop
 
     # FIX-BUG: valida arquivo temporário estruturalmente
     if ($tmpInfo.Length -eq 0 -and $Content.Length -gt 0) {
-      throw "TMP inválido"
+      throw "OP=WRITE_ATOMIC PATH=[$Path] CAUSE=TMP inválido"
     }
 
     Move-Item `
@@ -2179,7 +2287,7 @@ function Write-AtomicTextFile {
       -ErrorAction Stop
 
     if (-not (Test-Path -LiteralPath $Path)) {
-      throw "Falha pós-escrita atômica"
+      throw "OP=WRITE_ATOMIC PATH=[$Path] CAUSE=destino ausente após substituição"
     }
   }
   finally {
@@ -2698,10 +2806,12 @@ function Load-JsonTrees {
       -File `
       -ErrorAction SilentlyContinue | ForEach-Object {
 
+      $jsonTreePath = $_.FullName
+
       try {
 
         $json = Get-Content `
-          -LiteralPath $_.FullName `
+          -LiteralPath $jsonTreePath `
           -Raw `
           -ErrorAction Stop
 
@@ -2711,10 +2821,10 @@ function Load-JsonTrees {
           $parsed = [pscustomobject]@{}
         }
 
-        $script:PipelineState.JsonTrees[$_.FullName] = $parsed
+        $script:PipelineState.JsonTrees[$jsonTreePath] = $parsed
       }
       catch {
-        throw "JSON inválido: $($_.FullName)"
+        throw (Format-ExceptionCause $_ 'LOAD_JSON_TREE' $jsonTreePath)
       }
     }
   }
@@ -2743,9 +2853,25 @@ function Save-PendingJsonTrees {
 
 function Load-Gamelists {
 
-  Get-ChildItem `
-    -Directory `
-    -ErrorAction SilentlyContinue | Where-Object {
+  try {
+
+    $romRoots = @(
+      Get-ChildItem `
+        -Directory `
+        -ErrorAction Stop
+    )
+  }
+  catch {
+
+    Write-InlineLog `
+      "❌ XML_DISCOVERY_FAIL :: $(Format-ExceptionCause $_ 'ENUMERATE_GAMELIST_ROOT' (Get-Location).Path)" `
+      Red `
+      -forceNewLine
+
+    return
+  }
+
+  $romRoots | Where-Object {
 
     # FIX-BUG: restringe gamelist.xml ao root ROM imediato
     $_.Parent `
@@ -2767,15 +2893,19 @@ function Load-Gamelists {
 
     try {
 
-      [xml]$xml = Get-Content `
-        -LiteralPath $xmlPath `
-        -Raw `
-        -ErrorAction Stop
+      $xml = Read-GamelistXml `
+        -XmlPath $xmlPath
 
       $script:PipelineState.XmlMap[$xmlPath] = $xml
     }
     catch {
-      throw "Falha XML: $xmlPath"
+
+      Write-InlineLog `
+        "❌ XML_LOAD_FAIL :: $(Format-ExceptionCause $_ 'PARSE_GAMELIST_XML' $xmlPath)" `
+        Red `
+        -forceNewLine
+
+      continue
     }
   }
 }
@@ -2784,52 +2914,72 @@ function Save-PendingXml {
 
   foreach ($xmlPath in @($script:PipelineState.PendingXmlSave.Keys)) {
 
-    $xml = $script:PipelineState.XmlMap[$xmlPath]
-
-    # FIX-BUG: preserva declaração XML e estrutura RFC 3.7
-    $settings = New-Object System.Xml.XmlWriterSettings
-    $settings.Indent = $true
-    $settings.OmitXmlDeclaration = $false
-    $settings.Encoding = [System.Text.Encoding]::UTF8
-
-    # FIX-BUG: StringWriter padrão gera UTF-16 incompatível com RFC XML
-    $memoryStream = New-Object System.IO.MemoryStream
-
     try {
 
-      $xw = [System.Xml.XmlWriter]::Create(
-        $memoryStream,
-        $settings
-      )
-
-      $xml.Save($xw)
-
-      $xw.Flush()
-
-      $content = [System.Text.Encoding]::UTF8.GetString(
-        $memoryStream.ToArray()
-      )
-    }
-    finally {
-
-      if ($xw) {
-        $xw.Dispose()
+      if (-not $script:PipelineState.XmlMap.ContainsKey($xmlPath)) {
+        throw "XML pendente ausente no mapa carregado"
       }
 
-      $memoryStream.Dispose()
+      $xml = $script:PipelineState.XmlMap[$xmlPath]
+
+      # FIX-BUG: preserva declaração XML e estrutura RFC 3.7
+      $settings = New-Object System.Xml.XmlWriterSettings
+      $settings.Indent = $true
+      $settings.OmitXmlDeclaration = $false
+      $settings.Encoding = [System.Text.Encoding]::UTF8
+
+      # FIX-BUG: StringWriter padrão gera UTF-16 incompatível com RFC XML
+      $memoryStream = New-Object System.IO.MemoryStream
+      $xw = $null
+
+      try {
+
+        $xw = [System.Xml.XmlWriter]::Create(
+          $memoryStream,
+          $settings
+        )
+
+        $xml.Save($xw)
+
+        $xw.Flush()
+
+        $content = [System.Text.Encoding]::UTF8.GetString(
+          $memoryStream.ToArray()
+        )
+      }
+      finally {
+
+        if ($xw) {
+          $xw.Dispose()
+        }
+
+        $memoryStream.Dispose()
+      }
+
+      # PROTECAO: valida XML serializado antes da escrita
+      $validationXml = New-Object System.Xml.XmlDocument
+      $validationXml.PreserveWhitespace = $true
+      $validationXml.LoadXml($content)
+
+      Write-AtomicTextFile `
+        -Path $xmlPath `
+        -Content $content `
+        -Encoding ([System.Text.Encoding]::UTF8)
+
+      Write-InlineLog `
+        "✔ XML-SYNC :: $(Get-RelativePathSafe $xmlPath)" `
+        DarkGreen `
+        -forceNewLine
+
+      [void]$script:PipelineState.PendingXmlSave.Remove($xmlPath)
     }
+    catch {
 
-    Write-AtomicTextFile `
-      -Path $xmlPath `
-      -Content $content `
-      -Encoding ([System.Text.Encoding]::UTF8)
-
-    Write-InlineLog `
-      "✔ XML-SYNC :: $(Get-RelativePathSafe $xmlPath)" `
-      DarkGreen `
-      -forceNewLine
-
-    [void]$script:PipelineState.PendingXmlSave.Remove($xmlPath)
+      Write-InlineLog `
+        "❌ XML_SAVE_FAIL :: $(Format-ExceptionCause $_ 'SAVE_GAMELIST_XML' $xmlPath)" `
+        Red `
+        -forceNewLine
+    }
   }
 }
 
@@ -3751,7 +3901,7 @@ function Invoke-GlobalDeduplication {
           -ErrorAction Stop
 
         if (Test-Path -LiteralPath $entry.File.FullName -PathType Leaf) {
-          throw "Arquivo redundante permaneceu após remoção"
+          throw "OP=DEDUP_REMOVE PATH=[$($entry.File.FullName)] CAUSE=arquivo redundante permaneceu após remoção"
         }
 
         $entry.Removed = $true
@@ -3766,7 +3916,7 @@ function Invoke-GlobalDeduplication {
       catch {
 
         Write-InlineLog `
-          "❌ DEDUP_FAIL :: $($_.Exception.Message)" `
+          "❌ DEDUP_FAIL :: $(Format-ExceptionCause $_ 'DEDUP_REMOVE' $entry.File.FullName)" `
           Red `
           -forceNewLine
       }
@@ -4295,7 +4445,7 @@ function Set-MediaXmlReference {
   if (-not $newValue) {
 
     Write-InlineLog `
-      "❌ MEDIA_XML_PATH_FAIL :: $(Get-RelativePathSafe $NewFullPath)" `
+      "❌ MEDIA_XML_PATH_FAIL :: OP=CONVERT_MEDIA_XML_PATH PATH=[$NewFullPath] CAUSE=caminho fora do root do gamelist" `
       Red `
       -forceNewLine
 
@@ -4477,7 +4627,7 @@ function Invoke-MediaMaintenance {
       if (-not $canonicalName) {
 
         Write-InlineLog `
-          "❌ MEDIA_CANONICAL_FAIL :: $(Get-RelativePathSafe $media.FullName)" `
+          "❌ MEDIA_CANONICAL_FAIL :: OP=CANONICAL_MEDIA_NAME PATH=[$($media.FullName)] CAUSE=nome canônico vazio" `
           Red `
           -forceNewLine
 
@@ -4535,7 +4685,7 @@ function Invoke-MediaMaintenance {
     catch {
 
       Write-InlineLog `
-        "❌ MEDIA_FAIL :: $($_.Exception.Message)" `
+        "❌ MEDIA_FAIL :: $(Format-ExceptionCause $_ 'ANALYZE_MEDIA' $media.FullName)" `
         Red `
         -forceNewLine
     }
@@ -4630,7 +4780,7 @@ function Invoke-MediaMaintenance {
                 $tempName
 
               if (Test-Path -LiteralPath $tempPath) {
-                throw "Colisão temporária de mídia"
+                throw "OP=MEDIA_RENAME_CASE_TEMP SOURCE=[$($survivor.FullName)] TARGET=[$tempPath] CAUSE=destino temporário já existe"
               }
 
               Rename-Item `
@@ -4652,7 +4802,7 @@ function Invoke-MediaMaintenance {
             }
 
             if (-not (Test-Path -LiteralPath $finalPath -PathType Leaf)) {
-              throw "Falha pós-rename de mídia"
+              throw "OP=MEDIA_RENAME_VALIDATE SOURCE=[$($survivor.FullName)] TARGET=[$finalPath] CAUSE=destino ausente após Rename-Item"
             }
 
             $script:PipelineState.HashCache[$finalPath] = $survivor.Hash
@@ -4661,7 +4811,7 @@ function Invoke-MediaMaintenance {
         catch {
 
           Write-InlineLog `
-            "❌ MEDIA_RENAME_FAIL :: $($_.Exception.Message)" `
+            "❌ MEDIA_RENAME_FAIL :: $(Format-ExceptionCause $_ 'RENAME_MEDIA' $survivor.FullName)" `
             Red `
             -forceNewLine
 
@@ -4738,7 +4888,7 @@ function Invoke-MediaMaintenance {
         catch {
 
           Write-InlineLog `
-            "❌ MEDIA_DEDUP_FAIL :: $($_.Exception.Message)" `
+            "❌ MEDIA_DEDUP_FAIL :: $(Format-ExceptionCause $_ 'DEDUP_MEDIA' $entry.FullName)" `
             Red `
             -forceNewLine
         }
@@ -4770,7 +4920,7 @@ function Invoke-MediaMaintenance {
     catch {
 
       Write-InlineLog `
-        "❌ MEDIA_REF_HASH_FAIL :: $($_.Exception.Message)" `
+        "❌ MEDIA_REF_HASH_FAIL :: $(Format-ExceptionCause $_ 'HASH_REFERENCED_MEDIA' $media.FullName)" `
         Red `
         -forceNewLine
     }
@@ -4848,7 +4998,7 @@ function Invoke-MediaMaintenance {
     catch {
 
       Write-InlineLog `
-        "❌ MEDIA_ORPHAN_SCAN_FAIL :: $($_.Exception.Message)" `
+        "❌ MEDIA_ORPHAN_SCAN_FAIL :: $(Format-ExceptionCause $_ 'SCAN_MEDIA_ORPHANS' $dir)" `
         Red `
         -forceNewLine
     }
@@ -4881,7 +5031,7 @@ function Invoke-TranslateBatch {
 
         # PROTECAO: fail-fast offline RFC rede
         if (-not [System.Net.NetworkInformation.NetworkInterface]::GetIsNetworkAvailable()) {
-          throw "Rede indisponível"
+          throw "OP=TRANSLATE_NETWORK_CHECK CAUSE=Rede indisponível"
         }
 
         $uri = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=pt&dt=t&q=$([uri]::EscapeDataString($joined))"
@@ -5064,7 +5214,7 @@ function main {
     $lockAcquired = $mutex.WaitOne(0)
 
     if (-not $lockAcquired) {
-      throw "Outra instância já está em execução"
+      throw "OP=ACQUIRE_MUTEX CAUSE=Outra instância já está em execução"
     }
 
     $script:VerifyOnlyMode = $VerifyOnly
@@ -5145,7 +5295,7 @@ function main {
             $parsedCollision = Extract-Extensions $newName
 
             if (-not $parsedCollision) {
-              throw "Falha estrutural collision parsing"
+              throw "OP=PARSE_COLLISION_NAME SOURCE=[$($entry.File.Name)] TARGET=[$newName] CAUSE=extensão canônica inválida"
             }
 
             $shortHash = $srcHash.Substring(0, 8)
@@ -5174,7 +5324,7 @@ function main {
             ) {
 
               throw (
-                "COLLISION_IMPOSSIBLE :: " +
+                "OP=RESOLVE_NAME_COLLISION CAUSE=destino alternativo ocupado " +
                 "SOURCE=[$($entry.File.Name)] " +
                 "TARGET=[$resolvedName]"
               )
@@ -5289,7 +5439,7 @@ function main {
               $tempName
 
             if (Test-Path -LiteralPath $tempPath) {
-              throw "Colisão temporária de rename"
+              throw "OP=RENAME_CASE_TEMP SOURCE=[$oldFullPath] TARGET=[$tempPath] CAUSE=destino temporário já existe"
             }
 
             Rename-Item `
@@ -5326,7 +5476,7 @@ function main {
               }
             }
 
-            throw "Falha pós-rename"
+            throw "OP=RENAME_VALIDATE SOURCE=[$oldFullPath] TARGET=[$newFullPath] CAUSE=destino ausente após Rename-Item"
           }
 
           $oldMapKey = Get-FullPathSafe -PathValue $oldFullPath
@@ -5377,7 +5527,7 @@ function main {
       catch {
 
         Write-InlineLog `
-          "❌ NORMALIZE_FAIL :: $($_.Exception.Message)" `
+          "❌ NORMALIZE_FAIL :: $(Format-ExceptionCause $_ 'NORMALIZE_ENTRY' $entry.File.FullName)" `
           Red `
           -forceNewLine
       }
@@ -5513,7 +5663,7 @@ function main {
       }
       catch {
         Write-InlineLog `
-          "❌ SHA_FAIL :: $($_.Exception.Message)" `
+          "❌ SHA_FAIL :: $(Format-ExceptionCause $_ 'SYNC_SHA256' $entry.File.FullName)" `
           Red `
           -forceNewLine
       }
@@ -5652,7 +5802,7 @@ if ($MyInvocation.InvocationName -ne '.') {
   catch {
 
     Write-InlineLog `
-      "❌ FATAL :: $($_.Exception.Message)" `
+      "❌ FATAL :: $(Format-ExceptionCause $_ 'PIPELINE' (Get-Location).Path)" `
       Red `
       -forceNewLine
 
