@@ -1707,6 +1707,10 @@ function Format-NomeCanonico {
 
   if (-not $n) { return $null }
 
+  $n = Remove-NominalHashMarkers $n
+
+  if (-not $n) { return $null }
+
   # FIX-BUG: remove marcadores técnicos RFC 7
   $n = [regex]::Replace(
     $n,
@@ -1761,6 +1765,26 @@ function Format-NomeCanonico {
     })
 
   return Format-RomanAwareTitle $n
+}
+
+function Remove-NominalHashMarkers {
+  param([string]$Text)
+
+  if (-not $Text) {
+    return $Text
+  }
+
+  # FIX-BUG: hash nominal não participa do basename canônico
+  $clean = [regex]::Replace(
+    $Text,
+    '\s*\{[A-Fa-f0-9]{8,64}\}',
+    ''
+  )
+
+  return (
+    $clean `
+      -replace '\s{2,}', ' '
+  ).Trim()
 }
 
 function Extract-Extensions {
@@ -3257,6 +3281,8 @@ function Get-CanonicalName {
     '\s*\[[^\]]*\]',
     ''
   )
+
+  $normalizedBase = Remove-NominalHashMarkers $normalizedBase
 
   $normalizedBase = (
     $normalizedBase `
@@ -5422,6 +5448,15 @@ function main {
 
             continue
           }
+        }
+
+        if (
+          $currentName.Equals(
+            $newName,
+            [StringComparison]::Ordinal
+          )
+        ) {
+          continue
         }
 
         Write-InlineLog `
