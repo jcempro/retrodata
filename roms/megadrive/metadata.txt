@@ -1,0 +1,1199 @@
+collection: megadrive
+game: A DINOSAUR'S TALE [1048].MD
+file: ./A Dinosaur's Tale.Md [1048].md.7z
+developer: FUNCOM
+publisher: HI-TEC SOFTWARE
+genre: PLATAFORMA
+favorite: false
+description: 
+	Jogue COMO OS personagens DO filme DE animação DE spielberg "os dinossauros voltaram". Corra E PULE através DE UMA variedade DE fases E derrote O professor screweyes. CADA primeira FASE é UM plataforma side-scrolling ONDE você assume O papel DAS crianças humanas cecilia OU louie E SE MOVE através DE obstáculos PARA chegar AO final DA fase. Estas fases SE passam EM vários locais DE NOVA york, incluindo UM estúdio DE TV E UM circo QUE QUER manter OS dinossauros PARA UMA exposição. CADA outro FASE é UMA FASE 3D ONDE você JOGA COM UM DOS personagens dinossauro, exemplo, andando DE skate NA parte traseira DE UMA camionete COMO REX OU voando COMO ELSA sobre O central PARK AO coletar balões. ESTE é UM DOS primeiros jogos DO MEGA drive COM jogabilidade 3d.
+release: 1994-01-01
+players: 1
+x-id: 1048
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: 
+assets.video: ./media/videos/A Dinosaur's Tale.Md-368DD5BF7DEA.mp4
+assets.logo: 
+assets.background: ./media/fanart/A Dinosaur's Tale.Md-5E3C5F124FA7.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: ./media/image/A Dinosaur's Tale.Md-F9D731217378.png
+rating: 0.60
+
+collection: megadrive
+game: ALIEN SOLDIER [36].MD
+file: ./Alien Soldier.Md [36].md.7z
+developer: TREASURE
+publisher: SEGA
+genre: TIRO / RUN AND GUN, TIRO
+favorite: false
+description: 
+	Alien soldier é UM JOGO DE ação side-scrolling NO QUAL O jogador assume O papel DE epsilon-eagle, O ex-líder DO grupo mutante scarlet. OS mutantes são agora liderados PELO malvado xi-tiger QUE OS transformou EM terroristas, E UM DE SEUS objetivos é matar epsilon-eagle... NO início DO jogo, O jogador escolhe quatro DE SEIS armas - CADA UMA COM vantagens OU desvantagens especiais contra certos inimigos. O mutante epsilon-eagle também TEM outros poderes especiais, p. Ex. Teleportando através DA TELA OU (com plena saúde) SE transformando EM UMA fênix poderosa destruindo TUDO PELO caminho. AS 25 fases consistem EM curtas sequências side-scrolling E algumas lutas DE chefe. NA verdade, OS chefes aparecem NA maior parte DO JOGO E AS sequências DE side-scrolling são usadas principalmente PARA DAR AO jogador A oportunidade DE coletar munição. OS chefes têm SEUS próprios padrões E fraquezas.
+release: 1995-06-01
+players: 1
+x-id: 36
+assets.boxFront: ./media/image/Alien Soldier.Md-D0233B823164.png
+assets.boxBack: ./media/image/Alien Soldier.Md-4D16570E0F12.png
+assets.cartridge: ./media/image/Alien Soldier.Md-6A1405CA1F44.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Alien Soldier.Md-62358F2E1D01.png
+assets.video: ./media/videos/Alien Soldier.Md-ACA0E3D9484A.mp4
+assets.logo: 
+assets.background: ./media/fanart/Alien Soldier.Md-0634752E763B.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Alien Soldier.Md-BB4162A0F54A.png
+assets.bezel: ./media/image/Alien Soldier.Md-52E4F641A2DC.png
+rating: 0.80
+
+collection: megadrive
+game: ALISIA DRAGOON [53].SMD
+file: ./Alisia Dragoon.Smd [53].smd.7z
+developer: GAME ARTS
+publisher: SEGA
+genre: PLATAFORMA
+favorite: false
+description: 
+	Quando ERA ANDA criança alisia passou PELO PIOR período DE SUA vida: O assassinato DE SEU pai. Até HOJE terríveis pesadelos permeiam AS SUAS noites. O responsável POR ESSA horrenda maldade FOI O maléfico feiticeiro baidour. NO DIA DA tragédia alisia jurou: "baldour SE arrependerá POR TER causado tanto sofrimento". Entretanto, PARA QUE ELA possa cumprir COM A SUA palavra terá QUE vencer batalhões DE terríveis bárbaros, monstruosas centopéias venenosas E esquadrões DE gnomos alados. Contará somente COM SEUS poderes mágicos E COM UMA DAS quatro criaturas amigas QUE ajudarão A protegê-la. Será QUE EIA conseguirá destruir O casulo aonde baldour descansa antes QUE ELE acorde? Acreditamos QUE sim, POIS ELA é durona, guerreira E perigosa: ELA é alisia dragoon!
+release: 1992-04-01
+players: 1
+x-id: 53
+assets.boxFront: ./media/image/Alisia Dragoon.Smd-40F9C2A9D5AE.png
+assets.boxBack: ./media/image/Alisia Dragoon.Smd-868EE45C2EFB.png
+assets.cartridge: ./media/image/Alisia Dragoon.Smd-E9D94798FCA7.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Alisia Dragoon.Smd-C83FB7FC41C0.png
+assets.video: ./media/videos/Alisia Dragoon.Smd-E8FAF0AF92D3.mp4
+assets.logo: 
+assets.background: ./media/fanart/Alisia Dragoon.Smd-0C379F6A92E4.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Alisia Dragoon.Smd-B85C8CDB478F.png
+assets.bezel: ./media/image/Alisia Dragoon.Smd-A62BA1FC99DF.png
+rating: 0.60
+
+collection: megadrive
+game: CASTLEVANIA - THE NEW GENERATION [40].BIN
+file: ./Castlevania - The New Generation.Bin [40].bin.7z
+developer: KONAMI
+publisher: KONAMI
+genre: PLATAFORMA / COMBATE COM ROLAGEM, PLATAFORMA
+favorite: false
+description: 
+	NO ANO DE 1917, O MAL ameaçou SE levantar novamente NA transilvânia. UMA jovem chamada elizabeth bartley, QUE FOI julgada COMO UMA bruxa E morta há séculos atrás, estava planejando ressuscitar O príncipe DAS trevas, conde drácula, MAIS UMA vez. O último DA linhagem DOS belmont, JOHN morris, E SEU amigo ERIC lecarde, agora devem viajar PELA europa PARA O palácio DE versalhes, NA frança, ONDE bartley está planejando A ressurreição. E, EM SEU caminho, seguem OS seguidores MAIS fortes DE drácula...
+release: 1994-03-20
+players: 1
+x-id: 40
+assets.boxFront: ./media/image/Castlevania - The New Generation.Bin-0DEDEBC62D7A.png
+assets.boxBack: ./media/image/Castlevania - The New Generation.Bin-739D1B0051E6.png
+assets.cartridge: ./media/image/Castlevania - The New Generation.Bin-C797E21DDA00.png
+assets.marquee: ./media/image/Castlevania - The New Generation.Bin-10CF735FB0F5.png
+assets.screenshot: ./media/screenshots/Castlevania - The New Generation.Bin-D29DF94C2916.png
+assets.video: ./media/videos/Castlevania - The New Generation.Bin-A57CDFB5A45E.mp4
+assets.logo: ./media/image/Castlevania - The New Generation.Bin-10CF735FB0F5.png
+assets.background: ./media/fanart/Castlevania - The New Generation.Bin-0F2AA6F2A280.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: ./media/image/Castlevania - The New Generation.Bin-1FAB2456830D.png
+rating: 0.80
+
+collection: megadrive
+game: COMIX ZONE [35].MD
+file: ./Comix Zone.Md [35].md.7z
+developer: SEGA
+publisher: SEGA
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	O primeiro GIBI interativo DA história! MAIS DO QUE UMA revista EM quadrinhos. MAIS DO QUE UM videogame. Participe dessa aventura AO LADO DE sketch turner, UM cartunista QUE ficou preso NO mundo DOS quadrinhos QUE ELE mesmo criou. Agora, PARA conseguir voltar AO mundo real, nosso herói DEVE lutar quadro A quadro DA revista passando POR todos OS obstáculos QUE surgirem à SUA frente. ESTA não será UMA tarefa fácil, POIS A CADA página virada inimigos mutantes serão desenhados PARA tentar aniquilá-lo. Falhar... Significa ficar NA comix ZONE PARA sempre!!! EM VEZ DE cenários tradicionais, CADA LUTA acontece NUM quadrinho DA história COM balõezinhos E tudo! São 24 MEGA DE muita ação, COM A perspectiva original EM multi-scrolling.
+release: 1995-10-27
+players: 1
+x-id: 35
+assets.boxFront: ./media/image/Comix Zone.Md-37237E678A7E.png
+assets.boxBack: ./media/image/Comix Zone.Md-3E85A4614BFB.png
+assets.cartridge: ./media/image/Comix Zone.Md-1B14C9BD2A11.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Comix Zone.Md-D154082B5833.png
+assets.video: ./media/videos/Comix Zone.Md-90E65F7A9727.mp4
+assets.logo: 
+assets.background: ./media/fanart/Comix Zone.Md-9ECF4F586007.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Comix Zone.Md-1B259D23BB34.png
+assets.bezel: ./media/image/Comix Zone.Md-8F9EE3996815.png
+rating: 0.60
+
+collection: megadrive
+game: DECAPATTACK [1046].SMD
+file: ./Decapattack.Smd [1046].smd.7z
+developer: VIC TOKAI
+publisher: VIC TOKAI
+genre: PLATAFORMA
+favorite: false
+description: 
+	AS coisas parecem estar ficando loucas EM BODY island! MAX d. CAP assumiu O controle DA ILHA EM formato DE corpo, picando-a EM pedacinhos. MAS dr. Frank n. Stein já anunciou QUE ISTO não VAI ficar assim! Há muito já SE sabia QUE ELE criava estranhos seres PARA SUAS experiências. E chuck d. Head, O monstro DE DUAS cabeças, FOI QUEM ELE destinou PARA lutar contra O exército DE MAX d. Cap, colecionar moedas, encontrar E USAR AS poções mágicas DA ilha. TODO O exército inimigo é composto POR criaturas bizarras recrutadas DO próprio dr. Frank! E POR TODO LADO DA ILHA não falta O perigo. Você não está entendendo nada? Ninguém NA ILHA está também! TUDO O QUE sabemos é QUE UMA ótima recompensa espera POR QUEM reconstituir OS pedaços DE BODY island. E QUEM é QUE resiste A recompensas?
+release: 1991-11-01
+players: 1
+x-id: 1046
+assets.boxFront: ./media/image/Decapattack.Smd-2E972AC262EB.png
+assets.boxBack: ./media/image/Decapattack.Smd-982AFFE29D0C.png
+assets.cartridge: ./media/image/Decapattack.Smd-CA48DB33F337.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Decapattack.Smd-CD73B4D9F197.png
+assets.video: ./media/videos/Decapattack.Smd-D46C9CD1A20B.mp4
+assets.logo: 
+assets.background: ./media/fanart/Decapattack.Smd-B9F6E1D07555.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Decapattack.Smd-B25343D862EE.png
+assets.bezel: ./media/image/Decapattack.Smd-015D77A07113.png
+rating: 0.60
+
+collection: megadrive
+game: ELEMENTAL MASTER [426].BIN
+file: ./Elemental Master.Bin [426].bin.7z
+developer: TECHNOSOFT
+publisher: RENOVATION PRODUCTS
+genre: SHOOT'EM UP / VERTICAL, SHOOT'EM UP
+favorite: false
+description: 
+	EM elemental master, você controla UM guerreiro místico chamado laden POR cenários DE rolagem vertical, ONDE OS inimigos vão descendo A TELA NA intenção DE impedir QUE O herói chegue até O local ONDE está O vilão DO jogo, SEU irmão roki. Elemental master é basicamente UM shoot 'em UP COM power-ups E TUDO mais, COM A diferença QUE AO invés DE UMA nave, temos UM guerreiro QUE corre EM direção AO SEU destino.
+release: 1993-01-01
+players: 1
+x-id: 426
+assets.boxFront: ./media/image/Elemental Master.Bin-37514AD89870.png
+assets.boxBack: ./media/image/Elemental Master.Bin-F283E75C16B9.png
+assets.cartridge: ./media/image/Elemental Master.Bin-57F73E08DB5C.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Elemental Master.Bin-1352BAC7E68D.png
+assets.video: ./media/videos/Elemental Master.Bin-0633C31AD487.mp4
+assets.logo: 
+assets.background: ./media/fanart/Elemental Master.Bin-6DF18A6528CE.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Elemental Master.Bin-495FFF46E0F2.png
+assets.bezel: ./media/image/Elemental Master.Bin-AE30204AC20D.png
+rating: 0.60
+
+collection: megadrive
+game: EMPIRE OF STEEL [188].SMD
+file: ./Empire Of Steel.Smd [188].smd.7z
+developer: FLYING EDGE
+publisher: HOT-B
+genre: SHOOT'EM UP / HORIZONTAL, SHOOT'EM UP
+favorite: false
+description: 
+	O JOGO SE apresenta COMO UM filme DE guerra DOS velhos tempos produzido PELA "hot-b FILM corporation". NO filme OS céus estão povoados POR zepelins, grandes naves DE guerra E fortalezas voadoras. Nesta ERA DO aço, O império motorhead conquistou E escravizou quase TODO O planeta. A última nação livre, A república DE silverhead, tenta derrubar O império motorhead usando SUA ARMA recém-desenvolvida, A bomba relâmpago. Além DE SEU incomum cenário steampunk, steel empire é UM shoot-'em-up DE rolagem lateral bastante tradicional. NO começo DE CADA fase, O jogador escolhe entre UM avião DE ataque E UM zepelim. Enquanto O avião é MAIS rápido, O zepelim TEM UMA barra DE VIDA MAIS longa E pode, portanto, sofrer MAIS danos. Ambos AS naves USAM A mesma ARMA padrão, QUE PODE SER disparada PARA frente OU PARA trás, BEM COMO bombas QUE são liberadas automaticamente durante O disparo. Também está disponível UM número limitado DE bombas relâmpago QUE danificam OU destroem todos OS inimigos NA tela. OS inimigos derrotados geralmente perdem power-ups, incluindo corações QUE reabastecem A saúde, bombas relâmpago, pontos DE bônus, vidas extras, opções E pontos DE experiência. AS opções são pequenos "drones" QUE VOAM AO LADO DA NAVE DO jogador E imitam SEU comportamento. Pontos DE experiência podem SER coletados PARA subir DE nível AS armas DAS naves (até O nível 20) E assim aumentar SEU poder DE fogo.
+release: 1992-06-01
+players: 1
+x-id: 188
+assets.boxFront: ./media/image/Empire Of Steel.Smd-2CE718B86A33.png
+assets.boxBack: ./media/image/Empire Of Steel.Smd-B5C2A9E0039B.png
+assets.cartridge: ./media/image/Empire Of Steel.Smd-5CAA168568E5.png
+assets.marquee: ./media/image/Empire Of Steel.Smd-471DA8734DFE.png
+assets.screenshot: ./media/screenshots/Empire Of Steel.Smd-2CC24374CF01.png
+assets.video: ./media/videos/Empire Of Steel.Smd-7079A7C4BAE0.mp4
+assets.logo: ./media/image/Empire Of Steel.Smd-471DA8734DFE.png
+assets.background: ./media/fanart/Empire Of Steel.Smd-90F646E50463.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Empire Of Steel.Smd-E8FAD00B5852.png
+assets.bezel: ./media/image/Empire Of Steel.Smd-6A19AC3204C9.png
+rating: 0.80
+
+collection: megadrive
+game: GHOSTBUSTERS [85].SMD
+file: ./Ghostbusters.Smd [85].smd.7z
+developer: COMPILE
+publisher: SEGA
+genre: PLATAFORMA
+favorite: false
+description: 
+	SE você pensava QUE OS caça-fantasmas haviam acabado SEU trabalho depois DE SUA última vitória, você estava completamente enganado. OS fantasmas voltaram à cidade, peter, raymond E EGON retornaram AOS SEUS postos prontos PARA salvar O mundo. Mas, DE novo, caçar fantasmas requer muito dinheiro, equipamentos e, claro, muita coragem. Será QUE você é audacioso O suficiente PARA conduzir OS caça-fantasmas até O final DE SUA missão? Você é determinado A ponto DE resolver O terrível mistério DA lápide desaparecida? UMA VEZ dentro DO mundo DOS demônios, não há COMO voltar atrás! Fantasmas, assombrações, duendes; chame COMO quiser. ELES estão aguardando A SUA chegada. Portanto, antes DE enfrentá-los, não SE esqueça DE SE munir DE armas poderosas. É O único MEIO DE detê-los!
+release: 1990-12-01
+players: 1
+x-id: 85
+assets.boxFront: ./media/image/Ghostbusters.Smd-A246B941D13A.png
+assets.boxBack: ./media/image/Ghostbusters.Smd-DD86C6349270.png
+assets.cartridge: ./media/image/Ghostbusters.Smd-2E3F07554718.png
+assets.marquee: ./media/image/Ghostbusters.Smd-2E7B939113B7.png
+assets.screenshot: ./media/screenshots/Ghostbusters.Smd-08CE30E5D07C.png
+assets.video: ./media/videos/Ghostbusters.Smd-8D6372D759CB.mp4
+assets.logo: ./media/image/Ghostbusters.Smd-2E7B939113B7.png
+assets.background: ./media/fanart/Ghostbusters.Smd-266AC167D11F.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Ghostbusters.Smd-A7FECBE1B215.png
+assets.bezel: ./media/image/Ghostbusters.Smd-EF59C7B5006C.png
+rating: 0.80
+
+collection: megadrive
+game: GOLDEN AXE II [88].MD
+file: ./Golden Axe Ii.Md [88].md.7z
+developer: SEGA
+publisher: SEGA
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	O diabólico DARK GULD recuperou-se DE SUA última derrota E voltou ainda MAIS determinado A fazer DA terra O palco DE SUA destruição. ELE VEIO acompanhado DE UM clã DE perversas criaturas E roubou O golden axe, machado DE OURO símbolo DA PAZ E prosperidade. DE novo, nossos bravos guerreiros vão SE colocar NO caminho DOS malfeitores. ELES são: ax-battler, O bárbaro; tyris-flare, A feroz amazona; E gilius thunderhead, O anão destemido. POR MAIS difícil QUE SEJA A batalha, POR MAIS longa QUE SEJA A jornada, NADA VAI impedi-los. O golden AXE DEVE voltar PARA SEU devido lugar. E esses terríveis inimigos DA humanidade também! Ajude-os nessa árdua missão!
+release: 1992-01-01
+players: 1-2
+x-id: 88
+assets.boxFront: ./media/image/Golden Axe Ii.Md-7A61435CFC18.png
+assets.boxBack: ./media/image/Golden Axe Ii.Md-9ADB68E799C0.png
+assets.cartridge: ./media/image/Golden Axe Ii.Md-A50AD3BB0050.png
+assets.marquee: ./media/image/Golden Axe Ii.Md-E165CF9C42BF.png
+assets.screenshot: ./media/screenshots/Golden Axe Ii.Md-DAA635B8B6E1.png
+assets.video: ./media/videos/Golden Axe Ii.Md-E05D2BB1B668.mp4
+assets.logo: ./media/image/Golden Axe Ii.Md-E165CF9C42BF.png
+assets.background: ./media/fanart/Golden Axe Ii.Md-3041F864EAAD.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Golden Axe Ii.Md-9751EC9D099F.png
+assets.bezel: ./media/image/Golden Axe Ii.Md-C77D6C001AF0.png
+rating: 0.80
+
+collection: megadrive
+game: GOLDEN AXE III [61].BIN
+file: ./Golden Axe Iii.Bin [61].bin.7z
+developer: SEGA
+publisher: SEGA
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	O lendário machado DO poder, O golden axe, FOI roubado (de novo) E A terra DE yuria FOI colocada EM perigo (de novo). Desta VEZ QUEM roubou O machado dourado FOI O ?prince OF darkness? Que, além disso, lançou UMA maldição EM todos OS guerreiros E heróis. Alguns desses heróis, porém, conseguem escapar dessa maldição E agora possuem A missão DE salvar OS outros guerreiros, derrotar O vilão E retornar COM O golden axe. Entre OS novos heróis temos O gigante proud cragger, QUE fugiu DE UMA prisão DO inimigo E aparece ainda usando correntes NOS braços E pernas. ELE é lento, MAS é O MAIS forte DE todos. Temos também O interessante homem-pantera chronos ?evil? Lait, QUE é bastante ágil, MAS EM termos DE força é O MAIS fraco DO grupo; O bárbaro KAIN grinder, QUE é semelhante AO AX battler E A amazona sarah barn, QUE lembra A tyris flare.
+release: 1993-01-01
+players: 1-2
+x-id: 61
+assets.boxFront: ./media/image/Golden Axe Iii.Bin-ECB5AC7EAAEE.png
+assets.boxBack: ./media/image/Golden Axe Iii.Bin-C33ADC755527.png
+assets.cartridge: ./media/image/Golden Axe Iii.Bin-8122EEBC8E99.png
+assets.marquee: ./media/image/Golden Axe Iii.Bin-8A0DBF46376E.png
+assets.screenshot: ./media/screenshots/Golden Axe Iii.Bin-6DBB0643C646.png
+assets.video: ./media/videos/Golden Axe Iii.Bin-AE1A3EC29C69.mp4
+assets.logo: ./media/image/Golden Axe Iii.Bin-8A0DBF46376E.png
+assets.background: ./media/fanart/Golden Axe Iii.Bin-6FD5528EB9F6.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Golden Axe Iii.Bin-22D92E8D2623.png
+assets.bezel: ./media/image/Golden Axe Iii.Bin-A20FC4EFEF8C.png
+rating: 0.60
+
+collection: megadrive
+game: GOLDEN AXE [28].GEN
+file: ./Golden Axe.Gen [28].gen.7z
+developer: TEAM SHINOBI
+publisher: SEGA
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	O JOGO SE passa NA terra fictícia nomeada yuria. UM mundo DE fantasia medieval NO estilo conan O bárbaro. UMA entidade maléfica conhecida COMO death adder capturou O REI E SUA filha, mantendo OS DOIS EM cativeiro dentro DE SEU castelo. Death adder também encontra O golden AXE (machado DE ouro), QUE é O símbolo DE yuria, COM isso, ELE ameaça destruir tanto O machado quanto A família real, A menos QUE O POVO DE yuria O aceite COMO governante. Então, três guerreiros partem EM UMA missão DE salvar yuria E vingar SUAS perdas pelas mãos DE death adder. O primeiro é gilius thunderhead, DAS minas DE wolud, QUE TEVE SEU irmão gêmeo assassinado pelos soldados DE death adder. O segundo é O bárbaro AX battler, QUE procura vingança PELO assassinato DE SUA mãe. E NO final, MAS não menos importante, temos tyris flare, QUE TEVE SEUS PAIS assassinados PELO próprio death adder. OS guerreiros resgataram OS habitantes DA então saqueada turtle village (vilarejo tartaruga), QUE TEM ESSE NOME POR SE encontrar NO casco DE UMA tartaruga gigante. ESSA tartaruga LEVA OS heróis através DO MAR E EM seguida voaram PARA O castelo DE death adder NAS costas DE UMA águia gigante. UMA VEZ NO castelo, OS heróis derrotam death adder, QUE estava dominando O golden AXE E salvam yuria.
+release: 1990-11-01
+players: 1-2
+x-id: 28
+assets.boxFront: ./media/image/Golden Axe.Gen-4F2E9EA55C99.png
+assets.boxBack: ./media/image/Golden Axe.Gen-947FA82C10FD.png
+assets.cartridge: ./media/image/Golden Axe.Gen-8D10A66EFFCA.png
+assets.marquee: ./media/image/Golden Axe.Gen-AB6551236923.png
+assets.screenshot: ./media/screenshots/Golden Axe.Gen-E86079DCD3EC.png
+assets.video: ./media/videos/Golden Axe.Gen-C883FC64A87C.mp4
+assets.logo: ./media/image/Golden Axe.Gen-AB6551236923.png
+assets.background: 
+assets.music: 
+assets.titlescreen: ./media/image/Golden Axe.Gen-8252D0FC6815.png
+assets.bezel: ./media/image/Golden Axe.Gen-859B2E8916B2.png
+rating: 0.80
+
+collection: megadrive
+game: GUNSTAR HEROES [89]
+file: ./Gunstar Heroes [89].7z
+developer: TREASURE
+publisher: SEGA
+genre: TIRO / RUN AND GUN, PLATAFORMA / TIRO COM ROLAGEM, TIRO, PLATAFORMA
+favorite: false
+description: 
+	A HISTÓRIA COMEÇOU HÁ MUITO, MUITO TEMPO ATRÁS... O FAMOSO PROFESSOR WHITE GUNSTAR TOMOU-SE O MAIOR HERÓI DO PLANETA GUNSTAR 9. NAQUELA ÉPOCA, UM PODEROSO ROBÔ CONHECIDO COMO GOLDEN SILVER ESTAVA ARRASANDO O PLANETA. MAS O PROFESSOR CONSEGUIU RETIRAR DELE AS QUATRO PEDRAS MÍSTICAS, E EXPULSÁ-LO PARA UMA LUA DISTANTE. MUITOS ANOS SE PASSARAM E TUDO ESTAVA CALMO. MAS UM DITADOR CHAMADO CORONEL RED, IMAGINANDO QUE A FAMÍLIA GUNSTAR SABERIA ONDE ESTÃO AS PEDRAS, SEQÜESTROU O FILHO MAIS VELHO, GREEN, E ESTÁ FORÇANDO-O A SER OBEDIENTE! É AÍ QUE VOCÊ ENTRA NA HISTÓRIA. COMO O FILHO DO PROFESSOR, VOCÊ DEVE DETER O CORONEL E IMPEDI-LO DE TRAZER DE VOLTA O TERROR DE GOLDEN SIVER. NÃO SERÁ NADA FÁCIL, A LUTA SERÁ CONTRA ANDRÓIDES E ARMAS PODEROSAS. CHAME SEUS AMIGOS E LUTE PRA VALER! GUNSTAR 9 CONTA COM VOCÊ!
+release: 1993-09-10
+players: 1-2
+x-id: 89
+assets.boxFront: ./media/image/Gunstar Heroes-5B84F881CE1F.png
+assets.boxBack: ./media/image/Gunstar Heroes-99BBA4B9564A.png
+assets.cartridge: ./media/image/Gunstar Heroes-0220D6FB1247.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Gunstar Heroes-366D7116D683.png
+assets.video: ./media/videos/Gunstar Heroes-D68CAD85B73B.mp4
+assets.logo: 
+assets.background: ./media/fanart/Gunstar Heroes-4F58218582BB.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Gunstar Heroes-D36403070BF5.png
+assets.bezel: ./media/image/Gunstar Heroes-17848F8D50DB.png
+rating: 0.80
+
+collection: megadrive
+game: HAUNTING STARRING POLTERGUY [364].MD
+file: ./Haunting Starring Polterguy.Md [364].md.7z
+developer: ELECTRONIC ARTS
+publisher: ELECTRONIC ARTS
+genre: AÇÃO / AVENTURA, AÇÃO
+favorite: false
+description: 
+	O fantasma DE UM adolescente busca vingança contra UMA família esnobe. SEU trabalho é assustá-los PARA QUE saiam DE SUAS casas. ELES não podem VER você, então SEU único MEIO DE assustá-los é possuindo vários objetos EM TODA A casa. POR exemplo, possuir UMA peça DE mobília faria COM QUE ALGO saísse DELA E possuísse UM objeto QUE A tornaria VIVA DE UMA forma OU DE outra. Você precisa AGIR rapidamente, porque você TEM ALGO chamado "ecto", QUE ATUA COMO O combustível QUE permite QUE você percorra O mundo real. Quanto MAIS sustos você conseguir, MAIS ECTO você ganha. Perder TODO O ECTO manda você PARA O submundo, ONDE você TEM QUE recuperar O SEU ECTO A plena capacidade PARA voltar AO mundo real.
+release: 1993-09-01
+players: 1-2
+x-id: 364
+assets.boxFront: ./media/image/Haunting Starring Polterguy.Md-3CBDBC7AE4FC.png
+assets.boxBack: ./media/image/Haunting Starring Polterguy.Md-6E6E578DD553.png
+assets.cartridge: ./media/image/Haunting Starring Polterguy.Md-3F9E4947E877.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Haunting Starring Polterguy.Md-11B5BA6A92B6.png
+assets.video: ./media/videos/Haunting Starring Polterguy.Md-71C52B9225DB.mp4
+assets.logo: 
+assets.background: ./media/fanart/Haunting Starring Polterguy.Md-0E8B6AFD3C43.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Haunting Starring Polterguy.Md-2E18CA2A892B.png
+assets.bezel: ./media/image/Haunting Starring Polterguy.Md-64E4B2E1EF9B.png
+rating: 0.60
+
+collection: megadrive
+game: JEWEL MASTER [366].SMD
+file: ./Jewel Master.Smd [366].smd.7z
+developer: SEGA
+publisher: SEGA
+genre: PLATAFORMA
+favorite: false
+description: 
+	Enquanto O pacífico reino DE mythgard SE aproxima DE SER derrubado PELO REI demônio jardine O louco, OS mestres elementais DO reino SE uniram EM batalha. ELES combateram jardine até QUE não houvesse MAIS QUE quatro deles. OS quatro restantes combinaram SEUS poderes PARA formar A lâmina elemental QUE poderá SER usada PARA derrotar O REI demônio. O mestre DAS jóias(jewel master) FOI invocado PARA empunhar A lâmina, MAS ELA FOI perdida E OS anéis DOS mestres elementais foram espalhados através DE mythgard, COM exceção DE dois. O mestre DAS jóias DEVE buscar OS outros DEZ anéis DOS mestres elementais E recuperar A lâmina PARA O confronto final COM O REI demônio. A jogabilidade é baseado EM plataforma COM LUTA contra vários monstros COMO EM qualquer clássico DE arcade. PARA tal, você TEM A disposição diversos anéis, DOIS DOS quais você começa NO JOGO E OS outros são obtidos NO caminho. CADA ANEL é DE UM DOS quatro elementos, E AO combiná-los novos efeitos são criados. Anéis DE elementos opostos SE cancelam, contudo você possui DUAS mãos PARA poder EM UMA delas TER efeitos DE FOGO E NA outra DE água(por exemplo). OS anéis também possuem níveis distintos DE força, aumentando A complexidade DAS combinações.
+release: 1991-12-01
+players: 1
+x-id: 366
+assets.boxFront: ./media/image/Jewel Master.Smd-5C14ED665644.png
+assets.boxBack: ./media/image/Jewel Master.Smd-EDFC18688B21.png
+assets.cartridge: ./media/image/Jewel Master.Smd-B8E25C1D6D60.png
+assets.marquee: ./media/image/Jewel Master.Smd-783AA45D0A5B.png
+assets.screenshot: ./media/screenshots/Jewel Master.Smd-FF6ABE3A8CA5.png
+assets.video: ./media/videos/Jewel Master.Smd-B8B6805CFFE4.mp4
+assets.logo: ./media/image/Jewel Master.Smd-783AA45D0A5B.png
+assets.background: ./media/fanart/Jewel Master.Smd-4EFF33360CB5.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Jewel Master.Smd-FB3403391103.png
+assets.bezel: ./media/image/Jewel Master.Smd-B007E2088F74.png
+rating: 0.80
+
+collection: megadrive
+game: KID CHAMELEON [38].MD
+file: ./Kid Chameleon.Md [38].md.7z
+developer: SEGA
+publisher: SEGA
+genre: PLATAFORMA, AVENTURA
+favorite: false
+description: 
+	KID chameleon é UM JOGO DE plataforma side-scroller ONDE O personagem principal entra EM UMA realidade virtual chamada "wild side" PARA libertar outras crianças QUE foram capturadas. ELE PODE alterar A SUA forma EM várias outras(daí O "chameleon" - camaleão EM inglês). ISTO LHE dá A habilidades especiais QUE devem SER usadas PARA passar CADA UM DOS MAIS DE 100 estágios DO jogo. UM FATO interessante sobre KID chameleon é QUE O JOGO possui MAIS DE 100 níveis(vários deles muito, MAS muito difíceis) E QUE devem SER jogados EM sequencia E não existe A possibilidade DE salvar OU utilizar password - O QUE significa QUE completar ESTE JOGO é UM feito extraordinário DE perseverança(e paciência).
+release: 1992-05-01
+players: 1-2
+x-id: 38
+assets.boxFront: ./media/image/Kid Chameleon.Md-BC69A99DCA7F.png
+assets.boxBack: ./media/image/Kid Chameleon.Md-2A51CCBA5580.png
+assets.cartridge: ./media/image/Kid Chameleon.Md-A6AB4C2EFE5B.png
+assets.marquee: ./media/image/Kid Chameleon.Md-04853AAAF3E8.png
+assets.screenshot: ./media/screenshots/Kid Chameleon.Md-8295FBA000AC.png
+assets.video: ./media/videos/Kid Chameleon.Md-7F18E98681FE.mp4
+assets.logo: ./media/image/Kid Chameleon.Md-04853AAAF3E8.png
+assets.background: ./media/fanart/Kid Chameleon.Md-CD3EA50BE1D6.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Kid Chameleon.Md-6266C844DA41.png
+assets.bezel: ./media/image/Kid Chameleon.Md-821430BD87CB.png
+rating: 0.60
+
+collection: megadrive
+game: MORTAL KOMBAT [12].GEN
+file: ./Mortal Kombat.Gen [12].gen.7z
+developer: PROBE SOFTWARE
+publisher: ACCLAIM ENTERTAINMENT
+genre: LUTA
+favorite: false
+description: 
+	Simplesmente mortal! OS SETE melhores lutadores estão reunidos PARA derrotar O grande campeão GORO E O terrível demônio shang tsung. Estilos DE LUTA diferentes E golpes especiais DE arrepiar! UM grande sucesso DOS arcades, agora NO MEGA drive, COM 16 MEGA DE gráficos digitalizados E muita velocidade NOS movimentos. Lembre-se: A mente é muito MAIS poderosa DO QUE O corpo. EM combate entre DOIS lutadores iguais, O QUE decide é A sabedoria. Escolha A melhor estratégia, concentre-se E BOA sorte! O QUE está EM JOGO não é A vitória. É A SUA vida! Detone OS inimigos COM O chute sombra DE johnny cage! A BOLA DE FOGO DE LIU KANG VAI apagar OS adversários! Encare OS melhores guerreiros DO torneio! GORO ainda resiste! Destrua-o! Venha aqui! Você está SOB O controla DE scorpion! Muito energia E concentração. QUEM é O melhor?
+release: 1993-09-13
+players: 1-2
+x-id: 12
+assets.boxFront: ./media/image/Mortal Kombat.Gen-866565FDDDC7.png
+assets.boxBack: ./media/image/Mortal Kombat.Gen-EE66DB271758.png
+assets.cartridge: 
+assets.marquee: ./media/image/Mortal Kombat.Gen-D1E36B5AD501.png
+assets.screenshot: ./media/screenshots/Mortal Kombat.Gen-31D8726D24AA.png
+assets.video: ./media/videos/Mortal Kombat.Gen-5D372A3FE9B8.mp4
+assets.logo: ./media/image/Mortal Kombat.Gen-D1E36B5AD501.png
+assets.background: ./media/fanart/Mortal Kombat.Gen-808E87B45B45.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Mortal Kombat.Gen-C8524E1B25DC.png
+assets.bezel: ./media/image/Mortal Kombat.Gen-CF9266802CDD.png
+rating: 0.60
+
+collection: megadrive
+game: MUSHA - METALLIC UNIFRAME SUPER HYBRID ARMOR [186].GEN
+file: ./Musha - Metallic Uniframe Super Hybrid Armor.Gen [186].gen.7z
+developer: COMPILE
+publisher: SEISMIC
+genre: SHOOT'EM UP / VERTICAL, SHOOT'EM UP
+favorite: false
+description: 
+	M.u.s.h.a é UM shoot'em UP PARA megadrive. Você está NO cockpit DE UMA "metallic uniframe super hybrid armor" OU "suoer armadura híbrida uniframe metálica" E SEU objetivo é destruir O máximo DE inimigos AO longo DOS níveis DO jogo. Vários bônus podem SER pegos AO longo DO caminho, incluindo pequenos satélites QUE podem TE defender OU atacar POR você.
+release: 1990-01-01
+players: 1
+x-id: 186
+assets.boxFront: ./media/image/Musha - Metallic Uniframe Super Hybrid Armor.Gen-EBF5B6F7027A.png
+assets.boxBack: ./media/image/Musha - Metallic Uniframe Super Hybrid Armor.Gen-9C3DE3DF471A.png
+assets.cartridge: ./media/image/Musha - Metallic Uniframe Super Hybrid Armor.Gen-BFF828129BF1.png
+assets.marquee: ./media/image/Musha - Metallic Uniframe Super Hybrid Armor.Gen-3D7F7429E46D.png
+assets.screenshot: ./media/screenshots/Musha - Metallic Uniframe Super Hybrid Armor.Gen-364B8CBA4A4A.png
+assets.video: ./media/videos/Musha - Metallic Uniframe Super Hybrid Armor.Gen-B47C073F49C5.mp4
+assets.logo: ./media/image/Musha - Metallic Uniframe Super Hybrid Armor.Gen-3D7F7429E46D.png
+assets.background: ./media/fanart/Musha - Metallic Uniframe Super Hybrid Armor.Gen-570C62E6B113.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Musha - Metallic Uniframe Super Hybrid Armor.Gen-72D23074D0EE.png
+assets.bezel: ./media/image/Musha - Metallic Uniframe Super Hybrid Armor.Gen-3FC0C632F109.png
+rating: 0.80
+
+collection: megadrive
+game: PROBOTECTOR [69].BIN
+file: ./Probotector.Bin [69].bin.7z
+developer: KONAMI
+publisher: KONAMI
+genre: TIRO / RUN AND GUN, TIRO
+favorite: false
+description: 
+	UMA facção militar criminosa roubou UMA célula alienígena remanescente DA alien WAR ocorrida NO último GAME DA franquia, contra iii, E planeja COM ELA ressuscitar E clonar UM alien chamado RED falcon, O MAIS perigoso SER QUE já existiu. Assim, O jogador é apresentado então AOS HARD corps, UMA organização militar DE defesa terrestre QUE conta COM quatro soldados altamente treinados EM técnicas E operações especiais DE contenção alienígena e, NA PELE DE UM deles, deverá passar POR diversas E dificílimas etapas DE MODO A impedir QUE OS criminosos consigam realizar SEUS planos, ALGO QUE PODE colocar O planeta inteiro EM perigo.
+release: 1994-11-01
+players: 1-2
+x-id: 69
+assets.boxFront: ./media/image/Probotector.Bin-43F2CC7B81E9.png
+assets.boxBack: ./media/image/Probotector.Bin-3A0404B31C17.png
+assets.cartridge: ./media/image/Probotector.Bin-0E554A92C271.png
+assets.marquee: ./media/image/Probotector.Bin-0A2CA15B3DE1.png
+assets.screenshot: ./media/screenshots/Probotector.Bin-BB7EFFE7A193.png
+assets.video: ./media/videos/Probotector.Bin-DEE180A8E8A1.mp4
+assets.logo: ./media/image/Probotector.Bin-0A2CA15B3DE1.png
+assets.background: ./media/fanart/Probotector.Bin-387FB6391E4E.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Probotector.Bin-22834ED18C3F.png
+assets.bezel: ./media/image/Probotector.Bin-C3F9628B0519.png
+rating: 0.80
+
+collection: megadrive
+game: PULSEMAN [210].GEN
+file: ./Pulseman.Gen [210].gen.7z
+developer: GAME FREAK
+publisher: SEGA
+genre: PLATAFORMA
+favorite: false
+description: 
+	Pulseman é UM herói elétrico QUE FOI criado PARA combater O crime cibernético. LUTE contra A gangue "galaxy" AO longo DE 7 estágios COM cerca DE 50 níveis. Pulseman é melhor descrito COMO UMA fusão entre A jogabilidade DE sonic THE hedgehog E MEGA MAN NA forma DE jogar.
+players: 1
+x-id: 210
+assets.boxFront: ./media/image/Pulseman.Gen-7E4EE8D1F4D5.png
+assets.boxBack: ./media/image/Pulseman.Gen-86BCC56DB313.png
+assets.cartridge: ./media/image/Pulseman.Gen-747BD04A29FD.png
+assets.marquee: ./media/image/Pulseman.Gen-978178527114.png
+assets.screenshot: ./media/screenshots/Pulseman.Gen-238C021710E6.png
+assets.video: ./media/videos/Pulseman.Gen-CDADE164893F.mp4
+assets.logo: ./media/image/Pulseman.Gen-978178527114.png
+assets.background: ./media/fanart/Pulseman.Gen-1A46A6CF406B.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Pulseman.Gen-54679172460E.png
+assets.bezel: ./media/image/Pulseman.Gen-280818F2010E.png
+rating: 0.80
+
+collection: megadrive
+game: RISTAR [42].GEN
+file: ./Ristar.Gen [42].gen.7z
+developer: SEGA
+publisher: SEGA
+genre: PLATAFORMA
+favorite: false
+description: 
+	Pegue UMA estrela! Ristar, O filho DE UM legendário herói QUE FOI capturado, é A última esperança DO sistema solar contra O maligno pirata DO espaço: greedy. Ristar precisa viajar PARA SETE planetas PARA tentar restaurar A PAZ e, é claro, POR último MAS não menos importante, libertar SEU pai. Ristar estica SEUS longos E elásticos braços PARA agarrar inimigos E destruí-los SEM piedade. Descubra mundos totalmente diferentes COM novas criaturas EM CADA planeta. Ataque estranhos seres QUE não são exatamente O QUE parecem ser! Divirta-se COM UM JOGO QUE combina ação E estratégia COM UM personagem QUE surpreende A CADA momento.
+release: 1995-02-17
+players: 1
+x-id: 42
+assets.boxFront: ./media/image/Ristar.Gen-0AE066E3CA6C.png
+assets.boxBack: ./media/image/Ristar.Gen-FC2833E96C54.png
+assets.cartridge: ./media/image/Ristar.Gen-53617F11C178.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Ristar.Gen-A9DA9BC2088D.png
+assets.video: ./media/videos/Ristar.Gen-80CC8DED1EEA.mp4
+assets.logo: 
+assets.background: ./media/fanart/Ristar.Gen-C38752DC0D4E.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Ristar.Gen-F61F77E5A29C.png
+assets.bezel: ./media/image/Ristar.Gen-72422D0D8800.png
+rating: 0.80
+
+collection: megadrive
+game: ROAD RASH II [102].MD
+file: ./Road Rash Ii.Md [102].md.7z
+developer: ELECTRONIC ARTS
+publisher: ELECTRONIC ARTS
+genre: CORRIDA, PILOTAGEM
+favorite: false
+description: 
+	UM JOGO DE corrida DE motos COM atitude. Você corre EM ambientes variados PARA ganhar CADA VEZ MAIS dinheiro. COM ESSE dinheiro você PODE comprar motos MAIS rápidas E melhores. Há muitos objetos NO caminho PARA observar, DE carros A pedras E placas, SE você acertar um, você VAI VOAR E perder UM tempo valioso. SE você bater COM muita freqüência, SUA MOTO PODE ficar destruída. Você também PODE atacar outros pilotos. O ataque padrão é UM soco, MAS alguns pilotos têm armas, QUE você PODE roubar E USAR contra eles. A polícia patrulha várias corridas, então SE você não tomar cuidado, PODE SER preso. ROAD RASH II não é apenas UM JOGO DE corrida, MAS também UM JOGO DE luta.
+release: 1993-01-01
+players: 1-2
+x-id: 102
+assets.boxFront: ./media/image/Road Rash Ii.Md-D574979A54D3.png
+assets.boxBack: ./media/image/Road Rash Ii.Md-FB852873F351.png
+assets.cartridge: ./media/image/Road Rash Ii.Md-D1F0CE072E10.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Road Rash Ii.Md-99B4BA96F089.png
+assets.video: ./media/videos/Road Rash Ii.Md-2DC4588492C7.mp4
+assets.logo: 
+assets.background: ./media/fanart/Road Rash Ii.Md-25568303C169.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Road Rash Ii.Md-175CB5D8395E.png
+assets.bezel: ./media/image/Road Rash Ii.Md-98E27B041695.png
+rating: 0.60
+
+collection: megadrive
+game: ROAD RASH [119].GEN
+file: ./Road Rash.Gen [119].gen.7z
+developer: ELECTRONIC ARTS
+publisher: ELECTRONIC ARTS
+genre: CORRIDA, PILOTAGEM / MOTO, CORRIDA, PILOTAGEM
+favorite: false
+description: 
+	SEM limite DE velocidade! Pilote UMA incrível MOTO DE corrida pelas estradas DA califórnia. Esquive-se DE vacas, poças DE óleo E carros QUE vêm EM SUA direção! SEM regras! Disfaça-se DE 15 outros motociclistas QUE estão EM SEU caminho. Não! Você não entendeu! Não é ultrapasse-os... É chute-os, derrube-os! AQUI VALE tudo!! Serão 5 corridas EM CADA nível E AO final DE CADA UMA delas você ganhará UMA certa quantia DE dinheiro. PARA quê? PARA comprar motocicletas ainda MAIS velozes! Vamos lá! Entre PARA A MAIS ilegal, perigosa E emocionante corrida DE SUA vida!
+release: 1991-09-01
+players: 1-2
+x-id: 119
+assets.boxFront: ./media/image/Road Rash.Gen-0DE281367A18.png
+assets.boxBack: ./media/image/Road Rash.Gen-8B8B70BC5C15.png
+assets.cartridge: ./media/image/Road Rash.Gen-25C142131D78.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Road Rash.Gen-69DE233AEA19.png
+assets.video: ./media/videos/Road Rash.Gen-91F98D240EEA.mp4
+assets.logo: 
+assets.background: ./media/fanart/Road Rash.Gen-103BB8D9F950.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Road Rash.Gen-50481CD8D55E.png
+assets.bezel: ./media/image/Road Rash.Gen-207D58E1940A.png
+rating: 0.60
+
+collection: megadrive
+game: ROCKET KNIGHT ADVENTURES [72].MD
+file: ./Rocket Knight Adventures.Md [72].md.7z
+developer: KONAMI
+publisher: KONAMI
+genre: PLATAFORMA
+favorite: false
+description: 
+	Rocket knight adventures é UM JOGO DE plataforma/ação PARA O MEGA drive. O protagonista SE chama sparkster, UM destemido gambá QUE empunha SUA espada E veste SUA armadura COM foguetes (daí O NOME rocket knight) PARA salvar A princesa DO traidor AXEL gear, UM antigo aliado QUE acabou traindo A todos COM SUA ambição desmedida. O jogador precisa ultrapassar SETE fases COM ação E diversos inimigos PELO caminho. Você terá A SUA espada PARA atacar E poderá lançar UM projétil A curta distância. É possível carregar A barra DO foguete PARA conseguir SE projetar PARA UM ataque frontal ou, SE O jogador não pressionar O direcional, poderá desferir UM ataque giratório SEM SE deslocar. O personagem consegue coletar diversos itens PELO caminho E UM EM especial chamado "power item" mantém A barra DO foguete NO máximo POR UM curto período DE tempo, MAS O suficiente PARA causar UM BELO estrago NOS inimigos.
+release: 1993-09-24
+players: 1
+x-id: 72
+assets.boxFront: ./media/image/Rocket Knight Adventures.Md-7C7DE8EDAE57.png
+assets.boxBack: ./media/image/Rocket Knight Adventures.Md-9F8E8B706C53.png
+assets.cartridge: ./media/image/Rocket Knight Adventures.Md-B66B20237AE8.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Rocket Knight Adventures.Md-7EA9228D651C.png
+assets.video: ./media/videos/Rocket Knight Adventures.Md-C699896D66B1.mp4
+assets.logo: 
+assets.background: ./media/fanart/Rocket Knight Adventures.Md-CC5269A9E25C.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Rocket Knight Adventures.Md-79E6631D7DCD.png
+assets.bezel: ./media/image/Rocket Knight Adventures.Md-7049E18C0249.png
+rating: 0.80
+
+collection: megadrive
+game: SHINOBI III - RETURN OF THE NINJA MASTER [11]
+file: ./Shinobi III - Return Of The Ninja Master [11].7z
+developer: MEGASOFT
+publisher: SEGA
+genre: PLATAFORMA
+favorite: false
+description: 
+	VOCÊ CONHECE JOE MUSASHI? UMA DICA: ELE ACABOU COM OS PLANOS DA ORGANIZAÇÃO CRIMINOSA NEO ZEED, USANDO SEUS INCRÍVEIS CONHECIMENTOS DE ARTES MARCIAIS. EXATAMENTE, JOE É NA VERDADE O MESTRE SHINOBI! DEPOIS DE DERROTAR ESTA GANGUE DO MAL, SHINOBI RESOLVEU VOLTAR PARA O JAPÃO E APERFEIÇOAR AINDA MAIS AS SUAS TÉCNICAS NINJAS. MAS ENQUANTO ISSO, NEO CITY ASSISTIA À VOLTA DO CRIME E DA TERRÍVEL ORGANIZAÇÃO NEO ZEED! AGORA NA SUA MELHOR FORMA, SHINOBI TERÁ QUE ENFRENTAR OS BANDIDOS E ARMAS MAIS PERIGOSAS USANDO SUA MAGIA, SUA ESPADA, SHURIKENS E MUITA FORÇA PARA LIVRAR A CIDADE. COM SEU CAVALO OU ATÉ COM UM JET SKI, ENCARE 25 NÍVEIS DE FÚRIA! CORAGEM, GUERREIRO NINJA!
+release: 1993-07-24
+players: 1
+x-id: 11
+assets.boxFront: ./media/image/Shinobi III - Return Of The Ninja Master-B4B18B49F343.png
+assets.boxBack: ./media/image/Shinobi III - Return Of The Ninja Master-CDBBE71A4642.png
+assets.cartridge: ./media/image/Shinobi III - Return Of The Ninja Master-14E9CF18029C.png
+assets.marquee: ./media/image/Shinobi III - Return Of The Ninja Master-2039BA2CD410.png
+assets.screenshot: ./media/screenshots/Shinobi III - Return Of The Ninja Master-10BCE95BFCA3.png
+assets.video: ./media/videos/Shinobi III - Return Of The Ninja Master-00B7EE9D2DBC.mp4
+assets.logo: ./media/image/Shinobi III - Return Of The Ninja Master-2039BA2CD410.png
+assets.background: ./media/fanart/Shinobi III - Return Of The Ninja Master-E618F8200BD0.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Shinobi III - Return Of The Ninja Master-412E7E5D433E.png
+assets.bezel: ./media/image/Shinobi III - Return Of The Ninja Master-BE05C36319D6.png
+rating: 0.80
+
+collection: megadrive
+game: SOCKET [1181].SMD
+file: ./Socket.Smd [1181].smd.7z
+developer: VIC TOKAI
+publisher: TOKAI ENGINEERING
+genre: PLATAFORMA
+favorite: false
+description: 
+	O herói socket (ou minute, NA versão japonesa) é UM viajante DO tempo E precisa deter O perigoso TIME dominator. O JOGO SE inspira muito EM sonic, inclusive EM SUA velocidade, E coloca O PATO viajante COMO UM grande condutor DE energia elétrica, O QUE explicaria A SUA agilidade. A jogabilidade TEM ênfase NO estilo plataforma. Será necessário escapar DE labirintos E explorar AS fases EM busca DE itens.
+release: 1994-01-01
+players: 1
+x-id: 1181
+assets.boxFront: ./media/image/Socket.Smd-341E5AA6AF9A.png
+assets.boxBack: ./media/image/Socket.Smd-E641C530D722.png
+assets.cartridge: ./media/image/Socket.Smd-28717A0C0185.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Socket.Smd-7235E532BC38.png
+assets.video: ./media/videos/Socket.Smd-723E83ABF406.mp4
+assets.logo: 
+assets.background: ./media/fanart/Socket.Smd-6438338B6173.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Socket.Smd-1DFACEDFFC06.png
+assets.bezel: ./media/image/Socket.Smd-7AC3F9026E34.png
+rating: 0.60
+
+collection: megadrive
+game: SONIC & KNUCKLES + SONIC THE HEDGEHOG 2 [1184].SMD
+file: ./Sonic & Knuckles + Sonic The Hedgehog 2.Smd [1184].smd.7z
+developer: SONIC TEAM
+publisher: SEGA
+genre: PLATAFORMA
+favorite: false
+description: 
+	Knuckles THE echidna IN sonic THE hedgehog 2 (ou simplesmente knuckles IN sonic 2) é UM JOGO DE plataforma resultado DA junção DO sonic & knuckles COM O sonic THE hedgehog 2 usando A exclusiva tecnologia DE "lock-on" DO cartucho. COMO O NOME sugere, ESTE JOGO é essencialmente idêntico A sonic THE hedgehog 2 COM exceção DE knuckles THE echidna estrelando COMO O personagem principal E sonic THE hedgehog E miles "tails" prower não são jogáveis ​​no jogo.
+release: 1994-10-18
+players: 1
+x-id: 1184
+assets.boxFront: ./media/image/Sonic & Knuckles + Sonic The Hedgehog 2.Smd-D1A4E5DBA986.png
+assets.boxBack: 
+assets.cartridge: ./media/image/Sonic & Knuckles + Sonic The Hedgehog 2.Smd-76F13EA332F2.png
+assets.marquee: ./media/image/Sonic & Knuckles + Sonic The Hedgehog 2.Smd-75310D99E53E.png
+assets.screenshot: ./media/screenshots/Sonic & Knuckles + Sonic The Hedgehog 2.Smd-1DBFDAE498C6.png
+assets.video: ./media/videos/Sonic & Knuckles + Sonic The Hedgehog 2.Smd-75CC60F7A0E3.mp4
+assets.logo: ./media/image/Sonic & Knuckles + Sonic The Hedgehog 2.Smd-75310D99E53E.png
+assets.background: ./media/fanart/Sonic & Knuckles + Sonic The Hedgehog 2.Smd-3192971234B0.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sonic & Knuckles + Sonic The Hedgehog 2.Smd-0C94E3B854C9.png
+assets.bezel: ./media/image/Sonic & Knuckles + Sonic The Hedgehog 2.Smd-529DF4E7F897.png
+rating: 0.80
+
+collection: megadrive
+game: SONIC & KNUCKLES + SONIC THE HEDGEHOG 3 [1185].SMD
+file: ./Sonic & Knuckles + Sonic The Hedgehog 3.Smd [1185].smd.7z
+developer: SONIC TEAM
+publisher: SEGA
+genre: PLATAFORMA, PLATAFORMA / CORRE E PULA COM ROLAGEM
+favorite: false
+description: 
+	O OVO DA morte DO dr. Eggman (conhecido COMO dr. Robotnik) MAIS UMA VEZ FOI destruído POR sonic, caindo NO CUME DE UM vulcão NA floating island (ilha flutuante). Dr. Eggman ainda está livre, E sonic não PODE deixá-lo colocar AS mãos NA master emerald A FIM DE consertar O death egg. Sonic também DEVE ficar longe DE knuckles, QUE também está COM problemas. Sendo O guardião DA ILHA flutuante E DE todas AS esmeraldas, knuckles TEM A responsabilidade DE manter A ILHA segura. Enquanto sonic E knuckles estão ocupados EM confrontos, QUEM VAI parar O dr. Eggman?
+release: 1994-10-18
+players: 1-2
+x-id: 1185
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: ./media/image/Sonic & Knuckles + Sonic The Hedgehog 3.Smd-75AAF2DD0AAA.png
+assets.marquee: ./media/image/Sonic & Knuckles + Sonic The Hedgehog 3.Smd-EB0498B6DCDE.png
+assets.screenshot: ./media/screenshots/Sonic & Knuckles + Sonic The Hedgehog 3.Smd-103D61FA5EC3.png
+assets.video: ./media/videos/Sonic & Knuckles + Sonic The Hedgehog 3.Smd-C697A1305E8D.mp4
+assets.logo: ./media/image/Sonic & Knuckles + Sonic The Hedgehog 3.Smd-EB0498B6DCDE.png
+assets.background: ./media/fanart/Sonic & Knuckles + Sonic The Hedgehog 3.Smd-178BB30C7B41.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sonic & Knuckles + Sonic The Hedgehog 3.Smd-2D946D453211.png
+assets.bezel: ./media/image/Sonic & Knuckles + Sonic The Hedgehog 3.Smd-540836C428F5.png
+rating: 0.80
+
+collection: megadrive
+game: SONIC & KNUCKLES [14] {EE1177D2}.SMD
+file: ./Sonic & Knuckles.Smd [14].smd.7z
+developer: SEGA
+publisher: SEGA
+genre: PLATAFORMA
+favorite: false
+description: 
+	Sonic & knuckles continua A história diretamente DE ONDE sonic THE hedgehog 3 parou. A explosão DO death EGG envia sonic NAS profundezas DA angel island EM mushroom hill. Sonic descobre QUE A master emerald está escondida EM algum lugar NA ILHA E TEM certeza DE QUE O dr. Robotnik A QUER PARA QUE dê poder ilimitado AO SEU death egg. Knuckles provavelmente SABE ONDE está - MAS sonic poderá parar OS planos DE robotnik E encontrar A master emerald enquanto LUTA contra knuckles? Enquanto isso, knuckles está vigiando A ILHA quando é atacado POR UM DOS robôs DE robotnik! ELE rapidamente começa UMA perseguição POR vingança.
+release: 1994-10-18
+players: 1
+x-id: 14
+assets.boxFront: ./media/image/Sonic & Knuckles.Smd-42845F8EA528.png
+assets.boxBack: ./media/image/Sonic & Knuckles.Smd-CB4AF2CA6414.png
+assets.cartridge: ./media/image/Sonic & Knuckles.Smd-D5FA75371C5C.png
+assets.marquee: ./media/image/Sonic & Knuckles.Smd-6DA24A020AC7.png
+assets.screenshot: ./media/screenshots/Sonic & Knuckles.Smd-DD8114045DB9.png
+assets.video: ./media/videos/Sonic & Knuckles.Smd-B7ED66C354BC.mp4
+assets.logo: ./media/image/Sonic & Knuckles.Smd-6DA24A020AC7.png
+assets.background: ./media/fanart/Sonic & Knuckles.Smd-9FFBDCE2C291.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sonic & Knuckles.Smd-6FAE180FF03C.png
+assets.bezel: ./media/image/Sonic & Knuckles.Smd-DFB3DCDEF92F.png
+rating: 0.80
+
+collection: megadrive
+game: SONIC & KNUCKLES [14].SMD
+file: ./Sonic & Knuckles.Smd [1183].smd.7z
+developer: SEGA
+publisher: SEGA
+genre: PLATAFORMA
+favorite: false
+description: 
+	BLUE sphere é UM JOGO secreto NO cartucho DE sonic & knuckles PARA O SEGA MEGA drive, acessível AO anexar qualquer cartucho DE MEGA drive (que não SEJA sonic THE hedgehog 2 OU sonic THE hedgehog 3) NA entrada lock-on DE sonic & knuckles. BLUE sphere é UMA coleção DE special stages NO mesmo estilo E engine DOS apresentados EM sonic THE hedgehog 3 E sonic & knuckles. O NOME BLUE sphere VEM DO NOME mostrado NA listagem EM sonic MEGA collection E sonic MEGA collection plus.
+release: 1994-10-18
+players: 1
+x-id: 1183
+assets.boxFront: ./media/image/Sonic & Knuckles.Smd-D1F5F030A88D.png
+assets.boxBack: 
+assets.cartridge: ./media/image/Sonic & Knuckles.Smd-D5FA75371C5C.png
+assets.marquee: ./media/image/Sonic & Knuckles.Smd-673E4CE36980.png
+assets.screenshot: ./media/screenshots/Sonic & Knuckles.Smd-BF62AE6669B3.png
+assets.video: ./media/videos/Sonic & Knuckles.Smd-1A049CFE3F4D.mp4
+assets.logo: ./media/image/Sonic & Knuckles.Smd-673E4CE36980.png
+assets.background: ./media/fanart/Sonic & Knuckles.Smd-DCE80F531679.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sonic & Knuckles.Smd-85DDDC0EADBC.png
+assets.bezel: ./media/image/Sonic & Knuckles.Smd-255B88CB95B5.png
+rating: 0.80
+
+collection: megadrive
+game: SONIC 3 [1187].SMD
+file: ./Sonic 3.Smd [1187].smd.7z
+developer: SONIC TEAM
+publisher: SEGA
+genre: PLATAFORMA
+favorite: false
+description: 
+	O death EGG DO dr. Robotnik aterrissou NA angel island, também conhecida COMO ILHA flutuante porque aproveita O poder DA master emerald PARA flutuar NO ar. Robotnik precisa DELA PARA reparar O death egg, então ELE DIZ AO guardião DA ilha, knuckles THE echidna QUE sonic E tails estão lá PARA roubá-la. COM knuckles enganado E tentando parar OS heróis, ELES serão capazes DE impedir robotnik A tempo?
+release: 1994-02-24
+players: 1-2
+x-id: 1187
+assets.boxFront: ./media/image/Sonic 3.Smd-479D9643ECB9.png
+assets.boxBack: ./media/image/Sonic 3.Smd-7BECDD931F41.png
+assets.cartridge: ./media/image/Sonic 3.Smd-92F0D02C92BF.png
+assets.marquee: ./media/image/Sonic 3.Smd-D53F95545E31.png
+assets.screenshot: ./media/screenshots/Sonic 3.Smd-40BD18ECEA24.png
+assets.video: ./media/videos/Sonic 3.Smd-2E0173E6C884.mp4
+assets.logo: ./media/image/Sonic 3.Smd-D53F95545E31.png
+assets.background: ./media/fanart/Sonic 3.Smd-FFD646240EEC.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sonic 3.Smd-F6B13B4117DB.png
+assets.bezel: ./media/image/Sonic 3.Smd-FB5A56220F7E.png
+rating: 0.80
+
+collection: megadrive
+game: SONIC 3D FLICKIES' ISLAND [18434].SMD
+file: ./Sonic 3D Flickies' Island.Smd [18434].smd.7z
+developer: TRAVELLER'S TALES
+publisher: SEGA
+genre: PLATAFORMA
+favorite: false
+description: 
+	AO visitar A flicky island, sonic NOTA QUE OS flickies, SEUS pequenos amigos emplumados QUE podem viajar entre mundos paralelos foram capturados E transformados EM badniks (os robôs inimigos DO sonic) PELO dr. Robotnik EM SUA busca interminável pelas chaos emeralds. SETE fases separam sonic DO confronto final COM robotnik. Sonic 3D blast FOI O último título DO sonic lançado PARA O MEGA drive, O único JOGO DE plataforma DO borrão AZUL NO SEGA saturn E UMA DE SUAS raras aparições EM pcs. O título, considerando A época EM QUE FOI lançado, é UM tanto enganador, POIS AO invés DE gráficos 3d, ELE USA UMA visão isométrica ONDE sonic PODE SE mover não apenas PARA A frente E PARA trás, MAS também PARA A esquerda E PARA A direita. A jogabilidade é muito MAIS lenta quando comparada COM outros jogos DA série E O número DE badniks FOI reduzido PARA cinco EM CADA seção. COMO DE costume, quando sonic destrói UM badnik, UM animal salta livre DE dentro, MAS desta VEZ sonic TEM QUE pegá-lo E levá-los PARA UM ANEL interdimensional. Enquanto ELES podem SER pegos UM POR um, explorando O nível COM todos OS cinco permitir QUE O jogador alcance itens inacessíveis. AO contrário DE todos OS outros jogos anteriores, O tempo não é UMA exigência: SE O jogador completar UM nível EM MAIS DE 10 minutos, ISSO significa QUE não haverá bônus DE tempo NO final. Finalmente, PARA coletar todas AS SETE chaos emeralds, sonic DEVE primeiro encontrar tails OU knuckles E LHES oferecer PELO menos 50 anéis.
+release: 1996-11-05
+players: 1
+x-id: 18434
+assets.boxFront: ./media/image/Sonic 3D Flickies' Island.Smd-A83C74B22F0F.png
+assets.boxBack: ./media/image/Sonic 3D Flickies' Island.Smd-C90B1E2A4686.png
+assets.cartridge: ./media/image/Sonic 3D Flickies' Island.Smd-0A29DFE6CC52.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Sonic 3D Flickies' Island.Smd-9FBF5D2173E9.png
+assets.video: ./media/videos/Sonic 3D Flickies' Island.Smd-C81963732A33.mp4
+assets.logo: 
+assets.background: ./media/fanart/Sonic 3D Flickies' Island.Smd-1930626FF919.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sonic 3D Flickies' Island.Smd-BF64357E5EE1.png
+assets.bezel: ./media/image/Sonic 3D Flickies' Island.Smd-3140269FF804.png
+rating: 0.60
+
+collection: megadrive
+game: SONIC THE HEDGEHOG 2 [3].SMD
+file: ./Sonic The Hedgehog 2.Smd [3].smd.7z
+developer: SEGA
+publisher: SEGA
+genre: PLATAFORMA
+favorite: false
+description: 
+	Sonic THE hedgehog 2 é UM JOGO DE plataforma side-scrolling baseado EM velocidade E A sequela DE sonic THE hedgehog. COMO O original, OS jogadores correm através DE diferentes mundos chamados DE "zonas" ONDE CADA UMA TEM SEU próprio TEMA específico. Há DOIS ATOS EM quase todas AS 10 zonas, E NO final DO último ATO DE CADA ZONA é UMA máquina QUE robotnik controla QUE você DEVE derrotar PARA progredir. O malvado dr. Robotnik QUER conquistar O mundo. PARA fazer isso, ELE aprisiona E transforma todos OS animais EM robôs chamados "badniks". Desta forma ELES podem construir SUA poderosa arma, O death egg. Apenas sonic THE hedgehog, E SEU NOVO parceiro, miles 'tails' prower, podem impedir robotnik E SEU exército DE badniks DE conquistar O mundo. Sonic E tails podem coletar anéis QUE estão espalhados POR todas AS fases. TAL COMO acontece COM A maioria DOS jogos DE plataformas, quando O jogador coleta 100 anéis, ELES ganham UMA VIDA extra. NO entanto, OS anéis também atuam COMO proteção; SE sonic é atingido quando ELE está carregando anéis, ELES SE espalham POR TODA parte E ELE é brevemente invencível. SE ELE FOR atingido novamente quando não tiver anéis, ELE perderá UMA vida. SE O jogador atingir UM poste DE checkpoint COM 50 OU MAIS anéis, ELES poderão acessar O special stage. Nesta fase, você DEVE reunir UMA quantidade definida DE anéis EM UMA FASE estilo pista DE skate antes DE chegar A UM checkpoint. Complete todos OS checkpoints E você ganhará UMA DAS SETE chaos emeralds. Novidade PARA sonic THE hedgehog 2 é A capacidade DE jogar O JOGO co-op COM UM amigo - A qualquer momento, UM jogador PODE ligar UM segundo controle E assumir O controle DO tails. Tails TEM vidas infinitas E A câmera permanece focada EM sonic, O QUE significa QUE tails não impedirá O jogo. Sonic (e tails) agora também podem obter velocidade pressionando baixo E repetidamente O botão DE salto PARA UM "spin dash". ISSO é útil quando estiver preso perto DE encostas íngremes OU outras áreas ONDE você precisa DE algum impulso. O JOGO também possui UM MODO versus DE 2 jogadores. ESTE MODO é UMA corrida DE TELA dividida horizontalmente através DE fases baseadas EM três DAS zonas DO JOGO principal.
+release: 1992-11-24
+players: 1-2
+x-id: 3
+assets.boxFront: ./media/image/Sonic The Hedgehog 2.Smd-A4F48DB4E627.png
+assets.boxBack: ./media/image/Sonic The Hedgehog 2.Smd-1D56E24AB45C.png
+assets.cartridge: ./media/image/Sonic The Hedgehog 2.Smd-A4C8C0E14C5A.png
+assets.marquee: ./media/image/Sonic The Hedgehog 2.Smd-1F512669FB78.png
+assets.screenshot: ./media/screenshots/Sonic The Hedgehog 2.Smd-81D674B4C4DC.png
+assets.video: ./media/videos/Sonic The Hedgehog 2.Smd-6E6BD1E410E3.mp4
+assets.logo: ./media/image/Sonic The Hedgehog 2.Smd-1F512669FB78.png
+assets.background: ./media/fanart/Sonic The Hedgehog 2.Smd-DF5233E1B8FD.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sonic The Hedgehog 2.Smd-66CE8560E6A7.png
+assets.bezel: ./media/image/Sonic The Hedgehog 2.Smd-9A3E3D1C9CF1.png
+rating: 0.80
+
+collection: megadrive
+game: SONIC THE HEDGEHOG [5].BIN
+file: ./Sonic The Hedgehog.Bin [5].bin.7z
+developer: SEGA
+publisher: SEGA
+genre: PLATAFORMA
+favorite: false
+description: 
+	Sonic THE hedgehog é O primeiro DE muitos jogos estrelando O principal roedor DA sega, sonic. É UM JOGO DE plataforma SIDE scrolling COM UMA diferença: velocidade. Sonic corre através DOS níveis COM incrível velocidade, O permitindo atravessar loops E saltos COM facilidade. O enredo DO JOGO é simples. O malvado dr. Robotnik capturou muitos DOS amigos animais DE sonic EM south island, E OS prendeu dentro DE robôs. Felizmente, sonic PODE libertar SEUS amigos destruindo OS robôs COM SEU SPIN attack. Enquanto isso, O dr. Robotnik está tentando controlar AS toda-poderosas chaos emeralds. Sonic DEVE pegá-las antes DELE NAS fases especiais giratórias.
+release: 1991-06-23
+players: 1
+x-id: 5
+assets.boxFront: ./media/image/Sonic The Hedgehog.Bin-08A31DDDD2FA.png
+assets.boxBack: ./media/image/Sonic The Hedgehog.Bin-750E72D30E95.png
+assets.cartridge: ./media/image/Sonic The Hedgehog.Bin-390983D35650.png
+assets.marquee: ./media/image/Sonic The Hedgehog.Bin-8548C8B68C62.png
+assets.screenshot: ./media/screenshots/Sonic The Hedgehog.Bin-E67059422BAB.png
+assets.video: ./media/videos/Sonic The Hedgehog.Bin-5D1ABEB7157F.mp4
+assets.logo: ./media/image/Sonic The Hedgehog.Bin-8548C8B68C62.png
+assets.background: ./media/fanart/Sonic The Hedgehog.Bin-017523FB00E5.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sonic The Hedgehog.Bin-42A0C42BD75B.png
+assets.bezel: ./media/image/Sonic The Hedgehog.Bin-F36A03FF8A76.png
+rating: 0.80
+
+collection: megadrive
+game: STREETS OF RAGE 3 [143230].GEN
+file: ./Streets Of Rage 3.Gen [143230].gen.7z
+developer: SEGA
+publisher: SEGA
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	O sindicato DO crime contra-ataca! Mr-x, O MAIS terrível DOS vilões está DE volta COM UM plano diabólico: trocar todos OS líderes DA cidade POR robôs. E dominá-los COM UM simples controle remoto! Assim, ELE terá TODA A cidade EM SUAS mãos, E poderá SE vingar DOS responsáveis PELO SEU último fracasso... MAS AS coisas não serão assim tão fáceis PARA O sindicato. Blaze, axel, skate E UM NOVO membro DA equipe, dr. Zan, estão MAIS DO QUE dispostos A colocar AS coisas EM ordem. PARA isso, só precisam DE algum líder COM coragem. VAI encarar? Novos movimentos, E golpes secretos! Ataques EM conjunto E COM DOIS jogadores E batalhas head-to-head! Quatro finais diferentes. QUEM jogar melhor verá! Efeitos sonoros E músicas incríveis! Muitas fases E cenários inéditos!
+release: 1994-06-01
+players: 1-2
+x-id: 143230
+assets.boxFront: ./media/image/Streets Of Rage 3.Gen-455D1CE49D72.png
+assets.boxBack: ./media/image/Streets Of Rage 3.Gen-8E46797F77CB.png
+assets.cartridge: ./media/image/Streets Of Rage 3.Gen-59ABDB28ECCF.png
+assets.marquee: ./media/image/Streets Of Rage 3.Gen-F957224187F8.png
+assets.screenshot: ./media/screenshots/Streets Of Rage 3.Gen-E41BFE700935.png
+assets.video: ./media/videos/Streets Of Rage 3.Gen-2AFEB8BA522F.mp4
+assets.logo: ./media/image/Streets Of Rage 3.Gen-F957224187F8.png
+assets.background: ./media/fanart/Streets Of Rage 3.Gen-F2B5A7C26680.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Streets Of Rage 3.Gen-8E93023B6CF3.png
+assets.bezel: ./media/image/Streets Of Rage 3.Gen-91B4F0577456.png
+rating: 0.80
+
+collection: megadrive
+game: STREETS OF RAGE II [20].BIN
+file: ./Streets Of Rage Ii.Bin [20].bin.7z
+developer: SEGA
+publisher: SEGA
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	Streets OF RAGE 2 é A continuação DE streets OF rage, sendo QUE SEU enredo basicamente conta QUE NO passado OS jovens ex-policiais AXEL stone, ADAM hunter E blaze fielding comemoravam A vitória contra O sindicato criminoso, após UM ANO DE SUA queda. AXEL virou guarda costas E blaze agora trabalha COMO professora DE dança, porém ADAM resolve SE juntar novamente A polícia E passa A morar NUMA pequena CASA junto COM SEU irmão MAIS novo. UM DIA AXEL recebe UM telefonema desesperado DE eddie "skate" hunter (também conhecido COMO eddie "sammy" hunter) dizendo QUE AO chegar NA pequena casa, ELA estava TODA revirada E destruída. O desaparecimento DE ADAM marca O começo DO pesadelo, EM poucos DIAS O sindicato estava DE volta às ruas, agora totalmente renovados E COM muitos novos lutadores criminosos, desde ninjas armados até mesmo motociclistas QUE arremessam bombas. AXEL contata max, SEU velho amigo; blaze E sammy (skate), E decidem SE UNIR PARA destruir novamente A organização criminal DO sindicato, resgatar ADAM E restabelecer A ordem E A paz.
+release: 1993-01-04
+players: 1-2
+x-id: 20
+assets.boxFront: ./media/image/Streets Of Rage Ii.Bin-D8369D1A281B.png
+assets.boxBack: ./media/image/Streets Of Rage Ii.Bin-8973E275DD91.png
+assets.cartridge: ./media/image/Streets Of Rage Ii.Bin-6EBAAF12B040.png
+assets.marquee: ./media/image/Streets Of Rage Ii.Bin-DE202E75FAA4.png
+assets.screenshot: ./media/screenshots/Streets Of Rage Ii.Bin-13B41F204D32.png
+assets.video: ./media/videos/Streets Of Rage Ii.Bin-20EB9413E9FC.mp4
+assets.logo: ./media/image/Streets Of Rage Ii.Bin-DE202E75FAA4.png
+assets.background: ./media/fanart/Streets Of Rage Ii.Bin-87E04D22142D.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Streets Of Rage Ii.Bin-DC67AD9BBED3.png
+assets.bezel: ./media/image/Streets Of Rage Ii.Bin-B6E58E195077.png
+rating: 0.80
+
+collection: megadrive
+game: STREETS OF RAGE [7].GEN
+file: ./Streets Of Rage.Gen [7].gen.7z
+developer: SEGA
+publisher: SEGA
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	ESTA cidade já FOI UM lugar feliz E tranquilo... Até QUE UM dia, UMA poderosa organização criminosa tomou conta DA cidade. UM sindicato cruel LOGO TEVE O controle DO governo E até mesmo DA policia. A cidade tornou-se UM centro DE violência E DE criminalidade, ONDE ninguém está seguro. EM MEIO A ESSA turbulência, UM grupo DE jovens determinados jurou limpar A cidade. Entre ELES estão ADAM hunter, AXEL stone E blaze fielding. ELES estão dispostos A arriscar qualquer coisa ... Até AS SUAS vidas ... NO ... Streets OF rage.
+release: 1991-10-01
+players: 1-2
+x-id: 7
+assets.boxFront: ./media/image/Streets Of Rage.Gen-6352D3425EB7.png
+assets.boxBack: ./media/image/Streets Of Rage.Gen-13C5CA51675D.png
+assets.cartridge: ./media/image/Streets Of Rage.Gen-F55955DB4957.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Streets Of Rage.Gen-87F0B66EC246.png
+assets.video: ./media/videos/Streets Of Rage.Gen-A3CE3C73F204.mp4
+assets.logo: 
+assets.background: ./media/fanart/Streets Of Rage.Gen-C4E6509D3A7E.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Streets Of Rage.Gen-6B9FF08F01C2.png
+assets.bezel: ./media/image/Streets Of Rage.Gen-1542D3582FF8.png
+rating: 0.80
+
+collection: megadrive
+game: STRIDER [78].GEN
+file: ./Strider.Gen [78].gen.7z
+developer: CAPCOM
+publisher: CAPCOM
+genre: PLATAFORMA / COMBATE COM ROLAGEM, PLATAFORMA
+favorite: false
+description: 
+	Será QUE SEUS nervos aguentam 8 MEGA DE muita emoção? Sim, POR QUE é preciso TER nervos DE aço E muita coragem nesta aventura alucinante. Você é strider, UMA montanha DE músculos DONO DE UM eficiente SOCO E DE UMA espada A laser. Você está NUMA terra futura COM UM ambiente DO passado E O mestre DO MAL está zombando DE SUA derrota. Proteja SEUS punhos COM braceletes DE ferro E adentre A fortaleza. Você terá QUE sobreviver AO ataque DE robôs COM asas, DE animais pré-históricos amedrontadores E DE UM exército inteiro. LUTE contra sedutoras amazonas QUE atiram violentos bumerangues E entre NUMA guerra destinada A dominar até A SUA mente. Deslize, abaixe-se, FUJA DAS bombas, enfrente macacos E centopéias gigantes DE metal! Sinta SEUS bíceps estourarem enquanto você SE esforça PARA derrotar homens musculosos, QUE ainda POR CIMA emitem grunhidos. Strider, O mestre DO mal, O espera. Você SABE QUE PODE derrotá-lo!
+release: 1991-05-01
+players: 1
+x-id: 78
+assets.boxFront: ./media/image/Strider.Gen-C931E312C604.png
+assets.boxBack: ./media/image/Strider.Gen-656AE19F66D8.png
+assets.cartridge: ./media/image/Strider.Gen-EF9337E89F92.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Strider.Gen-BB59792578DC.png
+assets.video: ./media/videos/Strider.Gen-DABB55913A20.mp4
+assets.logo: 
+assets.background: ./media/fanart/Strider.Gen-BFE287B37935.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Strider.Gen-95E89D22FEC6.png
+assets.bezel: ./media/image/Strider.Gen-12BC47F2E05A.png
+rating: 0.60
+
+collection: megadrive
+game: SUPER STREET FIGHTER II [80].BIN
+file: ./Super Street Fighter Ii.Bin [80].bin.7z
+developer: CAPCOM
+publisher: CAPCOM
+genre: LUTA
+favorite: false
+description: 
+	Durante ANOS OS DOZE maiores lutadores DO mundo SE enfrentaram. E tornaram-se OS grandes mestres. MAS chegou A HORA DO NOVO desafio. Quatro lutadores surgiram COM muitas promessas, habilidades E UMA certeza: podem destruir bison! MAS será QUE ELES são capazes DE enfrentar OS famosos street fighters E SEUS novos golpes? 4 personagens inéditos: cammy, DEE jay, t. HAWK E FEI long. Golpes ainda melhores PARA OS fantásticos street fighters originais. MAIS opções DE modos DE batalha: group battle, tournament battle E O desafio contra O relógio NO TIME challenge. Cenários COM gráficos incríveis!
+release: 1994-01-01
+players: 1-2
+x-id: 80
+assets.boxFront: ./media/image/Super Street Fighter Ii.Bin-4D2268FB311D.png
+assets.boxBack: ./media/image/Super Street Fighter Ii.Bin-C0324A75D4FB.png
+assets.cartridge: ./media/image/Super Street Fighter Ii.Bin-B3F0098F8326.png
+assets.marquee: ./media/image/Super Street Fighter Ii.Bin-99625AE079EA.png
+assets.screenshot: ./media/screenshots/Super Street Fighter Ii.Bin-BE1C319D5DC5.png
+assets.video: ./media/videos/Super Street Fighter Ii.Bin-1DD195801A1E.mp4
+assets.logo: ./media/image/Super Street Fighter Ii.Bin-99625AE079EA.png
+assets.background: ./media/fanart/Super Street Fighter Ii.Bin-4497DD2BB0D7.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Super Street Fighter Ii.Bin-5F239A3B364C.png
+assets.bezel: ./media/image/Super Street Fighter Ii.Bin-01668A30E1D2.png
+rating: 0.80
+
+collection: megadrive
+game: THE ADVENTURES OF BATMAN & ROBIN [52].BIN
+file: ./The Adventures Of Batman & Robin.Bin [52].bin.7z
+developer: CLOCKWORKS ENTERTAINMENT
+publisher: SEGA
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	Nessa aventura, baseada NA premiada série DE tv, O homem morcego SE meteu NUMA fria. SEU arque-inimigo, O sr. Frio, pretende transformar gotham EM UMA grande geleira. E PARA piorar AS coisas, ELE SE juntou AO coringa, AO duas-caras E A outros malfeitores PARA eliminar nossos herois DE UMA VEZ POR todas.
+release: 1995-01-01
+players: 1-2
+x-id: 52
+assets.boxFront: ./media/image/The Adventures Of Batman & Robin.Bin-99655784F7AB.png
+assets.boxBack: ./media/image/The Adventures Of Batman & Robin.Bin-085D95D0A109.png
+assets.cartridge: ./media/image/The Adventures Of Batman & Robin.Bin-F05B2CE0618A.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/The Adventures Of Batman & Robin.Bin-95E0197DAA30.png
+assets.video: ./media/videos/The Adventures Of Batman & Robin.Bin-09A91C34A14E.mp4
+assets.logo: 
+assets.background: ./media/fanart/The Adventures Of Batman & Robin.Bin-0C0CBAEEAC92.jpg
+assets.music: 
+assets.titlescreen: ./media/image/The Adventures Of Batman & Robin.Bin-847F179BE515.png
+assets.bezel: ./media/image/The Adventures Of Batman & Robin.Bin-075BED94794E.png
+rating: 0.60
+
+collection: megadrive
+game: THE [39].GEN
+file: ./The.Gen [39].gen.7z
+developer: SEGA
+publisher: SEGA
+genre: PLATAFORMA / COMBATE COM ROLAGEM, PLATAFORMA
+favorite: false
+description: 
+	Você é musashi, O mestre ninja. COMO UM DOS guerreiros místicos, você TEM O poder DE VER E saber DE tudo, E agora TEM QUE destruir O malígno exército DE NEO zeed. SE falhar, naoko, A BELA refém, morrerá. Ataque COM A espada ninja E COM OS punhais. Dê cambalhotas sobre cercas enquanto arremessa facas mortais. Desvie DAS bombas, DAS estrelas mortíferas E DOS carros velhos, saltando, virando-se E chutando! OS NEO ZEED são quase imbatíveis, E estarão atrás DE você EM 24 cenas traiçoeiras. MAS você TEM UMA ARMA secreta: A magia ninja.
+release: 1990-10-01
+players: 1
+x-id: 39
+assets.boxFront: ./media/image/The.Gen-8E610572A6FA.png
+assets.boxBack: ./media/image/The.Gen-B91A4FABF05C.png
+assets.cartridge: ./media/image/The.Gen-57D1A6D754F2.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/The.Gen-41CDB33D7532.png
+assets.video: ./media/videos/The.Gen-EC318567A487.mp4
+assets.logo: 
+assets.background: ./media/fanart/The.Gen-EF3CFF080F86.jpg
+assets.music: 
+assets.titlescreen: ./media/image/The.Gen-C7C51A85B411.png
+assets.bezel: ./media/image/The.Gen-4D1E75479265.png
+rating: 0.60
+
+collection: megadrive
+game: THUNDER FORCE II [275].BIN
+file: ./Thunder Force Ii.Bin [275].bin.7z
+developer: TECHNOSOFT
+publisher: SEGA
+genre: SHOOT'EM UP
+favorite: false
+description: 
+	Há 18 ANOS O planeta nebula FOI atacado PELO sistema DA estrela solitária, arqui inimiga DA federação interplanetária. A população FOI dizimada E OS poucos sobreviventes juraram proteger O futuro DO planeta, custe O QUE custar! Chegou A HORA DE mostrar QUE estavam falando sério! Plealos, A NAVE mãe DA esquadra DO sistema, está DE sobre aviso NO espaço-porto DE nebula, pronta PARA destruir TUDO QUE não puder deter. Você é ryder jupiter, conhecido COMO O às DA federação. A única pessoa EM QUE você confia é diana rean, E vocês SE UNEM contra O tirano reficul, imperador DA estrela solitária. Somente thunder force II PODE acabar COM OS planos DE dominação DE nebula. Pilote O super JATO PELA superfície DO planeta até A fortaleza plealos, PARA O confronto final, ONDE você poderá USAR UMA bomba tão terrível QUE não deixa NADA PARA trás, A não SER memórias... Vá EM frente bravo guerreiro, E liberte A federação DAS mãos DO maligno reficul.
+release: 1990-09-01
+players: 1
+x-id: 275
+assets.boxFront: ./media/image/Thunder Force Ii.Bin-69F09749C20F.png
+assets.boxBack: ./media/image/Thunder Force Ii.Bin-ACF6ED7FE3AF.png
+assets.cartridge: ./media/image/Thunder Force Ii.Bin-9F853FDA55C0.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Thunder Force Ii.Bin-8D7EBF12F019.png
+assets.video: ./media/videos/Thunder Force Ii.Bin-1C36ADABBC76.mp4
+assets.logo: 
+assets.background: ./media/fanart/Thunder Force Ii.Bin-CB8564849419.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Thunder Force Ii.Bin-27B33DB88087.png
+assets.bezel: ./media/image/Thunder Force Ii.Bin-A41DD473E5A7.png
+rating: 0.80
+
+collection: megadrive
+game: THUNDER FORCE III [141].GEN
+file: ./Thunder Force Iii.Gen [141].gen.7z
+developer: TECHNOSOFT
+publisher: SEGA
+genre: SHOOT'EM UP / HORIZONTAL, SHOOT'EM UP
+favorite: false
+description: 
+	QUEM pensa QUE já VIU TUDO EM combates espaciais não perde POR esperar. EM thunder force III você pilota O QUE há DE MAIS avançado EM naves! Você atravessará diversos planetas DA galáxia: O DO fogo, O DA água, O DA terra E muitos outros. AO chegar EM CADA UM deles você receberá informações sobre O maior DOS inimigos QUE derrotará E também SEU ponto fraco. MAS até chegar AO combate final, passará POR UMA variedade DE perigos E surpresas. SEU objetivo: eliminar todos OS inimigos DOS diversos planetas PARA enfrentar A nave-mãe QUE controla A galáxia. É PARA ISTO QUE você está tão BEM equipado. FOI POR ISTO QUE passou tanto tempo EM treinamento UMA missão COMO ESTA não é DADA PARA qualquer um. Você SABE disto E fará POR merecer ESTA escolha.
+release: 1990-01-01
+players: 1
+x-id: 141
+assets.boxFront: ./media/image/Thunder Force Iii.Gen-7A845A0B44EF.png
+assets.boxBack: ./media/image/Thunder Force Iii.Gen-E5056EF04423.png
+assets.cartridge: ./media/image/Thunder Force Iii.Gen-FC5D89FAE3A4.png
+assets.marquee: ./media/image/Thunder Force Iii.Gen-0511CA95884C.png
+assets.screenshot: ./media/screenshots/Thunder Force Iii.Gen-4B7EF1DA5C15.png
+assets.video: ./media/videos/Thunder Force Iii.Gen-EA1A4FC0E08C.mp4
+assets.logo: ./media/image/Thunder Force Iii.Gen-0511CA95884C.png
+assets.background: ./media/fanart/Thunder Force Iii.Gen-AC0B6B1B08D6.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Thunder Force Iii.Gen-FEB3233A4671.png
+assets.bezel: ./media/image/Thunder Force Iii.Gen-BCBE4B12EB70.png
+rating: 0.80
+
+collection: megadrive
+game: THUNDER FORCE IV [55].MD
+file: ./Thunder Force Iv.Md [55].md.7z
+developer: TECHNOSOFT
+publisher: SEGA
+genre: SHOOT'EM UP / HORIZONTAL, SHOOT'EM UP
+favorite: false
+description: 
+	O super computador QUE pensamos TER SIDO destruído só FOI danificado. A federação decidiu TE enviar EM UMA NAVE PARA destruir ESSA ameaça. Thunder force iv, conhecido NA américa DO norte COMO lightening force: quest FOR THE darkstar, é UM JOGO DE 1992, desenvolvido E publicado PELA technosoft PARA SEGA genesis COMO A quarta edição DA série thunder force. O JOGO FOI lançado NO japão EM 24 DE julho DE 1992, NA américa DO norte EM setembro DE 1992 E NA europa EM dezembro DE 1992.
+release: 1992-01-01
+players: 1
+x-id: 55
+assets.boxFront: ./media/image/Thunder Force Iv.Md-7967D8E2E2EC.png
+assets.boxBack: ./media/image/Thunder Force Iv.Md-E1A03720796F.png
+assets.cartridge: ./media/image/Thunder Force Iv.Md-C2514711C6AE.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Thunder Force Iv.Md-426DC77968E2.png
+assets.video: ./media/videos/Thunder Force Iv.Md-D49CE6C17407.mp4
+assets.logo: 
+assets.background: ./media/fanart/Thunder Force Iv.Md-D7E4D5F016F3.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Thunder Force Iv.Md-6041A53CD676.png
+assets.bezel: ./media/image/Thunder Force Iv.Md-5732BCDB5586.png
+rating: 0.80
+
+collection: megadrive
+game: TINY TOON ADVENTURES - BUSTER'S HIDDEN TREASURE [79].MD
+file: ./Tiny Toon Adventures - Buster's Hidden Treasure.Md [79].md.7z
+developer: KONAMI
+publisher: KONAMI
+genre: PLATAFORMA
+favorite: false
+description: 
+	Além DOS desenhos animados MAIS divertidos DA televisão, A turminha DE ACME CITY resolveu aprontar NOS video games. TUDO começou quando perninha resolveu arrumar O porão DA looniversidade acme, E DE repente encontrou UM MAPA DO tesouro. MAS O terrível valentino atacou novamente! Roubou O mapa, E ainda POR CIMA conseguiu UM capacete especial PARA forçar A turma A procurar O tesouro. Você ACHA QUE é só isso? Não, valentino desta VEZ FOI ainda MAIS longe. Sequestrou lilica E SUAS amigas, PARA manter O nosso amigo BEM ocupado. É, desta VEZ O perninha está EM apuros. MAS apuros BEM divertidos! Serão 33 fases emocionantes, E A ILHA ONDE está O tesouro TEM perigos diferentes A CADA centímetro! Ainda BEM QUE O perninha PODE contar COM GODO dodo... E COM você! OU você VAI deixar SEU amigo sozinho neste ACME problema?
+release: 1993-01-01
+players: 1
+x-id: 79
+assets.boxFront: ./media/image/Tiny Toon Adventures - Buster's Hidden Treasure.Md-6E3BB227D2D7.png
+assets.boxBack: ./media/image/Tiny Toon Adventures - Buster's Hidden Treasure.Md-8F9C37120A9C.png
+assets.cartridge: ./media/image/Tiny Toon Adventures - Buster's Hidden Treasure.Md-E4385C07384D.png
+assets.marquee: ./media/image/Tiny Toon Adventures - Buster's Hidden Treasure.Md-81EDF78AC287.png
+assets.screenshot: ./media/screenshots/Tiny Toon Adventures - Buster's Hidden Treasure.Md-9FC3551B8CDA.png
+assets.video: ./media/videos/Tiny Toon Adventures - Buster's Hidden Treasure.Md-F5882F2CCDF5.mp4
+assets.logo: ./media/image/Tiny Toon Adventures - Buster's Hidden Treasure.Md-81EDF78AC287.png
+assets.background: ./media/fanart/Tiny Toon Adventures - Buster's Hidden Treasure.Md-D8E8570C7223.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Tiny Toon Adventures - Buster's Hidden Treasure.Md-E969358B5F4B.png
+assets.bezel: ./media/image/Tiny Toon Adventures - Buster's Hidden Treasure.Md-14B314080ED9.png
+rating: 0.80
+
+collection: megadrive
+game: TOM MASON'S DINOSAURS FOR HIRE [577].MD
+file: ./Tom Mason's Dinosaurs For Hire.Md [577].md.7z
+developer: SEGA
+publisher: SEGA
+genre: PLATAFORMA
+favorite: false
+description: 
+	OS dinossauros estão DE volta! E estes terríveis monstros pré-históricos estão prontos PARA atacar COM SUAS enormes presas afiadas... Mentira! ESTA história DE presas, ataques E mordidas é coisa DO passado! Dinossauro moderno é diferente: USA AS MAIS fantásticas armas PARA acabar COM AS feras pré-históricas E ninjas criados POR UM ditador maluco. Estes simpáticos dinos não estão NEM aí PARA monstros gigantescos OU situações DE perigo. ELES querem pólvora! ESTA será SUA NOVA gangue: archie, O tiranossauro rex, é O líder DOS dinossauros E TEM UMA única idéia NA cabeça: eliminar. Lorenzo é UM tricerátope surfista, QUE VAI fazer muito barulho COM SUA ARMA calibre 50. POR último, MAS não menos destruidor, reese, O estegossauro, disposto A explodir OS inimigos COM O SEU canhão.
+release: 1993-01-01
+players: 1-2
+x-id: 577
+assets.boxFront: ./media/image/Tom Mason's Dinosaurs For Hire.Md-752424B3E935.png
+assets.boxBack: ./media/image/Tom Mason's Dinosaurs For Hire.Md-096902AFB8AB.png
+assets.cartridge: ./media/image/Tom Mason's Dinosaurs For Hire.Md-C1592B9C03ED.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Tom Mason's Dinosaurs For Hire.Md-87BAF796E377.png
+assets.video: ./media/videos/Tom Mason's Dinosaurs For Hire.Md-3A8A11AD01A6.mp4
+assets.logo: 
+assets.background: ./media/fanart/Tom Mason's Dinosaurs For Hire.Md-40E48AEE1A69.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Tom Mason's Dinosaurs For Hire.Md-DA82148F4072.png
+assets.bezel: ./media/image/Tom Mason's Dinosaurs For Hire.Md-6372F451379A.png
+rating: 0.80
+
+collection: megadrive
+game: VECTORMAN 2 [325].BIN
+file: ./Vectorman 2.Bin [325].bin.7z
+developer: BLUESKY SOFTWARE
+publisher: SEGA
+genre: PLATAFORMA / TIRO COM ROLAGEM, PLATAFORMA
+favorite: false
+description: 
+	ESTA é A sequência DE vectorman. Agora, O poderoso E pequeno robô FOI atacado AO retornar PARA A terra EM SUA espaçonave. AO CAIR NA terra, acaba descobrindo localizações obscuras E cheias DE criaturas hostis E acaba participando DE UMA plataforma DE ação rápida E furiosa. LUTE contra SEUS inimigos, colete photons, PULE sobre obstáculos, encontre armas, SE transforme EM outras criaturas E escale paredes comandando O robô verde "orbot" vectorman.
+release: 1996-11-15
+players: 1
+x-id: 325
+assets.boxFront: ./media/image/Vectorman 2.Bin-0345E81D37D9.png
+assets.boxBack: ./media/image/Vectorman 2.Bin-67BF6C8504B7.png
+assets.cartridge: ./media/image/Vectorman 2.Bin-5934EDC5FE72.png
+assets.marquee: ./media/image/Vectorman 2.Bin-56A5EE73BB38.png
+assets.screenshot: ./media/screenshots/Vectorman 2.Bin-36B0A45E0BBC.png
+assets.video: ./media/videos/Vectorman 2.Bin-2D4024726F53.mp4
+assets.logo: ./media/image/Vectorman 2.Bin-56A5EE73BB38.png
+assets.background: ./media/fanart/Vectorman 2.Bin-A4930822506E.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Vectorman 2.Bin-26161319AAAE.png
+assets.bezel: ./media/image/Vectorman 2.Bin-590BB1CE7E3B.png
+rating: 0.80
+
+collection: megadrive
+game: WORLD OF ILLUSION STARRING MICKEY MOUSE AND DONALD [46].MD
+file: ./World Of Illusion Starring Mickey Mouse And Donald.Md [46].md.7z
+developer: SEGA
+publisher: SEGA
+genre: PLATAFORMA
+favorite: false
+description: 
+	Chazam!! Magicamente OS personagens MAS famosos DO mundo disney, mickey mouse E donald duck, foram transportados PARA UM misterioso mundo, ONDE sonhos são realidade E O inesperado sempre acontece! COMO fazer PARA achar O caminho DE volta? Somente através DA magia... Transformando OS inimigos COM UMA CAPA enfeitiçada, COM pó mágico OU COM UMA varinha DE condão!! PARA explorar O mundo DA ilusão ELES poderão pegar carona NUM tapete voador OU ficar submersos NAS profundezas DO oceano através DE bolhas DE ar!! E COMO AQUI A amizade VEM EM primeiro lugar, somente trabalhando EM equipe mickey E donald conseguirão voltar PARA casa. Aliás, POR falar EM amigos, sabem QUEM também está PRO aqui? Minnie, margarida, pluto, clarabela, huguinho, zezinho E luisinho.. Só falta você PARA completar ESTA turma tão especial!!
+release: 1992-12-14
+players: 1-2
+x-id: 46
+assets.boxFront: ./media/image/World Of Illusion Starring Mickey Mouse And Donald.Md-B59927D037D1.png
+assets.boxBack: ./media/image/World Of Illusion Starring Mickey Mouse And Donald.Md-6D3E2DC8B105.png
+assets.cartridge: ./media/image/World Of Illusion Starring Mickey Mouse And Donald.Md-85D30B25AA18.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/World Of Illusion Starring Mickey Mouse And Donald.Md-AA22EE644756.png
+assets.video: ./media/videos/World Of Illusion Starring Mickey Mouse And Donald.Md-A02E31850BBC.mp4
+assets.logo: 
+assets.background: ./media/fanart/World Of Illusion Starring Mickey Mouse And Donald.Md-872C5B8F6FEB.jpg
+assets.music: 
+assets.titlescreen: ./media/image/World Of Illusion Starring Mickey Mouse And Donald.Md-D142822AE38B.png
+assets.bezel: ./media/image/World Of Illusion Starring Mickey Mouse And Donald.Md-08DF06553EDB.png
+rating: 0.60
+
