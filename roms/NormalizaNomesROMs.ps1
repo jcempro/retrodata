@@ -2263,7 +2263,12 @@ function Write-AtomicTextFile {
     [System.Text.Encoding]$Encoding
   )
 
-  $tmp = "$Path.tmp"
+  $dir = Split-Path -Path $Path -Parent
+  $leaf = Split-Path -Path $Path -Leaf
+  $tmp = Join-Path $dir ".$leaf.$([guid]::NewGuid().ToString('N')).tmp"
+  $backup = Join-Path $dir ".$leaf.$([guid]::NewGuid().ToString('N')).bak"
+  $pending = $null
+  $saved = $false
 
   try {
     [System.IO.File]::WriteAllText($tmp, $Content, $Encoding)
@@ -2280,18 +2285,78 @@ function Write-AtomicTextFile {
       throw "OP=WRITE_ATOMIC PATH=[$Path] CAUSE=TMP inválido"
     }
 
-    Move-Item `
-      -LiteralPath $tmp `
-      -Destination $Path `
-      -Force `
-      -ErrorAction Stop
+    $lastError = $null
+
+    for ($attempt = 1; $attempt -le 8; $attempt++) {
+
+      try {
+
+        # FIX-BUG: substitui arquivo existente sem caminho de criação duplicada
+        if (Test-Path -LiteralPath $Path -PathType Leaf) {
+          [System.IO.File]::Replace(
+            $tmp,
+            $Path,
+            $backup,
+            $true
+          )
+        }
+        else {
+          [System.IO.File]::Move($tmp, $Path)
+        }
+
+        $saved = $true
+        break
+      }
+      catch {
+
+        $lastError = $_
+
+        if ($attempt -lt 8) {
+
+          Write-InlineLog `
+            "⚠️ WRITE_ATOMIC_RETRY :: OP=WRITE_ATOMIC PATH=[$Path] ATTEMPT=$attempt CAUSE=[$($_.Exception.Message)]" `
+            Yellow `
+            -forceNewLine
+
+          Start-Sleep -Milliseconds (250 * $attempt)
+          continue
+        }
+      }
+    }
+
+    if (-not $saved) {
+
+      $pending = Join-Path $dir (
+        ".$leaf.pending-$((Get-Date).ToString('yyyyMMddHHmmssfff')).tmp"
+      )
+
+      # PROTECAO: preserva conteúdo novo para reaplicação manual/automática
+      [System.IO.File]::Copy(
+        $tmp,
+        $pending,
+        $true
+      )
+
+      if ($lastError) {
+        throw (
+          "OP=WRITE_ATOMIC PATH=[$Path] PENDING=[$pending] " +
+          "CAUSE=[$($lastError.Exception.Message)]"
+        )
+      }
+
+      throw "OP=WRITE_ATOMIC PATH=[$Path] PENDING=[$pending] CAUSE=substituição não concluída"
+    }
 
     if (-not (Test-Path -LiteralPath $Path)) {
       throw "OP=WRITE_ATOMIC PATH=[$Path] CAUSE=destino ausente após substituição"
     }
+
+    if (Test-Path -LiteralPath $backup -PathType Leaf) {
+      Remove-Item -LiteralPath $backup -Force -ErrorAction SilentlyContinue
+    }
   }
   finally {
-    if (Test-Path -LiteralPath $tmp) {
+    if (($saved -or $pending) -and (Test-Path -LiteralPath $tmp)) {
       Remove-Item -LiteralPath $tmp -Force -ErrorAction SilentlyContinue
     }
   }
