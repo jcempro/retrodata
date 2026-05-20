@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <gameList>
   <provider>
     <system>atari2600</system>
@@ -24,17 +24,17 @@ JOGABILIDADE GIRA EM TORNO DE PEGAR (E SOLTAR) ITENS, CORTANDO O SEU CAMINHO, EN
     <md5>157bddb7192754a45372be196797f284</md5>
     <hash>A6DB4B3A</hash>
     <region>us</region>
-    <image>./media/image/Adventure [13992]-image.png</image>
-    <video>./media/videos/Adventure [13992]-video.mp4</video>
-    <boxart>./media/image/Adventure [13992]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Adventure [13992]-screenshot.png</screenshot>
-    <cartridge>./media/image/Adventure [13992]-cartridge.png</cartridge>
-    <fanart>./media/fanart/Adventure [13992]-fanart.jpg</fanart>
-    <titleshot>./media/image/Adventure [13992]-titleshot.png</titleshot>
-    <manual>./media/manuals/Adventure [13992]_(eu).pdf</manual>
-    <boxback>./media/image/Adventure [13992]-boxback.png</boxback>
+    <image>./media/image/Adventure-7A35DBC25107.png</image>
+    <video>./media/videos/Adventure-6264C32A7A2B.mp4</video>
+    <boxart>./media/image/Adventure-7A35DBC25107.png</boxart>
+    <screenshot>./media/screenshots/Adventure-D14AED8C677E.png</screenshot>
+    <cartridge>./media/image/Adventure-116269AE8C33.png</cartridge>
+    <fanart>./media/fanart/Adventure-21FA3E2CDC34.jpg</fanart>
+    <titleshot>./media/image/Adventure-75A4A773AE2B.png</titleshot>
+    <manual>./media/manuals/Adventure-11C1ECCE8E84.pdf</manual>
+    <boxback>./media/image/Adventure-B225BF8C8411.png</boxback>
     <extra1>./media/extras/Adventure [13992]-extra1.png</extra1>
-    <bezel>./media/image/Adventure [13992]-bezel.png</bezel>
+    <bezel>./media/image/Adventure-C26B02E616E5.png</bezel>
   </game>
   <game id="37728">
     <path>./Enduro [37728].zip</path>
@@ -55,17 +55,17 @@ A CORRIDA ESTÁ PRONTA. E VOCÊ ESTÁ?</desc>
     <md5>94b92a882f6dbaa6993a46e2dcc58402</md5>
     <hash>2EF17B2E</hash>
     <region>us</region>
-    <image>./media/image/Enduro [37728]-image.png</image>
-    <video>./media/videos/Enduro [37728]-video.mp4</video>
-    <boxart>./media/image/Enduro [37728]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Enduro [37728]-screenshot.png</screenshot>
-    <cartridge>./media/image/Enduro [37728]-cartridge.png</cartridge>
-    <fanart>./media/fanart/Enduro [37728]-fanart.jpg</fanart>
-    <titleshot>./media/image/Enduro [37728]-titleshot.png</titleshot>
-    <manual>./media/manuals/Enduro [37728]_(eu).pdf</manual>
-    <boxback>./media/image/Enduro [37728]-boxback.png</boxback>
+    <image>./media/image/Enduro-7B2E8A1EC3F6.png</image>
+    <video>./media/videos/Enduro-636696178D16.mp4</video>
+    <boxart>./media/image/Enduro-7B2E8A1EC3F6.png</boxart>
+    <screenshot>./media/screenshots/Enduro-029340468F19.png</screenshot>
+    <cartridge>./media/image/Enduro-87A8A22C2811.png</cartridge>
+    <fanart>./media/fanart/Enduro-FB033177B0A2.jpg</fanart>
+    <titleshot>./media/image/Enduro-872233EA34D2.png</titleshot>
+    <manual>./media/manuals/Enduro-A2E9CDCCBB03.pdf</manual>
+    <boxback>./media/image/Enduro-9D70C748E610.png</boxback>
     <extra1>./media/extras/Enduro [37728]-extra1.png</extra1>
-    <bezel>./media/image/Enduro [37728]-bezel.png</bezel>
+    <bezel>./media/image/Enduro-58E83A086585.png</bezel>
   </game>
   <game id="37772">
     <path>./Keystone Kapers [37772].zip</path>
@@ -81,15 +81,15 @@ POLICIAL KELLY, QUAL É A SITUAÇÃO? "NN"OH, É UMA PENA! FEITOS INCRÍVEIS! AT
     <md5>be929419902e21bd7830a7a7d746195d</md5>
     <hash>3E55F3A1</hash>
     <region>us</region>
-    <image>./media/image/Keystone Kapers [37772]-image.png</image>
-    <video>./media/videos/Keystone Kapers [37772]-video.mp4</video>
-    <boxart>./media/image/Keystone Kapers [37772]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Keystone Kapers [37772]-screenshot.png</screenshot>
-    <titleshot>./media/image/Keystone Kapers [37772]-titleshot.png</titleshot>
-    <manual>./media/manuals/Keystone Kapers [37772]_(eu).pdf</manual>
-    <boxback>./media/image/Keystone Kapers [37772]-boxback.png</boxback>
+    <image>./media/image/Keystone Kapers-7E77549C1DDF.png</image>
+    <video>./media/videos/Keystone Kapers-706252774B10.mp4</video>
+    <boxart>./media/image/Keystone Kapers-7E77549C1DDF.png</boxart>
+    <screenshot>./media/screenshots/Keystone Kapers-87CB51232BE5.png</screenshot>
+    <titleshot>./media/image/Keystone Kapers-EA967F86148F.png</titleshot>
+    <manual>./media/manuals/Keystone Kapers-AD2921E2F37D.pdf</manual>
+    <boxback>./media/image/Keystone Kapers-D9F984BF2AE3.png</boxback>
     <extra1>./media/extras/Keystone Kapers [37772]-extra1.png</extra1>
-    <bezel>./media/image/Keystone Kapers [37772]-bezel.png</bezel>
+    <bezel>./media/image/Keystone Kapers-879A6BE9F7AB.png</bezel>
   </game>
   <game id="14025">
     <path>./Montezuma's [14025].zip</path>
@@ -105,11 +105,11 @@ POLICIAL KELLY, QUAL É A SITUAÇÃO? "NN"OH, É UMA PENA! FEITOS INCRÍVEIS! AT
     <players>1</players>
     <md5>3347a6dd59049b15a38394aa2dafa585</md5>
     <hash>E680A1C9</hash>
-    <video>./media/videos/Montezuma's [14025]-video.mp4</video>
-    <fanart>./media/fanart/Montezuma's [14025]-fanart.jpg</fanart>
-    <manual>./media/manuals/Montezuma's [14025]_(us).pdf</manual>
+    <video>./media/videos/Montezuma's-CFB50D6C5D78.mp4</video>
+    <fanart>./media/fanart/Montezuma's-FBD9337E340C.jpg</fanart>
+    <manual>./media/manuals/Montezuma's-8E2BDC060E97.pdf</manual>
     <extra1>./media/extras/Montezuma's [14025]-extra1.png</extra1>
-    <bezel>./media/image/Montezuma's [14025]-bezel.png</bezel>
+    <bezel>./media/image/Montezuma's-08429FDD9976.png</bezel>
   </game>
   <game id="14005">
     <path>./Pitfall II - Lost Caverns [14005].zip</path>
@@ -126,17 +126,17 @@ O JOGADOR ASSUME O PAPEL DE HARRY PITFALL, UM EXPLORADOR EM BUSCA DE TESOUROS NO
     <md5>6d842c96d5a01967be9680080dd5be54</md5>
     <hash>097CE7AD</hash>
     <region>us</region>
-    <image>./media/image/Pitfall II - Lost Caverns [14005]-image.png</image>
-    <video>./media/videos/Pitfall II - Lost Caverns [14005]-video.mp4</video>
-    <boxart>./media/image/Pitfall II - Lost Caverns [14005]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Pitfall II - Lost Caverns [14005]-screenshot.png</screenshot>
-    <cartridge>./media/image/Pitfall II - Lost Caverns [14005]-cartridge.png</cartridge>
-    <fanart>./media/fanart/Pitfall II - Lost Caverns [14005]-fanart.jpg</fanart>
-    <titleshot>./media/image/Pitfall II - Lost Caverns [14005]-titleshot.png</titleshot>
-    <manual>./media/manuals/Pitfall II - Lost Caverns [14005]_(us).pdf</manual>
-    <boxback>./media/image/Pitfall II - Lost Caverns [14005]-boxback.png</boxback>
+    <image>./media/image/Pitfall II - Lost Caverns-1363DAEB015D.png</image>
+    <video>./media/videos/Pitfall II - Lost Caverns-35E0642CD1E1.mp4</video>
+    <boxart>./media/image/Pitfall II - Lost Caverns-1363DAEB015D.png</boxart>
+    <screenshot>./media/screenshots/Pitfall II - Lost Caverns-71C0B2679E96.png</screenshot>
+    <cartridge>./media/image/Pitfall II - Lost Caverns-16D9A46ACDD3.png</cartridge>
+    <fanart>./media/fanart/Pitfall II - Lost Caverns-BC1346B86B78.jpg</fanart>
+    <titleshot>./media/image/Pitfall II - Lost Caverns-AF480E006C2C.png</titleshot>
+    <manual>./media/manuals/Pitfall II - Lost Caverns-5EF345CFB9C3.pdf</manual>
+    <boxback>./media/image/Pitfall II - Lost Caverns-F5B1A3C33C24.png</boxback>
     <extra1>./media/extras/Pitfall II - Lost Caverns [14005]-extra1.png</extra1>
-    <bezel>./media/image/Pitfall II - Lost Caverns [14005]-bezel.png</bezel>
+    <bezel>./media/image/Pitfall II - Lost Caverns-0E1340316F32.png</bezel>
   </game>
   <game id="14047">
     <path>./Frostbite [14047].zip</path>
@@ -152,17 +152,17 @@ O JOGADOR ASSUME O PAPEL DE HARRY PITFALL, UM EXPLORADOR EM BUSCA DE TESOUROS NO
     <md5>4ca73eb959299471788f0b685c3ba0b5</md5>
     <hash>B61BE7A3</hash>
     <region>us</region>
-    <image>./media/image/Frostbite [14047]-image.png</image>
-    <video>./media/videos/Frostbite [14047]-video.mp4</video>
-    <boxart>./media/image/Frostbite [14047]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Frostbite [14047]-screenshot.png</screenshot>
-    <cartridge>./media/image/Frostbite [14047]-cartridge.png</cartridge>
-    <fanart>./media/fanart/Frostbite [14047]-fanart.jpg</fanart>
-    <titleshot>./media/image/Frostbite [14047]-titleshot.png</titleshot>
-    <manual>./media/manuals/Frostbite [14047]_(eu).pdf</manual>
-    <boxback>./media/image/Frostbite [14047]-boxback.png</boxback>
+    <image>./media/image/Frostbite-7F29D6EA7C8B.png</image>
+    <video>./media/videos/Frostbite-0B4CD953A463.mp4</video>
+    <boxart>./media/image/Frostbite-7F29D6EA7C8B.png</boxart>
+    <screenshot>./media/screenshots/Frostbite-A9A8DCA701AF.png</screenshot>
+    <cartridge>./media/image/Frostbite-98275F99F6E8.png</cartridge>
+    <fanart>./media/fanart/Frostbite-9471FAD74F25.jpg</fanart>
+    <titleshot>./media/image/Frostbite-86BAF19AD9DA.png</titleshot>
+    <manual>./media/manuals/Frostbite-12778A2FE757.pdf</manual>
+    <boxback>./media/image/Frostbite-64791BA5801A.png</boxback>
     <extra1>./media/extras/Frostbite [14047]-extra1.png</extra1>
-    <bezel>./media/image/Frostbite [14047]-bezel.png</bezel>
+    <bezel>./media/image/Frostbite-7827D4115EE0.png</bezel>
   </game>
   <game id="87848">
     <path>./River Raid [87848].zip</path>
@@ -178,17 +178,17 @@ O JOGADOR ASSUME O PAPEL DE HARRY PITFALL, UM EXPLORADOR EM BUSCA DE TESOUROS NO
     <md5>393948436d1f4cc3192410bb918f9724</md5>
     <hash>C3EB7E1E</hash>
     <region>us</region>
-    <image>./media/image/River Raid [87848]-image.png</image>
-    <video>./media/videos/River Raid [87848]-video.mp4</video>
-    <boxart>./media/image/River Raid [87848]-boxart.png</boxart>
-    <screenshot>./media/screenshots/River Raid [87848]-screenshot.png</screenshot>
-    <cartridge>./media/image/River Raid [87848]-cartridge.png</cartridge>
-    <fanart>./media/fanart/River Raid [87848]-fanart.jpg</fanart>
-    <titleshot>./media/image/River Raid [87848]-titleshot.png</titleshot>
-    <manual>./media/manuals/River Raid [87848]_(us).pdf</manual>
-    <boxback>./media/image/River Raid [87848]-boxback.png</boxback>
+    <image>./media/image/River Raid-D7249CE73472.png</image>
+    <video>./media/videos/River Raid-DD59A7B2DA4B.mp4</video>
+    <boxart>./media/image/River Raid-D7249CE73472.png</boxart>
+    <screenshot>./media/screenshots/River Raid-96084D612EA0.png</screenshot>
+    <cartridge>./media/image/River Raid-0037E2243FCF.png</cartridge>
+    <fanart>./media/fanart/River Raid-A3EC49311E59.jpg</fanart>
+    <titleshot>./media/image/River Raid-6694C310A1A7.png</titleshot>
+    <manual>./media/manuals/River Raid-D60EE4EE5E79.pdf</manual>
+    <boxback>./media/image/River Raid-3C907C6E383B.png</boxback>
     <extra1>./media/extras/River Raid [87848]-extra1.png</extra1>
-    <bezel>./media/image/River Raid [87848]-bezel.png</bezel>
+    <bezel>./media/image/River Raid-1698749DABF9.png</bezel>
   </game>
   <game id="37835">
     <path>./Seaquest [37835].zip</path>
@@ -204,17 +204,17 @@ O JOGADOR ASSUME O PAPEL DE HARRY PITFALL, UM EXPLORADOR EM BUSCA DE TESOUROS NO
     <md5>240bfbac5163af4df5ae713985386f92</md5>
     <hash>8658E8D9</hash>
     <region>us</region>
-    <image>./media/image/Seaquest [37835]-image.png</image>
-    <video>./media/videos/Seaquest [37835]-video.mp4</video>
-    <boxart>./media/image/Seaquest [37835]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Seaquest [37835]-screenshot.png</screenshot>
-    <cartridge>./media/image/Seaquest [37835]-cartridge.png</cartridge>
-    <fanart>./media/fanart/Seaquest [37835]-fanart.jpg</fanart>
-    <titleshot>./media/image/Seaquest [37835]-titleshot.png</titleshot>
-    <manual>./media/manuals/Seaquest [37835]_(eu).pdf</manual>
-    <boxback>./media/image/Seaquest [37835]-boxback.png</boxback>
+    <image>./media/image/Seaquest-997C2350B70D.png</image>
+    <video>./media/videos/Seaquest-6010EEF3C4AA.mp4</video>
+    <boxart>./media/image/Seaquest-997C2350B70D.png</boxart>
+    <screenshot>./media/screenshots/Seaquest-C674F10DB560.png</screenshot>
+    <cartridge>./media/image/Seaquest-9C94FEB077BA.png</cartridge>
+    <fanart>./media/fanart/Seaquest-12C2CE804C5B.jpg</fanart>
+    <titleshot>./media/image/Seaquest-386EED518A04.png</titleshot>
+    <manual>./media/manuals/Seaquest-CE690F55162D.pdf</manual>
+    <boxback>./media/image/Seaquest-83253C2DD7FE.png</boxback>
     <extra1>./media/extras/Seaquest [37835]-extra1.png</extra1>
-    <bezel>./media/image/Seaquest [37835]-bezel.png</bezel>
+    <bezel>./media/image/Seaquest-7A978D96B155.png</bezel>
   </game>
   <game id="14008">
     <path>./The Activision Decathlon [14008].zip</path>
@@ -231,18 +231,18 @@ O JOGADOR ASSUME O PAPEL DE HARRY PITFALL, UM EXPLORADOR EM BUSCA DE TESOUROS NO
     <md5>525f2dfc8b21b0186cff2568e0509bfc</md5>
     <hash>3FEB39B1</hash>
     <region>us</region>
-    <image>./media/image/The Activision Decathlon [14008]-image.png</image>
-    <video>./media/videos/The Activision Decathlon [14008]-video.mp4</video>
-    <marquee>./media/image/The Activision Decathlon [14008]-marquee.png</marquee>
-    <wheel>./media/image/The Activision Decathlon [14008]-wheel.png</wheel>
-    <boxart>./media/image/The Activision Decathlon [14008]-boxart.png</boxart>
-    <screenshot>./media/screenshots/The Activision Decathlon [14008]-screenshot.png</screenshot>
-    <cartridge>./media/image/The Activision Decathlon [14008]-cartridge.png</cartridge>
-    <fanart>./media/fanart/The Activision Decathlon [14008]-fanart.jpg</fanart>
-    <titleshot>./media/image/The Activision Decathlon [14008]-titleshot.png</titleshot>
-    <manual>./media/manuals/The Activision Decathlon [14008]_(us).pdf</manual>
-    <boxback>./media/image/The Activision Decathlon [14008]-boxback.png</boxback>
+    <image>./media/image/The Activision Decathlon-70AD5784389C.png</image>
+    <video>./media/videos/The Activision Decathlon-B2795908E306.mp4</video>
+    <marquee>./media/image/The Activision Decathlon-26E32EC370BF.png</marquee>
+    <wheel>./media/image/The Activision Decathlon-26E32EC370BF.png</wheel>
+    <boxart>./media/image/The Activision Decathlon-70AD5784389C.png</boxart>
+    <screenshot>./media/screenshots/The Activision Decathlon-16418122148F.png</screenshot>
+    <cartridge>./media/image/The Activision Decathlon-784CEC4B3D96.png</cartridge>
+    <fanart>./media/fanart/The Activision Decathlon-28FA01E69FCA.jpg</fanart>
+    <titleshot>./media/image/The Activision Decathlon-3CAD0FE8B7D0.png</titleshot>
+    <manual>./media/manuals/The Activision Decathlon-BEBA56C43777.pdf</manual>
+    <boxback>./media/image/The Activision Decathlon-62519F282788.png</boxback>
     <extra1>./media/extras/The Activision Decathlon [14008]-extra1.png</extra1>
-    <bezel>./media/image/The Activision Decathlon [14008]-bezel.png</bezel>
+    <bezel>./media/image/The Activision Decathlon-EFE6245AF06D.png</bezel>
   </game>
 </gameList>
