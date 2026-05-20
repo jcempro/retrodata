@@ -1710,7 +1710,7 @@ function Format-NomeCanonico {
   # FIX-BUG: remove marcadores técnicos RFC 7
   $n = [regex]::Replace(
     $n,
-    '(?i)\s*[\[\(]?\b(beta|proto|prototype|sample|demo|build|rev(?:ision)?)[^)\]]*[\)\]]?',
+    '(?i)\s*[\[\(]?\b(beta|proto|prototype|sample|demo|build|rev(?:ision)?)\b[^)\]]*[\)\]]?',
     ''
   )
 
@@ -3585,7 +3585,7 @@ function Get-DedupNominalCopyScore {
   $copyPattern = (
     '(^|[\s._-])copy(\s+of)?($|[\s._-])' +
     '|(^|[\s._-])(copia|copie)($|[\s._-])' +
-    '|[\s._-]\(\d+\)$'
+    '|[\s._-]\(\d+\)(?=$|[\s._-])'
   )
 
   if ($normalized -match $copyPattern) {
@@ -4637,6 +4637,7 @@ function Test-MediaOrphanRemovalCandidate {
   $copyPattern = (
     '(^|[\s._-])copy(\s+of)?($|[\s._-])' +
     '|(^|[\s._-])(copia|copie)($|[\s._-])' +
+    '|[\s._-]\([2-9][0-9]*\)(?=$|[\s._-])' +
     '|[\s._-]\([2-9][0-9]*\)$' +
     '|\([2-9][0-9]*\)$'
   )
