@@ -1,0 +1,1366 @@
+collection: snes
+game: ARDY LIGHTFOOT
+file: ./Ardy Lightfoot [2279].7z
+developer: ASCII
+publisher: TITUS
+genre: PLATAFORMA
+favorite: false
+description: 
+	ARDY lightfoot coloca você NA PELE DE UM jovem aventureiro antropomórfico acompanhado POR SEU FIEL amigo peek, UMA criatura capaz DE SE transformar EM ferramentas E armas. A trama GIRA EM torno DA busca pelas SETE peças DE UMA GEMA sagrada QUE PODE conceder desejos, antes QUE O maligno visconde REGE AS utilize PARA dominar O mundo. A jogabilidade é UM plataforma DE ação clássico, ONDE ARDY utiliza SUA cauda PARA saltar MAIS ALTO E arremessa PEEK PARA derrotar inimigos OU interagir COM O cenário. O título destaca-se pelos SEUS gráficos detalhados, chefes criativos E fases QUE variam DE minas perigosas A florestas densas, exigindo precisão NOS saltos E USO estratégico DAS habilidades DE transformação.
+release: 1994-10-31
+players: 1
+x-id: 2279
+assets.boxFront: ./media/image/Ardy Lightfoot-F3CFB6CC06AB.png
+assets.boxBack: ./media/image/Ardy Lightfoot-A53A5544C16E.png
+assets.cartridge: ./media/image/Ardy Lightfoot-027BF73694CC.png
+assets.marquee: ./media/image/Ardy Lightfoot-892569A894C0.png
+assets.screenshot: ./media/screenshots/Ardy Lightfoot-67D85724D96C.png
+assets.video: ./media/videos/Ardy Lightfoot-C0211DA5404D.mp4
+assets.logo: ./media/image/Ardy Lightfoot-892569A894C0.png
+assets.background: ./media/fanart/Ardy Lightfoot-E6457208ABCC.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: ./media/image/Ardy Lightfoot-CE77FA2CDC08.png
+rating: 0.60
+
+collection: snes
+game: AXELAY.SFC (USA).SFC
+file: ./Axelay.Sfc.Sfc (USA) [2152].sfc.7z
+developer: KONAMI
+publisher: KONAMI
+genre: SHOOT'EM UP
+favorite: false
+description: 
+	ESTE planeta UM DIA FOI quieto, pacífico PARA viver, até que... ELES chegaram... UMA desconhecida raça alienígena chegou E prontamente começou A devastação. AS forças defensivas remanescentes foram enviadas PARA tentar derrotá-la. UM sortudo ficou encarregado DE pilotar A última NAVE já produzida: A ax-77 axelay. Entretanto, ESTA espaçonave está EM estágio inicial DE desenvolvimento E apenas UMA DO SEU TIPO existe. Então, SAIA EM busca DO planeta natal DOS alienígenas. COM alguma sorte, você conseguirá arrancar O MAL PELA raiz.
+release: 1993-09-30
+players: 1
+x-id: 2152
+assets.boxFront: ./media/image/Axelay.Sfc (USA).Sfc-39EB7A5AD861.png
+assets.boxBack: ./media/image/Axelay.Sfc (USA).Sfc-3CE056D5D3C8.png
+assets.cartridge: ./media/image/Axelay.Sfc (USA).Sfc-70D3455089DC.png
+assets.marquee: ./media/image/Axelay.Sfc (USA).Sfc-44C5DA30E8FF.png
+assets.screenshot: ./media/screenshots/Axelay.Sfc (USA).Sfc-E2300CCE4CBF.png
+assets.video: ./media/videos/Axelay.Sfc (USA).Sfc-FC47D7A1F9A5.mp4
+assets.logo: ./media/image/Axelay.Sfc (USA).Sfc-44C5DA30E8FF.png
+assets.background: ./media/fanart/Axelay.Sfc (USA).Sfc-5A293E011918.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Axelay.Sfc (USA).Sfc-03B364A39287.png
+assets.bezel: ./media/image/Axelay.Sfc (USA).Sfc-865CB6B91F95.png
+rating: 0.60
+
+collection: snes
+game: BONKERS.SFC (BR).SFC
+file: ./Bonkers.Sfc.Sfc (BR) [2662].sfc.7z
+developer: CAPCOM
+publisher: CAPCOM
+genre: PLATAFORMA
+favorite: false
+description: 
+	Bonkers é UMA espécie DE ajudante DE policial ELE é BEM brincalhão E atrapalhado E adora ?trollar? SEU parceiro ?lucky? QUE é UM humano. Certo DIA UM ladrão MEIO fantasma roubou OS maiores tesouros DE hollywood, QUE é A cidade ONDE TUDO SE passa nesse jogo. O ladrão surrupiou O chapéu DE feiticeiro, A VOZ DA sereia E A lâmpada mágica DE aladdin. Após O roubo destas relíquias bonkers E SEU parceiro lucky ficam sabendo DA noticia lendo UM jornal dentro DO carro DE polícia quando faziam UMA ronda, MAS acabam sofrendo UM acidente DE carro ONDE lucky SE machuca E acaba deixando O CASO PARA bonkers, QUE decide recuperar AS relíquias sozinho.
+release: 1994-10-02
+players: 1
+x-id: 2662
+assets.boxFront: ./media/image/Bonkers.Sfc (Br).Sfc-57D9015DDD68.png
+assets.boxBack: ./media/image/Bonkers.Sfc (Br).Sfc-F46947AEF067.png
+assets.cartridge: ./media/image/Bonkers.Sfc (Br).Sfc-6A083ECCA2A3.png
+assets.marquee: ./media/image/Bonkers.Sfc (Br).Sfc-E850524EE9E8.png
+assets.screenshot: ./media/screenshots/Bonkers.Sfc (Br).Sfc-E3812B16A10F.png
+assets.video: ./media/videos/Bonkers.Sfc (Br).Sfc-CADEF0937AF6.mp4
+assets.logo: ./media/image/Bonkers.Sfc (Br).Sfc-E850524EE9E8.png
+assets.background: ./media/fanart/Bonkers.Sfc (Br).Sfc-2830EA77A01D.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Bonkers.Sfc (Br).Sfc-E35185DB919E.png
+assets.bezel: ./media/image/Bonkers.Sfc (Br).Sfc-E7EB157B86A7.png
+rating: 0.40
+
+collection: snes
+game: CONTRA III - THE ALIEN WARS [19017].SFC
+file: ./Contra III - The Alien Wars.Sfc [19017].sfc.7z
+developer: KONAMI
+publisher: KONAMI
+genre: PLATAFORMA / TIRO COM ROLAGEM, PLATAFORMA
+favorite: false
+description: 
+	NO ANO DE 2636, A feroz guerra extraterrestre corre solta E apenas DOIS soldados, jimbo E sully, podem acabar COM A invasão. Desfrute DE SEIS níveis DE TIRO E ação SEM parar NA versão americana DO clássico DO super nes, ONDE você PODE desfrutar DE jogos PARA UM jogador OU jogar COM UM amigo. Colete atualizações COMO bombas, lança-chamas, feixes DE dispersão, lasers E lançadores DE mísseis. Assuma O controle DE jimbo E sully EM UMA viagem POR cidades devastadas E USE veículos aéreos E até mísseis PARA finalmente chegar à BASE alienígena, ONDE você DEVE derrubar O chefe final DE UMA VEZ POR todas.
+release: 1992-04-06
+players: 1-2
+x-id: 19017
+assets.boxFront: ./media/image/Contra III - The Alien Wars.Sfc-A75CB03EE3A5.png
+assets.boxBack: ./media/image/Contra III - The Alien Wars.Sfc-12720D626AC6.png
+assets.cartridge: ./media/image/Contra III - The Alien Wars.Sfc-5B29A0F58BFC.png
+assets.marquee: ./media/image/Contra III - The Alien Wars.Sfc-97BFA5052CD7.png
+assets.screenshot: ./media/screenshots/Contra III - The Alien Wars.Sfc-814AF8543B5E.png
+assets.video: ./media/videos/Contra III - The Alien Wars.Sfc-16C9EA2E5DB5.mp4
+assets.logo: ./media/image/Contra III - The Alien Wars.Sfc-97BFA5052CD7.png
+assets.background: 
+assets.music: 
+assets.titlescreen: ./media/image/Contra III - The Alien Wars.Sfc-B75DBE098FEE.png
+assets.bezel: ./media/image/Contra III - The Alien Wars.Sfc-5537FCF6F67D.png
+rating: 0.80
+
+collection: snes
+game: DONKEY KONG COUNTRY 2 - DIDDY'S KONG QUEST [2169].SFC
+file: ./Donkey Kong Country 2 - Diddy's Kong Quest.Sfc [2169].sfc.7z
+developer: RAREWARE
+publisher: NINTENDO
+genre: PLATAFORMA / CORRE E PULA, PLATAFORMA
+favorite: false
+description: 
+	Após derrotar O REI k. Rool, OS kongs voltam PARA AS ilhas DK COM A reserva DE bananas DE donkey kong. LOGO depois DK estava relaxando, quando UMA aeronave chamada flying krock SE aproxima DA ilha. O capitão k. ROOL envia OS kremlings PARA A ILHA E sequestra donkey kong. ELE só irá libertá-lo SE A família KONG entregar A reserva DE bananas DE donkey KONG PARA ele. Então, diddy E SUA namorada dixie, encontram UMA NOTA afirmando O sequestro DE donkey KONG POR capitão k. ROOL NO convés DE UM navio pirata, OS DOIS partem juntos PARA A crocodile ISLE PARA resgatá-lo, MAS PARA ISSO diddy E dixie precisam atravessar UMA série DE lugares DA ilha. Durante A jornada, diddy E dixie são ajudados POR UMA variedade DE animais PARA salvar donkey KONG E derrotar k. Rool.
+release: 1995-11-14
+players: 1-2
+x-id: 2169
+assets.boxFront: ./media/image/Donkey Kong Country 2 - Diddy's Kong Quest.Sfc-EE7820B8BD20.png
+assets.boxBack: ./media/image/Donkey Kong Country 2 - Diddy's Kong Quest.Sfc-DDFFA3E7DC0B.png
+assets.cartridge: ./media/image/Donkey Kong Country 2 - Diddy's Kong Quest.Sfc-297C9D992C5A.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Donkey Kong Country 2 - Diddy's Kong Quest.Sfc-1D7B65EBB629.png
+assets.video: ./media/videos/Donkey Kong Country 2 - Diddy's Kong Quest.Sfc-1F01D59101A2.mp4
+assets.logo: 
+assets.background: ./media/fanart/Donkey Kong Country 2 - Diddy's Kong Quest.Sfc-CBCAAEB366A5.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Donkey Kong Country 2 - Diddy's Kong Quest.Sfc-48A11C51F52F.png
+assets.bezel: ./media/image/Donkey Kong Country 2 - Diddy's Kong Quest.Sfc-475C6B9ED170.png
+rating: 0.80
+
+collection: snes
+game: DONKEY KONG COUNTRY 3.SFC (BR).SFC
+file: ./Donkey Kong Country 3.Sfc.Sfc (BR) [2181].sfc.7z
+developer: RAREWARE
+publisher: NINTENDO
+genre: PLATAFORMA, PLATAFORMA / CORRE E PULA
+favorite: false
+description: 
+	PARA comemorar A derrota DE k. ROOL NO JOGO anterior, donkey E diddy SAEM NUMA viagem PARA conseguir bananas EM novas terras, COMO northern kremisfer POR exemplo, MAS demoram muito A voltar. LOGO então, OS kongs descobrem QUE UMA figura misteriosa DE NOME "kaos" sequestrou OS dois. Então dixie VAI RUMO AO kremisfério norte PARA resgatá-los.
+release: 1996-12-19
+players: 1-2
+x-id: 2181
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Donkey Kong Country 3.Sfc (Br).Sfc-608972F1402F.png
+assets.video: ./media/videos/Donkey Kong Country 3.Sfc (Br).Sfc-8AC0ACB8CA70.mp4
+assets.logo: 
+assets.background: ./media/fanart/Donkey Kong Country 3.Sfc (Br).Sfc-162F78C1F41B.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Donkey Kong Country 3.Sfc (Br).Sfc-8FAA48271605.png
+assets.bezel: ./media/image/Donkey Kong Country 3.Sfc (Br).Sfc-7DB00F49D196.png
+rating: 0.80
+
+collection: snes
+game: DONKEY KONG COUNTRY [2149].SMC
+file: ./Donkey Kong Country.Smc [2149].smc.7z
+developer: RAREWARE
+publisher: NINTENDO
+genre: PLATAFORMA, PLATAFORMA / CORRE E PULA
+favorite: false
+description: 
+	Donkey kong, AO LADO DE SEU sobrinho E companheiro inseparável diddy kong, devem recuperar AS bananas roubadas POR KING k. ROOL E SEUS capangas, OS kremlings. Após verificar O vazio esconderijo DE bananas, localizado LOGO abaixo DE SUA casa, donkey KONG embarca EM UMA aventura EM SUA terra nativa, A ILHA donkey kong. Enquanto coleta AS bananas NAS diferentes regiões DA ilha, donkey KONG DEVE derrotar vários inimigos, incluindo OS repteis kremlings, além DE outras perigosas criaturas nativas DA ilha.
+release: 1994-11-18
+players: 1-2
+x-id: 2149
+assets.boxFront: ./media/image/Donkey Kong Country.Smc-26BA409FDD35.png
+assets.boxBack: ./media/image/Donkey Kong Country.Smc-73CF3312614F.png
+assets.cartridge: ./media/image/Donkey Kong Country.Smc-DB05D2DC9ECB.png
+assets.marquee: ./media/image/Donkey Kong Country.Smc-7B512F7E6DB4.png
+assets.screenshot: ./media/screenshots/Donkey Kong Country.Smc-32AE1A819FBC.png
+assets.video: ./media/videos/Donkey Kong Country.Smc-41F5FC8601CD.mp4
+assets.logo: ./media/image/Donkey Kong Country.Smc-7B512F7E6DB4.png
+assets.background: ./media/fanart/Donkey Kong Country.Smc-05612A9C07C6.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Donkey Kong Country.Smc-4715A5B6C862.png
+assets.bezel: ./media/image/Donkey Kong Country.Smc-01787BB0B053.png
+rating: 0.80
+
+collection: snes
+game: EARTHWORM JIM 2 [2269].SFC
+file: ./Earthworm Jim 2.Sfc [2269].sfc.7z
+developer: SHINY ENTERTAINMENT
+publisher: VIRGIN INTERACTIVE
+genre: PLATAFORMA
+favorite: false
+description: 
+	UMA ordinária minhoca chamada JIM LEVA SUA VIDA normalmente, passeando POR aí, desviando DE corvos, E fazendo coisas DE minhoca. JIM subitamente é atingido POR UM traje-espacial-tecnológico-cibernético-super-indestrutível. POR muita sorte JIM descansa EM segurança NO pescoço DO traje. DE repente, partículas espaciais DO traje começam A interagir COM jim. Ocorre UMA evolução radical NA velocidade DA LUZ E JIM rapidamente percebe QUE está EM controle DO traje. A jogabilidade é similar AO primeiro jogo, COM JIM correndo E pulando através DAS fases E existem 5 armas A MAIS QUE O JOGO original PARA coletar.
+release: 1996-01-25
+players: 1
+x-id: 2269
+assets.boxFront: ./media/image/Earthworm Jim 2.Sfc-7D5C08F26D84.png
+assets.boxBack: ./media/image/Earthworm Jim 2.Sfc-FF8DBD8FB98E.png
+assets.cartridge: ./media/image/Earthworm Jim 2.Sfc-A4B248E1DC74.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Earthworm Jim 2.Sfc-8FA45E1758FC.png
+assets.video: ./media/videos/Earthworm Jim 2.Sfc-4410841BDD2C.mp4
+assets.logo: 
+assets.background: ./media/fanart/Earthworm Jim 2.Sfc-73E5AE0D2FEE.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Earthworm Jim 2.Sfc-F496CE620E0F.png
+assets.bezel: ./media/image/Earthworm Jim 2.Sfc-8F734446F872.png
+rating: 0.60
+
+collection: snes
+game: FINAL FIGHT 2 [2386].SMC
+file: ./Final Fight 2.Smc [2386].smc.7z
+developer: CAPCOM
+publisher: CAPCOM
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	Algum tempo depois DOS eventos QUE ocorreram NO primeiro final fight, UMA NOVA missão PARA haggar está PARA surgir. O brigão está novamento cumprindo SEUS deveres COMO prefeito DE metro city, enquanto SUA filha jessica está EM UMA viagem DE férias COM cody, E O destemido GUY está cumprindo UMA NOVA missão PARA aperfeiçoar SEU treinamento EM UM local desconhecido. MAS TUDO QUE é BOM DURA pouco. A aparente PAZ seria rompida COM O aparecimento DE UM NOVO vilão DO crime chamado retu, QUE trouxe MAD GEAR DE volta DAS cinzas E A transformou EM UMA facção criminosa ainda MAIS perigosa DO QUE ERA originalmente! OS remanescentes DA velha MAD GEAR desejam vingança, E UM NOVO sequestro ocorre: desta VEZ A BELA RENA E O sábio genryusai, respectivamente noiva E mestre DE guy, são AS vítimas!dois DIAS após O sequestro, haggar então recebe UMA ligação DE maki, A irmão DE rena, QUE O informa sobre O ocorrido E PEDE SUA ajuda. COM GUY E CODY ausentes, haggar então contará COM A ajuda DE carlos miyamoto, UM exímio espadachim, PARA SE UNIR A MAKI nessa NOVA LUTA contra A famigerada MAD gear!
+release: 1993-01-01
+players: 1-2
+x-id: 2386
+assets.boxFront: ./media/image/Final Fight 2.Smc-90BCB6D5FD25.png
+assets.boxBack: ./media/image/Final Fight 2.Smc-81A33A6FE099.png
+assets.cartridge: ./media/image/Final Fight 2.Smc-1CEC0E0B8A0E.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Final Fight 2.Smc-1B42FE97ADF0.png
+assets.video: ./media/videos/Final Fight 2.Smc-3AB8144F8191.mp4
+assets.logo: 
+assets.background: ./media/fanart/Final Fight 2.Smc-2057A679C2F7.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Final Fight 2.Smc-7693E09AF6AB.png
+assets.bezel: ./media/image/Final Fight 2.Smc-E0740911EA53.png
+rating: 0.60
+
+collection: snes
+game: FINAL FIGHT 3 [2284].SMC
+file: ./Final Fight 3.Smc [2284].smc.7z
+developer: CAPCOM
+publisher: CAPCOM
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	A história DE final fight 3 SE passa UM tempo após OS acontecimentos DE final fight 2, ONDE A MAD GEAR FOI finalmente aniquilada. PARA infelicidade DO prefeitão haggar, COM A queda DA MAD GEAR UMA outra GANG criminosa resolveu dominar AS RUAS DE metro city: A famigerada ?skull cross gang?. Coincidentemente BEM NO DIA EM QUE GUY retorna A metro city, após UM longo período DE treinamento, haggar vê DA janela DE SEU escritório QUE A PAZ DE SUA cidade está MAIS UMA VEZ ameaçada: UMA grande explosão ocorre NO centro DE metro city, E criminosos DAS piores espécies estão fazendo UM verdadeiro CAOS EM vários pontos DA cidade! Haggar parte então juntamente COM guy, A detetive lucia E O lutador DE RUA DEAN PARA OS locais ONDE OS membros DA ?skull cross gang? Estão agindo, AFIM DE trazer MAIS UMA VEZ A PAZ EM metro city.
+release: 1996-03-13
+players: 1-2
+x-id: 2284
+assets.boxFront: ./media/image/Final Fight 3.Smc-AA479D3DB8EF.png
+assets.boxBack: ./media/image/Final Fight 3.Smc-39B5FCA7866C.png
+assets.cartridge: ./media/image/Final Fight 3.Smc-A06D37F1B3AD.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Final Fight 3.Smc-44535306DC8F.png
+assets.video: ./media/videos/Final Fight 3.Smc-4F12D10CBF39.mp4
+assets.logo: 
+assets.background: ./media/fanart/Final Fight 3.Smc-4E4ECD485A0A.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Final Fight 3.Smc-337B404071C6.png
+assets.bezel: ./media/image/Final Fight 3.Smc-63216FEFEE8E.png
+rating: 0.60
+
+collection: snes
+game: FLASHBACK [2229].SMC
+file: ./Flashback.Smc [2229].smc.7z
+developer: DELPHINE SOFTWARE INTERNATIONAL
+publisher: U.S. GOLD
+genre: PLATAFORMA
+favorite: false
+description: 
+	Estamos NO ANO DE 2140, NO longínquo planeta titan. EM fuga, O agente conrad b. HART é abatido POR mutantes E CAI EM UMA densa floresta tropical. POR pouco não sofre UM acidente fatal. Acorda SEM memória, perdido NUM ambiente hostil, ONDE encontra UM CUBO holográfico que, PARA SUA surpresa, possuía UMA mensagem gravada POR ELE mesmo. Talvez UM prenúncio DO QUE estivesse POR vir? Mistérios, ação, reviravoltas, assim começa flashback, JOGO DE ficção muito aclamado POR retrogamers EM TODO O mundo.
+release: 1993-11-01
+players: 1
+x-id: 2229
+assets.boxFront: ./media/image/Flashback.Smc-579B9A8690A9.png
+assets.boxBack: ./media/image/Flashback.Smc-CB9263492952.png
+assets.cartridge: ./media/image/Flashback.Smc-8DDEBC9334B1.png
+assets.marquee: ./media/image/Flashback.Smc-FA17DB346A41.png
+assets.screenshot: ./media/screenshots/Flashback.Smc-47EA25FAA66A.png
+assets.video: ./media/videos/Flashback.Smc-C8F342B2E1A6.mp4
+assets.logo: ./media/image/Flashback.Smc-FA17DB346A41.png
+assets.background: ./media/fanart/Flashback.Smc-E2A69997BB42.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Flashback.Smc-224D9A600AB7.png
+assets.bezel: ./media/image/Flashback.Smc-A68854662CD1.png
+rating: 0.80
+
+collection: snes
+game: GANBARE GOEMON 2.SFC (BR).SFC
+file: ./Ganbare Goemon 2.Sfc.Sfc (BR) [29433].sfc.7z
+developer: IMMERSIVE GAMES
+publisher: IMMERSIVE GAMES
+genre: ESTRATÉGIA
+favorite: false
+description: 
+	FORT commander é UMA reviravolta NO gênero clássico DE defesa DE torre ambientado NO período DE conquista mogul. Você desempenha O papel DO comandante DO exército mogul. Você DEVE derrotar DOIS reinos opostos - malwa E bengal - EM UM total DE 14 missões, incluindo DUAS DE assalto E DUAS DE sobrevivência. A jogabilidade é construída EM torno DA estratégia DE expansão E controle DO império mogul. NO MODO campanha, você defende SUA torre até QUE A população inimiga SEJA esgotada E então você conquista A torre deles. NO MODO assalto, você ataca A torre inimiga até esgotar A população deles.
+release: 2010-11-09
+players: 1
+x-id: 29433
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Ganbare Goemon 2.Sfc (Br).Sfc-D3F7782CB327.png
+assets.video: ./media/videos/Ganbare Goemon 2.Sfc (Br).Sfc-734233661A68.mp4
+assets.logo: 
+assets.background: 
+assets.music: 
+assets.titlescreen: ./media/image/Ganbare Goemon 2.Sfc (Br).Sfc-21EC8E8C2D50.png
+assets.bezel: 
+rating: 0.40
+
+collection: snes
+game: GANBARE GOEMON YUKIHIME KYŪSHUTSU EMAKI.SMC (BR).SMC
+file: ./Ganbare Goemon Yukihime Kyūshutsu Emaki.Smc.Smc (BR) [29431].smc.7z
+developer: SKYL-COM
+publisher: SKYL-COM
+genre: QUEBRA-CABEÇAS
+favorite: false
+description: 
+	Jogue O clássico JOGO DE caça-minas COMO você nunca jogou antes! O HIVE sweeper oferece UM número ilimitado DE jogos clássicos ambientados NA atmosfera única DE UMA colmeia. TOME cuidado! Gráficos malucos, música arrepiante, ampla variedade DE níveis DE dificuldade E recorde DE tempo constantemente quebrável LOGO farão DE você UM viciado número UM EM HIVE sweeper. Teste SEU poder cerebral, inteligência E paciência NOS 3 tipos DE estilo DE JOGO (com diferentes formatos DE células), CADA UM COM 15 níveis DE dificuldade. Você é UM iniciante absoluto? OU já é UM especialista? O varredor DE colméia é O varredor DE minas PARA você!
+release: 2010-08-25
+players: 1
+x-id: 29431
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Ganbare Goemon Yukihime Kyūshutsu Emaki.Smc (Br).Smc-40085DCE3971.png
+assets.video: ./media/videos/Ganbare Goemon Yukihime Kyūshutsu Emaki.Smc (Br).Smc-F1CFC00C6E4B.mp4
+assets.logo: 
+assets.background: 
+assets.music: 
+assets.titlescreen: ./media/image/Ganbare Goemon Yukihime Kyūshutsu Emaki.Smc (Br).Smc-D1D9E5AB6542.png
+assets.bezel: 
+rating: 0.40
+
+collection: snes
+game: GOOF TROOP [2210].SMC
+file: ./Goof Troop.Smc [2210].smc.7z
+developer: CAPCOM
+publisher: CAPCOM
+genre: QUEBRA-CABEÇAS
+favorite: false
+description: 
+	É UM ótimo DIA PARA pescar MAS pateta só pescou UM monte DE problemas. PETE E PJ foram sequestrados POR piratas agora pateta E MAX devem viajar até spoonerville island E SE aventurar PELA floresta PARA resgatar SEUS amigos. SUBA abordo COM pateta E MAX E LUTE contra UM exército DE fanfarrões MAL humorados, esquive DE balas DE canhão. Procure POR tesouros enterrados E solucione puzzles PARA TER AS chaves QUE levam até O esconderijo DOS piratas E então você enfrentará keelhaul pete, O terror DOS trópicos!
+release: 1993-11-25
+players: 1-2
+x-id: 2210
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Goof Troop.Smc-815EA61C03BC.png
+assets.video: ./media/videos/Goof Troop.Smc-379FC55BFBDD.mp4
+assets.logo: 
+assets.background: ./media/fanart/Goof Troop.Smc-B4A9881486F9.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Goof Troop.Smc-CAF578C5A593.png
+assets.bezel: ./media/image/Goof Troop.Smc-FC17C95DF2E3.png
+rating: 0.60
+
+collection: snes
+game: GRADIUS III [2361].SMC
+file: ./Gradius Iii.Smc [2361].smc.7z
+developer: KONAMI
+publisher: KONAMI
+genre: SHOOT'EM UP / HORIZONTAL, SHOOT'EM UP
+favorite: false
+description: 
+	Gradius III é O terceiro JOGO DA série DE shooters DA konami, QUE inclui LIFE force E nemesis. COMO é NA maioria DOS jogos gradius, você controla UMA avançada NAVE VIC viper contra UMA horda DE inimigos. AS armas podem SER selecionadas DE UMA lista predefinida OU você PODE criar A SUA própria lista. O JOGO PODE SER jogado sozinho OU COM DOIS jogadores EM turnos alternados. O JOGO oferece três níveis DE dificuldade.
+release: 1991-08-13
+players: 1-2
+x-id: 2361
+assets.boxFront: ./media/image/Gradius Iii.Smc-2CEAAB8CF95C.png
+assets.boxBack: ./media/image/Gradius Iii.Smc-BD9D9931C7C6.png
+assets.cartridge: ./media/image/Gradius Iii.Smc-A0D13A736D82.png
+assets.marquee: ./media/image/Gradius Iii.Smc-59B1C4465A05.png
+assets.screenshot: ./media/screenshots/Gradius Iii.Smc-E1B2A7F1784C.png
+assets.video: ./media/videos/Gradius Iii.Smc-A8EA9BAA1F09.mp4
+assets.logo: ./media/image/Gradius Iii.Smc-59B1C4465A05.png
+assets.background: ./media/fanart/Gradius Iii.Smc-A2C33B30E352.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Gradius Iii.Smc-68B518418E2E.png
+assets.bezel: ./media/image/Gradius Iii.Smc-D552F3622872.png
+rating: 0.60
+
+collection: snes
+game: GREAT BATTLE 2 - LAST FIGHTER TWIN, THE [38818].SMC
+file: ./Great Battle 2 - Last Fighter Twin, The.Smc [38818].smc.7z
+developer: BANPRESTO
+publisher: BANPRESTO
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	O segundo JOGO DA série great battle PARA super famicom QUE começou COM SD great battle EM 1990. Também FAZ parte DA compati HERO series, QUE re-imagina OS personagens gundam, ultraman E kamen rider COMO versões super deformadas (sd) DE parentes. Tamanhos. ISSO FOI PARA QUE OS personagens imensamente altos DE gundam E ultraman pudessem lutar AO LADO DE personagens kamen rider DE tamanho humano. LAST fighter TWIN SE afasta DA jogabilidade DE ação DE CIMA PARA baixo DE SD great battle COM UM formato DE LUTA DE rolagem lateral.
+players: 1-2
+x-id: 38818
+assets.boxFront: ./media/image/Great Battle 2 - Last Fighter Twin, The.Smc-408BD42AE2BC.png
+assets.boxBack: ./media/image/Great Battle 2 - Last Fighter Twin, The.Smc-A92A1E681A63.png
+assets.cartridge: ./media/image/Great Battle 2 - Last Fighter Twin, The.Smc-E5697B7A5A9F.png
+assets.marquee: ./media/image/Great Battle 2 - Last Fighter Twin, The.Smc-60EBA23EEC13.png
+assets.screenshot: ./media/screenshots/Great Battle 2 - Last Fighter Twin, The.Smc-5A5E7ED98F48.png
+assets.video: ./media/videos/Great Battle 2 - Last Fighter Twin, The.Smc-1370E56BEFC5.mp4
+assets.logo: ./media/image/Great Battle 2 - Last Fighter Twin, The.Smc-60EBA23EEC13.png
+assets.background: ./media/fanart/Great Battle 2 - Last Fighter Twin, The.Smc-5C94014C8EDB.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Great Battle 2 - Last Fighter Twin, The.Smc-6666C01335DF.png
+assets.bezel: 
+rating: 0.60
+
+collection: snes
+game: KILLER INSTINCT [2155].SFC
+file: ./Killer Instinct.Sfc [2155].sfc.7z
+developer: RAREWARE
+publisher: NINTENDO
+genre: LUTA, LUTA / VERSUS
+favorite: false
+description: 
+	A história DE killer instinct começa NUM passado distante, ONDE ocorre NO mundo UMA guerra DE proporções titânicas. DOIS lordes DA guerra travavam UMA batalha terrível entre si, ONDE muitas pessoas ERAM mortas, exércitos ERAM destroçados E O mundo ERA colocado A prêmio. Decididos A acabar COM isso, UM grupo DE heróis enfrenta bravamente OS DOIS lordes inimigos, E criam UM feitiço QUE SELA OS DOIS titãs NO limbo. Temporariamente, A PAZ voltou A reinar. DO passado, passamos A UM futuro caótico E não tão distante DA nossa era. A poluição tomou conta DO MEIO ambiente, OS governos caíram; agora O mundo é controlado POR mega-corporações QUE SE enfrentam E SE destróem pelas riquezas DO planeta. Nesse contexto, sobressai-se UMA mega-corporação: ultratech. AO invés DE entrar EM conflitos diretos COM outras corporações, A ultratech SE mantém vendendo armas avançadas PARA AS corporações SE destruírem. MAS A ultratech não domina O mundo apenas através DA venda DE armas, MAS também através DA mídia: SUA divisão DE entretenimento produz O maior fenômeno televisivo DO planeta: O torneio killer instinct, QUE ainda serve COMO campo DE testes PARA AS armas DA ultratech. Nesse torneio, promete-se AOS vencedores TUDO O QUE ELES quiserem, MAS NEM sempre garante QUE A promessa será cumprida. Enquanto OS perdedores sofrem UM destino cruel NAS mãos DA empresa.
+release: 1995-09-21
+players: 1-2
+x-id: 2155
+assets.boxFront: ./media/image/Killer Instinct.Sfc-BBDAA8EF7A2B.png
+assets.boxBack: ./media/image/Killer Instinct.Sfc-F342BEBD10D0.png
+assets.cartridge: ./media/image/Killer Instinct.Sfc-650B2BAEEB0A.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Killer Instinct.Sfc-7C8446842F93.png
+assets.video: ./media/videos/Killer Instinct.Sfc-0A7283A36D5B.mp4
+assets.logo: 
+assets.background: ./media/fanart/Killer Instinct.Sfc-270E1A5BECF5.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Killer Instinct.Sfc-9F7A6E0B94CC.png
+assets.bezel: ./media/image/Killer Instinct.Sfc-EAD197998639.png
+rating: 0.60
+
+collection: snes
+game: KING OF DRAGONS [2415].SFC
+file: ./King Of Dragons.Sfc [2415].sfc.7z
+developer: CAPCOM
+publisher: CAPCOM
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	O reino DE malus sofre COM A fúria DO dragão vermelho DE cauda DE ferro gildiss QUE POR MAIS DE 100 ANOS espalha O CAOS NO povoado DE malus, PARA piorar A situação gildiss conta COM ajuda DE terríveis bestas QUE atormentam E assombram AS pessoas DOS vilarejos. OS soldados DO reino DE malus são enviados PARA enfrentar O grande dragão vermelho, MAS TODO O homem QUE ousou chegar perto DE gildiss FOI morto impiedosamente. O REI DE malus procura UM grande MAGO chamado guindon E parece finalmente achar A solução, POIS O MAGO DIZ QUE PODE lançar UM feitiço E colocar O temido dragão PARA dormir POR 1 ano, entretanto quando O feitiço acabar gildiss VAI acordar ainda MAIS poderoso E faminto POR vingança. DE mãos atadas diante DA situação O REI ordena QUE O feitiço SEJA lançado, POIS assim ELE ganha tempo PARA armar UMA estratégia PARA vencer O dragão E consegue DAR UM pouco DE PAZ PARA OS moradores DA VILA DE malus. COM gildiss EM SONO profundo O REI achou QUE seria MAIS fácil derrotar O dragão, porém milhares DE cavaleiros foram AO encontro DE gildiss E nenhum deles voltou vivo. Agora O efeito DO feitiço está acabando E gildiss está prestes A acordar, OS monstros já estão sedentos POR sangue prontos PARA atacar O reino DE malus, MAS O REI conta COM SUA ultima cartada QUE são OS 5 guerreiros DE malus QUE aperfeiçoaram SEUS poderes PARA A batalha final contra gildiss.
+release: 1994-08-01
+players: 1-2
+x-id: 2415
+assets.boxFront: ./media/image/King Of Dragons.Sfc-52041DA2238C.png
+assets.boxBack: ./media/image/King Of Dragons.Sfc-0EE673620333.png
+assets.cartridge: ./media/image/King Of Dragons.Sfc-3D5BBF1BC87F.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/King Of Dragons.Sfc-2CF6462EE13F.png
+assets.video: ./media/videos/King Of Dragons.Sfc-0785E37EA00E.mp4
+assets.logo: 
+assets.background: ./media/fanart/King Of Dragons.Sfc-BE3A25813781.jpg
+assets.music: 
+assets.titlescreen: ./media/image/King Of Dragons.Sfc-973D27674C6F.png
+assets.bezel: ./media/image/King Of Dragons.Sfc-7FEDDD841672.png
+rating: 0.60
+
+collection: snes
+game: KISHIN DOUJI ZENKI - BATTLE RAIDEN [19109].SFC
+file: ./Kishin Douji Zenki - Battle Raiden.Sfc [19109].sfc.7z
+developer: CAPRODUCTION
+publisher: HUDSON SOFT
+genre: PLATAFORMA
+favorite: false
+description: 
+	Kishin douji zenki: batoru raiden é UM JOGO DE plataforma/ação visto DE perfil. Você carrega zenki COMO UM garotinho OU COMO UM verdadeiro superdemônio. O primeiro só PODE pular E socar, enquanto O último TEM UMA variedade DE movimentos especiais, COMO bolas DE fogo, ganchos PARA disparar UM tornado OU UM SOCO DE fogo. OS níveis são MAIS OU menos orientados PARA plataforma/exploração OU PURA ação dependendo DO personagem QUE você joga. Alguns níveis terminam COM O chefe habitual.
+players: 1-2
+x-id: 19109
+assets.boxFront: ./media/image/Kishin Douji Zenki - Battle Raiden.Sfc-A1BF592F0DCF.png
+assets.boxBack: ./media/image/Kishin Douji Zenki - Battle Raiden.Sfc-5BD10A2B62B1.png
+assets.cartridge: ./media/image/Kishin Douji Zenki - Battle Raiden.Sfc-4DE693A921F9.png
+assets.marquee: ./media/image/Kishin Douji Zenki - Battle Raiden.Sfc-3D71E4AECCB2.png
+assets.screenshot: ./media/screenshots/Kishin Douji Zenki - Battle Raiden.Sfc-D0335DF9DCF2.png
+assets.video: ./media/videos/Kishin Douji Zenki - Battle Raiden.Sfc-D3F2559BFC0C.mp4
+assets.logo: ./media/image/Kishin Douji Zenki - Battle Raiden.Sfc-3D71E4AECCB2.png
+assets.background: ./media/fanart/Kishin Douji Zenki - Battle Raiden.Sfc-14F98DF7F902.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Kishin Douji Zenki - Battle Raiden.Sfc-CB9A5B925D13.png
+assets.bezel: 
+rating: 0.60
+
+collection: snes
+game: KNIGHTS OF THE ROUND [2346]
+file: ./Knights Of The Round [2346].7z
+developer: CAPCOM
+publisher: CAPCOM
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	EM KNIGHTS OF THE ROUND, VOCÊ JOGA COMO UM DOS TRÊS CAVALEIROS DA LENDAS ARTURIANAS. OS TRÊS CAVALEIROS SÃO SIR LANCELOT, SIR PERCIVAL, E CLARO, REI ARTHUR. A HISTÓRIA FALA DE UM HOMEM QUE REMOVEU A LENDÁRIA ESPADA EXCALIBUR DE UMA ROCHA QUE NINGUÉM MAIS PODERIA. ESTE FEITO SIGNIFICAVA QUE ELE SE TORNARIA O REI DOS BRITÕES E OS LIDERARIA RUMO A PAZ. O PROBLEMA É QUE EXISTE UM GRANDE CAOS NO PAÍS E A ÚNICA MANEIRA DE ACABAR COM ISSO É ENCONTRANDO O SANTO GRAAL QUE ESTÁ ESCONDIDO HÁ MAIS DE MIL ANOS. ARTHUR TEM A AJUDA DE PERCIVAL E LANCELOT EM SUA JORNADA PARA ENCONTRAR O SANTO GRAAL.
+release: 1994-04-01
+players: 1-2
+x-id: 2346
+assets.boxFront: ./media/image/Knights Of The Round-0031C9E28C89.png
+assets.boxBack: ./media/image/Knights Of The Round-4184E10BDAA9.png
+assets.cartridge: ./media/image/Knights Of The Round-79BDB99FB255.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Knights Of The Round-A325402F0A52.png
+assets.video: ./media/videos/Knights Of The Round-F4BB5DE4A368.mp4
+assets.logo: 
+assets.background: 
+assets.music: 
+assets.titlescreen: ./media/image/Knights Of The Round-EC62D7260033.png
+assets.bezel: ./media/image/Knights Of The Round-6E9664A1C214.png
+rating: 0.60
+
+collection: snes
+game: LEGEND OF ZELDA, THE - A LINK TO THE PAST (BR).SMC
+file: ./Legend Of Zelda, The - A Link To The Past.Smc (BR) [2138].smc.7z
+developer: NINTENDO
+publisher: NINTENDO
+genre: JOGOS DE RPG
+favorite: false
+description: 
+	THE legend OF zelda : A LINK TO THE PAST é UM JOGO DE aventura PARA super nintendo EM QUE você JOGA COM link, UM garoto DE hyrule. SUA missão é resgatar A princesa zelda DAS garras DO MAGO agahnim antes QUE ELE libere O SELO DOS SETE sábios QUE separam O mundo DA LUZ E DA escuridão. PARA isso, você DEVE atravessar muitas masmorras cheias DE monstros E encontrar EM CADA UM deles objetos QUE LHE permitem progredir EM SUA missão.
+release: 1992-09-24
+players: 1
+x-id: 2138
+assets.boxFront: ./media/image/Legend Of Zelda, The - A Link To The Past (Br).Smc-543060460DCE.png
+assets.boxBack: ./media/image/Legend Of Zelda, The - A Link To The Past (Br).Smc-0A29F096093D.png
+assets.cartridge: ./media/image/Legend Of Zelda, The - A Link To The Past (Br).Smc-07C33DEACDFC.png
+assets.marquee: ./media/image/Legend Of Zelda, The - A Link To The Past (Br).Smc-0737F2B43579.png
+assets.screenshot: ./media/screenshots/Legend Of Zelda, The - A Link To The Past (Br).Smc-37B9DA90CA49.png
+assets.video: ./media/videos/Legend Of Zelda, The - A Link To The Past (Br).Smc-0B2AE764BF60.mp4
+assets.logo: ./media/image/Legend Of Zelda, The - A Link To The Past (Br).Smc-0737F2B43579.png
+assets.background: ./media/fanart/Legend Of Zelda, The - A Link To The Past (Br).Smc-CF663115ECDF.jpg
+assets.music: 
+assets.titlescreen: 
+assets.bezel: ./media/image/Legend Of Zelda, The - A Link To The Past (Br).Smc-01D55642FFAB.png
+rating: 0.80
+
+collection: snes
+game: MAGICAL POP'N [19125]
+file: ./Magical Pop'n [19125].7z
+developer: POLESTAR
+publisher: PACK IN VIDEO
+genre: PLATAFORMA
+favorite: false
+description: 
+	O REINO DE TOARU É UM LUGAR PRÓSPERO, PACÍFICO E FAMOSO POR SUA MAGIA. DENTRO DO CASTELO TOARU RESIDE A JOIA MÁGICA E REZA A LENDA QUE ELA CONCEDE A PESSOA QUE A SEGURAR UM GRANDE PODER MÁGICO. POR CONTA DISSO, ELA É SELADA DENTRO DO CASTELO PARA PREVENIR QUE CAIA NAS MÃOS ERRADAS. UMA NOITE, UMA FIGURA SOMBRIA E SEU EXÉRCITO DE MONSTROS INVADEM O CASTELO E ROUBAM A JOIA. ARMADO COM UMA ESPADA E PODERES MÁGICOS, A PRINCESA TOARU PARTE EM UMA JORNADA PARA RECUPERAR A JOIA E SALVAR O MUNDO.
+players: 1-5
+x-id: 19125
+assets.boxFront: ./media/image/Magical Pop'n-ADAE222E1A9C.png
+assets.boxBack: ./media/image/Magical Pop'n-7A8CCF365F47.png
+assets.cartridge: ./media/image/Magical Pop'n-77B1C8420273.png
+assets.marquee: ./media/image/Magical Pop'n-AAA07A959BB4.png
+assets.screenshot: ./media/screenshots/Magical Pop'n-BAD10EC763E3.png
+assets.video: ./media/videos/Magical Pop'n-CECE2AC05A68.mp4
+assets.logo: ./media/image/Magical Pop'n-AAA07A959BB4.png
+assets.background: ./media/fanart/Magical Pop'n-DDE982822D36.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Magical Pop'n-F8C8EE973D98.png
+assets.bezel: ./media/image/Magical Pop'n-36FC3A41394A.png
+rating: 0.80
+
+collection: snes
+game: MEGA MAN X [2159].SFC
+file: ./Mega Man X.Sfc [2159].sfc.7z
+developer: CAPCOM
+publisher: CAPCOM
+genre: PLATAFORMA / TIRO COM ROLAGEM, PLATAFORMA
+favorite: false
+description: 
+	MEGA MAN X é UM robô projetado PELO dr. Light PARA escolher SEU próprio caminho NA vida. ANOS depois DE ELE SER criado, O dr. CAIN encontra X E imita SEU design PARA criar UMA raça DE robôs chamados reploids. Quando O vírus sigma infecta esses reploids, levando-os A cometer ATOS DE maldade, CABE A MEGA MAN X E SEU parceiro ZERO (que é bastante poderoso, AO contrário DO QUE SEU NOME sugere) PARA pará-lo.
+release: 1994-08-25
+players: 1
+x-id: 2159
+assets.boxFront: ./media/image/Mega Man X.Sfc-09C67C59946A.png
+assets.boxBack: ./media/image/Mega Man X.Sfc-15124BA6AF34.png
+assets.cartridge: ./media/image/Mega Man X.Sfc-A9B10A878A91.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Mega Man X.Sfc-6EC1C7CEF470.png
+assets.video: ./media/videos/Mega Man X.Sfc-FE17E6B61321.mp4
+assets.logo: 
+assets.background: ./media/fanart/Mega Man X.Sfc-086330C06A86.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Mega Man X.Sfc-F54121EB0EC6.png
+assets.bezel: ./media/image/Mega Man X.Sfc-77FC9C288331.png
+rating: 0.80
+
+collection: snes
+game: MEGA MAN X2 [2209].SMC
+file: ./Mega Man X2.Smc [2209].smc.7z
+developer: CAPCOM
+publisher: CAPCOM
+genre: PLATAFORMA / TIRO COM ROLAGEM, PLATAFORMA
+favorite: false
+description: 
+	Sigma, O líder DO exército maverick, FOI destruído quando ELE subestimou SEU oponente: UM guerreiro solitário, despertado EM UM tempo QUE ELE nunca soube ... X. 6 meses SE passaram E X subiu PARA O posto DE líder DOS maverick hunters. SUA primeira tarefa FOI eliminar O último DOS mavericks. MAS quando ELE começou SUA missão, UM misterioso grupo DE reploids chamado x-hunters apareceu COM UMA mensagem PARA x: OS restos mortais DE SEU companheiro caído, zero, estavam NAS mãos DOS x-hunters, E ELES planejavam ressuscitar ZERO PARA lutar AO LADO deles E POR SEU líder caído, sigma. X DEVE agora parar OS x-hunters E resgatar ZERO e, MAIS UMA vez, impedir QUE A sigma volte à SUA potência máxima.
+release: 1995-07-12
+players: 1
+x-id: 2209
+assets.boxFront: ./media/image/Mega Man X2.Smc-DEF6BC335A1B.png
+assets.boxBack: ./media/image/Mega Man X2.Smc-817F65256C61.png
+assets.cartridge: ./media/image/Mega Man X2.Smc-F0F147B979F4.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Mega Man X2.Smc-E98B200ACF66.png
+assets.video: ./media/videos/Mega Man X2.Smc-626C63FBF708.mp4
+assets.logo: 
+assets.background: ./media/fanart/Mega Man X2.Smc-C8C97327EF20.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Mega Man X2.Smc-CD4299FE574B.png
+assets.bezel: ./media/image/Mega Man X2.Smc-2F1441192074.png
+rating: 0.80
+
+collection: snes
+game: MEGA MAN X3 [2191].SMC
+file: ./Mega Man X3.Smc [2191].smc.7z
+developer: CAPCOM
+publisher: CAPCOM
+genre: PLATAFORMA / TIRO COM ROLAGEM, PLATAFORMA
+favorite: false
+description: 
+	UM cientista reploid chamado dr. Doppler começa A criação DE UMA NOVA cidade PARA OS reploids, QUE trará UMA NOVA ERA DE PAZ PARA OS reploids E OS humanos. MAS ALGO dá muito errado, E agora OS mavericks começaram A aparecer EM TODO lugar! CABE A X E ZERO descobrir QUEM está POR trás dessa revolta maverick E derrubá-la PARA sempre!
+release: 1996-07-25
+players: 1
+x-id: 2191
+assets.boxFront: ./media/image/Mega Man X3.Smc-FE8694EFA759.png
+assets.boxBack: ./media/image/Mega Man X3.Smc-160BCC2BFFBF.png
+assets.cartridge: ./media/image/Mega Man X3.Smc-589D7444B5F9.png
+assets.marquee: ./media/image/Mega Man X3.Smc-6C844A10EF98.png
+assets.screenshot: ./media/screenshots/Mega Man X3.Smc-84089A8920D7.png
+assets.video: ./media/videos/Mega Man X3.Smc-C685C4AAAA57.mp4
+assets.logo: ./media/image/Mega Man X3.Smc-6C844A10EF98.png
+assets.background: ./media/fanart/Mega Man X3.Smc-973E11827B1D.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Mega Man X3.Smc-8476EAF349A8.png
+assets.bezel: ./media/image/Mega Man X3.Smc-387858B6BB3E.png
+rating: 0.80
+
+collection: snes
+game: MORTAL KOMBAT [2178].SFC
+file: ./Mortal Kombat.Sfc [2178].sfc.7z
+developer: MIDWAY
+publisher: ACCLAIM ENTERTAINMENT
+genre: LUTA
+favorite: false
+description: 
+	Quinhentos ANOS atrás, UM antigo E respeitado torneio DE LUTA shaolin, realizado A CADA 50 anos, FOI corrompido POR UM velho E malvado feiticeiro chamado shang tsung. Shang FOI acompanhado PELO príncipe goro, UM guerreiro DA raça shokan (um meio-humano / MEIO dragão DE quatro braços). Sabendo QUE SE DEZ torneios seguidos fossem vencidos PELO campeão DO outworld, O earth realm seria conquistado PELO MAL E cairia NA escuridão, shang entrou COM GORO NO torneio E FEZ COM QUE ELE derrotasse O grande KUNG lao. GORO TEM reinado COMO O invicto campeão DE LUTA POR quinhentos ANOS agora. Conforme O último torneio SE aproxima, raiden, DEUS DO trovão E protetor DO earth realm, promete UM plano PARA pesar A balança EM favor DOS humanos. SETE lutadores entram NA arena NA misteriosa ILHA DE shang tsung: O guerreiro shaolin LIU kang, A agente DAS forças especiais sonya blade, O bandido mercenário kano, O ATOR johnny cage, O guerreiro LIN KUEI sub-zero E SEU adversário morto-vivo scorpion, E O próprio raiden. Mortal kombat é UM JOGO DE LUTA side-scrolling. A LUTA é definida COMO UM kombat UM contra um, permitindo QUE CADA jogador realize UMA variedade DE socos, chutes E movimentos especiais PARA derrotar SEU oponente. Quando O adversário encara SUA derrota NA segunda rodada, O vencedor PODE executar UM movimento DE finalização chamado "fatality" NO perdedor. O fatality é UM movimento único PARA CADA lutador QUE MATA graficamente O perdedor EM UM final encharcado DE sangue. Mortal kombat começou SUA VIDA COMO UM título DE arcade DE 2 jogadores. É notável POR SEU USO DE atores digitalizados PARA representar OS lutadores DO jogo, BEM COMO O USO DE quantidades abundantes DE sangue durante O jogo.
+release: 1993-10-28
+players: 1-2
+x-id: 2178
+assets.boxFront: ./media/image/Mortal Kombat.Sfc-CB3E969450E8.png
+assets.boxBack: ./media/image/Mortal Kombat.Sfc-F7F523D9B8E5.png
+assets.cartridge: ./media/image/Mortal Kombat.Sfc-713EAA2638EA.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Mortal Kombat.Sfc-29ECEF25814E.png
+assets.video: ./media/videos/Mortal Kombat.Sfc-7BF76DE7BC84.mp4
+assets.logo: 
+assets.background: 
+assets.music: 
+assets.titlescreen: ./media/image/Mortal Kombat.Sfc-6923CEDC99F0.png
+assets.bezel: ./media/image/Mortal Kombat.Sfc-EB886C8F5A91.png
+rating: 0.60
+
+collection: snes
+game: PAPUWA-KUN
+file: ./Papuwa-Kun [59600].7z
+developer: DAFT
+publisher: ENIX
+genre: PLATAFORMA
+favorite: false
+description: 
+	O JOGO é UMA mistura DE brigas E plataformas baseado NO mangá DE mesmo título sobre UM menino E SEUS amigos incomuns EM UMA ILHA tropical. O personagem DO jogador é shintaro, UM membro DO exército genma, enquanto ELE corre PELA ILHA PARA descobrir DE ONDE VEIO UM monte DE monstros invasores. Shintaro TEM UM movimento DE SOCO rápido E UM ataque DE RAIO carregado, E LUTA contra vários sub-chefes enquanto avança pelos níveis. Ocasionalmente, ELE também encontrará personagens DO mangá, incluindo tanno E itou, QUE são UM peixe travesti E UM caracol ROSA afeminado, respectivamente.
+players: 1
+x-id: 59600
+assets.boxFront: ./media/image/Papuwa-Kun-71C7E44FAAA2.png
+assets.boxBack: ./media/image/Papuwa-Kun-B7205825A38A.png
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Papuwa-Kun-AEC15457E149.png
+assets.video: ./media/videos/Papuwa-Kun-0375B53F67B0.mp4
+assets.logo: 
+assets.background: ./media/fanart/Papuwa-Kun-FB7020D35021.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Papuwa-Kun-EFA49C77A874.png
+assets.bezel: 
+rating: 0.60
+
+collection: snes
+game: PRINCE OF PERSIA [2231].SMC
+file: ./Prince Of Persia.Smc [2231].smc.7z
+developer: ARSYS SOFTWARE
+publisher: KONAMI
+genre: PLATAFORMA
+favorite: false
+description: 
+	O grão-vizir jaffar jogou você EM UMA masmorra escura E planeja SE casar COM A garota DOS SEUS sonhos EM UMA hora. Você não VAI deixar ISSO acontecer, vai? Tente escapar DA masmorra, derrote OS guardas DE jaffar, encontre O caminho PELO palácio DO sultão E derrote O próprio jaffar. Agora vá, você TEM 60 minutos! Prince OF persia é UM JOGO DE plataformas 2D COM jogabilidade DE correr E pular. SEU herói DEVE evitar armadilhas mortais, resolver alguns quebra-cabeças simples E SE envolver EM lutas DE espadas COM OS guardas. O jogador TEM UMA quantidade infinita DE vidas, MAS TEM QUE reiniciar NO início DE UM nível CADA VEZ QUE morre, E DEVE completar O JOGO EM UMA hora. UM aspecto especialmente notável DO JOGO é A animação muito fluente DE SEU personagem. AS versões GAME BOY color E SNES DO JOGO apresentam níveis adicionais E novos inimigos. A versão DO genesis TEM UMA NOVA introdução E UM conjunto alterado DE gráficos, MAS O layout DOS níveis permanece quase idêntico AO DO original.
+release: 1993-04-22
+players: 1
+x-id: 2231
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Prince Of Persia.Smc-04002C1AC1B7.png
+assets.video: ./media/videos/Prince Of Persia.Smc-713F92A4EC42.mp4
+assets.logo: 
+assets.background: ./media/fanart/Prince Of Persia.Smc-62BA7A078D64.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Prince Of Persia.Smc-0DEA1F634F3E.png
+assets.bezel: ./media/image/Prince Of Persia.Smc-A59F2BA8D144.png
+rating: 0.60
+
+collection: snes
+game: SHIN KIDOU SENKI GUNDAM W - ENDLESS DUEL [64980].SMC
+file: ./Shin Kidou Senki Gundam W - Endless Duel.Smc [64980].smc.7z
+developer: NATSUME
+publisher: BANDAI
+genre: LUTA / 2D, LUTA
+favorite: false
+description: 
+	O ANO é 195 depois DA colonização, A guerra entre AS colônias espaciais E A terra começou. PARA DAR vantagem AOS colonos, ELES enviam 5 jovens soldados, treinados à perfeição, PARA A terra NOS gundams MAIS poderosos. COM SUA chegada, A maré DA guerra MUDA A medida QUE ELES batalham contra AS forças DA terra.
+players: 1-2
+x-id: 64980
+assets.boxFront: ./media/image/Shin Kidou Senki Gundam W - Endless Duel.Smc-36FCC0665D43.png
+assets.boxBack: ./media/image/Shin Kidou Senki Gundam W - Endless Duel.Smc-47FF4F873B7B.png
+assets.cartridge: ./media/image/Shin Kidou Senki Gundam W - Endless Duel.Smc-231CF3EF565F.png
+assets.marquee: ./media/image/Shin Kidou Senki Gundam W - Endless Duel.Smc-9317E2F2840F.png
+assets.screenshot: ./media/screenshots/Shin Kidou Senki Gundam W - Endless Duel.Smc-AD6074292964.png
+assets.video: ./media/videos/Shin Kidou Senki Gundam W - Endless Duel.Smc-ED33BC390F5A.mp4
+assets.logo: ./media/image/Shin Kidou Senki Gundam W - Endless Duel.Smc-9317E2F2840F.png
+assets.background: ./media/fanart/Shin Kidou Senki Gundam W - Endless Duel.Smc-F862B9294EBE.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Shin Kidou Senki Gundam W - Endless Duel.Smc-044A633EFF2E.png
+assets.bezel: ./media/image/Shin Kidou Senki Gundam W - Endless Duel.Smc-DD2C03B3E5F2.png
+rating: 0.80
+
+collection: snes
+game: SKYBLAZER [2242].SFC
+file: ./Skyblazer.Sfc [2242].sfc.7z
+developer: UKIYOTEI
+publisher: SONY IMAGESOFT
+genre: PLATAFORMA
+favorite: false
+description: 
+	Arianna, UMA jovem feiticeira, FOI raptada PELA ashura. SKY prometeu SUA VIDA PARA resgatá-la. O SKY DEVE SE aventurar POR vários estágios coloridos E belos efeitos DE fundo. Skyblazer é UMA mistura DE LUTA DE rolagem lateral COM habilidades mágicas. Localizar poções PARA recuperar energia E ganhar pontos mágicos PARA derrotar OS inimigos SE torna UMA parte importante DO jogo. O céu também PODE grudar E escalar paredes verticalmente.
+release: 1994-03-25
+players: 1
+x-id: 2242
+assets.boxFront: ./media/image/Skyblazer.Sfc-E567F7967F5C.png
+assets.boxBack: ./media/image/Skyblazer.Sfc-1775EFC5D4C9.png
+assets.cartridge: ./media/image/Skyblazer.Sfc-197FFD73A64A.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Skyblazer.Sfc-2FE4B9A2F7FC.png
+assets.video: ./media/videos/Skyblazer.Sfc-8B97E909D33A.mp4
+assets.logo: 
+assets.background: ./media/fanart/Skyblazer.Sfc-D0B2C35C3514.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Skyblazer.Sfc-515AD98BEB14.png
+assets.bezel: ./media/image/Skyblazer.Sfc-E33860C60797.png
+rating: 0.60
+
+collection: snes
+game: SONIC BLAST MAN II [2504].SMC
+file: ./Sonic Blast Man Ii.Smc [2504].smc.7z
+developer: ITL
+publisher: TAITO
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	Heavy blast MAN está MAIS UMA VEZ tentando dominar A terra. Pessoas estão sendo transformadas EM monstros horríveis E sendo feitas PARA servi-lo. Sonic blast MAN retorna COM alguns novos amigos, sonia E O capitão choyear. Juntos, ELES lutam contra heavy blast MAN E SEUS asseclas PARA salvar A terra DA destruição. Você controla UM DOS três personagens neste controle lateral, enquanto LUTA PARA passar POR vários níveis cheios DE inimigos E chefes. Vença-os COM OS socos E chutes básicos OU USE SEUS super movimentos PARA SAIR DE situações difíceis.
+release: 1994-04-26
+players: 1-2
+x-id: 2504
+assets.boxFront: ./media/image/Sonic Blast Man Ii.Smc-313FCB7CDAFB.png
+assets.boxBack: ./media/image/Sonic Blast Man Ii.Smc-F7F3418BAAC0.png
+assets.cartridge: ./media/image/Sonic Blast Man Ii.Smc-732C32D1EEE3.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Sonic Blast Man Ii.Smc-1F0370E52952.png
+assets.video: ./media/videos/Sonic Blast Man Ii.Smc-923F10BF7A1F.mp4
+assets.logo: 
+assets.background: ./media/fanart/Sonic Blast Man Ii.Smc-7B9A2CC468EE.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sonic Blast Man Ii.Smc-6C331A863CAC.png
+assets.bezel: ./media/image/Sonic Blast Man Ii.Smc-E0EFC1EFBB9B.png
+rating: 0.80
+
+collection: snes
+game: SONIC BLAST MAN [88761].SMC
+file: ./Sonic Blast Man.Smc [88761].smc.7z
+developer: DISCO
+publisher: TAITO
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	Sonic blast MAN é altamente treinado EM qualquer forma DE combate corpo A corpo. COM SEUS socos explosivos, chutes, golpes DE judô E outras técnicas DE luta, ELE USA SEU corpo PARA varrer OS inimigos PARA FORA DA tela. AO viajar PELA terra até A estação espacial, você será atacado POR centenas DE inimigos humanos, robôs E alienígenas. Blast MAN enfrenta aventuras QUE O levarão AO limite DE SUAS possibilidades... E além!
+release: 1993-01-01
+players: 1
+x-id: 88761
+assets.boxFront: ./media/image/Sonic Blast Man.Smc-E94D1CDA5F03.png
+assets.boxBack: ./media/image/Sonic Blast Man.Smc-FC2FB3F2C507.png
+assets.cartridge: ./media/image/Sonic Blast Man.Smc-025DE2D0EEEC.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Sonic Blast Man.Smc-48197DC3D486.png
+assets.video: ./media/videos/Sonic Blast Man.Smc-EF893B8576A7.mp4
+assets.logo: 
+assets.background: ./media/fanart/Sonic Blast Man.Smc-62AB5570603E.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sonic Blast Man.Smc-CA3130468AF3.png
+assets.bezel: ./media/image/Sonic Blast Man.Smc-33A2257AAC30.png
+rating: 0.60
+
+collection: snes
+game: SPARKSTER [2418].SFC
+file: ./Sparkster.Sfc [2418].sfc.7z
+developer: KONAMI
+publisher: KONAMI
+genre: PLATAFORMA
+favorite: false
+description: 
+	ELE é UM opossum opumped-up! Sparkster está entrando EM ação COMO O cavaleiro foguete MAIS resistente QUE já brandiu UMA espada. Pegue OS controles E passe POR NOVE fases selvagens EM SUA busca PARA livrar O mundo DO desagradável coronel wolfheim E SEUS aliados - UMA matilha DE lobos QUE não está AQUI PARA dançar! Ah, sim, E antes QUE você SE sinta confortável demais - AXEL GEAR está aqui. ESTE cavaleiro foguete QUE está MAL TEM contas A acertar COM sparkster. Nosso herói precisará DE SEU NOVO foguete rewed-up E novos movimentos DE ataque poderosos PARA chutar O RABO DE AXEL DE volta PARA O LADO negro DO planeta.
+release: 1994-10-02
+players: 1
+x-id: 2418
+assets.boxFront: ./media/image/Sparkster.Sfc-AC1155194874.png
+assets.boxBack: ./media/image/Sparkster.Sfc-14391C1516E1.png
+assets.cartridge: ./media/image/Sparkster.Sfc-C362103C54B6.png
+assets.marquee: ./media/image/Sparkster.Sfc-A069CDFD99EE.png
+assets.screenshot: ./media/screenshots/Sparkster.Sfc-68B3379AA03C.png
+assets.video: ./media/videos/Sparkster.Sfc-666BB7770510.mp4
+assets.logo: ./media/image/Sparkster.Sfc-A069CDFD99EE.png
+assets.background: ./media/fanart/Sparkster.Sfc-C3A0B13AC8BA.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sparkster.Sfc-3E4ABAC3EBA0.png
+assets.bezel: ./media/image/Sparkster.Sfc-3B70C448471A.png
+rating: 0.80
+
+collection: snes
+game: STARWING [19196].SMC
+file: ./Starwing.Smc [19196].smc.7z
+developer: NINTENDO
+publisher: NINTENDO
+genre: SHOOT'EM UP
+favorite: false
+description: 
+	ESTE é O primeiro título SNES usando O CHIP super fx; você é O ás DA aviação FOX mccloud, QUE COM SEUS ALAS DE confiança E SEU poderoso caça estelar arwing, DEVE livrar O sistema lylat DO MAL QUE O cerca. ONDA após ONDA DE inimigos voará EM SUA direção e, COM O conselho DE SEUS alas, você DEVE guiar SEU caminho EM CADA nível E derrubar O máximo QUE puder.
+release: 1993-06-03
+players: 1
+x-id: 19196
+assets.boxFront: ./media/image/Starwing.Smc-164D585E7BE2.png
+assets.boxBack: ./media/image/Starwing.Smc-DB5AFD82EC0D.png
+assets.cartridge: ./media/image/Starwing.Smc-71EBB31AF5CF.png
+assets.marquee: ./media/image/Starwing.Smc-B047D3F665B7.png
+assets.screenshot: ./media/screenshots/Starwing.Smc-59D6F0BF113C.png
+assets.video: ./media/videos/Starwing.Smc-828DEFB1707C.mp4
+assets.logo: ./media/image/Starwing.Smc-B047D3F665B7.png
+assets.background: ./media/fanart/Starwing.Smc-BC9DB6E4C93B.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Starwing.Smc-0E965E0BA0AD.png
+assets.bezel: ./media/image/Starwing.Smc-5EF3934CF5E3.png
+rating: 0.80
+
+collection: snes
+game: STREET FIGHTER ALPHA 2 [2215].SFC
+file: ./Street Fighter Alpha 2.Sfc [2215].sfc.7z
+developer: CAPCOM
+publisher: CAPCOM
+genre: LUTA
+favorite: false
+description: 
+	Outra sequência DE street fighter (desta VEZ PARA O street fighter alpha) adiciona ainda MAIS PARA A série clássica DE combates. Novos personagens nesta versão incluem GEN (um sábio mestre DE kung-fu), rolento (que você PODE SE lembrar DE outro clássico DA capcom, final fight) E sakura, UMA jovem colegial QUE segue SEU herói RYU DE perto, ELA TEM O mesmo TIPO DE movimentos. Dhalsim E zangief também retornam à LUTA COM algumas novidades. A outra grande diferença é A perda DE combos E O ganho DE UM sistema DE combinação personalizado. UMA VEZ QUE você alcance O nível requerido (que é 1 NO mínimo) você PODE executar UM combo personalizado combinando qualquer UM DOS botões (que são 6 NO total) OU qualquer UM DOS ataques especiais (bolas DE fogo, etc.)
+release: 1996-12-19
+players: 1-2
+x-id: 2215
+assets.boxFront: ./media/image/Street Fighter Alpha 2.Sfc-153DA90F82F6.png
+assets.boxBack: ./media/image/Street Fighter Alpha 2.Sfc-E77C7D217B60.png
+assets.cartridge: ./media/image/Street Fighter Alpha 2.Sfc-8051EBD641D6.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Street Fighter Alpha 2.Sfc-5217680543E4.png
+assets.video: ./media/videos/Street Fighter Alpha 2.Sfc-2ACAEE5EB429.mp4
+assets.logo: 
+assets.background: ./media/fanart/Street Fighter Alpha 2.Sfc-90687CBB2669.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Street Fighter Alpha 2.Sfc-2CB2F09B5898.png
+assets.bezel: ./media/image/Street Fighter Alpha 2.Sfc-DD024D1233B4.png
+rating: 0.80
+
+collection: snes
+game: STREET FIGHTER II TURBO [2176].SFC
+file: ./Street Fighter II Turbo.Sfc [2176].sfc.7z
+developer: CAPCOM
+publisher: CAPCOM
+genre: LUTA
+favorite: false
+description: 
+	Escolha entre DOZE lutadores DE RUA DE TODO O mundo, habilidosos EM UMA variedade DE artes marciais - POR exemplo, UM personagem chamado e.honda é UM lutador DE sumô DO japão, enquanto KEN é UM mestre DE TAE KWON DO DOS estados unidos. Viage PARA diferentes países PARA derrotar outros lutadores, eventualmente levando A UMA batalha COM O vilão m.bison. Além DOS socos E chutes padrão, CADA personagem também PODE executar movimentos especiais, COMO projéteis DE energia OU chutes rápidos, PARA MAIS danos OU PARA criar combos DE sucesso. ESTA versão caseira é UM relançamento DO JOGO original DE street fighter 2 COM várias melhorias importantes: OS personagens 'chefe' (vega, balrog, sagat E m. Bison) são automaticamente desbloqueados PARA você jogar, CADA personagem recebe alguns movimentos novos OU movimentos atualizados E vestes DE cores diferentes, E você PODE selecionar UM nível DE velocidade turbo QUE permite QUE você jogue EM UMA velocidade MAIS rápida. ELE é baseado NO relançamento arcade COM O mesmo NOME QUE também continha O subtítulo "hyper fighting".
+release: 1993-08-01
+players: 1-2
+x-id: 2176
+assets.boxFront: ./media/image/Street Fighter II Turbo.Sfc-0FE136B1D11A.png
+assets.boxBack: ./media/image/Street Fighter II Turbo.Sfc-70AD7AA032E1.png
+assets.cartridge: ./media/image/Street Fighter II Turbo.Sfc-4A055342A3BF.png
+assets.marquee: ./media/image/Street Fighter II Turbo.Sfc-D63D1803EC2C.png
+assets.screenshot: ./media/screenshots/Street Fighter II Turbo.Sfc-546328A6A253.png
+assets.video: ./media/videos/Street Fighter II Turbo.Sfc-C47DAB4AAB28.mp4
+assets.logo: ./media/image/Street Fighter II Turbo.Sfc-D63D1803EC2C.png
+assets.background: ./media/fanart/Street Fighter II Turbo.Sfc-4EAF7597C936.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Street Fighter II Turbo.Sfc-1897F79AABA1.png
+assets.bezel: ./media/image/Street Fighter II Turbo.Sfc-78A0AD963993.png
+rating: 0.80
+
+collection: snes
+game: SUNSET RIDERS [2292].SFC
+file: ./Sunset Riders.Sfc [2292].sfc.7z
+developer: KONAMI
+publisher: KONAMI
+genre: TIRO / RUN AND GUN, TIRO
+favorite: false
+description: 
+	O velho oeste ... Cheio DE elementos criminosos. SIR richard rose, O rosto MAIS desprezível NO LOTE DO crime, TEM poder suficiente PARA controlar AS instalações DE mineração, fazendas DE GADO E comunidades comerciais E transformar TUDO A SEU favor. COM tanto poder, ELE poderia literalmente comprar O velho oeste E controlar tudo! O POVO precisa DE ajuda, desesperadamente. E quando AS coisas estavam parecendo terríveis, QUEM deveria cavalgar até A cidade senão 4 homens QUE fizeram UM pacto: derrubar SIR richard ROSE E fazer DO velho oeste UM lugar livre E pacífico PARA SE viver.
+release: 1993-10-01
+players: 1-2
+x-id: 2292
+assets.boxFront: ./media/image/Sunset Riders.Sfc-EAC3E06872AB.png
+assets.boxBack: ./media/image/Sunset Riders.Sfc-132D14352212.png
+assets.cartridge: ./media/image/Sunset Riders.Sfc-1DA1CB2956EA.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Sunset Riders.Sfc-6582F399AF00.png
+assets.video: ./media/videos/Sunset Riders.Sfc-A8A6888CD84E.mp4
+assets.logo: 
+assets.background: ./media/fanart/Sunset Riders.Sfc-BDB5B063AD8B.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Sunset Riders.Sfc-E9D16CC4ACF9.png
+assets.bezel: ./media/image/Sunset Riders.Sfc-F12FF6D7A781.png
+rating: 0.60
+
+collection: snes
+game: SUPER ADVENTURE ISLAND II [2528].SFC
+file: ./Super Adventure Island Ii.Sfc [2528].sfc.7z
+developer: HUDSON SOFT
+publisher: HUDSON SOFT
+genre: PLATAFORMA
+favorite: false
+description: 
+	Mestre higgins finalmente SE CASA COM SUA adorável namorada tina. MAS DO nada, UM poderoso ciclone tropical destruiu O clima idílico DE SUA LUA DE mel. E não só isso: separou novamente OS amantes ardentes. Depois QUE OS ventos pararam DE soprar, TINA SE VIU EM algum lugar DE UMA costa tropical. Quanto AO mestre higgins, ELE FOI até O REI DE waku-waku e, junto COM SUA missão principal PARA salvar SUA NOVA esposa, recebeu A missão DE salvar também UMA princesa, COM QUEM O REI estava prestes A SE casar. Existe UMA conexão entre esses DOIS eventos? ..
+release: 1995-01-01
+players: 1
+x-id: 2528
+assets.boxFront: ./media/image/Super Adventure Island Ii.Sfc-61E63F297800.png
+assets.boxBack: ./media/image/Super Adventure Island Ii.Sfc-AE4A1603B1CF.png
+assets.cartridge: ./media/image/Super Adventure Island Ii.Sfc-8798CF8E49B7.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Super Adventure Island Ii.Sfc-A9FDEBA0B73D.png
+assets.video: ./media/videos/Super Adventure Island Ii.Sfc-7AD105A17BA6.mp4
+assets.logo: 
+assets.background: ./media/fanart/Super Adventure Island Ii.Sfc-3C43773666ED.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Super Adventure Island Ii.Sfc-97B7C6AED4EB.png
+assets.bezel: ./media/image/Super Adventure Island Ii.Sfc-32D207058135.png
+rating: 0.60
+
+collection: snes
+game: SUPER ADVENTURE ISLAND [2336].SFC
+file: ./Super Adventure Island.Sfc [2336].sfc.7z
+developer: HUDSON SOFT
+publisher: HUDSON SOFT
+genre: PLATAFORMA
+favorite: false
+description: 
+	Mestre higgins está DE volta EM SUA maior E MAIS selvagem aventura DE todas! SUA namorada, jeannie jungle, FOI transformada EM pedra PELO malvado DARK cloak. Agora ELE DEVE entrar EM ação PARA derrotar AS dezenas DE animais guardiões E monstros QUE protegem O feiticeiro perverso. Junte-se AO mestre higgins enquanto ELE atinge novos patamares DE aventura EM SEU skate voador. Acelere POR cavernas subterrâneas EM UM passeio DE carro louco! Vá DAS costas tropicais AO ventre DE UMA baleia - TUDO EM busca DE SUA batalha final COM O mágico louco, DARK cloak!
+release: 1992-11-19
+players: 1
+x-id: 2336
+assets.boxFront: ./media/image/Super Adventure Island.Sfc-1C6A435CA21F.png
+assets.boxBack: ./media/image/Super Adventure Island.Sfc-1CBEC65A20B4.png
+assets.cartridge: ./media/image/Super Adventure Island.Sfc-E007F7304CB0.png
+assets.marquee: ./media/image/Super Adventure Island.Sfc-AE96651BCD92.png
+assets.screenshot: ./media/screenshots/Super Adventure Island.Sfc-22B7A3AB00BD.png
+assets.video: ./media/videos/Super Adventure Island.Sfc-78FD587DB51C.mp4
+assets.logo: ./media/image/Super Adventure Island.Sfc-AE96651BCD92.png
+assets.background: ./media/fanart/Super Adventure Island.Sfc-3880A9440F33.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Super Adventure Island.Sfc-528E2F6F73E0.png
+assets.bezel: ./media/image/Super Adventure Island.Sfc-6704BEC9AED9.png
+rating: 0.60
+
+collection: snes
+game: SUPER ALESTE [2241].SFC
+file: ./Super Aleste.Sfc [2241].sfc.7z
+developer: COMPILE
+publisher: TOHO
+genre: SHOOT'EM UP / VERTICAL, SHOOT'EM UP
+favorite: false
+description: 
+	A série aleste DA compile chega AO SNES COM O apropriadamente chamado super aleste. Assumindo O papel DE UM piloto DE caça estelar solitário, você TEM A tarefa DE destruir UMA armada alienígena DO MAL NO estilo DE atirador 2D padrão. E enquanto você PODE estar sozinho, você certamente não terá falta DE potência, COM OITO tipos diferentes DE armas, CADA UM COM SEIS níveis DE power-up PARA UM total DE 48 modos DE disparo (sem contar OS power-ups DE bomba). Super aleste possui UM DOS OS maiores arsenais DA história DO atirador 2d.
+release: 1992-10-30
+players: 1
+x-id: 2241
+assets.boxFront: ./media/image/Super Aleste.Sfc-E683CD62B8AE.png
+assets.boxBack: ./media/image/Super Aleste.Sfc-3A9E2221BE51.png
+assets.cartridge: ./media/image/Super Aleste.Sfc-FA9F409FE4CC.png
+assets.marquee: ./media/image/Super Aleste.Sfc-F4094F1B1163.png
+assets.screenshot: ./media/screenshots/Super Aleste.Sfc-0E0D79045AFC.png
+assets.video: ./media/videos/Super Aleste.Sfc-1FFCF20221A0.mp4
+assets.logo: ./media/image/Super Aleste.Sfc-F4094F1B1163.png
+assets.background: ./media/fanart/Super Aleste.Sfc-612CF58C68D5.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Super Aleste.Sfc-728A58A7D644.png
+assets.bezel: ./media/image/Super Aleste.Sfc-C982265F2C1E.png
+rating: 0.80
+
+collection: snes
+game: SUPER BOMBERMAN 2 [2322].SMC
+file: ./Super Bomberman 2.Smc [2322].smc.7z
+developer: HUDSON SOFT
+publisher: HUDSON SOFT
+genre: AÇÃO / LABIRINTO, AÇÃO
+favorite: false
+description: 
+	A história DE super bomberman 2 SE passa depois DE super bomberman, quando OS dastardly bombers, resolvem atacar O planeta bomber, inclusive A cidade DA paz, cidade EM QUE VIVE OS protagonistas white bomberman E black bomberman, PARA realizar TAL feito, ELES capturam white bomberman E O aprisionam EM UM calabouço NA NAVE DE magnet bomber E white bomber não TEM SEU amigo PARA ajuda-lo. Entretanto, white bomberman escapa DO calabouço E agora, NA NAVE DE magnet bomber, ELE DEVE passar POR UMA frota DE inimigos PARA derrotar magnet bomber E OS outros dastardly bombers.
+release: 1995-02-23
+players: 1-4
+x-id: 2322
+assets.boxFront: ./media/image/Super Bomberman 2.Smc-FAF67BAE57A9.png
+assets.boxBack: ./media/image/Super Bomberman 2.Smc-D886A5028432.png
+assets.cartridge: ./media/image/Super Bomberman 2.Smc-40D13216CC8E.png
+assets.marquee: ./media/image/Super Bomberman 2.Smc-0E8DD5B6CFCD.png
+assets.screenshot: ./media/screenshots/Super Bomberman 2.Smc-E7683F145983.png
+assets.video: ./media/videos/Super Bomberman 2.Smc-18E6F2615423.mp4
+assets.logo: ./media/image/Super Bomberman 2.Smc-0E8DD5B6CFCD.png
+assets.background: ./media/fanart/Super Bomberman 2.Smc-119AC95F77FC.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Super Bomberman 2.Smc-8704D060178F.png
+assets.bezel: ./media/image/Super Bomberman 2.Smc-1A509948F3B7.png
+rating: 0.80
+
+collection: snes
+game: SUPER CASTLEVANIA IV [2173].SMC
+file: ./Super Castlevania Iv.Smc [2173].smc.7z
+developer: KONAMI
+publisher: KONAMI
+genre: PLATAFORMA
+favorite: false
+description: 
+	A CADA 100 anos, AS forças DO BEM misteriosamente enfraquecem. Durante ESTE período, O poder DE dracula começa A ressurgir, tornando-se MAIS E MAIS forte. Dracula reviveu muitas vezes; NO entanto, SUAS ações sinistras foram constantemente interrompidas PELA família belmont. FAZ 100 ANOS desde O último confronto, E agora, A tranquilidade DA transilvânia é novamente ameaçada pelas forças DAS trevas. É O ANO DE 1691. EM UMA noite escura, dracula ressuscitou dentre OS mortos, mergulhando A terra DA europa EM UM estado DE escuridão total. AS legiões DO conde cresceram COMO UMA praga, infestando A terra COMO UMA doença ONDE QUER QUE fossem. Simon belmont, O bisneto DE christopher belmont, FOI aquele QUE ouviu OS gritos DO povo. Armado COM O lendário chicote vampire killer, ELE iniciará UMA jornada PARA castlevania, A CASA ancestral DO príncipe DAS trevas. SUA missão é BEM clara. Envie O conde DE volta A SUA sepultura escura, PARA salvar O mundo DE SEU tormento eterno.
+release: 1992-11-23
+players: 1
+x-id: 2173
+assets.boxFront: ./media/image/Super Castlevania Iv.Smc-6481FE2E4620.png
+assets.boxBack: ./media/image/Super Castlevania Iv.Smc-1F6DC74DA2DE.png
+assets.cartridge: ./media/image/Super Castlevania Iv.Smc-6DB2EC5A6793.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Super Castlevania Iv.Smc-C11A4A8285BB.png
+assets.video: ./media/videos/Super Castlevania Iv.Smc-29ED06FDE975.mp4
+assets.logo: 
+assets.background: ./media/fanart/Super Castlevania Iv.Smc-633BEB12B72C.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Super Castlevania Iv.Smc-FCF6A34E29C3.png
+assets.bezel: ./media/image/Super Castlevania Iv.Smc-9D882A06540F.png
+rating: 0.80
+
+collection: snes
+game: SUPER NINJA-KUN [65133]
+file: ./Super Ninja-Kun [65133].7z
+developer: JALECO
+publisher: JALECO
+genre: PLATAFORMA
+favorite: false
+description: 
+	SUPER NINJA KUN É UM JOGO DE AÇÃO/PLATAFORMA QUE PODE SER JOGADO POR 2 JOGADORES SIMULTANEAMENTE. É DE FATO UM REMAKE DO JOGO DE ARCADE DE 1984 NINJA KUN, MAS COM UMA DIREÇÃO DIGNA DO NINTENDO 16 BITS. VOCÊ CONTROLA UM (OU DOIS) PEQUENO NINJA DO LADO QUE DEVE CHEGAR AO FINAL DE CADA NÍVEL E LUTAR CONTRA UM CHEFE. SUA PROGRESSÃO É DIFICULTADA POR INÚMEROS INIMIGOS QUE ATACAM DE TODOS OS LADOS, MAS ELE PODE SE DEFENDER LANÇANDO SHURIKEN E SALTANDO SOBRE OS INIMIGOS PARA ATORDOÁ-LOS. TAMBÉM É POSSÍVEL CORRER PRESSIONANDO DUAS VEZES RAPIDAMENTE EM UMA DIREÇÃO. CADA INIMIGO ELIMINADO PROVOCA O APARECIMENTO DE UMA ALMA. COLETÁ-LOS PREENCHE UM CALIBRE ESPECIAL QUE LHE PERMITE INVOCAR UM PODER QUANDO ELE ESTÁ CHEIO. APÓS CADA NÍVEL, VOCÊ RECEBE UMA NOVA ARMA QUE PODE SER SUBSTITUÍDA PELO SHURIKEN A QUALQUER MOMENTO.
+players: 1-2
+x-id: 65133
+assets.boxFront: ./media/image/Super Ninja-Kun-D4677128AEE7.png
+assets.boxBack: ./media/image/Super Ninja-Kun-E7E454D42EDA.png
+assets.cartridge: ./media/image/Super Ninja-Kun-C508E2F2863F.png
+assets.marquee: ./media/image/Super Ninja-Kun-D9F180269625.png
+assets.screenshot: ./media/screenshots/Super Ninja-Kun-DA88168CFC9D.png
+assets.video: ./media/videos/Super Ninja-Kun-5F7B290BF2B6.mp4
+assets.logo: ./media/image/Super Ninja-Kun-D9F180269625.png
+assets.background: ./media/fanart/Super Ninja-Kun-32CA1BB94781.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Super Ninja-Kun-18E089C268B9.png
+assets.bezel: 
+rating: 0.60
+
+collection: snes
+game: SUPER R-TYPE [2157].SMC
+file: ./Super R-Type.Smc [2157].smc.7z
+developer: IREM
+publisher: NINTENDO
+genre: SHOOT'EM UP / HORIZONTAL, SHOOT'EM UP
+favorite: false
+description: 
+	UMA batalha galáctica começa! O império BYDO DE extraterrestres mutantes está DE volta COM más intenções E UM poder incrível. Você sentirá O calor DO ataque COMO nunca antes COM OS gráficos extremamente poderosos E O realismo inacreditável DO super nes. Agora, O malvado império está prestes A lançar UM NOVO ataque à terra. Apenas O revolucionário r-9 está entre esses monstros E A desgraça. ELES são invencíveis? Você VAI precisar DE reflexos relâmpagos, movimentos intuitivos E UMA grande DOSE DE sorte cósmica PARA SE controlar! "r" você está pronto? OS mutantes "r" prontos PARA você!
+release: 1992-06-04
+players: 1
+x-id: 2157
+assets.boxFront: ./media/image/Super R-Type.Smc-F95320644E52.png
+assets.boxBack: ./media/image/Super R-Type.Smc-37DA01F20037.png
+assets.cartridge: ./media/image/Super R-Type.Smc-229C32BD4AEC.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Super R-Type.Smc-C880D95C42C8.png
+assets.video: ./media/videos/Super R-Type.Smc-3349C6A95BC0.mp4
+assets.logo: 
+assets.background: ./media/fanart/Super R-Type.Smc-E6E2AF43A7D7.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Super R-Type.Smc-7C65A95E1E91.png
+assets.bezel: ./media/image/Super R-Type.Smc-C5DAAE008AB8.png
+rating: 0.60
+
+collection: snes
+game: THE COMBATRIBES [2876].SFC
+file: ./The Combatribes.Sfc [2876].sfc.7z
+developer: TECHNOS JAPAN
+publisher: TECHNOS JAPAN
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	O JOGO GIRA EM torno DE três vigilantes QUE devem lutar contra várias gangues DE RUA NA futurística cidade DE NOVA york. A versão super NES DE THE combatribes FAZ algumas mudanças NO jogo. O JOGO agora apresenta sequências DE história antes E depois DAS batalhas contra chefes, BEM COMO UMA introdução explicando O enredo E UM final diferente.
+release: 1993-03-01
+players: 1-2
+x-id: 2876
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/The Combatribes.Sfc-C0F371703854.png
+assets.video: ./media/videos/The Combatribes.Sfc-5FD89896C492.mp4
+assets.logo: 
+assets.background: 
+assets.music: 
+assets.titlescreen: ./media/image/The Combatribes.Sfc-998DAA016ACD.png
+assets.bezel: ./media/image/The Combatribes.Sfc-0EF132A5E354.png
+rating: 0.60
+
+collection: snes
+game: THE DEATH AND RETURN OF SUPERMAN [2409].SFC
+file: ./The Death And Return Of Superman.Sfc [2409].sfc.7z
+developer: BLIZZARD ENTERTAINMENT
+publisher: SUNSOFT
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	THE death AND return OF superman FOI UM DOS primeiros jogos DA blizzard entertainment EM SUA ascensão NO mundo DOS games. ESSE JOGO FOI lançado PARA console super nintendo, conhecido COMO super nes, E PARA O MEGA drive, contendo UMA tecnologia gráfica DE 16 bits.
+release: 1994-11-01
+players: 1
+x-id: 2409
+assets.boxFront: ./media/image/The Death And Return Of Superman.Sfc-C82403E14618.png
+assets.boxBack: ./media/image/The Death And Return Of Superman.Sfc-AC740308199A.png
+assets.cartridge: ./media/image/The Death And Return Of Superman.Sfc-CC5403C38946.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/The Death And Return Of Superman.Sfc-982284467D55.png
+assets.video: ./media/videos/The Death And Return Of Superman.Sfc-CC0F01BADF14.mp4
+assets.logo: 
+assets.background: ./media/fanart/The Death And Return Of Superman.Sfc-202428AC9E71.jpg
+assets.music: 
+assets.titlescreen: ./media/image/The Death And Return Of Superman.Sfc-DB320D3CFF62.png
+assets.bezel: ./media/image/The Death And Return Of Superman.Sfc-0882B395D874.png
+rating: 0.60
+
+collection: snes
+game: THE GREAT BATTLE 3 [38819].SMC
+file: ./The Great Battle 3.Smc [38819].smc.7z
+developer: SUN L
+publisher: BANPRESTO
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	THE great battle III é UM JOGO DE LUTA COM rolagem apresentando F91 gundam, kamen rider, ultraman E O personagem original DA série great battle, fighter roar. O JOGO SE passa EM UM mundo DE fantasia E todos OS personagens USAM armas medievais NA batalha. O JOGO é O terceiro DA série DE jogos DE LUTA / TIRO great battle E O sétimo JOGO compati HERO series PARA O super famicom (de dezessete).
+players: 1-2
+x-id: 38819
+assets.boxFront: ./media/image/The Great Battle 3.Smc-28BACAA6BAF0.png
+assets.boxBack: ./media/image/The Great Battle 3.Smc-557C4709A81B.png
+assets.cartridge: ./media/image/The Great Battle 3.Smc-39CEC16F26D5.png
+assets.marquee: ./media/image/The Great Battle 3.Smc-0C4348B87A7A.png
+assets.screenshot: ./media/screenshots/The Great Battle 3.Smc-63BBEDADE8BE.png
+assets.video: ./media/videos/The Great Battle 3.Smc-D2A0C89BC82B.mp4
+assets.logo: ./media/image/The Great Battle 3.Smc-0C4348B87A7A.png
+assets.background: ./media/fanart/The Great Battle 3.Smc-A06F107A74D5.jpg
+assets.music: 
+assets.titlescreen: ./media/image/The Great Battle 3.Smc-84EDCEF35A2C.png
+assets.bezel: 
+rating: 0.60
+
+collection: snes
+game: THE GREAT BATTLE 4 [38820].SMC
+file: ./The Great Battle 4.Smc [38820].smc.7z
+developer: SUN L
+publisher: BANPRESTO
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	THE great battle IV é O quarto JOGO THE great battle DA grande compati HERO series, QUE VISA combinar OS heróis E vilões DE ultraman, gundam E kamen rider EM formato SD ONDE estão todos EM tamanho uniforme. THE great battle são OS jogos "principais" DA série HERO compati, apresentando jogabilidade DE ação 2D DE rolagem lateral padrão COM elementos DE TIRO E plataforma. OS jogadores podem alternar SEU personagem jogável entre OS três protagonistas DAS respectivas franquias DA série A qualquer momento. TEM SEUS próprios pontos fortes E fracos. A série recebeu MAIS UMA sequência DO super famicom EM 1995: THE great battle v. OS jogos futuros apareceriam EM sistemas separados.
+players: 1-2
+x-id: 38820
+assets.boxFront: ./media/image/The Great Battle 4.Smc-548A3458372A.png
+assets.boxBack: ./media/image/The Great Battle 4.Smc-B43362CCF175.png
+assets.cartridge: ./media/image/The Great Battle 4.Smc-B7FF761DD0EF.png
+assets.marquee: ./media/image/The Great Battle 4.Smc-DA6EBF74F06A.png
+assets.screenshot: ./media/screenshots/The Great Battle 4.Smc-549D2AE3CDB8.png
+assets.video: ./media/videos/The Great Battle 4.Smc-9DE9D7F95BDF.mp4
+assets.logo: ./media/image/The Great Battle 4.Smc-DA6EBF74F06A.png
+assets.background: ./media/fanart/The Great Battle 4.Smc-06B4ADD8ECB2.jpg
+assets.music: 
+assets.titlescreen: ./media/image/The Great Battle 4.Smc-FE62B08D0C40.png
+assets.bezel: ./media/image/The Great Battle 4.Smc-2B2E7F4077CF.png
+rating: 0.80
+
+collection: snes
+game: THE GREAT BATTLE 5 [38822].SMC
+file: ./The Great Battle 5.Smc [38822].smc.7z
+developer: SUN L
+publisher: BANPRESTO
+genre: BRIGA DE RUA
+favorite: false
+description: 
+	THE great battle V é UM JOGO DE ação PARA O super famicom E O quinto JOGO DA subsérie THE great battle, QUE POR SUA VEZ FAZ parte DA maior série compati HERO QUE combina OS universos DE ultraman, kamen rider E SD gundam. ESTE JOGO mostra OS quatro personagens principais - ultraman, kamen rider, SD knight gundam E fighter ROAR - lutando contra SEUS inimigos habituais EM UM planeta DO velho oeste. OS níveis são divididos entre estágios DE ação/plataforma DE rolagem lateral 2D E estágios DE TIRO EM terceira pessoa QUE SE assemelham AOS DO popular WILD GUNS DE natsume.
+players: 1-2
+x-id: 38822
+assets.boxFront: ./media/image/The Great Battle 5.Smc-CC3A1CEF387F.png
+assets.boxBack: ./media/image/The Great Battle 5.Smc-AEAED24D526F.png
+assets.cartridge: ./media/image/The Great Battle 5.Smc-4C8C6E989D5D.png
+assets.marquee: ./media/image/The Great Battle 5.Smc-446C93ED1B6F.png
+assets.screenshot: ./media/screenshots/The Great Battle 5.Smc-1611F3341662.png
+assets.video: ./media/videos/The Great Battle 5.Smc-A656D4B5B506.mp4
+assets.logo: ./media/image/The Great Battle 5.Smc-446C93ED1B6F.png
+assets.background: ./media/fanart/The Great Battle 5.Smc-9B3834468D17.jpg
+assets.music: 
+assets.titlescreen: ./media/image/The Great Battle 5.Smc-C9ABEC2CDE86.png
+assets.bezel: 
+rating: 0.60
+
+collection: snes
+game: THE LION KING [2189].SMC
+file: ./The Lion King.Smc [2189].smc.7z
+developer: WESTWOOD  STUDIOS
+publisher: VIRGIN
+genre: PLATAFORMA
+favorite: false
+description: 
+	Trata-se DE UM JOGO DE plataforma DOS ANOS 90, ELE não tenta exatamente contar UMA história, MAS QUEM já assistiu AO clássico DA disney QUE dá NOME AO JOGO PODE ficar impressionado AO perceber COMO ESSE JOGO conseguiu SER FIEL AO filme, coisa QUE jogos MAIS recentes não conseguem fazer. AS fases EM SI NOS fazem lembrar DO filme EM muitos momentos.
+release: 1994-12-08
+players: 1
+x-id: 2189
+assets.boxFront: ./media/image/The Lion King.Smc-110C28A436B6.png
+assets.boxBack: ./media/image/The Lion King.Smc-A632CD0D71D9.png
+assets.cartridge: ./media/image/The Lion King.Smc-EC7F7FC1DF5A.png
+assets.marquee: ./media/image/The Lion King.Smc-E850E590D5A7.png
+assets.screenshot: ./media/screenshots/The Lion King.Smc-6CFFFD2A45CF.png
+assets.video: ./media/videos/The Lion King.Smc-90E70C243D38.mp4
+assets.logo: ./media/image/The Lion King.Smc-E850E590D5A7.png
+assets.background: ./media/fanart/The Lion King.Smc-368534AB142C.jpg
+assets.music: 
+assets.titlescreen: ./media/image/The Lion King.Smc-44485CD06514.png
+assets.bezel: ./media/image/The Lion King.Smc-7EE5A14C4CDF.png
+rating: 0.60
+
+collection: snes
+game: THE MAGICAL QUEST STARRING MICKEY MOUSE [2237].SMC
+file: ./The Magical Quest Starring Mickey Mouse.Smc [2237].smc.7z
+developer: CAPCOM
+publisher: CAPCOM
+genre: PLATAFORMA
+favorite: false
+description: 
+	A história DO JOGO começa COM mickey E OS SEUS amigos donald, pateta E pluto brincando. O pateta lança A BOLA PARA O camundongo pegar, porém BATE NA cabeça DE mickey E VAI PARA longe. Pluto SE encarrega DE buscá-la, todavia não volta mais. O pateta estranha E VAI verificar O QUE aconteceu COM O cão. Mickey FICA preocupado, POIS nenhum DOS DOIS volta MAIS E VAI procurá-los. FOI nesta busca QUE acaba caindo EM UM precipício, iniciando A aventura DO jogo.
+release: 1993-03-18
+players: 1-2
+x-id: 2237
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/The Magical Quest Starring Mickey Mouse.Smc-14CAF93D0BA8.png
+assets.video: ./media/videos/The Magical Quest Starring Mickey Mouse.Smc-3DCE477CCEC8.mp4
+assets.logo: 
+assets.background: ./media/fanart/The Magical Quest Starring Mickey Mouse.Smc-C5DFCC475B0C.jpg
+assets.music: 
+assets.titlescreen: ./media/image/The Magical Quest Starring Mickey Mouse.Smc-4EE330B84C4B.png
+assets.bezel: ./media/image/The Magical Quest Starring Mickey Mouse.Smc-30086A9A6C70.png
+rating: 0.80
+
+collection: snes
+game: ULTIMATE MORTAL KOMBAT 3 [2196].SFC
+file: ./Ultimate Mortal Kombat 3.Sfc [2196].sfc.7z
+developer: MIDWAY
+publisher: MIDWAY
+genre: LUTA / VERSUS, LUTA
+favorite: false
+description: 
+	Ultimate mortal kombat 3 combina O melhor DE todos OS mortal kombats EM UM único cartucho. 23 personagens jogáveis ​​estão imediatamente disponíveis, COMO reptile, cyrax, scorpion, sub-zero, jax, kitana, sonya E muito mais. Existem DOIS chefes QUE são desbloqueáveis, assim COMO personagens adicionais. Há UMA variedade DE novos níveis, alguns DOS quais são interativos. Personagens podem executar UM uppercut EM alguém, fazendo COM QUE ELE BATA NO TETO sólido E colida COM O PISO inferior, OU ELES podem derrubar alguém DE UMA ponte, pousando EM UM poço DE espinhos. OS jogadores podem IR contra O computador NO mano-a-mano, DOIS contra DOIS OU participar DE UM torneio COM 8-lutadores.
+release: 1996-11-28
+players: 1-2
+x-id: 2196
+assets.boxFront: ./media/image/Ultimate Mortal Kombat 3.Sfc-D72E384FEC4E.png
+assets.boxBack: ./media/image/Ultimate Mortal Kombat 3.Sfc-4179D917B1AD.png
+assets.cartridge: ./media/image/Ultimate Mortal Kombat 3.Sfc-9E854506A19F.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Ultimate Mortal Kombat 3.Sfc-1329BCECBC93.png
+assets.video: ./media/videos/Ultimate Mortal Kombat 3.Sfc-DD3BA42E7D04.mp4
+assets.logo: 
+assets.background: 
+assets.music: 
+assets.titlescreen: ./media/image/Ultimate Mortal Kombat 3.Sfc-9D8D261635C1.png
+assets.bezel: ./media/image/Ultimate Mortal Kombat 3.Sfc-259CB111C0D4.png
+rating: 0.60
+
+collection: snes
+game: WILD GUNS [2252].SFC
+file: ./Wild Guns.Sfc [2252].sfc.7z
+developer: NATSUME
+publisher: TITUS
+genre: TIRO / TIRO EM 3ª PESSOA, TIRO
+favorite: false
+description: 
+	Kaboom! Annie & clint, DOIS pistoleiros, chegam A carson CITY E são pegos EM UM tiroteio. Está chovendo balas E há explosões POR TODA parte. Após UMA intensa batalha, ELES entram NO salão, ONDE descartam todos OS caubóis à vista enquanto redecoram O interior. Nossos heróis fogem DA CENA subindo NO telhado, MAS QUE SOM é esse? ... É UM robô enorme! WILD GUNS é UM JOGO DE TIRO COM TEMA ocidental E SCI fi. A jogabilidade é UM pouco semelhante AOS jogos TIME crisis E house OF THE dead, COM A exceção DE QUE O JOGO não é jogado DA perspectiva DE primeira pessoa, MAS DA perspectiva DE terceira pessoa. Você controla SEU personagem NA tela, BEM COMO A MIRA (ao mesmo tempo). Selecione clint (sim, inspirado POR eastwood) OU annie, E atire EM vários inimigos enquanto desvia DE balas E PULA EM foguetes QUE chegam.
+release: 1996-10-31
+players: 1-2
+x-id: 2252
+assets.boxFront: ./media/image/Wild Guns.Sfc-826E878590CB.png
+assets.boxBack: ./media/image/Wild Guns.Sfc-8B1296FC4FE6.png
+assets.cartridge: ./media/image/Wild Guns.Sfc-38EC91197307.png
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Wild Guns.Sfc-91C466E18512.png
+assets.video: ./media/videos/Wild Guns.Sfc-A7E724E8BB53.mp4
+assets.logo: 
+assets.background: ./media/fanart/Wild Guns.Sfc-35FD5966B6C0.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Wild Guns.Sfc-D8BD14A89836.png
+assets.bezel: ./media/image/Wild Guns.Sfc-F87500F63D76.png
+rating: 0.80
+
+collection: snes
+game: WORMS [2318].SMC
+file: ./Worms.Smc [2318].smc.7z
+developer: EAST POINT SOFTWARE
+publisher: OCEAN
+genre: ESTRATÉGIA
+favorite: false
+description: 
+	Worms é UM JOGO DE estratégia baseado EM turnos. Possui até 4 equipes DE 4 vermes, COM O objetivo DE destruir OS outros EM UM terreno gerado. CADA verme TEM 100 pontos DE VIDA E morre quando SEUS pontos DE VIDA CAEM PARA 0. Após A morte, UM verme explode, causando danos A todos AO redor. A jogabilidade é baseada EM turnos. CADA vez, O jogador PODE controlar UM verme específico DE SUA equipe. O verme PODE rastejar PARA A esquerda E PARA A direita OU pular. NO entanto, existe UM limite DE tempo PARA fazer UMA jogada; também, SE O verme CAIR DE UMA grande altura, ELE perde saúde E O turno termina imediatamente; E SE UM verme CAIR NA água OU FORA DA tela, ELE morre. A CADA jogada, UM verme também PODE fazer UM único ataque: O jogador PODE mirar PARA CIMA E PARA baixo, escolher UMA ARMA E disparar. Depois DE atacar, O turno termina.
+release: 1996-09-29
+players: 1-8
+x-id: 2318
+assets.boxFront: ./media/image/Worms.Smc-60F8EE134BAF.png
+assets.boxBack: ./media/image/Worms.Smc-318DB2C27D21.png
+assets.cartridge: ./media/image/Worms.Smc-61218CC98A22.png
+assets.marquee: ./media/image/Worms.Smc-A7B944095B3C.png
+assets.screenshot: ./media/screenshots/Worms.Smc-ED8161DC3F3A.png
+assets.video: ./media/videos/Worms.Smc-DF1513E526A5.mp4
+assets.logo: ./media/image/Worms.Smc-A7B944095B3C.png
+assets.background: ./media/fanart/Worms.Smc-66BDEA77F102.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Worms.Smc-B1E3B1E6443A.png
+assets.bezel: ./media/image/Worms.Smc-17EC09262606.png
+rating: 0.60
+
+collection: snes
+game: ZOMBIES [19248].SFC
+file: ./Zombies.Sfc [19248].sfc.7z
+developer: LUCASARTS
+publisher: KONAMI
+genre: TIRO
+favorite: false
+description: 
+	NO JOGO você escolhe ZEKE OU julia, lutando contra vampiros, múmias, zumbis, etc. EM MAIS DE 50 níveis (sem incluir OS segredos) E salvando todas AS pessoas QUE você encontra. Há UM número definido DE vizinhos QUE você salva EM todos OS níveis. Quando ELES estão livres, EM seguida, A porta "exit" ABRE E você PULA NO próximo nível.os níveis diferem DE UM shopping, UMA mercearia, praias E campos DE futebol. Usando armas diferentes, COMO bazuca OU pistola DE água, você TEM QUE matar OS chefes, COMO enormes bebês, dragões OU formigas NO final DOS níveis. Você PODE jogar O JOGO COM DOIS jogadores DE forma cooperativa.
+release: 1994-01-27
+players: 1-2
+x-id: 19248
+assets.boxFront: ./media/image/Zombies.Sfc-A8B0080D3695.png
+assets.boxBack: ./media/image/Zombies.Sfc-43A618250879.png
+assets.cartridge: ./media/image/Zombies.Sfc-C57F573AA5E0.png
+assets.marquee: ./media/image/Zombies.Sfc-B63B670EA16F.png
+assets.screenshot: ./media/screenshots/Zombies.Sfc-339A57D583A3.png
+assets.video: ./media/videos/Zombies.Sfc-231876B9DAAE.mp4
+assets.logo: ./media/image/Zombies.Sfc-B63B670EA16F.png
+assets.background: ./media/fanart/Zombies.Sfc-9CA5C72DC069.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Zombies.Sfc-2B03C26F852C.png
+assets.bezel: ./media/image/Zombies.Sfc-B849A76E1FE9.png
+rating: 0.60
+

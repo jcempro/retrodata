@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <gameList>
   <provider>
     <system>ps2</system>
@@ -21,16 +21,16 @@ ALÉM DE VILGAX, VÁRIOS OUTROS VILÕES MEMORÁVEIS ​​DA SÉRIE APARECEM AO 
     <players>1</players>
     <region>eu</region>
     <lang>it,es,de,fr,en</lang>
-    <image>./media/image/Ben 10 - Alien Force, Vilgax Attacks [22823]-image.png</image>
-    <video>./media/videos/Ben 10 - Alien Force, Vilgax Attacks [22823]-video.mp4</video>
-    <thumbnail>./media/image/Ben 10 - Alien Force, Vilgax Attacks [22823]-boxart.png</thumbnail>
-    <boxart>./media/image/Ben 10 - Alien Force, Vilgax Attacks [22823]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Ben 10 - Alien Force, Vilgax Attacks [22823]-screenshot.png</screenshot>
-    <cartridge>./media/image/Ben 10 - Alien Force, Vilgax Attacks [22823]-cartridge.png</cartridge>
+    <image>./media/image/Ben 10 - Alien Force, Vilgax Attacks-9378AE561C57.png</image>
+    <video>./media/videos/Ben 10 - Alien Force, Vilgax Attacks-4303F3FE1DA1.mp4</video>
+    <thumbnail>./media/image/Ben 10 - Alien Force, Vilgax Attacks-9378AE561C57.png</thumbnail>
+    <boxart>./media/image/Ben 10 - Alien Force, Vilgax Attacks-9378AE561C57.png</boxart>
+    <screenshot>./media/screenshots/Ben 10 - Alien Force, Vilgax Attacks-114C61F42977.png</screenshot>
+    <cartridge>./media/image/Ben 10 - Alien Force, Vilgax Attacks-743315EF5780.png</cartridge>
     <mix>./media/image/Ben 10 - Alien Force, Vilgax Attacks [22823]-image.png</mix>
-    <fanart>./media/fanart/Ben 10 - Alien Force, Vilgax Attacks [22823]-fanart.jpg</fanart>
-    <manual>./media/manuals/Ben 10 - Alien Force, Vilgax Attacks [22823]_(us).pdf</manual>
-    <boxback>./media/image/Ben 10 - Alien Force, Vilgax Attacks [22823]-boxback.png</boxback>
+    <fanart>./media/fanart/Ben 10 - Alien Force, Vilgax Attacks-622B0AE53F45.jpg</fanart>
+    <manual>./media/manuals/Ben 10 - Alien Force, Vilgax Attacks-8DE06BE166EF.pdf</manual>
+    <boxback>./media/image/Ben 10 - Alien Force, Vilgax Attacks-998694C617BB.png</boxback>
     <extra1>./media/extras/Ben 10 - Alien Force, Vilgax Attacks [22823]-extra1.png</extra1>
   </game>
   <game id="22717">
@@ -48,17 +48,17 @@ O JOGADOR POSSUI TRÊS TIPOS DE ATAQUES: LEVES, PESADOS ​​E MOVIMENTOS ESPEC
     <players>1-2</players>
     <region>eu</region>
     <lang>it,es,de,fr,en</lang>
-    <image>./media/image/Ben 10 - Protector Of Earth [22717]-image.png</image>
-    <video>./media/videos/Ben 10 - Protector Of Earth [22717]-video.mp4</video>
-    <thumbnail>./media/image/Ben 10 - Protector Of Earth [22717]-boxart.png</thumbnail>
-    <boxart>./media/image/Ben 10 - Protector Of Earth [22717]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Ben 10 - Protector Of Earth [22717]-screenshot.png</screenshot>
-    <cartridge>./media/image/Ben 10 - Protector Of Earth [22717]-cartridge.png</cartridge>
+    <image>./media/image/Ben 10 - Protector Of Earth-97EA06F40559.png</image>
+    <video>./media/videos/Ben 10 - Protector Of Earth-A332B328FB20.mp4</video>
+    <thumbnail>./media/image/Ben 10 - Protector Of Earth-97EA06F40559.png</thumbnail>
+    <boxart>./media/image/Ben 10 - Protector Of Earth-97EA06F40559.png</boxart>
+    <screenshot>./media/screenshots/Ben 10 - Protector Of Earth-A58327D8908F.png</screenshot>
+    <cartridge>./media/image/Ben 10 - Protector Of Earth-B1EC47B89721.png</cartridge>
     <mix>./media/image/Ben 10 - Protector Of Earth [22717]-image.png</mix>
-    <fanart>./media/fanart/Ben 10 - Protector Of Earth [22717]-fanart.jpg</fanart>
-    <titleshot>./media/image/Ben 10 - Protector Of Earth [22717]-titleshot.png</titleshot>
-    <manual>./media/manuals/Ben 10 - Protector Of Earth [22717]_(us).pdf</manual>
-    <boxback>./media/image/Ben 10 - Protector Of Earth [22717]-boxback.png</boxback>
+    <fanart>./media/fanart/Ben 10 - Protector Of Earth-E74C1888D290.jpg</fanart>
+    <titleshot>./media/image/Ben 10 - Protector Of Earth-DD21614A3E44.png</titleshot>
+    <manual>./media/manuals/Ben 10 - Protector Of Earth-FDA812862632.pdf</manual>
+    <boxback>./media/image/Ben 10 - Protector Of Earth-08C0997CD88C.png</boxback>
     <extra1>./media/extras/Ben 10 - Protector Of Earth [22717]-extra1.png</extra1>
   </game>
   <game id="22869">
@@ -75,17 +75,17 @@ O JOGADOR ASSUME O CONTROLE DE BEN E PODE SE TRANSFORMAR EM UMA INFINIDADE DE AL
     <players>1</players>
     <region>eu</region>
     <lang>it,es,de,fr,en</lang>
-    <image>./media/image/Ben 10 - Ultimate Alien, Cosmic Destruction [22869]-image.png</image>
-    <video>./media/videos/Ben 10 - Ultimate Alien, Cosmic Destruction [22869]-video.mp4</video>
-    <thumbnail>./media/image/Ben 10 - Ultimate Alien, Cosmic Destruction [22869]-boxart.png</thumbnail>
-    <boxart>./media/image/Ben 10 - Ultimate Alien, Cosmic Destruction [22869]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Ben 10 - Ultimate Alien, Cosmic Destruction [22869]-screenshot.png</screenshot>
-    <cartridge>./media/image/Ben 10 - Ultimate Alien, Cosmic Destruction [22869]-cartridge.png</cartridge>
+    <image>./media/image/Ben 10 - Ultimate Alien, Cosmic Destruction-94ED76CB2672.png</image>
+    <video>./media/videos/Ben 10 - Ultimate Alien, Cosmic Destruction-58CDEFA03154.mp4</video>
+    <thumbnail>./media/image/Ben 10 - Ultimate Alien, Cosmic Destruction-94ED76CB2672.png</thumbnail>
+    <boxart>./media/image/Ben 10 - Ultimate Alien, Cosmic Destruction-94ED76CB2672.png</boxart>
+    <screenshot>./media/screenshots/Ben 10 - Ultimate Alien, Cosmic Destruction-AF8EFD544657.png</screenshot>
+    <cartridge>./media/image/Ben 10 - Ultimate Alien, Cosmic Destruction-FA990396E812.png</cartridge>
     <mix>./media/image/Ben 10 - Ultimate Alien, Cosmic Destruction [22869]-image.png</mix>
-    <fanart>./media/fanart/Ben 10 - Ultimate Alien, Cosmic Destruction [22869]-fanart.jpg</fanart>
-    <titleshot>./media/image/Ben 10 - Ultimate Alien, Cosmic Destruction [22869]-titleshot.png</titleshot>
-    <manual>./media/manuals/Ben 10 - Ultimate Alien, Cosmic Destruction [22869]_(us).pdf</manual>
-    <boxback>./media/image/Ben 10 - Ultimate Alien, Cosmic Destruction [22869]-boxback.png</boxback>
+    <fanart>./media/fanart/Ben 10 - Ultimate Alien, Cosmic Destruction-9E33E5A6F42F.jpg</fanart>
+    <titleshot>./media/image/Ben 10 - Ultimate Alien, Cosmic Destruction-9C9CC79BF91D.png</titleshot>
+    <manual>./media/manuals/Ben 10 - Ultimate Alien, Cosmic Destruction-36D0A24467E7.pdf</manual>
+    <boxback>./media/image/Ben 10 - Ultimate Alien, Cosmic Destruction-25BE9725C15C.png</boxback>
     <extra1>./media/extras/Ben 10 - Ultimate Alien, Cosmic Destruction [22869]-extra1.png</extra1>
   </game>
   <game id="22022">
@@ -102,26 +102,25 @@ SÃO 13 ARMAS DE ÚLTIMA GERAÇÃO DISPONÍVEIS, E O DESTAQUE É O MOTOR FÍSICO
     <players>1</players>
     <region>eu,us</region>
     <lang>en,fr,de,es,it</lang>
-    <image>./media/image/Black [22022]-image.png</image>
-    <video>./media/videos/Black [22022]-video.mp4</video>
-    <thumbnail>./media/image/Black [22022]-boxart.png</thumbnail>
-    <marquee>./media/image/Black [22022]-marquee.png</marquee>
-    <wheel>./media/image/Black [22022]-wheel.png</wheel>
-    <boxart>./media/image/Black [22022]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Black [22022]-screenshot.jpg</screenshot>
-    <cartridge>./media/image/Black [22022]-cartridge.png</cartridge>
+    <image>./media/image/Black-6EC952AE9F3E.png</image>
+    <video>./media/videos/Black-CDFB825B78B0.mp4</video>
+    <thumbnail>./media/image/Black-6EC952AE9F3E.png</thumbnail>
+    <marquee>./media/image/Black-CDB24F7EBE56.png</marquee>
+    <wheel>./media/image/Black-CDB24F7EBE56.png</wheel>
+    <boxart>./media/image/Black-6EC952AE9F3E.png</boxart>
+    <screenshot>./media/screenshots/Black-907D5D653239.jpg</screenshot>
+    <cartridge>./media/image/Black-3FF58B44FD95.png</cartridge>
     <mix>./media/image/Black [22022]-image.png</mix>
-    <fanart>./media/fanart/Black [22022]-fanart.jpg</fanart>
-    <titleshot>./media/image/Black [22022]-titleshot.jpg</titleshot>
-    <manual>./media/manuals/Black [22022]_(us).pdf</manual>
-    <boxback>./media/image/Black [22022]-boxback.png</boxback>
+    <fanart>./media/fanart/Black-7EEC8411031F.jpg</fanart>
+    <titleshot>./media/image/Black-03E4E9D01A5E.jpg</titleshot>
+    <manual>./media/manuals/Black-43AD1854234E.pdf</manual>
+    <boxback>./media/image/Black-EF748D9CD7C1.png</boxback>
     <extra1>./media/extras/Black [22022]-extra1.png</extra1>
   </game>
   <game id="22384">
-    <path>./Burnout Dominator (BR).chd</path>
+    <path>./Burnout Dominator (BR) [22384].chd</path>
     <name>BURNOUT DOMINATOR (BR)</name>
-    <desc>BURNOUT DOMINATOR É UM JOGO DE CORRIDA DESENVOLVIDO E PUBLICADO PELA ELECTRONIC ARTS PARA PLAYSTATION 2 E PLAYSTATION PORTABLE. BURNOUT DOMINATOR É O SEGUNDO JOGO SPIN-OFF DA SÉRIE BURNOUT E O SEXTO NO GERAL. ELE MANTÉM A JOGABILIDADE CENTRAL DA SÉRIE, ENQUANTO OS JOGADORES CORREM EM ALTA VELOCIDADE ATRAVÉS DE DEZENAS DE EVENTOS DO WORLD TOUR TESTANDO TÉCNICAS DE DIREÇÃO "IMPRUDENTES BASEADAS EM HABILIDADES". AS VERSÕES DE CADA PLATAFORMA NÃO INTERAGEM ENTRE SI.
-ESTE É O ÚNICO JOGO BURNOUT QUE NÃO FOI DESENVOLVIDO PELA CRITERION GAMES, E O PRIMEIRO JOGO BURNOUT DA SÉRIE DESDE BURNOUT 2: POINT OF IMPACT A NÃO APRESENTAR O "MODO CRASH". NA ÉPOCA EM QUE DOMINATOR ESTAVA SENDO DESENVOLVIDO, A CRITERION ESTAVA OCUPADA TRABALHANDO EM BURNOUT PARADISE E ESPERANDO PARA REINTRODUZIR O MODO EM UMA NOVA FORMA PARA O ÚLTIMO TÍTULO. NO ENTANTO, A CRITERION GAMES ESTÁ LISTADA COMO "OS CRIADORES DESTE JOGO" NO MANUAL DO JOGO E CREDITADA COMO DESENVOLVEDORA NO SITE OFICIAL DA ELECTRONIC ARTS.</desc>
+    <desc>Burnout dominator é UM JOGO DE corrida desenvolvido E publicado PELA electronic ARTS PARA playstation 2 E playstation portable. Burnout dominator é O segundo JOGO spin-off DA série burnout E O sexto NO geral. ELE mantém A jogabilidade central DA série, enquanto OS jogadores correm EM ALTA velocidade através DE dezenas DE eventos DO world TOUR testando técnicas DE direção "imprudentes baseadas EM habilidades". AS versões DE CADA plataforma não interagem entre si. ESTE é O único JOGO burnout QUE não FOI desenvolvido PELA criterion games, E O primeiro JOGO burnout DA série desde burnout 2: point OF impact A não apresentar O "modo crash". NA época EM QUE dominator estava sendo desenvolvido, A criterion estava ocupada trabalhando EM burnout paradise E esperando PARA reintroduzir O MODO EM UMA NOVA forma PARA O último título. NO entanto, A criterion games está listada COMO "os criadores deste jogo" NO manual DO JOGO E creditada COMO desenvolvedora NO SITE oficial DA electronic arts.</desc>
     <rating>0.80</rating>
     <releasedate>20070323T000000</releasedate>
     <developer>CRITERION GAMES</developer>
@@ -131,15 +130,15 @@ ESTE É O ÚNICO JOGO BURNOUT QUE NÃO FOI DESENVOLVIDO PELA CRITERION GAMES, E 
     <players>1-4</players>
     <region>us</region>
     <lang>en,fr,de,es,it</lang>
-    <image>./media/image/Burnout Dominator (BR)-image.png</image>
-    <video>./media/videos/Burnout Dominator (BR)-video.mp4</video>
-    <boxart>./media/image/Burnout Dominator (BR)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Burnout Dominator (BR)-screenshot.png</screenshot>
-    <cartridge>./media/image/Burnout Dominator (BR)-cartridge.png</cartridge>
-    <fanart>./media/fanart/Burnout Dominator (BR)-fanart.jpg</fanart>
-    <titleshot>./media/image/Burnout Dominator (BR)-titleshot.png</titleshot>
-    <manual>./media/manuals/Burnout Dominator (BR)_(us).pdf</manual>
-    <boxback>./media/image/Burnout Dominator (BR)-boxback.png</boxback>
+    <image>./media/image/Burnout Dominator (Br)-1351FC572B28.png</image>
+    <video>./media/videos/Burnout Dominator (Br)-72D9AD7B2318.mp4</video>
+    <boxart>./media/image/Burnout Dominator (Br)-1351FC572B28.png</boxart>
+    <screenshot>./media/screenshots/Burnout Dominator (Br)-8FAAF07BED6F.png</screenshot>
+    <cartridge>./media/image/Burnout Dominator (Br)-5007DE03F75E.png</cartridge>
+    <fanart>./media/fanart/Burnout Dominator (Br)-FDCD5A7E457F.jpg</fanart>
+    <titleshot>./media/image/Burnout Dominator (Br)-1DF15DD12877.png</titleshot>
+    <manual>./media/manuals/Burnout Dominator (Br)-663F8D688F2C.pdf</manual>
+    <boxback>./media/image/Burnout Dominator (Br)-D39CD7FB00F6.png</boxback>
     <extra1>./media/extras/Burnout Dominator (BR)-extra1.png</extra1>
   </game>
   <game id="22596">
@@ -155,17 +154,17 @@ ESTE É O ÚNICO JOGO BURNOUT QUE NÃO FOI DESENVOLVIDO PELA CRITERION GAMES, E 
     <players>2</players>
     <region>eu</region>
     <lang>it,es,de,fr,en</lang>
-    <image>./media/image/Contra - Shattered Soldier [22596]-image.png</image>
-    <video>./media/videos/Contra - Shattered Soldier [22596]-video.mp4</video>
-    <thumbnail>./media/image/Contra - Shattered Soldier [22596]-boxart.png</thumbnail>
-    <boxart>./media/image/Contra - Shattered Soldier [22596]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Contra - Shattered Soldier [22596]-screenshot.png</screenshot>
-    <cartridge>./media/image/Contra - Shattered Soldier [22596]-cartridge.png</cartridge>
+    <image>./media/image/Contra - Shattered Soldier (Br)-6F4F55CD9679.png</image>
+    <video>./media/videos/Contra - Shattered Soldier (Br)-F6A898F1CBD2.mp4</video>
+    <thumbnail>./media/image/Contra - Shattered Soldier (Br)-6F4F55CD9679.png</thumbnail>
+    <boxart>./media/image/Contra - Shattered Soldier (Br)-6F4F55CD9679.png</boxart>
+    <screenshot>./media/screenshots/Contra - Shattered Soldier (Br)-C84ADBA31EB4.png</screenshot>
+    <cartridge>./media/image/Contra - Shattered Soldier (Br)-C1A663C01C1F.png</cartridge>
     <mix>./media/image/Contra - Shattered Soldier [22596]-image.png</mix>
-    <fanart>./media/fanart/Contra - Shattered Soldier [22596]-fanart.jpg</fanart>
-    <titleshot>./media/image/Contra - Shattered Soldier [22596]-titleshot.jpg</titleshot>
-    <manual>./media/manuals/Contra - Shattered Soldier [22596]_(us).pdf</manual>
-    <boxback>./media/image/Contra - Shattered Soldier [22596]-boxback.png</boxback>
+    <fanart>./media/fanart/Contra - Shattered Soldier (Br)-CE533425C456.jpg</fanart>
+    <titleshot>./media/image/Contra - Shattered Soldier (Br)-FF678DD9D9D2.jpg</titleshot>
+    <manual>./media/manuals/Contra - Shattered Soldier (Br)-6E995EE6A753.pdf</manual>
+    <boxback>./media/image/Contra - Shattered Soldier (Br)-7B685C1FB55D.png</boxback>
     <extra1>./media/extras/Contra - Shattered Soldier [22596]-extra1.png</extra1>
   </game>
   <game id="22310">
@@ -182,17 +181,17 @@ A HISTÓRIA DO JOGO FOCA NA DESCOBERTA DE UMA SUBSTÂNCIA CHAMADA MOJO, QUE O DO
     <players>1-2</players>
     <region>eu,us</region>
     <lang>fi,no,sv,en,da</lang>
-    <image>./media/image/Crash Of The Titans [22310]-image.png</image>
-    <video>./media/videos/Crash Of The Titans [22310]-video.mp4</video>
-    <thumbnail>./media/image/Crash Of The Titans [22310]-boxart.png</thumbnail>
-    <boxart>./media/image/Crash Of The Titans [22310]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Crash Of The Titans [22310]-screenshot.png</screenshot>
-    <cartridge>./media/image/Crash Of The Titans [22310]-cartridge.png</cartridge>
+    <image>./media/image/Crash Of The Titans-70CD179BD41A.png</image>
+    <video>./media/videos/Crash Of The Titans-23EA68F4EE0D.mp4</video>
+    <thumbnail>./media/image/Crash Of The Titans-70CD179BD41A.png</thumbnail>
+    <boxart>./media/image/Crash Of The Titans-70CD179BD41A.png</boxart>
+    <screenshot>./media/screenshots/Crash Of The Titans-D02E99F07DB4.png</screenshot>
+    <cartridge>./media/image/Crash Of The Titans-F5B9227800CC.png</cartridge>
     <mix>./media/image/Crash Of The Titans [22310]-image.png</mix>
-    <fanart>./media/fanart/Crash Of The Titans [22310]-fanart.jpg</fanart>
-    <titleshot>./media/image/Crash Of The Titans [22310]-titleshot.png</titleshot>
-    <manual>./media/manuals/Crash Of The Titans [22310]_(us).pdf</manual>
-    <boxback>./media/image/Crash Of The Titans [22310]-boxback.png</boxback>
+    <fanart>./media/fanart/Crash Of The Titans-BD761C264B57.jpg</fanart>
+    <titleshot>./media/image/Crash Of The Titans-A1D214ED916F.png</titleshot>
+    <manual>./media/manuals/Crash Of The Titans-0E2BE13EF2EE.pdf</manual>
+    <boxback>./media/image/Crash Of The Titans-2E5A12891CB6.png</boxback>
     <extra1>./media/extras/Crash Of The Titans [22310]-extra1.png</extra1>
   </game>
   <game id="22065">
@@ -209,17 +208,17 @@ A HISTÓRIA DO JOGO FOCA NA DESCOBERTA DE UMA SUBSTÂNCIA CHAMADA MOJO, QUE O DO
     <players>1</players>
     <region>eu</region>
     <lang>it,es,de,fr,en,pt</lang>
-    <image>./media/image/Crash Twinsanity [22065]-image.png</image>
-    <video>./media/videos/Crash Twinsanity [22065]-video.mp4</video>
-    <thumbnail>./media/image/Crash Twinsanity [22065]-boxart.png</thumbnail>
-    <boxart>./media/image/Crash Twinsanity [22065]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Crash Twinsanity [22065]-screenshot.png</screenshot>
-    <cartridge>./media/image/Crash Twinsanity [22065]-cartridge.png</cartridge>
+    <image>./media/image/Crash Twinsanity-95BAF3A1E33B.png</image>
+    <video>./media/videos/Crash Twinsanity-666BA64E7CB8.mp4</video>
+    <thumbnail>./media/image/Crash Twinsanity-95BAF3A1E33B.png</thumbnail>
+    <boxart>./media/image/Crash Twinsanity-95BAF3A1E33B.png</boxart>
+    <screenshot>./media/screenshots/Crash Twinsanity-29EA9130E219.png</screenshot>
+    <cartridge>./media/image/Crash Twinsanity-7CEEC40E57B1.png</cartridge>
     <mix>./media/image/Crash Twinsanity [22065]-image.png</mix>
-    <fanart>./media/fanart/Crash Twinsanity [22065]-fanart.jpg</fanart>
-    <titleshot>./media/image/Crash Twinsanity [22065]-titleshot.png</titleshot>
-    <manual>./media/manuals/Crash Twinsanity [22065]_(us).pdf</manual>
-    <boxback>./media/image/Crash Twinsanity [22065]-boxback.png</boxback>
+    <fanart>./media/fanart/Crash Twinsanity-24C9243EF4D9.jpg</fanart>
+    <titleshot>./media/image/Crash Twinsanity-06772700CE37.png</titleshot>
+    <manual>./media/manuals/Crash Twinsanity-B03EEA752EDB.pdf</manual>
+    <boxback>./media/image/Crash Twinsanity-3CA3F0423904.png</boxback>
     <extra1>./media/extras/Crash Twinsanity [22065]-extra1.png</extra1>
   </game>
   <game id="22255">
@@ -235,16 +234,16 @@ NO JOGO, OS JOGADORES ASSUMIRÃO O PAPEL DE REMY E REVIVERÃO ALGUNS DOS MOMENTO
     <genreid>257</genreid>
     <players>1-4</players>
     <region>us</region>
-    <image>./media/image/Disney Pixar Ratatouille [22255]-image.png</image>
-    <video>./media/videos/Disney Pixar Ratatouille [22255]-video.mp4</video>
-    <thumbnail>./media/image/Disney Pixar Ratatouille [22255]-boxart.png</thumbnail>
-    <boxart>./media/image/Disney Pixar Ratatouille [22255]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Disney Pixar Ratatouille [22255]-screenshot.png</screenshot>
-    <cartridge>./media/image/Disney Pixar Ratatouille [22255]-cartridge.png</cartridge>
+    <image>./media/image/Disney Pixar Ratatouille-8FBCF021E49C.png</image>
+    <video>./media/videos/Disney Pixar Ratatouille-ACA414EEB523.mp4</video>
+    <thumbnail>./media/image/Disney Pixar Ratatouille-8FBCF021E49C.png</thumbnail>
+    <boxart>./media/image/Disney Pixar Ratatouille-8FBCF021E49C.png</boxart>
+    <screenshot>./media/screenshots/Disney Pixar Ratatouille-EF0CE1632998.png</screenshot>
+    <cartridge>./media/image/Disney Pixar Ratatouille-074B87432111.png</cartridge>
     <mix>./media/image/Disney Pixar Ratatouille [22255]-image.png</mix>
-    <fanart>./media/fanart/Disney Pixar Ratatouille [22255]-fanart.jpg</fanart>
-    <manual>./media/manuals/Disney Pixar Ratatouille [22255]_(us).pdf</manual>
-    <boxback>./media/image/Disney Pixar Ratatouille [22255]-boxback.png</boxback>
+    <fanart>./media/fanart/Disney Pixar Ratatouille-CC2F7CD8373B.jpg</fanart>
+    <manual>./media/manuals/Disney Pixar Ratatouille-C67FF454B8F2.pdf</manual>
+    <boxback>./media/image/Disney Pixar Ratatouille-9722EACA851D.png</boxback>
     <extra1>./media/extras/Disney Pixar Ratatouille [22255]-extra1.png</extra1>
   </game>
   <game id="21899">
@@ -262,17 +261,17 @@ NO JOGO, OS JOGADORES ASSUMIRÃO O PAPEL DE REMY E REVIVERÃO ALGUNS DOS MOMENTO
     <region>eu</region>
     <lang>it,es,de,fr,en</lang>
     <adult>true</adult>
-    <image>./media/image/God Of War [21899]-image.png</image>
-    <video>./media/videos/God Of War [21899]-video.mp4</video>
-    <thumbnail>./media/image/God Of War [21899]-boxart.png</thumbnail>
-    <boxart>./media/image/God Of War [21899]-boxart.png</boxart>
-    <screenshot>./media/screenshots/God Of War [21899]-screenshot.png</screenshot>
-    <cartridge>./media/image/God Of War [21899]-cartridge.png</cartridge>
+    <image>./media/image/God Of War-E915DE6516A0.png</image>
+    <video>./media/videos/God Of War-982D86AF1584.mp4</video>
+    <thumbnail>./media/image/God Of War-E915DE6516A0.png</thumbnail>
+    <boxart>./media/image/God Of War-E915DE6516A0.png</boxart>
+    <screenshot>./media/screenshots/God Of War-D26A39F5694E.png</screenshot>
+    <cartridge>./media/image/God Of War-2E7D7D51B663.png</cartridge>
     <mix>./media/image/God Of War [21899]-image.png</mix>
-    <fanart>./media/fanart/God Of War [21899]-fanart.jpg</fanart>
-    <titleshot>./media/image/God Of War [21899]-titleshot.png</titleshot>
-    <manual>./media/manuals/God Of War [21899]_(us).pdf</manual>
-    <boxback>./media/image/God Of War [21899]-boxback.png</boxback>
+    <fanart>./media/fanart/God Of War-8D2B360B6F7A.jpg</fanart>
+    <titleshot>./media/image/God Of War-C4CA0667AEB9.png</titleshot>
+    <manual>./media/manuals/God Of War-4BDD3D290399.pdf</manual>
+    <boxback>./media/image/God Of War-7A7074D43278.png</boxback>
     <extra1>./media/extras/God Of War [21899]-extra1.png</extra1>
   </game>
   <game id="128570">
@@ -288,27 +287,25 @@ NO JOGO, OS JOGADORES ASSUMIRÃO O PAPEL DE REMY E REVIVERÃO ALGUNS DOS MOMENTO
     <genreid>263</genreid>
     <players>1</players>
     <region>us</region>
-    <image>./media/image/God Of War II [128570]-image.png</image>
-    <video>./media/videos/God Of War II [128570]-video.mp4</video>
-    <thumbnail>./media/image/God Of War II [128570]-boxart.png</thumbnail>
-    <boxart>./media/image/God Of War II [128570]-boxart.png</boxart>
-    <screenshot>./media/screenshots/God Of War II [128570]-screenshot.png</screenshot>
-    <cartridge>./media/image/God Of War II [128570]-cartridge.png</cartridge>
+    <image>./media/image/God Of War II-0FFEB9960DB5.png</image>
+    <video>./media/videos/God Of War II-A3C08C1E9B8E.mp4</video>
+    <thumbnail>./media/image/God Of War II-0FFEB9960DB5.png</thumbnail>
+    <boxart>./media/image/God Of War II-0FFEB9960DB5.png</boxart>
+    <screenshot>./media/screenshots/God Of War II-D25D23F67899.png</screenshot>
+    <cartridge>./media/image/God Of War II-376366125DE1.png</cartridge>
     <mix>./media/image/God Of War II [128570]-image.png</mix>
-    <fanart>./media/fanart/God Of War II [128570]-fanart.jpg</fanart>
-    <titleshot>./media/image/God Of War II [128570]-titleshot.png</titleshot>
-    <manual>./media/manuals/God Of War II [128570]_(us).pdf</manual>
-    <boxback>./media/image/God Of War II [128570]-boxback.png</boxback>
+    <fanart>./media/fanart/God Of War II-2B33C1902F16.jpg</fanart>
+    <titleshot>./media/image/God Of War II-07B77EEAB52E.png</titleshot>
+    <manual>./media/manuals/God Of War II-9CDC2A8BEE5C.pdf</manual>
+    <boxback>./media/image/God Of War II-65796D15BAA6.png</boxback>
     <extra1>./media/extras/God Of War II [128570]-extra1.png</extra1>
-    <bezel>./media/image/God Of War II [128570]-bezel.png</bezel>
+    <bezel>./media/image/God Of War II-62D423237D63.png</bezel>
   </game>
   <game id="22764">
-    <path>./Gradius V (BR).chd</path>
+    <path>./Gradius V (BR) [22764].chd</path>
     <name>GRADIUS V (BR)</name>
     <mode>Multijogador em tela dividida</mode>
-    <desc>GRADIUS V É UM VIDEOGAME SHOOT 'EM UP DESENVOLVIDO NO JAPÃO E PUBLICADO PELA KONAMI PARA O CONSOLE DE VIDEOGAME SONY PLAYSTATION 2 EM 2004. GRADIUS V FOI AMPLAMENTE DESENVOLVIDO SOB CONTRATO PELA TREASURE, QUE JÁ HAVIA TRABALHADO EM RADIANT SILVERGUN E IKARUGA.
- O JOGO SE PASSA PREDOMINANTEMENTE NO ESPAÇO SIDERAL, ONDE OS JOGADORES CONTROLAM UMA ESPAÇONAVE FICTÍCIA CHAMADA VIC VIPER ATRAVÉS DE UM FUNDO DE ROLAGEM CONTÍNUA REPRESENTANDO OS TERRITÓRIOS DE BACTERIAN - UM IMPÉRIO DO MAL QUE SERVE COMO INIMIGO DO JOGADOR.
- A TRILHA SONORA FOI COMPOSTA PELO COMPOSITOR DO BASISCAPE HITOSHI SAKIMOTO, CUJO TRABALHO ANTERIOR EM VIDEOGAME INCLUI A TRILHA SONORA DO RPG TÁTICO FINAL FANTASY TACTICS, DO SHOOT'EM UP RADIANT SILVERGUN E DO HÍBRIDO DE AÇÃO/RPG VAGRANT STORY.</desc>
+    <desc>Gradius V é UM videogame shoot 'em UP desenvolvido NO japão E publicado PELA konami PARA O console DE videogame SONY playstation 2 EM 2004. Gradius V FOI amplamente desenvolvido SOB contrato PELA treasure, QUE já havia trabalhado EM radiant silvergun E ikaruga. O JOGO SE passa predominantemente NO espaço sideral, ONDE OS jogadores controlam UMA espaçonave fictícia chamada VIC viper através DE UM fundo DE rolagem contínua representando OS territórios DE bacterian - UM império DO MAL QUE serve COMO inimigo DO jogador. A trilha sonora FOI composta PELO compositor DO basiscape hitoshi sakimoto, CUJO trabalho anterior EM videogame inclui A trilha sonora DO RPG tático final fantasy tactics, DO shoot'em UP radiant silvergun E DO híbrido DE ação/rpg vagrant story.</desc>
     <rating>0.80</rating>
     <releasedate>20041008T000000</releasedate>
     <developer>TREASURE</developer>
@@ -318,17 +315,17 @@ NO JOGO, OS JOGADORES ASSUMIRÃO O PAPEL DE REMY E REVIVERÃO ALGUNS DOS MOMENTO
     <players>1-2</players>
     <region>eu</region>
     <lang>it,es,de,fr,en</lang>
-    <image>./media/image/Gradius V (BR)-image.png</image>
-    <video>./media/videos/Gradius V (BR)-video.mp4</video>
-    <thumbnail>./media/image/Gradius V (BR)-boxart.png</thumbnail>
-    <boxart>./media/image/Gradius V (BR)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Gradius V (BR)-screenshot.jpg</screenshot>
-    <cartridge>./media/image/Gradius V (BR)-cartridge.png</cartridge>
+    <image>./media/image/Gradius V (Br)-4598B794399B.png</image>
+    <video>./media/videos/Gradius V (Br)-7C7FC05B12DF.mp4</video>
+    <thumbnail>./media/image/Gradius V (Br)-4598B794399B.png</thumbnail>
+    <boxart>./media/image/Gradius V (Br)-4598B794399B.png</boxart>
+    <screenshot>./media/screenshots/Gradius V (Br)-3FA47B981877.jpg</screenshot>
+    <cartridge>./media/image/Gradius V (Br)-888006E70A78.png</cartridge>
     <mix>./media/image/Gradius V (BR)-image.png</mix>
-    <fanart>./media/fanart/Gradius V (BR)-fanart.jpg</fanart>
-    <titleshot>./media/image/Gradius V (BR)-titleshot.jpg</titleshot>
-    <manual>./media/manuals/Gradius V (BR)_(us).pdf</manual>
-    <boxback>./media/image/Gradius V (BR)-boxback.png</boxback>
+    <fanart>./media/fanart/Gradius V (Br)-509A990FBBE9.jpg</fanart>
+    <titleshot>./media/image/Gradius V (Br)-D7EDD1F2AF97.jpg</titleshot>
+    <manual>./media/manuals/Gradius V (Br)-52AC764BF8E3.pdf</manual>
+    <boxback>./media/image/Gradius V (Br)-B4330586F805.png</boxback>
     <extra1>./media/extras/Gradius V (BR)-extra1.png</extra1>
   </game>
   <game id="21945">
@@ -345,19 +342,19 @@ NO JOGO, OS JOGADORES ASSUMIRÃO O PAPEL DE REMY E REVIVERÃO ALGUNS DOS MOMENTO
     <players>1-2</players>
     <region>us,eu</region>
     <lang>en,fr,de,es,it</lang>
-    <image>./media/image/Ico [21945]-image.png</image>
-    <video>./media/videos/Ico [21945]-video.mp4</video>
-    <thumbnail>./media/image/Ico [21945]-boxart.png</thumbnail>
-    <marquee>./media/image/Ico [21945]-marquee.png</marquee>
-    <wheel>./media/image/Ico [21945]-wheel.png</wheel>
-    <boxart>./media/image/Ico [21945]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Ico [21945]-screenshot.png</screenshot>
-    <cartridge>./media/image/Ico [21945]-cartridge.png</cartridge>
+    <image>./media/image/Ico-E733F4FABA4D.png</image>
+    <video>./media/videos/Ico-F4A69E6F1718.mp4</video>
+    <thumbnail>./media/image/Ico-E733F4FABA4D.png</thumbnail>
+    <marquee>./media/image/Ico-C9D2A6A23AFE.png</marquee>
+    <wheel>./media/image/Ico-C9D2A6A23AFE.png</wheel>
+    <boxart>./media/image/Ico-E733F4FABA4D.png</boxart>
+    <screenshot>./media/screenshots/Ico-B1CCF827A1D8.png</screenshot>
+    <cartridge>./media/image/Ico-97BFDA5E5E1D.png</cartridge>
     <mix>./media/image/Ico [21945]-image.png</mix>
-    <fanart>./media/fanart/Ico [21945]-fanart.jpg</fanart>
-    <titleshot>./media/image/Ico [21945]-titleshot.png</titleshot>
-    <manual>./media/manuals/Ico [21945]_(us).pdf</manual>
-    <boxback>./media/image/Ico [21945]-boxback.png</boxback>
+    <fanart>./media/fanart/Ico-3308397FBA67.jpg</fanart>
+    <titleshot>./media/image/Ico-D6F921F9BA8D.png</titleshot>
+    <manual>./media/manuals/Ico-1FD65FC9920A.pdf</manual>
+    <boxback>./media/image/Ico-2B8ECC789F5A.png</boxback>
     <extra1>./media/extras/Ico [21945]-extra1.png</extra1>
   </game>
   <game id="22383">
@@ -376,22 +373,21 @@ O CLÃ MALIGNO MÃO NEGRA, LIDERADO POR VALMONT — UM HOMEM POSSUÍDO POR UM DE
     <players>1</players>
     <region>eu</region>
     <lang>pt,nl,it,es,de,fr,en</lang>
-    <image>./media/image/Jackie Chan Adventures [22383]-image.png</image>
-    <video>./media/videos/Jackie Chan Adventures [22383]-video.mp4</video>
-    <thumbnail>./media/image/Jackie Chan Adventures [22383]-boxart.png</thumbnail>
-    <boxart>./media/image/Jackie Chan Adventures [22383]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Jackie Chan Adventures [22383]-screenshot.png</screenshot>
-    <cartridge>./media/image/Jackie Chan Adventures [22383]-cartridge.png</cartridge>
+    <image>./media/image/Jackie Chan Adventures-B5222B0FDB6C.png</image>
+    <video>./media/videos/Jackie Chan Adventures-A213EDC65714.mp4</video>
+    <thumbnail>./media/image/Jackie Chan Adventures-B5222B0FDB6C.png</thumbnail>
+    <boxart>./media/image/Jackie Chan Adventures-B5222B0FDB6C.png</boxart>
+    <screenshot>./media/screenshots/Jackie Chan Adventures-DB1725EA516B.png</screenshot>
+    <cartridge>./media/image/Jackie Chan Adventures-07CEC1F9F82B.png</cartridge>
     <mix>./media/image/Jackie Chan Adventures [22383]-image.png</mix>
-    <fanart>./media/fanart/Jackie Chan Adventures [22383]-fanart.jpg</fanart>
-    <boxback>./media/image/Jackie Chan Adventures [22383]-boxback.png</boxback>
+    <fanart>./media/fanart/Jackie Chan Adventures-E472E83B20B7.jpg</fanart>
+    <boxback>./media/image/Jackie Chan Adventures-14262C56D1A3.png</boxback>
     <extra1>./media/extras/Jackie Chan Adventures [22383]-extra1.png</extra1>
   </game>
   <game id="128451">
-    <path>./Justice League Heroes (BR).chd</path>
+    <path>./Justice League Heroes (BR) [128451].chd</path>
     <name>JUSTICE LEAGUE HEROES (BR)</name>
-    <desc>ROBÔS MILITARES CAUSAM ESTRAGOS EM UM CENTRO DE PESQUISA DE ALTA TECNOLOGIA EM METRÓPOLIS. NA FINLÂNDIA, CRIATURAS GENETICAMENTE MODIFICADAS ASSUMEM O CONTROLE DO ULTRASSECRETO DEEP SPACE COMMUNICATIONS ARRAY. UMA EQUIPE DE CRIMINOSOS SUPERPODEROSOS, QUE NUNCA HAVIAM TRABALHADO JUNTOS ANTES, TOMA UMA BASE DE MÍSSEIS EM NEVADA. E NAS PROFUNDEZAS DA SUPERFÍCIE DE MARTE, DEZENAS DE GUERREIROS ALIENÍGENAS SÃO LIBERTADOS DA SUA LONGA PRISÃO. ESSES EVENTOS APARENTEMENTE NÃO RELACIONADOS PROVAM SER PEÇAS DE UM PLANO SINISTRO, E SERÃO NECESSÁRIOS OS MAIORES SUPER-HERÓIS DA TERRA PARA DETÊ-LO: A LIGA DA JUSTIÇA!
- DESDE A FUNDAÇÃO DA LIGA DA JUSTIÇA NO FINAL DOS ANOS 50, MUITOS SE JUNTARAM ÀS FILEIRAS DESTES BENFEITORES GLOBAIS PARA COMBATER O MAL EM TODAS AS FORMAS. AGORA, ESSES HERÓIS DA LIGA DA JUSTIÇA DEVEM SALVAR O DIA NOVAMENTE, MOBILIZANDO PERSONALIDADES COMO MULHER MARAVILHA, BATMAN, AQUAMAN, LANTERNA VERDE, SUPERMAN E MUITO MAIS CONTRA INIMIGOS, INCLUINDO GUERRILHEIROS GIGANTES, MARCIANOS E ROBÔS DE ASSALTO. ASSUMA O CONTROLE DE CADA PERSONAGEM E SUAS HABILIDADES ESPECIAIS EM AÇÃO COOPERATIVA SOLO OU MULTIJOGADOR QUE DEPENDE FORTEMENTE DO TRABALHO EM EQUIPE.</desc>
+    <desc>Robôs militares causam estragos EM UM centro DE pesquisa DE ALTA tecnologia EM metrópolis. NA finlândia, criaturas geneticamente modificadas assumem O controle DO ultrassecreto DEEP space communications array. UMA equipe DE criminosos superpoderosos, QUE nunca haviam trabalhado juntos antes, TOMA UMA BASE DE mísseis EM nevada. E NAS profundezas DA superfície DE marte, dezenas DE guerreiros alienígenas são libertados DA SUA longa prisão. Esses eventos aparentemente não relacionados provam SER peças DE UM plano sinistro, E serão necessários OS maiores super-heróis DA terra PARA detê-lo: A LIGA DA justiça! Desde A fundação DA LIGA DA justiça NO final DOS ANOS 50, muitos SE juntaram às fileiras destes benfeitores globais PARA combater O MAL EM todas AS formas. Agora, esses heróis DA LIGA DA justiça devem salvar O DIA novamente, mobilizando personalidades COMO mulher maravilha, batman, aquaman, lanterna verde, superman E muito MAIS contra inimigos, incluindo guerrilheiros gigantes, marcianos E robôs DE assalto. Assuma O controle DE CADA personagem E SUAS habilidades especiais EM ação cooperativa SOLO OU multijogador QUE depende fortemente DO trabalho EM equipe.</desc>
     <rating>0.60</rating>
     <releasedate>20061124T000000</releasedate>
     <developer>SNOWBLIND</developer>
@@ -401,14 +397,14 @@ O CLÃ MALIGNO MÃO NEGRA, LIDERADO POR VALMONT — UM HOMEM POSSUÍDO POR UM DE
     <players>1-2</players>
     <region>eu</region>
     <lang>it,es,de,fr,en</lang>
-    <image>./media/image/Justice League Heroes (BR)-image.png</image>
-    <video>./media/videos/Justice League Heroes (BR)-video.mp4</video>
-    <boxart>./media/image/Justice League Heroes (BR)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Justice League Heroes (BR)-screenshot.png</screenshot>
-    <cartridge>./media/image/Justice League Heroes (BR)-cartridge.png</cartridge>
-    <fanart>./media/fanart/Justice League Heroes (BR)-fanart.jpg</fanart>
-    <manual>./media/manuals/Justice League Heroes (BR)_(us).pdf</manual>
-    <boxback>./media/image/Justice League Heroes (BR)-boxback.png</boxback>
+    <image>./media/image/Justice League Heroes (Br)-8CD0F3B78581.png</image>
+    <video>./media/videos/Justice League Heroes (Br)-1CB641659420.mp4</video>
+    <boxart>./media/image/Justice League Heroes (Br)-8CD0F3B78581.png</boxart>
+    <screenshot>./media/screenshots/Justice League Heroes (Br)-CEBB49044106.png</screenshot>
+    <cartridge>./media/image/Justice League Heroes (Br)-7D97F9D1F3B9.png</cartridge>
+    <fanart>./media/fanart/Justice League Heroes (Br)-EB11F382208D.jpg</fanart>
+    <manual>./media/manuals/Justice League Heroes (Br)-4C9AD8245B0B.pdf</manual>
+    <boxback>./media/image/Justice League Heroes (Br)-3A4F1239C35E.png</boxback>
     <extra1>./media/extras/Justice League Heroes (BR)-extra1.png</extra1>
   </game>
   <game id="22356">
@@ -425,17 +421,17 @@ O CLÃ MALIGNO MÃO NEGRA, LIDERADO POR VALMONT — UM HOMEM POSSUÍDO POR UM DE
     <players>1</players>
     <region>eu</region>
     <lang>it,es,de,fr,en</lang>
-    <image>./media/image/Klonoa 2 - Lunatea's Veil [22356]-image.png</image>
-    <video>./media/videos/Klonoa 2 - Lunatea's Veil [22356]-video.mp4</video>
-    <thumbnail>./media/image/Klonoa 2 - Lunatea's Veil [22356]-boxart.png</thumbnail>
-    <boxart>./media/image/Klonoa 2 - Lunatea's Veil [22356]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Klonoa 2 - Lunatea's Veil [22356]-screenshot.png</screenshot>
-    <cartridge>./media/image/Klonoa 2 - Lunatea's Veil [22356]-cartridge.png</cartridge>
+    <image>./media/image/Klonoa 2 - Lunatea's Veil-64D3101D4542.png</image>
+    <video>./media/videos/Klonoa 2 - Lunatea's Veil-1BDC0F108DF3.mp4</video>
+    <thumbnail>./media/image/Klonoa 2 - Lunatea's Veil-64D3101D4542.png</thumbnail>
+    <boxart>./media/image/Klonoa 2 - Lunatea's Veil-64D3101D4542.png</boxart>
+    <screenshot>./media/screenshots/Klonoa 2 - Lunatea's Veil-D8E5EBA8FE9A.png</screenshot>
+    <cartridge>./media/image/Klonoa 2 - Lunatea's Veil-076D1EE65088.png</cartridge>
     <mix>./media/image/Klonoa 2 - Lunatea's Veil [22356]-image.png</mix>
-    <fanart>./media/fanart/Klonoa 2 - Lunatea's Veil [22356]-fanart.jpg</fanart>
-    <titleshot>./media/image/Klonoa 2 - Lunatea's Veil [22356]-titleshot.png</titleshot>
-    <manual>./media/manuals/Klonoa 2 - Lunatea's Veil [22356]_(eu).pdf</manual>
-    <boxback>./media/image/Klonoa 2 - Lunatea's Veil [22356]-boxback.png</boxback>
+    <fanart>./media/fanart/Klonoa 2 - Lunatea's Veil-C06FCD6ED5A5.jpg</fanart>
+    <titleshot>./media/image/Klonoa 2 - Lunatea's Veil-F3842B4619A4.png</titleshot>
+    <manual>./media/manuals/Klonoa 2 - Lunatea's Veil-B4D95979FB8E.pdf</manual>
+    <boxback>./media/image/Klonoa 2 - Lunatea's Veil-B7038A1A6666.png</boxback>
     <extra1>./media/extras/Klonoa 2 - Lunatea's Veil [22356]-extra1.png</extra1>
   </game>
   <game id="22024">
@@ -451,13 +447,13 @@ A DUPLA DINÂMICA ENTRA EM AÇÃO EM *LEGO BATMAN: THE VIDEOGAME*. NA CAMPANHA P
     <genre>BRIGA DE RUA, PLATAFORMA</genre>
     <genreid>263</genreid>
     <players>1-2</players>
-    <image>./media/image/Lego Batman [22024]-image.png</image>
-    <video>./media/videos/Lego Batman [22024]-video.mp4</video>
-    <screenshot>./media/screenshots/Lego Batman [22024]-screenshot.png</screenshot>
+    <image>./media/image/Lego Batman-81DADA7B6049.png</image>
+    <video>./media/videos/Lego Batman-206ABDF4AE98.mp4</video>
+    <screenshot>./media/screenshots/Lego Batman-0241F2829B99.png</screenshot>
     <mix>./media/image/Lego Batman [22024]-image.png</mix>
-    <fanart>./media/fanart/Lego Batman [22024]-fanart.jpg</fanart>
-    <titleshot>./media/image/Lego Batman [22024]-titleshot.png</titleshot>
-    <manual>./media/manuals/Lego Batman [22024]_(us).pdf</manual>
+    <fanart>./media/fanart/Lego Batman-51643E06A32B.jpg</fanart>
+    <titleshot>./media/image/Lego Batman-88B48987B646.png</titleshot>
+    <manual>./media/manuals/Lego Batman-5FB878672913.pdf</manual>
     <extra1>./media/extras/Lego Batman [22024]-extra1.png</extra1>
   </game>
   <game id="22328">
@@ -474,17 +470,17 @@ A DUPLA DINÂMICA ENTRA EM AÇÃO EM *LEGO BATMAN: THE VIDEOGAME*. NA CAMPANHA P
     <genreid>257</genreid>
     <players>1</players>
     <region>us</region>
-    <image>./media/image/Maximo Vs Army Of Zin [22328]-image.png</image>
-    <video>./media/videos/Maximo Vs Army Of Zin [22328]-video.mp4</video>
-    <thumbnail>./media/image/Maximo Vs Army Of Zin [22328]-boxart.png</thumbnail>
-    <boxart>./media/image/Maximo Vs Army Of Zin [22328]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Maximo Vs Army Of Zin [22328]-screenshot.png</screenshot>
-    <cartridge>./media/image/Maximo Vs Army Of Zin [22328]-cartridge.png</cartridge>
+    <image>./media/image/Maximo Vs Army Of Zin-B1BFB001A992.png</image>
+    <video>./media/videos/Maximo Vs Army Of Zin-9300E530C9B1.mp4</video>
+    <thumbnail>./media/image/Maximo Vs Army Of Zin-B1BFB001A992.png</thumbnail>
+    <boxart>./media/image/Maximo Vs Army Of Zin-B1BFB001A992.png</boxart>
+    <screenshot>./media/screenshots/Maximo Vs Army Of Zin-B22EA9888EB3.png</screenshot>
+    <cartridge>./media/image/Maximo Vs Army Of Zin-082D4BF010F9.png</cartridge>
     <mix>./media/image/Maximo Vs Army Of Zin [22328]-image.png</mix>
-    <fanart>./media/fanart/Maximo Vs Army Of Zin [22328]-fanart.jpg</fanart>
-    <titleshot>./media/image/Maximo Vs Army Of Zin [22328]-titleshot.png</titleshot>
-    <manual>./media/manuals/Maximo Vs Army Of Zin [22328]_(us).pdf</manual>
-    <boxback>./media/image/Maximo Vs Army Of Zin [22328]-boxback.png</boxback>
+    <fanart>./media/fanart/Maximo Vs Army Of Zin-EA54311E9DA5.jpg</fanart>
+    <titleshot>./media/image/Maximo Vs Army Of Zin-6FDCCCC43494.png</titleshot>
+    <manual>./media/manuals/Maximo Vs Army Of Zin-6A2C4ED4A351.pdf</manual>
+    <boxback>./media/image/Maximo Vs Army Of Zin-D092A76D6FA8.png</boxback>
     <extra1>./media/extras/Maximo Vs Army Of Zin [22328]-extra1.png</extra1>
   </game>
   <game id="22378">
@@ -501,19 +497,19 @@ A DUPLA DINÂMICA ENTRA EM AÇÃO EM *LEGO BATMAN: THE VIDEOGAME*. NA CAMPANHA P
     <genreid>257</genreid>
     <players>1</players>
     <region>us</region>
-    <image>./media/image/Mega Man X8 [22378]-image.png</image>
-    <video>./media/videos/Mega Man X8 [22378]-video.mp4</video>
-    <thumbnail>./media/image/Mega Man X8 [22378]-boxart.png</thumbnail>
-    <marquee>./media/image/Mega Man X8 [22378]-marquee.png</marquee>
-    <wheel>./media/image/Mega Man X8 [22378]-wheel.png</wheel>
-    <boxart>./media/image/Mega Man X8 [22378]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Mega Man X8 [22378]-screenshot.png</screenshot>
-    <cartridge>./media/image/Mega Man X8 [22378]-cartridge.png</cartridge>
+    <image>./media/image/Mega Man X8-3AED948DE195.png</image>
+    <video>./media/videos/Mega Man X8-66D63C51FE31.mp4</video>
+    <thumbnail>./media/image/Mega Man X8-3AED948DE195.png</thumbnail>
+    <marquee>./media/image/Mega Man X8-C58C0A4FAAAD.png</marquee>
+    <wheel>./media/image/Mega Man X8-C58C0A4FAAAD.png</wheel>
+    <boxart>./media/image/Mega Man X8-3AED948DE195.png</boxart>
+    <screenshot>./media/screenshots/Mega Man X8-16CC7DBEB11E.png</screenshot>
+    <cartridge>./media/image/Mega Man X8-FD71BF2A6E63.png</cartridge>
     <mix>./media/image/Mega Man X8 [22378]-image.png</mix>
-    <fanart>./media/fanart/Mega Man X8 [22378]-fanart.jpg</fanart>
-    <titleshot>./media/image/Mega Man X8 [22378]-titleshot.png</titleshot>
-    <manual>./media/manuals/Mega Man X8 [22378]_(us).pdf</manual>
-    <boxback>./media/image/Mega Man X8 [22378]-boxback.png</boxback>
+    <fanart>./media/fanart/Mega Man X8-81A5626A581E.jpg</fanart>
+    <titleshot>./media/image/Mega Man X8-281C55CE7733.png</titleshot>
+    <manual>./media/manuals/Mega Man X8-77F4D96D0680.pdf</manual>
+    <boxback>./media/image/Mega Man X8-47488585D73B.png</boxback>
     <extra1>./media/extras/Mega Man X8 [22378]-extra1.png</extra1>
   </game>
   <game id="22507">
@@ -529,19 +525,19 @@ AÇÃO COOPERATIVA PARA DOIS JOGADORES ESTÁ DISPONÍVEL, E O JOGO TAMBÉM OFERE
     <genreid>256</genreid>
     <players>1-2</players>
     <region>eu</region>
-    <image>./media/image/Metal Slug Anthology [22507]-image.png</image>
-    <video>./media/videos/Metal Slug Anthology [22507]-video.mp4</video>
-    <thumbnail>./media/image/Metal Slug Anthology [22507]-boxart.png</thumbnail>
-    <marquee>./media/image/Metal Slug Anthology [22507]-marquee.png</marquee>
-    <wheel>./media/image/Metal Slug Anthology [22507]-wheel.png</wheel>
-    <boxart>./media/image/Metal Slug Anthology [22507]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Metal Slug Anthology [22507]-screenshot.png</screenshot>
-    <cartridge>./media/image/Metal Slug Anthology [22507]-cartridge.png</cartridge>
+    <image>./media/image/Metal Slug Anthology-F469A8998547.png</image>
+    <video>./media/videos/Metal Slug Anthology-4950B00CC666.mp4</video>
+    <thumbnail>./media/image/Metal Slug Anthology-F469A8998547.png</thumbnail>
+    <marquee>./media/image/Metal Slug Anthology-847D24B2096B.png</marquee>
+    <wheel>./media/image/Metal Slug Anthology-847D24B2096B.png</wheel>
+    <boxart>./media/image/Metal Slug Anthology-F469A8998547.png</boxart>
+    <screenshot>./media/screenshots/Metal Slug Anthology-4007F523531B.png</screenshot>
+    <cartridge>./media/image/Metal Slug Anthology-683D7F2A4120.png</cartridge>
     <mix>./media/image/Metal Slug Anthology [22507]-image.png</mix>
-    <fanart>./media/fanart/Metal Slug Anthology [22507]-fanart.jpg</fanart>
-    <titleshot>./media/image/Metal Slug Anthology [22507]-titleshot.png</titleshot>
-    <manual>./media/manuals/Metal Slug Anthology [22507]_(us).pdf</manual>
-    <boxback>./media/image/Metal Slug Anthology [22507]-boxback.png</boxback>
+    <fanart>./media/fanart/Metal Slug Anthology-45EEC4165D66.jpg</fanart>
+    <titleshot>./media/image/Metal Slug Anthology-0C4E4394969A.png</titleshot>
+    <manual>./media/manuals/Metal Slug Anthology-537BDEF04C48.pdf</manual>
+    <boxback>./media/image/Metal Slug Anthology-03E6DFE01B20.png</boxback>
     <extra1>./media/extras/Metal Slug Anthology [22507]-extra1.png</extra1>
   </game>
   <game id="22119">
@@ -558,19 +554,19 @@ O JOGO GIRA EM TORNO DE DOIS MEMBROS DO TEMPLO SHAOLIN: LIU KANG E KUNG LAO, ENQ
     <players>1-2</players>
     <region>eu</region>
     <lang>it,es,de,fr,en</lang>
-    <image>./media/image/Mortal Kombat - Shaolin Monks [22119]-image.png</image>
-    <video>./media/videos/Mortal Kombat - Shaolin Monks [22119]-video.mp4</video>
-    <thumbnail>./media/image/Mortal Kombat - Shaolin Monks [22119]-boxart.png</thumbnail>
-    <boxart>./media/image/Mortal Kombat - Shaolin Monks [22119]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Mortal Kombat - Shaolin Monks [22119]-screenshot.png</screenshot>
-    <cartridge>./media/image/Mortal Kombat - Shaolin Monks [22119]-cartridge.png</cartridge>
+    <image>./media/image/Mortal Kombat - Shaolin Monks-1CAC4D78A47E.png</image>
+    <video>./media/videos/Mortal Kombat - Shaolin Monks-C9D4E2B3BBDB.mp4</video>
+    <thumbnail>./media/image/Mortal Kombat - Shaolin Monks-1CAC4D78A47E.png</thumbnail>
+    <boxart>./media/image/Mortal Kombat - Shaolin Monks-1CAC4D78A47E.png</boxart>
+    <screenshot>./media/screenshots/Mortal Kombat - Shaolin Monks-4EB7363F6DCD.png</screenshot>
+    <cartridge>./media/image/Mortal Kombat - Shaolin Monks-3E15CEB0335B.png</cartridge>
     <mix>./media/image/Mortal Kombat - Shaolin Monks [22119]-image.png</mix>
-    <fanart>./media/fanart/Mortal Kombat - Shaolin Monks [22119]-fanart.jpg</fanart>
-    <titleshot>./media/image/Mortal Kombat - Shaolin Monks [22119]-titleshot.png</titleshot>
-    <manual>./media/manuals/Mortal Kombat - Shaolin Monks [22119]_(us).pdf</manual>
-    <boxback>./media/image/Mortal Kombat - Shaolin Monks [22119]-boxback.png</boxback>
+    <fanart>./media/fanart/Mortal Kombat - Shaolin Monks-EA017CFAFF83.jpg</fanart>
+    <titleshot>./media/image/Mortal Kombat - Shaolin Monks-92CF9B7B1BBD.png</titleshot>
+    <manual>./media/manuals/Mortal Kombat - Shaolin Monks-D06ABC2525AD.pdf</manual>
+    <boxback>./media/image/Mortal Kombat - Shaolin Monks-14E6C04C6DC0.png</boxback>
     <extra1>./media/extras/Mortal Kombat - Shaolin Monks [22119]-extra1.png</extra1>
-    <bezel>./media/image/Mortal Kombat - Shaolin Monks [22119]-bezel.png</bezel>
+    <bezel>./media/image/Mortal Kombat - Shaolin Monks-93910526096B.png</bezel>
   </game>
   <game id="21908">
     <path>./Need For Speed - Underground 2 [21908].chd</path>
@@ -585,19 +581,19 @@ O JOGO GIRA EM TORNO DE DOIS MEMBROS DO TEMPLO SHAOLIN: LIU KANG E KUNG LAO, ENQ
     <genreid>1537</genreid>
     <region>eu,us</region>
     <lang>en,fr,de,es,it,nl,sv,da</lang>
-    <image>./media/image/Need For Speed - Underground 2 [21908]-image.png</image>
-    <video>./media/videos/Need For Speed - Underground 2 [21908]-video.mp4</video>
-    <thumbnail>./media/image/Need For Speed - Underground 2 [21908]-boxart.png</thumbnail>
-    <boxart>./media/image/Need For Speed - Underground 2 [21908]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Need For Speed - Underground 2 [21908]-screenshot.png</screenshot>
-    <cartridge>./media/image/Need For Speed - Underground 2 [21908]-cartridge.png</cartridge>
+    <image>./media/image/Need For Speed - Underground 2-B10280DA26B4.png</image>
+    <video>./media/videos/Need For Speed - Underground 2-A3DBEBE4457D.mp4</video>
+    <thumbnail>./media/image/Need For Speed - Underground 2-B10280DA26B4.png</thumbnail>
+    <boxart>./media/image/Need For Speed - Underground 2-B10280DA26B4.png</boxart>
+    <screenshot>./media/screenshots/Need For Speed - Underground 2-C38D6CB39D2A.png</screenshot>
+    <cartridge>./media/image/Need For Speed - Underground 2-BDBE7BFFD89F.png</cartridge>
     <mix>./media/image/Need For Speed - Underground 2 [21908]-image.png</mix>
-    <fanart>./media/fanart/Need For Speed - Underground 2 [21908]-fanart.jpg</fanart>
-    <titleshot>./media/image/Need For Speed - Underground 2 [21908]-titleshot.png</titleshot>
-    <manual>./media/manuals/Need For Speed - Underground 2 [21908]_(us).pdf</manual>
-    <boxback>./media/image/Need For Speed - Underground 2 [21908]-boxback.png</boxback>
+    <fanart>./media/fanart/Need For Speed - Underground 2-6D3AF418F02F.jpg</fanart>
+    <titleshot>./media/image/Need For Speed - Underground 2-4768C31AB758.png</titleshot>
+    <manual>./media/manuals/Need For Speed - Underground 2-07D070CA9D7F.pdf</manual>
+    <boxback>./media/image/Need For Speed - Underground 2-E4AAF5789A1D.png</boxback>
     <extra1>./media/extras/Need For Speed - Underground 2 [21908]-extra1.png</extra1>
-    <bezel>./media/image/Need For Speed - Underground 2 [21908]-bezel.png</bezel>
+    <bezel>./media/image/Need For Speed - Underground 2-5C974B3D1CB0.png</bezel>
   </game>
   <game id="23060">
     <path>./Neo Contra [23060].chd</path>
@@ -611,22 +607,22 @@ O JOGO GIRA EM TORNO DE DOIS MEMBROS DO TEMPLO SHAOLIN: LIU KANG E KUNG LAO, ENQ
     <genreid>257</genreid>
     <players>1-2</players>
     <region>us</region>
-    <image>./media/image/Neo Contra [23060]-image.png</image>
-    <video>./media/videos/Neo Contra [23060]-video.mp4</video>
-    <thumbnail>./media/image/Neo Contra [23060]-boxart.png</thumbnail>
-    <boxart>./media/image/Neo Contra [23060]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Neo Contra [23060]-screenshot.png</screenshot>
-    <cartridge>./media/image/Neo Contra [23060]-cartridge.png</cartridge>
+    <image>./media/image/Neo Contra-8B491CD87974.png</image>
+    <video>./media/videos/Neo Contra-0FBC842A5FC5.mp4</video>
+    <thumbnail>./media/image/Neo Contra-8B491CD87974.png</thumbnail>
+    <boxart>./media/image/Neo Contra-8B491CD87974.png</boxart>
+    <screenshot>./media/screenshots/Neo Contra-3A63425A9233.png</screenshot>
+    <cartridge>./media/image/Neo Contra-E4FE240BF514.png</cartridge>
     <mix>./media/image/Neo Contra [23060]-image.png</mix>
-    <fanart>./media/fanart/Neo Contra [23060]-fanart.jpg</fanart>
-    <manual>./media/manuals/Neo Contra [23060]_(us).pdf</manual>
-    <boxback>./media/image/Neo Contra [23060]-boxback.png</boxback>
+    <fanart>./media/fanart/Neo Contra-E866AAFB785A.jpg</fanart>
+    <manual>./media/manuals/Neo Contra-7505F6370578.pdf</manual>
+    <boxback>./media/image/Neo Contra-0D842DAF1CC5.png</boxback>
     <extra1>./media/extras/Neo Contra [23060]-extra1.png</extra1>
   </game>
   <game id="22988">
-    <path>./Nicktoons - Attack of the Toybots (USA).chd</path>
+    <path>./Nicktoons - Attack Of The Toybots (USA) [22988].chd</path>
     <name>NICKTOONS - ATTACK OF THE TOYBOTS (USA)</name>
-    <desc>NICKTOONS: ATTACK OF THE TOYBOTS É UM JOGO DE PLATAFORMA DE ROLAGEM LATERAL. ENVOLVE PERSONAGENS POPULARES DE VÁRIAS FRANQUIAS NICKTOONS, COMO BOB ESPONJA CALÇA QUADRADA, TIMMY TURNER, JIMMY NEUTRON, GIR, REN E TAK.  O PROFESSOR CALAMITOUS ALIMENTA SEU EXÉRCITO ALIMENTANDO AS FADAS COM HAMBÚRGUERES DE CARANGUEJO. ISSO FAZ COM QUE ELES EMITAM UM GÁS QUE, QUANDO MISTURADO À ENERGIA FANTASMA, PODE ALIMENTAR ROBÔS. QUANDO PATRICK STAR E BOB ESPONJA CALÇA QUADRADA ENTREGAM UMA GRANDE QUANTIDADE DE HAMBÚRGUERES DE CARANGUEJO EM UMA CASA, TODOS SÃO SUGADOS E ACIDENTALMENTE PATRICK É LEVADO JUNTO. DEPOIS DE SELECIONAR UM PERSONAGEM, OS JOGADORES ATRAVESSAM O INTERIOR DA FÁBRICA DE BRINQUEDOS DO PROFESSOR CALAMITOUS PARA LUTAR CONTRA CÓPIAS MALIGNAS DE ROBÔS DE SI MESMOS.</desc>
+    <desc>Nicktoons: attack OF THE toybots é UM JOGO DE plataforma DE rolagem lateral. Envolve personagens populares DE várias franquias nicktoons, COMO BOB esponja calça quadrada, timmy turner, jimmy neutron, gir, REN E tak. O professor calamitous alimenta SEU exército alimentando AS fadas COM hambúrgueres DE caranguejo. ISSO FAZ COM QUE ELES emitam UM gás que, quando misturado à energia fantasma, PODE alimentar robôs. Quando patrick STAR E BOB esponja calça quadrada entregam UMA grande quantidade DE hambúrgueres DE caranguejo EM UMA casa, todos são sugados E acidentalmente patrick é levado junto. Depois DE selecionar UM personagem, OS jogadores atravessam O interior DA fábrica DE brinquedos DO professor calamitous PARA lutar contra cópias malignas DE robôs DE SI mesmos.</desc>
     <rating>0.60</rating>
     <developer>BLUE TONGUE ENTERTAINMENT</developer>
     <publisher>THQ</publisher>
@@ -634,24 +630,24 @@ O JOGO GIRA EM TORNO DE DOIS MEMBROS DO TEMPLO SHAOLIN: LIU KANG E KUNG LAO, ENQ
     <genreid>257</genreid>
     <players>2</players>
     <region>us</region>
-    <image>./media/image/Nicktoons - Attack of the Toybots (USA)-image.png</image>
-    <video>./media/videos/Nicktoons - Attack of the Toybots (USA)-video.mp4</video>
-    <thumbnail>./media/image/Nicktoons - Attack of the Toybots (USA)-boxart.png</thumbnail>
-    <marquee>./media/image/Nicktoons - Attack of the Toybots (USA)-marquee.png</marquee>
-    <wheel>./media/image/Nicktoons - Attack of the Toybots (USA)-wheel.png</wheel>
-    <boxart>./media/image/Nicktoons - Attack of the Toybots (USA)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Nicktoons - Attack of the Toybots (USA)-screenshot.png</screenshot>
-    <cartridge>./media/image/Nicktoons - Attack of the Toybots (USA)-cartridge.png</cartridge>
+    <image>./media/image/Nicktoons - Attack Of The Toybots (USA)-F2F3E16C9C4B.png</image>
+    <video>./media/videos/Nicktoons - Attack Of The Toybots (USA)-06C2287AF234.mp4</video>
+    <thumbnail>./media/image/Nicktoons - Attack Of The Toybots (USA)-F2F3E16C9C4B.png</thumbnail>
+    <marquee>./media/image/Nicktoons - Attack Of The Toybots (USA)-0BE6A3DDA15E.png</marquee>
+    <wheel>./media/image/Nicktoons - Attack Of The Toybots (USA)-0BE6A3DDA15E.png</wheel>
+    <boxart>./media/image/Nicktoons - Attack Of The Toybots (USA)-F2F3E16C9C4B.png</boxart>
+    <screenshot>./media/screenshots/Nicktoons - Attack Of The Toybots (USA)-73789AE2DFF0.png</screenshot>
+    <cartridge>./media/image/Nicktoons - Attack Of The Toybots (USA)-2142C010260C.png</cartridge>
     <mix>./media/image/Nicktoons - Attack of the Toybots (USA)-image.png</mix>
-    <fanart>./media/fanart/Nicktoons - Attack of the Toybots (USA)-fanart.jpg</fanart>
-    <manual>./media/manuals/Nicktoons - Attack of the Toybots (USA)_(us).pdf</manual>
-    <boxback>./media/image/Nicktoons - Attack of the Toybots (USA)-boxback.png</boxback>
+    <fanart>./media/fanart/Nicktoons - Attack Of The Toybots (USA)-4AF660342D75.jpg</fanart>
+    <manual>./media/manuals/Nicktoons - Attack Of The Toybots (USA)-26232C9DD18B.pdf</manual>
+    <boxback>./media/image/Nicktoons - Attack Of The Toybots (USA)-A1129F6D3172.png</boxback>
     <extra1>./media/extras/Nicktoons - Attack of the Toybots (USA)-extra1.png</extra1>
   </game>
   <game id="22897">
-    <path>./Nicktoons - Battle for Volcano Island (USA).chd</path>
+    <path>./Nicktoons - Battle For Volcano Island (USA) [22897].chd</path>
     <name>NICKTOONS - BATTLE FOR VOLCANO ISLAND (USA)</name>
-    <desc>ENCONTRE O HERÓI MAIS ENVOLVENTE EM UMA NOVA AVENTURA COM BOB ESPONJA E SEUS AMIGOS: ATAQUE NA ILHA DO VULCÃO NO PS2. MAWGU, UM EX-DEMÔNIO, AMEAÇA ASSUMIR O CONTROLE DA ILHA DO VULCÃO. NOSSOS HERÓIS FAVORITOS DEVEM EVITAR ISSO A TODO CUSTO! JUNTE-SE A BOB ESPONJA, DANNY PHANTOM, PATRICK, A ESTRELA DO MAR, E TODOS OS SEUS PERSONAGENS FAVORITOS DA NICKELODEON PARA REPELIR MAWGU E SALVAR A ILHA. O TÍTULO PODE SER JOGADO POR 2 PESSOAS EM COOPERAÇÃO!</desc>
+    <desc>Encontre O herói MAIS envolvente EM UMA NOVA aventura COM BOB esponja E SEUS amigos: ataque NA ILHA DO vulcão NO ps2. Mawgu, UM ex-demônio, ameaça assumir O controle DA ILHA DO vulcão. Nossos heróis favoritos devem evitar ISSO A TODO custo! Junte-se A BOB esponja, danny phantom, patrick, A estrela DO mar, E todos OS SEUS personagens favoritos DA nickelodeon PARA repelir mawgu E salvar A ilha. O título PODE SER jogado POR 2 pessoas EM cooperação!</desc>
     <rating>0.80</rating>
     <releasedate>20061024T000000</releasedate>
     <developer>BLUE TONGUE ENTERTAINMENT</developer>
@@ -660,17 +656,17 @@ O JOGO GIRA EM TORNO DE DOIS MEMBROS DO TEMPLO SHAOLIN: LIU KANG E KUNG LAO, ENQ
     <genreid>257</genreid>
     <players>2</players>
     <region>us</region>
-    <image>./media/image/Nicktoons - Battle for Volcano Island (USA)-image.png</image>
-    <video>./media/videos/Nicktoons - Battle for Volcano Island (USA)-video.mp4</video>
-    <thumbnail>./media/image/Nicktoons - Battle for Volcano Island (USA)-boxart.png</thumbnail>
-    <marquee>./media/image/Nicktoons - Battle for Volcano Island (USA)-marquee.png</marquee>
-    <wheel>./media/image/Nicktoons - Battle for Volcano Island (USA)-wheel.png</wheel>
-    <boxart>./media/image/Nicktoons - Battle for Volcano Island (USA)-boxart.png</boxart>
-    <cartridge>./media/image/Nicktoons - Battle for Volcano Island (USA)-cartridge.png</cartridge>
+    <image>./media/image/Nicktoons - Battle For Volcano Island (USA)-98F74D657852.png</image>
+    <video>./media/videos/Nicktoons - Battle For Volcano Island (USA)-5C8BE1CF34F6.mp4</video>
+    <thumbnail>./media/image/Nicktoons - Battle For Volcano Island (USA)-98F74D657852.png</thumbnail>
+    <marquee>./media/image/Nicktoons - Battle For Volcano Island (USA)-E05F78F26F3A.png</marquee>
+    <wheel>./media/image/Nicktoons - Battle For Volcano Island (USA)-E05F78F26F3A.png</wheel>
+    <boxart>./media/image/Nicktoons - Battle For Volcano Island (USA)-98F74D657852.png</boxart>
+    <cartridge>./media/image/Nicktoons - Battle For Volcano Island (USA)-ED6BC12622FA.png</cartridge>
     <mix>./media/image/Nicktoons - Battle for Volcano Island (USA)-image.png</mix>
-    <titleshot>./media/image/Nicktoons - Battle for Volcano Island (USA)-titleshot.jpg</titleshot>
-    <manual>./media/manuals/Nicktoons - Battle for Volcano Island (USA)_(us).pdf</manual>
-    <boxback>./media/image/Nicktoons - Battle for Volcano Island (USA)-boxback.png</boxback>
+    <titleshot>./media/image/Nicktoons - Battle For Volcano Island (USA)-A8739456B6D5.jpg</titleshot>
+    <manual>./media/manuals/Nicktoons - Battle For Volcano Island (USA)-2B74EC690BE7.pdf</manual>
+    <boxback>./media/image/Nicktoons - Battle For Volcano Island (USA)-2FC75A5F0284.png</boxback>
     <extra1>./media/extras/Nicktoons - Battle for Volcano Island (USA)-extra1.png</extra1>
   </game>
   <game id="22049">
@@ -687,16 +683,16 @@ O JOGO GIRA EM TORNO DE DOIS MEMBROS DO TEMPLO SHAOLIN: LIU KANG E KUNG LAO, ENQ
     <players>1</players>
     <region>eu</region>
     <lang>de,fr,en</lang>
-    <image>./media/image/Onimusha - Warlords [22049]-image.png</image>
-    <video>./media/videos/Onimusha - Warlords [22049]-video.mp4</video>
-    <thumbnail>./media/image/Onimusha - Warlords [22049]-boxart.png</thumbnail>
-    <boxart>./media/image/Onimusha - Warlords [22049]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Onimusha - Warlords [22049]-screenshot.png</screenshot>
-    <cartridge>./media/image/Onimusha - Warlords [22049]-cartridge.png</cartridge>
+    <image>./media/image/Onimusha - Warlords-6EC1CBBFEFAA.png</image>
+    <video>./media/videos/Onimusha - Warlords-EBAA524DBEE5.mp4</video>
+    <thumbnail>./media/image/Onimusha - Warlords-6EC1CBBFEFAA.png</thumbnail>
+    <boxart>./media/image/Onimusha - Warlords-6EC1CBBFEFAA.png</boxart>
+    <screenshot>./media/screenshots/Onimusha - Warlords-930E304B10A2.png</screenshot>
+    <cartridge>./media/image/Onimusha - Warlords-5BCDD06CD771.png</cartridge>
     <mix>./media/image/Onimusha - Warlords [22049]-image.png</mix>
-    <fanart>./media/fanart/Onimusha - Warlords [22049]-fanart.jpg</fanart>
-    <manual>./media/manuals/Onimusha - Warlords [22049]_(us).pdf</manual>
-    <boxback>./media/image/Onimusha - Warlords [22049]-boxback.png</boxback>
+    <fanart>./media/fanart/Onimusha - Warlords-5750413493C2.jpg</fanart>
+    <manual>./media/manuals/Onimusha - Warlords-EFD6563CF231.pdf</manual>
+    <boxback>./media/image/Onimusha - Warlords-CD52FE9CBD5B.png</boxback>
     <extra1>./media/extras/Onimusha - Warlords [22049]-extra1.png</extra1>
   </game>
   <game id="135258">
@@ -710,18 +706,18 @@ OS MODOS DE JOGO DISPONÍVEIS INCLUEM ARCADE (COM GRÁFICOS APRIMORADOS) E SATUR
     <genreid>0</genreid>
     <players>1-2</players>
     <region>jp</region>
-    <image>./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-image.png</image>
-    <video>./media/videos/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-video.mp4</video>
-    <thumbnail>./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-boxart.png</thumbnail>
-    <marquee>./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-marquee.png</marquee>
-    <wheel>./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-wheel.png</wheel>
-    <boxart>./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-screenshot.png</screenshot>
-    <cartridge>./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-cartridge.png</cartridge>
+    <image>./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka-0724B75209C5.png</image>
+    <video>./media/videos/Sega Ages 2500 Series Vol. 26 - Dynamite Deka-F13636FD55BF.mp4</video>
+    <thumbnail>./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka-0724B75209C5.png</thumbnail>
+    <marquee>./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka-DA43C704A1CF.png</marquee>
+    <wheel>./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka-DA43C704A1CF.png</wheel>
+    <boxart>./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka-0724B75209C5.png</boxart>
+    <screenshot>./media/screenshots/Sega Ages 2500 Series Vol. 26 - Dynamite Deka-0185AA318A90.png</screenshot>
+    <cartridge>./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka-DB024C1D8164.png</cartridge>
     <mix>./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-image.png</mix>
-    <fanart>./media/fanart/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-fanart.jpg</fanart>
-    <titleshot>./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-titleshot.png</titleshot>
-    <boxback>./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-boxback.png</boxback>
+    <fanart>./media/fanart/Sega Ages 2500 Series Vol. 26 - Dynamite Deka-002D4920E3EF.jpg</fanart>
+    <titleshot>./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka-B4132C1EBCF1.png</titleshot>
+    <boxback>./media/image/Sega Ages 2500 Series Vol. 26 - Dynamite Deka-196740D69890.png</boxback>
     <extra1>./media/extras/Sega Ages 2500 Series Vol. 26 - Dynamite Deka [135258]-extra1.png</extra1>
   </game>
   <game id="21887">
@@ -737,23 +733,23 @@ OS MODOS DE JOGO DISPONÍVEIS INCLUEM ARCADE (COM GRÁFICOS APRIMORADOS) E SATUR
     <genreid>263</genreid>
     <players>1</players>
     <region>us</region>
-    <image>./media/image/Shadow Of The Colossus [21887]-image.png</image>
-    <video>./media/videos/Shadow Of The Colossus [21887]-video.mp4</video>
-    <thumbnail>./media/image/Shadow Of The Colossus [21887]-boxart.png</thumbnail>
-    <boxart>./media/image/Shadow Of The Colossus [21887]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Shadow Of The Colossus [21887]-screenshot.png</screenshot>
-    <cartridge>./media/image/Shadow Of The Colossus [21887]-cartridge.png</cartridge>
+    <image>./media/image/Shadow Of The Colossus-08F54DBE8A48.png</image>
+    <video>./media/videos/Shadow Of The Colossus-C499732C912C.mp4</video>
+    <thumbnail>./media/image/Shadow Of The Colossus-08F54DBE8A48.png</thumbnail>
+    <boxart>./media/image/Shadow Of The Colossus-08F54DBE8A48.png</boxart>
+    <screenshot>./media/screenshots/Shadow Of The Colossus-0B98A1912D65.png</screenshot>
+    <cartridge>./media/image/Shadow Of The Colossus-BB90BB75AAD1.png</cartridge>
     <mix>./media/image/Shadow Of The Colossus [21887]-image.png</mix>
-    <fanart>./media/fanart/Shadow Of The Colossus [21887]-fanart.jpg</fanart>
-    <titleshot>./media/image/Shadow Of The Colossus [21887]-titleshot.png</titleshot>
-    <manual>./media/manuals/Shadow Of The Colossus [21887]_(us).pdf</manual>
-    <boxback>./media/image/Shadow Of The Colossus [21887]-boxback.png</boxback>
+    <fanart>./media/fanart/Shadow Of The Colossus-849BF4FC72AA.jpg</fanart>
+    <titleshot>./media/image/Shadow Of The Colossus-A88536AA70FF.png</titleshot>
+    <manual>./media/manuals/Shadow Of The Colossus-254F6ED9BB5C.pdf</manual>
+    <boxback>./media/image/Shadow Of The Colossus-613CC8866581.png</boxback>
     <extra1>./media/extras/Shadow Of The Colossus [21887]-extra1.png</extra1>
   </game>
   <game id="127608">
-    <path>./Sly 3 - Honour Among Thieves (BR).chd</path>
+    <path>./Sly 3 - Honour Among Thieves (BR) [127608].chd</path>
     <name>SLY 3 - HONOUR AMONG THIEVES (BR)</name>
-    <desc>SLY E SUA TURMA ESTÃO DE VOLTA NESTA TERCEIRA EDIÇÃO DA SÉRIE SLY RACCOON. DESTA VEZ, A HISTÓRIA LEVA OS MENINOS (SLY, BENTLEY E MURRAY) À FORTALEZA QUE ABRIGA OS TESOUROS DA FAMÍLIA DE SLY. EMBORA AINDA ESTEJAM CANSADOS ​​DAS AVENTURAS DO JOGO ANTERIOR, ELES PRECISAM SE LEVANTAR E ENFRENTAR A NOVA AMEAÇA QUE PODE SIGNIFICAR O FIM DO NEGÓCIO DE SLY E A PERDA DE SUA HERANÇA FAMILIAR. O JOGO EM SI É MUITO PARECIDO COM OS JOGOS ANTERIORES: SLY FOGE, PULA E BALANÇA PELAS FASES, COLETANDO VÁRIOS ITENS, DERROTANDO BANDIDOS E, FINALMENTE, ENFRENTANDO O CHEFE. OS OUTROS MEMBROS DA GANGUE ENTRAM EM AÇÃO DE VEZ EM QUANDO, MAS AS SEÇÕES CENTRADAS EM SLY SÃO O FOCO PRINCIPAL DO JOGO.</desc>
+    <desc>SLY E SUA turma estão DE volta nesta terceira edição DA série SLY raccoon. Desta vez, A história LEVA OS meninos (sly, bentley E murray) à fortaleza QUE abriga OS tesouros DA família DE sly. Embora ainda estejam cansados ​​das aventuras DO JOGO anterior, ELES precisam SE levantar E enfrentar A NOVA ameaça QUE PODE significar O FIM DO negócio DE SLY E A perda DE SUA herança familiar. O JOGO EM SI é muito parecido COM OS jogos anteriores: SLY foge, PULA E balança pelas fases, coletando vários itens, derrotando bandidos e, finalmente, enfrentando O chefe. OS outros membros DA gangue entram EM ação DE VEZ EM quando, MAS AS seções centradas EM SLY são O FOCO principal DO jogo.</desc>
     <rating>0.80</rating>
     <releasedate>20050926T000000</releasedate>
     <developer>SUCKER PUNCH PRODUCTIONS</developer>
@@ -763,23 +759,21 @@ OS MODOS DE JOGO DISPONÍVEIS INCLUEM ARCADE (COM GRÁFICOS APRIMORADOS) E SATUR
     <players>1-2</players>
     <region>eu</region>
     <lang>fi,no,sv,pt,nl,it,es,de,fr,en,da</lang>
-    <image>./media/image/Sly 3 - Honour Among Thieves (BR)-image.png</image>
-    <video>./media/videos/Sly 3 - Honour Among Thieves (BR)-video.mp4</video>
-    <boxart>./media/image/Sly 3 - Honour Among Thieves (BR)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Sly 3 - Honour Among Thieves (BR)-screenshot.jpg</screenshot>
-    <cartridge>./media/image/Sly 3 - Honour Among Thieves (BR)-cartridge.png</cartridge>
-    <fanart>./media/fanart/Sly 3 - Honour Among Thieves (BR)-fanart.jpg</fanart>
-    <titleshot>./media/image/Sly 3 - Honour Among Thieves (BR)-titleshot.jpg</titleshot>
-    <manual>./media/manuals/Sly 3 - Honour Among Thieves (BR)_(us).pdf</manual>
-    <boxback>./media/image/Sly 3 - Honour Among Thieves (BR)-boxback.png</boxback>
+    <image>./media/image/Sly 3 - Honour Among Thieves (Br)-8B6992FFD2A1.png</image>
+    <video>./media/videos/Sly 3 - Honour Among Thieves (Br)-E96FDD7754FD.mp4</video>
+    <boxart>./media/image/Sly 3 - Honour Among Thieves (Br)-8B6992FFD2A1.png</boxart>
+    <screenshot>./media/screenshots/Sly 3 - Honour Among Thieves (Br)-F31106C9E54E.jpg</screenshot>
+    <cartridge>./media/image/Sly 3 - Honour Among Thieves (Br)-17FB274D4C40.png</cartridge>
+    <fanart>./media/fanart/Sly 3 - Honour Among Thieves (Br)-6BBD65EEB67D.jpg</fanart>
+    <titleshot>./media/image/Sly 3 - Honour Among Thieves (Br)-B8DBFE3B2455.jpg</titleshot>
+    <manual>./media/manuals/Sly 3 - Honour Among Thieves (Br)-396DECDF1EC7.pdf</manual>
+    <boxback>./media/image/Sly 3 - Honour Among Thieves (Br)-12B53BD64E43.png</boxback>
     <extra1>./media/extras/Sly 3 - Honour Among Thieves (BR)-extra1.png</extra1>
   </game>
   <game id="22573">
-    <path>./Sonic Riders Zero Gravity (BR).chd</path>
+    <path>./Sonic Riders Zero Gravity (BR) [22573].chd</path>
     <name>SONIC RIDERS ZERO GRAVITY (BR)</name>
-    <desc>SONIC RIDERS: ZERO GRAVITY É UM JOGO DE CORRIDAS DE PRANCHAS ANTI-GRAVIDADE NO UNIVERSO SONIC E É A SEQUELA DE SONIC RIDERS. QUANDO QUATRO MISTERIOSOS METEORITOS CAEM NO PLANETA, ELES ACIDENTALMENTE ATIVAM OS ROBÔS DA METEORTECH EM TODO O MUNDO QUE ESTA EM UM TUMULTO. CABE AO EQUIPE SONIC DESCOBRIR O MISTÉRIO POR TRÁS DA METEORTECH E POR QUE OS ROBÔS ESTÃO INDO ATRÁS DOS METEORITOS.
-EM COMPARAÇÃO COM O JOGO ANTERIOR, ESTA EDIÇÃO APRESENTA ALGUMAS NOVAS HABILIDADES. AO REALIZAR MANOBRAS E COMPLETAR DESAFIOS, OS PONTOS DE GRAVIDADE PODEM SER GANHOS. ISSO PERMITE QUE O GRAVITY DIVE ABRA UM BURACO NEGRO, SUGANDO O JOGADOR E, ASSIM, PROPORCIONANDO MAIOR VELOCIDADE E GRAVITY CONTROL. AO ALTERAR A GRAVIDADE, CAMINHOS ALTERNATIVOS PODEM SER USADOS ??ATRAVÉS DE PAREDES E OUTRAS SUPERFÍCIES. UM TERCEIRO É CHAMADO GRAVITY DRIFT. ASSIM COMO O MOVIMENTO GRIP NO JOGO ANTERIOR, OS PERSONAGENS PODEM USÁ-LO PARA FAZER CURVAS FECHADAS NOS CANTOS. EXISTEM VÁRIOS ITENS, OBSTÁCULOS NO PERCURSO E DIFERENTES VEÍCULOS, COMO PRANCHAS; TAPETES; NUVENS, MOTOS; PATINS E OUTROS VEÍCULOS. TODOS PODEM SER APRIMORADOS, MESMO DURANTE AS CORRIDAS.
-OS TRÊS NOVOS MODOS DE JOGO SÃO O SURVIVAL MODE (ESMAGAR ADVERSÁRIOS EM CERTAS PARTES DE UMA PISTA), SURVIVAL RELAY (CAMPOS DE REVEZAMENTO COM VÁRIOS JOGADORES) E SURVIVAL BALL (JOGO DE FUTEBOL). HÁ DEZESSEIS PERCURSOS COM DUAS PISTAS CADA, SESSENTA VEÍCULOS DIFERENTES E DEZOITO PERSONAGENS JOGÁVEIS, DOS QUAIS A MAIORIA PRECISA SER DESBLOQUEADA. ELES SÃO DIVIDIDOS EM TRÊS CATEGORIAS (SPEED, FLY E POWER) E POSSUEM EQUIPAMENTOS PERSONALIZADOS QUE PERMITEM A UTILIZAÇÃO DE ATALHOS ESPECÍFICOS.</desc>
+    <desc>Sonic riders: ZERO gravity é UM JOGO DE corridas DE pranchas anti-gravidade NO universo sonic E é A sequela DE sonic riders. Quando quatro misteriosos meteoritos CAEM NO planeta, ELES acidentalmente ativam OS robôs DA meteortech EM TODO O mundo QUE ESTA EM UM tumulto. CABE AO equipe sonic descobrir O mistério POR trás DA meteortech E POR QUE OS robôs estão INDO atrás DOS meteoritos. EM comparação COM O JOGO anterior, ESTA edição apresenta algumas novas habilidades. AO realizar manobras E completar desafios, OS pontos DE gravidade podem SER ganhos. ISSO permite QUE O gravity DIVE ABRA UM buraco negro, sugando O jogador e, assim, proporcionando maior velocidade E gravity control. AO alterar A gravidade, caminhos alternativos podem SER usados ??através DE paredes E outras superfícies. UM terceiro é chamado gravity drift. Assim COMO O movimento GRIP NO JOGO anterior, OS personagens podem usá-lo PARA fazer curvas fechadas NOS cantos. Existem vários itens, obstáculos NO percurso E diferentes veículos, COMO pranchas; tapetes; nuvens, motos; patins E outros veículos. Todos podem SER aprimorados, mesmo durante AS corridas. OS três novos modos DE JOGO são O survival MODE (esmagar adversários EM certas partes DE UMA pista), survival relay (campos DE revezamento COM vários jogadores) E survival BALL (jogo DE futebol). Há dezesseis percursos COM DUAS pistas cada, sessenta veículos diferentes E dezoito personagens jogáveis, DOS quais A maioria precisa SER desbloqueada. ELES são divididos EM três categorias (speed, FLY E power) E possuem equipamentos personalizados QUE permitem A utilização DE atalhos específicos.</desc>
     <rating>0.60</rating>
     <releasedate>20080108T000000</releasedate>
     <developer>SONIC TEAM</developer>
@@ -789,21 +783,20 @@ OS TRÊS NOVOS MODOS DE JOGO SÃO O SURVIVAL MODE (ESMAGAR ADVERSÁRIOS EM CERTA
     <players>2-4</players>
     <region>us</region>
     <lang>it,es,de,fr,ja,en</lang>
-    <image>./media/image/Sonic Riders Zero Gravity (BR)-image.png</image>
-    <video>./media/videos/Sonic Riders Zero Gravity (BR)-video.mp4</video>
-    <boxart>./media/image/Sonic Riders Zero Gravity (BR)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Sonic Riders Zero Gravity (BR)-screenshot.jpg</screenshot>
-    <cartridge>./media/image/Sonic Riders Zero Gravity (BR)-cartridge.png</cartridge>
-    <fanart>./media/fanart/Sonic Riders Zero Gravity (BR)-fanart.jpg</fanart>
-    <manual>./media/manuals/Sonic Riders Zero Gravity (BR)_(us).pdf</manual>
-    <boxback>./media/image/Sonic Riders Zero Gravity (BR)-boxback.png</boxback>
+    <image>./media/image/Sonic Riders Zero Gravity (Br)-E3D55CC6C78E.png</image>
+    <video>./media/videos/Sonic Riders Zero Gravity (Br)-3F1A031AA2E4.mp4</video>
+    <boxart>./media/image/Sonic Riders Zero Gravity (Br)-E3D55CC6C78E.png</boxart>
+    <screenshot>./media/screenshots/Sonic Riders Zero Gravity (Br)-9407545F47AA.jpg</screenshot>
+    <cartridge>./media/image/Sonic Riders Zero Gravity (Br)-82897B3BC287.png</cartridge>
+    <fanart>./media/fanart/Sonic Riders Zero Gravity (Br)-9FB1A13FC3FD.jpg</fanart>
+    <manual>./media/manuals/Sonic Riders Zero Gravity (Br)-10B67DB39F62.pdf</manual>
+    <boxback>./media/image/Sonic Riders Zero Gravity (Br)-9A9B5A8A3F2D.png</boxback>
     <extra1>./media/extras/Sonic Riders Zero Gravity (BR)-extra1.png</extra1>
   </game>
   <game id="22901">
-    <path>./Speed Racer (BR).chd</path>
+    <path>./Speed Racer (BR) [22901].chd</path>
     <name>SPEED RACER (BR)</name>
-    <desc>SPEED ​​RACER É BASEADO NO FILME DE MESMO NOME DOS IRMÃOS WACHOWSKI, QUE POR SUA VEZ É BASEADO EM UMA SÉRIE DE ANIME JAPONESA DA DÉCADA DE 1960. O ENREDO PRINCIPAL É BASEADO NA VITÓRIA DA COPA DA LIGA MUNDIAL DE CORRIDA. ESTA ADAPTAÇÃO DE VIDEOGAME CONCENTRA-SE NO ASPECTO DE CORRIDA DO FILME E É O PRIMEIRO JOGO DE TERCEIROS PARA WII A OFERECER SUPORTE AO WII WHEEL. MAIS DE 15 PERSONAGENS DO FILME SÃO REPRESENTADOS COMO PILOTOS JOGÁVEIS ​​NO JOGO E OS VEÍCULOS DO FILME PODEM SER SELECIONADOS NO MENU DO JOGO. AS VELOCIDADES MÁXIMAS DURANTE AS CORRIDAS PODEM EXCEDER 350 MPH.
-AS PISTAS DE CORRIDA APRESENTAM LOOPS, SALTOS, SACA-ROLHAS E MUITAS VOLTAS E MAIS VOLTAS. TODOS ELES TÊM UM VISUAL DE ALTA TECNOLOGIA COM CORES BRILHANTES. O JOGO OFERECE MULTIJOGADOR EM TELA DIVIDIDA, ALÉM DE CORRIDAS PARA UM JOGADOR. OS MOTORISTAS PODEM ENTRAR EM COMBATE DURANTE AS CORRIDAS EMPREGANDO MANOBRAS "CAR-FU", COMO "ARREMESSO DE CAUDA", "BOOST BASH", "SMACK DOWN", "ROUND HOUSE" E "TORPEDO", ENTRE OUTRAS.</desc>
+    <desc>Speed ​​racer é baseado NO filme DE mesmo NOME DOS irmãos wachowski, QUE POR SUA VEZ é baseado EM UMA série DE anime japonesa DA década DE 1960. O enredo principal é baseado NA vitória DA COPA DA LIGA mundial DE corrida. ESTA adaptação DE videogame concentra-se NO aspecto DE corrida DO filme E é O primeiro JOGO DE terceiros PARA WII A oferecer suporte AO WII wheel. MAIS DE 15 personagens DO filme são representados COMO pilotos jogáveis ​​no JOGO E OS veículos DO filme podem SER selecionados NO MENU DO jogo. AS velocidades máximas durante AS corridas podem exceder 350 mph. AS pistas DE corrida apresentam loops, saltos, saca-rolhas E muitas voltas E MAIS voltas. Todos ELES têm UM visual DE ALTA tecnologia COM cores brilhantes. O JOGO oferece multijogador EM TELA dividida, além DE corridas PARA UM jogador. OS motoristas podem entrar EM combate durante AS corridas empregando manobras "car-fu", COMO "arremesso DE cauda", "boost bash", "smack down", "round house" E "torpedo", entre outras.</desc>
     <rating>0.60</rating>
     <releasedate>20080916T000000</releasedate>
     <developer>SIDHE INTERACTIVE</developer>
@@ -813,12 +806,12 @@ AS PISTAS DE CORRIDA APRESENTAM LOOPS, SALTOS, SACA-ROLHAS E MUITAS VOLTAS E MAI
     <players>2</players>
     <region>eu</region>
     <lang>nl,it,es,de,fr,en</lang>
-    <image>./media/image/Speed Racer (BR)-image.png</image>
-    <video>./media/videos/Speed Racer (BR)-video.mp4</video>
-    <boxart>./media/image/Speed Racer (BR)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Speed Racer (BR)-screenshot.jpg</screenshot>
-    <fanart>./media/fanart/Speed Racer (BR)-fanart.jpg</fanart>
-    <manual>./media/manuals/Speed Racer (BR)_(us).pdf</manual>
+    <image>./media/image/Speed Racer (Br)-07E76AE44B77.png</image>
+    <video>./media/videos/Speed Racer (Br)-51473E21238F.mp4</video>
+    <boxart>./media/image/Speed Racer (Br)-07E76AE44B77.png</boxart>
+    <screenshot>./media/screenshots/Speed Racer (Br)-8380E2287756.jpg</screenshot>
+    <fanart>./media/fanart/Speed Racer (Br)-893D289AAE25.jpg</fanart>
+    <manual>./media/manuals/Speed Racer (Br)-F4E65BA69967.pdf</manual>
     <extra1>./media/extras/Speed Racer (BR)-extra1.png</extra1>
   </game>
   <game id="22411">
@@ -833,17 +826,17 @@ AS PISTAS DE CORRIDA APRESENTAM LOOPS, SALTOS, SACA-ROLHAS E MUITAS VOLTAS E MAI
     <genreid>257</genreid>
     <players>2</players>
     <region>us</region>
-    <image>./media/image/Spider-Man - Friend Or Foe [22411]-image.png</image>
-    <video>./media/videos/Spider-Man - Friend Or Foe [22411]-video.mp4</video>
-    <thumbnail>./media/image/Spider-Man - Friend Or Foe [22411]-boxart.png</thumbnail>
-    <marquee>./media/image/Spider-Man - Friend Or Foe [22411]-marquee.png</marquee>
-    <wheel>./media/image/Spider-Man - Friend Or Foe [22411]-wheel.png</wheel>
-    <boxart>./media/image/Spider-Man - Friend Or Foe [22411]-boxart.png</boxart>
-    <cartridge>./media/image/Spider-Man - Friend Or Foe [22411]-cartridge.png</cartridge>
+    <image>./media/image/Spider-Man - Friend Or Foe-B56A8B378570.png</image>
+    <video>./media/videos/Spider-Man - Friend Or Foe-A3E3D2028C23.mp4</video>
+    <thumbnail>./media/image/Spider-Man - Friend Or Foe-B56A8B378570.png</thumbnail>
+    <marquee>./media/image/Spider-Man - Friend Or Foe-C81ACA85FE69.png</marquee>
+    <wheel>./media/image/Spider-Man - Friend Or Foe-C81ACA85FE69.png</wheel>
+    <boxart>./media/image/Spider-Man - Friend Or Foe-B56A8B378570.png</boxart>
+    <cartridge>./media/image/Spider-Man - Friend Or Foe-B7FABC0480E1.png</cartridge>
     <mix>./media/image/Spider-Man - Friend Or Foe [22411]-image.png</mix>
-    <fanart>./media/fanart/Spider-Man - Friend Or Foe [22411]-fanart.jpg</fanart>
-    <manual>./media/manuals/Spider-Man - Friend Or Foe [22411]_(us).pdf</manual>
-    <boxback>./media/image/Spider-Man - Friend Or Foe [22411]-boxback.png</boxback>
+    <fanart>./media/fanart/Spider-Man - Friend Or Foe-6983B0975EA2.jpg</fanart>
+    <manual>./media/manuals/Spider-Man - Friend Or Foe-2F2CD2F94340.pdf</manual>
+    <boxback>./media/image/Spider-Man - Friend Or Foe-38EA4C65B8E0.png</boxback>
     <extra1>./media/extras/Spider-Man - Friend Or Foe [22411]-extra1.png</extra1>
   </game>
   <game id="22100">
@@ -858,24 +851,23 @@ AS PISTAS DE CORRIDA APRESENTAM LOOPS, SALTOS, SACA-ROLHAS E MUITAS VOLTAS E MAI
     <genreid>256</genreid>
     <players>1</players>
     <region>eu,us</region>
-    <image>./media/image/Spider-Man 2 [22100]-image.png</image>
-    <video>./media/videos/Spider-Man 2 [22100]-video.mp4</video>
-    <thumbnail>./media/image/Spider-Man 2 [22100]-boxart.png</thumbnail>
-    <boxart>./media/image/Spider-Man 2 [22100]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Spider-Man 2 [22100]-screenshot.jpg</screenshot>
-    <cartridge>./media/image/Spider-Man 2 [22100]-cartridge.png</cartridge>
+    <image>./media/image/Spider-Man 2-1FF0CF6E944A.png</image>
+    <video>./media/videos/Spider-Man 2-C651793D2F64.mp4</video>
+    <thumbnail>./media/image/Spider-Man 2-1FF0CF6E944A.png</thumbnail>
+    <boxart>./media/image/Spider-Man 2-1FF0CF6E944A.png</boxart>
+    <screenshot>./media/screenshots/Spider-Man 2-461A2165A993.jpg</screenshot>
+    <cartridge>./media/image/Spider-Man 2-044304AA4494.png</cartridge>
     <mix>./media/image/Spider-Man 2 [22100]-image.png</mix>
-    <fanart>./media/fanart/Spider-Man 2 [22100]-fanart.jpg</fanart>
-    <titleshot>./media/image/Spider-Man 2 [22100]-titleshot.jpg</titleshot>
-    <manual>./media/manuals/Spider-Man 2 [22100]_(us).pdf</manual>
-    <boxback>./media/image/Spider-Man 2 [22100]-boxback.png</boxback>
+    <fanart>./media/fanart/Spider-Man 2-6DB5F70D6AC8.jpg</fanart>
+    <titleshot>./media/image/Spider-Man 2-28806DD8FD9A.jpg</titleshot>
+    <manual>./media/manuals/Spider-Man 2-05CC726EDC62.pdf</manual>
+    <boxback>./media/image/Spider-Man 2-B34A4E72A31E.png</boxback>
     <extra1>./media/extras/Spider-Man 2 [22100]-extra1.png</extra1>
   </game>
   <game id="22951">
-    <path>./SpongeBob SquarePants - Battle for Bikini Bottom (BR).chd</path>
+    <path>./Spongebob Squarepants - Battle For Bikini Bottom (BR) [22951].chd</path>
     <name>SPONGEBOB SQUAREPANTS - BATTLE FOR BIKINI BOTTOM (BR)</name>
-    <desc>O MAIS RECENTE ESQUEMA DIABÓLICO DE PLANKTON PARA ROUBAR A FÓRMULA DO KRABBY PATTY DEPENDE DA CRIAÇÃO DE UM EXÉRCITO DE ROBÔS MALVADOS, QUE CUMPRIRÃO SUAS ORDENS. MAS COMO PLANKTON SE ESQUECEU DE ACIONAR O BOTÃO "OBEDEÇA PLANKTON", O EXÉRCITO DE ROBÔS ENLOUQUECEU E ESTÁ ATERRORIZANDO A FENDA DO BIQUÍNI. AJUDE BOB ESPONJA, PATRICK E SANDY A SALVAR A FENDA DO BIQUÍNI!
- BOB ESPONJA CALÇA QUADRADA RETORNA AO PS2 NESTE JOGO DE PLATAFORMA 3D ESTRELADO PELOS PERSONAGENS DO PROGRAMA INFANTIL DE MAIOR AUDIÊNCIA DA NICKELODEON. PARA SUA SEGUNDA AVENTURA, BOB ESPONJA DEVE MAIS UMA VEZ SALVAR O MUNDO SUBAQUÁTICO DA FENDA DO BIQUÍNI – DESTA VEZ DO PODER DO PLÂNCTON CONSPIRADOR. NO ENTANTO, BOB ESPONJA NÃO FICARÁ DESANIMADO EM SUA BUSCA. JUNTANDO-SE À CAUSA ESTÃO OS AMIGOS ÍNTIMOS PATRICK STARFISH E SANDY CHEEKS, CADA UM DOS QUAIS É JOGÁVEL E OFERECE MOVIMENTOS E HABILIDADES DISTINTAS. À MEDIDA QUE OS JOGADORES PERSEGUEM PLANKTON, ELES SERÃO CAPAZES DE REALIZAR ATOS HERÓICOS COMO DESLIZAR A LÍNGUA MONTANHA ABAIXO, FAZER BUNGEE JUMPING DE PENHASCOS OU CAVALGAR PELAS PROFUNDEZAS DA ÁGUA DENTRO DE UMA BOLHA DE CRUZEIRO.</desc>
+    <desc>O MAIS recente esquema diabólico DE plankton PARA roubar A fórmula DO krabby patty depende DA criação DE UM exército DE robôs malvados, QUE cumprirão SUAS ordens. MAS COMO plankton SE esqueceu DE acionar O botão "obedeça plankton", O exército DE robôs enlouqueceu E está aterrorizando A fenda DO biquíni. Ajude BOB esponja, patrick E sandy A salvar A fenda DO biquíni! BOB esponja calça quadrada retorna AO PS2 neste JOGO DE plataforma 3D estrelado pelos personagens DO programa infantil DE maior audiência DA nickelodeon. PARA SUA segunda aventura, BOB esponja DEVE MAIS UMA VEZ salvar O mundo subaquático DA fenda DO biquíni – desta VEZ DO poder DO plâncton conspirador. NO entanto, BOB esponja não ficará desanimado EM SUA busca. Juntando-se à causa estão OS amigos íntimos patrick starfish E sandy cheeks, CADA UM DOS quais é jogável E oferece movimentos E habilidades distintas. À medida QUE OS jogadores perseguem plankton, ELES serão capazes DE realizar ATOS heróicos COMO deslizar A língua montanha abaixo, fazer bungee jumping DE penhascos OU cavalgar pelas profundezas DA água dentro DE UMA bolha DE cruzeiro.</desc>
     <rating>0.60</rating>
     <releasedate>20031128T000000</releasedate>
     <developer>HEAVY IRON</developer>
@@ -883,18 +875,18 @@ AS PISTAS DE CORRIDA APRESENTAM LOOPS, SALTOS, SACA-ROLHAS E MUITAS VOLTAS E MAI
     <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
-    <image>./media/image/SpongeBob SquarePants - Battle for Bikini Bottom (BR)-image.png</image>
-    <video>./media/videos/SpongeBob SquarePants - Battle for Bikini Bottom (BR)-video.mp4</video>
-    <screenshot>./media/screenshots/SpongeBob SquarePants - Battle for Bikini Bottom (BR)-screenshot.png</screenshot>
+    <image>./media/image/Spongebob Squarepants - Battle For Bikini Bottom (Br)-84861E55AE62.png</image>
+    <video>./media/videos/Spongebob Squarepants - Battle For Bikini Bottom (Br)-603C880F1236.mp4</video>
+    <screenshot>./media/screenshots/Spongebob Squarepants - Battle For Bikini Bottom (Br)-B38148C2D120.png</screenshot>
     <mix>./media/image/SpongeBob SquarePants - Battle for Bikini Bottom (BR)-image.png</mix>
-    <fanart>./media/fanart/SpongeBob SquarePants - Battle for Bikini Bottom (BR)-fanart.jpg</fanart>
-    <manual>./media/manuals/SpongeBob SquarePants - Battle for Bikini Bottom (BR)_(us).pdf</manual>
+    <fanart>./media/fanart/Spongebob Squarepants - Battle For Bikini Bottom (Br)-717564C7F7C4.jpg</fanart>
+    <manual>./media/manuals/Spongebob Squarepants - Battle For Bikini Bottom (Br)-0D3B4E679B02.pdf</manual>
     <extra1>./media/extras/SpongeBob SquarePants - Battle for Bikini Bottom (BR)-extra1.png</extra1>
   </game>
   <game id="127237">
-    <path>./Teenage Mutant Ninja Turtles (USA).chd</path>
+    <path>./Teenage Mutant Ninja Turtles (USA) [127237].chd</path>
     <name>TEENAGE MUTANT NINJA TURTLES (USA)</name>
-    <desc>SEJA SUA TARTARUGA NINJA ADOLESCENTE MUTANTE FAVORITA E DOMINE SUAS HABILIDADES NINJA EM SEU MUNDO CHEIO DE AÇÃO. PERCORRA AS RUAS DE NOVA YORK, VASCULHE ESGOTOS SUBTERRÂNEOS E ABRA CAMINHO PELOS TELHADOS EM ROTA DE COLISÃO COM O DESTRUIDOR E SEU VIL BANDO DE NINJAS A PÉ. ENCONTRE PERGAMINHOS PARA DESBLOQUEAR MOVIMENTOS E EFEITOS DE ATAQUE ESPECIAIS. INTERAJA COM PERSONAGENS DA SÉRIE ANIMADA DE TELEVISÃO, COMO SPLINTER E CASEY JONES. NÃO SE ESCONDA EM SUA CONCHA – SEJA UM HERÓI.</desc>
+    <desc>SEJA SUA tartaruga ninja adolescente mutante favorita E domine SUAS habilidades ninja EM SEU mundo cheio DE ação. Percorra AS RUAS DE NOVA york, vasculhe esgotos subterrâneos E ABRA caminho pelos telhados EM ROTA DE colisão COM O destruidor E SEU VIL bando DE ninjas A pé. Encontre pergaminhos PARA desbloquear movimentos E efeitos DE ataque especiais. Interaja COM personagens DA série animada DE televisão, COMO splinter E casey jones. Não SE esconda EM SUA concha – SEJA UM herói.</desc>
     <rating>0.60</rating>
     <releasedate>20040416T000000</releasedate>
     <developer>KCE</developer>
@@ -903,18 +895,18 @@ AS PISTAS DE CORRIDA APRESENTAM LOOPS, SALTOS, SACA-ROLHAS E MUITAS VOLTAS E MAI
     <genreid>262</genreid>
     <players>1-2</players>
     <region>us</region>
-    <image>./media/image/Teenage Mutant Ninja Turtles (USA)-image.png</image>
-    <video>./media/videos/Teenage Mutant Ninja Turtles (USA)-video.mp4</video>
-    <thumbnail>./media/image/Teenage Mutant Ninja Turtles (USA)-boxart.png</thumbnail>
-    <marquee>./media/image/Teenage Mutant Ninja Turtles (USA)-marquee.png</marquee>
-    <wheel>./media/image/Teenage Mutant Ninja Turtles (USA)-wheel.png</wheel>
-    <boxart>./media/image/Teenage Mutant Ninja Turtles (USA)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Teenage Mutant Ninja Turtles (USA)-screenshot.jpg</screenshot>
-    <cartridge>./media/image/Teenage Mutant Ninja Turtles (USA)-cartridge.png</cartridge>
+    <image>./media/image/Teenage Mutant Ninja Turtles (USA)-717D9E1DC46B.png</image>
+    <video>./media/videos/Teenage Mutant Ninja Turtles (USA)-1B61F20DE795.mp4</video>
+    <thumbnail>./media/image/Teenage Mutant Ninja Turtles (USA)-717D9E1DC46B.png</thumbnail>
+    <marquee>./media/image/Teenage Mutant Ninja Turtles (USA)-87AC35C4EA4E.png</marquee>
+    <wheel>./media/image/Teenage Mutant Ninja Turtles (USA)-87AC35C4EA4E.png</wheel>
+    <boxart>./media/image/Teenage Mutant Ninja Turtles (USA)-717D9E1DC46B.png</boxart>
+    <screenshot>./media/screenshots/Teenage Mutant Ninja Turtles (USA)-8290145673E8.jpg</screenshot>
+    <cartridge>./media/image/Teenage Mutant Ninja Turtles (USA)-3F8167C7AE3C.png</cartridge>
     <mix>./media/image/Teenage Mutant Ninja Turtles (USA)-image.png</mix>
-    <fanart>./media/fanart/Teenage Mutant Ninja Turtles (USA)-fanart.jpg</fanart>
-    <manual>./media/manuals/Teenage Mutant Ninja Turtles (USA)_(us).pdf</manual>
-    <boxback>./media/image/Teenage Mutant Ninja Turtles (USA)-boxback.png</boxback>
+    <fanart>./media/fanart/Teenage Mutant Ninja Turtles (USA)-40A6CAB329C9.jpg</fanart>
+    <manual>./media/manuals/Teenage Mutant Ninja Turtles (USA)-13B490AE4538.pdf</manual>
+    <boxback>./media/image/Teenage Mutant Ninja Turtles (USA)-CED04160CA1C.png</boxback>
     <extra1>./media/extras/Teenage Mutant Ninja Turtles (USA)-extra1.png</extra1>
   </game>
   <game id="21964">
@@ -931,22 +923,22 @@ AS PISTAS DE CORRIDA APRESENTAM LOOPS, SALTOS, SACA-ROLHAS E MUITAS VOLTAS E MAI
     <players>1-2</players>
     <region>eu</region>
     <lang>it,es,de,fr,en</lang>
-    <image>./media/image/Tekken 5 [21964]-image.png</image>
-    <video>./media/videos/Tekken 5 [21964]-video.mp4</video>
-    <thumbnail>./media/image/Tekken 5 [21964]-boxart.png</thumbnail>
-    <boxart>./media/image/Tekken 5 [21964]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Tekken 5 [21964]-screenshot.png</screenshot>
-    <cartridge>./media/image/Tekken 5 [21964]-cartridge.png</cartridge>
+    <image>./media/image/Tekken 5-89012ECC8B6C.png</image>
+    <video>./media/videos/Tekken 5-ACB24E66E681.mp4</video>
+    <thumbnail>./media/image/Tekken 5-89012ECC8B6C.png</thumbnail>
+    <boxart>./media/image/Tekken 5-89012ECC8B6C.png</boxart>
+    <screenshot>./media/screenshots/Tekken 5-20C6502E0C5B.png</screenshot>
+    <cartridge>./media/image/Tekken 5-6344775CC623.png</cartridge>
     <mix>./media/image/Tekken 5 [21964]-image.png</mix>
-    <fanart>./media/fanart/Tekken 5 [21964]-fanart.jpg</fanart>
-    <manual>./media/manuals/Tekken 5 [21964]_(us).pdf</manual>
-    <boxback>./media/image/Tekken 5 [21964]-boxback.png</boxback>
+    <fanart>./media/fanart/Tekken 5-007E2D2365E6.jpg</fanart>
+    <manual>./media/manuals/Tekken 5-7DC679D3A837.pdf</manual>
+    <boxback>./media/image/Tekken 5-F811E615A036.png</boxback>
     <extra1>./media/extras/Tekken 5 [21964]-extra1.png</extra1>
   </game>
   <game id="22769">
-    <path>./The Incredibles Rise Of The Underminer (BR).chd</path>
+    <path>./The Incredibles Rise Of The Underminer (BR) [22769].chd</path>
     <name>THE INCREDIBLES RISE OF THE UNDERMINER (BR)</name>
-    <desc>APÓS A DERROTA DE SÍNDROME PELOS INCRÍVEIS NA APRESENTAÇÃO DA WALT DISNEY PICTURES DO FILME DA PIXAR ANIMATION STUDIOS, UMA NOVA AMEAÇA EMERGE SOB O SOLO COM UMA TRAMA DIABÓLICA PARA POLUIR AS PRINCIPAIS CIDADES DO MUNDO E GOVERNAR A HUMANIDADE DE BAIXO PARA CIMA. OS FÃS PODERÃO CONTINUAR DE ONDE O FILME PAROU E REVIVER OS DIAS DE GLÓRIA COMO MR. INCREDIBLE E FROZONE, MELHORES AMIGOS SUPER-HERÓIS QUE SE UNEM PARA ENFRENTAR UM NOVO VILÃO, O ESCAVADOR</desc>
+    <desc>Após A derrota DE síndrome pelos incríveis NA apresentação DA WALT disney pictures DO filme DA pixar animation studios, UMA NOVA ameaça emerge SOB O SOLO COM UMA trama diabólica PARA poluir AS principais cidades DO mundo E governar A humanidade DE baixo PARA cima. OS fãs poderão continuar DE ONDE O filme parou E reviver OS DIAS DE glória COMO mr. Incredible E frozone, melhores amigos super-heróis QUE SE UNEM PARA enfrentar UM NOVO vilão, O escavador</desc>
     <rating>0.60</rating>
     <releasedate>20051111T000000</releasedate>
     <developer>HEAVY IRON</developer>
@@ -954,12 +946,12 @@ AS PISTAS DE CORRIDA APRESENTAM LOOPS, SALTOS, SACA-ROLHAS E MUITAS VOLTAS E MAI
     <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1-2</players>
-    <image>./media/image/The Incredibles Rise Of The Underminer (BR)-image.png</image>
-    <video>./media/videos/The Incredibles Rise Of The Underminer (BR)-video.mp4</video>
-    <screenshot>./media/screenshots/The Incredibles Rise Of The Underminer (BR)-screenshot.png</screenshot>
+    <image>./media/image/The Incredibles Rise Of The Underminer (Br)-84FEBD2EADB2.png</image>
+    <video>./media/videos/The Incredibles Rise Of The Underminer (Br)-C86B43E11CA2.mp4</video>
+    <screenshot>./media/screenshots/The Incredibles Rise Of The Underminer (Br)-2225EA5A03E1.png</screenshot>
     <mix>./media/image/The Incredibles Rise Of The Underminer (BR)-image.png</mix>
-    <fanart>./media/fanart/The Incredibles Rise Of The Underminer (BR)-fanart.jpg</fanart>
-    <manual>./media/manuals/The Incredibles Rise Of The Underminer (BR)_(us).pdf</manual>
+    <fanart>./media/fanart/The Incredibles Rise Of The Underminer (Br)-0130F0D308A6.jpg</fanart>
+    <manual>./media/manuals/The Incredibles Rise Of The Underminer (Br)-5786B34A1D63.pdf</manual>
     <extra1>./media/extras/The Incredibles Rise Of The Underminer (BR)-extra1.png</extra1>
   </game>
   <game id="23326">
@@ -974,17 +966,17 @@ ESTA HISTÓRIA É BASEADA NA HISTÓRIA EM QUADRINHOS THE RED STAR, AMBIENTADA EM
     <genre>BRIGA DE RUA, SHOOT'EM UP</genre>
     <genreid>263</genreid>
     <players>2</players>
-    <image>./media/image/The Red Star [23326]-image.png</image>
-    <video>./media/videos/The Red Star [23326]-video.mp4</video>
-    <screenshot>./media/screenshots/The Red Star [23326]-screenshot.jpg</screenshot>
+    <image>./media/image/The Red Star-0482F2D18F6D.png</image>
+    <video>./media/videos/The Red Star-8600486023C1.mp4</video>
+    <screenshot>./media/screenshots/The Red Star-78DF032202B7.jpg</screenshot>
     <mix>./media/image/The Red Star [23326]-image.png</mix>
-    <manual>./media/manuals/The Red Star [23326]_(us).pdf</manual>
+    <manual>./media/manuals/The Red Star-4417E2E02B27.pdf</manual>
     <extra1>./media/extras/The Red Star [23326]-extra1.png</extra1>
   </game>
   <game id="22052">
-    <path>./The Simpsons Hit &amp; Run (BR).chd</path>
+    <path>./The Simpsons Hit &amp; Run (BR) [22052].chd</path>
     <name>THE SIMPSONS HIT &amp; RUN (BR)</name>
-    <desc>EXPLORE SPRINGFIELD COMO SEUS PERSONAGENS FAVORITOS DOS SIMPSONS ENQUANTO DESVENDA A TRAMA QUE AMEAÇA A PRÓPRIA EXISTÊNCIA DA CIDADE. JOGUE COMO HOMER, BART, MARGE, LISA E APU EM MAIS DE 56 MISSÕES DE DIREÇÃO E A PÉ EM SETE NÍVEIS DESAFIADORES. DIRIJA EM 40 DOS MELHORES VEÍCULOS DE SPRINGFIELD, INCLUINDO O SR. PLOUGH E O CANYONERO. DESBLOQUEIE O MODO MULTIJOGADOR PARA JOGAR CONTRA OUTROS TRÊS JOGADORES. O MUNDO DOS SIMPSONS TEM MUITAS PIADAS E SURPRESAS RESERVADAS PARA VOCÊ.</desc>
+    <desc>Explore springfield COMO SEUS personagens favoritos DOS simpsons enquanto desvenda A trama QUE ameaça A própria existência DA cidade. Jogue COMO homer, bart, marge, LISA E APU EM MAIS DE 56 missões DE direção E A pé EM SETE níveis desafiadores. Dirija EM 40 DOS melhores veículos DE springfield, incluindo O sr. Plough E O canyonero. Desbloqueie O MODO multijogador PARA jogar contra outros três jogadores. O mundo DOS simpsons TEM muitas piadas E surpresas reservadas PARA você.</desc>
     <rating>0.80</rating>
     <releasedate>20031121T000000</releasedate>
     <developer>RADICAL ENTERTAINMENT</developer>
@@ -994,15 +986,15 @@ ESTA HISTÓRIA É BASEADA NA HISTÓRIA EM QUADRINHOS THE RED STAR, AMBIENTADA EM
     <players>1-4</players>
     <region>eu</region>
     <lang>es,de,fr,en,it</lang>
-    <image>./media/image/The Simpsons Hit &amp; Run (BR)-image.png</image>
-    <video>./media/videos/The Simpsons Hit &amp; Run (BR)-video.mp4</video>
-    <boxart>./media/image/The Simpsons Hit &amp; Run (BR)-boxart.png</boxart>
-    <screenshot>./media/screenshots/The Simpsons Hit &amp; Run (BR)-screenshot.jpg</screenshot>
-    <cartridge>./media/image/The Simpsons Hit &amp; Run (BR)-cartridge.png</cartridge>
-    <fanart>./media/fanart/The Simpsons Hit &amp; Run (BR)-fanart.jpg</fanart>
-    <titleshot>./media/image/The Simpsons Hit &amp; Run (BR)-titleshot.jpg</titleshot>
-    <manual>./media/manuals/The Simpsons Hit &amp; Run (BR)_(us).pdf</manual>
-    <boxback>./media/image/The Simpsons Hit &amp; Run (BR)-boxback.png</boxback>
+    <image>./media/image/The Simpsons Hit &amp; Run (Br)-C394D8E371FC.png</image>
+    <video>./media/videos/The Simpsons Hit &amp; Run (Br)-1FE61536DBAB.mp4</video>
+    <boxart>./media/image/The Simpsons Hit &amp; Run (Br)-C394D8E371FC.png</boxart>
+    <screenshot>./media/screenshots/The Simpsons Hit &amp; Run (Br)-8FA6EBF9E5AD.jpg</screenshot>
+    <cartridge>./media/image/The Simpsons Hit &amp; Run (Br)-183F65C9C0FA.png</cartridge>
+    <fanart>./media/fanart/The Simpsons Hit &amp; Run (Br)-FAF4834ED4B2.jpg</fanart>
+    <titleshot>./media/image/The Simpsons Hit &amp; Run (Br)-E378A9F25D83.jpg</titleshot>
+    <manual>./media/manuals/The Simpsons Hit &amp; Run (Br)-CB4D4582A679.pdf</manual>
+    <boxback>./media/image/The Simpsons Hit &amp; Run (Br)-5F19D107D533.png</boxback>
     <extra1>./media/extras/The Simpsons Hit &amp; Run (BR)-extra1.png</extra1>
   </game>
   <game id="22047">
@@ -1019,19 +1011,19 @@ ESTA HISTÓRIA É BASEADA NA HISTÓRIA EM QUADRINHOS THE RED STAR, AMBIENTADA EM
     <region>us</region>
     <lang>it,es,de,fr,en</lang>
     <adult>true</adult>
-    <image>./media/image/The Warriors [22047]-image.png</image>
-    <video>./media/videos/The Warriors [22047]-video.mp4</video>
-    <thumbnail>./media/image/The Warriors [22047]-boxart.png</thumbnail>
-    <marquee>./media/image/The Warriors [22047]-marquee.png</marquee>
-    <wheel>./media/image/The Warriors [22047]-wheel.png</wheel>
-    <boxart>./media/image/The Warriors [22047]-boxart.png</boxart>
-    <screenshot>./media/screenshots/The Warriors [22047]-screenshot.png</screenshot>
-    <cartridge>./media/image/The Warriors [22047]-cartridge.png</cartridge>
+    <image>./media/image/The Warriors-5C563C0F818E.png</image>
+    <video>./media/videos/The Warriors-5D43D5E5381B.mp4</video>
+    <thumbnail>./media/image/The Warriors-5C563C0F818E.png</thumbnail>
+    <marquee>./media/image/The Warriors-6C8AF57B7B56.png</marquee>
+    <wheel>./media/image/The Warriors-6C8AF57B7B56.png</wheel>
+    <boxart>./media/image/The Warriors-5C563C0F818E.png</boxart>
+    <screenshot>./media/screenshots/The Warriors-9C0F6706A6BC.png</screenshot>
+    <cartridge>./media/image/The Warriors-CBE0CB61F4A1.png</cartridge>
     <mix>./media/image/The Warriors [22047]-image.png</mix>
-    <fanart>./media/fanart/The Warriors [22047]-fanart.jpg</fanart>
-    <titleshot>./media/image/The Warriors [22047]-titleshot.jpg</titleshot>
-    <manual>./media/manuals/The Warriors [22047]_(us).pdf</manual>
-    <boxback>./media/image/The Warriors [22047]-boxback.png</boxback>
+    <fanart>./media/fanart/The Warriors-6DE207DB4F43.jpg</fanart>
+    <titleshot>./media/image/The Warriors-9D31B5428035.jpg</titleshot>
+    <manual>./media/manuals/The Warriors-885FE212EDA2.pdf</manual>
+    <boxback>./media/image/The Warriors-BEB4B03F26E8.png</boxback>
     <extra1>./media/extras/The Warriors [22047]-extra1.png</extra1>
   </game>
   <game id="22041">
@@ -1048,14 +1040,14 @@ ESTA HISTÓRIA É BASEADA NA HISTÓRIA EM QUADRINHOS THE RED STAR, AMBIENTADA EM
     <region>eu</region>
     <lang>it,es,de,fr,en</lang>
     <adult>true</adult>
-    <image>./media/image/Timesplitters - Future Perfect [22041]-image.png</image>
-    <video>./media/videos/Timesplitters - Future Perfect [22041]-video.mp4</video>
-    <screenshot>./media/screenshots/Timesplitters - Future Perfect [22041]-screenshot.jpg</screenshot>
-    <cartridge>./media/image/Timesplitters - Future Perfect [22041]-cartridge.png</cartridge>
+    <image>./media/image/Timesplitters - Future Perfect-71D006470F94.png</image>
+    <video>./media/videos/Timesplitters - Future Perfect-9F616F001F3A.mp4</video>
+    <screenshot>./media/screenshots/Timesplitters - Future Perfect-4DF9CA2AAE0A.jpg</screenshot>
+    <cartridge>./media/image/Timesplitters - Future Perfect-E3060BA9E26A.png</cartridge>
     <mix>./media/image/Timesplitters - Future Perfect [22041]-image.png</mix>
-    <fanart>./media/fanart/Timesplitters - Future Perfect [22041]-fanart.jpg</fanart>
-    <titleshot>./media/image/Timesplitters - Future Perfect [22041]-titleshot.png</titleshot>
-    <manual>./media/manuals/Timesplitters - Future Perfect [22041]_(us).pdf</manual>
+    <fanart>./media/fanart/Timesplitters - Future Perfect-5BCC1402EFB8.jpg</fanart>
+    <titleshot>./media/image/Timesplitters - Future Perfect-AD0FA44734C7.png</titleshot>
+    <manual>./media/manuals/Timesplitters - Future Perfect-89FB1D3B6693.pdf</manual>
     <extra1>./media/extras/Timesplitters - Future Perfect [22041]-extra1.png</extra1>
   </game>
   <game id="22030">
@@ -1072,15 +1064,15 @@ ESTA HISTÓRIA É BASEADA NA HISTÓRIA EM QUADRINHOS THE RED STAR, AMBIENTADA EM
     <players>1</players>
     <region>eu,us</region>
     <adult>true</adult>
-    <image>./media/image/True Crime - New York City [22030]-image.png</image>
-    <video>./media/videos/True Crime - New York City [22030]-video.mp4</video>
-    <thumbnail>./media/image/True Crime - New York City [22030]-boxart.png</thumbnail>
-    <boxart>./media/image/True Crime - New York City [22030]-boxart.png</boxart>
-    <cartridge>./media/image/True Crime - New York City [22030]-cartridge.png</cartridge>
+    <image>./media/image/True Crime - New York City-D10264A10A9C.png</image>
+    <video>./media/videos/True Crime - New York City-6B358CDD4413.mp4</video>
+    <thumbnail>./media/image/True Crime - New York City-D10264A10A9C.png</thumbnail>
+    <boxart>./media/image/True Crime - New York City-D10264A10A9C.png</boxart>
+    <cartridge>./media/image/True Crime - New York City-55AF85F839C8.png</cartridge>
     <mix>./media/image/True Crime - New York City [22030]-image.png</mix>
-    <fanart>./media/fanart/True Crime - New York City [22030]-fanart.jpg</fanart>
-    <manual>./media/manuals/True Crime - New York City [22030]_(us).pdf</manual>
-    <boxback>./media/image/True Crime - New York City [22030]-boxback.png</boxback>
+    <fanart>./media/fanart/True Crime - New York City-8741D23002C1.jpg</fanart>
+    <manual>./media/manuals/True Crime - New York City-1D7220D58F55.pdf</manual>
+    <boxback>./media/image/True Crime - New York City-1D2B8D99191A.png</boxback>
     <extra1>./media/extras/True Crime - New York City [22030]-extra1.png</extra1>
   </game>
   <game id="22586">
@@ -1098,22 +1090,22 @@ HÁ VÁRIOS TIPOS DE COMBOS E GOLPES ESPECIAIS, ALÉM DE OBJETOS QUE PODEM SER U
     <players>1-4</players>
     <region>eu</region>
     <lang>it,es,de,fr,en</lang>
-    <image>./media/image/Urban Reign [22586]-image.png</image>
-    <video>./media/videos/Urban Reign [22586]-video.mp4</video>
-    <thumbnail>./media/image/Urban Reign [22586]-boxart.png</thumbnail>
-    <boxart>./media/image/Urban Reign [22586]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Urban Reign [22586]-screenshot.png</screenshot>
-    <cartridge>./media/image/Urban Reign [22586]-cartridge.png</cartridge>
+    <image>./media/image/Urban Reign-F489985FA525.png</image>
+    <video>./media/videos/Urban Reign-23C626A14E35.mp4</video>
+    <thumbnail>./media/image/Urban Reign-F489985FA525.png</thumbnail>
+    <boxart>./media/image/Urban Reign-F489985FA525.png</boxart>
+    <screenshot>./media/screenshots/Urban Reign-F3D278EEA415.png</screenshot>
+    <cartridge>./media/image/Urban Reign-8F33D2045F78.png</cartridge>
     <mix>./media/image/Urban Reign [22586]-image.png</mix>
-    <fanart>./media/fanart/Urban Reign [22586]-fanart.jpg</fanart>
-    <manual>./media/manuals/Urban Reign [22586]_(us).pdf</manual>
-    <boxback>./media/image/Urban Reign [22586]-boxback.png</boxback>
+    <fanart>./media/fanart/Urban Reign-BAF361767C8A.jpg</fanart>
+    <manual>./media/manuals/Urban Reign-4ADFE98F3FAE.pdf</manual>
+    <boxback>./media/image/Urban Reign-3F1E0B7D2670.png</boxback>
     <extra1>./media/extras/Urban Reign [22586]-extra1.png</extra1>
   </game>
   <game id="22598">
-    <path>./X-Men Legends (USA).chd</path>
+    <path>./X-Men Legends (USA) [22598].chd</path>
     <name>X-MEN LEGENDS (USA)</name>
-    <desc>X-MEN ENTRA NO REINO DOS JOGOS DE RPG COM UMA HISTÓRIA INTENSA, AÇÃO DE SUPER-HERÓIS E MODOS MULTIJOGADOR. A HISTÓRIA DE X-MEN LEGENDS COMEÇA QUANDO OS X-MEN DESCOBREM QUE MAGNETO ELABOROU UM PLANO PARA DAR AOS MUTANTES O PODER DE REINAR SUPREMO SOBRE OS HUMANOS. PARA SALVAR A RAÇA HUMANA DA PRISÃO, VOCÊ FORMA UMA EQUIPE DE QUATRO PESSOAS DE UMA LISTA DE PERSONAGENS DOS X-MEN, INCLUINDO STORM, GAMBIT E WOLVERINE. COMPLETE CADA MISSÃO PARA FORTALECER SUA EQUIPE E DESBLOQUEAR MAIS PERSONAGENS, FANTASIAS E TESOUROS.</desc>
+    <desc>X-men entra NO reino DOS jogos DE RPG COM UMA história intensa, ação DE super-heróis E modos multijogador. A história DE x-men legends começa quando OS x-men descobrem QUE magneto elaborou UM plano PARA DAR AOS mutantes O poder DE reinar supremo sobre OS humanos. PARA salvar A raça humana DA prisão, você forma UMA equipe DE quatro pessoas DE UMA lista DE personagens DOS x-men, incluindo storm, gambit E wolverine. Complete CADA missão PARA fortalecer SUA equipe E desbloquear MAIS personagens, fantasias E tesouros.</desc>
     <rating>0.80</rating>
     <releasedate>20041022T000000</releasedate>
     <developer>RAVEN SOFTWARE</developer>
@@ -1121,17 +1113,17 @@ HÁ VÁRIOS TIPOS DE COMBOS E GOLPES ESPECIAIS, ALÉM DE OBJETOS QUE PODEM SER U
     <genre>JOGOS DE RPG</genre>
     <genreid>768</genreid>
     <region>us</region>
-    <image>./media/image/X-Men Legends (USA)-image.png</image>
-    <video>./media/videos/X-Men Legends (USA)-video.mp4</video>
-    <thumbnail>./media/image/X-Men Legends (USA)-boxart.png</thumbnail>
-    <boxart>./media/image/X-Men Legends (USA)-boxart.png</boxart>
-    <screenshot>./media/screenshots/X-Men Legends (USA)-screenshot.jpg</screenshot>
-    <cartridge>./media/image/X-Men Legends (USA)-cartridge.png</cartridge>
+    <image>./media/image/X-Men Legends (USA)-E33F53E7F569.png</image>
+    <video>./media/videos/X-Men Legends (USA)-3AE2E0226533.mp4</video>
+    <thumbnail>./media/image/X-Men Legends (USA)-E33F53E7F569.png</thumbnail>
+    <boxart>./media/image/X-Men Legends (USA)-E33F53E7F569.png</boxart>
+    <screenshot>./media/screenshots/X-Men Legends (USA)-BF20F32879D9.jpg</screenshot>
+    <cartridge>./media/image/X-Men Legends (USA)-26E3A98622E7.png</cartridge>
     <mix>./media/image/X-Men Legends (USA)-image.png</mix>
-    <fanart>./media/fanart/X-Men Legends (USA)-fanart.jpg</fanart>
-    <titleshot>./media/image/X-Men Legends (USA)-titleshot.jpg</titleshot>
-    <manual>./media/manuals/X-Men Legends (USA)_(us).pdf</manual>
-    <boxback>./media/image/X-Men Legends (USA)-boxback.png</boxback>
+    <fanart>./media/fanart/X-Men Legends (USA)-861AC7E1C46E.jpg</fanart>
+    <titleshot>./media/image/X-Men Legends (USA)-3F56A9FB5B55.jpg</titleshot>
+    <manual>./media/manuals/X-Men Legends (USA)-B783F75E23F6.pdf</manual>
+    <boxback>./media/image/X-Men Legends (USA)-79EABB7BB118.png</boxback>
     <extra1>./media/extras/X-Men Legends (USA)-extra1.png</extra1>
   </game>
 </gameList>

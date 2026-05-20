@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <gameList>
   <provider>
     <system>psx</system>
@@ -6,10 +6,9 @@
     <web>http://jujuvincebros.fr/wiki/arrm/doku.php</web>
   </provider>
   <game id="19814">
-    <path>./The Adventures of Lomax (BR).chd</path>
+    <path>./The Adventures Of Lomax (BR) [19814].chd</path>
     <name>THE ADVENTURES OF LOMAX (BR)</name>
-    <desc>AS AVENTURAS DE LOMAX(CONHECIDO NA EUROPA SIMPLESMENTE POR LOMAX) É UM SPIN-OFF DA SÉRIE DE VÍDEO GAME LEMMINGS. O JOGADOR CONTROLA LOMAX, UM LEMMING QUE TEM POR OBJETIVO SALVAR SEUS AMIGOS E OS ANIMAIS DO DOUTOR MALVADO.
-LOMAX É UM CAVALEIRO LEMMING, QUE TEVE OS AMIGOS TRANSFORMADOS EM MONSTROS PELO "EVIL ED". SUA MISSÃO É RESGATÁ-LOS E POR UM FIM EM EVIL ED COM SEU ELMO MÁGICO.</desc>
+    <desc>AS aventuras DE lomax(conhecido NA europa simplesmente POR lomax) é UM spin-off DA série DE vídeo GAME lemmings. O jogador controla lomax, UM lemming QUE TEM POR objetivo salvar SEUS amigos E OS animais DO doutor malvado. Lomax é UM cavaleiro lemming, QUE TEVE OS amigos transformados EM monstros PELO "evil ed". SUA missão é resgatá-los E POR UM FIM EM EVIL ED COM SEU ELMO mágico.</desc>
     <rating>0.80</rating>
     <releasedate>19961101T000000</releasedate>
     <developer>PSYGNOSIS</developer>
@@ -17,13 +16,13 @@ LOMAX É UM CAVALEIRO LEMMING, QUE TEVE OS AMIGOS TRANSFORMADOS EM MONSTROS PELO
     <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
-    <video>./media/videos/The Adventures of Lomax (BR)-video.mp4</video>
-    <screenshot>./media/screenshots/The Adventures of Lomax (BR)-screenshot.png</screenshot>
-    <fanart>./media/fanart/The Adventures of Lomax (BR)-fanart.jpg</fanart>
-    <titleshot>./media/image/The Adventures of Lomax (BR)-titleshot.png</titleshot>
-    <manual>./media/manuals/The Adventures of Lomax (BR)_(us).pdf</manual>
+    <video>./media/videos/The Adventures Of Lomax (Br)-AF52382B2C52.mp4</video>
+    <screenshot>./media/screenshots/The Adventures Of Lomax (Br)-44FE31926796.png</screenshot>
+    <fanart>./media/fanart/The Adventures Of Lomax (Br)-5B45DAFBE055.jpg</fanart>
+    <titleshot>./media/image/The Adventures Of Lomax (Br)-ECBFAD89A110.png</titleshot>
+    <manual>./media/manuals/The Adventures Of Lomax (Br)-7251D062AA86.pdf</manual>
     <extra1>./media/extras/The Adventures of Lomax (BR)-extra1.png</extra1>
-    <bezel>./media/image/The Adventures of Lomax (BR)-bezel.png</bezel>
+    <bezel>./media/image/The Adventures Of Lomax (Br)-1F538663E3B7.png</bezel>
   </game>
   <game id="19329">
     <path>./Alone In The Dark - The New Nightmare (BR) [19329].PBP</path>
@@ -38,21 +37,21 @@ LOMAX É UM CAVALEIRO LEMMING, QUE TEVE OS AMIGOS TRANSFORMADOS EM MONSTROS PELO
     <genreid>518</genreid>
     <players>1</players>
     <region>us</region>
-    <image>./media/image/Alone In The Dark - The New Nightmare (BR) [19329]-image.png</image>
-    <video>./media/videos/Alone In The Dark - The New Nightmare (BR) [19329]-video.mp4</video>
-    <thumbnail>./media/image/Alone In The Dark - The New Nightmare (BR) [19329]-boxart.png</thumbnail>
-    <marquee>./media/image/Alone In The Dark - The New Nightmare (BR) [19329]-marquee.png</marquee>
-    <wheel>./media/image/Alone In The Dark - The New Nightmare (BR) [19329]-wheel.png</wheel>
-    <boxart>./media/image/Alone In The Dark - The New Nightmare (BR) [19329]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Alone In The Dark - The New Nightmare (BR) [19329]-screenshot.png</screenshot>
-    <cartridge>./media/image/Alone In The Dark - The New Nightmare (BR) [19329]-cartridge.png</cartridge>
+    <image>./media/image/Alone In The Dark - The New Nightmare (Br)-2226EACA592A.png</image>
+    <video>./media/videos/Alone In The Dark - The New Nightmare (Br)-216E03B92A4D.mp4</video>
+    <thumbnail>./media/image/Alone In The Dark - The New Nightmare (Br)-2226EACA592A.png</thumbnail>
+    <marquee>./media/image/Alone In The Dark - The New Nightmare (Br)-5C35306EA31D.png</marquee>
+    <wheel>./media/image/Alone In The Dark - The New Nightmare (Br)-5C35306EA31D.png</wheel>
+    <boxart>./media/image/Alone In The Dark - The New Nightmare (Br)-2226EACA592A.png</boxart>
+    <screenshot>./media/screenshots/Alone In The Dark - The New Nightmare (Br)-3868478A1270.png</screenshot>
+    <cartridge>./media/image/Alone In The Dark - The New Nightmare (Br)-F55DDE2821F6.png</cartridge>
     <mix>./media/image/Alone In The Dark - The New Nightmare (BR) [19329]-image.png</mix>
-    <fanart>./media/fanart/Alone In The Dark - The New Nightmare (BR) [19329]-fanart.jpg</fanart>
-    <titleshot>./media/image/Alone In The Dark - The New Nightmare (BR) [19329]-titleshot.png</titleshot>
-    <manual>./media/manuals/Alone In The Dark - The New Nightmare (BR) [19329]_(us).pdf</manual>
-    <boxback>./media/image/Alone In The Dark - The New Nightmare (BR) [19329]-boxback.png</boxback>
+    <fanart>./media/fanart/Alone In The Dark - The New Nightmare (Br)-81B119079C9D.jpg</fanart>
+    <titleshot>./media/image/Alone In The Dark - The New Nightmare (Br)-B664FCCD70E9.png</titleshot>
+    <manual>./media/manuals/Alone In The Dark - The New Nightmare (Br)-644872C382B5.pdf</manual>
+    <boxback>./media/image/Alone In The Dark - The New Nightmare (Br)-92641EE432F3.png</boxback>
     <extra1>./media/extras/Alone In The Dark - The New Nightmare (BR) [19329]-extra1.png</extra1>
-    <bezel>./media/image/Alone In The Dark - The New Nightmare (BR) [19329]-bezel.png</bezel>
+    <bezel>./media/image/Alone In The Dark - The New Nightmare (Br)-9C1AAD77E4B1.png</bezel>
   </game>
   <game id="19269">
     <path>./Castlevania - Symphony Of The Night (BR) [19269].chd</path>
@@ -67,21 +66,21 @@ LOMAX É UM CAVALEIRO LEMMING, QUE TEVE OS AMIGOS TRANSFORMADOS EM MONSTROS PELO
     <genreid>768</genreid>
     <players>1</players>
     <region>eu</region>
-    <image>./media/image/Castlevania - Symphony Of The Night (BR) [19269]-image.png</image>
-    <video>./media/videos/Castlevania - Symphony Of The Night (BR) [19269]-video.mp4</video>
-    <thumbnail>./media/image/Castlevania - Symphony Of The Night (BR) [19269]-boxart.png</thumbnail>
-    <marquee>./media/image/Castlevania - Symphony Of The Night (BR) [19269]-marquee.png</marquee>
-    <wheel>./media/image/Castlevania - Symphony Of The Night (BR) [19269]-wheel.png</wheel>
-    <boxart>./media/image/Castlevania - Symphony Of The Night (BR) [19269]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Castlevania - Symphony Of The Night (BR) [19269]-screenshot.png</screenshot>
-    <cartridge>./media/image/Castlevania - Symphony Of The Night (BR) [19269]-cartridge.png</cartridge>
+    <image>./media/image/Castlevania - Symphony Of The Night (Br)-9B4E7C21DCAE.png</image>
+    <video>./media/videos/Castlevania - Symphony Of The Night (Br)-183C71F09738.mp4</video>
+    <thumbnail>./media/image/Castlevania - Symphony Of The Night (Br)-9B4E7C21DCAE.png</thumbnail>
+    <marquee>./media/image/Castlevania - Symphony Of The Night (Br)-2F8722E65A94.png</marquee>
+    <wheel>./media/image/Castlevania - Symphony Of The Night (Br)-2F8722E65A94.png</wheel>
+    <boxart>./media/image/Castlevania - Symphony Of The Night (Br)-9B4E7C21DCAE.png</boxart>
+    <screenshot>./media/screenshots/Castlevania - Symphony Of The Night (Br)-2F90D22BD338.png</screenshot>
+    <cartridge>./media/image/Castlevania - Symphony Of The Night (Br)-8EDD3B40922E.png</cartridge>
     <mix>./media/image/Castlevania - Symphony Of The Night (BR) [19269]-image.png</mix>
-    <fanart>./media/fanart/Castlevania - Symphony Of The Night (BR) [19269]-fanart.jpg</fanart>
-    <titleshot>./media/image/Castlevania - Symphony Of The Night (BR) [19269]-titleshot.png</titleshot>
-    <manual>./media/manuals/Castlevania - Symphony Of The Night (BR) [19269]_(us).pdf</manual>
-    <boxback>./media/image/Castlevania - Symphony Of The Night (BR) [19269]-boxback.png</boxback>
+    <fanart>./media/fanart/Castlevania - Symphony Of The Night (Br)-9C0D654F2A4F.jpg</fanart>
+    <titleshot>./media/image/Castlevania - Symphony Of The Night (Br)-15571203F087.png</titleshot>
+    <manual>./media/manuals/Castlevania - Symphony Of The Night (Br)-03198A94BB1E.pdf</manual>
+    <boxback>./media/image/Castlevania - Symphony Of The Night (Br)-E8AEA0368555.png</boxback>
     <extra1>./media/extras/Castlevania - Symphony Of The Night (BR) [19269]-extra1.png</extra1>
-    <bezel>./media/image/Castlevania - Symphony Of The Night (BR) [19269]-bezel.png</bezel>
+    <bezel>./media/image/Castlevania - Symphony Of The Night (Br)-482D913F57F6.png</bezel>
   </game>
   <game id="105228">
     <path>./Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (JAPAN) [105228].chd</path>
@@ -97,18 +96,18 @@ O JOGADOR CONTROLA RALPH USANDO AS SETAS DO DIRECIONAL E O BOTÃO DE PULO, MANOB
     <players>1</players>
     <region>jp</region>
     <lang>ja</lang>
-    <image>./media/image/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (JAPAN) [105228]-image.png</image>
-    <video>./media/videos/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (JAPAN) [105228]-video.mp4</video>
-    <thumbnail>./media/image/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (JAPAN) [105228]-boxart.png</thumbnail>
-    <marquee>./media/image/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (JAPAN) [105228]-marquee.png</marquee>
-    <wheel>./media/image/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (JAPAN) [105228]-wheel.png</wheel>
-    <boxart>./media/image/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (JAPAN) [105228]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (JAPAN) [105228]-screenshot.png</screenshot>
-    <cartridge>./media/image/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (JAPAN) [105228]-cartridge.png</cartridge>
+    <image>./media/image/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (Japan)-311D88A0A249.png</image>
+    <video>./media/videos/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (Japan)-3E9393BF01FB.mp4</video>
+    <thumbnail>./media/image/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (Japan)-311D88A0A249.png</thumbnail>
+    <marquee>./media/image/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (Japan)-E522B212E112.png</marquee>
+    <wheel>./media/image/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (Japan)-E522B212E112.png</wheel>
+    <boxart>./media/image/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (Japan)-311D88A0A249.png</boxart>
+    <screenshot>./media/screenshots/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (Japan)-531811D0318D.png</screenshot>
+    <cartridge>./media/image/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (Japan)-B1743B347CE9.png</cartridge>
     <mix>./media/image/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (JAPAN) [105228]-image.png</mix>
-    <fanart>./media/fanart/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (JAPAN) [105228]-fanart.jpg</fanart>
-    <titleshot>./media/image/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (JAPAN) [105228]-titleshot.png</titleshot>
-    <boxback>./media/image/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (JAPAN) [105228]-boxback.png</boxback>
+    <fanart>./media/fanart/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (Japan)-508991967376.jpg</fanart>
+    <titleshot>./media/image/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (Japan)-F707FD2DC77B.png</titleshot>
+    <boxback>./media/image/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (Japan)-E664278E71A5.png</boxback>
     <extra1>./media/extras/Chippoke Ralph No Daibouken - The Adventure Of Little Ralph (JAPAN) [105228]-extra1.png</extra1>
   </game>
   <game id="19993">
@@ -126,18 +125,18 @@ O JOGADOR CONTROLA RALPH USANDO AS SETAS DO DIRECIONAL E O BOTÃO DE PULO, MANOB
     <players>1-2</players>
     <region>us</region>
     <lang>en</lang>
-    <image>./media/image/Contra - Legacy Of War (BR) [19993]-image.png</image>
-    <video>./media/videos/Contra - Legacy Of War (BR) [19993]-video.mp4</video>
-    <thumbnail>./media/image/Contra - Legacy Of War (BR) [19993]-boxart.png</thumbnail>
-    <boxart>./media/image/Contra - Legacy Of War (BR) [19993]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Contra - Legacy Of War (BR) [19993]-screenshot.png</screenshot>
-    <cartridge>./media/image/Contra - Legacy Of War (BR) [19993]-cartridge.png</cartridge>
+    <image>./media/image/Contra - Legacy Of War (Br)-95873B7C6E5B.png</image>
+    <video>./media/videos/Contra - Legacy Of War (Br)-89ABB8D9E903.mp4</video>
+    <thumbnail>./media/image/Contra - Legacy Of War (Br)-95873B7C6E5B.png</thumbnail>
+    <boxart>./media/image/Contra - Legacy Of War (Br)-95873B7C6E5B.png</boxart>
+    <screenshot>./media/screenshots/Contra - Legacy Of War (Br)-4F74FA22D521.png</screenshot>
+    <cartridge>./media/image/Contra - Legacy Of War (Br)-A53861B1EF38.png</cartridge>
     <mix>./media/image/Contra - Legacy Of War (BR) [19993]-image.png</mix>
-    <fanart>./media/fanart/Contra - Legacy Of War (BR) [19993]-fanart.jpg</fanart>
-    <manual>./media/manuals/Contra - Legacy Of War (BR) [19993]_(us).pdf</manual>
-    <boxback>./media/image/Contra - Legacy Of War (BR) [19993]-boxback.png</boxback>
+    <fanart>./media/fanart/Contra - Legacy Of War (Br)-3A8E1988D20F.jpg</fanart>
+    <manual>./media/manuals/Contra - Legacy Of War (Br)-8DCA678E20CE.pdf</manual>
+    <boxback>./media/image/Contra - Legacy Of War (Br)-5FEDC70CE3C9.png</boxback>
     <extra1>./media/extras/Contra - Legacy Of War (BR) [19993]-extra1.png</extra1>
-    <bezel>./media/image/Contra - Legacy Of War (BR) [19993]-bezel.png</bezel>
+    <bezel>./media/image/Contra - Legacy Of War (Br)-EB58E859732A.png</bezel>
   </game>
   <game id="102981">
     <path>./Covert Ops - Nuclear Dawn (USA) [102981].PBP</path>
@@ -153,21 +152,21 @@ O JOGADOR CONTROLA RALPH USANDO AS SETAS DO DIRECIONAL E O BOTÃO DE PULO, MANOB
     <players>1</players>
     <region>us</region>
     <adult>true</adult>
-    <image>./media/image/Covert Ops - Nuclear Dawn (USA) [102981]-image.png</image>
-    <video>./media/videos/Covert Ops - Nuclear Dawn (USA) [102981]-video.mp4</video>
-    <thumbnail>./media/image/Covert Ops - Nuclear Dawn (USA) [102981]-boxart.png</thumbnail>
-    <marquee>./media/image/Covert Ops - Nuclear Dawn (USA) [102981]-marquee.png</marquee>
-    <wheel>./media/image/Covert Ops - Nuclear Dawn (USA) [102981]-wheel.png</wheel>
-    <boxart>./media/image/Covert Ops - Nuclear Dawn (USA) [102981]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Covert Ops - Nuclear Dawn (USA) [102981]-screenshot.png</screenshot>
-    <cartridge>./media/image/Covert Ops - Nuclear Dawn (USA) [102981]-cartridge.png</cartridge>
+    <image>./media/image/Covert Ops - Nuclear Dawn (USA)-14AB43CF33BD.png</image>
+    <video>./media/videos/Covert Ops - Nuclear Dawn (USA)-3DB6BFF011AB.mp4</video>
+    <thumbnail>./media/image/Covert Ops - Nuclear Dawn (USA)-14AB43CF33BD.png</thumbnail>
+    <marquee>./media/image/Covert Ops - Nuclear Dawn (USA)-B46413200E23.png</marquee>
+    <wheel>./media/image/Covert Ops - Nuclear Dawn (USA)-B46413200E23.png</wheel>
+    <boxart>./media/image/Covert Ops - Nuclear Dawn (USA)-14AB43CF33BD.png</boxart>
+    <screenshot>./media/screenshots/Covert Ops - Nuclear Dawn (USA)-1FC7568D6DE7.png</screenshot>
+    <cartridge>./media/image/Covert Ops - Nuclear Dawn (USA)-F31CA09B301A.png</cartridge>
     <mix>./media/image/Covert Ops - Nuclear Dawn (USA) [102981]-image.png</mix>
-    <fanart>./media/fanart/Covert Ops - Nuclear Dawn (USA) [102981]-fanart.jpg</fanart>
-    <titleshot>./media/image/Covert Ops - Nuclear Dawn (USA) [102981]-titleshot.png</titleshot>
-    <manual>./media/manuals/Covert Ops - Nuclear Dawn (USA) [102981]_(us).pdf</manual>
-    <boxback>./media/image/Covert Ops - Nuclear Dawn (USA) [102981]-boxback.png</boxback>
+    <fanart>./media/fanart/Covert Ops - Nuclear Dawn (USA)-29C897AF5CE5.jpg</fanart>
+    <titleshot>./media/image/Covert Ops - Nuclear Dawn (USA)-4D3D754FBC86.png</titleshot>
+    <manual>./media/manuals/Covert Ops - Nuclear Dawn (USA)-4CB070F78DA1.pdf</manual>
+    <boxback>./media/image/Covert Ops - Nuclear Dawn (USA)-996E55919B50.png</boxback>
     <extra1>./media/extras/Covert Ops - Nuclear Dawn (USA) [102981]-extra1.png</extra1>
-    <bezel>./media/image/Covert Ops - Nuclear Dawn (USA) [102981]-bezel.png</bezel>
+    <bezel>./media/image/Covert Ops - Nuclear Dawn (USA)-1678F1CAB705.png</bezel>
   </game>
   <game id="19282">
     <path>./Crash Bandicoot (BR) [19282].chd</path>
@@ -180,15 +179,15 @@ O JOGADOR CONTROLA RALPH USANDO AS SETAS DO DIRECIONAL E O BOTÃO DE PULO, MANOB
     <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
-    <image>./media/image/Crash Bandicoot (BR) [19282]-image.png</image>
-    <video>./media/videos/Crash Bandicoot (BR) [19282]-video.mp4</video>
-    <screenshot>./media/screenshots/Crash Bandicoot (BR) [19282]-screenshot.png</screenshot>
+    <image>./media/image/Crash Bandicoot (Br)-82F5125853AC.png</image>
+    <video>./media/videos/Crash Bandicoot (Br)-4AFF374EAB5E.mp4</video>
+    <screenshot>./media/screenshots/Crash Bandicoot (Br)-AC02FCE46823.png</screenshot>
     <mix>./media/image/Crash Bandicoot (BR) [19282]-image.png</mix>
-    <fanart>./media/fanart/Crash Bandicoot (BR) [19282]-fanart.jpg</fanart>
-    <titleshot>./media/image/Crash Bandicoot (BR) [19282]-titleshot.png</titleshot>
-    <manual>./media/manuals/Crash Bandicoot (BR) [19282]_(us).pdf</manual>
+    <fanart>./media/fanart/Crash Bandicoot (Br)-4678AC676E5F.jpg</fanart>
+    <titleshot>./media/image/Crash Bandicoot (Br)-39D73F307B95.png</titleshot>
+    <manual>./media/manuals/Crash Bandicoot (Br)-52D1CDFA8F9A.pdf</manual>
     <extra1>./media/extras/Crash Bandicoot (BR) [19282]-extra1.png</extra1>
-    <bezel>./media/image/Crash Bandicoot (BR) [19282]-bezel.png</bezel>
+    <bezel>./media/image/Crash Bandicoot (Br)-0F55C88D42A4.png</bezel>
   </game>
   <game id="19270">
     <path>./Crash Bandicoot 2 - Cortex Strikes Back (BR) [19270].chd</path>
@@ -209,15 +208,15 @@ RECURSOS:
     <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
-    <image>./media/image/Crash Bandicoot 2 - Cortex Strikes Back (BR) [19270]-image.png</image>
-    <video>./media/videos/Crash Bandicoot 2 - Cortex Strikes Back (BR) [19270]-video.mp4</video>
-    <screenshot>./media/screenshots/Crash Bandicoot 2 - Cortex Strikes Back (BR) [19270]-screenshot.png</screenshot>
+    <image>./media/image/Crash Bandicoot 2 - Cortex Strikes Back (Br)-44C0CD799DEF.png</image>
+    <video>./media/videos/Crash Bandicoot 2 - Cortex Strikes Back (Br)-635A5726281F.mp4</video>
+    <screenshot>./media/screenshots/Crash Bandicoot 2 - Cortex Strikes Back (Br)-AD45F3864732.png</screenshot>
     <mix>./media/image/Crash Bandicoot 2 - Cortex Strikes Back (BR) [19270]-image.png</mix>
-    <fanart>./media/fanart/Crash Bandicoot 2 - Cortex Strikes Back (BR) [19270]-fanart.jpg</fanart>
-    <titleshot>./media/image/Crash Bandicoot 2 - Cortex Strikes Back (BR) [19270]-titleshot.png</titleshot>
-    <manual>./media/manuals/Crash Bandicoot 2 - Cortex Strikes Back (BR) [19270]_(eu).pdf</manual>
+    <fanart>./media/fanart/Crash Bandicoot 2 - Cortex Strikes Back (Br)-D1898FDF4628.jpg</fanart>
+    <titleshot>./media/image/Crash Bandicoot 2 - Cortex Strikes Back (Br)-04DCD5135B32.png</titleshot>
+    <manual>./media/manuals/Crash Bandicoot 2 - Cortex Strikes Back (Br)-8E869A7DD9AD.pdf</manual>
     <extra1>./media/extras/Crash Bandicoot 2 - Cortex Strikes Back (BR) [19270]-extra1.png</extra1>
-    <bezel>./media/image/Crash Bandicoot 2 - Cortex Strikes Back (BR) [19270]-bezel.png</bezel>
+    <bezel>./media/image/Crash Bandicoot 2 - Cortex Strikes Back (Br)-516A72757C82.png</bezel>
   </game>
   <game id="19262">
     <path>./Crash Bandicoot 3 - Warped (BR) [19262].chd</path>
@@ -234,19 +233,19 @@ EM UMA SUPERFÍCIE FUTURÍSTICA, UKA-UKA, QUE É A TAL MÁSCARA MALIGNA, BRIGA C
     <players>1</players>
     <region>eu</region>
     <lang>en</lang>
-    <image>./media/image/Crash Bandicoot 3 - Warped (BR) [19262]-image.png</image>
-    <video>./media/videos/Crash Bandicoot 3 - Warped (BR) [19262]-video.mp4</video>
-    <thumbnail>./media/image/Crash Bandicoot 3 - Warped (BR) [19262]-boxart.png</thumbnail>
-    <boxart>./media/image/Crash Bandicoot 3 - Warped (BR) [19262]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Crash Bandicoot 3 - Warped (BR) [19262]-screenshot.png</screenshot>
-    <cartridge>./media/image/Crash Bandicoot 3 - Warped (BR) [19262]-cartridge.png</cartridge>
+    <image>./media/image/Crash Bandicoot 3 - Warped (Br)-10D8AF0F8043.png</image>
+    <video>./media/videos/Crash Bandicoot 3 - Warped (Br)-0EE35DDAAFC0.mp4</video>
+    <thumbnail>./media/image/Crash Bandicoot 3 - Warped (Br)-10D8AF0F8043.png</thumbnail>
+    <boxart>./media/image/Crash Bandicoot 3 - Warped (Br)-10D8AF0F8043.png</boxart>
+    <screenshot>./media/screenshots/Crash Bandicoot 3 - Warped (Br)-D7DD24FD6DBC.png</screenshot>
+    <cartridge>./media/image/Crash Bandicoot 3 - Warped (Br)-F744CB0EA4F9.png</cartridge>
     <mix>./media/image/Crash Bandicoot 3 - Warped (BR) [19262]-image.png</mix>
-    <fanart>./media/fanart/Crash Bandicoot 3 - Warped (BR) [19262]-fanart.jpg</fanart>
-    <titleshot>./media/image/Crash Bandicoot 3 - Warped (BR) [19262]-titleshot.png</titleshot>
-    <manual>./media/manuals/Crash Bandicoot 3 - Warped (BR) [19262]_(eu).pdf</manual>
-    <boxback>./media/image/Crash Bandicoot 3 - Warped (BR) [19262]-boxback.png</boxback>
+    <fanart>./media/fanart/Crash Bandicoot 3 - Warped (Br)-09F9F03F5001.jpg</fanart>
+    <titleshot>./media/image/Crash Bandicoot 3 - Warped (Br)-6C6E6D417CB4.png</titleshot>
+    <manual>./media/manuals/Crash Bandicoot 3 - Warped (Br)-1658D2CBA54B.pdf</manual>
+    <boxback>./media/image/Crash Bandicoot 3 - Warped (Br)-96BCAF572657.png</boxback>
     <extra1>./media/extras/Crash Bandicoot 3 - Warped (BR) [19262]-extra1.png</extra1>
-    <bezel>./media/image/Crash Bandicoot 3 - Warped (BR) [19262]-bezel.png</bezel>
+    <bezel>./media/image/Crash Bandicoot 3 - Warped (Br)-0CAB4479272A.png</bezel>
   </game>
   <game id="19266">
     <path>./Crash Team Racing (BR) [19266].chd</path>
@@ -264,15 +263,15 @@ O OBJETIVO DO MODO AVENTURA É DERROTAR TODOS OS OPONENTES ATRAVÉS DA SEQUÊNCI
     <genre>CORRIDA, PILOTAGEM</genre>
     <genreid>1537</genreid>
     <players>1-4</players>
-    <image>./media/image/Crash Team Racing (BR) [19266]-image.png</image>
-    <video>./media/videos/Crash Team Racing (BR) [19266]-video.mp4</video>
-    <screenshot>./media/screenshots/Crash Team Racing (BR) [19266]-screenshot.png</screenshot>
+    <image>./media/image/Crash Team Racing (Br)-8BEA6A955B8E.png</image>
+    <video>./media/videos/Crash Team Racing (Br)-B4A1E353F1A0.mp4</video>
+    <screenshot>./media/screenshots/Crash Team Racing (Br)-12226F324D7F.png</screenshot>
     <mix>./media/image/Crash Team Racing (BR) [19266]-image.png</mix>
-    <fanart>./media/fanart/Crash Team Racing (BR) [19266]-fanart.jpg</fanart>
-    <titleshot>./media/image/Crash Team Racing (BR) [19266]-titleshot.png</titleshot>
-    <manual>./media/manuals/Crash Team Racing (BR) [19266]_(us).pdf</manual>
+    <fanart>./media/fanart/Crash Team Racing (Br)-6474F0AD0FDB.jpg</fanart>
+    <titleshot>./media/image/Crash Team Racing (Br)-6F23C7F76B8D.png</titleshot>
+    <manual>./media/manuals/Crash Team Racing (Br)-EA4629C303CC.pdf</manual>
     <extra1>./media/extras/Crash Team Racing (BR) [19266]-extra1.png</extra1>
-    <bezel>./media/image/Crash Team Racing (BR) [19266]-bezel.png</bezel>
+    <bezel>./media/image/Crash Team Racing (Br)-990D0455653D.png</bezel>
   </game>
   <game id="19252">
     <path>./Dino Crisis (BR) [19252].chd</path>
@@ -288,21 +287,21 @@ O OBJETIVO DO MODO AVENTURA É DERROTAR TODOS OS OPONENTES ATRAVÉS DA SEQUÊNCI
     <players>1</players>
     <region>eu</region>
     <lang>en</lang>
-    <image>./media/image/Dino Crisis (BR) [19252]-image.png</image>
-    <video>./media/videos/Dino Crisis (BR) [19252]-video.mp4</video>
-    <thumbnail>./media/image/Dino Crisis (BR) [19252]-boxart.png</thumbnail>
-    <marquee>./media/image/Dino Crisis (BR) [19252]-marquee.png</marquee>
-    <wheel>./media/image/Dino Crisis (BR) [19252]-wheel.png</wheel>
-    <boxart>./media/image/Dino Crisis (BR) [19252]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Dino Crisis (BR) [19252]-screenshot.png</screenshot>
-    <cartridge>./media/image/Dino Crisis (BR) [19252]-cartridge.png</cartridge>
+    <image>./media/image/Dino Crisis (Br)-4B0EB5C92A91.png</image>
+    <video>./media/videos/Dino Crisis (Br)-811A3F8752E3.mp4</video>
+    <thumbnail>./media/image/Dino Crisis (Br)-4B0EB5C92A91.png</thumbnail>
+    <marquee>./media/image/Dino Crisis (Br)-D2AE99A77247.png</marquee>
+    <wheel>./media/image/Dino Crisis (Br)-D2AE99A77247.png</wheel>
+    <boxart>./media/image/Dino Crisis (Br)-4B0EB5C92A91.png</boxart>
+    <screenshot>./media/screenshots/Dino Crisis (Br)-3ED908B594A0.png</screenshot>
+    <cartridge>./media/image/Dino Crisis (Br)-A3E8BD7F7D18.png</cartridge>
     <mix>./media/image/Dino Crisis (BR) [19252]-image.png</mix>
-    <fanart>./media/fanart/Dino Crisis (BR) [19252]-fanart.jpg</fanart>
-    <titleshot>./media/image/Dino Crisis (BR) [19252]-titleshot.png</titleshot>
-    <manual>./media/manuals/Dino Crisis (BR) [19252]_(eu).pdf</manual>
-    <boxback>./media/image/Dino Crisis (BR) [19252]-boxback.png</boxback>
+    <fanart>./media/fanart/Dino Crisis (Br)-C7C3AAA4156F.jpg</fanart>
+    <titleshot>./media/image/Dino Crisis (Br)-B1864E730FEB.png</titleshot>
+    <manual>./media/manuals/Dino Crisis (Br)-C1795A31A06B.pdf</manual>
+    <boxback>./media/image/Dino Crisis (Br)-19D8DA7AF3B1.png</boxback>
     <extra1>./media/extras/Dino Crisis (BR) [19252]-extra1.png</extra1>
-    <bezel>./media/image/Dino Crisis (BR) [19252]-bezel.png</bezel>
+    <bezel>./media/image/Dino Crisis (Br)-885F2F0EB5AF.png</bezel>
   </game>
   <game id="19364">
     <path>./Duke Nukem - Time To Kill (BR) [19364].chd</path>
@@ -318,21 +317,21 @@ O JOGO POSSUI UM TOTAL DE 28 NÍVEIS, QUE VARIAM DE LOS ANGELES NA ÉPOCA PRESEN
     <players>1-2</players>
     <region>us</region>
     <adult>true</adult>
-    <image>./media/image/Duke Nukem - Time To Kill (BR) [19364]-image.png</image>
-    <video>./media/videos/Duke Nukem - Time To Kill (BR) [19364]-video.mp4</video>
-    <thumbnail>./media/image/Duke Nukem - Time To Kill (BR) [19364]-boxart.png</thumbnail>
-    <marquee>./media/image/Duke Nukem - Time To Kill (BR) [19364]-marquee.png</marquee>
-    <wheel>./media/image/Duke Nukem - Time To Kill (BR) [19364]-wheel.png</wheel>
-    <boxart>./media/image/Duke Nukem - Time To Kill (BR) [19364]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Duke Nukem - Time To Kill (BR) [19364]-screenshot.png</screenshot>
-    <cartridge>./media/image/Duke Nukem - Time To Kill (BR) [19364]-cartridge.png</cartridge>
+    <image>./media/image/Duke Nukem - Time To Kill (Br)-D7D1689FE349.png</image>
+    <video>./media/videos/Duke Nukem - Time To Kill (Br)-E1FBB8B828BF.mp4</video>
+    <thumbnail>./media/image/Duke Nukem - Time To Kill (Br)-D7D1689FE349.png</thumbnail>
+    <marquee>./media/image/Duke Nukem - Time To Kill (Br)-743E13E534DB.png</marquee>
+    <wheel>./media/image/Duke Nukem - Time To Kill (Br)-743E13E534DB.png</wheel>
+    <boxart>./media/image/Duke Nukem - Time To Kill (Br)-D7D1689FE349.png</boxart>
+    <screenshot>./media/screenshots/Duke Nukem - Time To Kill (Br)-8A0806D84BE0.png</screenshot>
+    <cartridge>./media/image/Duke Nukem - Time To Kill (Br)-BDEE4C7DC2E4.png</cartridge>
     <mix>./media/image/Duke Nukem - Time To Kill (BR) [19364]-image.png</mix>
-    <fanart>./media/fanart/Duke Nukem - Time To Kill (BR) [19364]-fanart.jpg</fanart>
-    <titleshot>./media/image/Duke Nukem - Time To Kill (BR) [19364]-titleshot.png</titleshot>
-    <manual>./media/manuals/Duke Nukem - Time To Kill (BR) [19364]_(us).pdf</manual>
-    <boxback>./media/image/Duke Nukem - Time To Kill (BR) [19364]-boxback.png</boxback>
+    <fanart>./media/fanart/Duke Nukem - Time To Kill (Br)-B6AD0128AFC1.jpg</fanart>
+    <titleshot>./media/image/Duke Nukem - Time To Kill (Br)-61DAADB6C5E6.png</titleshot>
+    <manual>./media/manuals/Duke Nukem - Time To Kill (Br)-B84AE9F8D97E.pdf</manual>
+    <boxback>./media/image/Duke Nukem - Time To Kill (Br)-5B7D3D9A7E3D.png</boxback>
     <extra1>./media/extras/Duke Nukem - Time To Kill (BR) [19364]-extra1.png</extra1>
-    <bezel>./media/image/Duke Nukem - Time To Kill (BR) [19364]-bezel.png</bezel>
+    <bezel>./media/image/Duke Nukem - Time To Kill (Br)-2FC08F625900.png</bezel>
   </game>
   <game id="20005">
     <path>./Fantastic Four (USA) [20005].chd</path>
@@ -353,23 +352,23 @@ O JOGO POSSUI UM TOTAL DE 28 NÍVEIS, QUE VARIAM DE LOS ANGELES NA ÉPOCA PRESEN
     <players>1-4</players>
     <region>us</region>
     <lang>en</lang>
-    <image>./media/image/Fantastic Four (USA) [20005]-image.png</image>
-    <video>./media/videos/Fantastic Four (USA) [20005]-video.mp4</video>
-    <thumbnail>./media/image/Fantastic Four (USA) [20005]-boxart.png</thumbnail>
-    <boxart>./media/image/Fantastic Four (USA) [20005]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Fantastic Four (USA) [20005]-screenshot.png</screenshot>
-    <cartridge>./media/image/Fantastic Four (USA) [20005]-cartridge.png</cartridge>
+    <image>./media/image/Fantastic Four (USA)-023D1717AC8D.png</image>
+    <video>./media/videos/Fantastic Four (USA)-4E7BF952F4DF.mp4</video>
+    <thumbnail>./media/image/Fantastic Four (USA)-023D1717AC8D.png</thumbnail>
+    <boxart>./media/image/Fantastic Four (USA)-023D1717AC8D.png</boxart>
+    <screenshot>./media/screenshots/Fantastic Four (USA)-4FCC60BB3E6E.png</screenshot>
+    <cartridge>./media/image/Fantastic Four (USA)-0C421A680BC5.png</cartridge>
     <mix>./media/image/Fantastic Four (USA) [20005]-image.png</mix>
-    <titleshot>./media/image/Fantastic Four (USA) [20005]-titleshot.png</titleshot>
-    <manual>./media/manuals/Fantastic Four (USA) [20005]_(us).pdf</manual>
-    <boxback>./media/image/Fantastic Four (USA) [20005]-boxback.png</boxback>
+    <titleshot>./media/image/Fantastic Four (USA)-386A6B920ABA.png</titleshot>
+    <manual>./media/manuals/Fantastic Four (USA)-CED4228684E8.pdf</manual>
+    <boxback>./media/image/Fantastic Four (USA)-9E2C61BCBDD4.png</boxback>
     <extra1>./media/extras/Fantastic Four (USA) [20005]-extra1.png</extra1>
-    <bezel>./media/image/Fantastic Four (USA) [20005]-bezel.png</bezel>
+    <bezel>./media/image/Fantastic Four (USA)-2F1F09F1F139.png</bezel>
   </game>
   <game id="20165">
-    <path>./Firebugs (BR).chd</path>
+    <path>./Firebugs (BR) [20165].chd</path>
     <name>FIREBUGS (BR)</name>
-    <desc>BEM-VINDO À TEMPORADA DE CORRIDAS FIREBUGS, ONDE EQUIPES DE DIFERENTES MUNDOS ENVIAM SEUS MELHORES PILOTOS PARA COMPETIR POR FAMA E GLÓRIA. JOGUE COMO GISMO, KARRIE, ZERO, BOW OU KAMI – CADA UM COM UMA HISTÓRIA DE FUNDO, ARMA ESPECIAL ÚNICA E DESIGNS DE VEÍCULOS ALTERNATIVOS QUE PODEM SER DESBLOQUEADOS. VOCÊ CORRE EM CINCO MUNDOS DISTINTOS: UM GRUPO DE ILHAS INTERLIGADAS (ARQUIPÉLAGO), UMA FÁBRICA DE DRÓIDES (DROID GARDENS), UM DESERTO DESERTO (TERRIAN DUNES), UMA ÁREA INDUSTRIAL (SKY PORT) E UMA CIDADE RICA (AERIAL CITY). DURANTE A CORRIDA, A ARMA PESSOAL É ARMAZENADA NO COMPARTIMENTO DE ARMAS ESQUERDO. ARMAS ALEATÓRIAS QUE PODEM SER COLETADAS POR TODOS OS PILOTOS ESTÃO ARMAZENADAS À DIREITA. EXISTEM ESPECIAIS OFENSIVOS E DEFENSIVOS, INCLUINDO MÍSSEIS, FOGUETES, CANHÕES, TURBO, ESCUDO E UM BURACO DE MINHOCA QUE TELETRANSPORTA SEUS OPONENTES. AO COMPLETAR UMA VOLTA PERFEITA, VOCÊ RECEBE UMA ARMA ESPECIAL, COMO O FEIXE DE ESTASE (IMOBILIZAÇÃO) OU O TÚNEL DO TEMPO (RETARDA OS OPONENTES).</desc>
+    <desc>Bem-vindo à temporada DE corridas firebugs, ONDE equipes DE diferentes mundos enviam SEUS melhores pilotos PARA competir POR FAMA E glória. Jogue COMO gismo, karrie, zero, BOW OU KAMI – CADA UM COM UMA história DE fundo, ARMA especial única E designs DE veículos alternativos QUE podem SER desbloqueados. Você corre EM cinco mundos distintos: UM grupo DE ilhas interligadas (arquipélago), UMA fábrica DE dróides (droid gardens), UM deserto deserto (terrian dunes), UMA área industrial (sky port) E UMA cidade RICA (aerial city). Durante A corrida, A ARMA pessoal é armazenada NO compartimento DE armas esquerdo. Armas aleatórias QUE podem SER coletadas POR todos OS pilotos estão armazenadas à direita. Existem especiais ofensivos E defensivos, incluindo mísseis, foguetes, canhões, turbo, escudo E UM buraco DE minhoca QUE teletransporta SEUS oponentes. AO completar UMA volta perfeita, você recebe UMA ARMA especial, COMO O feixe DE estase (imobilização) OU O túnel DO tempo (retarda OS oponentes).</desc>
     <rating>0.80</rating>
     <releasedate>20021018T000000</releasedate>
     <developer>SONY COMPUTER ENTERTAINMENT</developer>
@@ -379,15 +378,15 @@ O JOGO POSSUI UM TOTAL DE 28 NÍVEIS, QUE VARIAM DE LOS ANGELES NA ÉPOCA PRESEN
     <players>1-2</players>
     <region>eu</region>
     <lang>de,fr,it,es,da,en,nl,fi,pt,sv,no</lang>
-    <image>./media/image/Firebugs (BR)-image.png</image>
-    <video>./media/videos/Firebugs (BR)-video.mp4</video>
-    <boxart>./media/image/Firebugs (BR)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Firebugs (BR)-screenshot.png</screenshot>
-    <cartridge>./media/image/Firebugs (BR)-cartridge.png</cartridge>
-    <titleshot>./media/image/Firebugs (BR)-titleshot.png</titleshot>
-    <boxback>./media/image/Firebugs (BR)-boxback.png</boxback>
+    <image>./media/image/Firebugs (Br)-D02AFF69F988.png</image>
+    <video>./media/videos/Firebugs (Br)-C7D6BA37131D.mp4</video>
+    <boxart>./media/image/Firebugs (Br)-D02AFF69F988.png</boxart>
+    <screenshot>./media/screenshots/Firebugs (Br)-6011ED5BAAAF.png</screenshot>
+    <cartridge>./media/image/Firebugs (Br)-9CCD3A19A094.png</cartridge>
+    <titleshot>./media/image/Firebugs (Br)-C0E58982B61E.png</titleshot>
+    <boxback>./media/image/Firebugs (Br)-908E74402F1F.png</boxback>
     <extra1>./media/extras/Firebugs (BR)-extra1.png</extra1>
-    <bezel>./media/image/Firebugs (BR)-bezel.png</bezel>
+    <bezel>./media/image/Firebugs (Br)-91A4D702D0BB.png</bezel>
   </game>
   <game id="19482">
     <path>./Future Cop - L.A.P.D (USA) [19482].chd</path>
@@ -403,19 +402,19 @@ O JOGO POSSUI UM TOTAL DE 28 NÍVEIS, QUE VARIAM DE LOS ANGELES NA ÉPOCA PRESEN
     <players>1-2</players>
     <region>us</region>
     <lang>en</lang>
-    <image>./media/image/Future Cop - L.A.P.D (USA) [19482]-image.png</image>
-    <video>./media/videos/Future Cop - L.A.P.D (USA) [19482]-video.mp4</video>
-    <thumbnail>./media/image/Future Cop - L.A.P.D (USA) [19482]-boxart.png</thumbnail>
-    <boxart>./media/image/Future Cop - L.A.P.D (USA) [19482]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Future Cop - L.A.P.D (USA) [19482]-screenshot.png</screenshot>
-    <cartridge>./media/image/Future Cop - L.A.P.D (USA) [19482]-cartridge.png</cartridge>
+    <image>./media/image/Future Cop - L.A.P.D (USA)-C6DCBB78607D.png</image>
+    <video>./media/videos/Future Cop - L.A.P.D (USA)-162E3C875A91.mp4</video>
+    <thumbnail>./media/image/Future Cop - L.A.P.D (USA)-C6DCBB78607D.png</thumbnail>
+    <boxart>./media/image/Future Cop - L.A.P.D (USA)-C6DCBB78607D.png</boxart>
+    <screenshot>./media/screenshots/Future Cop - L.A.P.D (USA)-2FDE3014934A.png</screenshot>
+    <cartridge>./media/image/Future Cop - L.A.P.D (USA)-3858081C84A0.png</cartridge>
     <mix>./media/image/Future Cop - L.A.P.D (USA) [19482]-image.png</mix>
-    <fanart>./media/fanart/Future Cop - L.A.P.D (USA) [19482]-fanart.jpg</fanart>
-    <titleshot>./media/image/Future Cop - L.A.P.D (USA) [19482]-titleshot.png</titleshot>
-    <manual>./media/manuals/Future Cop - L.A.P.D (USA) [19482]_(eu).pdf</manual>
-    <boxback>./media/image/Future Cop - L.A.P.D (USA) [19482]-boxback.png</boxback>
+    <fanart>./media/fanart/Future Cop - L.A.P.D (USA)-2668C464961C.jpg</fanart>
+    <titleshot>./media/image/Future Cop - L.A.P.D (USA)-3A48A925A5E1.png</titleshot>
+    <manual>./media/manuals/Future Cop - L.A.P.D (USA)-5D73E221B55B.pdf</manual>
+    <boxback>./media/image/Future Cop - L.A.P.D (USA)-C7F140F8801F.png</boxback>
     <extra1>./media/extras/Future Cop - L.A.P.D (USA) [19482]-extra1.png</extra1>
-    <bezel>./media/image/Future Cop - L.A.P.D (USA) [19482]-bezel.png</bezel>
+    <bezel>./media/image/Future Cop - L.A.P.D (USA)-AB2645533676.png</bezel>
   </game>
   <game id="19585">
     <path>./Gekido - Urban Fighters (BR) [19585].chd</path>
@@ -431,27 +430,27 @@ O JOGO POSSUI UM TOTAL DE 28 NÍVEIS, QUE VARIAM DE LOS ANGELES NA ÉPOCA PRESEN
     <players>1-4</players>
     <region>us</region>
     <lang>en</lang>
-    <image>./media/image/Gekido - Urban Fighters (BR) [19585]-image.png</image>
-    <video>./media/videos/Gekido - Urban Fighters (BR) [19585]-video.mp4</video>
-    <thumbnail>./media/image/Gekido - Urban Fighters (BR) [19585]-boxart.png</thumbnail>
-    <marquee>./media/image/Gekido - Urban Fighters (BR) [19585]-marquee.png</marquee>
-    <wheel>./media/image/Gekido - Urban Fighters (BR) [19585]-wheel.png</wheel>
-    <boxart>./media/image/Gekido - Urban Fighters (BR) [19585]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Gekido - Urban Fighters (BR) [19585]-screenshot.png</screenshot>
-    <cartridge>./media/image/Gekido - Urban Fighters (BR) [19585]-cartridge.png</cartridge>
+    <image>./media/image/Gekido - Urban Fighters (Br)-DC211F5BB972.png</image>
+    <video>./media/videos/Gekido - Urban Fighters (Br)-7A70D7045AA5.mp4</video>
+    <thumbnail>./media/image/Gekido - Urban Fighters (Br)-DC211F5BB972.png</thumbnail>
+    <marquee>./media/image/Gekido - Urban Fighters (Br)-EC50BE0B358F.png</marquee>
+    <wheel>./media/image/Gekido - Urban Fighters (Br)-EC50BE0B358F.png</wheel>
+    <boxart>./media/image/Gekido - Urban Fighters (Br)-DC211F5BB972.png</boxart>
+    <screenshot>./media/screenshots/Gekido - Urban Fighters (Br)-789129B18DAC.png</screenshot>
+    <cartridge>./media/image/Gekido - Urban Fighters (Br)-CE0481DB0CCB.png</cartridge>
     <mix>./media/image/Gekido - Urban Fighters (BR) [19585]-image.png</mix>
-    <fanart>./media/fanart/Gekido - Urban Fighters (BR) [19585]-fanart.jpg</fanart>
-    <titleshot>./media/image/Gekido - Urban Fighters (BR) [19585]-titleshot.png</titleshot>
-    <manual>./media/manuals/Gekido - Urban Fighters (BR) [19585]_(us).pdf</manual>
-    <boxback>./media/image/Gekido - Urban Fighters (BR) [19585]-boxback.png</boxback>
+    <fanart>./media/fanart/Gekido - Urban Fighters (Br)-25330984F9FB.jpg</fanart>
+    <titleshot>./media/image/Gekido - Urban Fighters (Br)-9BB7675FB2DF.png</titleshot>
+    <manual>./media/manuals/Gekido - Urban Fighters (Br)-A2FD0B75C49E.pdf</manual>
+    <boxback>./media/image/Gekido - Urban Fighters (Br)-80773E841FE1.png</boxback>
     <extra1>./media/extras/Gekido - Urban Fighters (BR) [19585]-extra1.png</extra1>
-    <bezel>./media/image/Gekido - Urban Fighters (BR) [19585]-bezel.png</bezel>
+    <bezel>./media/image/Gekido - Urban Fighters (Br)-EA0B4320B595.png</bezel>
   </game>
   <game id="19295">
-    <path>./Gran Turismo (BR).chd</path>
+    <path>./Gran Turismo (BR) [19295].chd</path>
     <name>GRAN TURISMO (BR)</name>
     <mode>Multijogador em tela dividida</mode>
-    <desc>GRAN TURISMO É UMA POPULAR E ACLAMADA SÉRIE DE VIDEOGAMES DE CORRIDA AUTOMOTIVA PRODUZIDA PELA POLYPHONY DIGITAL, UM ESTÚDIO QUE COM O PASSAR DO TEMPO SE DEDICOU A DESENVOLVER BASICAMENTE SOMENTE ESTE TITULO. EXCLUSIVA PARA AS PLATAFORMAS PLAYSTATION, OS JOGOS GRAN TURISMO TÊM A INTENÇÃO DE SIMULAR A APARÊNCIA E O DESEMPENHO DE UM GRANDE NUMERO DE VEÍCULOS, EM QUE QUASE TODOS SÃO REPRODUÇÕES LICENCIADAS DE AUTOMÓVEIS REAIS. O PRINCIPAL DESTAQUE DA FRANQUIA E QUE TEM SE TORNADO MAIS FORTE A CADA NOVO GAME DA FRANQUIA, É A INTENÇÃO DE SER UM SIMULADOR DE CORRIDAS, MAS AMIGÁVEL AO JOGADOR CASUAL.</desc>
+    <desc>GRAN turismo é UMA popular E aclamada série DE videogames DE corrida automotiva produzida PELA polyphony digital, UM estúdio QUE COM O passar DO tempo SE dedicou A desenvolver basicamente somente ESTE titulo. Exclusiva PARA AS plataformas playstation, OS jogos GRAN turismo têm A intenção DE simular A aparência E O desempenho DE UM grande numero DE veículos, EM QUE quase todos são reproduções licenciadas DE automóveis reais. O principal destaque DA franquia E QUE TEM SE tornado MAIS forte A CADA NOVO GAME DA franquia, é A intenção DE SER UM simulador DE corridas, MAS amigável AO jogador casual.</desc>
     <rating>0.80</rating>
     <releasedate>19980508T000000</releasedate>
     <developer>POLYPHONY DIGITAL</developer>
@@ -460,21 +459,21 @@ O JOGO POSSUI UM TOTAL DE 28 NÍVEIS, QUE VARIAM DE LOS ANGELES NA ÉPOCA PRESEN
     <genreid>1537</genreid>
     <players>1-2</players>
     <region>eu</region>
-    <image>./media/image/Gran Turismo (BR)-image.png</image>
-    <video>./media/videos/Gran Turismo (BR)-video.mp4</video>
-    <thumbnail>./media/image/Gran Turismo (BR)-boxart.png</thumbnail>
-    <marquee>./media/image/Gran Turismo (BR)-marquee.png</marquee>
-    <wheel>./media/image/Gran Turismo (BR)-wheel.png</wheel>
-    <boxart>./media/image/Gran Turismo (BR)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Gran Turismo (BR)-screenshot.png</screenshot>
-    <cartridge>./media/image/Gran Turismo (BR)-cartridge.png</cartridge>
+    <image>./media/image/Gran Turismo (Br)-4DC561BEDD97.png</image>
+    <video>./media/videos/Gran Turismo (Br)-012A4B8F6603.mp4</video>
+    <thumbnail>./media/image/Gran Turismo (Br)-4DC561BEDD97.png</thumbnail>
+    <marquee>./media/image/Gran Turismo (Br)-70B5C1B917AA.png</marquee>
+    <wheel>./media/image/Gran Turismo (Br)-70B5C1B917AA.png</wheel>
+    <boxart>./media/image/Gran Turismo (Br)-4DC561BEDD97.png</boxart>
+    <screenshot>./media/screenshots/Gran Turismo (Br)-81D9277D37F6.png</screenshot>
+    <cartridge>./media/image/Gran Turismo (Br)-C2A11DFE24F1.png</cartridge>
     <mix>./media/image/Gran Turismo (BR)-image.png</mix>
-    <fanart>./media/fanart/Gran Turismo (BR)-fanart.jpg</fanart>
-    <titleshot>./media/image/Gran Turismo (BR)-titleshot.png</titleshot>
-    <manual>./media/manuals/Gran Turismo (BR)_(us).pdf</manual>
-    <boxback>./media/image/Gran Turismo (BR)-boxback.png</boxback>
+    <fanart>./media/fanart/Gran Turismo (Br)-D2E2649F5E28.jpg</fanart>
+    <titleshot>./media/image/Gran Turismo (Br)-5F15282DE22C.png</titleshot>
+    <manual>./media/manuals/Gran Turismo (Br)-D3C3A2CD91C8.pdf</manual>
+    <boxback>./media/image/Gran Turismo (Br)-96B59133D795.png</boxback>
     <extra1>./media/extras/Gran Turismo (BR)-extra1.png</extra1>
-    <bezel>./media/image/Gran Turismo (BR)-bezel.png</bezel>
+    <bezel>./media/image/Gran Turismo (Br)-F19D4704E636.png</bezel>
   </game>
   <game id="19312">
     <path>./Heart Of Darkness (USA) [19312].PBP</path>
@@ -489,21 +488,21 @@ O JOGO POSSUI UM TOTAL DE 28 NÍVEIS, QUE VARIAM DE LOS ANGELES NA ÉPOCA PRESEN
     <genreid>257</genreid>
     <players>1</players>
     <region>us</region>
-    <image>./media/image/Heart Of Darkness (USA) [19312]-image.png</image>
-    <video>./media/videos/Heart Of Darkness (USA) [19312]-video.mp4</video>
-    <thumbnail>./media/image/Heart Of Darkness (USA) [19312]-boxart.png</thumbnail>
-    <marquee>./media/image/Heart Of Darkness (USA) [19312]-marquee.png</marquee>
-    <wheel>./media/image/Heart Of Darkness (USA) [19312]-wheel.png</wheel>
-    <boxart>./media/image/Heart Of Darkness (USA) [19312]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Heart Of Darkness (USA) [19312]-screenshot.png</screenshot>
-    <cartridge>./media/image/Heart Of Darkness (USA) [19312]-cartridge.png</cartridge>
+    <image>./media/image/Heart Of Darkness (USA)-2A1FCC0A1A27.png</image>
+    <video>./media/videos/Heart Of Darkness (USA)-3AF9C18AAA6B.mp4</video>
+    <thumbnail>./media/image/Heart Of Darkness (USA)-2A1FCC0A1A27.png</thumbnail>
+    <marquee>./media/image/Heart Of Darkness (USA)-6E678D44AD59.png</marquee>
+    <wheel>./media/image/Heart Of Darkness (USA)-6E678D44AD59.png</wheel>
+    <boxart>./media/image/Heart Of Darkness (USA)-2A1FCC0A1A27.png</boxart>
+    <screenshot>./media/screenshots/Heart Of Darkness (USA)-E2369F8797D2.png</screenshot>
+    <cartridge>./media/image/Heart Of Darkness (USA)-2B1A22684944.png</cartridge>
     <mix>./media/image/Heart Of Darkness (USA) [19312]-image.png</mix>
-    <fanart>./media/fanart/Heart Of Darkness (USA) [19312]-fanart.jpg</fanart>
-    <titleshot>./media/image/Heart Of Darkness (USA) [19312]-titleshot.png</titleshot>
-    <manual>./media/manuals/Heart Of Darkness (USA) [19312]_(us).pdf</manual>
-    <boxback>./media/image/Heart Of Darkness (USA) [19312]-boxback.png</boxback>
+    <fanart>./media/fanart/Heart Of Darkness (USA)-88C0A2B32618.jpg</fanart>
+    <titleshot>./media/image/Heart Of Darkness (USA)-F123AAA70C3C.png</titleshot>
+    <manual>./media/manuals/Heart Of Darkness (USA)-1B06DC7388DD.pdf</manual>
+    <boxback>./media/image/Heart Of Darkness (USA)-336251C4809A.png</boxback>
     <extra1>./media/extras/Heart Of Darkness (USA) [19312]-extra1.png</extra1>
-    <bezel>./media/image/Heart Of Darkness (USA) [19312]-bezel.png</bezel>
+    <bezel>./media/image/Heart Of Darkness (USA)-B9C1AE269350.png</bezel>
   </game>
   <game id="19491">
     <path>./Jackie Chan Stuntmaster (BR) [19491].chd</path>
@@ -519,19 +518,19 @@ PORÉM, SEGUINDO NA BUSCA DE SEU AVÔ, ELE ACABA NUM BECO SEM SAÍDA, DE ONDE EL
     <genreid>263</genreid>
     <players>1</players>
     <region>us</region>
-    <image>./media/image/Jackie Chan Stuntmaster (BR) [19491]-image.png</image>
-    <video>./media/videos/Jackie Chan Stuntmaster (BR) [19491]-video.mp4</video>
-    <thumbnail>./media/image/Jackie Chan Stuntmaster (BR) [19491]-boxart.png</thumbnail>
-    <boxart>./media/image/Jackie Chan Stuntmaster (BR) [19491]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Jackie Chan Stuntmaster (BR) [19491]-screenshot.png</screenshot>
-    <cartridge>./media/image/Jackie Chan Stuntmaster (BR) [19491]-cartridge.png</cartridge>
+    <image>./media/image/Jackie Chan Stuntmaster (Br)-9E6BD6CDF473.png</image>
+    <video>./media/videos/Jackie Chan Stuntmaster (Br)-B3CF7F7799DB.mp4</video>
+    <thumbnail>./media/image/Jackie Chan Stuntmaster (Br)-9E6BD6CDF473.png</thumbnail>
+    <boxart>./media/image/Jackie Chan Stuntmaster (Br)-9E6BD6CDF473.png</boxart>
+    <screenshot>./media/screenshots/Jackie Chan Stuntmaster (Br)-AD6922CC4D60.png</screenshot>
+    <cartridge>./media/image/Jackie Chan Stuntmaster (Br)-56CE5E679F37.png</cartridge>
     <mix>./media/image/Jackie Chan Stuntmaster (BR) [19491]-image.png</mix>
-    <fanart>./media/fanart/Jackie Chan Stuntmaster (BR) [19491]-fanart.jpg</fanart>
-    <titleshot>./media/image/Jackie Chan Stuntmaster (BR) [19491]-titleshot.png</titleshot>
-    <manual>./media/manuals/Jackie Chan Stuntmaster (BR) [19491]_(us).pdf</manual>
-    <boxback>./media/image/Jackie Chan Stuntmaster (BR) [19491]-boxback.png</boxback>
+    <fanart>./media/fanart/Jackie Chan Stuntmaster (Br)-2609F423417B.jpg</fanart>
+    <titleshot>./media/image/Jackie Chan Stuntmaster (Br)-F7C19D8E7BD9.png</titleshot>
+    <manual>./media/manuals/Jackie Chan Stuntmaster (Br)-A3ABDF8BA0E6.pdf</manual>
+    <boxback>./media/image/Jackie Chan Stuntmaster (Br)-3C5320763378.png</boxback>
     <extra1>./media/extras/Jackie Chan Stuntmaster (BR) [19491]-extra1.png</extra1>
-    <bezel>./media/image/Jackie Chan Stuntmaster (BR) [19491]-bezel.png</bezel>
+    <bezel>./media/image/Jackie Chan Stuntmaster (Br)-26CB133BD06A.png</bezel>
   </game>
   <game id="19468">
     <path>./Klonoa - Door To Phantomile (USA) [19468].chd</path>
@@ -547,25 +546,25 @@ PORÉM, SEGUINDO NA BUSCA DE SEU AVÔ, ELE ACABA NUM BECO SEM SAÍDA, DE ONDE EL
     <players>1</players>
     <region>us</region>
     <lang>en</lang>
-    <image>./media/image/Klonoa - Door To Phantomile (USA) [19468]-image.png</image>
-    <video>./media/videos/Klonoa - Door To Phantomile (USA) [19468]-video.mp4</video>
-    <thumbnail>./media/image/Klonoa - Door To Phantomile (USA) [19468]-boxart.png</thumbnail>
-    <boxart>./media/image/Klonoa - Door To Phantomile (USA) [19468]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Klonoa - Door To Phantomile (USA) [19468]-screenshot.png</screenshot>
-    <cartridge>./media/image/Klonoa - Door To Phantomile (USA) [19468]-cartridge.png</cartridge>
+    <image>./media/image/Klonoa - Door To Phantomile (USA)-4D4E36CA7F2C.png</image>
+    <video>./media/videos/Klonoa - Door To Phantomile (USA)-AF5A752BBAFC.mp4</video>
+    <thumbnail>./media/image/Klonoa - Door To Phantomile (USA)-4D4E36CA7F2C.png</thumbnail>
+    <boxart>./media/image/Klonoa - Door To Phantomile (USA)-4D4E36CA7F2C.png</boxart>
+    <screenshot>./media/screenshots/Klonoa - Door To Phantomile (USA)-7FFBAF838283.png</screenshot>
+    <cartridge>./media/image/Klonoa - Door To Phantomile (USA)-C6C7C33219A5.png</cartridge>
     <mix>./media/image/Klonoa - Door To Phantomile (USA) [19468]-image.png</mix>
-    <fanart>./media/fanart/Klonoa - Door To Phantomile (USA) [19468]-fanart.jpg</fanart>
-    <titleshot>./media/image/Klonoa - Door To Phantomile (USA) [19468]-titleshot.png</titleshot>
-    <manual>./media/manuals/Klonoa - Door To Phantomile (USA) [19468]_(eu).pdf</manual>
-    <boxback>./media/image/Klonoa - Door To Phantomile (USA) [19468]-boxback.png</boxback>
+    <fanart>./media/fanart/Klonoa - Door To Phantomile (USA)-F2AFBF77A4C8.jpg</fanart>
+    <titleshot>./media/image/Klonoa - Door To Phantomile (USA)-F428EBF242DB.png</titleshot>
+    <manual>./media/manuals/Klonoa - Door To Phantomile (USA)-E956BE2D59EF.pdf</manual>
+    <boxback>./media/image/Klonoa - Door To Phantomile (USA)-DD299AB462E9.png</boxback>
     <extra1>./media/extras/Klonoa - Door To Phantomile (USA) [19468]-extra1.png</extra1>
-    <bezel>./media/image/Klonoa - Door To Phantomile (USA) [19468]-bezel.png</bezel>
+    <bezel>./media/image/Klonoa - Door To Phantomile (USA)-90F963072490.png</bezel>
   </game>
   <game id="19290">
-    <path>./Legacy Of Kain - Soul Reaver (BR).7z</path>
+    <path>./Legacy Of Kain - Soul Reaver (BR) [19290].7z</path>
     <name>LEGACY OF KAIN - SOUL REAVER (BR)</name>
     <mode>Jogador individual</mode>
-    <desc>1500 ANOS APÓS BLOOD OMEN: LEGACY OF KAIN, A DECISÃO DO VAMPIRO KAIN NO FINAL DO JOGO FINALMENTE DERROTOU OS REINOS HUMANOS E TROUXE O MUNDO DE NOSGOTH SOB SEU CONTROLE. GOVERNANDO DE UM CASTELO CONSTRUÍDO SOBRE OS PILARES DE NOSGOTH, KAIN ESTABELECEU UM IMPÉRIO DE SEIS CLÃS DE VAMPIROS, CADA UM GOVERNADO POR UM TENENTE, OS FILHOS DE KAIN. RAZIEL FOI UM DESSES TENENTES, MAS PERDEU SUA POSIÇÃO ATRAVÉS DA "INSOLÊNCIA" DE RECEBER UM NOVO "PRESENTE SOMBRIO" EVOLUCIONÁRIO, O CRESCIMENTO DE ASAS EMPLUMADAS, ANTES QUE SEU MESTRE O TIVESSE ADQUIRIDO. TEMENDO QUE RAZIEL PUDESSE UM DIA SUPERÁ-LO, KAIN ARRANCA AS ASAS DE RAZIEL EM UM AJUSTE DE ALCANCE E O BANE PARA O ABISMO. LÁ, RAZIEL SE PERDEU NO TEMPO, MORREU E SEU CORPO FOI CONSUMIDO. O ELDER GOD RECUPERA A ALMA DE RAZIEL E RECONSTRÓI O CORPO QUEBRADO, NÃO COMO UM VAMPIRO VIVO, MAS COMO UMA ESTRANHA NOVA CRIATURA DO SUBMUNDO. JURANDO VINGANÇA SOBRE KAIN, RAZIEL AGORA MUDA PERFEITAMENTE ENTRE NOSGOTH E SEU SUBMUNDO, USANDO SEUS NOVOS PODERES PARA SE TORNAR UM TERRÍVEL DESTRUIDOR DE ALMAS ...</desc>
+    <desc>1500 ANOS após blood omen: legacy OF kain, A decisão DO vampiro KAIN NO final DO JOGO finalmente derrotou OS reinos humanos E trouxe O mundo DE nosgoth SOB SEU controle. Governando DE UM castelo construído sobre OS pilares DE nosgoth, KAIN estabeleceu UM império DE SEIS clãs DE vampiros, CADA UM governado POR UM tenente, OS filhos DE kain. Raziel FOI UM desses tenentes, MAS perdeu SUA posição através DA "insolência" DE receber UM NOVO "presente sombrio" evolucionário, O crescimento DE ASAS emplumadas, antes QUE SEU mestre O tivesse adquirido. Temendo QUE raziel pudesse UM DIA superá-lo, KAIN arranca AS ASAS DE raziel EM UM ajuste DE alcance E O BANE PARA O abismo. Lá, raziel SE perdeu NO tempo, morreu E SEU corpo FOI consumido. O elder GOD recupera A ALMA DE raziel E reconstrói O corpo quebrado, não COMO UM vampiro vivo, MAS COMO UMA estranha NOVA criatura DO submundo. Jurando vingança sobre kain, raziel agora MUDA perfeitamente entre nosgoth E SEU submundo, usando SEUS novos poderes PARA SE tornar UM terrível destruidor DE almas ...</desc>
     <rating>0.80</rating>
     <releasedate>19990903T000000</releasedate>
     <developer>CRYSTAL DYNAMICS</developer>
@@ -577,29 +576,26 @@ PORÉM, SEGUINDO NA BUSCA DE SEU AVÔ, ELE ACABA NUM BECO SEM SAÍDA, DE ONDE EL
     <hash>0BEBFCD7</hash>
     <region>eu</region>
     <lang>en</lang>
-    <image>./media/image/Legacy Of Kain - Soul Reaver (BR)-image.png</image>
-    <video>./media/videos/Legacy Of Kain - Soul Reaver (BR)-video.mp4</video>
-    <thumbnail>./media/image/Legacy Of Kain - Soul Reaver (BR)-boxart.png</thumbnail>
-    <marquee>./media/image/Legacy Of Kain - Soul Reaver (BR)-marquee.png</marquee>
-    <wheel>./media/image/Legacy Of Kain - Soul Reaver (BR)-wheel.png</wheel>
-    <boxart>./media/image/Legacy Of Kain - Soul Reaver (BR)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Legacy Of Kain - Soul Reaver (BR)-screenshot.png</screenshot>
-    <cartridge>./media/image/Legacy Of Kain - Soul Reaver (BR)-cartridge.png</cartridge>
+    <image>./media/image/Legacy Of Kain - Soul Reaver (Br)-61316B0E245A.png</image>
+    <video>./media/videos/Legacy Of Kain - Soul Reaver (Br)-FAF6787A250D.mp4</video>
+    <thumbnail>./media/image/Legacy Of Kain - Soul Reaver (Br)-61316B0E245A.png</thumbnail>
+    <marquee>./media/image/Legacy Of Kain - Soul Reaver (Br)-73A4D5DA3427.png</marquee>
+    <wheel>./media/image/Legacy Of Kain - Soul Reaver (Br)-73A4D5DA3427.png</wheel>
+    <boxart>./media/image/Legacy Of Kain - Soul Reaver (Br)-61316B0E245A.png</boxart>
+    <screenshot>./media/screenshots/Legacy Of Kain - Soul Reaver (Br)-7874254226C6.png</screenshot>
+    <cartridge>./media/image/Legacy Of Kain - Soul Reaver (Br)-A2451D0D07F2.png</cartridge>
     <mix>./media/image/Legacy Of Kain - Soul Reaver (BR)-image.png</mix>
-    <fanart>./media/fanart/Legacy Of Kain - Soul Reaver (BR)-fanart.jpg</fanart>
-    <titleshot>./media/image/Legacy Of Kain - Soul Reaver (BR)-titleshot.png</titleshot>
-    <manual>./media/manuals/Legacy Of Kain - Soul Reaver (BR)_(us).pdf</manual>
-    <boxback>./media/image/Legacy Of Kain - Soul Reaver (BR)-boxback.png</boxback>
+    <fanart>./media/fanart/Legacy Of Kain - Soul Reaver (Br)-BD68FBD7A863.jpg</fanart>
+    <titleshot>./media/image/Legacy Of Kain - Soul Reaver (Br)-A7B989937A47.png</titleshot>
+    <manual>./media/manuals/Legacy Of Kain - Soul Reaver (Br)-0B3B7B466821.pdf</manual>
+    <boxback>./media/image/Legacy Of Kain - Soul Reaver (Br)-ACBD7FB22398.png</boxback>
     <extra1>./media/extras/Legacy Of Kain - Soul Reaver (BR)-extra1.png</extra1>
-    <bezel>./media/image/Legacy Of Kain - Soul Reaver (BR)-bezel.png</bezel>
+    <bezel>./media/image/Legacy Of Kain - Soul Reaver (Br)-701AC9FFB98B.png</bezel>
   </game>
   <game id="19657">
-    <path>./Looney Tunes Racing (BR).chd</path>
+    <path>./Looney Tunes Racing (BR) [19657].chd</path>
     <name>LOONEY TUNES RACING (BR)</name>
-    <desc>LOONEY TUNES RACING É UM JOGO DE CORRIDA DE KART PARA PLAYSTATION. EXISTEM ALGUMAS SEMELHANÇAS DEFINITIVAS ENTRE ESTE TÍTULO E CRASH TEAM RACING, TANTO NA MECÂNICA QUANTO NA PROFUNDIDADE DO JOGO. COMPLETAMENTE IMERSO NO HUMOR E NA ALMA DA LICENÇA LOONEY TUNES, O JOGADOR COMEÇA O JOGO COM APENAS ALGUNS PERSONAGENS E NÍVEIS DISPONÍVEIS, MAS À MEDIDA QUE O JOGO AVANÇA, RECURSOS SÃO DESBLOQUEADOS, INCLUINDO NOVOS PERSONAGENS, NÍVEIS E DESAFIOS.
-CADA PERSONAGEM TEM UM VEÍCULO EXCLUSIVO COM TEMA EXCLUSIVO PARA ELES E É ACOMPANHADO POR PROVOCAÇÕES DE VOZ, FORNECIDAS POR DUBLADORES LICENCIADOS PELA WARNER BROS., E ANIMAÇÕES ESPECÍFICAS DOS PERSONAGENS QUE AJUDAM A DAR VIDA A ESSES PERSONAGENS.
-AS ARMAS QUE O JOGADOR PODE LANÇAR SOBRE OS OPONENTES INCLUEM BOMBAS DE CEREJA, TORTAS DE CREME, NUVENS DE TROVÃO COM RELÂMPAGOS DEVASTADORES E BIGORNAS GIGANTES QUE CAEM DO CÉU. ALÉM DISSO, CADA NÍVEL COM TEMA EXCLUSIVO TEM UMA SÉRIE DE DIVERTIDAS ARMADILHAS E OBSTÁCULOS QUE O JOGADOR PODE LIBERAR PARA DESACELERAR SEUS INIMIGOS. O JOGADOR PODE FAZER CAIR PEDRAS, LANÇAR LUVAS DE BOXE GIGANTES NAS MOLAS E ATROPELAR OS OPONENTES COM OVELHAS NOS DESFILADEIROS DE ROCHA VERMELHA, FAZER COM QUE A ESPAÇONAVE DISPARE LASERS NO NÍVEL MARCIANO E ATIVAR UM CAVALO BRANCO ENORME E GORDO NO ESTÁGIO OPERA PARA ENTRAR E ATACAR OS INIMIGOS. ATÉ MESMO GOSSAMER, O GRANDE MONSTRO FEITO INTEIRAMENTE DE CABELO RUIVO (EXCETO AQUELES GRANDES OLHOS BRANCOS E TÊNIS BRANCOS), FAZ UMA PARTICIPAÇÃO ESPECIAL NO NÍVEL DO CASTELO DE GOSSAMER, QUANDO SAI DIRETO PARA A PISTA PARA ELIMINAR QUALQUER TRÁFEGO QUE SE APROXIMA.
-ALÉM DAS CORRIDAS, OUTROS MODOS DE JOGO DIGNOS DE NOTA INCLUEM O MODO DE BATALHA MULTIJOGADOR, ONDE OS JOGADORES BASICAMENTE SE ESMURRAM COM ARMAS MALUCAS, E OS DESAFIOS ACME, QUE INCLUEM DESAFIOS COMO BOSS RACES (CONTRA PORKY PIG, POR EXEMPLO), PEGANDO ITENS-CHAVE EM UMA DETERMINADA ORDEM E OUTROS.</desc>
+    <desc>Looney tunes racing é UM JOGO DE corrida DE KART PARA playstation. Existem algumas semelhanças definitivas entre ESTE título E crash TEAM racing, tanto NA mecânica quanto NA profundidade DO jogo. Completamente imerso NO humor E NA ALMA DA licença looney tunes, O jogador começa O JOGO COM apenas alguns personagens E níveis disponíveis, MAS à medida QUE O JOGO avança, recursos são desbloqueados, incluindo novos personagens, níveis E desafios. CADA personagem TEM UM veículo exclusivo COM TEMA exclusivo PARA ELES E é acompanhado POR provocações DE voz, fornecidas POR dubladores licenciados PELA warner bros., E animações específicas DOS personagens QUE ajudam A DAR VIDA A esses personagens. AS armas QUE O jogador PODE lançar sobre OS oponentes incluem bombas DE cereja, tortas DE creme, nuvens DE trovão COM relâmpagos devastadores E bigornas gigantes QUE CAEM DO céu. Além disso, CADA nível COM TEMA exclusivo TEM UMA série DE divertidas armadilhas E obstáculos QUE O jogador PODE liberar PARA desacelerar SEUS inimigos. O jogador PODE fazer CAIR pedras, lançar luvas DE BOXE gigantes NAS molas E atropelar OS oponentes COM ovelhas NOS desfiladeiros DE rocha vermelha, fazer COM QUE A espaçonave dispare lasers NO nível marciano E ativar UM cavalo branco enorme E gordo NO estágio opera PARA entrar E atacar OS inimigos. Até mesmo gossamer, O grande monstro feito inteiramente DE cabelo ruivo (exceto aqueles grandes olhos brancos E tênis brancos), FAZ UMA participação especial NO nível DO castelo DE gossamer, quando SAI direto PARA A pista PARA eliminar qualquer tráfego QUE SE aproxima. Além DAS corridas, outros modos DE JOGO dignos DE NOTA incluem O MODO DE batalha multijogador, ONDE OS jogadores basicamente SE esmurram COM armas malucas, E OS desafios acme, QUE incluem desafios COMO BOSS races (contra porky pig, POR exemplo), pegando itens-chave EM UMA determinada ordem E outros.</desc>
     <rating>0.60</rating>
     <releasedate>20001210T000000</releasedate>
     <developer>CIRCUS FREAK</developer>
@@ -609,17 +605,17 @@ ALÉM DAS CORRIDAS, OUTROS MODOS DE JOGO DIGNOS DE NOTA INCLUEM O MODO DE BATALH
     <players>1-2</players>
     <region>us</region>
     <lang>en,fr,es</lang>
-    <image>./media/image/Looney Tunes Racing (BR)-image.png</image>
-    <video>./media/videos/Looney Tunes Racing (BR)-video.mp4</video>
-    <boxart>./media/image/Looney Tunes Racing (BR)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Looney Tunes Racing (BR)-screenshot.png</screenshot>
-    <cartridge>./media/image/Looney Tunes Racing (BR)-cartridge.png</cartridge>
-    <fanart>./media/fanart/Looney Tunes Racing (BR)-fanart.jpg</fanart>
-    <titleshot>./media/image/Looney Tunes Racing (BR)-titleshot.png</titleshot>
-    <manual>./media/manuals/Looney Tunes Racing (BR)_(us).pdf</manual>
-    <boxback>./media/image/Looney Tunes Racing (BR)-boxback.png</boxback>
+    <image>./media/image/Looney Tunes Racing (Br)-72D238616970.png</image>
+    <video>./media/videos/Looney Tunes Racing (Br)-D4DDDDD4A465.mp4</video>
+    <boxart>./media/image/Looney Tunes Racing (Br)-72D238616970.png</boxart>
+    <screenshot>./media/screenshots/Looney Tunes Racing (Br)-D6ACC97AEEE8.png</screenshot>
+    <cartridge>./media/image/Looney Tunes Racing (Br)-314C010B94FE.png</cartridge>
+    <fanart>./media/fanart/Looney Tunes Racing (Br)-A840632893E4.jpg</fanart>
+    <titleshot>./media/image/Looney Tunes Racing (Br)-9A849DDD7EBF.png</titleshot>
+    <manual>./media/manuals/Looney Tunes Racing (Br)-4279D158C8A5.pdf</manual>
+    <boxback>./media/image/Looney Tunes Racing (Br)-1319A9CC0E4E.png</boxback>
     <extra1>./media/extras/Looney Tunes Racing (BR)-extra1.png</extra1>
-    <bezel>./media/image/Looney Tunes Racing (BR)-bezel.png</bezel>
+    <bezel>./media/image/Looney Tunes Racing (Br)-89052BF4FAAB.png</bezel>
   </game>
   <game id="19940">
     <path>./Mega Man X4 (BR) [19940].chd</path>
@@ -634,18 +630,18 @@ ALÉM DAS CORRIDAS, OUTROS MODOS DE JOGO DIGNOS DE NOTA INCLUEM O MODO DE BATALH
     <players>1</players>
     <region>us</region>
     <lang>en</lang>
-    <image>./media/image/Mega Man X4 (BR) [19940]-image.png</image>
-    <video>./media/videos/Mega Man X4 (BR) [19940]-video.mp4</video>
-    <thumbnail>./media/image/Mega Man X4 (BR) [19940]-boxart.png</thumbnail>
-    <boxart>./media/image/Mega Man X4 (BR) [19940]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Mega Man X4 (BR) [19940]-screenshot.png</screenshot>
-    <cartridge>./media/image/Mega Man X4 (BR) [19940]-cartridge.png</cartridge>
+    <image>./media/image/Mega Man X4 (Br)-553C633D09DD.png</image>
+    <video>./media/videos/Mega Man X4 (Br)-D184A3EB23AF.mp4</video>
+    <thumbnail>./media/image/Mega Man X4 (Br)-553C633D09DD.png</thumbnail>
+    <boxart>./media/image/Mega Man X4 (Br)-553C633D09DD.png</boxart>
+    <screenshot>./media/screenshots/Mega Man X4 (Br)-22A40E051CD7.png</screenshot>
+    <cartridge>./media/image/Mega Man X4 (Br)-1D81DB438FAA.png</cartridge>
     <mix>./media/image/Mega Man X4 (BR) [19940]-image.png</mix>
-    <fanart>./media/fanart/Mega Man X4 (BR) [19940]-fanart.jpg</fanart>
-    <manual>./media/manuals/Mega Man X4 (BR) [19940]_(eu).pdf</manual>
-    <boxback>./media/image/Mega Man X4 (BR) [19940]-boxback.png</boxback>
+    <fanart>./media/fanart/Mega Man X4 (Br)-AD436AFBB274.jpg</fanart>
+    <manual>./media/manuals/Mega Man X4 (Br)-AF8CAF1B2244.pdf</manual>
+    <boxback>./media/image/Mega Man X4 (Br)-512C181292F7.png</boxback>
     <extra1>./media/extras/Mega Man X4 (BR) [19940]-extra1.png</extra1>
-    <bezel>./media/image/Mega Man X4 (BR) [19940]-bezel.png</bezel>
+    <bezel>./media/image/Mega Man X4 (Br)-29B84A1DC735.png</bezel>
   </game>
   <game id="19476">
     <path>./Metal Slug X (USA) [19476].chd</path>
@@ -664,19 +660,19 @@ MAIS CONTEÚDO: SPECIAL COMBAT SCHOOL E GALLERY SECTION IRÃO PREENCHER AS LACUN
     <genreid>256</genreid>
     <players>1-2</players>
     <region>eu</region>
-    <image>./media/image/Metal Slug X (USA) [19476]-image.png</image>
-    <video>./media/videos/Metal Slug X (USA) [19476]-video.mp4</video>
-    <thumbnail>./media/image/Metal Slug X (USA) [19476]-boxart.png</thumbnail>
-    <boxart>./media/image/Metal Slug X (USA) [19476]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Metal Slug X (USA) [19476]-screenshot.png</screenshot>
-    <cartridge>./media/image/Metal Slug X (USA) [19476]-cartridge.png</cartridge>
+    <image>./media/image/Metal Slug X (USA)-55AF74C82681.png</image>
+    <video>./media/videos/Metal Slug X (USA)-32EF6FB0A968.mp4</video>
+    <thumbnail>./media/image/Metal Slug X (USA)-55AF74C82681.png</thumbnail>
+    <boxart>./media/image/Metal Slug X (USA)-55AF74C82681.png</boxart>
+    <screenshot>./media/screenshots/Metal Slug X (USA)-C7F1A93CF3F6.png</screenshot>
+    <cartridge>./media/image/Metal Slug X (USA)-C01A53422CDC.png</cartridge>
     <mix>./media/image/Metal Slug X (USA) [19476]-image.png</mix>
-    <fanart>./media/fanart/Metal Slug X (USA) [19476]-fanart.jpg</fanart>
-    <titleshot>./media/image/Metal Slug X (USA) [19476]-titleshot.png</titleshot>
-    <manual>./media/manuals/Metal Slug X (USA) [19476]_(us).pdf</manual>
-    <boxback>./media/image/Metal Slug X (USA) [19476]-boxback.png</boxback>
+    <fanart>./media/fanart/Metal Slug X (USA)-9CAA9C1AE0A9.jpg</fanart>
+    <titleshot>./media/image/Metal Slug X (USA)-F5D0890C3D46.png</titleshot>
+    <manual>./media/manuals/Metal Slug X (USA)-47A643E5EDD0.pdf</manual>
+    <boxback>./media/image/Metal Slug X (USA)-FE352872AC7C.png</boxback>
     <extra1>./media/extras/Metal Slug X (USA) [19476]-extra1.png</extra1>
-    <bezel>./media/image/Metal Slug X (USA) [19476]-bezel.png</bezel>
+    <bezel>./media/image/Metal Slug X (USA)-8C5D7BF29842.png</bezel>
   </game>
   <game id="19487">
     <path>./Mortal Kombat 4 (BR) [19487].chd</path>
@@ -691,21 +687,21 @@ MAIS CONTEÚDO: SPECIAL COMBAT SCHOOL E GALLERY SECTION IRÃO PREENCHER AS LACUN
     <players>1-2</players>
     <region>us</region>
     <lang>en</lang>
-    <image>./media/image/Mortal Kombat 4 (BR) [19487]-image.png</image>
-    <video>./media/videos/Mortal Kombat 4 (BR) [19487]-video.mp4</video>
-    <thumbnail>./media/image/Mortal Kombat 4 (BR) [19487]-boxart.png</thumbnail>
-    <marquee>./media/image/Mortal Kombat 4 (BR) [19487]-marquee.png</marquee>
-    <wheel>./media/image/Mortal Kombat 4 (BR) [19487]-wheel.png</wheel>
-    <boxart>./media/image/Mortal Kombat 4 (BR) [19487]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Mortal Kombat 4 (BR) [19487]-screenshot.png</screenshot>
-    <cartridge>./media/image/Mortal Kombat 4 (BR) [19487]-cartridge.png</cartridge>
+    <image>./media/image/Mortal Kombat 4 (Br)-598514618A3D.png</image>
+    <video>./media/videos/Mortal Kombat 4 (Br)-BF88164FB0EC.mp4</video>
+    <thumbnail>./media/image/Mortal Kombat 4 (Br)-598514618A3D.png</thumbnail>
+    <marquee>./media/image/Mortal Kombat 4 (Br)-1DCDF174F82C.png</marquee>
+    <wheel>./media/image/Mortal Kombat 4 (Br)-1DCDF174F82C.png</wheel>
+    <boxart>./media/image/Mortal Kombat 4 (Br)-598514618A3D.png</boxart>
+    <screenshot>./media/screenshots/Mortal Kombat 4 (Br)-3746B25B6F64.png</screenshot>
+    <cartridge>./media/image/Mortal Kombat 4 (Br)-08AD854718BF.png</cartridge>
     <mix>./media/image/Mortal Kombat 4 (BR) [19487]-image.png</mix>
     <fanart>./media/fanart/Mortal Kombat 4 (BR) [19487]-fanart.jpg</fanart>
-    <titleshot>./media/image/Mortal Kombat 4 (BR) [19487]-titleshot.png</titleshot>
-    <manual>./media/manuals/Mortal Kombat 4 (BR) [19487]_(us).pdf</manual>
-    <boxback>./media/image/Mortal Kombat 4 (BR) [19487]-boxback.png</boxback>
+    <titleshot>./media/image/Mortal Kombat 4 (Br)-5CA8ED9AEF48.png</titleshot>
+    <manual>./media/manuals/Mortal Kombat 4 (Br)-69CE142E6856.pdf</manual>
+    <boxback>./media/image/Mortal Kombat 4 (Br)-EEE6CC60E3CE.png</boxback>
     <extra1>./media/extras/Mortal Kombat 4 (BR) [19487]-extra1.png</extra1>
-    <bezel>./media/image/Mortal Kombat 4 (BR) [19487]-bezel.png</bezel>
+    <bezel>./media/image/Mortal Kombat 4 (Br)-385A855B1564.png</bezel>
   </game>
   <game id="19980">
     <path>./N2o - Nitrous Oxide (USA) [19980].chd</path>
@@ -720,20 +716,20 @@ O ÓXIDO NITROSO, UM SUBPRODUTO POLUENTE EMITIDO DENTRO DO TORUS, FORNECE UM COM
     <genreid>0</genreid>
     <players>1-2</players>
     <region>us</region>
-    <image>./media/image/N2o - Nitrous Oxide (USA) [19980]-image.png</image>
-    <video>./media/videos/N2o - Nitrous Oxide (USA) [19980]-video.mp4</video>
-    <thumbnail>./media/image/N2o - Nitrous Oxide (USA) [19980]-boxart.png</thumbnail>
-    <marquee>./media/image/N2o - Nitrous Oxide (USA) [19980]-marquee.png</marquee>
-    <wheel>./media/image/N2o - Nitrous Oxide (USA) [19980]-wheel.png</wheel>
-    <boxart>./media/image/N2o - Nitrous Oxide (USA) [19980]-boxart.png</boxart>
-    <screenshot>./media/screenshots/N2o - Nitrous Oxide (USA) [19980]-screenshot.png</screenshot>
-    <cartridge>./media/image/N2o - Nitrous Oxide (USA) [19980]-cartridge.png</cartridge>
+    <image>./media/image/N2o - Nitrous Oxide (USA)-8F7A17A07658.png</image>
+    <video>./media/videos/N2o - Nitrous Oxide (USA)-512EBD0CEF49.mp4</video>
+    <thumbnail>./media/image/N2o - Nitrous Oxide (USA)-8F7A17A07658.png</thumbnail>
+    <marquee>./media/image/N2o - Nitrous Oxide (USA)-49849D45567C.png</marquee>
+    <wheel>./media/image/N2o - Nitrous Oxide (USA)-49849D45567C.png</wheel>
+    <boxart>./media/image/N2o - Nitrous Oxide (USA)-8F7A17A07658.png</boxart>
+    <screenshot>./media/screenshots/N2o - Nitrous Oxide (USA)-0A9ED64FF8AB.png</screenshot>
+    <cartridge>./media/image/N2o - Nitrous Oxide (USA)-C9DD5D97AA22.png</cartridge>
     <mix>./media/image/N2o - Nitrous Oxide (USA) [19980]-image.png</mix>
-    <titleshot>./media/image/N2o - Nitrous Oxide (USA) [19980]-titleshot.png</titleshot>
-    <manual>./media/manuals/N2o - Nitrous Oxide (USA) [19980]_(us).pdf</manual>
-    <boxback>./media/image/N2o - Nitrous Oxide (USA) [19980]-boxback.png</boxback>
+    <titleshot>./media/image/N2o - Nitrous Oxide (USA)-3F147F381A07.png</titleshot>
+    <manual>./media/manuals/N2o - Nitrous Oxide (USA)-C880D152A222.pdf</manual>
+    <boxback>./media/image/N2o - Nitrous Oxide (USA)-5C6548762D7D.png</boxback>
     <extra1>./media/extras/N2o - Nitrous Oxide (USA) [19980]-extra1.png</extra1>
-    <bezel>./media/image/N2o - Nitrous Oxide (USA) [19980]-bezel.png</bezel>
+    <bezel>./media/image/N2o - Nitrous Oxide (USA)-CB9B3AC9B5B4.png</bezel>
   </game>
   <game id="19313">
     <path>./Oddworld - Abe's Exoddus (USA) [19313].PBP</path>
@@ -747,21 +743,21 @@ O ÓXIDO NITROSO, UM SUBPRODUTO POLUENTE EMITIDO DENTRO DO TORUS, FORNECE UM COM
     <genreid>257</genreid>
     <players>1-2</players>
     <region>eu</region>
-    <image>./media/image/Oddworld - Abe's Exoddus (USA) [19313]-image.png</image>
-    <video>./media/videos/Oddworld - Abe's Exoddus (USA) [19313]-video.mp4</video>
-    <thumbnail>./media/image/Oddworld - Abe's Exoddus (USA) [19313]-boxart.png</thumbnail>
-    <marquee>./media/image/Oddworld - Abe's Exoddus (USA) [19313]-marquee.png</marquee>
-    <wheel>./media/image/Oddworld - Abe's Exoddus (USA) [19313]-wheel.png</wheel>
-    <boxart>./media/image/Oddworld - Abe's Exoddus (USA) [19313]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Oddworld - Abe's Exoddus (USA) [19313]-screenshot.png</screenshot>
-    <cartridge>./media/image/Oddworld - Abe's Exoddus (USA) [19313]-cartridge.png</cartridge>
+    <image>./media/image/Oddworld - Abe's Exoddus (USA)-0EC4083C8173.png</image>
+    <video>./media/videos/Oddworld - Abe's Exoddus (USA)-7F4016BC69C9.mp4</video>
+    <thumbnail>./media/image/Oddworld - Abe's Exoddus (USA)-0EC4083C8173.png</thumbnail>
+    <marquee>./media/image/Oddworld - Abe's Exoddus (USA)-9B3C1FE42504.png</marquee>
+    <wheel>./media/image/Oddworld - Abe's Exoddus (USA)-9B3C1FE42504.png</wheel>
+    <boxart>./media/image/Oddworld - Abe's Exoddus (USA)-0EC4083C8173.png</boxart>
+    <screenshot>./media/screenshots/Oddworld - Abe's Exoddus (USA)-37BD3735A9CD.png</screenshot>
+    <cartridge>./media/image/Oddworld - Abe's Exoddus (USA)-113ED7DBE110.png</cartridge>
     <mix>./media/image/Oddworld - Abe's Exoddus (USA) [19313]-image.png</mix>
-    <fanart>./media/fanart/Oddworld - Abe's Exoddus (USA) [19313]-fanart.jpg</fanart>
-    <titleshot>./media/image/Oddworld - Abe's Exoddus (USA) [19313]-titleshot.png</titleshot>
-    <manual>./media/manuals/Oddworld - Abe's Exoddus (USA) [19313]_(eu).pdf</manual>
-    <boxback>./media/image/Oddworld - Abe's Exoddus (USA) [19313]-boxback.png</boxback>
+    <fanart>./media/fanart/Oddworld - Abe's Exoddus (USA)-75B3610AED3B.jpg</fanart>
+    <titleshot>./media/image/Oddworld - Abe's Exoddus (USA)-E92A36DF259A.png</titleshot>
+    <manual>./media/manuals/Oddworld - Abe's Exoddus (USA)-4BAD4EE45013.pdf</manual>
+    <boxback>./media/image/Oddworld - Abe's Exoddus (USA)-343F8B44A75D.png</boxback>
     <extra1>./media/extras/Oddworld - Abe's Exoddus (USA) [19313]-extra1.png</extra1>
-    <bezel>./media/image/Oddworld - Abe's Exoddus (USA) [19313]-bezel.png</bezel>
+    <bezel>./media/image/Oddworld - Abe's Exoddus (USA)-20B836A38AD9.png</bezel>
   </game>
   <game id="19264">
     <path>./Oddworld - Abe's Oddysee (USA) [19264].chd</path>
@@ -777,21 +773,21 @@ O ÓXIDO NITROSO, UM SUBPRODUTO POLUENTE EMITIDO DENTRO DO TORUS, FORNECE UM COM
     <players>1-2</players>
     <region>eu</region>
     <lang>en</lang>
-    <image>./media/image/Oddworld - Abe's Oddysee (USA) [19264]-image.png</image>
-    <video>./media/videos/Oddworld - Abe's Oddysee (USA) [19264]-video.mp4</video>
-    <thumbnail>./media/image/Oddworld - Abe's Oddysee (USA) [19264]-boxart.png</thumbnail>
-    <marquee>./media/image/Oddworld - Abe's Oddysee (USA) [19264]-marquee.png</marquee>
-    <wheel>./media/image/Oddworld - Abe's Oddysee (USA) [19264]-wheel.png</wheel>
-    <boxart>./media/image/Oddworld - Abe's Oddysee (USA) [19264]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Oddworld - Abe's Oddysee (USA) [19264]-screenshot.png</screenshot>
-    <cartridge>./media/image/Oddworld - Abe's Oddysee (USA) [19264]-cartridge.png</cartridge>
+    <image>./media/image/Oddworld - Abe's Oddysee (USA)-458D3BA23FEF.png</image>
+    <video>./media/videos/Oddworld - Abe's Oddysee (USA)-E1F0C285CED7.mp4</video>
+    <thumbnail>./media/image/Oddworld - Abe's Oddysee (USA)-458D3BA23FEF.png</thumbnail>
+    <marquee>./media/image/Oddworld - Abe's Oddysee (USA)-0B61B6D2935D.png</marquee>
+    <wheel>./media/image/Oddworld - Abe's Oddysee (USA)-0B61B6D2935D.png</wheel>
+    <boxart>./media/image/Oddworld - Abe's Oddysee (USA)-458D3BA23FEF.png</boxart>
+    <screenshot>./media/screenshots/Oddworld - Abe's Oddysee (USA)-C77141943FBD.png</screenshot>
+    <cartridge>./media/image/Oddworld - Abe's Oddysee (USA)-405C7827E1A0.png</cartridge>
     <mix>./media/image/Oddworld - Abe's Oddysee (USA) [19264]-image.png</mix>
-    <fanart>./media/fanart/Oddworld - Abe's Oddysee (USA) [19264]-fanart.jpg</fanart>
-    <titleshot>./media/image/Oddworld - Abe's Oddysee (USA) [19264]-titleshot.png</titleshot>
-    <manual>./media/manuals/Oddworld - Abe's Oddysee (USA) [19264]_(us).pdf</manual>
-    <boxback>./media/image/Oddworld - Abe's Oddysee (USA) [19264]-boxback.png</boxback>
+    <fanart>./media/fanart/Oddworld - Abe's Oddysee (USA)-E0C0303997DA.jpg</fanart>
+    <titleshot>./media/image/Oddworld - Abe's Oddysee (USA)-3114D1699103.png</titleshot>
+    <manual>./media/manuals/Oddworld - Abe's Oddysee (USA)-56B7485920CD.pdf</manual>
+    <boxback>./media/image/Oddworld - Abe's Oddysee (USA)-9F8F760A1DD4.png</boxback>
     <extra1>./media/extras/Oddworld - Abe's Oddysee (USA) [19264]-extra1.png</extra1>
-    <bezel>./media/image/Oddworld - Abe's Oddysee (USA) [19264]-bezel.png</bezel>
+    <bezel>./media/image/Oddworld - Abe's Oddysee (USA)-44ADD0726B4F.png</bezel>
   </game>
   <game id="20329">
     <path>./Panzer Bandit (BR) [20329].chd</path>
@@ -806,13 +802,13 @@ O ÓXIDO NITROSO, UM SUBPRODUTO POLUENTE EMITIDO DENTRO DO TORUS, FORNECE UM COM
     <genreid>263</genreid>
     <players>1-4</players>
     <region>jp</region>
-    <image>./media/image/Panzer Bandit (BR) [20329]-image.png</image>
-    <video>./media/videos/Panzer Bandit (BR) [20329]-video.mp4</video>
-    <screenshot>./media/screenshots/Panzer Bandit (BR) [20329]-screenshot.png</screenshot>
-    <cartridge>./media/image/Panzer Bandit (BR) [20329]-cartridge.png</cartridge>
+    <image>./media/image/Panzer Bandit (Br)-B7F0E66705AE.png</image>
+    <video>./media/videos/Panzer Bandit (Br)-0AA82A053A10.mp4</video>
+    <screenshot>./media/screenshots/Panzer Bandit (Br)-BFBC87A311EC.png</screenshot>
+    <cartridge>./media/image/Panzer Bandit (Br)-F69EBDC5DBAC.png</cartridge>
     <mix>./media/image/Panzer Bandit (BR) [20329]-image.png</mix>
-    <fanart>./media/fanart/Panzer Bandit (BR) [20329]-fanart.jpg</fanart>
-    <titleshot>./media/image/Panzer Bandit (BR) [20329]-titleshot.png</titleshot>
+    <fanart>./media/fanart/Panzer Bandit (Br)-BA91E7DD53F7.jpg</fanart>
+    <titleshot>./media/image/Panzer Bandit (Br)-4DD5A0DDD1E5.png</titleshot>
     <extra1>./media/extras/Panzer Bandit (BR) [20329]-extra1.png</extra1>
   </game>
   <game id="20243">
@@ -827,21 +823,21 @@ O ÓXIDO NITROSO, UM SUBPRODUTO POLUENTE EMITIDO DENTRO DO TORUS, FORNECE UM COM
     <players>1-2</players>
     <region>us</region>
     <lang>en</lang>
-    <image>./media/image/Rampage - World Tour (USA) [20243]-image.png</image>
-    <video>./media/videos/Rampage - World Tour (USA) [20243]-video.mp4</video>
-    <thumbnail>./media/image/Rampage - World Tour (USA) [20243]-boxart.png</thumbnail>
-    <marquee>./media/image/Rampage - World Tour (USA) [20243]-marquee.png</marquee>
-    <wheel>./media/image/Rampage - World Tour (USA) [20243]-wheel.png</wheel>
-    <boxart>./media/image/Rampage - World Tour (USA) [20243]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Rampage - World Tour (USA) [20243]-screenshot.png</screenshot>
-    <cartridge>./media/image/Rampage - World Tour (USA) [20243]-cartridge.png</cartridge>
+    <image>./media/image/Rampage - World Tour (USA)-66BBF1F9DBC0.png</image>
+    <video>./media/videos/Rampage - World Tour (USA)-A4358910BC1F.mp4</video>
+    <thumbnail>./media/image/Rampage - World Tour (USA)-66BBF1F9DBC0.png</thumbnail>
+    <marquee>./media/image/Rampage - World Tour (USA)-BC7198BD6CD7.png</marquee>
+    <wheel>./media/image/Rampage - World Tour (USA)-BC7198BD6CD7.png</wheel>
+    <boxart>./media/image/Rampage - World Tour (USA)-66BBF1F9DBC0.png</boxart>
+    <screenshot>./media/screenshots/Rampage - World Tour (USA)-02C276B1D77D.png</screenshot>
+    <cartridge>./media/image/Rampage - World Tour (USA)-767C6C1AE8FD.png</cartridge>
     <mix>./media/image/Rampage - World Tour (USA) [20243]-image.png</mix>
     <fanart>./media/fanart/Rampage - World Tour (USA) [20243]-fanart.jpg</fanart>
-    <titleshot>./media/image/Rampage - World Tour (USA) [20243]-titleshot.png</titleshot>
-    <manual>./media/manuals/Rampage - World Tour (USA) [20243]_(eu).pdf</manual>
-    <boxback>./media/image/Rampage - World Tour (USA) [20243]-boxback.png</boxback>
+    <titleshot>./media/image/Rampage - World Tour (USA)-ABF60BA26DFB.png</titleshot>
+    <manual>./media/manuals/Rampage - World Tour (USA)-4895582BF105.pdf</manual>
+    <boxback>./media/image/Rampage - World Tour (USA)-9A59013E275E.png</boxback>
     <extra1>./media/extras/Rampage - World Tour (USA) [20243]-extra1.png</extra1>
-    <bezel>./media/image/Rampage - World Tour (USA) [20243]-bezel.png</bezel>
+    <bezel>./media/image/Rampage - World Tour (USA)-1DD3B0D55B31.png</bezel>
   </game>
   <game id="19275">
     <path>./Rayman (BR) [19275].chd</path>
@@ -856,19 +852,19 @@ O ÓXIDO NITROSO, UM SUBPRODUTO POLUENTE EMITIDO DENTRO DO TORUS, FORNECE UM COM
     <players>1</players>
     <region>eu,us</region>
     <lang>en</lang>
-    <image>./media/image/Rayman (BR) [19275]-image.png</image>
-    <video>./media/videos/Rayman (BR) [19275]-video.mp4</video>
-    <thumbnail>./media/image/Rayman (BR) [19275]-boxart.png</thumbnail>
-    <boxart>./media/image/Rayman (BR) [19275]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Rayman (BR) [19275]-screenshot.png</screenshot>
-    <cartridge>./media/image/Rayman (BR) [19275]-cartridge.png</cartridge>
+    <image>./media/image/Rayman (Br)-556D44F2A065.png</image>
+    <video>./media/videos/Rayman (Br)-A92C99881617.mp4</video>
+    <thumbnail>./media/image/Rayman (Br)-556D44F2A065.png</thumbnail>
+    <boxart>./media/image/Rayman (Br)-556D44F2A065.png</boxart>
+    <screenshot>./media/screenshots/Rayman (Br)-6F11519B2185.png</screenshot>
+    <cartridge>./media/image/Rayman (Br)-5005646C2061.png</cartridge>
     <mix>./media/image/Rayman (BR) [19275]-image.png</mix>
-    <fanart>./media/fanart/Rayman (BR) [19275]-fanart.jpg</fanart>
-    <titleshot>./media/image/Rayman (BR) [19275]-titleshot.png</titleshot>
-    <manual>./media/manuals/Rayman (BR) [19275]_(eu).pdf</manual>
-    <boxback>./media/image/Rayman (BR) [19275]-boxback.png</boxback>
+    <fanart>./media/fanart/Rayman (Br)-9CF43C3681FD.jpg</fanart>
+    <titleshot>./media/image/Rayman (Br)-4E65A68C940C.png</titleshot>
+    <manual>./media/manuals/Rayman (Br)-7F3396E23AFA.pdf</manual>
+    <boxback>./media/image/Rayman (Br)-C65B5F75152D.png</boxback>
     <extra1>./media/extras/Rayman (BR) [19275]-extra1.png</extra1>
-    <bezel>./media/image/Rayman (BR) [19275]-bezel.png</bezel>
+    <bezel>./media/image/Rayman (Br)-C2D3BAEDF6A7.png</bezel>
   </game>
   <game id="19259">
     <path>./Resident Evil 2 [19259].PBP</path>
@@ -884,21 +880,21 @@ O ÓXIDO NITROSO, UM SUBPRODUTO POLUENTE EMITIDO DENTRO DO TORUS, FORNECE UM COM
     <players>1</players>
     <region>us</region>
     <lang>en</lang>
-    <image>./media/image/Resident Evil 2 [19259]-image.png</image>
-    <video>./media/videos/Resident Evil 2 [19259]-video.mp4</video>
-    <thumbnail>./media/image/Resident Evil 2 [19259]-boxart.png</thumbnail>
-    <marquee>./media/image/Resident Evil 2 [19259]-marquee.png</marquee>
-    <wheel>./media/image/Resident Evil 2 [19259]-wheel.png</wheel>
-    <boxart>./media/image/Resident Evil 2 [19259]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Resident Evil 2 [19259]-screenshot.png</screenshot>
-    <cartridge>./media/image/Resident Evil 2 [19259]-cartridge.png</cartridge>
+    <image>./media/image/Resident Evil 2-4B023AC0617C.png</image>
+    <video>./media/videos/Resident Evil 2-18FE2AF38588.mp4</video>
+    <thumbnail>./media/image/Resident Evil 2-4B023AC0617C.png</thumbnail>
+    <marquee>./media/image/Resident Evil 2-0C7F1C6F66BA.png</marquee>
+    <wheel>./media/image/Resident Evil 2-0C7F1C6F66BA.png</wheel>
+    <boxart>./media/image/Resident Evil 2-4B023AC0617C.png</boxart>
+    <screenshot>./media/screenshots/Resident Evil 2-4B323F101087.png</screenshot>
+    <cartridge>./media/image/Resident Evil 2-E04967D4DCB5.png</cartridge>
     <mix>./media/image/Resident Evil 2 [19259]-image.png</mix>
-    <fanart>./media/fanart/Resident Evil 2 [19259]-fanart.jpg</fanart>
-    <titleshot>./media/image/Resident Evil 2 [19259]-titleshot.png</titleshot>
-    <manual>./media/manuals/Resident Evil 2 [19259]_(eu).pdf</manual>
-    <boxback>./media/image/Resident Evil 2 [19259]-boxback.png</boxback>
+    <fanart>./media/fanart/Resident Evil 2-2FF518BD5B0A.jpg</fanart>
+    <titleshot>./media/image/Resident Evil 2-570C1E9E3A12.png</titleshot>
+    <manual>./media/manuals/Resident Evil 2-325921E36FDA.pdf</manual>
+    <boxback>./media/image/Resident Evil 2-E8052C3F9718.png</boxback>
     <extra1>./media/extras/Resident Evil 2 [19259]-extra1.png</extra1>
-    <bezel>./media/image/Resident Evil 2 [19259]-bezel.png</bezel>
+    <bezel>./media/image/Resident Evil 2-44D2EDA909A2.png</bezel>
   </game>
   <game id="19258">
     <path>./Resident Evil 3 - Nemesis (BR) [19258].chd</path>
@@ -913,21 +909,21 @@ O ÓXIDO NITROSO, UM SUBPRODUTO POLUENTE EMITIDO DENTRO DO TORUS, FORNECE UM COM
     <genreid>518</genreid>
     <players>1</players>
     <region>us</region>
-    <image>./media/image/Resident Evil 3 - Nemesis (BR) [19258]-image.png</image>
-    <video>./media/videos/Resident Evil 3 - Nemesis (BR) [19258]-video.mp4</video>
-    <thumbnail>./media/image/Resident Evil 3 - Nemesis (BR) [19258]-boxart.png</thumbnail>
-    <marquee>./media/image/Resident Evil 3 - Nemesis (BR) [19258]-marquee.png</marquee>
-    <wheel>./media/image/Resident Evil 3 - Nemesis (BR) [19258]-wheel.png</wheel>
-    <boxart>./media/image/Resident Evil 3 - Nemesis (BR) [19258]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Resident Evil 3 - Nemesis (BR) [19258]-screenshot.png</screenshot>
-    <cartridge>./media/image/Resident Evil 3 - Nemesis (BR) [19258]-cartridge.png</cartridge>
+    <image>./media/image/Resident Evil 3 - Nemesis (Br)-BC4DB8E0F01F.png</image>
+    <video>./media/videos/Resident Evil 3 - Nemesis (Br)-5EECDB9CEAE2.mp4</video>
+    <thumbnail>./media/image/Resident Evil 3 - Nemesis (Br)-BC4DB8E0F01F.png</thumbnail>
+    <marquee>./media/image/Resident Evil 3 - Nemesis (Br)-33691499E6DE.png</marquee>
+    <wheel>./media/image/Resident Evil 3 - Nemesis (Br)-33691499E6DE.png</wheel>
+    <boxart>./media/image/Resident Evil 3 - Nemesis (Br)-BC4DB8E0F01F.png</boxart>
+    <screenshot>./media/screenshots/Resident Evil 3 - Nemesis (Br)-E13E7F051BE2.png</screenshot>
+    <cartridge>./media/image/Resident Evil 3 - Nemesis (Br)-554B8B8B4124.png</cartridge>
     <mix>./media/image/Resident Evil 3 - Nemesis (BR) [19258]-image.png</mix>
-    <fanart>./media/fanart/Resident Evil 3 - Nemesis (BR) [19258]-fanart.jpg</fanart>
-    <titleshot>./media/image/Resident Evil 3 - Nemesis (BR) [19258]-titleshot.png</titleshot>
-    <manual>./media/manuals/Resident Evil 3 - Nemesis (BR) [19258]_(us).pdf</manual>
-    <boxback>./media/image/Resident Evil 3 - Nemesis (BR) [19258]-boxback.png</boxback>
+    <fanart>./media/fanart/Resident Evil 3 - Nemesis (Br)-26AA1A322707.jpg</fanart>
+    <titleshot>./media/image/Resident Evil 3 - Nemesis (Br)-5AFF8FA26909.png</titleshot>
+    <manual>./media/manuals/Resident Evil 3 - Nemesis (Br)-D460A4573165.pdf</manual>
+    <boxback>./media/image/Resident Evil 3 - Nemesis (Br)-8AC8B6A452AE.png</boxback>
     <extra1>./media/extras/Resident Evil 3 - Nemesis (BR) [19258]-extra1.png</extra1>
-    <bezel>./media/image/Resident Evil 3 - Nemesis (BR) [19258]-bezel.png</bezel>
+    <bezel>./media/image/Resident Evil 3 - Nemesis (Br)-674AC4BC2897.png</bezel>
   </game>
   <game id="19265">
     <path>./Silent Hill (BR) [19265].chd</path>
@@ -942,21 +938,21 @@ O ÓXIDO NITROSO, UM SUBPRODUTO POLUENTE EMITIDO DENTRO DO TORUS, FORNECE UM COM
     <players>1</players>
     <region>eu,us</region>
     <lang>en,fr,de,es,it</lang>
-    <image>./media/image/Silent Hill (BR) [19265]-image.png</image>
-    <video>./media/videos/Silent Hill (BR) [19265]-video.mp4</video>
-    <thumbnail>./media/image/Silent Hill (BR) [19265]-boxart.png</thumbnail>
-    <marquee>./media/image/Silent Hill (BR) [19265]-marquee.png</marquee>
-    <wheel>./media/image/Silent Hill (BR) [19265]-wheel.png</wheel>
-    <boxart>./media/image/Silent Hill (BR) [19265]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Silent Hill (BR) [19265]-screenshot.png</screenshot>
-    <cartridge>./media/image/Silent Hill (BR) [19265]-cartridge.png</cartridge>
+    <image>./media/image/Silent Hill (Br)-9A5CDA772253.png</image>
+    <video>./media/videos/Silent Hill (Br)-9D4C359BA3E4.mp4</video>
+    <thumbnail>./media/image/Silent Hill (Br)-9A5CDA772253.png</thumbnail>
+    <marquee>./media/image/Silent Hill (Br)-E7A632C39D42.png</marquee>
+    <wheel>./media/image/Silent Hill (Br)-E7A632C39D42.png</wheel>
+    <boxart>./media/image/Silent Hill (Br)-9A5CDA772253.png</boxart>
+    <screenshot>./media/screenshots/Silent Hill (Br)-C0CE9AB8DC91.png</screenshot>
+    <cartridge>./media/image/Silent Hill (Br)-34B00FAD34DC.png</cartridge>
     <mix>./media/image/Silent Hill (BR) [19265]-image.png</mix>
-    <fanart>./media/fanart/Silent Hill (BR) [19265]-fanart.jpg</fanart>
-    <titleshot>./media/image/Silent Hill (BR) [19265]-titleshot.png</titleshot>
-    <manual>./media/manuals/Silent Hill (BR) [19265]_(eu).pdf</manual>
-    <boxback>./media/image/Silent Hill (BR) [19265]-boxback.png</boxback>
+    <fanart>./media/fanart/Silent Hill (Br)-B82D2382AEA1.jpg</fanart>
+    <titleshot>./media/image/Silent Hill (Br)-66827CD020FC.png</titleshot>
+    <manual>./media/manuals/Silent Hill (Br)-FFFE4145AE2C.pdf</manual>
+    <boxback>./media/image/Silent Hill (Br)-44E8FD779D89.png</boxback>
     <extra1>./media/extras/Silent Hill (BR) [19265]-extra1.png</extra1>
-    <bezel>./media/image/Silent Hill (BR) [19265]-bezel.png</bezel>
+    <bezel>./media/image/Silent Hill (Br)-4A6A42E336D8.png</bezel>
   </game>
   <game id="19358">
     <path>./Spider-Man (BR) [19358].chd</path>
@@ -971,21 +967,21 @@ O ÓXIDO NITROSO, UM SUBPRODUTO POLUENTE EMITIDO DENTRO DO TORUS, FORNECE UM COM
     <genreid>257</genreid>
     <players>1</players>
     <region>us</region>
-    <image>./media/image/Spider-Man (BR) [19358]-image.png</image>
-    <video>./media/videos/Spider-Man (BR) [19358]-video.mp4</video>
-    <thumbnail>./media/image/Spider-Man (BR) [19358]-boxart.png</thumbnail>
-    <marquee>./media/image/Spider-Man (BR) [19358]-marquee.png</marquee>
-    <wheel>./media/image/Spider-Man (BR) [19358]-wheel.png</wheel>
-    <boxart>./media/image/Spider-Man (BR) [19358]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Spider-Man (BR) [19358]-screenshot.png</screenshot>
-    <cartridge>./media/image/Spider-Man (BR) [19358]-cartridge.png</cartridge>
+    <image>./media/image/Spider-Man (Br)-9DEB623A609C.png</image>
+    <video>./media/videos/Spider-Man (Br)-5A01FC99B5C3.mp4</video>
+    <thumbnail>./media/image/Spider-Man (Br)-9DEB623A609C.png</thumbnail>
+    <marquee>./media/image/Spider-Man (Br)-247FFE59A99D.png</marquee>
+    <wheel>./media/image/Spider-Man (Br)-247FFE59A99D.png</wheel>
+    <boxart>./media/image/Spider-Man (Br)-9DEB623A609C.png</boxart>
+    <screenshot>./media/screenshots/Spider-Man (Br)-ABED02744685.png</screenshot>
+    <cartridge>./media/image/Spider-Man (Br)-532A0D6997D4.png</cartridge>
     <mix>./media/image/Spider-Man (BR) [19358]-image.png</mix>
-    <fanart>./media/fanart/Spider-Man (BR) [19358]-fanart.jpg</fanart>
-    <titleshot>./media/image/Spider-Man (BR) [19358]-titleshot.png</titleshot>
-    <manual>./media/manuals/Spider-Man (BR) [19358]_(us).pdf</manual>
-    <boxback>./media/image/Spider-Man (BR) [19358]-boxback.png</boxback>
+    <fanart>./media/fanart/Spider-Man (Br)-040BC3140635.jpg</fanart>
+    <titleshot>./media/image/Spider-Man (Br)-C3158435ED04.png</titleshot>
+    <manual>./media/manuals/Spider-Man (Br)-2AC09140BF33.pdf</manual>
+    <boxback>./media/image/Spider-Man (Br)-53DAD5815352.png</boxback>
     <extra1>./media/extras/Spider-Man (BR) [19358]-extra1.png</extra1>
-    <bezel>./media/image/Spider-Man (BR) [19358]-bezel.png</bezel>
+    <bezel>./media/image/Spider-Man (Br)-8404F841583A.png</bezel>
   </game>
   <game id="19280">
     <path>./Tekken 3 (BR) [19280].chd</path>
@@ -1003,15 +999,15 @@ A FORÇA ANCESTRAL DO MAL ACORDOU, ATACANDO EM SEGREDO E SE ALIMENTANDO DAS ALMA
     <genre>LUTA / 2.5D, LUTA / VERSUS, LUTA</genre>
     <genreid>262</genreid>
     <players>1-2</players>
-    <image>./media/image/Tekken 3 (BR) [19280]-image.png</image>
-    <video>./media/videos/Tekken 3 (BR) [19280]-video.mp4</video>
-    <screenshot>./media/screenshots/Tekken 3 (BR) [19280]-screenshot.png</screenshot>
+    <image>./media/image/Tekken 3 (Br)-B103C887750B.png</image>
+    <video>./media/videos/Tekken 3 (Br)-36ED256C5121.mp4</video>
+    <screenshot>./media/screenshots/Tekken 3 (Br)-76BCE21AE08C.png</screenshot>
     <mix>./media/image/Tekken 3 (BR) [19280]-image.png</mix>
     <fanart>./media/fanart/Tekken 3 (BR) [19280]-fanart.jpg</fanart>
-    <titleshot>./media/image/Tekken 3 (BR) [19280]-titleshot.png</titleshot>
-    <manual>./media/manuals/Tekken 3 (BR) [19280]_(us).pdf</manual>
+    <titleshot>./media/image/Tekken 3 (Br)-ED45B7FD9B68.png</titleshot>
+    <manual>./media/manuals/Tekken 3 (Br)-693F4AC7C6B8.pdf</manual>
     <extra1>./media/extras/Tekken 3 (BR) [19280]-extra1.png</extra1>
-    <bezel>./media/image/Tekken 3 (BR) [19280]-bezel.png</bezel>
+    <bezel>./media/image/Tekken 3 (Br)-29B1F996F665.png</bezel>
   </game>
   <game id="19376">
     <path>./Tenchu - Stealth Assassins (BR) [19376].chd</path>
@@ -1026,19 +1022,19 @@ A FORÇA ANCESTRAL DO MAL ACORDOU, ATACANDO EM SEGREDO E SE ALIMENTANDO DAS ALMA
     <players>1</players>
     <region>eu</region>
     <lang>en,fr,it</lang>
-    <image>./media/image/Tenchu - Stealth Assassins (BR) [19376]-image.png</image>
-    <video>./media/videos/Tenchu - Stealth Assassins (BR) [19376]-video.mp4</video>
-    <thumbnail>./media/image/Tenchu - Stealth Assassins (BR) [19376]-boxart.png</thumbnail>
-    <boxart>./media/image/Tenchu - Stealth Assassins (BR) [19376]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Tenchu - Stealth Assassins (BR) [19376]-screenshot.png</screenshot>
-    <cartridge>./media/image/Tenchu - Stealth Assassins (BR) [19376]-cartridge.png</cartridge>
+    <image>./media/image/Tenchu - Stealth Assassins (Br)-A260705BBF05.png</image>
+    <video>./media/videos/Tenchu - Stealth Assassins (Br)-E4E621CCA303.mp4</video>
+    <thumbnail>./media/image/Tenchu - Stealth Assassins (Br)-A260705BBF05.png</thumbnail>
+    <boxart>./media/image/Tenchu - Stealth Assassins (Br)-A260705BBF05.png</boxart>
+    <screenshot>./media/screenshots/Tenchu - Stealth Assassins (Br)-1331CB0D47F3.png</screenshot>
+    <cartridge>./media/image/Tenchu - Stealth Assassins (Br)-5EDC071E2BC6.png</cartridge>
     <mix>./media/image/Tenchu - Stealth Assassins (BR) [19376]-image.png</mix>
-    <fanart>./media/fanart/Tenchu - Stealth Assassins (BR) [19376]-fanart.jpg</fanart>
-    <titleshot>./media/image/Tenchu - Stealth Assassins (BR) [19376]-titleshot.png</titleshot>
-    <manual>./media/manuals/Tenchu - Stealth Assassins (BR) [19376]_(eu).pdf</manual>
-    <boxback>./media/image/Tenchu - Stealth Assassins (BR) [19376]-boxback.png</boxback>
+    <fanart>./media/fanart/Tenchu - Stealth Assassins (Br)-67B9A412C20F.jpg</fanart>
+    <titleshot>./media/image/Tenchu - Stealth Assassins (Br)-47D70894019E.png</titleshot>
+    <manual>./media/manuals/Tenchu - Stealth Assassins (Br)-80B4DD44C72E.pdf</manual>
+    <boxback>./media/image/Tenchu - Stealth Assassins (Br)-36201EFEA8D5.png</boxback>
     <extra1>./media/extras/Tenchu - Stealth Assassins (BR) [19376]-extra1.png</extra1>
-    <bezel>./media/image/Tenchu - Stealth Assassins (BR) [19376]-bezel.png</bezel>
+    <bezel>./media/image/Tenchu - Stealth Assassins (Br)-03653C09A20D.png</bezel>
   </game>
   <game id="19318">
     <path>./Tomba! (USA) [19318].chd</path>
@@ -1054,21 +1050,21 @@ DEVIDO AOS SEUS ELEMENTOS DE RPG, EM TOMBA! SEU PERSONAGEM GANHARÁ PONTOS DE EX
     <genreid>257</genreid>
     <players>1</players>
     <region>us</region>
-    <image>./media/image/Tomba! (USA) [19318]-image.png</image>
-    <video>./media/videos/Tomba! (USA) [19318]-video.mp4</video>
-    <thumbnail>./media/image/Tomba! (USA) [19318]-boxart.png</thumbnail>
-    <marquee>./media/image/Tomba! (USA) [19318]-marquee.png</marquee>
-    <wheel>./media/image/Tomba! (USA) [19318]-wheel.png</wheel>
-    <boxart>./media/image/Tomba! (USA) [19318]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Tomba! (USA) [19318]-screenshot.png</screenshot>
-    <cartridge>./media/image/Tomba! (USA) [19318]-cartridge.png</cartridge>
+    <image>./media/image/Tomba! (USA)-FE79FD554129.png</image>
+    <video>./media/videos/Tomba! (USA)-7E3A8B803B08.mp4</video>
+    <thumbnail>./media/image/Tomba! (USA)-FE79FD554129.png</thumbnail>
+    <marquee>./media/image/Tomba! (USA)-9B5AEDF37484.png</marquee>
+    <wheel>./media/image/Tomba! (USA)-9B5AEDF37484.png</wheel>
+    <boxart>./media/image/Tomba! (USA)-FE79FD554129.png</boxart>
+    <screenshot>./media/screenshots/Tomba! (USA)-83DB6215D998.png</screenshot>
+    <cartridge>./media/image/Tomba! (USA)-8314391230EE.png</cartridge>
     <mix>./media/image/Tomba! (USA) [19318]-image.png</mix>
-    <fanart>./media/fanart/Tomba! (USA) [19318]-fanart.jpg</fanart>
-    <titleshot>./media/image/Tomba! (USA) [19318]-titleshot.png</titleshot>
-    <manual>./media/manuals/Tomba! (USA) [19318]_(us).pdf</manual>
-    <boxback>./media/image/Tomba! (USA) [19318]-boxback.png</boxback>
+    <fanart>./media/fanart/Tomba! (USA)-7DF259365746.jpg</fanart>
+    <titleshot>./media/image/Tomba! (USA)-C8D0DC0D4A38.png</titleshot>
+    <manual>./media/manuals/Tomba! (USA)-6F1AA5B48595.pdf</manual>
+    <boxback>./media/image/Tomba! (USA)-56648722B6FE.png</boxback>
     <extra1>./media/extras/Tomba! (USA) [19318]-extra1.png</extra1>
-    <bezel>./media/image/Tomba! (USA) [19318]-bezel.png</bezel>
+    <bezel>./media/image/Tomba! (USA)-B1ADF88BC1A1.png</bezel>
   </game>
   <game id="19494">
     <path>./Twisted Metal 2 (BR) [19494].chd</path>
@@ -1084,21 +1080,21 @@ O COMBATE ACONTECE ENTRE UMA AMPLA VARIEDADE DE VEÍCULOS, DESDE UM HOMEM AMARRA
     <players>1-2</players>
     <region>us</region>
     <lang>en</lang>
-    <image>./media/image/Twisted Metal 2 (BR) [19494]-image.png</image>
-    <video>./media/videos/Twisted Metal 2 (BR) [19494]-video.mp4</video>
-    <thumbnail>./media/image/Twisted Metal 2 (BR) [19494]-boxart.png</thumbnail>
-    <marquee>./media/image/Twisted Metal 2 (BR) [19494]-marquee.png</marquee>
-    <wheel>./media/image/Twisted Metal 2 (BR) [19494]-wheel.png</wheel>
-    <boxart>./media/image/Twisted Metal 2 (BR) [19494]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Twisted Metal 2 (BR) [19494]-screenshot.png</screenshot>
-    <cartridge>./media/image/Twisted Metal 2 (BR) [19494]-cartridge.png</cartridge>
+    <image>./media/image/Twisted Metal 2 (Br)-81ED185A0A24.png</image>
+    <video>./media/videos/Twisted Metal 2 (Br)-A11FCB52C8E1.mp4</video>
+    <thumbnail>./media/image/Twisted Metal 2 (Br)-81ED185A0A24.png</thumbnail>
+    <marquee>./media/image/Twisted Metal 2 (Br)-0437DF0E7CE8.png</marquee>
+    <wheel>./media/image/Twisted Metal 2 (Br)-0437DF0E7CE8.png</wheel>
+    <boxart>./media/image/Twisted Metal 2 (Br)-81ED185A0A24.png</boxart>
+    <screenshot>./media/screenshots/Twisted Metal 2 (Br)-51C7149D994A.png</screenshot>
+    <cartridge>./media/image/Twisted Metal 2 (Br)-98BE3E98956B.png</cartridge>
     <mix>./media/image/Twisted Metal 2 (BR) [19494]-image.png</mix>
-    <fanart>./media/fanart/Twisted Metal 2 (BR) [19494]-fanart.jpg</fanart>
-    <titleshot>./media/image/Twisted Metal 2 (BR) [19494]-titleshot.png</titleshot>
-    <manual>./media/manuals/Twisted Metal 2 (BR) [19494]_(us).pdf</manual>
-    <boxback>./media/image/Twisted Metal 2 (BR) [19494]-boxback.png</boxback>
+    <fanart>./media/fanart/Twisted Metal 2 (Br)-FC013BBC8836.jpg</fanart>
+    <titleshot>./media/image/Twisted Metal 2 (Br)-626B8A71BC1C.png</titleshot>
+    <manual>./media/manuals/Twisted Metal 2 (Br)-05DD061F1240.pdf</manual>
+    <boxback>./media/image/Twisted Metal 2 (Br)-56C14CA868D1.png</boxback>
     <extra1>./media/extras/Twisted Metal 2 (BR) [19494]-extra1.png</extra1>
-    <bezel>./media/image/Twisted Metal 2 (BR) [19494]-bezel.png</bezel>
+    <bezel>./media/image/Twisted Metal 2 (Br)-A166A91EC30B.png</bezel>
   </game>
   <game id="19888">
     <path>./Twisted Metal 4 (USA) [19888].chd</path>
@@ -1113,21 +1109,21 @@ O COMBATE ACONTECE ENTRE UMA AMPLA VARIEDADE DE VEÍCULOS, DESDE UM HOMEM AMARRA
     <players>1-4</players>
     <region>us</region>
     <lang>en</lang>
-    <image>./media/image/Twisted Metal 4 (USA) [19888]-image.png</image>
-    <video>./media/videos/Twisted Metal 4 (USA) [19888]-video.mp4</video>
-    <thumbnail>./media/image/Twisted Metal 4 (USA) [19888]-boxart.png</thumbnail>
-    <marquee>./media/image/Twisted Metal 4 (USA) [19888]-marquee.png</marquee>
-    <wheel>./media/image/Twisted Metal 4 (USA) [19888]-wheel.png</wheel>
-    <boxart>./media/image/Twisted Metal 4 (USA) [19888]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Twisted Metal 4 (USA) [19888]-screenshot.png</screenshot>
-    <cartridge>./media/image/Twisted Metal 4 (USA) [19888]-cartridge.png</cartridge>
+    <image>./media/image/Twisted Metal 4 (USA)-5423D2483396.png</image>
+    <video>./media/videos/Twisted Metal 4 (USA)-C99439F87F3C.mp4</video>
+    <thumbnail>./media/image/Twisted Metal 4 (USA)-5423D2483396.png</thumbnail>
+    <marquee>./media/image/Twisted Metal 4 (USA)-D900539D58D6.png</marquee>
+    <wheel>./media/image/Twisted Metal 4 (USA)-D900539D58D6.png</wheel>
+    <boxart>./media/image/Twisted Metal 4 (USA)-5423D2483396.png</boxart>
+    <screenshot>./media/screenshots/Twisted Metal 4 (USA)-E52C6F2D8690.png</screenshot>
+    <cartridge>./media/image/Twisted Metal 4 (USA)-AF6FE431A6D1.png</cartridge>
     <mix>./media/image/Twisted Metal 4 (USA) [19888]-image.png</mix>
-    <fanart>./media/fanart/Twisted Metal 4 (USA) [19888]-fanart.jpg</fanart>
-    <titleshot>./media/image/Twisted Metal 4 (USA) [19888]-titleshot.png</titleshot>
-    <manual>./media/manuals/Twisted Metal 4 (USA) [19888]_(us).pdf</manual>
-    <boxback>./media/image/Twisted Metal 4 (USA) [19888]-boxback.png</boxback>
+    <fanart>./media/fanart/Twisted Metal 4 (USA)-BC81078C1549.jpg</fanart>
+    <titleshot>./media/image/Twisted Metal 4 (USA)-60CFD91C78E6.png</titleshot>
+    <manual>./media/manuals/Twisted Metal 4 (USA)-C6182C3CD2ED.pdf</manual>
+    <boxback>./media/image/Twisted Metal 4 (USA)-3E218C1F7B29.png</boxback>
     <extra1>./media/extras/Twisted Metal 4 (USA) [19888]-extra1.png</extra1>
-    <bezel>./media/image/Twisted Metal 4 (USA) [19888]-bezel.png</bezel>
+    <bezel>./media/image/Twisted Metal 4 (USA)-B8B32742E8FD.png</bezel>
   </game>
   <game id="19574">
     <path>./Vigilante 8 - 2Nd Offense (BR) [19574].chd</path>
@@ -1149,18 +1145,18 @@ O COMBATE ACONTECE ENTRE UMA AMPLA VARIEDADE DE VEÍCULOS, DESDE UM HOMEM AMARRA
     <players>2</players>
     <region>eu</region>
     <lang>en</lang>
-    <image>./media/image/Vigilante 8 - 2Nd Offense (BR) [19574]-image.png</image>
-    <video>./media/videos/Vigilante 8 - 2Nd Offense (BR) [19574]-video.mp4</video>
-    <thumbnail>./media/image/Vigilante 8 - 2Nd Offense (BR) [19574]-boxart.png</thumbnail>
-    <boxart>./media/image/Vigilante 8 - 2Nd Offense (BR) [19574]-boxart.png</boxart>
-    <screenshot>./media/screenshots/Vigilante 8 - 2Nd Offense (BR) [19574]-screenshot.png</screenshot>
-    <cartridge>./media/image/Vigilante 8 - 2Nd Offense (BR) [19574]-cartridge.png</cartridge>
+    <image>./media/image/Vigilante 8 - 2Nd Offense (Br)-F1619A1E0C37.png</image>
+    <video>./media/videos/Vigilante 8 - 2Nd Offense (Br)-5808F01016E3.mp4</video>
+    <thumbnail>./media/image/Vigilante 8 - 2Nd Offense (Br)-F1619A1E0C37.png</thumbnail>
+    <boxart>./media/image/Vigilante 8 - 2Nd Offense (Br)-F1619A1E0C37.png</boxart>
+    <screenshot>./media/screenshots/Vigilante 8 - 2Nd Offense (Br)-DE8D170AEDD1.png</screenshot>
+    <cartridge>./media/image/Vigilante 8 - 2Nd Offense (Br)-579E3D554CD5.png</cartridge>
     <mix>./media/image/Vigilante 8 - 2Nd Offense (BR) [19574]-image.png</mix>
-    <fanart>./media/fanart/Vigilante 8 - 2Nd Offense (BR) [19574]-fanart.jpg</fanart>
-    <titleshot>./media/image/Vigilante 8 - 2Nd Offense (BR) [19574]-titleshot.png</titleshot>
-    <manual>./media/manuals/Vigilante 8 - 2Nd Offense (BR) [19574]_(us).pdf</manual>
-    <boxback>./media/image/Vigilante 8 - 2Nd Offense (BR) [19574]-boxback.png</boxback>
+    <fanart>./media/fanart/Vigilante 8 - 2Nd Offense (Br)-B68DA7F013FD.jpg</fanart>
+    <titleshot>./media/image/Vigilante 8 - 2Nd Offense (Br)-04F1ACCF2266.png</titleshot>
+    <manual>./media/manuals/Vigilante 8 - 2Nd Offense (Br)-FAA06605B747.pdf</manual>
+    <boxback>./media/image/Vigilante 8 - 2Nd Offense (Br)-EFFF12B4A4F2.png</boxback>
     <extra1>./media/extras/Vigilante 8 - 2Nd Offense (BR) [19574]-extra1.png</extra1>
-    <bezel>./media/image/Vigilante 8 - 2Nd Offense (BR) [19574]-bezel.png</bezel>
+    <bezel>./media/image/Vigilante 8 - 2Nd Offense (Br)-76BB3B2BF68D.png</bezel>
   </game>
 </gameList>
