@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <gameList>
   <provider>
     <system>fbneo</system>
@@ -540,7 +540,6 @@ Clone Of : 64street -&gt; 64th. Street - A Detective Story (Japan, set 1)</tempo
     <mix>./media/image/Aero Fighters 2-BD34DDAFEAF1.png</mix>
     <fanart>./media/fanart/Aero Fighters 2-D1343D8A981C.jpg</fanart>
     <manual>./media/manuals/Aero Fighters 2-1D12B5C4F722.pdf</manual>
-    <extra1>./media/image/Sonicwi2-5937938A3358.png</extra1>
     <bezel>./media/image/Aero Fighters 2-5937938A3358.png</bezel>
   </game>
   <game>
@@ -4095,7 +4094,7 @@ BOOT HILL É BASEADO EM TEMPO E NÃO EM VIDA, COM O PADRÃO DE FÁBRICA DEFINIDO
     <image>./media/image/Bsktball-5211D7D0F3B1.png</image>
     <video>./media/videos/Bsktball-E8C2CB820FC1.mp4</video>
     <screenshot>./media/screenshots/Bsktball-F9E27429E8F2.png</screenshot>
-    <mix>./media/image/Bsktball [40376]-image.png</mix>
+    <mix>./media/image/Bsktball-5211D7D0F3B1.png</mix>
     <fanart>./media/fanart/Bsktball-F66853E6D1EF.jpg</fanart>
     <titleshot>./media/image/Bsktball-399DC28D3631.png</titleshot>
     <manual>./media/manuals/Bsktball-7533E8D77F19.pdf</manual>
@@ -4119,7 +4118,7 @@ BOOT HILL É BASEADO EM TEMPO E NÃO EM VIDA, COM O PADRÃO DE FÁBRICA DEFINIDO
     <image>./media/image/Bssoccer-747D5A6EAE7C.png</image>
     <video>./media/videos/Bssoccer-8B74188DB6FE.mp4</video>
     <screenshot>./media/screenshots/Bssoccer-A6BC618A0724.png</screenshot>
-    <mix>./media/image/Bssoccer [40378]-image.png</mix>
+    <mix>./media/image/Bssoccer-747D5A6EAE7C.png</mix>
     <fanart>./media/fanart/Bssoccer-50CBAB1BC932.jpg</fanart>
     <titleshot>./media/image/Bssoccer-EDA4A647CEA6.png</titleshot>
     <extra1>./media/extras/Bssoccer [40378]-extra1.png</extra1>
@@ -4429,7 +4428,7 @@ Clone Of : bubbles -&gt; Bubbles (Solid Red label)</temporary>
     <image>./media/image/Bwidow-BC91BA286C02.png</image>
     <video>./media/videos/Bwidow-7A7DC268FD41.mp4</video>
     <screenshot>./media/screenshots/Bwidow-FD372261B422.png</screenshot>
-    <mix>./media/image/Bwidow [46387]-image.png</mix>
+    <mix>./media/image/Bwidow-BC91BA286C02.png</mix>
     <fanart>./media/fanart/Bwidow-E2162E5606AE.jpg</fanart>
     <manual>./media/manuals/Bwidow-C9F820742CF6.pdf</manual>
     <extra1>./media/extras/Bwidow [46387]-extra1.png</extra1>
@@ -4550,7 +4549,7 @@ Clone Of : bubbles -&gt; Bubbles (Solid Red label)</temporary>
     <image>./media/image/Cairblad-6C6BE4367469.png</image>
     <video>./media/videos/Cairblad-12FFAF03A17C.mp4</video>
     <screenshot>./media/screenshots/Cairblad-B87B0561EBBE.png</screenshot>
-    <mix>./media/image/Cairblad [40430]-image.png</mix>
+    <mix>./media/image/Cairblad-6C6BE4367469.png</mix>
     <fanart>./media/fanart/Cairblad-E2EB8FD7888A.jpg</fanart>
     <titleshot>./media/image/Cairblad-9F1B0AA3CF22.png</titleshot>
     <extra1>./media/extras/Cairblad [40430]-extra1.png</extra1>
@@ -5238,7 +5237,7 @@ OS BÔNUS PODEM SER COLETADOS PARA AUMENTAR O PODER DE FOGO, E OS BARRIS PODEM S
     <image>./media/image/Charlien-629C79504A3A.png</image>
     <video>./media/videos/Charlien-89E47F0C605E.mp4</video>
     <screenshot>./media/screenshots/Charlien-DECE37C3A3B8.png</screenshot>
-    <mix>./media/image/Charlien [40523]-image.png</mix>
+    <mix>./media/image/Charlien-629C79504A3A.png</mix>
     <fanart>./media/fanart/Charlien-81B77BD09E15.jpg</fanart>
     <titleshot>./media/image/Charlien-F609D1822207.png</titleshot>
     <manual>./media/manuals/Charlien-29D93353C9CF.pdf</manual>
@@ -5905,7 +5904,7 @@ JOE E MAC DEVEM LUTAR POR VÁRIOS ESTÁGIOS PRÉ-HISTÓRICOS, COMBATENDO HOMENS 
     <image>./media/image/Cninja-B86EDD80E071.png</image>
     <video>./media/videos/Cninja-4D9766D5B2D7.mp4</video>
     <screenshot>./media/screenshots/Cninja-974D43132DCC.png</screenshot>
-    <mix>./media/image/Cninja [40607]-image.png</mix>
+    <mix>./media/image/Cninja-B86EDD80E071.png</mix>
     <fanart>./media/fanart/Cninja-DECA7C9AA604.jpg</fanart>
     <titleshot>./media/image/Cninja-0C66CAC49508.png</titleshot>
     <manual>./media/manuals/Cninja-1B02027229C5.pdf</manual>
@@ -6505,7 +6504,7 @@ Clone Of : congo -&gt; Tip Top</temporary>
     <image>./media/image/Cottonbm-444A13C4C948.png</image>
     <video>./media/videos/Cottonbm-19AD0A94C536.mp4</video>
     <screenshot>./media/screenshots/Cottonbm-A42EFFB46224.png</screenshot>
-    <mix>./media/image/Cottonbm [37534]-image.png</mix>
+    <mix>./media/image/Cottonbm-444A13C4C948.png</mix>
     <fanart>./media/fanart/Cottonbm-342E6794FEE6.jpg</fanart>
     <titleshot>./media/image/Cottonbm-8BC123388397.png</titleshot>
     <extra1>./media/extras/Cottonbm [37534]-extra1.png</extra1>
@@ -9378,7 +9377,7 @@ Clone Of : scregg -&gt; Eggs</temporary>
     <image>./media/image/Elim2-01DA4CF88868.png</image>
     <video>./media/videos/Elim2-B5BA779DF11D.mp4</video>
     <screenshot>./media/screenshots/Elim2-1F00068A7468.png</screenshot>
-    <mix>./media/image/Elim2 [149789]-image.png</mix>
+    <mix>./media/image/Elim2-01DA4CF88868.png</mix>
     <fanart>./media/fanart/Elim2-CCB34110849C.jpg</fanart>
     <titleshot>./media/image/Elim2-7E26C8791ED0.png</titleshot>
     <manual>./media/manuals/Elim2-50D3EB3BC77F.pdf</manual>
@@ -9405,7 +9404,7 @@ Clone Of : elim2 -&gt; Eliminator (4 Players)</temporary>
     <image>./media/image/Elim2-01DA4CF88868.png</image>
     <video>./media/videos/Elim2-B5BA779DF11D.mp4</video>
     <screenshot>./media/screenshots/Elim2-1F00068A7468.png</screenshot>
-    <mix>./media/image/Elim4-01DA4CF88868.png</mix>
+    <mix>./media/image/Elim2-01DA4CF88868.png</mix>
     <fanart>./media/fanart/Elim2-CCB34110849C.jpg</fanart>
     <titleshot>./media/image/Elim2-7E26C8791ED0.png</titleshot>
     <manual>./media/manuals/Elim2-50D3EB3BC77F.pdf</manual>
@@ -9431,7 +9430,7 @@ O OBJETIVO DO JOGO É ENTRAR EM TODAS AS PORTAS VERMELHAS DE CADA FASE E DEPOIS 
     <image>./media/image/Elvactr-15B23531AB6E.png</image>
     <video>./media/videos/Elvactr-87D025825D0B.mp4</video>
     <screenshot>./media/screenshots/Elvactr-25541278603D.png</screenshot>
-    <mix>./media/image/Elvactr [41103]-image.png</mix>
+    <mix>./media/image/Elvactr-15B23531AB6E.png</mix>
     <fanart>./media/fanart/Elvactr-8F1072A367B6.jpg</fanart>
     <titleshot>./media/image/Elvactr-77148B460E8B.png</titleshot>
     <extra1>./media/extras/Elvactr [41103]-extra1.png</extra1>
@@ -11268,7 +11267,7 @@ GAIA CRUSADERS É FORTEMENTE INFLUENCIADO POR OUTRO BEAT-EM-UP DE ROLAGEM, O CL�
     <image>./media/image/Gaia-D815AE4D548F.png</image>
     <video>./media/videos/Gaia-AFEF43FA7785.mp4</video>
     <screenshot>./media/screenshots/Gaia-2210F5C79842.png</screenshot>
-    <mix>./media/image/Gaia [37336]-image.png</mix>
+    <mix>./media/image/Gaia-D815AE4D548F.png</mix>
     <fanart>./media/fanart/Gaia-575B36E6FC2E.jpg</fanart>
     <titleshot>./media/image/Gaia-8F757905C504.png</titleshot>
     <extra1>./media/extras/Gaia [37336]-extra1.png</extra1>
@@ -12870,7 +12869,7 @@ Clone Of : nemesis -&gt; Gradius (Japan, ROM version)</temporary>
     <arcadesystemname>atari</arcadesystemname>
     <image>./media/image/Gravitar-58783641B3BE.png</image>
     <video>./media/videos/Gravitar-FFF628C2B52E.mp4</video>
-    <mix>./media/image/Gravitar [46391]-image.png</mix>
+    <mix>./media/image/Gravitar-58783641B3BE.png</mix>
     <fanart>./media/fanart/Gravitar-CC2516AA3F35.jpg</fanart>
     <manual>./media/manuals/Gravitar-7F47CCD5A7DE.pdf</manual>
     <extra1>./media/extras/Gravitar [46391]-extra1.png</extra1>
@@ -12893,7 +12892,7 @@ Clone Of : nemesis -&gt; Gradius (Japan, ROM version)</temporary>
     <image>./media/image/Grdians-1481AC2E56C7.png</image>
     <video>./media/videos/Grdians-4060A88E431E.mp4</video>
     <screenshot>./media/screenshots/Grdians-9E8B51921810.png</screenshot>
-    <mix>./media/image/Grdians [150682]-image.png</mix>
+    <mix>./media/image/Grdians-1481AC2E56C7.png</mix>
     <titleshot>./media/image/Grdians-A5E93DB7CA66.png</titleshot>
     <extra1>./media/extras/Grdians [150682]-extra1.png</extra1>
     <bezel>./media/image/Grdians-AA6D0A2A042D.png</bezel>
@@ -13972,7 +13971,7 @@ Clone Of : hharry -&gt; Hammerin' Harry (US, M84 hardware)</temporary>
     <image>./media/image/Hsf2-6C528C83B0F9.png</image>
     <video>./media/videos/Hsf2-EAFAFDD08EFB.mp4</video>
     <screenshot>./media/screenshots/Hsf2-E35F63B01363.png</screenshot>
-    <mix>./media/image/Hsf2 [149430]-image.png</mix>
+    <mix>./media/image/Hsf2-6C528C83B0F9.png</mix>
     <fanart>./media/fanart/Hsf2-90279EFC60D6.jpg</fanart>
     <titleshot>./media/image/Hsf2-DD0E4488FDA2.png</titleshot>
     <extra1>./media/extras/Hsf2 [149430]-extra1.png</extra1>
@@ -13998,7 +13997,7 @@ Clone Of : hsf2 -&gt; Hyper Street Fighter II The Anniversary Edition (040202 As
     <image>./media/image/Hsf2-6C528C83B0F9.png</image>
     <video>./media/videos/Hsf2-EAFAFDD08EFB.mp4</video>
     <screenshot>./media/screenshots/Hsf2-E35F63B01363.png</screenshot>
-    <mix>./media/image/Hsf2d-6C528C83B0F9.png</mix>
+    <mix>./media/image/Hsf2-6C528C83B0F9.png</mix>
     <fanart>./media/fanart/Hsf2-90279EFC60D6.jpg</fanart>
     <titleshot>./media/image/Hsf2-DD0E4488FDA2.png</titleshot>
     <extra1>./media/extras/Hsf2d-extra1.png</extra1>
@@ -15992,7 +15991,7 @@ Clone Of : kof98 -&gt; The King of Fighters '98 - The Slugfest / King of Fighter
     <image>./media/image/Kotm2-F28CAC1D5021.png</image>
     <video>./media/videos/Kotm2-6613FD6B5CC1.mp4</video>
     <screenshot>./media/screenshots/Kotm2-12A6ECBCA11D.png</screenshot>
-    <mix>./media/image/Kotm2 [37598]-image.png</mix>
+    <mix>./media/image/Kotm2-F28CAC1D5021.png</mix>
     <fanart>./media/fanart/Kotm2-FA8D1855E281.jpg</fanart>
     <titleshot>./media/image/Kotm2-8A3CE2533526.png</titleshot>
     <extra1>./media/extras/Kotm2 [37598]-extra1.png</extra1>
@@ -17902,7 +17901,7 @@ Clone Of : starforc -&gt; Mega Force (World)</temporary>
     <marquee>./media/image/Megaforc-39737EFBAF14.png</marquee>
     <wheel>./media/image/Megaforc-39737EFBAF14.png</wheel>
     <screenshot>./media/screenshots/Megaforc-896BA4F44654.png</screenshot>
-    <mix>./media/image/Megaforc [43349]-image.png</mix>
+    <mix>./media/image/Megaforc-ABF25FA7F287.png</mix>
     <fanart>./media/fanart/Megaforc-73FAD6A92F06.jpg</fanart>
     <titleshot>./media/image/Megaforc-6469267BDC65.png</titleshot>
     <manual>./media/manuals/Megaforc-292240FAA507.pdf</manual>
@@ -22053,7 +22052,7 @@ Clone Of : pooyan -&gt; Pootan</temporary>
   <game>
     <path>./Popeye.zip</path>
     <name>POPEYE (BOOTLEG)</name>
-    <desc>Clone OF : popeye (popeye (bootleg))</desc>
+    <desc>CLONE OF : POPEYE (POPEYE (BOOTLEG))</desc>
     <releasedate>1982/01/01</releasedate>
     <publisher>BOOTLEG</publisher>
     <genreid>0</genreid>
@@ -22414,12 +22413,26 @@ Clone Of : popeye -&gt; Popeye (bootleg)</temporary>
     <image>./media/image/Punisher-AE3C01BBC9FD.png</image>
     <video>./media/videos/Punisher-8D9B01032893.mp4</video>
     <screenshot>./media/screenshots/Punisher-2BC2B62593DF.png</screenshot>
-    <mix>./media/image/Punisher [37375]-image.png</mix>
+    <mix>./media/image/Punisher-AE3C01BBC9FD.png</mix>
     <fanart>./media/fanart/Punisher-2D9B1E6CB43F.jpg</fanart>
     <titleshot>./media/image/Punisher-91E9ED63F036.png</titleshot>
     <manual>./media/manuals/Punisher-AFE96E787A3E.pdf</manual>
     <extra1>./media/extras/Punisher [37375]-extra1.png</extra1>
     <bezel>./media/image/Punisher-45FEEC236366.png</bezel>
+  </game>
+  <game>
+    <path>./The Punisher.zip</path>
+    <name>PUNISHER, THE</name>
+    <genreid>0</genreid>
+    <image>./media/image/Punisher-AE3C01BBC9FD.png</image>
+    <video>./media/videos/Punisher-8D9B01032893.mp4</video>
+    <screenshot>./media/screenshots/Punisher-2BC2B62593DF.png</screenshot>
+    <mix>./media/image/Punisher-AE3C01BBC9FD.png</mix>
+    <fanart>./media/fanart/Punisher-2D9B1E6CB43F.jpg</fanart>
+    <titleshot>./media/image/Punisher-91E9ED63F036.png</titleshot>
+    <manual>./media/manuals/Punisher-AFE96E787A3E.pdf</manual>
+    <extra1>./media/extras/Punisher, The-extra1.png</extra1>
+    <bezel>./media/image/The Punisher-6A1C23AC66D1.png</bezel>
   </game>
   <game id="42552">
     <path>./Punk Shot [42552].zip</path>
@@ -22469,29 +22482,6 @@ Clone Of : popeye -&gt; Popeye (bootleg)</temporary>
     <bezel>./media/image/Puyo Puyo 2 (Japan)-457AAAEA67CF.png</bezel>
   </game>
   <game id="37405">
-    <path>./Puzz Loop 2.Cps2 [37405].7z</path>
-    <name>PUZZ LOOP 2.CPS2 [37405]</name>
-    <desc>ITÁLIA	A SEQUÊNCIA DA OBRA DE MESMO NOME COM ALGUMAS MELHORIAS. SEMPRE PODEMOS SELECIONAR LEVEL, PANIC, VS, MAS NOTAMOS O APARECIMENTO DE UM MODO POWER NO QUAL GRANDES ESFERAS VÍTREAS PODEM ESTOURAR AS MENORES ATRAINDO UMAS ÀS OUTRAS. HÁ TAMBÉM A POSSIBILIDADE DE ATIRAR EM BAÚS PARA BÔNUS DO TIPO "BOMBA". MUITO TÁTICO, REQUER RACIOCÍNIO RÁPIDO PARA CRIAR REAÇÕES EM CADEIA; ESTE JOGO RAPIDAMENTE FAZ VOCÊ ESQUECER SUA POBREZA GRÁFICA E SEU LADO "DESENHO ANIMADO POUCO ATRAENTE". DEPOIS DE ENTENDER O MODO DE RACIOCÍNIO A SER USADO, VOCÊ SE ENVOLVE RAPIDAMENTE NA AÇÃO. A ATMOSFERA SONORA, SEM SER EXCELENTE, ACOMPANHA BASTANTE O JOGO E SABE AUMENTAR A PRESSÃO. BOM PARA ESQUECER SUAS PREOCUPAÇÕES APÓS UM LONGO DIA DE TRABALHO!</desc>
-    <rating>0.60</rating>
-    <releasedate>20010101T000000</releasedate>
-    <developer>MITCHELL</developer>
-    <publisher>MITCHELL</publisher>
-    <genre>QUEBRA-CABEÇAS, QUEBRA-CABEÇAS / LANÇAR</genre>
-    <genreid>2816</genreid>
-    <players>1-2</players>
-    <md5>6eaac43fcb9ff7b29f04ff230b1ce0d5</md5>
-    <hash>A6E838C2</hash>
-    <arcadesystemname>cps2</arcadesystemname>
-    <image>./media/image/Puzz Loop 2.Cps2-7AAC854548AC.png</image>
-    <video>./media/videos/Puzz Loop 2.Cps2-3A720BD5C15F.mp4</video>
-    <screenshot>./media/screenshots/Puzz Loop 2.Cps2-441209255AB2.png</screenshot>
-    <mix>./media/image/Puzz Loop 2.Cps2 [37405]-image.png</mix>
-    <fanart>./media/fanart/Puzz Loop 2.Cps2-1224DD45FE91.jpg</fanart>
-    <titleshot>./media/image/Puzz Loop 2.Cps2-79DBECE28F3A.png</titleshot>
-    <extra1>./media/extras/Puzz Loop 2.Cps2 [37405]-extra1.png</extra1>
-    <bezel>./media/image/Puzz Loop 2.Cps2-1F138E0CE948.png</bezel>
-  </game>
-  <game id="37405">
     <path>./Puzz Loop 2 [37405].zip</path>
     <name>PUZZ LOOP 2</name>
     <desc>ITÁLIA A SEQUÊNCIA DA OBRA DE MESMO NOME COM ALGUMAS MELHORIAS. SEMPRE PODEMOS SELECIONAR LEVEL, PANIC, VS, MAS NOTAMOS O APARECIMENTO DE UM MODO POWER NO QUAL GRANDES ESFERAS VÍTREAS PODEM ESTOURAR AS MENORES ATRAINDO UMAS ÀS OUTRAS. HÁ TAMBÉM A POSSIBILIDADE DE ATIRAR EM BAÚS PARA BÔNUS DO TIPO "BOMBA". MUITO TÁTICO, REQUER RACIOCÍNIO RÁPIDO PARA CRIAR REAÇÕES EM CADEIA; ESTE JOGO RAPIDAMENTE FAZ VOCÊ ESQUECER SUA POBREZA GRÁFICA E SEU LADO "DESENHO ANIMADO POUCO ATRAENTE". DEPOIS DE ENTENDER O MODO DE RACIOCÍNIO A SER USADO, VOCÊ SE ENVOLVE RAPIDAMENTE NA AÇÃO. A ATMOSFERA SONORA, SEM SER EXCELENTE, ACOMPANHA BASTANTE O JOGO E SABE AUMENTAR A PRESSÃO. BOM PARA ESQUECER SUAS PREOCUPAÇÕES APÓS UM LONGO DIA DE TRABALHO!</desc>
@@ -22508,11 +22498,34 @@ Clone Of : popeye -&gt; Popeye (bootleg)</temporary>
     <image>./media/image/Puzz Loop 2.Cps2-7AAC854548AC.png</image>
     <video>./media/videos/Puzz Loop 2.Cps2-3A720BD5C15F.mp4</video>
     <screenshot>./media/screenshots/Puzz Loop 2.Cps2-441209255AB2.png</screenshot>
-    <mix>./media/image/Puzz Loop 2-7AAC854548AC.png</mix>
+    <mix>./media/image/Puzz Loop 2.Cps2-7AAC854548AC.png</mix>
     <fanart>./media/fanart/Puzz Loop 2.Cps2-1224DD45FE91.jpg</fanart>
     <titleshot>./media/image/Puzz Loop 2.Cps2-79DBECE28F3A.png</titleshot>
     <extra1>./media/image/Puzz Loop 2-CD2F28C940A8.png</extra1>
     <bezel>./media/image/Puzz Loop 2-CD2F28C940A8.png</bezel>
+  </game>
+  <game id="37405">
+    <path>./Puzz Loop 2.Cps2 [37405].7z</path>
+    <name>PUZZ LOOP 2.CPS2 [37405]</name>
+    <desc>ITÁLIA	A SEQUÊNCIA DA OBRA DE MESMO NOME COM ALGUMAS MELHORIAS. SEMPRE PODEMOS SELECIONAR LEVEL, PANIC, VS, MAS NOTAMOS O APARECIMENTO DE UM MODO POWER NO QUAL GRANDES ESFERAS VÍTREAS PODEM ESTOURAR AS MENORES ATRAINDO UMAS ÀS OUTRAS. HÁ TAMBÉM A POSSIBILIDADE DE ATIRAR EM BAÚS PARA BÔNUS DO TIPO "BOMBA". MUITO TÁTICO, REQUER RACIOCÍNIO RÁPIDO PARA CRIAR REAÇÕES EM CADEIA; ESTE JOGO RAPIDAMENTE FAZ VOCÊ ESQUECER SUA POBREZA GRÁFICA E SEU LADO "DESENHO ANIMADO POUCO ATRAENTE". DEPOIS DE ENTENDER O MODO DE RACIOCÍNIO A SER USADO, VOCÊ SE ENVOLVE RAPIDAMENTE NA AÇÃO. A ATMOSFERA SONORA, SEM SER EXCELENTE, ACOMPANHA BASTANTE O JOGO E SABE AUMENTAR A PRESSÃO. BOM PARA ESQUECER SUAS PREOCUPAÇÕES APÓS UM LONGO DIA DE TRABALHO!</desc>
+    <rating>0.60</rating>
+    <releasedate>20010101T000000</releasedate>
+    <developer>MITCHELL</developer>
+    <publisher>MITCHELL</publisher>
+    <genre>QUEBRA-CABEÇAS, QUEBRA-CABEÇAS / LANÇAR</genre>
+    <genreid>2816</genreid>
+    <players>1-2</players>
+    <md5>6eaac43fcb9ff7b29f04ff230b1ce0d5</md5>
+    <hash>A6E838C2</hash>
+    <arcadesystemname>cps2</arcadesystemname>
+    <image>./media/image/Puzz Loop 2.Cps2-7AAC854548AC.png</image>
+    <video>./media/videos/Puzz Loop 2.Cps2-3A720BD5C15F.mp4</video>
+    <screenshot>./media/screenshots/Puzz Loop 2.Cps2-441209255AB2.png</screenshot>
+    <mix>./media/image/Puzz Loop 2.Cps2-7AAC854548AC.png</mix>
+    <fanart>./media/fanart/Puzz Loop 2.Cps2-1224DD45FE91.jpg</fanart>
+    <titleshot>./media/image/Puzz Loop 2.Cps2-79DBECE28F3A.png</titleshot>
+    <extra1>./media/extras/Puzz Loop 2.Cps2 [37405]-extra1.png</extra1>
+    <bezel>./media/image/Puzz Loop 2.Cps2-1F138E0CE948.png</bezel>
   </game>
   <game id="37613">
     <path>./Puzzle Bobble 2 [37613].zip</path>
@@ -23341,7 +23354,7 @@ A PONTUAÇÃO TAMBÉM INCLUI UM POUCO MAIS PARA A ÉPOCA (SIM, AGORA JÁ VIROU C
     <image>./media/image/Rastan-5B8F6D6C2A28.png</image>
     <video>./media/videos/Rastan-8C88FE4527C7.mp4</video>
     <screenshot>./media/screenshots/Rastan-C0E684099665.png</screenshot>
-    <mix>./media/image/Rastan [42699]-image.png</mix>
+    <mix>./media/image/Rastan-5B8F6D6C2A28.png</mix>
     <fanart>./media/fanart/Rastan-C1859C60696A.jpg</fanart>
     <titleshot>./media/image/Rastan-F5916E77D45E.png</titleshot>
     <manual>./media/manuals/Rastan-E50DECE5382A.pdf</manual>
@@ -23904,7 +23917,7 @@ A TRILHA SONORA CONSISTE EM MÚSICA RAVE E TECHNO EM RITMO ACELERADO, AFASTANDO-
     <image>./media/image/Rfjet-ED5D23950121.png</image>
     <video>./media/videos/Rfjet-40DC72E64483.mp4</video>
     <screenshot>./media/screenshots/Rfjet-5326DCD60527.png</screenshot>
-    <mix>./media/image/Rfjet [42757]-image.png</mix>
+    <mix>./media/image/Rfjet-ED5D23950121.png</mix>
     <fanart>./media/fanart/Rfjet-32D8F2986C30.jpg</fanart>
     <titleshot>./media/image/Rfjet-E06D5776D2B3.png</titleshot>
     <manual>./media/manuals/Rfjet-9A4EF93AC971.pdf</manual>
@@ -24089,7 +24102,7 @@ ROAD BLASTERS É UM JOGO DE DIREÇÃO FUTURISTA NO QUAL O JOGADOR DEVE ATIRAR EM
     <image>./media/image/Roadblst-9BA15661AF3A.png</image>
     <video>./media/videos/Roadblst-F2A79ECBC755.mp4</video>
     <screenshot>./media/screenshots/Roadblst-21AC922775B3.png</screenshot>
-    <mix>./media/image/Roadblst [42781]-image.png</mix>
+    <mix>./media/image/Roadblst-9BA15661AF3A.png</mix>
     <fanart>./media/fanart/Roadblst-EBF4661AC650.jpg</fanart>
     <titleshot>./media/image/Roadblst-A16E0A90E3F8.png</titleshot>
     <manual>./media/manuals/Roadblst-11B163780AEF.pdf</manual>
@@ -24269,12 +24282,37 @@ A MÚSICA INCIDENTAL DO FILME TOCA DURANTE TODO O JOGO E A FALA DO ROBOCOP É AM
     <image>./media/image/Robocop-0B4599FF20B7.png</image>
     <video>./media/videos/Robocop-8E5D2833BE96.mp4</video>
     <screenshot>./media/screenshots/Robocop-FB88E1F82D30.png</screenshot>
-    <mix>./media/image/Robocop [42791]-image.png</mix>
+    <mix>./media/image/Robocop-0B4599FF20B7.png</mix>
     <fanart>./media/fanart/Robocop-CFB6B1E39666.jpg</fanart>
     <titleshot>./media/image/Robocop-A894076B4A29.png</titleshot>
     <manual>./media/manuals/Robocop-071F963340B4.pdf</manual>
     <extra1>./media/extras/Robocop [42791]-extra1.png</extra1>
     <bezel>./media/image/Robocop-D3629DD3A505.png</bezel>
+  </game>
+  <game id="42791">
+    <path>./Robocopp [42791].zip</path>
+    <name>ROBOCOPP</name>
+    <mode>Jogador individual</mode>
+    <desc>ROBOCOP - THE FUTURE OF LAW ENFORCEMENT É UM JOGO DE TIRO EM PLATAFORMA DE ROLAGEM LATERAL PARA UM ÚNICO JOGADOR BASEADO NO FILME DE 1987 DE MESMO NOME. A HISTÓRIA DO JOGO REFLETE A DO FILME, COM O EX-POLICIAL MURPHY, AGORA UM CIBORGUE MEIO HUMANO CHAMADO 'ROBOCOP', EM UMA MISSÃO PARA DERRUBAR A MALVADA CORPORAÇÃO OCP. ROBOCOP APRESENTA NOVE NÍVEIS DE AÇÃO, COM DOIS DOS NOVE ESTÁGIOS DO JOGO SENDO ALVOS NA TELA, NOS QUAIS OS JOGADORES PODEM TENTAR ACUMULAR PONTOS DE BÔNUS E GANHAR SAÚDE EXTRA. OCASIONALMENTE, CAIXAS DE MADEIRA IMPEDEM O PROGRESSO DO ROBOCOP, MAS PODEM SER PERFURADAS PARA REMOVÊ-LAS. AS CAIXAS MARCADAS PODEM SER QUEBRADAS PARA REVELAR UM DOS TRÊS POWER-UPS DE ARMAS; ARMA DE TRÊS VIAS, LASER DUPLO E A INCRIVELMENTE PODEROSA ARMA COBRA. A MÚSICA INCIDENTAL DO FILME TOCA DURANTE TODO O JOGO E A FALA DO ROBOCOP É AMOSTRADA DIRETAMENTE DO FILME ORIGINAL.</desc>
+    <rating>0.60</rating>
+    <releasedate>19880101T000000</releasedate>
+    <developer>DATA EAST</developer>
+    <publisher>DATA EAST</publisher>
+    <genre>TIRO / RUN AND GUN, PLATAFORMA, PLATAFORMA / TIRO COM ROLAGEM, TIRO</genre>
+    <genreid>257</genreid>
+    <players>1</players>
+    <md5>266d60ed94e21ff173df1db92c744f2e</md5>
+    <hash>B590676D</hash>
+    <arcadesystemname>dataeast</arcadesystemname>
+    <image>./media/image/Robocop-0B4599FF20B7.png</image>
+    <video>./media/videos/Robocop-8E5D2833BE96.mp4</video>
+    <screenshot>./media/screenshots/Robocop-FB88E1F82D30.png</screenshot>
+    <mix>./media/image/Robocop-0B4599FF20B7.png</mix>
+    <fanart>./media/fanart/Robocop-CFB6B1E39666.jpg</fanart>
+    <titleshot>./media/image/Robocop-A894076B4A29.png</titleshot>
+    <manual>./media/manuals/Robocop-071F963340B4.pdf</manual>
+    <extra1>./media/extras/Robocopp-extra1.png</extra1>
+    <bezel>./media/image/Robocopp-DCB1560D0FFB.png</bezel>
   </game>
   <game id="42792">
     <path>./Robocop2 [42792].zip</path>
@@ -24300,31 +24338,6 @@ A MÚSICA INCIDENTAL DO FILME TOCA DURANTE TODO O JOGO E A FALA DO ROBOCOP É AM
     <manual>./media/manuals/Robocop2-0D7C422B4570.pdf</manual>
     <extra1>./media/extras/Robocop2-extra1.png</extra1>
     <bezel>./media/image/Robocop2-CED2D1E57DCB.png</bezel>
-  </game>
-  <game id="42791">
-    <path>./Robocopp [42791].zip</path>
-    <name>ROBOCOPP</name>
-    <mode>Jogador individual</mode>
-    <desc>ROBOCOP - THE FUTURE OF LAW ENFORCEMENT É UM JOGO DE TIRO EM PLATAFORMA DE ROLAGEM LATERAL PARA UM ÚNICO JOGADOR BASEADO NO FILME DE 1987 DE MESMO NOME. A HISTÓRIA DO JOGO REFLETE A DO FILME, COM O EX-POLICIAL MURPHY, AGORA UM CIBORGUE MEIO HUMANO CHAMADO 'ROBOCOP', EM UMA MISSÃO PARA DERRUBAR A MALVADA CORPORAÇÃO OCP. ROBOCOP APRESENTA NOVE NÍVEIS DE AÇÃO, COM DOIS DOS NOVE ESTÁGIOS DO JOGO SENDO ALVOS NA TELA, NOS QUAIS OS JOGADORES PODEM TENTAR ACUMULAR PONTOS DE BÔNUS E GANHAR SAÚDE EXTRA. OCASIONALMENTE, CAIXAS DE MADEIRA IMPEDEM O PROGRESSO DO ROBOCOP, MAS PODEM SER PERFURADAS PARA REMOVÊ-LAS. AS CAIXAS MARCADAS PODEM SER QUEBRADAS PARA REVELAR UM DOS TRÊS POWER-UPS DE ARMAS; ARMA DE TRÊS VIAS, LASER DUPLO E A INCRIVELMENTE PODEROSA ARMA COBRA. A MÚSICA INCIDENTAL DO FILME TOCA DURANTE TODO O JOGO E A FALA DO ROBOCOP É AMOSTRADA DIRETAMENTE DO FILME ORIGINAL.</desc>
-    <rating>0.60</rating>
-    <releasedate>19880101T000000</releasedate>
-    <developer>DATA EAST</developer>
-    <publisher>DATA EAST</publisher>
-    <genre>TIRO / RUN AND GUN, PLATAFORMA, PLATAFORMA / TIRO COM ROLAGEM, TIRO</genre>
-    <genreid>257</genreid>
-    <players>1</players>
-    <md5>266d60ed94e21ff173df1db92c744f2e</md5>
-    <hash>B590676D</hash>
-    <arcadesystemname>dataeast</arcadesystemname>
-    <image>./media/image/Robocop-0B4599FF20B7.png</image>
-    <video>./media/videos/Robocop-8E5D2833BE96.mp4</video>
-    <screenshot>./media/screenshots/Robocop-FB88E1F82D30.png</screenshot>
-    <mix>./media/image/Robocopp-0B4599FF20B7.png</mix>
-    <fanart>./media/fanart/Robocop-CFB6B1E39666.jpg</fanart>
-    <titleshot>./media/image/Robocop-A894076B4A29.png</titleshot>
-    <manual>./media/manuals/Robocop-071F963340B4.pdf</manual>
-    <extra1>./media/extras/Robocopp-extra1.png</extra1>
-    <bezel>./media/image/Robocopp-DCB1560D0FFB.png</bezel>
   </game>
   <game id="42794">
     <path>./Robotbwl [42794].zip</path>
@@ -24689,34 +24702,6 @@ Clone Of : rocnrope -&gt; Ropeman (bootleg of Roc'n Rope)</temporary>
     <extra1>./media/extras/Rthunder-extra1.png</extra1>
     <bezel>./media/image/Rthunder-FDC4FFE222E7.png</bezel>
   </game>
-  <game id="42841">
-    <path>./Rtype [42841].zip</path>
-    <name>RTYPE [42841]</name>
-    <desc>RTYPE É UM JOGO DE TIRO DE ROLAGEM LATERAL EM QUE O MALVADO IMPÉRIO BYDO GOVERNA A GALÁXIA ATRAVÉS DO MEDO E DA INTIMIDAÇÃO E CABE AO JOGADOR - PILOTANDO SUA NAVE ESPACIAL R-9 FORTEMENTE ARMADA - LUTAR ATRAVÉS DE OITO NÍVEIS DIFÍCEIS ATÉ O CORAÇÃO DA FORTALEZA BYDO E DERROTÁ-LOS.
-O REVOLUCIONÁRIO SISTEMA DE ARMAS DO JOGO É O SEU VERDADEIRO GOLPE DE GÊNIO. A PRIMEIRA DAS INÚMERAS INOVAÇÕES QUE R?TYPE COMPROU PARA O GÊNERO É A ARMA DE FEIXE: QUANDO O BOTÃO DE DISPARO É PRESSIONADO, UM 'MEDIDOR DE POTÊNCIA' COMEÇA A CARREGAR; QUANDO O MEDIDOR ESTIVER CHEIO, SOLTAR O BOTÃO DE DISPARO LIBERA UMA EXPLOSÃO DE PLASMA MUITO PODEROSA, CAPAZ DE INFLIGIR DANOS MUITO MAIORES ÀS NAVES INIMIGAS OU ATÉ MESMO DESTRUIR VÁRIOS INIMIGOS SIMULTANEAMENTE. A DESVANTAGEM É QUE CARREGAR A ARMA LEVA SEGUNDOS VALIOSOS, DANDO ÀS NAVES BYDO TEMPO PARA ATACAR.
-A ADIÇÃO MAIS SIGNIFICATIVA AO ARSENAL DO TIPO R É O AGORA LENDÁRIO ‘FORCE POD’. ISSO ASSUME A FORMA DE UM POD DE DISPARO A LASER REMOVÍVEL E INVENCÍVEL QUE PODE SER CONECTADO À FRENTE OU ATRÁS DA NAVE DO JOGADOR, OU PODE SER COMPLETAMENTE DESCONECTADO, APÓS O QUAL O POD FICA A ALGUMA DISTÂNCIA À FRENTE OU ATRÁS DA NAVE DO JOGADOR, RASTREANDO SEUS MOVIMENTOS E FORNECENDO PODER DE FOGO ADICIONAL. QUANDO ANEXADO À NAVE R9, O POD ATUA COMO UM ESCUDO. ISTO CONSTITUI UMA PARTE CRUCIAL DA JOGABILIDADE DE R?TYPE E DEVE SER TOTALMENTE UTILIZADO PARA NAVEGAR EM CERTAS SEÇÕES DO JOGO, COMO A ENORME NAVE-MÃE QUE COMPREENDE O TERCEIRO ESTÁGIO DO JOGO.
-OS NÍVEIS DE R?TYPE SÃO PROJETADOS PARA FAZER USO TOTAL DE SEU SISTEMA DE ARMAS EXCLUSIVO, PROPORCIONANDO UMA JOGABILIDADE MUITO LINEAR E EXIGENTE, NA QUAL PERDER OU PEGAR A ARMA ERRADA NA HORA ERRADA GERALMENTE LEVA À MORTE INSTANTÂNEA. O SEU DESIGN DE NÍVEIS INTELIGENTE, PRECISO E EXIGENTE DEU AO MUNDO O SEU PRIMEIRO SHOOT-EM-UP VERDADEIRAMENTE 'ESTRATÉGICO'.</desc>
-    <rating>0.80</rating>
-    <releasedate>19870101T000000</releasedate>
-    <developer>IREM</developer>
-    <publisher>IREM</publisher>
-    <genre>SHOOT'EM UP / HORIZONTAL, SHOOT'EM UP</genre>
-    <genreid>260</genreid>
-    <players>1-2</players>
-    <md5>566dd56e068922c155a0f8cce0002c0c</md5>
-    <hash>302D358F</hash>
-    <region>wor</region>
-    <arcadesystemname>irem</arcadesystemname>
-    <image>./media/image/Rtype-8560D7E4ECCF.png</image>
-    <video>./media/videos/Rtype-A649AFEA5319.mp4</video>
-    <screenshot>./media/screenshots/Rtype-B3F2B3DE96BE.png</screenshot>
-    <mix>./media/image/Rtype [42841]-image.png</mix>
-    <fanart>./media/fanart/Rtype-C943A6BEDF29.jpg</fanart>
-    <titleshot>./media/image/Rtype-D651C5CF90F2.png</titleshot>
-    <manual>./media/manuals/Rtype-5A772BE99C66.pdf</manual>
-    <extra1>./media/extras/Rtype [42841]-extra1.png</extra1>
-    <bezel>./media/image/Rtype-C1EC571EC903.png</bezel>
-  </game>
   <game id="42842">
     <path>./Rtype2 [42842].zip</path>
     <name>RTYPE2</name>
@@ -24745,6 +24730,64 @@ OS NÍVEIS DE R?TYPE SÃO PROJETADOS PARA FAZER USO TOTAL DE SEU SISTEMA DE ARMA
     <manual>./media/manuals/Rtype2-484E1AEBC6E3.pdf</manual>
     <extra1>./media/extras/Rtype2-extra1.png</extra1>
     <bezel>./media/image/Rtype2-81A038B2A8E1.png</bezel>
+  </game>
+  <game id="42841">
+    <path>./Rtype [42841].zip</path>
+    <name>RTYPE [42841]</name>
+    <desc>RTYPE É UM JOGO DE TIRO DE ROLAGEM LATERAL EM QUE O MALVADO IMPÉRIO BYDO GOVERNA A GALÁXIA ATRAVÉS DO MEDO E DA INTIMIDAÇÃO E CABE AO JOGADOR - PILOTANDO SUA NAVE ESPACIAL R-9 FORTEMENTE ARMADA - LUTAR ATRAVÉS DE OITO NÍVEIS DIFÍCEIS ATÉ O CORAÇÃO DA FORTALEZA BYDO E DERROTÁ-LOS.
+O REVOLUCIONÁRIO SISTEMA DE ARMAS DO JOGO É O SEU VERDADEIRO GOLPE DE GÊNIO. A PRIMEIRA DAS INÚMERAS INOVAÇÕES QUE R?TYPE COMPROU PARA O GÊNERO É A ARMA DE FEIXE: QUANDO O BOTÃO DE DISPARO É PRESSIONADO, UM 'MEDIDOR DE POTÊNCIA' COMEÇA A CARREGAR; QUANDO O MEDIDOR ESTIVER CHEIO, SOLTAR O BOTÃO DE DISPARO LIBERA UMA EXPLOSÃO DE PLASMA MUITO PODEROSA, CAPAZ DE INFLIGIR DANOS MUITO MAIORES ÀS NAVES INIMIGAS OU ATÉ MESMO DESTRUIR VÁRIOS INIMIGOS SIMULTANEAMENTE. A DESVANTAGEM É QUE CARREGAR A ARMA LEVA SEGUNDOS VALIOSOS, DANDO ÀS NAVES BYDO TEMPO PARA ATACAR.
+A ADIÇÃO MAIS SIGNIFICATIVA AO ARSENAL DO TIPO R É O AGORA LENDÁRIO ‘FORCE POD’. ISSO ASSUME A FORMA DE UM POD DE DISPARO A LASER REMOVÍVEL E INVENCÍVEL QUE PODE SER CONECTADO À FRENTE OU ATRÁS DA NAVE DO JOGADOR, OU PODE SER COMPLETAMENTE DESCONECTADO, APÓS O QUAL O POD FICA A ALGUMA DISTÂNCIA À FRENTE OU ATRÁS DA NAVE DO JOGADOR, RASTREANDO SEUS MOVIMENTOS E FORNECENDO PODER DE FOGO ADICIONAL. QUANDO ANEXADO À NAVE R9, O POD ATUA COMO UM ESCUDO. ISTO CONSTITUI UMA PARTE CRUCIAL DA JOGABILIDADE DE R?TYPE E DEVE SER TOTALMENTE UTILIZADO PARA NAVEGAR EM CERTAS SEÇÕES DO JOGO, COMO A ENORME NAVE-MÃE QUE COMPREENDE O TERCEIRO ESTÁGIO DO JOGO.
+OS NÍVEIS DE R?TYPE SÃO PROJETADOS PARA FAZER USO TOTAL DE SEU SISTEMA DE ARMAS EXCLUSIVO, PROPORCIONANDO UMA JOGABILIDADE MUITO LINEAR E EXIGENTE, NA QUAL PERDER OU PEGAR A ARMA ERRADA NA HORA ERRADA GERALMENTE LEVA À MORTE INSTANTÂNEA. O SEU DESIGN DE NÍVEIS INTELIGENTE, PRECISO E EXIGENTE DEU AO MUNDO O SEU PRIMEIRO SHOOT-EM-UP VERDADEIRAMENTE 'ESTRATÉGICO'.</desc>
+    <rating>0.80</rating>
+    <releasedate>19870101T000000</releasedate>
+    <developer>IREM</developer>
+    <publisher>IREM</publisher>
+    <genre>SHOOT'EM UP / HORIZONTAL, SHOOT'EM UP</genre>
+    <genreid>260</genreid>
+    <players>1-2</players>
+    <md5>566dd56e068922c155a0f8cce0002c0c</md5>
+    <hash>302D358F</hash>
+    <region>wor</region>
+    <arcadesystemname>irem</arcadesystemname>
+    <image>./media/image/Rtype-8560D7E4ECCF.png</image>
+    <video>./media/videos/Rtype-A649AFEA5319.mp4</video>
+    <screenshot>./media/screenshots/Rtype-B3F2B3DE96BE.png</screenshot>
+    <mix>./media/image/Rtype-8560D7E4ECCF.png</mix>
+    <fanart>./media/fanart/Rtype-C943A6BEDF29.jpg</fanart>
+    <titleshot>./media/image/Rtype-D651C5CF90F2.png</titleshot>
+    <manual>./media/manuals/Rtype-5A772BE99C66.pdf</manual>
+    <extra1>./media/extras/Rtype [42841]-extra1.png</extra1>
+    <bezel>./media/image/Rtype-C1EC571EC903.png</bezel>
+  </game>
+  <game id="42841">
+    <path>./Rtypeu [42841].zip</path>
+    <name>RTYPEU</name>
+    <desc>RTYPE É UM JOGO DE TIRO DE ROLAGEM LATERAL EM QUE O MALVADO IMPÉRIO BYDO GOVERNA A GALÁXIA ATRAVÉS DO MEDO E DA INTIMIDAÇÃO E CABE AO JOGADOR - PILOTANDO SUA NAVE ESPACIAL R-9 FORTEMENTE ARMADA - LUTAR ATRAVÉS DE OITO NÍVEIS DIFÍCEIS ATÉ O CORAÇÃO DA FORTALEZA BYDO E DERROTÁ-LOS. O REVOLUCIONÁRIO SISTEMA DE ARMAS DO JOGO É O SEU VERDADEIRO GOLPE DE GÊNIO. A PRIMEIRA DAS INÚMERAS INOVAÇÕES QUE R?TYPE COMPROU PARA O GÊNERO É A ARMA DE FEIXE: QUANDO O BOTÃO DE DISPARO É PRESSIONADO, UM 'MEDIDOR DE POTÊNCIA' COMEÇA A CARREGAR; QUANDO O MEDIDOR ESTIVER CHEIO, SOLTAR O BOTÃO DE DISPARO LIBERA UMA EXPLOSÃO DE PLASMA MUITO PODEROSA, CAPAZ DE INFLIGIR DANOS MUITO MAIORES ÀS NAVES INIMIGAS OU ATÉ MESMO DESTRUIR VÁRIOS INIMIGOS SIMULTANEAMENTE. A DESVANTAGEM É QUE CARREGAR A ARMA LEVA SEGUNDOS VALIOSOS, DANDO ÀS NAVES BYDO TEMPO PARA ATACAR. A ADIÇÃO MAIS SIGNIFICATIVA AO ARSENAL DO TIPO R É O AGORA LENDÁRIO ‘FORCE POD’. ISSO ASSUME A FORMA DE UM POD DE DISPARO A LASER REMOVÍVEL E INVENCÍVEL QUE PODE SER CONECTADO À FRENTE OU ATRÁS DA NAVE DO JOGADOR, OU PODE SER COMPLETAMENTE DESCONECTADO, APÓS O QUAL O POD FICA A ALGUMA DISTÂNCIA À FRENTE OU ATRÁS DA NAVE DO JOGADOR, RASTREANDO SEUS MOVIMENTOS E FORNECENDO PODER DE FOGO ADICIONAL. QUANDO ANEXADO À NAVE R9, O POD ATUA COMO UM ESCUDO. ISTO CONSTITUI UMA PARTE CRUCIAL DA JOGABILIDADE DE R?TYPE E DEVE SER TOTALMENTE UTILIZADO PARA NAVEGAR EM CERTAS SEÇÕES DO JOGO, COMO A ENORME NAVE-MÃE QUE COMPREENDE O TERCEIRO ESTÁGIO DO JOGO. OS NÍVEIS DE R?TYPE SÃO PROJETADOS PARA FAZER USO TOTAL DE SEU SISTEMA DE ARMAS EXCLUSIVO, PROPORCIONANDO UMA JOGABILIDADE MUITO LINEAR E EXIGENTE, NA QUAL PERDER OU PEGAR A ARMA ERRADA NA HORA ERRADA GERALMENTE LEVA À MORTE INSTANTÂNEA. O SEU DESIGN DE NÍVEIS INTELIGENTE, PRECISO E EXIGENTE DEU AO MUNDO O SEU PRIMEIRO SHOOT-EM-UP VERDADEIRAMENTE 'ESTRATÉGICO'.</desc>
+    <rating>0.80</rating>
+    <releasedate>19870101T000000</releasedate>
+    <developer>IREM</developer>
+    <publisher>IREM</publisher>
+    <genre>SHOOT'EM UP / HORIZONTAL, SHOOT'EM UP</genre>
+    <genreid>260</genreid>
+    <players>1-2</players>
+    <md5>a6b5ff086475e4880dbc17377bc28257</md5>
+    <hash>7CDC2BF2</hash>
+    <region>us</region>
+    <arcadesystemname>irem</arcadesystemname>
+    <temporary>
+Clone Of : rtype -&gt; R-Type (US)</temporary>
+    <image>./media/image/Rtype-8560D7E4ECCF.png</image>
+    <video>./media/videos/Rtype-A649AFEA5319.mp4</video>
+    <thumbnail>./media/image/Rtype-8560D7E4ECCF.png</thumbnail>
+    <boxart>./media/image/Rtype-8560D7E4ECCF.png</boxart>
+    <screenshot>./media/screenshots/Rtype-B3F2B3DE96BE.png</screenshot>
+    <mix>./media/image/Rtype-8560D7E4ECCF.png</mix>
+    <fanart>./media/fanart/Rtype-C943A6BEDF29.jpg</fanart>
+    <titleshot>./media/image/Rtype-D651C5CF90F2.png</titleshot>
+    <manual>./media/manuals/Rtype-5A772BE99C66.pdf</manual>
+    <boxback>./media/image/Rtypeu-AA87AE4F175C.png</boxback>
+    <extra1>./media/extras/Rtypeu-extra1.png</extra1>
+    <bezel>./media/image/Rtypeu-E3B710CDD55A.png</bezel>
   </game>
   <game id="42843">
     <path>./Rtypeleo [42843].zip</path>
@@ -24775,36 +24818,6 @@ OS NÍVEIS DE R?TYPE SÃO PROJETADOS PARA FAZER USO TOTAL DE SEU SISTEMA DE ARMA
     <boxback>./media/image/Rtypeleo-DE3367DA235B.png</boxback>
     <extra1>./media/extras/Rtypeleo-extra1.png</extra1>
     <bezel>./media/image/Rtypeleo-DAE6304D2F90.png</bezel>
-  </game>
-  <game id="42841">
-    <path>./Rtypeu [42841].zip</path>
-    <name>RTYPEU</name>
-    <desc>RTYPE É UM JOGO DE TIRO DE ROLAGEM LATERAL EM QUE O MALVADO IMPÉRIO BYDO GOVERNA A GALÁXIA ATRAVÉS DO MEDO E DA INTIMIDAÇÃO E CABE AO JOGADOR - PILOTANDO SUA NAVE ESPACIAL R-9 FORTEMENTE ARMADA - LUTAR ATRAVÉS DE OITO NÍVEIS DIFÍCEIS ATÉ O CORAÇÃO DA FORTALEZA BYDO E DERROTÁ-LOS. O REVOLUCIONÁRIO SISTEMA DE ARMAS DO JOGO É O SEU VERDADEIRO GOLPE DE GÊNIO. A PRIMEIRA DAS INÚMERAS INOVAÇÕES QUE R?TYPE COMPROU PARA O GÊNERO É A ARMA DE FEIXE: QUANDO O BOTÃO DE DISPARO É PRESSIONADO, UM 'MEDIDOR DE POTÊNCIA' COMEÇA A CARREGAR; QUANDO O MEDIDOR ESTIVER CHEIO, SOLTAR O BOTÃO DE DISPARO LIBERA UMA EXPLOSÃO DE PLASMA MUITO PODEROSA, CAPAZ DE INFLIGIR DANOS MUITO MAIORES ÀS NAVES INIMIGAS OU ATÉ MESMO DESTRUIR VÁRIOS INIMIGOS SIMULTANEAMENTE. A DESVANTAGEM É QUE CARREGAR A ARMA LEVA SEGUNDOS VALIOSOS, DANDO ÀS NAVES BYDO TEMPO PARA ATACAR. A ADIÇÃO MAIS SIGNIFICATIVA AO ARSENAL DO TIPO R É O AGORA LENDÁRIO ‘FORCE POD’. ISSO ASSUME A FORMA DE UM POD DE DISPARO A LASER REMOVÍVEL E INVENCÍVEL QUE PODE SER CONECTADO À FRENTE OU ATRÁS DA NAVE DO JOGADOR, OU PODE SER COMPLETAMENTE DESCONECTADO, APÓS O QUAL O POD FICA A ALGUMA DISTÂNCIA À FRENTE OU ATRÁS DA NAVE DO JOGADOR, RASTREANDO SEUS MOVIMENTOS E FORNECENDO PODER DE FOGO ADICIONAL. QUANDO ANEXADO À NAVE R9, O POD ATUA COMO UM ESCUDO. ISTO CONSTITUI UMA PARTE CRUCIAL DA JOGABILIDADE DE R?TYPE E DEVE SER TOTALMENTE UTILIZADO PARA NAVEGAR EM CERTAS SEÇÕES DO JOGO, COMO A ENORME NAVE-MÃE QUE COMPREENDE O TERCEIRO ESTÁGIO DO JOGO. OS NÍVEIS DE R?TYPE SÃO PROJETADOS PARA FAZER USO TOTAL DE SEU SISTEMA DE ARMAS EXCLUSIVO, PROPORCIONANDO UMA JOGABILIDADE MUITO LINEAR E EXIGENTE, NA QUAL PERDER OU PEGAR A ARMA ERRADA NA HORA ERRADA GERALMENTE LEVA À MORTE INSTANTÂNEA. O SEU DESIGN DE NÍVEIS INTELIGENTE, PRECISO E EXIGENTE DEU AO MUNDO O SEU PRIMEIRO SHOOT-EM-UP VERDADEIRAMENTE 'ESTRATÉGICO'.</desc>
-    <rating>0.80</rating>
-    <releasedate>19870101T000000</releasedate>
-    <developer>IREM</developer>
-    <publisher>IREM</publisher>
-    <genre>SHOOT'EM UP / HORIZONTAL, SHOOT'EM UP</genre>
-    <genreid>260</genreid>
-    <players>1-2</players>
-    <md5>a6b5ff086475e4880dbc17377bc28257</md5>
-    <hash>7CDC2BF2</hash>
-    <region>us</region>
-    <arcadesystemname>irem</arcadesystemname>
-    <temporary>
-Clone Of : rtype -&gt; R-Type (US)</temporary>
-    <image>./media/image/Rtype-8560D7E4ECCF.png</image>
-    <video>./media/videos/Rtype-A649AFEA5319.mp4</video>
-    <thumbnail>./media/image/Rtype-8560D7E4ECCF.png</thumbnail>
-    <boxart>./media/image/Rtype-8560D7E4ECCF.png</boxart>
-    <screenshot>./media/screenshots/Rtype-B3F2B3DE96BE.png</screenshot>
-    <mix>./media/image/Rtypeu-8560D7E4ECCF.png</mix>
-    <fanart>./media/fanart/Rtype-C943A6BEDF29.jpg</fanart>
-    <titleshot>./media/image/Rtype-D651C5CF90F2.png</titleshot>
-    <manual>./media/manuals/Rtype-5A772BE99C66.pdf</manual>
-    <boxback>./media/image/Rtypeu-AA87AE4F175C.png</boxback>
-    <extra1>./media/extras/Rtypeu-extra1.png</extra1>
-    <bezel>./media/image/Rtypeu-E3B710CDD55A.png</bezel>
   </game>
   <game id="42850">
     <path>./Rungun2 [42850].zip</path>
@@ -25070,7 +25083,7 @@ Clone Of : rygar -&gt; Argus no Senshi (Japan)</temporary>
     <image>./media/image/Sailormn-6FFC4A615866.png</image>
     <video>./media/videos/Sailormn-4D27B3CB98B5.mp4</video>
     <screenshot>./media/screenshots/Sailormn-8A17A9CFB568.png</screenshot>
-    <mix>./media/image/Sailormn [37352]-image.png</mix>
+    <mix>./media/image/Sailormn-6FFC4A615866.png</mix>
     <fanart>./media/fanart/Sailormn-0D6CAC13FE2F.jpg</fanart>
     <titleshot>./media/image/Sailormn-E924AD6626A6.png</titleshot>
     <extra1>./media/extras/Sailormn [37352]-extra1.png</extra1>
@@ -25136,33 +25149,6 @@ Clone Of : sailormn -&gt; Pretty Soldier Sailor Moon (ver. 95/03/21, Japan)</tem
     <extra1>./media/image/Salmndr2-2CF293EE1FAD.png</extra1>
     <bezel>./media/image/Salmndr2-2CF293EE1FAD.png</bezel>
   </game>
-  <game id="37629">
-    <path>./Samsho [37629].zip</path>
-    <name>SAMSHO [37629]</name>
-    <mode>Jogador individual</mode>
-    <desc>NO INÍCIO DO JAPÃO, UM HOMEM CHAMADO SHIRO TOKISADA AMAKUSA PREGA UMA RELIGIÃO HERÉTICA. POUCO SABE ALGUÉM QUE AMAKUSA É REALMENTE UM SERVO DO MAL AMBROSIA, QUE ASSUMIU O CORPO DE AMAKUSA. AMBROSIA DESEJA ENCOBRIR O MUNDO NA ESCURIDÃO.
-AGORA, ESCOLHA ENTRE 12 GUERREIROS (E 3 PERSONAGENS BÔNUS) PARA LUTAR PELA HONRA DE DESTRUIR AMAKUSA E CUMPRIR UMA MISSÃO.</desc>
-    <rating>0.60</rating>
-    <releasedate>19930811T000000</releasedate>
-    <developer>SNK</developer>
-    <publisher>SNK</publisher>
-    <genre>LUTA / VERSUS, LUTA</genre>
-    <genreid>262</genreid>
-    <players>1-2</players>
-    <md5>5c8a337dab922dc47e7a65fa39d81073</md5>
-    <hash>D9652D0D</hash>
-    <region>wor</region>
-    <arcadesystemname>snk</arcadesystemname>
-    <image>./media/image/Samsho-9922FFE8A80F.png</image>
-    <video>./media/videos/Samsho-45B4D0841540.mp4</video>
-    <screenshot>./media/screenshots/Samsho-8626525F6778.png</screenshot>
-    <mix>./media/image/Samsho [37629]-image.png</mix>
-    <fanart>./media/fanart/Samsho-9FD8E4AD9316.jpg</fanart>
-    <titleshot>./media/image/Samsho-D914E6F18E21.png</titleshot>
-    <manual>./media/manuals/Samsho-3D9D049EFED7.pdf</manual>
-    <extra1>./media/extras/Samsho [37629]-extra1.png</extra1>
-    <bezel>./media/image/Samsho-DC8A3838BFFB.png</bezel>
-  </game>
   <game id="37632">
     <path>./Samsho4 [37632].zip</path>
     <name>SAMSHO4</name>
@@ -25194,6 +25180,33 @@ AGORA, ESCOLHA ENTRE 12 GUERREIROS (E 3 PERSONAGENS BÔNUS) PARA LUTAR PELA HONR
     <bezel>./media/image/Samsho4-B72EDB961761.png</bezel>
   </game>
   <game id="37629">
+    <path>./Samsho [37629].zip</path>
+    <name>SAMSHO [37629]</name>
+    <mode>Jogador individual</mode>
+    <desc>NO INÍCIO DO JAPÃO, UM HOMEM CHAMADO SHIRO TOKISADA AMAKUSA PREGA UMA RELIGIÃO HERÉTICA. POUCO SABE ALGUÉM QUE AMAKUSA É REALMENTE UM SERVO DO MAL AMBROSIA, QUE ASSUMIU O CORPO DE AMAKUSA. AMBROSIA DESEJA ENCOBRIR O MUNDO NA ESCURIDÃO.
+AGORA, ESCOLHA ENTRE 12 GUERREIROS (E 3 PERSONAGENS BÔNUS) PARA LUTAR PELA HONRA DE DESTRUIR AMAKUSA E CUMPRIR UMA MISSÃO.</desc>
+    <rating>0.60</rating>
+    <releasedate>19930811T000000</releasedate>
+    <developer>SNK</developer>
+    <publisher>SNK</publisher>
+    <genre>LUTA / VERSUS, LUTA</genre>
+    <genreid>262</genreid>
+    <players>1-2</players>
+    <md5>5c8a337dab922dc47e7a65fa39d81073</md5>
+    <hash>D9652D0D</hash>
+    <region>wor</region>
+    <arcadesystemname>snk</arcadesystemname>
+    <image>./media/image/Samsho-9922FFE8A80F.png</image>
+    <video>./media/videos/Samsho-45B4D0841540.mp4</video>
+    <screenshot>./media/screenshots/Samsho-8626525F6778.png</screenshot>
+    <mix>./media/image/Samsho-9922FFE8A80F.png</mix>
+    <fanart>./media/fanart/Samsho-9FD8E4AD9316.jpg</fanart>
+    <titleshot>./media/image/Samsho-D914E6F18E21.png</titleshot>
+    <manual>./media/manuals/Samsho-3D9D049EFED7.pdf</manual>
+    <extra1>./media/extras/Samsho [37629]-extra1.png</extra1>
+    <bezel>./media/image/Samsho-DC8A3838BFFB.png</bezel>
+  </game>
+  <game id="37629">
     <path>./Samurai Shodown [37629].zip</path>
     <name>SAMURAI SHODOWN [37629]</name>
     <mode>Jogador individual</mode>
@@ -25212,7 +25225,7 @@ AGORA, ESCOLHA ENTRE 12 GUERREIROS (E 3 PERSONAGENS BÔNUS) PARA LUTAR PELA HONR
     <image>./media/image/Samsho-9922FFE8A80F.png</image>
     <video>./media/videos/Samsho-45B4D0841540.mp4</video>
     <screenshot>./media/screenshots/Samsho-8626525F6778.png</screenshot>
-    <mix>./media/image/Samurai Shodown [37629]-image.png</mix>
+    <mix>./media/image/Samsho-9922FFE8A80F.png</mix>
     <fanart>./media/fanart/Samsho-9FD8E4AD9316.jpg</fanart>
     <titleshot>./media/image/Samsho-D914E6F18E21.png</titleshot>
     <manual>./media/manuals/Samsho-3D9D049EFED7.pdf</manual>
@@ -25796,7 +25809,7 @@ O CONTATO COM QUALQUER CENÁRIO, INSTALAÇÕES TERRESTRES, NAVIOS INIMIGOS OU ES
     <marquee>./media/image/Scramble-E7B09BBE0702.png</marquee>
     <wheel>./media/image/Scramble-E7B09BBE0702.png</wheel>
     <screenshot>./media/screenshots/Scramble-1DACA2EAAD13.png</screenshot>
-    <mix>./media/image/Scramble [42929]-image.png</mix>
+    <mix>./media/image/Scramble-FEF1248650DC.png</mix>
     <fanart>./media/fanart/Scramble-2B84E972A02E.jpg</fanart>
     <titleshot>./media/image/Scramble-6A458CBE7B82.png</titleshot>
     <manual>./media/manuals/Scramble-78016722F4C2.pdf</manual>
@@ -27633,7 +27646,7 @@ Clone Of : soldam -&gt; Soldam (Japan)</temporary>
     <path>./Sonicwi2 [37641].zip</path>
     <name>SONICWI2</name>
     <mode>Jogador individual</mode>
-    <desc>AERO fighters 2 é UM shooter DE rolagem vertical NA mesma linha DE 1942 E jogos similares. Suporta até DOIS jogadores E TEM 8 aeronaves diferentes PARA escolher, CADA UMA equipada COM armas primárias E secundárias exclusivas. OS power-ups melhoram O visual, A potência, O tamanho E A forma DOS disparos. Bombas ativam UM poder especial QUE geralmente apaga OS inimigos NA tela. O JOGO TEM UM total DE 10 etapas (japão, brasil, atlântico, eua, frança, austrália, himalaia, méxico, havaí E espaço), todas COM UMA batalha final contra chefões.</desc>
+    <desc>AERO FIGHTERS 2 É UM SHOOTER DE ROLAGEM VERTICAL NA MESMA LINHA DE 1942 E JOGOS SIMILARES. SUPORTA ATÉ DOIS JOGADORES E TEM 8 AERONAVES DIFERENTES PARA ESCOLHER, CADA UMA EQUIPADA COM ARMAS PRIMÁRIAS E SECUNDÁRIAS EXCLUSIVAS. OS POWER-UPS MELHORAM O VISUAL, A POTÊNCIA, O TAMANHO E A FORMA DOS DISPAROS. BOMBAS ATIVAM UM PODER ESPECIAL QUE GERALMENTE APAGA OS INIMIGOS NA TELA. O JOGO TEM UM TOTAL DE 10 ETAPAS (JAPÃO, BRASIL, ATLÂNTICO, EUA, FRANÇA, AUSTRÁLIA, HIMALAIA, MÉXICO, HAVAÍ E ESPAÇO), TODAS COM UMA BATALHA FINAL CONTRA CHEFÕES.</desc>
     <rating>0.60</rating>
     <releasedate>19940826T000000</releasedate>
     <developer>VIDEO SYSTEM</developer>
@@ -27649,6 +27662,7 @@ Clone Of : soldam -&gt; Soldam (Japan)</temporary>
     <image>./media/image/Sonicwi2-8EDF71DBD55E.png</image>
     <video>./media/videos/Aero Fighters 2-A2591862DFB7.mp4</video>
     <screenshot>./media/screenshots/Sonicwi2-AC9EFBC8FD54.png</screenshot>
+    <mix>./media/image/Sonicwi2-8EDF71DBD55E.png</mix>
     <fanart>./media/fanart/Sonicwi2-5CD9642901B1.jpg</fanart>
     <titleshot>./media/image/Sonicwi2-0A1E550BB6C0.png</titleshot>
     <manual>./media/manuals/Aero Fighters 2-1D12B5C4F722.pdf</manual>
@@ -29703,7 +29717,7 @@ Clone Of : speakres -&gt; Stratovox</temporary>
     <image>./media/image/Super Gem Fighter Mini MIX-1BC7FA7989B9.png</image>
     <video>./media/videos/Super Gem Fighter Mini MIX-B582E1E3EA25.mp4</video>
     <screenshot>./media/screenshots/Super Gem Fighter Mini MIX-662B92ACD9E3.png</screenshot>
-    <mix>./media/image/Super Gem Fighter Mini Mix.Cps2-1BC7FA7989B9.png</mix>
+    <mix>./media/image/Super Gem Fighter Mini MIX-1BC7FA7989B9.png</mix>
     <fanart>./media/fanart/Super Gem Fighter Mini MIX-E9E6A70B8051.jpg</fanart>
     <titleshot>./media/image/Super Gem Fighter Mini MIX-699D8F5BBFAB.png</titleshot>
     <manual>./media/manuals/Super Gem Fighter Mini MIX-B87168EEC767.pdf</manual>
@@ -29729,7 +29743,7 @@ DURANTE UMA LUTA, OS JOGADORES PODERÃO LIBERAR GEMAS COLORIDAS DE ATAQUES BEM-S
     <image>./media/image/Super Gem Fighter Mini MIX-1BC7FA7989B9.png</image>
     <video>./media/videos/Super Gem Fighter Mini MIX-B582E1E3EA25.mp4</video>
     <screenshot>./media/screenshots/Super Gem Fighter Mini MIX-662B92ACD9E3.png</screenshot>
-    <mix>./media/image/Super Gem Fighter Mini Mix.Cps2-1BC7FA7989B9.png</mix>
+    <mix>./media/image/Super Gem Fighter Mini MIX-1BC7FA7989B9.png</mix>
     <fanart>./media/fanart/Super Gem Fighter Mini MIX-E9E6A70B8051.jpg</fanart>
     <titleshot>./media/image/Super Gem Fighter Mini MIX-699D8F5BBFAB.png</titleshot>
     <manual>./media/manuals/Super Gem Fighter Mini MIX-B87168EEC767.pdf</manual>
@@ -30823,20 +30837,6 @@ Clone Of : kod -&gt; The King of Dragons (US 910910)</temporary>
     <manual>./media/manuals/The Pit-7351A3502FD9.pdf</manual>
     <extra1>./media/extras/Thepit-extra1.png</extra1>
     <bezel>./media/image/The Pit-6C44F475C66B.png</bezel>
-  </game>
-  <game>
-    <path>./The Punisher.zip</path>
-    <name>PUNISHER, THE</name>
-    <genreid>0</genreid>
-    <image>./media/image/Punisher-AE3C01BBC9FD.png</image>
-    <video>./media/videos/Punisher-8D9B01032893.mp4</video>
-    <screenshot>./media/screenshots/Punisher-2BC2B62593DF.png</screenshot>
-    <mix>./media/image/The Punisher-AE3C01BBC9FD.png</mix>
-    <fanart>./media/fanart/Punisher-2D9B1E6CB43F.jpg</fanart>
-    <titleshot>./media/image/Punisher-91E9ED63F036.png</titleshot>
-    <manual>./media/manuals/Punisher-AFE96E787A3E.pdf</manual>
-    <extra1>./media/extras/Punisher, The-extra1.png</extra1>
-    <bezel>./media/image/The Punisher-6A1C23AC66D1.png</bezel>
   </game>
   <game id="13935">
     <path>./The Super Spy [13935].zip</path>

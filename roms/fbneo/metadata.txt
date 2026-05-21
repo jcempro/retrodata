@@ -515,12 +515,12 @@ assets.boxBack:
 assets.cartridge: 
 assets.marquee: 
 assets.screenshot: ./media/screenshots/Aero Fighters 2-9AD62C23BC68.png
-assets.video: ./media/videos/Sonicwi2-A2591862DFB7.mp4
+assets.video: ./media/videos/Aero Fighters 2-A2591862DFB7.mp4
 assets.logo: 
 assets.background: ./media/fanart/Aero Fighters 2-D1343D8A981C.jpg
 assets.music: 
 assets.titlescreen: 
-assets.bezel: ./media/image/Sonicwi2-5937938A3358.png
+assets.bezel: ./media/image/Aero Fighters 2-5937938A3358.png
 rating: 0.60
 
 collection: fbneo
@@ -20260,13 +20260,13 @@ rating: 0.80
 
 collection: fbneo
 game: POPEYE (BOOTLEG)
-file: ./Popeye {7B482D4C}.zip
+file: ./Popeye.zip
 developer: 
 publisher: BOOTLEG
 genre: 
 favorite: false
 description: 
-	CLONE OF : POPEYE (POPEYE (BOOTLEG))
+	Clone OF : popeye (popeye (bootleg))
 release: 1982-/0-1/
 players: 
 x-id: 
@@ -20609,6 +20609,30 @@ assets.bezel: ./media/image/Punisher-45FEEC236366.png
 rating: 0.80
 
 collection: fbneo
+game: PUNISHER, THE
+file: ./The Punisher.zip
+developer: 
+publisher: 
+genre: 
+favorite: false
+description: 
+	
+players: 
+x-id: 
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Punisher-2BC2B62593DF.png
+assets.video: ./media/videos/Punisher-8D9B01032893.mp4
+assets.logo: 
+assets.background: ./media/fanart/Punisher-2D9B1E6CB43F.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Punisher-91E9ED63F036.png
+assets.bezel: ./media/image/The Punisher-6A1C23AC66D1.png
+rating: 
+
+collection: fbneo
 game: PUNK SHOT
 file: ./Punk Shot [42552].zip
 developer: KONAMI
@@ -20659,31 +20683,6 @@ assets.bezel: ./media/image/Puyo Puyo 2 (Japan)-457AAAEA67CF.png
 rating: 0.80
 
 collection: fbneo
-game: PUZZ LOOP 2.CPS2 [37405]
-file: ./Puzz Loop 2.Cps2 [37405].7z
-developer: MITCHELL
-publisher: MITCHELL
-genre: QUEBRA-CABEÇAS, QUEBRA-CABEÇAS / LANÇAR
-favorite: false
-description: 
-	ITÁLIA	A SEQUÊNCIA DA OBRA DE MESMO NOME COM ALGUMAS MELHORIAS. SEMPRE PODEMOS SELECIONAR LEVEL, PANIC, VS, MAS NOTAMOS O APARECIMENTO DE UM MODO POWER NO QUAL GRANDES ESFERAS VÍTREAS PODEM ESTOURAR AS MENORES ATRAINDO UMAS ÀS OUTRAS. HÁ TAMBÉM A POSSIBILIDADE DE ATIRAR EM BAÚS PARA BÔNUS DO TIPO "BOMBA". MUITO TÁTICO, REQUER RACIOCÍNIO RÁPIDO PARA CRIAR REAÇÕES EM CADEIA; ESTE JOGO RAPIDAMENTE FAZ VOCÊ ESQUECER SUA POBREZA GRÁFICA E SEU LADO "DESENHO ANIMADO POUCO ATRAENTE". DEPOIS DE ENTENDER O MODO DE RACIOCÍNIO A SER USADO, VOCÊ SE ENVOLVE RAPIDAMENTE NA AÇÃO. A ATMOSFERA SONORA, SEM SER EXCELENTE, ACOMPANHA BASTANTE O JOGO E SABE AUMENTAR A PRESSÃO. BOM PARA ESQUECER SUAS PREOCUPAÇÕES APÓS UM LONGO DIA DE TRABALHO!
-release: 2001-01-01
-players: 1-2
-x-id: 37405
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: ./media/screenshots/Puzz Loop 2.Cps2-441209255AB2.png
-assets.video: ./media/videos/Puzz Loop 2.Cps2-3A720BD5C15F.mp4
-assets.logo: 
-assets.background: ./media/fanart/Puzz Loop 2.Cps2-1224DD45FE91.jpg
-assets.music: 
-assets.titlescreen: ./media/image/Puzz Loop 2.Cps2-79DBECE28F3A.png
-assets.bezel: ./media/image/Puzz Loop 2.Cps2-1F138E0CE948.png
-rating: 0.60
-
-collection: fbneo
 game: PUZZ LOOP 2
 file: ./Puzz Loop 2 [37405].zip
 developer: MITCHELL
@@ -20706,6 +20705,31 @@ assets.background: ./media/fanart/Puzz Loop 2.Cps2-1224DD45FE91.jpg
 assets.music: 
 assets.titlescreen: ./media/image/Puzz Loop 2.Cps2-79DBECE28F3A.png
 assets.bezel: ./media/image/Puzz Loop 2-CD2F28C940A8.png
+rating: 0.60
+
+collection: fbneo
+game: PUZZ LOOP 2.CPS2 [37405]
+file: ./Puzz Loop 2.Cps2 [37405].7z
+developer: MITCHELL
+publisher: MITCHELL
+genre: QUEBRA-CABEÇAS, QUEBRA-CABEÇAS / LANÇAR
+favorite: false
+description: 
+	ITÁLIA	A SEQUÊNCIA DA OBRA DE MESMO NOME COM ALGUMAS MELHORIAS. SEMPRE PODEMOS SELECIONAR LEVEL, PANIC, VS, MAS NOTAMOS O APARECIMENTO DE UM MODO POWER NO QUAL GRANDES ESFERAS VÍTREAS PODEM ESTOURAR AS MENORES ATRAINDO UMAS ÀS OUTRAS. HÁ TAMBÉM A POSSIBILIDADE DE ATIRAR EM BAÚS PARA BÔNUS DO TIPO "BOMBA". MUITO TÁTICO, REQUER RACIOCÍNIO RÁPIDO PARA CRIAR REAÇÕES EM CADEIA; ESTE JOGO RAPIDAMENTE FAZ VOCÊ ESQUECER SUA POBREZA GRÁFICA E SEU LADO "DESENHO ANIMADO POUCO ATRAENTE". DEPOIS DE ENTENDER O MODO DE RACIOCÍNIO A SER USADO, VOCÊ SE ENVOLVE RAPIDAMENTE NA AÇÃO. A ATMOSFERA SONORA, SEM SER EXCELENTE, ACOMPANHA BASTANTE O JOGO E SABE AUMENTAR A PRESSÃO. BOM PARA ESQUECER SUAS PREOCUPAÇÕES APÓS UM LONGO DIA DE TRABALHO!
+release: 2001-01-01
+players: 1-2
+x-id: 37405
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Puzz Loop 2.Cps2-441209255AB2.png
+assets.video: ./media/videos/Puzz Loop 2.Cps2-3A720BD5C15F.mp4
+assets.logo: 
+assets.background: ./media/fanart/Puzz Loop 2.Cps2-1224DD45FE91.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Puzz Loop 2.Cps2-79DBECE28F3A.png
+assets.bezel: ./media/image/Puzz Loop 2.Cps2-1F138E0CE948.png
 rating: 0.60
 
 collection: fbneo
@@ -22414,31 +22438,6 @@ assets.bezel: ./media/image/Robocop-D3629DD3A505.png
 rating: 0.60
 
 collection: fbneo
-game: ROBOCOP2
-file: ./Robocop2 [42792].zip
-developer: DATA EAST
-publisher: DATA EAST
-genre: LUTA, LUTA / 2.5D, BRIGA DE RUA
-favorite: false
-description: 
-	ROBOCOP 2 É UM JOGO DE TIRO EM 2D COM JOGABILIDADE 2.5D QUE COLOCA OS JOGADORES NO LUGAR DO ROBOCOP. O JOGO É BASEADO NO FILME DE MESMO NOME E SEGUE SUA TRAMA. VOCÊ LUTA CONTRA VÁRIOS INIMIGOS, INCLUINDO ESCÓRIA DE RUA, CADÁVERES AMBULANTES, MECÂNICOS, ROBÔS E CHEFES. A MAIOR PARTE DO JOGO INCLUI TIRO COM ROLAGEM LATERAL E FUGA DE INIMIGOS, MAS OS INIMIGOS PODEM SER CAPTURADOS, PERFURADOS E JOGADOS PARA BAIXO. ÀS VEZES, OS INIMIGOS APARECEM NO FUNDO DA TELA E SÓ PODEM SER MORTOS ENQUANTO APONTAM PARA A TELA. AO LONGO DO CAMINHO, MAIS ARMAS COMO UMA ARMA COBRA, BAZUCA E GATLING PODEM SER APANHADAS. ESTES TÊM MUNIÇÃO LIMITADA. O JOGADOR TAMBÉM TEM A CAPACIDADE DE PULAR E, ÀS VEZES, CÁPSULAS EXTRAS PODEM SER ADQUIRIDAS. NOS ESTÁGIOS DE BÔNUS, O ROBOCOP PRECISA ATIRAR EM HELICÓPTEROS E CAMINHÕES ENQUANTO DIRIGE UM CARRO OU MOTOCICLETA DA POLÍCIA. ISSO É FEITO MOVENDO A MIRA SOBRE A TELA ENQUANTO DIRIGE EM DIREÇÃO À TELA. O JOGO PODE SER JOGADO SOZINHO OU COM UM AMIGO.
-release: 1991-01-01
-players: 1-2
-x-id: 42792
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: ./media/screenshots/Robocop2-E1E47110F0FC.png
-assets.video: ./media/videos/Robocop2-374C567920D9.mp4
-assets.logo: 
-assets.background: ./media/fanart/Robocop2-24155AE77194.jpg
-assets.music: 
-assets.titlescreen: ./media/image/Robocop2-70065E9CA280.png
-assets.bezel: ./media/image/Robocop2-CED2D1E57DCB.png
-rating: 0.60
-
-collection: fbneo
 game: ROBOCOPP
 file: ./Robocopp [42791].zip
 developer: DATA EAST
@@ -22461,6 +22460,31 @@ assets.background: ./media/fanart/Robocop-CFB6B1E39666.jpg
 assets.music: 
 assets.titlescreen: ./media/image/Robocop-A894076B4A29.png
 assets.bezel: ./media/image/Robocopp-DCB1560D0FFB.png
+rating: 0.60
+
+collection: fbneo
+game: ROBOCOP2
+file: ./Robocop2 [42792].zip
+developer: DATA EAST
+publisher: DATA EAST
+genre: LUTA, LUTA / 2.5D, BRIGA DE RUA
+favorite: false
+description: 
+	ROBOCOP 2 É UM JOGO DE TIRO EM 2D COM JOGABILIDADE 2.5D QUE COLOCA OS JOGADORES NO LUGAR DO ROBOCOP. O JOGO É BASEADO NO FILME DE MESMO NOME E SEGUE SUA TRAMA. VOCÊ LUTA CONTRA VÁRIOS INIMIGOS, INCLUINDO ESCÓRIA DE RUA, CADÁVERES AMBULANTES, MECÂNICOS, ROBÔS E CHEFES. A MAIOR PARTE DO JOGO INCLUI TIRO COM ROLAGEM LATERAL E FUGA DE INIMIGOS, MAS OS INIMIGOS PODEM SER CAPTURADOS, PERFURADOS E JOGADOS PARA BAIXO. ÀS VEZES, OS INIMIGOS APARECEM NO FUNDO DA TELA E SÓ PODEM SER MORTOS ENQUANTO APONTAM PARA A TELA. AO LONGO DO CAMINHO, MAIS ARMAS COMO UMA ARMA COBRA, BAZUCA E GATLING PODEM SER APANHADAS. ESTES TÊM MUNIÇÃO LIMITADA. O JOGADOR TAMBÉM TEM A CAPACIDADE DE PULAR E, ÀS VEZES, CÁPSULAS EXTRAS PODEM SER ADQUIRIDAS. NOS ESTÁGIOS DE BÔNUS, O ROBOCOP PRECISA ATIRAR EM HELICÓPTEROS E CAMINHÕES ENQUANTO DIRIGE UM CARRO OU MOTOCICLETA DA POLÍCIA. ISSO É FEITO MOVENDO A MIRA SOBRE A TELA ENQUANTO DIRIGE EM DIREÇÃO À TELA. O JOGO PODE SER JOGADO SOZINHO OU COM UM AMIGO.
+release: 1991-01-01
+players: 1-2
+x-id: 42792
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Robocop2-E1E47110F0FC.png
+assets.video: ./media/videos/Robocop2-374C567920D9.mp4
+assets.logo: 
+assets.background: ./media/fanart/Robocop2-24155AE77194.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Robocop2-70065E9CA280.png
+assets.bezel: ./media/image/Robocop2-CED2D1E57DCB.png
 rating: 0.60
 
 collection: fbneo
@@ -22789,6 +22813,31 @@ assets.bezel: ./media/image/Rthunder-FDC4FFE222E7.png
 rating: 0.80
 
 collection: fbneo
+game: RTYPE2
+file: ./Rtype2 [42842].zip
+developer: IREM
+publisher: IREM
+genre: SHOOT'EM UP / HORIZONTAL, SHOOT'EM UP
+favorite: false
+description: 
+	A SEQUÊNCIA DO ORIGINAL DE ENORME SUCESSO MOSTRA O MALVADO IMPÉRIO BYDO MAIS UMA VEZ COM A INTENÇÃO DE DESTRUIR TODA A HUMANIDADE NESTE JOGO DE TIRO DE ROLAGEM LATERAL DE SEIS NÍVEIS. O INOVADOR SISTEMA DE ARMAS DO JOGO ORIGINAL - O 'BEAM WEAPON' E O 'FORCE POD' - RETORNAM BEM-VINDOS E PERMANECEM INALTERADOS NA SEQUÊNCIA. A JOGABILIDADE RIGOROSA E EXIGENTE E A GRANDE ÊNFASE NO USO CORRETO DO SISTEMA DE ARMAS TAMBÉM RETORNAM - EMBORA A SEQUÊNCIA SEJA, NO MÍNIMO, AINDA MAIS EXIGENTE DO QUE SEU JÁ IMPLACÁVEL ANTECESSOR; COM INIMIGOS MAIS DURÁVEIS ​​E DESIGN DE NÍVEL MAIS COMPLICADO. R? TYPE II APRESENTA TRÊS NOVOS TIPOS DE TIROS DE ARMA: VERDE - LASER DE PESQUISA - DISPARA LASERS SEMI-HOMING QUE PODEM DOBRAR EM ÂNGULOS DE 45 °. GRAY - SHOTGUN LASER - DISPARA GRANDES PROJÉTEIS QUE PERCORREM UMA CURTA DISTÂNCIA ANTES DE EXPLODIR PODEROSAMENTE. SCATTER BOMB - LANÇA BOMBAS NO CHÃO; QUANDO ELES EXPLODEM, A EXPLOSÃO SE ESPALHA PELO SOLO. ESTA É UMA ARMA DE APOIO QUE PODE SER EQUIPADA EM VEZ DE MÍSSEIS. ALÉM DAS NOVAS ARMAS, A BEAM WEAPON DO R-TYPE II RECEBEU UMA ATUALIZAÇÃO. COMO NO PRIMEIRO JOGO, MANTER PRESSIONADO O BOTÃO DE DISPARO FAZ COM QUE O MEDIDOR DE ENERGIA SE ENCHA, LIBERA O BOTÃO E LIBERA UM PODEROSO TIRO DE PLASMA. PARA A SEQUÊNCIA, NO ENTANTO, CONTINUAR PRESSIONANDO O BOTÃO FAZ COM QUE O MEDIDOR CARREGUE AINDA MAIS. ESTE MEDIDOR DE “CARGA DUPLA” PISCA EM AZUL E VERMELHO E LIBERA UMA EXPLOSÃO DE PLASMA AINDA MAIS PODEROSA.
+release: 1989-01-01
+players: 1-2
+x-id: 42842
+assets.boxFront: ./media/image/Rtype2-9C92844F69F3.png
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Rtype2-56CA7850D431.png
+assets.screenshot: ./media/screenshots/Rtype2-CF7A7E965893.png
+assets.video: ./media/videos/Rtype2-ED6202947A68.mp4
+assets.logo: ./media/image/Rtype2-56CA7850D431.png
+assets.background: ./media/fanart/Rtype2-BAAABCDF4460.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Rtype2-BD3E87937887.png
+assets.bezel: ./media/image/Rtype2-81A038B2A8E1.png
+rating: 0.80
+
+collection: fbneo
 game: RTYPE [42841]
 file: ./Rtype [42841].zip
 developer: IREM
@@ -22817,28 +22866,28 @@ assets.bezel: ./media/image/Rtype-C1EC571EC903.png
 rating: 0.80
 
 collection: fbneo
-game: RTYPE2
-file: ./Rtype2 [42842].zip
+game: RTYPEU
+file: ./Rtypeu [42841].zip
 developer: IREM
 publisher: IREM
 genre: SHOOT'EM UP / HORIZONTAL, SHOOT'EM UP
 favorite: false
 description: 
-	A SEQUÊNCIA DO ORIGINAL DE ENORME SUCESSO MOSTRA O MALVADO IMPÉRIO BYDO MAIS UMA VEZ COM A INTENÇÃO DE DESTRUIR TODA A HUMANIDADE NESTE JOGO DE TIRO DE ROLAGEM LATERAL DE SEIS NÍVEIS. O INOVADOR SISTEMA DE ARMAS DO JOGO ORIGINAL - O 'BEAM WEAPON' E O 'FORCE POD' - RETORNAM BEM-VINDOS E PERMANECEM INALTERADOS NA SEQUÊNCIA. A JOGABILIDADE RIGOROSA E EXIGENTE E A GRANDE ÊNFASE NO USO CORRETO DO SISTEMA DE ARMAS TAMBÉM RETORNAM - EMBORA A SEQUÊNCIA SEJA, NO MÍNIMO, AINDA MAIS EXIGENTE DO QUE SEU JÁ IMPLACÁVEL ANTECESSOR; COM INIMIGOS MAIS DURÁVEIS ​​E DESIGN DE NÍVEL MAIS COMPLICADO. R? TYPE II APRESENTA TRÊS NOVOS TIPOS DE TIROS DE ARMA: VERDE - LASER DE PESQUISA - DISPARA LASERS SEMI-HOMING QUE PODEM DOBRAR EM ÂNGULOS DE 45 °. GRAY - SHOTGUN LASER - DISPARA GRANDES PROJÉTEIS QUE PERCORREM UMA CURTA DISTÂNCIA ANTES DE EXPLODIR PODEROSAMENTE. SCATTER BOMB - LANÇA BOMBAS NO CHÃO; QUANDO ELES EXPLODEM, A EXPLOSÃO SE ESPALHA PELO SOLO. ESTA É UMA ARMA DE APOIO QUE PODE SER EQUIPADA EM VEZ DE MÍSSEIS. ALÉM DAS NOVAS ARMAS, A BEAM WEAPON DO R-TYPE II RECEBEU UMA ATUALIZAÇÃO. COMO NO PRIMEIRO JOGO, MANTER PRESSIONADO O BOTÃO DE DISPARO FAZ COM QUE O MEDIDOR DE ENERGIA SE ENCHA, LIBERA O BOTÃO E LIBERA UM PODEROSO TIRO DE PLASMA. PARA A SEQUÊNCIA, NO ENTANTO, CONTINUAR PRESSIONANDO O BOTÃO FAZ COM QUE O MEDIDOR CARREGUE AINDA MAIS. ESTE MEDIDOR DE “CARGA DUPLA” PISCA EM AZUL E VERMELHO E LIBERA UMA EXPLOSÃO DE PLASMA AINDA MAIS PODEROSA.
-release: 1989-01-01
+	RTYPE É UM JOGO DE TIRO DE ROLAGEM LATERAL EM QUE O MALVADO IMPÉRIO BYDO GOVERNA A GALÁXIA ATRAVÉS DO MEDO E DA INTIMIDAÇÃO E CABE AO JOGADOR - PILOTANDO SUA NAVE ESPACIAL R-9 FORTEMENTE ARMADA - LUTAR ATRAVÉS DE OITO NÍVEIS DIFÍCEIS ATÉ O CORAÇÃO DA FORTALEZA BYDO E DERROTÁ-LOS. O REVOLUCIONÁRIO SISTEMA DE ARMAS DO JOGO É O SEU VERDADEIRO GOLPE DE GÊNIO. A PRIMEIRA DAS INÚMERAS INOVAÇÕES QUE R?TYPE COMPROU PARA O GÊNERO É A ARMA DE FEIXE: QUANDO O BOTÃO DE DISPARO É PRESSIONADO, UM 'MEDIDOR DE POTÊNCIA' COMEÇA A CARREGAR; QUANDO O MEDIDOR ESTIVER CHEIO, SOLTAR O BOTÃO DE DISPARO LIBERA UMA EXPLOSÃO DE PLASMA MUITO PODEROSA, CAPAZ DE INFLIGIR DANOS MUITO MAIORES ÀS NAVES INIMIGAS OU ATÉ MESMO DESTRUIR VÁRIOS INIMIGOS SIMULTANEAMENTE. A DESVANTAGEM É QUE CARREGAR A ARMA LEVA SEGUNDOS VALIOSOS, DANDO ÀS NAVES BYDO TEMPO PARA ATACAR. A ADIÇÃO MAIS SIGNIFICATIVA AO ARSENAL DO TIPO R É O AGORA LENDÁRIO ‘FORCE POD’. ISSO ASSUME A FORMA DE UM POD DE DISPARO A LASER REMOVÍVEL E INVENCÍVEL QUE PODE SER CONECTADO À FRENTE OU ATRÁS DA NAVE DO JOGADOR, OU PODE SER COMPLETAMENTE DESCONECTADO, APÓS O QUAL O POD FICA A ALGUMA DISTÂNCIA À FRENTE OU ATRÁS DA NAVE DO JOGADOR, RASTREANDO SEUS MOVIMENTOS E FORNECENDO PODER DE FOGO ADICIONAL. QUANDO ANEXADO À NAVE R9, O POD ATUA COMO UM ESCUDO. ISTO CONSTITUI UMA PARTE CRUCIAL DA JOGABILIDADE DE R?TYPE E DEVE SER TOTALMENTE UTILIZADO PARA NAVEGAR EM CERTAS SEÇÕES DO JOGO, COMO A ENORME NAVE-MÃE QUE COMPREENDE O TERCEIRO ESTÁGIO DO JOGO. OS NÍVEIS DE R?TYPE SÃO PROJETADOS PARA FAZER USO TOTAL DE SEU SISTEMA DE ARMAS EXCLUSIVO, PROPORCIONANDO UMA JOGABILIDADE MUITO LINEAR E EXIGENTE, NA QUAL PERDER OU PEGAR A ARMA ERRADA NA HORA ERRADA GERALMENTE LEVA À MORTE INSTANTÂNEA. O SEU DESIGN DE NÍVEIS INTELIGENTE, PRECISO E EXIGENTE DEU AO MUNDO O SEU PRIMEIRO SHOOT-EM-UP VERDADEIRAMENTE 'ESTRATÉGICO'.
+release: 1987-01-01
 players: 1-2
-x-id: 42842
-assets.boxFront: ./media/image/Rtype2-9C92844F69F3.png
-assets.boxBack: 
+x-id: 42841
+assets.boxFront: ./media/image/Rtype-8560D7E4ECCF.png
+assets.boxBack: ./media/image/Rtypeu-AA87AE4F175C.png
 assets.cartridge: 
-assets.marquee: ./media/image/Rtype2-56CA7850D431.png
-assets.screenshot: ./media/screenshots/Rtype2-CF7A7E965893.png
-assets.video: ./media/videos/Rtype2-ED6202947A68.mp4
-assets.logo: ./media/image/Rtype2-56CA7850D431.png
-assets.background: ./media/fanart/Rtype2-BAAABCDF4460.jpg
+assets.marquee: 
+assets.screenshot: ./media/screenshots/Rtype-B3F2B3DE96BE.png
+assets.video: ./media/videos/Rtype-A649AFEA5319.mp4
+assets.logo: 
+assets.background: ./media/fanart/Rtype-C943A6BEDF29.jpg
 assets.music: 
-assets.titlescreen: ./media/image/Rtype2-BD3E87937887.png
-assets.bezel: ./media/image/Rtype2-81A038B2A8E1.png
+assets.titlescreen: ./media/image/Rtype-D651C5CF90F2.png
+assets.bezel: ./media/image/Rtypeu-E3B710CDD55A.png
 rating: 0.80
 
 collection: fbneo
@@ -22864,31 +22913,6 @@ assets.background: ./media/fanart/Rtypeleo-E38445BA9788.jpg
 assets.music: 
 assets.titlescreen: ./media/image/Rtypeleo-4D09077E7791.png
 assets.bezel: ./media/image/Rtypeleo-DAE6304D2F90.png
-rating: 0.80
-
-collection: fbneo
-game: RTYPEU
-file: ./Rtypeu [42841].zip
-developer: IREM
-publisher: IREM
-genre: SHOOT'EM UP / HORIZONTAL, SHOOT'EM UP
-favorite: false
-description: 
-	RTYPE É UM JOGO DE TIRO DE ROLAGEM LATERAL EM QUE O MALVADO IMPÉRIO BYDO GOVERNA A GALÁXIA ATRAVÉS DO MEDO E DA INTIMIDAÇÃO E CABE AO JOGADOR - PILOTANDO SUA NAVE ESPACIAL R-9 FORTEMENTE ARMADA - LUTAR ATRAVÉS DE OITO NÍVEIS DIFÍCEIS ATÉ O CORAÇÃO DA FORTALEZA BYDO E DERROTÁ-LOS. O REVOLUCIONÁRIO SISTEMA DE ARMAS DO JOGO É O SEU VERDADEIRO GOLPE DE GÊNIO. A PRIMEIRA DAS INÚMERAS INOVAÇÕES QUE R?TYPE COMPROU PARA O GÊNERO É A ARMA DE FEIXE: QUANDO O BOTÃO DE DISPARO É PRESSIONADO, UM 'MEDIDOR DE POTÊNCIA' COMEÇA A CARREGAR; QUANDO O MEDIDOR ESTIVER CHEIO, SOLTAR O BOTÃO DE DISPARO LIBERA UMA EXPLOSÃO DE PLASMA MUITO PODEROSA, CAPAZ DE INFLIGIR DANOS MUITO MAIORES ÀS NAVES INIMIGAS OU ATÉ MESMO DESTRUIR VÁRIOS INIMIGOS SIMULTANEAMENTE. A DESVANTAGEM É QUE CARREGAR A ARMA LEVA SEGUNDOS VALIOSOS, DANDO ÀS NAVES BYDO TEMPO PARA ATACAR. A ADIÇÃO MAIS SIGNIFICATIVA AO ARSENAL DO TIPO R É O AGORA LENDÁRIO ‘FORCE POD’. ISSO ASSUME A FORMA DE UM POD DE DISPARO A LASER REMOVÍVEL E INVENCÍVEL QUE PODE SER CONECTADO À FRENTE OU ATRÁS DA NAVE DO JOGADOR, OU PODE SER COMPLETAMENTE DESCONECTADO, APÓS O QUAL O POD FICA A ALGUMA DISTÂNCIA À FRENTE OU ATRÁS DA NAVE DO JOGADOR, RASTREANDO SEUS MOVIMENTOS E FORNECENDO PODER DE FOGO ADICIONAL. QUANDO ANEXADO À NAVE R9, O POD ATUA COMO UM ESCUDO. ISTO CONSTITUI UMA PARTE CRUCIAL DA JOGABILIDADE DE R?TYPE E DEVE SER TOTALMENTE UTILIZADO PARA NAVEGAR EM CERTAS SEÇÕES DO JOGO, COMO A ENORME NAVE-MÃE QUE COMPREENDE O TERCEIRO ESTÁGIO DO JOGO. OS NÍVEIS DE R?TYPE SÃO PROJETADOS PARA FAZER USO TOTAL DE SEU SISTEMA DE ARMAS EXCLUSIVO, PROPORCIONANDO UMA JOGABILIDADE MUITO LINEAR E EXIGENTE, NA QUAL PERDER OU PEGAR A ARMA ERRADA NA HORA ERRADA GERALMENTE LEVA À MORTE INSTANTÂNEA. O SEU DESIGN DE NÍVEIS INTELIGENTE, PRECISO E EXIGENTE DEU AO MUNDO O SEU PRIMEIRO SHOOT-EM-UP VERDADEIRAMENTE 'ESTRATÉGICO'.
-release: 1987-01-01
-players: 1-2
-x-id: 42841
-assets.boxFront: ./media/image/Rtypeu-8560D7E4ECCF.png
-assets.boxBack: ./media/image/Rtypeu-AA87AE4F175C.png
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: ./media/screenshots/Rtype-B3F2B3DE96BE.png
-assets.video: ./media/videos/Rtype-A649AFEA5319.mp4
-assets.logo: 
-assets.background: ./media/fanart/Rtype-C943A6BEDF29.jpg
-assets.music: 
-assets.titlescreen: ./media/image/Rtype-D651C5CF90F2.png
-assets.bezel: ./media/image/Rtypeu-E3B710CDD55A.png
 rating: 0.80
 
 collection: fbneo
@@ -23192,6 +23216,31 @@ assets.bezel: ./media/image/Salmndr2-2CF293EE1FAD.png
 rating: 0.80
 
 collection: fbneo
+game: SAMSHO4
+file: ./Samsho4 [37632].zip
+developer: SNK
+publisher: SNK
+genre: LUTA / VERSUS, LUTA
+favorite: false
+description: 
+	TRAZENDO UM NOVO FÔLEGO PARA A SÉRIE DE LUTA DE ESPADACHINS DA SNK, ESTA 4ª EDIÇÃO MARCA O RETORNO DE 3 PERSONAGENS CLÁSSICOS (YAGYU JUBEI, CHARLOTTE E TAM TAM, AGORA COM MATERIAL ATUALIZADO), APRESENTA 2 PERSONAGENS RECÉM-CHEGADOS AO PANTEÃO (OS IRMÃOS SOGETSU KAZAMA E KAZUKI KAZAMA) E TRAZ ALGUNS NOVOS CENÁRIOS. APESAR DESSAS PEQUENAS MELHORIAS, O JOGO PRESERVOU (E MELHOROU MUITO) MUITOS ELEMENTOS QUE FIZERAM O ANTERIOR (SAMURAI SHODOWN III) UM TÍTULO BASTANTE POPULAR, COMO O MOVIMENTO "DODGE" E A CHANCE DE ESCOLHER ENTRE DUAS VERSÕES DO LUTADOR: O PADRÃO E UM ESTILO "OBSCURO" ALTERNATIVO (SLASH E BUST, RESPECTIVAMENTE). COM A INTENÇÃO DE FORNECER MAIS AÇÃO NAS BATALHAS, OS MOVIMENTOS "NO CONTEST" FORAM INTRODUZIDOS: TRABALHANDO DE MANEIRA SIMILAR (E SOB CERTAS CONDIÇÕES) AOS MUITOS JOGOS DA SÉRIE MORTAL KOMBAT, SEU LUTADOR EXECUTARÁ UM MOVIMENTO DE ABATE FINAL EM UM OPONENTE ATORDOADO.
+release: 1996-11-29
+players: 1-2
+x-id: 37632
+assets.boxFront: ./media/image/Samsho4-CE53477879B0.png
+assets.boxBack: ./media/image/Samsho4-A1DA20B8C166.png
+assets.cartridge: ./media/image/Samsho4-91B9587D02A4.png
+assets.marquee: ./media/image/Samsho4-8B79E5CAF8B8.png
+assets.screenshot: ./media/screenshots/Samsho4-2F4DDD2977E9.png
+assets.video: ./media/videos/Samsho4-F9A32CB9245F.mp4
+assets.logo: ./media/image/Samsho4-8B79E5CAF8B8.png
+assets.background: ./media/fanart/Samsho4-CD30A66573C5.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Samsho4-7D9C8EC433FA.png
+assets.bezel: ./media/image/Samsho4-B72EDB961761.png
+rating: 0.80
+
+collection: fbneo
 game: SAMSHO [37629]
 file: ./Samsho [37629].zip
 developer: SNK
@@ -23216,31 +23265,6 @@ assets.music:
 assets.titlescreen: ./media/image/Samsho-D914E6F18E21.png
 assets.bezel: ./media/image/Samsho-DC8A3838BFFB.png
 rating: 0.60
-
-collection: fbneo
-game: SAMSHO4
-file: ./Samsho4 [37632].zip
-developer: SNK
-publisher: SNK
-genre: LUTA / VERSUS, LUTA
-favorite: false
-description: 
-	TRAZENDO UM NOVO FÔLEGO PARA A SÉRIE DE LUTA DE ESPADACHINS DA SNK, ESTA 4ª EDIÇÃO MARCA O RETORNO DE 3 PERSONAGENS CLÁSSICOS (YAGYU JUBEI, CHARLOTTE E TAM TAM, AGORA COM MATERIAL ATUALIZADO), APRESENTA 2 PERSONAGENS RECÉM-CHEGADOS AO PANTEÃO (OS IRMÃOS SOGETSU KAZAMA E KAZUKI KAZAMA) E TRAZ ALGUNS NOVOS CENÁRIOS. APESAR DESSAS PEQUENAS MELHORIAS, O JOGO PRESERVOU (E MELHOROU MUITO) MUITOS ELEMENTOS QUE FIZERAM O ANTERIOR (SAMURAI SHODOWN III) UM TÍTULO BASTANTE POPULAR, COMO O MOVIMENTO "DODGE" E A CHANCE DE ESCOLHER ENTRE DUAS VERSÕES DO LUTADOR: O PADRÃO E UM ESTILO "OBSCURO" ALTERNATIVO (SLASH E BUST, RESPECTIVAMENTE). COM A INTENÇÃO DE FORNECER MAIS AÇÃO NAS BATALHAS, OS MOVIMENTOS "NO CONTEST" FORAM INTRODUZIDOS: TRABALHANDO DE MANEIRA SIMILAR (E SOB CERTAS CONDIÇÕES) AOS MUITOS JOGOS DA SÉRIE MORTAL KOMBAT, SEU LUTADOR EXECUTARÁ UM MOVIMENTO DE ABATE FINAL EM UM OPONENTE ATORDOADO.
-release: 1996-11-29
-players: 1-2
-x-id: 37632
-assets.boxFront: ./media/image/Samsho4-CE53477879B0.png
-assets.boxBack: ./media/image/Samsho4-A1DA20B8C166.png
-assets.cartridge: ./media/image/Samsho4-91B9587D02A4.png
-assets.marquee: ./media/image/Samsho4-8B79E5CAF8B8.png
-assets.screenshot: ./media/screenshots/Samsho4-2F4DDD2977E9.png
-assets.video: ./media/videos/Samsho4-F9A32CB9245F.mp4
-assets.logo: ./media/image/Samsho4-8B79E5CAF8B8.png
-assets.background: ./media/fanart/Samsho4-CD30A66573C5.jpg
-assets.music: 
-assets.titlescreen: ./media/image/Samsho4-7D9C8EC433FA.png
-assets.bezel: ./media/image/Samsho4-B72EDB961761.png
-rating: 0.80
 
 collection: fbneo
 game: SAMURAI SHODOWN [37629]
@@ -25494,14 +25518,14 @@ assets.bezel: ./media/image/Sonic-90F0E7739FD8.png
 rating: 0.80
 
 collection: fbneo
-game: Sonicwi2
-file: ./Sonicwi2.zip
+game: SONICWI2
+file: ./Sonicwi2 [37641].zip
 developer: VIDEO SYSTEM
 publisher: SNK
 genre: SHOOT'EM UP, SHOOT'EM UP / VERTICAL
 favorite: false
 description: 
-	AERO FIGHTERS 2 É UM SHOOTER DE ROLAGEM VERTICAL NA MESMA LINHA DE 1942 E JOGOS SIMILARES. SUPORTA ATÉ DOIS JOGADORES E TEM 8 AERONAVES DIFERENTES PARA ESCOLHER, CADA UMA EQUIPADA COM ARMAS PRIMÁRIAS E SECUNDÁRIAS EXCLUSIVAS. OS POWER-UPS MELHORAM O VISUAL, A POTÊNCIA, O TAMANHO E A FORMA DOS DISPAROS. BOMBAS ATIVAM UM PODER ESPECIAL QUE GERALMENTE APAGA OS INIMIGOS NA TELA. O JOGO TEM UM TOTAL DE 10 ETAPAS (JAPÃO, BRASIL, ATLÂNTICO, EUA, FRANÇA, AUSTRÁLIA, HIMALAIA, MÉXICO, HAVAÍ E ESPAÇO), TODAS COM UMA BATALHA FINAL CONTRA CHEFÕES.
+	AERO fighters 2 é UM shooter DE rolagem vertical NA mesma linha DE 1942 E jogos similares. Suporta até DOIS jogadores E TEM 8 aeronaves diferentes PARA escolher, CADA UMA equipada COM armas primárias E secundárias exclusivas. OS power-ups melhoram O visual, A potência, O tamanho E A forma DOS disparos. Bombas ativam UM poder especial QUE geralmente apaga OS inimigos NA tela. O JOGO TEM UM total DE 10 etapas (japão, brasil, atlântico, eua, frança, austrália, himalaia, méxico, havaí E espaço), todas COM UMA batalha final contra chefões.
 release: 1994-08-26
 players: 1-2
 x-id: 37641
@@ -25510,12 +25534,12 @@ assets.boxBack:
 assets.cartridge: 
 assets.marquee: 
 assets.screenshot: ./media/screenshots/Sonicwi2-AC9EFBC8FD54.png
-assets.video: ./media/videos/Sonicwi2-A2591862DFB7.mp4
+assets.video: ./media/videos/Aero Fighters 2-A2591862DFB7.mp4
 assets.logo: 
 assets.background: ./media/fanart/Sonicwi2-5CD9642901B1.jpg
 assets.music: 
 assets.titlescreen: ./media/image/Sonicwi2-0A1E550BB6C0.png
-assets.bezel: ./media/image/Sonicwi2-5937938A3358.png
+assets.bezel: ./media/image/Aero Fighters 2-5937938A3358.png
 rating: 0.60
 
 collection: fbneo
@@ -27410,13 +27434,13 @@ assets.boxFront:
 assets.boxBack: 
 assets.cartridge: 
 assets.marquee: 
-assets.screenshot: ./media/screenshots/Super Gem Fighter Mini Mix.Cps2-662B92ACD9E3.png
-assets.video: ./media/videos/Super Gem Fighter Mini Mix.Cps2-B582E1E3EA25.mp4
+assets.screenshot: ./media/screenshots/Super Gem Fighter Mini MIX-662B92ACD9E3.png
+assets.video: ./media/videos/Super Gem Fighter Mini MIX-B582E1E3EA25.mp4
 assets.logo: 
-assets.background: ./media/fanart/Super Gem Fighter Mini Mix.Cps2-E9E6A70B8051.jpg
+assets.background: ./media/fanart/Super Gem Fighter Mini MIX-E9E6A70B8051.jpg
 assets.music: 
-assets.titlescreen: ./media/image/Super Gem Fighter Mini Mix.Cps2-699D8F5BBFAB.png
-assets.bezel: ./media/image/Super Gem Fighter Mini Mix.Cps2-95B12EAD9D3D.png
+assets.titlescreen: ./media/image/Super Gem Fighter Mini MIX-699D8F5BBFAB.png
+assets.bezel: ./media/image/Super Gem Fighter Mini MIX-95B12EAD9D3D.png
 rating: 0.80
 
 collection: fbneo
@@ -27436,13 +27460,13 @@ assets.boxFront:
 assets.boxBack: 
 assets.cartridge: 
 assets.marquee: 
-assets.screenshot: ./media/screenshots/Super Gem Fighter Mini Mix.Cps2-662B92ACD9E3.png
-assets.video: ./media/videos/Super Gem Fighter Mini Mix.Cps2-B582E1E3EA25.mp4
+assets.screenshot: ./media/screenshots/Super Gem Fighter Mini MIX-662B92ACD9E3.png
+assets.video: ./media/videos/Super Gem Fighter Mini MIX-B582E1E3EA25.mp4
 assets.logo: 
-assets.background: ./media/fanart/Super Gem Fighter Mini Mix.Cps2-E9E6A70B8051.jpg
+assets.background: ./media/fanart/Super Gem Fighter Mini MIX-E9E6A70B8051.jpg
 assets.music: 
-assets.titlescreen: ./media/image/Super Gem Fighter Mini Mix.Cps2-699D8F5BBFAB.png
-assets.bezel: ./media/image/Super Gem Fighter Mini Mix.Cps2-95B12EAD9D3D.png
+assets.titlescreen: ./media/image/Super Gem Fighter Mini MIX-699D8F5BBFAB.png
+assets.bezel: ./media/image/Super Gem Fighter Mini MIX-95B12EAD9D3D.png
 rating: 0.80
 
 collection: fbneo
@@ -28541,30 +28565,6 @@ assets.background:
 assets.music: 
 assets.titlescreen: ./media/image/The Pit-7F9F3240B69B.png
 assets.bezel: ./media/image/The Pit-6C44F475C66B.png
-rating: 
-
-collection: fbneo
-game: PUNISHER, THE
-file: ./The Punisher.zip
-developer: 
-publisher: 
-genre: 
-favorite: false
-description: 
-	
-players: 
-x-id: 
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: 
-assets.screenshot: ./media/screenshots/Punisher-2BC2B62593DF.png
-assets.video: ./media/videos/Punisher-8D9B01032893.mp4
-assets.logo: 
-assets.background: ./media/fanart/Punisher-2D9B1E6CB43F.jpg
-assets.music: 
-assets.titlescreen: ./media/image/Punisher-91E9ED63F036.png
-assets.bezel: ./media/image/The Punisher-6A1C23AC66D1.png
 rating: 
 
 collection: fbneo
