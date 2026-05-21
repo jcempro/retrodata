@@ -645,35 +645,9 @@ O CONTATO COM QUALQUER CENÁRIO, INSTALAÇÕES TERRESTRES, NAVIOS INIMIGOS OU ES
     <extra1>./media/extras/Sonicwi2-extra1.jpg</extra1>
     <bezel>./media/image/Sonicwi2-5937938A3358.png</bezel>
   </game>
-  <game id="43605">
-    <path>./Thunderj [43605].zip</path>
-    <name>THUNDERJ [43605]</name>
-    <desc>VOCÊ JOGA COMO UM AGENTE SECRETO, MEMBRO DA UNIDADE DE FORÇAS ESPECIAIS SUBAQUÁTICAS, SELECIONADO PARA SE INFILTRAR NA SEDE SECRETA DE MADAME Q E IMPEDIR SEUS PLANOS MALIGNOS ANTES QUE ELA DESTRUA O MUNDO. 
-NOS NÍVEIS VOCÊ DEVE ENFRENTAR UMA VARIEDADE DE INIMIGOS, COMO TUBARÕES MECÂNICOS, MUTANTES, MERGULHADORES INIMIGOS E TORRES DE TIRO SUBAQUÁTICAS. OUTRAS CENAS INCLUEM LOCAIS DE PLATAFORMA DE ROLAGEM LATERAL, VOCÊ DEVE SALVAR OS REFÉNS ENQUANTO ENCONTRA ARMAS, POWER-UPS E SAÚDE AO LONGO DO CAMINHO PARA MAIS TARDE ENFRENTAR CHEFES DO MAL NO FINAL DE CADA NÍVEL.</desc>
-    <rating>0.60</rating>
-    <releasedate>19900101T000000</releasedate>
-    <developer>ATARI</developer>
-    <publisher>ATARI</publisher>
-    <genre>TIRO, TIRO / HORIZONTAL</genre>
-    <genreid>260</genreid>
-    <players>1-2</players>
-    <md5>18133d528d15f47488a806b3bf1a519f</md5>
-    <hash>965688F3</hash>
-    <region>wor</region>
-    <arcadesystemname>atari</arcadesystemname>
-    <video>./media/videos/Thunderj-8E8DF150C95A.mp4</video>
-    <marquee>./media/image/Thunderj-F6AB4DFA3309.png</marquee>
-    <wheel>./media/image/Thunderj-F6AB4DFA3309.png</wheel>
-    <screenshot>./media/screenshots/Thunderj-426E82D7C8F4.png</screenshot>
-    <fanart>./media/fanart/Thunderj-C1D68A88E216.jpg</fanart>
-    <titleshot>./media/image/Thunderj-CAC7537775A0.png</titleshot>
-    <manual>./media/manuals/Thunderj-C0DB0E7ED465.pdf</manual>
-    <extra1>./media/extras/Thunderj [43605]-extra1.png</extra1>
-    <bezel>./media/image/Thunderj-2B79FE113FD8.png</bezel>
-  </game>
   <game id="39869">
     <path>./005 [39869].zip</path>
-    <name>005</name>
+    <name>005 [39869]</name>
     <desc>NESTE JOGO DE FURTIVIDADE, O OBJETIVO É ATRAVESSAR UM CENÁRIO QUE LEMBRA UM LABIRINTO, EVITANDO INIMIGOS A FIM DE LEVAR UMA PILHA DE DOCUMENTOS SECRETOS PARA EXTRAÇÃO VIA HELICÓPTERO. O PROTAGONISTA - O AGENTE ESPIÃO 005 - PODE ENTRAR EM ARMAZÉNS E PRÉDIOS NO CAMINHO PARA EVITAR SER VISTO.</desc>
     <rating>0.20</rating>
     <releasedate>19810101T000000</releasedate>
@@ -31009,6 +30983,33 @@ Clone Of : 3wonders -&gt; Wonder 3 (910520 Japan)</temporary>
     <manual>./media/manuals/Three Wonders-7F24D0810B2B.pdf</manual>
     <extra1>./media/extras/Wonder3-extra1.png</extra1>
     <bezel>./media/image/Three Wonders-FB2BFF32AB01.png</bezel>
+  </game>
+  <game id="43605">
+    <path>./Thunderj [43605].zip</path>
+    <name>THUNDERJ [43605]</name>
+    <desc>VOCÊ JOGA COMO UM AGENTE SECRETO, MEMBRO DA UNIDADE DE FORÇAS ESPECIAIS SUBAQUÁTICAS, SELECIONADO PARA SE INFILTRAR NA SEDE SECRETA DE MADAME Q E IMPEDIR SEUS PLANOS MALIGNOS ANTES QUE ELA DESTRUA O MUNDO. 
+NOS NÍVEIS VOCÊ DEVE ENFRENTAR UMA VARIEDADE DE INIMIGOS, COMO TUBARÕES MECÂNICOS, MUTANTES, MERGULHADORES INIMIGOS E TORRES DE TIRO SUBAQUÁTICAS. OUTRAS CENAS INCLUEM LOCAIS DE PLATAFORMA DE ROLAGEM LATERAL, VOCÊ DEVE SALVAR OS REFÉNS ENQUANTO ENCONTRA ARMAS, POWER-UPS E SAÚDE AO LONGO DO CAMINHO PARA MAIS TARDE ENFRENTAR CHEFES DO MAL NO FINAL DE CADA NÍVEL.</desc>
+    <rating>0.60</rating>
+    <releasedate>19900101T000000</releasedate>
+    <developer>ATARI</developer>
+    <publisher>ATARI</publisher>
+    <genre>TIRO, TIRO / HORIZONTAL</genre>
+    <genreid>260</genreid>
+    <players>1-2</players>
+    <md5>18133d528d15f47488a806b3bf1a519f</md5>
+    <hash>965688F3</hash>
+    <region>wor</region>
+    <arcadesystemname>atari</arcadesystemname>
+    <image>./media/image/Thunderj [43605]-image.png</image>
+    <video>./media/videos/Thunderj-8E8DF150C95A.mp4</video>
+    <marquee>./media/image/Thunderj-F6AB4DFA3309.png</marquee>
+    <wheel>./media/image/Thunderj-F6AB4DFA3309.png</wheel>
+    <screenshot>./media/screenshots/Thunderj-426E82D7C8F4.png</screenshot>
+    <fanart>./media/fanart/Thunderj-C1D68A88E216.jpg</fanart>
+    <titleshot>./media/image/Thunderj-CAC7537775A0.png</titleshot>
+    <manual>./media/manuals/Thunderj-C0DB0E7ED465.pdf</manual>
+    <extra1>./media/extras/Thunderj [43605]-extra1.png</extra1>
+    <bezel>./media/image/Thunderj-2B79FE113FD8.png</bezel>
   </game>
   <game id="43608">
     <path>./Thundfox [43608].zip</path>

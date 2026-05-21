@@ -474,15 +474,16 @@ assets.bezel: ./media/image/Rfjet-52EBDBA7DF3E.png
 rating: 0.80
 
 collection: fbneo
-game: ROADBLST [42781]
+game: Roadblst [42781]
 file: ./Roadblst [42781].zip
-developer: ATARI
-publisher: ATARI
-genre: TIRO, TIRO / CARRO 3ª PESSOA
+developer: Atari
+publisher: Atari
+genre: Tiro, Tiro / Carro 3ª Pessoa
 favorite: false
 description: 
-	ROAD BLASTERS © 1987 ATARI GAMES.
-ROAD BLASTERS É UM JOGO DE DIREÇÃO FUTURISTA NO QUAL O JOGADOR DEVE ATIRAR EM PILOTOS RIVAIS E COLETAR GLOBOS DE COMBUSTÍVEL PARA REABASTECER SEU SUPRIMENTO CADA VEZ MENOR DE COMBUSTÍVEL. AS ARMAS POWER-UP SÃO LARGADAS DE CIMA E DEVEM SER 'CAPTURADAS' PELO JOGADOR. A COLISÃO COM VEÍCULOS INIMIGOS RESULTARÁ NA DESTRUIÇÃO DO PRÓPRIO VEÍCULO DO JOGADOR. FALA DIGITALIZADA, EFEITOS E MÚSICA SÃO REPRODUZIDOS DURANTE TODO O JOGO.
+	Road Blasters © 1987 Atari Games.
+
+Road Blasters é um jogo de direção futurista no qual o jogador deve atirar em pilotos rivais e coletar globos de combustível para reabastecer seu suprimento cada vez menor de combustível. As armas power-up são largadas de cima e devem ser 'capturadas' pelo jogador. A colisão com veículos inimigos resultará na destruição do próprio veículo do jogador. Fala digitalizada, efeitos e música são reproduzidos durante todo o jogo.
 release: 1987-01-01
 players: 1
 x-id: 42781
@@ -500,16 +501,14 @@ assets.bezel: ./media/image/Roadblst-BB26F44F65B5.png
 rating: 0.60
 
 collection: fbneo
-game: ROBOCOP [42791]
+game: Robocop [42791]
 file: ./Robocop [42791].zip
-developer: DATA EAST
-publisher: DATA EAST
-genre: TIRO / RUN AND GUN, PLATAFORMA, PLATAFORMA / TIRO COM ROLAGEM, TIRO
+developer: Data East
+publisher: Data East
+genre: Tiro / Run and Gun, Plataforma, Plataforma / Tiro com rolagem, Tiro
 favorite: false
 description: 
-	ROBOCOP - THE FUTURE OF LAW ENFORCEMENT É UM JOGO DE TIRO EM PLATAFORMA DE ROLAGEM LATERAL PARA UM ÚNICO JOGADOR BASEADO NO FILME DE 1987 DE MESMO NOME. A HISTÓRIA DO JOGO REFLETE A DO FILME, COM O EX-POLICIAL MURPHY, AGORA UM CIBORGUE MEIO HUMANO CHAMADO 'ROBOCOP', EM UMA MISSÃO PARA DERRUBAR A MALVADA CORPORAÇÃO OCP.
-ROBOCOP APRESENTA NOVE NÍVEIS DE AÇÃO, COM DOIS DOS NOVE ESTÁGIOS DO JOGO SENDO ALVOS NA TELA, NOS QUAIS OS JOGADORES PODEM TENTAR ACUMULAR PONTOS DE BÔNUS E GANHAR SAÚDE EXTRA. OCASIONALMENTE, CAIXAS DE MADEIRA IMPEDEM O PROGRESSO DO ROBOCOP, MAS PODEM SER PERFURADAS PARA REMOVÊ-LAS. AS CAIXAS MARCADAS PODEM SER QUEBRADAS PARA REVELAR UM DOS TRÊS POWER-UPS DE ARMAS; ARMA DE TRÊS VIAS, LASER DUPLO E A INCRIVELMENTE PODEROSA ARMA COBRA.
-A MÚSICA INCIDENTAL DO FILME TOCA DURANTE TODO O JOGO E A FALA DO ROBOCOP É AMOSTRADA DIRETAMENTE DO FILME ORIGINAL.
+	RoboCop - The Future of Law Enforcement é um jogo de tiro em plataforma de rolagem lateral para um único jogador baseado no filme de 1987 de mesmo nome. A história do jogo reflete a do filme, com o ex-policial Murphy, agora um ciborgue meio humano chamado 'RoboCop', em uma missão para derrubar a malvada corporação OCP.		RoboCop apresenta nove níveis de ação, com dois dos nove estágios do jogo sendo alvos na tela, nos quais os jogadores podem tentar acumular pontos de bônus e ganhar saúde extra. Ocasionalmente, caixas de madeira impedem o progresso do RoboCop, mas podem ser perfuradas para removê-las. As caixas marcadas podem ser quebradas para revelar um dos três power-ups de armas; Arma de três vias, laser duplo e a incrivelmente poderosa arma Cobra.		A música incidental do filme toca durante todo o jogo e a fala do RoboCop é amostrada diretamente do filme original.
 release: 1988-01-01
 players: 1
 x-id: 42791
@@ -527,17 +526,14 @@ assets.bezel: ./media/image/Robocop-D3629DD3A505.png
 rating: 0.60
 
 collection: fbneo
-game: RTYPE [42841]
+game: Rtype [42841]
 file: ./Rtype [42841].zip
-developer: IREM
-publisher: IREM
-genre: SHOOT'EM UP / HORIZONTAL, SHOOT'EM UP
+developer: Irem
+publisher: Irem
+genre: Shoot'em Up / Horizontal, Shoot'em Up
 favorite: false
 description: 
-	RTYPE É UM JOGO DE TIRO DE ROLAGEM LATERAL EM QUE O MALVADO IMPÉRIO BYDO GOVERNA A GALÁXIA ATRAVÉS DO MEDO E DA INTIMIDAÇÃO E CABE AO JOGADOR - PILOTANDO SUA NAVE ESPACIAL R-9 FORTEMENTE ARMADA - LUTAR ATRAVÉS DE OITO NÍVEIS DIFÍCEIS ATÉ O CORAÇÃO DA FORTALEZA BYDO E DERROTÁ-LOS.
-O REVOLUCIONÁRIO SISTEMA DE ARMAS DO JOGO É O SEU VERDADEIRO GOLPE DE GÊNIO. A PRIMEIRA DAS INÚMERAS INOVAÇÕES QUE R?TYPE COMPROU PARA O GÊNERO É A ARMA DE FEIXE: QUANDO O BOTÃO DE DISPARO É PRESSIONADO, UM 'MEDIDOR DE POTÊNCIA' COMEÇA A CARREGAR; QUANDO O MEDIDOR ESTIVER CHEIO, SOLTAR O BOTÃO DE DISPARO LIBERA UMA EXPLOSÃO DE PLASMA MUITO PODEROSA, CAPAZ DE INFLIGIR DANOS MUITO MAIORES ÀS NAVES INIMIGAS OU ATÉ MESMO DESTRUIR VÁRIOS INIMIGOS SIMULTANEAMENTE. A DESVANTAGEM É QUE CARREGAR A ARMA LEVA SEGUNDOS VALIOSOS, DANDO ÀS NAVES BYDO TEMPO PARA ATACAR.
-A ADIÇÃO MAIS SIGNIFICATIVA AO ARSENAL DO TIPO R É O AGORA LENDÁRIO ‘FORCE POD’. ISSO ASSUME A FORMA DE UM POD DE DISPARO A LASER REMOVÍVEL E INVENCÍVEL QUE PODE SER CONECTADO À FRENTE OU ATRÁS DA NAVE DO JOGADOR, OU PODE SER COMPLETAMENTE DESCONECTADO, APÓS O QUAL O POD FICA A ALGUMA DISTÂNCIA À FRENTE OU ATRÁS DA NAVE DO JOGADOR, RASTREANDO SEUS MOVIMENTOS E FORNECENDO PODER DE FOGO ADICIONAL. QUANDO ANEXADO À NAVE R9, O POD ATUA COMO UM ESCUDO. ISTO CONSTITUI UMA PARTE CRUCIAL DA JOGABILIDADE DE R?TYPE E DEVE SER TOTALMENTE UTILIZADO PARA NAVEGAR EM CERTAS SEÇÕES DO JOGO, COMO A ENORME NAVE-MÃE QUE COMPREENDE O TERCEIRO ESTÁGIO DO JOGO.
-OS NÍVEIS DE R?TYPE SÃO PROJETADOS PARA FAZER USO TOTAL DE SEU SISTEMA DE ARMAS EXCLUSIVO, PROPORCIONANDO UMA JOGABILIDADE MUITO LINEAR E EXIGENTE, NA QUAL PERDER OU PEGAR A ARMA ERRADA NA HORA ERRADA GERALMENTE LEVA À MORTE INSTANTÂNEA. O SEU DESIGN DE NÍVEIS INTELIGENTE, PRECISO E EXIGENTE DEU AO MUNDO O SEU PRIMEIRO SHOOT-EM-UP VERDADEIRAMENTE 'ESTRATÉGICO'.
+	RType é um jogo de tiro de rolagem lateral em que o malvado Império Bydo governa a galáxia através do medo e da intimidação e cabe ao jogador - pilotando sua nave espacial R-9 fortemente armada - lutar através de oito níveis difíceis até o coração da fortaleza Bydo e derrotá-los.		O revolucionário sistema de armas do jogo é o seu verdadeiro golpe de gênio. A primeira das inúmeras inovações que R?Type comprou para o gênero é a arma de feixe: quando o botão de disparo é pressionado, um 'medidor de potência' começa a carregar; quando o medidor estiver cheio, soltar o botão de disparo libera uma explosão de plasma muito poderosa, capaz de infligir danos muito maiores às naves inimigas ou até mesmo destruir vários inimigos simultaneamente. A desvantagem é que carregar a arma leva segundos valiosos, dando às naves Bydo tempo para atacar.		A adição mais significativa ao arsenal do tipo R é o agora lendário ‘Force Pod’. Isso assume a forma de um pod de disparo a laser removível e invencível que pode ser conectado à frente ou atrás da nave do jogador, ou pode ser completamente desconectado, após o qual o pod fica a alguma distância à frente ou atrás da nave do jogador, rastreando seus movimentos e fornecendo poder de fogo adicional. Quando anexado à nave R9, o pod atua como um escudo. Isto constitui uma parte crucial da jogabilidade de R?Type e deve ser totalmente utilizado para navegar em certas seções do jogo, como a enorme nave-mãe que compreende o terceiro estágio do jogo.		Os níveis de R?Type são projetados para fazer uso total de seu sistema de armas exclusivo, proporcionando uma jogabilidade muito linear e exigente, na qual perder ou pegar a arma errada na hora errada geralmente leva à morte instantânea. O seu design de níveis inteligente, preciso e exigente deu ao mundo o seu primeiro shoot-em-up verdadeiramente 'estratégico'.
 release: 1987-01-01
 players: 1-2
 x-id: 42841
@@ -555,14 +551,14 @@ assets.bezel: ./media/image/Rtype-C1EC571EC903.png
 rating: 0.80
 
 collection: fbneo
-game: SAILORMN [37352]
+game: Sailormn [37352]
 file: ./Sailormn [37352].zip
-developer: GAZELLE
-publisher: BANPRESTO
-genre: LUTA, LUTA / 2.5D, BRIGA DE RUA
+developer: Gazelle
+publisher: Banpresto
+genre: Luta, Luta / 2.5D, Briga de rua
 favorite: false
 description: 
-	O JOGO É UM JOGO "BEAT-'EM-UP" DE ROLAGEM LATERAL, UM OU DOIS JOGADORES ESCOLHEM O SENSHI DESEJADO E VIAJAM POR VÁRIOS ESTÁGIOS DERROTANDO INIMIGOS. OS ITENS ÀS VEZES SÃO DERRUBADOS POR INIMIGOS QUE PODEM VARIAR DE ITENS QUE RESTAURAM A SAÚDE, DÃO PONTOS EXTRAS OU CRISTAIS QUE PERMITEM QUE O SENSHI REALIZE ATAQUES ESPECIAIS. ATÉ CINCO CRISTAIS PODEM SER COLETADOS POR JOGADOR PARA FORTALECER OS ATAQUES ESPECIAIS DO SENSHI. DURANTE OS MOMENTOS MAIS DIFÍCEIS DA BATALHA, TUXEDO MASK APARECERÁ E JOGARÁ UMA ROSA, QUE É UM BÔNUS PARA PEGAR E PARTIR.
+	O jogo é um jogo "beat-'em-up" de rolagem lateral, um ou dois jogadores escolhem o Senshi desejado e viajam por vários estágios derrotando inimigos. Os itens às vezes são derrubados por inimigos que podem variar de itens que restauram a saúde, dão pontos extras ou cristais que permitem que o Senshi realize ataques especiais. Até cinco cristais podem ser coletados por jogador para fortalecer os ataques especiais do Senshi. Durante os momentos mais difíceis da batalha, Tuxedo Mask aparecerá e jogará uma rosa, que é um bônus para pegar e partir.
 release: 1995-03-22
 players: 1-2
 x-id: 37352
@@ -580,15 +576,15 @@ assets.bezel: ./media/image/Sailormn-D77FDF8A0320.png
 rating: 0.80
 
 collection: fbneo
-game: SAMSHO [37629]
+game: Samsho [37629]
 file: ./Samsho [37629].zip
 developer: SNK
 publisher: SNK
-genre: LUTA / VERSUS, LUTA
+genre: Luta / Versus, Luta
 favorite: false
 description: 
-	NO INÍCIO DO JAPÃO, UM HOMEM CHAMADO SHIRO TOKISADA AMAKUSA PREGA UMA RELIGIÃO HERÉTICA. POUCO SABE ALGUÉM QUE AMAKUSA É REALMENTE UM SERVO DO MAL AMBROSIA, QUE ASSUMIU O CORPO DE AMAKUSA. AMBROSIA DESEJA ENCOBRIR O MUNDO NA ESCURIDÃO.
-AGORA, ESCOLHA ENTRE 12 GUERREIROS (E 3 PERSONAGENS BÔNUS) PARA LUTAR PELA HONRA DE DESTRUIR AMAKUSA E CUMPRIR UMA MISSÃO.
+	No início do Japão, um homem chamado Shiro Tokisada Amakusa prega uma religião herética. Pouco sabe alguém que Amakusa é realmente um servo do mal Ambrosia, que assumiu o corpo de Amakusa. Ambrosia deseja encobrir o mundo na escuridão.
+Agora, escolha entre 12 guerreiros (e 3 personagens bônus) para lutar pela honra de destruir Amakusa e cumprir uma missão.
 release: 1993-08-11
 players: 1-2
 x-id: 37629
@@ -606,15 +602,15 @@ assets.bezel: ./media/image/Samsho-DC8A3838BFFB.png
 rating: 0.60
 
 collection: fbneo
-game: SAMURAI SHODOWN [37629]
+game: Samurai Shodown [37629]
 file: ./Samurai Shodown [37629].zip
 developer: SNK
 publisher: SNK
-genre: LUTA / VERSUS, LUTA
+genre: Luta / Versus, Luta
 favorite: false
 description: 
-	NO INÍCIO DO JAPÃO, UM HOMEM CHAMADO SHIRO TOKISADA AMAKUSA PREGA UMA RELIGIÃO HERÉTICA. POUCO SABE ALGUÉM QUE AMAKUSA É REALMENTE UM SERVO DO MAL AMBROSIA, QUE ASSUMIU O CORPO DE AMAKUSA. AMBROSIA DESEJA ENCOBRIR O MUNDO NA ESCURIDÃO.
-AGORA, ESCOLHA ENTRE 12 GUERREIROS (E 3 PERSONAGENS BÔNUS) PARA LUTAR PELA HONRA DE DESTRUIR AMAKUSA E CUMPRIR UMA MISSÃO.
+	No início do Japão, um homem chamado Shiro Tokisada Amakusa prega uma religião herética. Pouco sabe alguém que Amakusa é realmente um servo do mal Ambrosia, que assumiu o corpo de Amakusa. Ambrosia deseja encobrir o mundo na escuridão.
+Agora, escolha entre 12 guerreiros (e 3 personagens bônus) para lutar pela honra de destruir Amakusa e cumprir uma missão.
 release: 1993-08-11
 players: 1-2
 x-id: 37629
@@ -632,15 +628,14 @@ assets.bezel: ./media/image/Samurai Shodown-0864C9454F96.png
 rating: 0.60
 
 collection: fbneo
-game: SCRAMBLE [42929]
+game: Scramble [42929]
 file: ./Scramble [42929].zip
-developer: KONAMI
-publisher: KONAMI
-genre: SHOOT'EM UP / HORIZONTAL, SHOOT'EM UP
+developer: Konami
+publisher: Konami
+genre: Shoot'em Up / Horizontal, Shoot'em Up
 favorite: false
 description: 
-	O SCRAMBLE É UM SHOOT-EM-UP DE ROLAGEM LATERAL, NO QUAL UM ÚNICO JOGADOR ASSUME O CONTROLE DE UMA NAVE ESPACIAL E DEVE TENTAR LUTAR POR SEIS NÍVEIS DIFERENTES CHEIOS DE INIMIGOS - DESTRUINDO O MAIOR NÚMERO POSSÍVEL DE TANQUES DE COMBUSTÍVEL E INTALAÇÕES NO SOLO - ANTES DE CHEGAR À BASE INIMIGA E DESTRUINDO.
-O CONTATO COM QUALQUER CENÁRIO, INSTALAÇÕES TERRESTRES, NAVIOS INIMIGOS OU ESTILOS DE PROJETO RESULTA EM UMA PERDA INSTANTÂNEA DE VIDAS. O NAVIO SCRAMBLE ESTÁ ARMADO COM UM BLASTER E BOMBAS. O PROJÉTIL ESTÁ DISPARANDO PARA A FRENTE APENAS ENQUANTO AS BOMBAS CAEM PARA ATINGIR INSTALAÇÕES INIMIGAS TERRESTRES E COLETAR COMBUSTÍVEL DE LIXÕES.
+	O Scramble é um shoot-em-up de rolagem lateral, no qual um único jogador assume o controle de uma nave espacial e deve tentar lutar por seis níveis diferentes cheios de inimigos - destruindo o maior número possível de tanques de combustível e intalações no solo - antes de chegar à base inimiga e destruindo.		O contato com qualquer cenário, instalações terrestres, navios inimigos ou estilos de projeto resulta em uma perda instantânea de vidas. O navio Scramble está armado com um blaster e bombas. O projétil está disparando para a frente apenas enquanto as bombas caem para atingir instalações inimigas terrestres e coletar combustível de lixões.
 release: 1981-01-01
 players: 1-2
 x-id: 42929
@@ -658,14 +653,14 @@ assets.bezel: ./media/image/Scramble-13580AFCFC9B.png
 rating: 0.80
 
 collection: fbneo
-game: SONICWI2 [37641]
+game: Sonicwi2 [37641]
 file: ./Sonicwi2 [37641].zip
-developer: VIDEO SYSTEM
+developer: Video System
 publisher: SNK
-genre: SHOOT'EM UP, SHOOT'EM UP / VERTICAL
+genre: Shoot'em Up, Shoot'em Up / Vertical
 favorite: false
 description: 
-	AERO FIGHTERS 2 É UM SHOOTER DE ROLAGEM VERTICAL NA MESMA LINHA DE 1942 E JOGOS SIMILARES. SUPORTA ATÉ DOIS JOGADORES E TEM 8 AERONAVES DIFERENTES PARA ESCOLHER, CADA UMA EQUIPADA COM ARMAS PRIMÁRIAS E SECUNDÁRIAS EXCLUSIVAS. OS POWER-UPS MELHORAM O VISUAL, A POTÊNCIA, O TAMANHO E A FORMA DOS DISPAROS. BOMBAS ATIVAM UM PODER ESPECIAL QUE GERALMENTE APAGA OS INIMIGOS NA TELA. O JOGO TEM UM TOTAL DE 10 ETAPAS (JAPÃO, BRASIL, ATLÂNTICO, EUA, FRANÇA, AUSTRÁLIA, HIMALAIA, MÉXICO, HAVAÍ E ESPAÇO), TODAS COM UMA BATALHA FINAL CONTRA CHEFÕES.
+	Aero Fighters 2 é um shooter de rolagem vertical na mesma linha de 1942 e jogos similares. Suporta até dois jogadores e tem 8 aeronaves diferentes para escolher, cada uma equipada com armas primárias e secundárias exclusivas. Os power-ups melhoram o visual, a potência, o tamanho e a forma dos disparos. Bombas ativam um poder especial que geralmente apaga os inimigos na tela. O jogo tem um total de 10 etapas (Japão, Brasil, Atlântico, EUA, França, Austrália, Himalaia, México, Havaí e Espaço), todas com uma batalha final contra chefões.
 release: 1994-08-26
 players: 1-2
 x-id: 37641
@@ -683,37 +678,11 @@ assets.bezel: ./media/image/Sonicwi2-5937938A3358.png
 rating: 0.60
 
 collection: fbneo
-game: THUNDERJ [43605]
-file: ./Thunderj [43605].zip
-developer: ATARI
-publisher: ATARI
-genre: TIRO, TIRO / HORIZONTAL
-favorite: false
-description: 
-	VOCÊ JOGA COMO UM AGENTE SECRETO, MEMBRO DA UNIDADE DE FORÇAS ESPECIAIS SUBAQUÁTICAS, SELECIONADO PARA SE INFILTRAR NA SEDE SECRETA DE MADAME Q E IMPEDIR SEUS PLANOS MALIGNOS ANTES QUE ELA DESTRUA O MUNDO. 
-NOS NÍVEIS VOCÊ DEVE ENFRENTAR UMA VARIEDADE DE INIMIGOS, COMO TUBARÕES MECÂNICOS, MUTANTES, MERGULHADORES INIMIGOS E TORRES DE TIRO SUBAQUÁTICAS. OUTRAS CENAS INCLUEM LOCAIS DE PLATAFORMA DE ROLAGEM LATERAL, VOCÊ DEVE SALVAR OS REFÉNS ENQUANTO ENCONTRA ARMAS, POWER-UPS E SAÚDE AO LONGO DO CAMINHO PARA MAIS TARDE ENFRENTAR CHEFES DO MAL NO FINAL DE CADA NÍVEL.
-release: 1990-01-01
-players: 1-2
-x-id: 43605
-assets.boxFront: 
-assets.boxBack: 
-assets.cartridge: 
-assets.marquee: ./media/image/Thunderj-F6AB4DFA3309.png
-assets.screenshot: ./media/screenshots/Thunderj-426E82D7C8F4.png
-assets.video: ./media/videos/Thunderj-8E8DF150C95A.mp4
-assets.logo: ./media/image/Thunderj-F6AB4DFA3309.png
-assets.background: ./media/fanart/Thunderj-C1D68A88E216.jpg
-assets.music: 
-assets.titlescreen: ./media/image/Thunderj-CAC7537775A0.png
-assets.bezel: ./media/image/Thunderj-2B79FE113FD8.png
-rating: 0.60
-
-collection: fbneo
-game: 005
+game: 005 [39869]
 file: ./005 [39869].zip
 developer: SEGA
 publisher: SEGA
-genre: AÇÃO, AÇÃO / LABIRINTO
+genre: Ação, Ação / Labirinto
 favorite: false
 description: 
 	NESTE JOGO DE FURTIVIDADE, O OBJETIVO É ATRAVESSAR UM CENÁRIO QUE LEMBRA UM LABIRINTO, EVITANDO INIMIGOS A FIM DE LEVAR UMA PILHA DE DOCUMENTOS SECRETOS PARA EXTRAÇÃO VIA HELICÓPTERO. O PROTAGONISTA - O AGENTE ESPIÃO 005 - PODE ENTRAR EM ARMAZÉNS E PRÉDIOS NO CAMINHO PARA EVITAR SER VISTO.
@@ -8973,11 +8942,11 @@ assets.bezel: ./media/image/Eagle-436CF62205FB.png
 rating: 0.60
 
 collection: fbneo
-game: Ebases [41081]
+game: EBASES [41081]
 file: ./Ebases [41081].zip
-developer: Midway
-publisher: Dave Nutting Associates
-genre: Esporte, Esporte / Baseball
+developer: MIDWAY
+publisher: DAVE NUTTING ASSOCIATES
+genre: ESPORTE, ESPORTE / BASEBALL
 favorite: false
 description: 
 	
@@ -16172,11 +16141,11 @@ assets.bezel: ./media/image/Mainevt-C2ACFB2BA955.png
 rating: 0.40
 
 collection: fbneo
-game: Majorh [62965]
+game: MAJORH [62965]
 file: ./Majorh [62965].zip
-developer: PAL System
-publisher: PAL System
-genre: Cassino, Cassino / Cartas
+developer: PAL SYSTEM
+publisher: PAL SYSTEM
+genre: CASSINO, CASSINO / CARTAS
 favorite: false
 description: 
 	
@@ -21265,7 +21234,7 @@ assets.bezel: ./media/image/Qbert-DB7E29254F2D.png
 rating: 0.80
 
 collection: fbneo
-game: Qbert's Qubes
+game: QBERT'S QUBES
 file: ./Qbert's Qubes.zip
 developer: 
 publisher: MYLSTAR
@@ -23481,7 +23450,7 @@ assets.bezel: ./media/image/Samurai Shodown III Samurai Spirits - Zankurou Musou
 rating: 0.80
 
 collection: fbneo
-game: Samurai Shodown V Special Samurai Spirits Zero Special
+game: SAMURAI SHODOWN V SPECIAL SAMURAI SPIRITS ZERO SPECIAL
 file: ./Samurai Shodown V Special Samurai Spirits Zero Special.zip
 developer: 
 publisher: YUKI ENTERPRISE / SNK PLAYMORE
@@ -24511,11 +24480,11 @@ assets.bezel: ./media/image/Sfiiin-BF455153DB01.png
 rating: 0.80
 
 collection: fbneo
-game: Sfootbal [43002]
+game: SFOOTBAL [43002]
 file: ./Sfootbal [43002].zip
-developer: Bally Midway
-publisher: Bally Sente
-genre: Esporte, Esporte / Futebol americano
+developer: BALLY MIDWAY
+publisher: BALLY SENTE
+genre: ESPORTE, ESPORTE / FUTEBOL AMERICANO
 favorite: false
 description: 
 	
@@ -28780,6 +28749,31 @@ assets.background: ./media/fanart/Three Wonders-5FF0539C2483.jpg
 assets.music: 
 assets.titlescreen: ./media/image/Three Wonders-99B7821CE81D.png
 assets.bezel: ./media/image/Three Wonders-FB2BFF32AB01.png
+rating: 0.60
+
+collection: fbneo
+game: Thunderj [43605]
+file: ./Thunderj [43605].zip
+developer: Atari
+publisher: Atari
+genre: Tiro, Tiro / Horizontal
+favorite: false
+description: 
+	Você joga como um agente secreto, membro da unidade de forças especiais subaquáticas, selecionado para se infiltrar na sede secreta de Madame Q e impedir seus planos malignos antes que ela destrua o mundo. 		Nos níveis você deve enfrentar uma variedade de inimigos, como tubarões mecânicos, mutantes, mergulhadores inimigos e torres de tiro subaquáticas. Outras cenas incluem locais de plataforma de rolagem lateral, você deve salvar os reféns enquanto encontra armas, power-ups e saúde ao longo do caminho para mais tarde enfrentar chefes do mal no final de cada nível.
+release: 1990-01-01
+players: 1-2
+x-id: 43605
+assets.boxFront: 
+assets.boxBack: 
+assets.cartridge: 
+assets.marquee: ./media/image/Thunderj-F6AB4DFA3309.png
+assets.screenshot: ./media/screenshots/Thunderj-426E82D7C8F4.png
+assets.video: ./media/videos/Thunderj-8E8DF150C95A.mp4
+assets.logo: ./media/image/Thunderj-F6AB4DFA3309.png
+assets.background: ./media/fanart/Thunderj-C1D68A88E216.jpg
+assets.music: 
+assets.titlescreen: ./media/image/Thunderj-CAC7537775A0.png
+assets.bezel: ./media/image/Thunderj-2B79FE113FD8.png
 rating: 0.60
 
 collection: fbneo
