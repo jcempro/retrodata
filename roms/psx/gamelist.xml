@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <gameList>
   <provider>
     <system>psx</system>
@@ -1027,7 +1027,7 @@ A FORÇA ANCESTRAL DO MAL ACORDOU, ATACANDO EM SEGREDO E SE ALIMENTANDO DAS ALMA
     <genre>PLATAFORMA</genre>
     <genreid>257</genreid>
     <players>1</players>
-    <image>./media/image/The Adventures Of Lomax (BR) [19814]-image.png</image>
+    <image>./media/image/The Adventures Of Lomax (Br)-04C83D35C317.png</image>
     <video>./media/videos/The Adventures Of Lomax (Br)-AF52382B2C52.mp4</video>
     <screenshot>./media/screenshots/The Adventures Of Lomax (Br)-44FE31926796.png</screenshot>
     <fanart>./media/fanart/The Adventures Of Lomax (Br)-5B45DAFBE055.jpg</fanart>

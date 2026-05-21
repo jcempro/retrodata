@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <gameList>
   <provider>
     <system>ps2</system>
@@ -6,10 +6,9 @@
     <web>http://jujuvincebros.fr/wiki/arrm/doku.php</web>
   </provider>
   <game id="22531">
-    <path>./Area 51 (USA).chd</path>
+    <path>./Area 51 (USA) [22531].chd</path>
     <name>AREA 51 (USA)</name>
-    <desc>INSPIRADO NO JOGO DE FLIPERAMA DE 1995 DA ATARI GAMES, AREA-51 PARA PLAYSTATION 2 COLOCA OS JOGADORES DENTRO DA MISTERIOSA BASE MILITAR COMO O TENENTE NICK CROSS, UM ESPECIALISTA EM BIOHAZARD ENVIADO PARA INVESTIGAR ACONTECIMENTOS ESTRANHOS. APÓS SER INFECTADO POR UM VÍRUS ALIENÍGENA, CROSS DESENVOLVE NOVAS HABILIDADES, ENQUANTO EXPLORA LIVREMENTE A INSTALAÇÃO SEM SEGUIR UM CAMINHO PRÉ-DETERMINADO.
-ARMADO COM RIFLES POTENTES, GRANADAS E OUTRAS FERRAMENTAS, ELE ENFRENTA ALIENÍGENAS, SOLDADOS E SURPRESAS, ENQUANTO DESVENDA SEGREDOS SOBRE AUTÓPSIAS ALIENÍGENAS, ENCOBRIMENTOS DE POUSOS LUNARES E TECNOLOGIAS AVANÇADAS. AS CRIATURAS DO JOGO FORAM CRIADAS PELO STAN WINSTON STUDIO, RESPONSÁVEL POR EFEITOS DE FILMES COMO ALIENS, PREDATOR E JURASSIC PARK.</desc>
+    <desc>Inspirado NO JOGO DE fliperama DE 1995 DA atari games, area-51 PARA playstation 2 coloca OS jogadores dentro DA misteriosa BASE militar COMO O tenente NICK cross, UM especialista EM biohazard enviado PARA investigar acontecimentos estranhos. Após SER infectado POR UM vírus alienígena, cross desenvolve novas habilidades, enquanto explora livremente A instalação SEM seguir UM caminho pré-determinado. Armado COM rifles potentes, granadas E outras ferramentas, ELE enfrenta alienígenas, soldados E surpresas, enquanto desvenda segredos sobre autópsias alienígenas, encobrimentos DE pousos lunares E tecnologias avançadas. AS criaturas DO JOGO foram criadas PELO STAN winston studio, responsável POR efeitos DE filmes COMO aliens, predator E jurassic park.</desc>
     <rating>0.80</rating>
     <releasedate>20050527T000000</releasedate>
     <developer>MIDWAY</developer>
@@ -19,15 +18,15 @@ ARMADO COM RIFLES POTENTES, GRANADAS E OUTRAS FERRAMENTAS, ELE ENFRENTA ALIENÍG
     <players>1-2</players>
     <region>eu</region>
     <lang>it,es,de,fr,en</lang>
-    <image>./media/image/Area 51 (USA)-image.png</image>
-    <video>./media/videos/Area 51 (USA)-video.mp4</video>
-    <boxart>./media/image/Area 51 (USA)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Area 51 (USA)-screenshot.png</screenshot>
-    <cartridge>./media/image/Area 51 (USA)-cartridge.png</cartridge>
-    <fanart>./media/fanart/Area 51 (USA)-fanart.jpg</fanart>
-    <titleshot>./media/image/Area 51 (USA)-titleshot.png</titleshot>
-    <manual>./media/manuals/Area 51 (USA)_(us).pdf</manual>
-    <boxback>./media/image/Area 51 (USA)-boxback.png</boxback>
+    <image>./media/image/Area 51 (USA)-37212BD1FA63.png</image>
+    <video>./media/videos/Area 51 (USA)-44520C9972DD.mp4</video>
+    <boxart>./media/image/Area 51 (USA)-37212BD1FA63.png</boxart>
+    <screenshot>./media/screenshots/Area 51 (USA)-121276C224C4.png</screenshot>
+    <cartridge>./media/image/Area 51 (USA)-D73464967EA0.png</cartridge>
+    <fanart>./media/fanart/Area 51 (USA)-EF33C250EE9F.jpg</fanart>
+    <titleshot>./media/image/Area 51 (USA)-8904C7E68695.png</titleshot>
+    <manual>./media/manuals/Area 51 (USA)-49BF360E36AC.pdf</manual>
+    <boxback>./media/image/Area 51 (USA)-7C388DB1D3A9.png</boxback>
     <extra1>./media/extras/Area 51 (USA)-extra1.png</extra1>
   </game>
   <game id="22823">
@@ -1134,10 +1133,10 @@ HÁ VÁRIOS TIPOS DE COMBOS E GOLPES ESPECIAIS, ALÉM DE OBJETOS QUE PODEM SER U
     <extra1>./media/extras/Urban Reign [22586]-extra1.png</extra1>
   </game>
   <game id="22453">
-    <path>./Viewtiful Joe (USA).chd</path>
+    <path>./Viewtiful Joe (USA) [22453].chd</path>
     <name>VIEWTIFUL JOE (USA)</name>
     <mode>Jogador individual</mode>
-    <desc>JOE NÃO É UM HOMEM COMUM E VIEWTIFUL JOE NÃO É UM JOGO COMUM. O NOVO JOGO DE AÇÃO DE SUPER-HERÓIS DA CAPCOM MISTURA VISUAIS DESCOLADOS EM ESTILO CARTOON COM JOGABILIDADE CLÁSSICA DE ROLAGEM LATERAL E APRESENTA O HERÓI DE AÇÃO DE UM MILHÃO DE DÓLARES MAIS PECULIAR DO MUNDO. MAIS DO QUE QUALQUER CARA COMUM, JOE DEVE SE TRANSFORMAR NO SUPER-HERÓI DEFINITIVO. CABE A VOCÊ ATIVAR O MODO DE VISUALIZAÇÃO CORRETO, COMO "LENTO" OU "AUMENTAR O ZOOM", PARA DERROTAR SEUS INIMIGOS COM UM ESTILO BONITO. VOCÊ TAMBÉM PODE ACELERAR OU DESACELERAR SEUS EFEITOS VISUAIS PARA MOVIMENTOS AINDA MAIS “VISTIVOS”. VIEWTIFUL JOE MISTURA UM PONTO DE VISTA INOVADOR COM UM INCRÍVEL UNIVERSO DE FILMES DE AÇÃO CHEIO DE ACROBACIAS.</desc>
+    <desc>JOE não é UM homem comum E viewtiful JOE não é UM JOGO comum. O NOVO JOGO DE ação DE super-heróis DA capcom mistura visuais descolados EM estilo cartoon COM jogabilidade clássica DE rolagem lateral E apresenta O herói DE ação DE UM milhão DE dólares MAIS peculiar DO mundo. MAIS DO QUE qualquer CARA comum, JOE DEVE SE transformar NO super-herói definitivo. CABE A você ativar O MODO DE visualização correto, COMO "lento" OU "aumentar O zoom", PARA derrotar SEUS inimigos COM UM estilo bonito. Você também PODE acelerar OU desacelerar SEUS efeitos visuais PARA movimentos ainda MAIS “vistivos”. Viewtiful JOE mistura UM ponto DE vista inovador COM UM incrível universo DE filmes DE ação cheio DE acrobacias.</desc>
     <rating>0.80</rating>
     <releasedate>20041001T000000</releasedate>
     <developer>CLOVER</developer>
@@ -1147,15 +1146,15 @@ HÁ VÁRIOS TIPOS DE COMBOS E GOLPES ESPECIAIS, ALÉM DE OBJETOS QUE PODEM SER U
     <players>1</players>
     <region>eu,us</region>
     <lang>it,es,de,fr,en</lang>
-    <image>./media/image/Viewtiful Joe (USA)-image.png</image>
-    <video>./media/videos/Viewtiful Joe (USA)-video.mp4</video>
-    <boxart>./media/image/Viewtiful Joe (USA)-boxart.png</boxart>
-    <screenshot>./media/screenshots/Viewtiful Joe (USA)-screenshot.png</screenshot>
-    <cartridge>./media/image/Viewtiful Joe (USA)-cartridge.png</cartridge>
-    <fanart>./media/fanart/Viewtiful Joe (USA)-fanart.jpg</fanart>
-    <titleshot>./media/image/Viewtiful Joe (USA)-titleshot.png</titleshot>
-    <manual>./media/manuals/Viewtiful Joe (USA)_(eu).pdf</manual>
-    <boxback>./media/image/Viewtiful Joe (USA)-boxback.png</boxback>
+    <image>./media/image/Viewtiful Joe (USA)-5D69F3949DA0.png</image>
+    <video>./media/videos/Viewtiful Joe (USA)-E8F35D68B154.mp4</video>
+    <boxart>./media/image/Viewtiful Joe (USA)-5D69F3949DA0.png</boxart>
+    <screenshot>./media/screenshots/Viewtiful Joe (USA)-68D12DD3A8FD.png</screenshot>
+    <cartridge>./media/image/Viewtiful Joe (USA)-7A57FDE145A4.png</cartridge>
+    <fanart>./media/fanart/Viewtiful Joe (USA)-986ED647AB49.jpg</fanart>
+    <titleshot>./media/image/Viewtiful Joe (USA)-6616FA433AB9.png</titleshot>
+    <manual>./media/manuals/Viewtiful Joe (USA)-3579897BB334.pdf</manual>
+    <boxback>./media/image/Viewtiful Joe (USA)-09CF5AA52418.png</boxback>
     <extra1>./media/extras/Viewtiful Joe (USA)-extra1.png</extra1>
   </game>
   <game id="22598">
