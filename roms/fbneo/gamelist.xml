@@ -5,31 +5,6 @@
     <software>ARRM</software>
     <web>http://jujuvincebros.fr/wiki/arrm/doku.php</web>
   </provider>
-  <game id="37641">
-    <path>./Sonicwi2.zip</path>
-    <name>SONICWI2</name>
-    <mode>Jogador individual</mode>
-    <desc>AERO FIGHTERS 2 É UM SHOOTER DE ROLAGEM VERTICAL NA MESMA LINHA DE 1942 E JOGOS SIMILARES. SUPORTA ATÉ DOIS JOGADORES E TEM 8 AERONAVES DIFERENTES PARA ESCOLHER, CADA UMA EQUIPADA COM ARMAS PRIMÁRIAS E SECUNDÁRIAS EXCLUSIVAS. OS POWER-UPS MELHORAM O VISUAL, A POTÊNCIA, O TAMANHO E A FORMA DOS DISPAROS. BOMBAS ATIVAM UM PODER ESPECIAL QUE GERALMENTE APAGA OS INIMIGOS NA TELA. O JOGO TEM UM TOTAL DE 10 ETAPAS (JAPÃO, BRASIL, ATLÂNTICO, EUA, FRANÇA, AUSTRÁLIA, HIMALAIA, MÉXICO, HAVAÍ E ESPAÇO), TODAS COM UMA BATALHA FINAL CONTRA CHEFÕES.</desc>
-    <rating>0.60</rating>
-    <releasedate>19940826T000000</releasedate>
-    <developer>VIDEO SYSTEM</developer>
-    <publisher>SNK</publisher>
-    <genre>SHOOT'EM UP, SHOOT'EM UP / VERTICAL</genre>
-    <genreid>260</genreid>
-    <players>1-2</players>
-    <md5>f5342eacdab0372277b0c0a53bcbe111</md5>
-    <hash>7594C2F0</hash>
-    <region>wor</region>
-    <lang>en</lang>
-    <arcadesystemname>snk</arcadesystemname>
-    <video>./media/videos/Sonicwi2-A2591862DFB7.mp4</video>
-    <screenshot>./media/screenshots/Sonicwi2-AC9EFBC8FD54.png</screenshot>
-    <fanart>./media/fanart/Sonicwi2-5CD9642901B1.jpg</fanart>
-    <titleshot>./media/image/Sonicwi2-0A1E550BB6C0.png</titleshot>
-    <manual>./media/manuals/Sonicwi2-1D12B5C4F722.pdf</manual>
-    <extra1>./media/extras/Sonicwi2-extra1.jpg</extra1>
-    <bezel>./media/image/Sonicwi2-5937938A3358.png</bezel>
-  </game>
   <game id="39869">
     <path>./005 [39869].zip</path>
     <name>005 [39869]</name>
@@ -4120,6 +4095,7 @@ BOOT HILL É BASEADO EM TEMPO E NÃO EM VIDA, COM O PADRÃO DE FÁBRICA DEFINIDO
     <image>./media/image/Bsktball [40376]-image.png</image>
     <video>./media/videos/Bsktball-E8C2CB820FC1.mp4</video>
     <screenshot>./media/screenshots/Bsktball-F9E27429E8F2.png</screenshot>
+    <mix>./media/image/Bsktball [40376]-image.png</mix>
     <fanart>./media/fanart/Bsktball-F66853E6D1EF.jpg</fanart>
     <titleshot>./media/image/Bsktball-399DC28D3631.png</titleshot>
     <manual>./media/manuals/Bsktball-7533E8D77F19.pdf</manual>
@@ -4143,6 +4119,7 @@ BOOT HILL É BASEADO EM TEMPO E NÃO EM VIDA, COM O PADRÃO DE FÁBRICA DEFINIDO
     <image>./media/image/Bssoccer [40378]-image.png</image>
     <video>./media/videos/Bssoccer-8B74188DB6FE.mp4</video>
     <screenshot>./media/screenshots/Bssoccer-A6BC618A0724.png</screenshot>
+    <mix>./media/image/Bssoccer [40378]-image.png</mix>
     <fanart>./media/fanart/Bssoccer-50CBAB1BC932.jpg</fanart>
     <titleshot>./media/image/Bssoccer-EDA4A647CEA6.png</titleshot>
     <extra1>./media/extras/Bssoccer [40378]-extra1.png</extra1>
@@ -4452,6 +4429,7 @@ Clone Of : bubbles -&gt; Bubbles (Solid Red label)</temporary>
     <image>./media/image/Bwidow [46387]-image.png</image>
     <video>./media/videos/Bwidow-7A7DC268FD41.mp4</video>
     <screenshot>./media/screenshots/Bwidow-FD372261B422.png</screenshot>
+    <mix>./media/image/Bwidow [46387]-image.png</mix>
     <fanart>./media/fanart/Bwidow-E2162E5606AE.jpg</fanart>
     <manual>./media/manuals/Bwidow-C9F820742CF6.pdf</manual>
     <extra1>./media/extras/Bwidow [46387]-extra1.png</extra1>
@@ -4572,6 +4550,7 @@ Clone Of : bubbles -&gt; Bubbles (Solid Red label)</temporary>
     <image>./media/image/Cairblad [40430]-image.png</image>
     <video>./media/videos/Cairblad-12FFAF03A17C.mp4</video>
     <screenshot>./media/screenshots/Cairblad-B87B0561EBBE.png</screenshot>
+    <mix>./media/image/Cairblad [40430]-image.png</mix>
     <fanart>./media/fanart/Cairblad-E2EB8FD7888A.jpg</fanart>
     <titleshot>./media/image/Cairblad-9F1B0AA3CF22.png</titleshot>
     <extra1>./media/extras/Cairblad [40430]-extra1.png</extra1>
@@ -5259,6 +5238,7 @@ OS BÔNUS PODEM SER COLETADOS PARA AUMENTAR O PODER DE FOGO, E OS BARRIS PODEM S
     <image>./media/image/Charlien [40523]-image.png</image>
     <video>./media/videos/Charlien-89E47F0C605E.mp4</video>
     <screenshot>./media/screenshots/Charlien-DECE37C3A3B8.png</screenshot>
+    <mix>./media/image/Charlien [40523]-image.png</mix>
     <fanart>./media/fanart/Charlien-81B77BD09E15.jpg</fanart>
     <titleshot>./media/image/Charlien-F609D1822207.png</titleshot>
     <manual>./media/manuals/Charlien-29D93353C9CF.pdf</manual>
@@ -5925,6 +5905,7 @@ JOE E MAC DEVEM LUTAR POR VÁRIOS ESTÁGIOS PRÉ-HISTÓRICOS, COMBATENDO HOMENS 
     <image>./media/image/Cninja [40607]-image.png</image>
     <video>./media/videos/Cninja-4D9766D5B2D7.mp4</video>
     <screenshot>./media/screenshots/Cninja-974D43132DCC.png</screenshot>
+    <mix>./media/image/Cninja [40607]-image.png</mix>
     <fanart>./media/fanart/Cninja-DECA7C9AA604.jpg</fanart>
     <titleshot>./media/image/Cninja-0C66CAC49508.png</titleshot>
     <manual>./media/manuals/Cninja-1B02027229C5.pdf</manual>
@@ -6524,6 +6505,7 @@ Clone Of : congo -&gt; Tip Top</temporary>
     <image>./media/image/Cottonbm [37534]-image.png</image>
     <video>./media/videos/Cottonbm-19AD0A94C536.mp4</video>
     <screenshot>./media/screenshots/Cottonbm-A42EFFB46224.png</screenshot>
+    <mix>./media/image/Cottonbm [37534]-image.png</mix>
     <fanart>./media/fanart/Cottonbm-342E6794FEE6.jpg</fanart>
     <titleshot>./media/image/Cottonbm-8BC123388397.png</titleshot>
     <extra1>./media/extras/Cottonbm [37534]-extra1.png</extra1>
@@ -9396,6 +9378,7 @@ Clone Of : scregg -&gt; Eggs</temporary>
     <image>./media/image/Elim2 [149789]-image.png</image>
     <video>./media/videos/Elim2-B5BA779DF11D.mp4</video>
     <screenshot>./media/screenshots/Elim2-1F00068A7468.png</screenshot>
+    <mix>./media/image/Elim2 [149789]-image.png</mix>
     <fanart>./media/fanart/Elim2-CCB34110849C.jpg</fanart>
     <titleshot>./media/image/Elim2-7E26C8791ED0.png</titleshot>
     <manual>./media/manuals/Elim2-50D3EB3BC77F.pdf</manual>
@@ -9448,6 +9431,7 @@ O OBJETIVO DO JOGO É ENTRAR EM TODAS AS PORTAS VERMELHAS DE CADA FASE E DEPOIS 
     <image>./media/image/Elvactr [41103]-image.png</image>
     <video>./media/videos/Elvactr-87D025825D0B.mp4</video>
     <screenshot>./media/screenshots/Elvactr-25541278603D.png</screenshot>
+    <mix>./media/image/Elvactr [41103]-image.png</mix>
     <fanart>./media/fanart/Elvactr-8F1072A367B6.jpg</fanart>
     <titleshot>./media/image/Elvactr-77148B460E8B.png</titleshot>
     <extra1>./media/extras/Elvactr [41103]-extra1.png</extra1>
@@ -11284,6 +11268,7 @@ GAIA CRUSADERS É FORTEMENTE INFLUENCIADO POR OUTRO BEAT-EM-UP DE ROLAGEM, O CL�
     <image>./media/image/Gaia [37336]-image.png</image>
     <video>./media/videos/Gaia-AFEF43FA7785.mp4</video>
     <screenshot>./media/screenshots/Gaia-2210F5C79842.png</screenshot>
+    <mix>./media/image/Gaia [37336]-image.png</mix>
     <fanart>./media/fanart/Gaia-575B36E6FC2E.jpg</fanart>
     <titleshot>./media/image/Gaia-8F757905C504.png</titleshot>
     <extra1>./media/extras/Gaia [37336]-extra1.png</extra1>
@@ -12885,6 +12870,7 @@ Clone Of : nemesis -&gt; Gradius (Japan, ROM version)</temporary>
     <arcadesystemname>atari</arcadesystemname>
     <image>./media/image/Gravitar [46391]-image.png</image>
     <video>./media/videos/Gravitar-FFF628C2B52E.mp4</video>
+    <mix>./media/image/Gravitar [46391]-image.png</mix>
     <fanart>./media/fanart/Gravitar-CC2516AA3F35.jpg</fanart>
     <manual>./media/manuals/Gravitar-7F47CCD5A7DE.pdf</manual>
     <extra1>./media/extras/Gravitar [46391]-extra1.png</extra1>
@@ -12907,6 +12893,7 @@ Clone Of : nemesis -&gt; Gradius (Japan, ROM version)</temporary>
     <image>./media/image/Grdians [150682]-image.png</image>
     <video>./media/videos/Grdians-4060A88E431E.mp4</video>
     <screenshot>./media/screenshots/Grdians-9E8B51921810.png</screenshot>
+    <mix>./media/image/Grdians [150682]-image.png</mix>
     <titleshot>./media/image/Grdians-A5E93DB7CA66.png</titleshot>
     <extra1>./media/extras/Grdians [150682]-extra1.png</extra1>
     <bezel>./media/image/Grdians-AA6D0A2A042D.png</bezel>
@@ -13985,6 +13972,7 @@ Clone Of : hharry -&gt; Hammerin' Harry (US, M84 hardware)</temporary>
     <image>./media/image/Hsf2 [149430]-image.png</image>
     <video>./media/videos/Hsf2-EAFAFDD08EFB.mp4</video>
     <screenshot>./media/screenshots/Hsf2-E35F63B01363.png</screenshot>
+    <mix>./media/image/Hsf2 [149430]-image.png</mix>
     <fanart>./media/fanart/Hsf2-90279EFC60D6.jpg</fanart>
     <titleshot>./media/image/Hsf2-DD0E4488FDA2.png</titleshot>
     <extra1>./media/extras/Hsf2 [149430]-extra1.png</extra1>
@@ -16004,6 +15992,7 @@ Clone Of : kof98 -&gt; The King of Fighters '98 - The Slugfest / King of Fighter
     <image>./media/image/Kotm2 [37598]-image.png</image>
     <video>./media/videos/Kotm2-6613FD6B5CC1.mp4</video>
     <screenshot>./media/screenshots/Kotm2-12A6ECBCA11D.png</screenshot>
+    <mix>./media/image/Kotm2 [37598]-image.png</mix>
     <fanart>./media/fanart/Kotm2-FA8D1855E281.jpg</fanart>
     <titleshot>./media/image/Kotm2-8A3CE2533526.png</titleshot>
     <extra1>./media/extras/Kotm2 [37598]-extra1.png</extra1>
@@ -17913,6 +17902,7 @@ Clone Of : starforc -&gt; Mega Force (World)</temporary>
     <marquee>./media/image/Megaforc-39737EFBAF14.png</marquee>
     <wheel>./media/image/Megaforc-39737EFBAF14.png</wheel>
     <screenshot>./media/screenshots/Megaforc-896BA4F44654.png</screenshot>
+    <mix>./media/image/Megaforc [43349]-image.png</mix>
     <fanart>./media/fanart/Megaforc-73FAD6A92F06.jpg</fanart>
     <titleshot>./media/image/Megaforc-6469267BDC65.png</titleshot>
     <manual>./media/manuals/Megaforc-292240FAA507.pdf</manual>
@@ -22424,6 +22414,7 @@ Clone Of : popeye -&gt; Popeye (bootleg)</temporary>
     <image>./media/image/Punisher [37375]-image.png</image>
     <video>./media/videos/Punisher-8D9B01032893.mp4</video>
     <screenshot>./media/screenshots/Punisher-2BC2B62593DF.png</screenshot>
+    <mix>./media/image/Punisher [37375]-image.png</mix>
     <fanart>./media/fanart/Punisher-2D9B1E6CB43F.jpg</fanart>
     <titleshot>./media/image/Punisher-91E9ED63F036.png</titleshot>
     <manual>./media/manuals/Punisher-AFE96E787A3E.pdf</manual>
@@ -22494,6 +22485,7 @@ Clone Of : popeye -&gt; Popeye (bootleg)</temporary>
     <image>./media/image/Puzz Loop 2.Cps2 [37405]-image.png</image>
     <video>./media/videos/Puzz Loop 2.Cps2-3A720BD5C15F.mp4</video>
     <screenshot>./media/screenshots/Puzz Loop 2.Cps2-441209255AB2.png</screenshot>
+    <mix>./media/image/Puzz Loop 2.Cps2 [37405]-image.png</mix>
     <fanart>./media/fanart/Puzz Loop 2.Cps2-1224DD45FE91.jpg</fanart>
     <titleshot>./media/image/Puzz Loop 2.Cps2-79DBECE28F3A.png</titleshot>
     <extra1>./media/extras/Puzz Loop 2.Cps2 [37405]-extra1.png</extra1>
@@ -23349,6 +23341,7 @@ A PONTUAÇÃO TAMBÉM INCLUI UM POUCO MAIS PARA A ÉPOCA (SIM, AGORA JÁ VIROU C
     <image>./media/image/Rastan [42699]-image.png</image>
     <video>./media/videos/Rastan-8C88FE4527C7.mp4</video>
     <screenshot>./media/screenshots/Rastan-C0E684099665.png</screenshot>
+    <mix>./media/image/Rastan [42699]-image.png</mix>
     <fanart>./media/fanart/Rastan-C1859C60696A.jpg</fanart>
     <titleshot>./media/image/Rastan-F5916E77D45E.png</titleshot>
     <manual>./media/manuals/Rastan-E50DECE5382A.pdf</manual>
@@ -23911,6 +23904,7 @@ A TRILHA SONORA CONSISTE EM MÚSICA RAVE E TECHNO EM RITMO ACELERADO, AFASTANDO-
     <image>./media/image/Rfjet [42757]-image.png</image>
     <video>./media/videos/Rfjet-40DC72E64483.mp4</video>
     <screenshot>./media/screenshots/Rfjet-5326DCD60527.png</screenshot>
+    <mix>./media/image/Rfjet [42757]-image.png</mix>
     <fanart>./media/fanart/Rfjet-32D8F2986C30.jpg</fanart>
     <titleshot>./media/image/Rfjet-E06D5776D2B3.png</titleshot>
     <manual>./media/manuals/Rfjet-9A4EF93AC971.pdf</manual>
@@ -24095,6 +24089,7 @@ ROAD BLASTERS É UM JOGO DE DIREÇÃO FUTURISTA NO QUAL O JOGADOR DEVE ATIRAR EM
     <image>./media/image/Roadblst [42781]-image.png</image>
     <video>./media/videos/Roadblst-F2A79ECBC755.mp4</video>
     <screenshot>./media/screenshots/Roadblst-21AC922775B3.png</screenshot>
+    <mix>./media/image/Roadblst [42781]-image.png</mix>
     <fanart>./media/fanart/Roadblst-EBF4661AC650.jpg</fanart>
     <titleshot>./media/image/Roadblst-A16E0A90E3F8.png</titleshot>
     <manual>./media/manuals/Roadblst-11B163780AEF.pdf</manual>
@@ -24274,6 +24269,7 @@ A MÚSICA INCIDENTAL DO FILME TOCA DURANTE TODO O JOGO E A FALA DO ROBOCOP É AM
     <image>./media/image/Robocop [42791]-image.png</image>
     <video>./media/videos/Robocop-8E5D2833BE96.mp4</video>
     <screenshot>./media/screenshots/Robocop-FB88E1F82D30.png</screenshot>
+    <mix>./media/image/Robocop [42791]-image.png</mix>
     <fanart>./media/fanart/Robocop-CFB6B1E39666.jpg</fanart>
     <titleshot>./media/image/Robocop-A894076B4A29.png</titleshot>
     <manual>./media/manuals/Robocop-071F963340B4.pdf</manual>
@@ -24714,6 +24710,7 @@ OS NÍVEIS DE R?TYPE SÃO PROJETADOS PARA FAZER USO TOTAL DE SEU SISTEMA DE ARMA
     <image>./media/image/Rtype [42841]-image.png</image>
     <video>./media/videos/Rtype-A649AFEA5319.mp4</video>
     <screenshot>./media/screenshots/Rtype-B3F2B3DE96BE.png</screenshot>
+    <mix>./media/image/Rtype [42841]-image.png</mix>
     <fanart>./media/fanart/Rtype-C943A6BEDF29.jpg</fanart>
     <titleshot>./media/image/Rtype-D651C5CF90F2.png</titleshot>
     <manual>./media/manuals/Rtype-5A772BE99C66.pdf</manual>
@@ -25073,6 +25070,7 @@ Clone Of : rygar -&gt; Argus no Senshi (Japan)</temporary>
     <image>./media/image/Sailormn [37352]-image.png</image>
     <video>./media/videos/Sailormn-4D27B3CB98B5.mp4</video>
     <screenshot>./media/screenshots/Sailormn-8A17A9CFB568.png</screenshot>
+    <mix>./media/image/Sailormn [37352]-image.png</mix>
     <fanart>./media/fanart/Sailormn-0D6CAC13FE2F.jpg</fanart>
     <titleshot>./media/image/Sailormn-E924AD6626A6.png</titleshot>
     <extra1>./media/extras/Sailormn [37352]-extra1.png</extra1>
@@ -25158,6 +25156,7 @@ AGORA, ESCOLHA ENTRE 12 GUERREIROS (E 3 PERSONAGENS BÔNUS) PARA LUTAR PELA HONR
     <image>./media/image/Samsho [37629]-image.png</image>
     <video>./media/videos/Samsho-45B4D0841540.mp4</video>
     <screenshot>./media/screenshots/Samsho-8626525F6778.png</screenshot>
+    <mix>./media/image/Samsho [37629]-image.png</mix>
     <fanart>./media/fanart/Samsho-9FD8E4AD9316.jpg</fanart>
     <titleshot>./media/image/Samsho-D914E6F18E21.png</titleshot>
     <manual>./media/manuals/Samsho-3D9D049EFED7.pdf</manual>
@@ -25213,6 +25212,7 @@ AGORA, ESCOLHA ENTRE 12 GUERREIROS (E 3 PERSONAGENS BÔNUS) PARA LUTAR PELA HONR
     <image>./media/image/Samurai Shodown [37629]-image.png</image>
     <video>./media/videos/Samsho-45B4D0841540.mp4</video>
     <screenshot>./media/screenshots/Samsho-8626525F6778.png</screenshot>
+    <mix>./media/image/Samurai Shodown [37629]-image.png</mix>
     <fanart>./media/fanart/Samsho-9FD8E4AD9316.jpg</fanart>
     <titleshot>./media/image/Samsho-D914E6F18E21.png</titleshot>
     <manual>./media/manuals/Samsho-3D9D049EFED7.pdf</manual>
@@ -25796,6 +25796,7 @@ O CONTATO COM QUALQUER CENÁRIO, INSTALAÇÕES TERRESTRES, NAVIOS INIMIGOS OU ES
     <marquee>./media/image/Scramble-E7B09BBE0702.png</marquee>
     <wheel>./media/image/Scramble-E7B09BBE0702.png</wheel>
     <screenshot>./media/screenshots/Scramble-1DACA2EAAD13.png</screenshot>
+    <mix>./media/image/Scramble [42929]-image.png</mix>
     <fanart>./media/fanart/Scramble-2B84E972A02E.jpg</fanart>
     <titleshot>./media/image/Scramble-6A458CBE7B82.png</titleshot>
     <manual>./media/manuals/Scramble-78016722F4C2.pdf</manual>
@@ -27627,6 +27628,32 @@ Clone Of : soldam -&gt; Soldam (Japan)</temporary>
     <titleshot>./media/image/Sonic-AEE48C42EE6F.png</titleshot>
     <extra1>./media/extras/Sonic -extra1.png</extra1>
     <bezel>./media/image/Sonic-90F0E7739FD8.png</bezel>
+  </game>
+  <game id="37641">
+    <path>./Sonicwi2.zip</path>
+    <name>SONICWI2</name>
+    <mode>Jogador individual</mode>
+    <desc>AERO FIGHTERS 2 É UM SHOOTER DE ROLAGEM VERTICAL NA MESMA LINHA DE 1942 E JOGOS SIMILARES. SUPORTA ATÉ DOIS JOGADORES E TEM 8 AERONAVES DIFERENTES PARA ESCOLHER, CADA UMA EQUIPADA COM ARMAS PRIMÁRIAS E SECUNDÁRIAS EXCLUSIVAS. OS POWER-UPS MELHORAM O VISUAL, A POTÊNCIA, O TAMANHO E A FORMA DOS DISPAROS. BOMBAS ATIVAM UM PODER ESPECIAL QUE GERALMENTE APAGA OS INIMIGOS NA TELA. O JOGO TEM UM TOTAL DE 10 ETAPAS (JAPÃO, BRASIL, ATLÂNTICO, EUA, FRANÇA, AUSTRÁLIA, HIMALAIA, MÉXICO, HAVAÍ E ESPAÇO), TODAS COM UMA BATALHA FINAL CONTRA CHEFÕES.</desc>
+    <rating>0.60</rating>
+    <releasedate>19940826T000000</releasedate>
+    <developer>VIDEO SYSTEM</developer>
+    <publisher>SNK</publisher>
+    <genre>SHOOT'EM UP, SHOOT'EM UP / VERTICAL</genre>
+    <genreid>260</genreid>
+    <players>1-2</players>
+    <md5>f5342eacdab0372277b0c0a53bcbe111</md5>
+    <hash>7594C2F0</hash>
+    <region>wor</region>
+    <lang>en</lang>
+    <arcadesystemname>snk</arcadesystemname>
+    <image>./media/image/Sonicwi2-image.png</image>
+    <video>./media/videos/Sonicwi2-A2591862DFB7.mp4</video>
+    <screenshot>./media/screenshots/Sonicwi2-AC9EFBC8FD54.png</screenshot>
+    <fanart>./media/fanart/Sonicwi2-5CD9642901B1.jpg</fanart>
+    <titleshot>./media/image/Sonicwi2-0A1E550BB6C0.png</titleshot>
+    <manual>./media/manuals/Sonicwi2-1D12B5C4F722.pdf</manual>
+    <extra1>./media/extras/Sonicwi2-extra1.jpg</extra1>
+    <bezel>./media/image/Sonicwi2-5937938A3358.png</bezel>
   </game>
   <game id="43179">
     <path>./Sonson [43179].zip</path>
